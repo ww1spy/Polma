@@ -1,30 +1,62 @@
-"""One-time live-trading onboarding. Run AFTER the env vars are set:
+"""One-time live-trading onboarding check. Run AFTER the env vars are set:
 
     pip install -r requirements-live.txt
-    python3 scripts/setup_live.py
+    python3 scripts/setup_live.py [kalshi|polymarket]
 
-Verifies credentials, runs Polymarket's idempotent trading-approvals setup,
-and prints the account state. Places NO orders.
+Verifies credentials work (and on Polymarket, runs the idempotent
+trading-approvals setup). Places NO orders.
 """
-import asyncio
 import os
 import sys
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-async def main():
+
+def check_kalshi():
+    from polma.http import SESSION
+    from polma.venues.kalshi import auth_headers
+
+    key_id = os.environ.get("KALSHI_API_KEY_ID")
+    pem = os.environ.get("KALSHI_PRIVATE_KEY")
+    pem_path = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
+    if not pem and pem_path:
+        with open(pem_path) as f:
+            pem = f.read()
+    if not (key_id and pem):
+        sys.exit("KALSHI_API_KEY_ID / KALSHI_PRIVATE_KEY not set — see docs/GOING_LIVE.md")
+
+    path = "/trade-api/v2/portfolio/balance"
+    resp = SESSION.get(
+        f"https://api.elections.kalshi.com{path}",
+        headers=auth_headers(key_id, pem, "GET", path),
+        timeout=20,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    print("kalshi authentication OK")
+    print(f"balance: {data}")
+
+
+def check_polymarket():
+    import asyncio
+
     key = os.environ.get("POLYMARKET_PRIVATE_KEY")
     if not key:
-        sys.exit("POLYMARKET_PRIVATE_KEY is not set — see docs/GOING_LIVE.md")
+        sys.exit("POLYMARKET_PRIVATE_KEY not set — see docs/GOING_LIVE.md")
     wallet = os.environ.get("POLYMARKET_WALLET_ADDRESS") or None
 
     from polymarket import AsyncSecureClient
 
-    async with await AsyncSecureClient.create(private_key=key, wallet=wallet) as client:
-        print("authenticated OK")
-        print("running setup_trading_approvals() (idempotent)…")
-        await client.setup_trading_approvals()
-        print("approvals in place — account can trade")
+    async def go():
+        async with await AsyncSecureClient.create(private_key=key, wallet=wallet) as c:
+            print("polymarket authentication OK")
+            print("running setup_trading_approvals() (idempotent)…")
+            await c.setup_trading_approvals()
+            print("approvals in place — account can trade")
+
+    asyncio.run(go())
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    venue = (sys.argv[1] if len(sys.argv) > 1 else "kalshi").lower()
+    check_kalshi() if venue == "kalshi" else check_polymarket()

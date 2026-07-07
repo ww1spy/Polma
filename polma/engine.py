@@ -1,30 +1,51 @@
-"""The trading cycle: settle → mark → exit → scan → enter, under risk guardrails."""
+"""The trading cycle: settle → mark → exit → scan → enter, under risk guardrails.
+
+Venue-agnostic: everything market-specific lives behind polma.venues.
+Select with POLMA_VENUE=polymarket|kalshi (default polymarket) and
+POLMA_MODE=paper|live (default paper).
+"""
 import os
 from datetime import datetime, timezone
 
 import yaml
 
-from . import clob, gamma, journal, portfolio, risk
-from .executor import LiveExecutor, PaperExecutor
+from . import journal, portfolio, risk
+from .executor import KalshiLiveExecutor, PaperExecutor, PolymarketLiveExecutor
+from .venues import get_venue
 
 RULES_PATH = os.path.join(os.path.dirname(__file__), "..", "rules", "rules.yaml")
 
 
-def load_rules():
+def load_rules(venue_name=None):
     with open(RULES_PATH) as f:
-        return yaml.safe_load(f)
+        rules = yaml.safe_load(f)
+    # Venue-specific overrides: venues differ in market scale, fee structure,
+    # and which pockets are profitable (see journal/backtests/).
+    ov = (rules.get("venue_overrides") or {}).get(venue_name) or {}
+    rules["universe"] = {**rules["universe"], **(ov.get("universe") or {})}
+    rules["exits"] = {**rules["exits"], **(ov.get("exits") or {})}
+    strat_ov = ov.get("strategy") or {}
+    rules["strategies"] = [{**s, **strat_ov} for s in rules["strategies"]]
+    return rules
 
 
 def _today():
     return datetime.now(timezone.utc).date().isoformat()
 
 
-def settle_resolved(state, actions):
+def _hours_to_resolution(market, now=None):
+    now = now or datetime.now(timezone.utc)
+    if not market["end_date"]:
+        return None
+    return (market["end_date"] - now).total_seconds() / 3600.0
+
+
+def settle_resolved(state, actions, venue):
     """Settle positions whose market has closed (shares pay $1 or $0)."""
     for mid in list(state["positions"]):
         pos = state["positions"][mid]
         try:
-            market = gamma.fetch_market(mid)
+            market = venue.market(mid)
         except Exception as e:
             actions.append(f"WARN could not refresh market {mid}: {e}")
             continue
@@ -35,8 +56,8 @@ def settle_resolved(state, actions):
         )
         proceeds = round(pos["qty"] * payout_per_share, 2)
         pos_closed, pnl = portfolio.close_position(state, mid, proceeds)
-        rec = journal.log_event(
-            "SETTLE", market_id=mid, question=pos_closed["question"],
+        journal.log_event(
+            "SETTLE", venue=venue.name, market_id=mid, question=pos_closed["question"],
             outcome=pos_closed["outcome"], qty=pos_closed["qty"],
             entry_price=pos_closed["entry_price"], payout=payout_per_share,
             proceeds=proceeds, pnl=round(pnl, 2), strategy=pos_closed["strategy"],
@@ -51,31 +72,34 @@ def settle_resolved(state, actions):
             actions.append(f"POSTMORTEM written: {pm}")
 
 
-def mark_positions(state, actions):
-    """Best-bid marks for every open position (conservative valuation)."""
+def mark_positions(state, actions, venue):
+    """Best bid/ask for every open position (bid = conservative valuation)."""
     marks = {}
     for mid, pos in state["positions"].items():
         try:
-            book = clob.get_book(pos["token_id"])
-            bid = clob.best_bid(book)
-            if bid is not None:
-                marks[mid] = bid
+            book = venue.book(pos["token_id"])
+            marks[mid] = {
+                "bid": book["bids"][0][0] if book["bids"] else None,
+                "ask": book["asks"][0][0] if book["asks"] else None,
+            }
         except Exception as e:
             actions.append(f"WARN no book for {mid}: {e}")
     return marks
 
 
-def apply_exits(state, rules, marks, executor, actions):
+def apply_exits(state, rules, marks, executor, actions, venue):
     exits = rules["exits"]
     for mid in list(state["positions"]):
         pos = state["positions"][mid]
-        bid = marks.get(mid)
-        if bid is None:
-            continue
+        mark = marks.get(mid) or {}
+        bid, ask = mark.get("bid"), mark.get("ask")
         kind = None
-        if bid <= pos["entry_price"] - exits["stop_loss_points"]:
+        # Stop triggers on the ASK: a lone collapsed bid in a thin book is
+        # noise, but a collapsed ask means the market has truly repriced.
+        # (Backtests: bid-triggered stops phantom-fired constantly on Kalshi.)
+        if ask is not None and ask <= pos["entry_price"] - exits["stop_loss_points"]:
             kind = "stop_loss"
-        elif bid >= exits["take_profit_bid"]:
+        elif bid is not None and bid >= exits["take_profit_bid"]:
             kind = "take_profit"
         if kind is None:
             continue
@@ -85,17 +109,18 @@ def apply_exits(state, rules, marks, executor, actions):
             continue
         pos_closed, pnl = portfolio.close_position(state, mid, fill["notional"])
         journal.log_event(
-            "EXIT", exit_kind=kind, market_id=mid, question=pos_closed["question"],
-            outcome=pos_closed["outcome"], qty=fill["qty"],
-            entry_price=pos_closed["entry_price"], exit_price=fill["avg_price"],
-            proceeds=fill["notional"], pnl=round(pnl, 2),
+            "EXIT", venue=venue.name, exit_kind=kind, market_id=mid,
+            question=pos_closed["question"], outcome=pos_closed["outcome"],
+            qty=fill["qty"], entry_price=pos_closed["entry_price"],
+            exit_price=fill["avg_price"], proceeds=fill["notional"],
+            fee=fill.get("fee", 0), pnl=round(pnl, 2),
             strategy=pos_closed["strategy"], rules_version=pos_closed["rules_version"],
         )
         actions.append(f"EXIT ({kind}) {pos_closed['question'][:60]} → ${pnl:+.2f}")
         if pnl < 0:
             pm = journal.write_postmortem(
                 pos_closed, pnl, kind, fill["avg_price"],
-                f"best bid {bid:.3f} vs entry {pos_closed['entry_price']:.3f}",
+                f"bid {bid} / ask {ask} vs entry {pos_closed['entry_price']:.3f}",
             )
             actions.append(f"POSTMORTEM written: {pm}")
         marks.pop(mid, None)
@@ -106,7 +131,7 @@ def in_universe(market, uni):
         return False
     if market["volume_24h"] < uni["min_volume_24h_usd"]:
         return False
-    hours = gamma.hours_to_resolution(market)
+    hours = _hours_to_resolution(market)
     if hours is None or hours < uni["min_hours_to_resolution"]:
         return False
     if hours > uni["max_days_to_resolution"] * 24:
@@ -114,12 +139,20 @@ def in_universe(market, uni):
     q = market["question"].lower()
     if any(kw.lower() in q for kw in uni.get("exclude_question_keywords") or []):
         return False
+    tick = str(market.get("event_ticker") or market["id"])
+    if any(tick.startswith(p) for p in uni.get("exclude_ticker_prefixes") or []):
+        return False
     return True
 
 
-def find_candidates(rules, state, max_markets=300):
+def find_candidates(rules, state, venue, max_markets=300):
     """Scan the universe and return [(market, outcome_idx, strategy_name), ...]."""
-    markets = gamma.fetch_open_markets(max_markets=max_markets)
+    uni = rules["universe"]
+    markets = venue.open_markets(
+        max_markets=max_markets,
+        min_close_hours=uni["min_hours_to_resolution"],
+        max_close_days=uni["max_days_to_resolution"],
+    )
     today = _today()
     candidates = []
     for market in markets:
@@ -144,7 +177,7 @@ def find_candidates(rules, state, max_markets=300):
     return candidates
 
 
-def apply_entries(state, rules, limits, marks, candidates, executor, actions):
+def apply_entries(state, rules, limits, marks, candidates, executor, actions, venue):
     rules_version = rules.get("version", "?")
     entered = 0
     today_loss = journal.today_realized_loss()
@@ -158,8 +191,8 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions):
             blocks.append("insufficient cash")
         if blocks:
             journal.log_event(
-                "BLOCK", market_id=market["id"], question=market["question"],
-                reasons=blocks, rules_version=rules_version,
+                "BLOCK", venue=venue.name, market_id=market["id"],
+                question=market["question"], reasons=blocks, rules_version=rules_version,
             )
             actions.append(f"BLOCK {market['question'][:60]}: {'; '.join(blocks)}")
             break  # risk blocks apply portfolio-wide; no point trying more
@@ -172,9 +205,10 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions):
         fill["rules_version"] = rules_version
         portfolio.open_position(state, market, idx, fill)
         journal.log_event(
-            "ENTER", market_id=market["id"], question=market["question"],
-            outcome=market["outcomes"][idx], strategy=strat_name,
-            qty=fill["qty"], price=fill["avg_price"], notional=fill["notional"],
+            "ENTER", venue=venue.name, market_id=market["id"],
+            question=market["question"], outcome=market["outcomes"][idx],
+            strategy=strat_name, qty=fill["qty"], price=fill["avg_price"],
+            notional=fill["notional"], fee=fill.get("fee", 0),
             liquidity=market["liquidity"], spread=market["spread"],
             end_date=market["end_date"].isoformat() if market["end_date"] else None,
             rules_version=rules_version,
@@ -187,32 +221,44 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions):
     return entered
 
 
+def make_executor(mode, venue):
+    if mode != "live":
+        return PaperExecutor(venue)
+    if venue.name == "kalshi":
+        return KalshiLiveExecutor()
+    return PolymarketLiveExecutor()
+
+
 def run_cycle():
     # Live mode requires BOTH the env switch and credentials — a paper run can
     # never accidentally place a real order.
     mode = os.environ.get("POLMA_MODE", "paper").lower()
-    rules = load_rules()
+    venue = get_venue(os.environ.get("POLMA_VENUE", "polymarket"))
+    rules = load_rules(venue.name)
     limits = risk.load_limits()
-    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode)
-    executor = LiveExecutor() if mode == "live" else PaperExecutor()
-    actions = [f"mode: {mode}"]
+    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode, venue=venue.name)
+    executor = make_executor(mode, venue)
+    actions = [f"venue: {venue.name}, mode: {mode}"]
 
-    settle_resolved(state, actions)
-    marks = mark_positions(state, actions)
-    apply_exits(state, rules, marks, executor, actions)
+    settle_resolved(state, actions, venue)
+    marks = mark_positions(state, actions, venue)
+    apply_exits(state, rules, marks, executor, actions, venue)
 
     eq = portfolio.equity(state, marks)
     drawdown = risk.check_drawdown_halt(limits, state, eq)
     if state["halted"]:
-        journal.log_event("HALT", reason=state["halt_reason"], equity=round(eq, 2))
+        journal.log_event("HALT", venue=venue.name, reason=state["halt_reason"],
+                          equity=round(eq, 2))
         actions.append(f"HALTED: {state['halt_reason']}")
     else:
-        candidates = find_candidates(rules, state)
+        candidates = find_candidates(rules, state, venue)
         actions.append(f"scan: {len(candidates)} candidate(s) passed the rules")
-        apply_entries(state, rules, limits, marks, candidates, executor, actions)
+        apply_entries(state, rules, limits, marks, candidates, executor, actions, venue)
 
     eq = portfolio.equity(state, marks)
     summary = {
+        "venue": venue.name,
+        "mode": mode,
         "equity": round(eq, 2),
         "cash": round(state["cash"], 2),
         "open_positions": len(state["positions"]),

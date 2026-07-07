@@ -1,0 +1,57 @@
+{
+  "cash": 469.84,
+  "cooldowns": {},
+  "created": "2026-07-07T23:30:22+00:00",
+  "halt_reason": "",
+  "halted": false,
+  "mode": "paper",
+  "peak_equity": 500.0,
+  "positions": {
+    "KXHMONTH-26JUN": {
+      "cost": 10.05,
+      "entry_price": 0.94,
+      "market_id": "KXHMONTH-26JUN",
+      "opened": "2026-07-07T23:31:43+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.64,
+      "question": "Will  Jun 2026 be the hottest Jun ever? \u2014 Hottest ever",
+      "rules_version": 3,
+      "slug": "kxhmonth-26jun",
+      "strategy": "favorite_discount",
+      "token_id": "KXHMONTH-26JUN:no"
+    },
+    "KXPLATNERDROPOUT-26": {
+      "cost": 10.05,
+      "entry_price": 0.942,
+      "market_id": "KXPLATNERDROPOUT-26",
+      "opened": "2026-07-07T23:31:43+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.62,
+      "question": "Will Graham Platner drop out of the 2026 United States Senate election in Maine before Jul 14, 2026? \u2014 Before Jul 14, 2026",
+      "rules_version": 3,
+      "slug": "kxplatnerdropout-26",
+      "strategy": "favorite_discount",
+      "token_id": "KXPLATNERDROPOUT-26:yes"
+    },
+    "KXTRUMPUFC-26JUL-DJT": {
+      "cost": 10.06,
+      "entry_price": 0.92,
+      "market_id": "KXTRUMPUFC-26JUL-DJT",
+      "opened": "2026-07-07T23:31:43+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.87,
+      "question": "Will Donald Trump attend UFC 329? \u2014 Yes",
+      "rules_version": 3,
+      "slug": "kxtrumpufc-26jul-djt",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPUFC-26JUL-DJT:no"
+    }
+  },
+  "realized_pnl": 0.0,
+  "starting_bankroll": 500.0,
+  "updated": "2026-07-07T23:38:55+00:00",
+  "venue": "kalshi"
+}

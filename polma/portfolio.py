@@ -6,23 +6,25 @@ from datetime import datetime, timezone
 STATE_DIR = os.path.join(os.path.dirname(__file__), "..", "state")
 
 
-def state_path(mode):
-    name = "portfolio_live.json" if mode == "live" else "portfolio.json"
-    return os.path.join(STATE_DIR, name)
+def state_path(mode, venue="polymarket"):
+    suffix = "" if venue == "polymarket" else f"_{venue}"
+    live = "_live" if mode == "live" else ""
+    return os.path.join(STATE_DIR, f"portfolio{suffix}{live}.json")
 
 
 def _now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def load(starting_bankroll, mode="paper"):
-    path = state_path(mode)
+def load(starting_bankroll, mode="paper", venue="polymarket"):
+    path = state_path(mode, venue)
     if os.path.exists(path):
         with open(path) as f:
             return json.load(f)
     return {
         "created": _now_iso(),
         "mode": mode,
+        "venue": venue,
         "starting_bankroll": starting_bankroll,
         "cash": starting_bankroll,
         "peak_equity": starting_bankroll,
@@ -39,7 +41,8 @@ def load(starting_bankroll, mode="paper"):
 def save(state):
     os.makedirs(STATE_DIR, exist_ok=True)
     state["updated"] = _now_iso()
-    with open(state_path(state.get("mode", "paper")), "w") as f:
+    with open(state_path(state.get("mode", "paper"),
+                         state.get("venue", "polymarket")), "w") as f:
         json.dump(state, f, indent=2, sort_keys=True)
         f.write("\n")
 
@@ -72,12 +75,12 @@ def close_position(state, market_id, proceeds):
 
 
 def equity(state, marks):
-    """Cash plus positions valued at `marks` (market_id -> price per share).
+    """Cash plus positions valued at best bid (marks: market_id -> {bid, ask}).
 
-    Falls back to entry price when no mark is available.
+    Falls back to entry price when no bid is available.
     """
     total = state["cash"]
     for mid, pos in state["positions"].items():
-        mark = marks.get(mid, pos["entry_price"])
-        total += pos["qty"] * mark
+        mark = (marks.get(mid) or {}).get("bid")
+        total += pos["qty"] * (mark if mark is not None else pos["entry_price"])
     return total

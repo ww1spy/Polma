@@ -1,0 +1,25 @@
+{
+  "ts": "2026-07-07T23:32:05+00:00",
+  "venue": "kalshi",
+  "rules_version": 3,
+  "markets_scanned": 10,
+  "summary": {
+    "with_stop_loss": {
+      "trades": 0,
+      "win_rate": null,
+      "total_pnl": 0,
+      "avg_pnl": null,
+      "return_on_stakes": null
+    },
+    "hold_to_settle_no_stop": {
+      "trades": 0,
+      "win_rate": null,
+      "total_pnl": 0,
+      "avg_pnl": null,
+      "return_on_stakes": null
+    },
+    "by_exit_kind": {},
+    "worst_losses": []
+  },
+  "trades": []
+}

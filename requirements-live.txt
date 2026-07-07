@@ -1,2 +1,3 @@
 # Extra dependencies for LIVE trading only (paper mode needs requirements.txt only)
-polymarket-client
+cryptography          # Kalshi API-key request signing
+polymarket-client     # only if trading the Polymarket venue

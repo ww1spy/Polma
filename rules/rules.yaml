@@ -9,18 +9,20 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 2
-updated: "2026-07-07"
+version: 4
+updated: "2026-07-08"
 notes: >
-  v2, rewritten from backtest evidence (journal/backtests/, grid over
-  1000 resolved markets). Findings: (1) thin markets are where all the
-  losses live — high-volume filter flipped the strategy from -7% to +9%
-  ROI; (2) tight stop-losses destroyed value in EVERY configuration
-  (favorites dip on noise and recover), so the stop is now disaster-only
-  and risk control comes from small sizing; (3) the 0.85-0.96 entry band
-  outperformed higher bands. Known residual risk: correlated positions
-  (e.g. several markets on one event) — keep an eye on it manually until
-  a correlation guard is coded.
+  v4: Kalshi strategy calibrated from its own backtests (journal/backtests/,
+  grid over ~300 settled markets, fees modeled). Kalshi findings: (1) golf
+  finish-position props (KXPGA*) lose consistently — excluded; (2) the edge
+  lives in SHORT horizons (2h-3d to resolution: +3.5% ROI, 98% win rate) and
+  disappears at the 12h-10d horizon that works on Polymarket; (3) the 0.90-0.97
+  band beats 0.85-0.96 here; (4) stops must trigger off the ASK, not the bid —
+  Kalshi books thin out and a collapsed bid alone phantom-fired stops in every
+  backtest configuration. Polymarket base rules unchanged from v2 evidence
+  (+2.2% ROI over 600 markets). Known residual risk: correlated positions
+  (several markets on one event) — watch manually until a correlation guard
+  is coded.
 
 # ---- Which markets are even considered ----
 universe:
@@ -29,6 +31,22 @@ universe:
   min_hours_to_resolution: 12     # no in-play sports; live games gap violently
   max_days_to_resolution: 10      # fast capital velocity → more settle events → faster learning
   exclude_question_keywords: []
+
+# Venue-specific overrides (merged over universe/strategy/exits at load).
+# Kalshi runs smaller, charges taker fees, and its profitable pocket is
+# short-horizon — all calibrated from Kalshi's own backtests, not assumed.
+venue_overrides:
+  kalshi:
+    universe:
+      min_liquidity_usd: 10000    # open-interest proxy, ~$1/contract
+      min_volume_24h_usd: 5000    # contracts traded in 24h
+      min_hours_to_resolution: 2
+      max_days_to_resolution: 3   # the edge decays fast with horizon here
+      exclude_ticker_prefixes:
+        - KXPGA                   # golf finish props: consistent loser in backtests
+    strategy:
+      min_price: 0.90             # 0.90-0.97 band beat 0.85-0.96 on Kalshi
+      max_price: 0.97
 
 # ---- Entry strategies ----
 strategies:

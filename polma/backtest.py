@@ -1,16 +1,17 @@
 """Backtest the current rules against recently-resolved markets.
 
-    python3 -m polma.backtest [--markets 400]
+    POLMA_VENUE=kalshi python3 -m polma.backtest [--markets 400]
 
 This is the fast learning loop: instead of waiting days for paper positions
 to resolve, replay the entry/exit rules over historical hourly prices of
 markets that already resolved, and see what the rules WOULD have done.
 
 Honest caveats (read before trusting the numbers):
-- Prices are hourly midpoints; intra-hour spikes are invisible, so real
-  stop-loss behavior is somewhat worse than simulated.
-- Historical spreads/depth are unknown: we charge 0.5c slippage on entries
-  and 1c on stop exits instead, and cannot apply the max_spread rule.
+- Hourly data; intra-hour spikes are invisible, so real stop-loss behavior
+  is somewhat worse than simulated.
+- Polymarket history is a single (mid-ish) price series: we charge 0.5c
+  entry / 1c stop slippage and cannot apply the max_spread rule. Kalshi
+  candles include real bid AND ask closes, and taker fees are modeled.
 - Liquidity/volume filters use the market's final snapshot, not its value
   at entry time.
 Results are directional, for comparing rule variants — not a P&L promise.
@@ -25,12 +26,16 @@ from . import gamma
 from .engine import load_rules
 from .http import get_json
 from .journal import JOURNAL_DIR
+from .venues import get_venue
+from .venues.kalshi import taker_fee
 
 CLOB_URL = "https://clob.polymarket.com"
 ENTRY_SLIPPAGE = 0.005
 STOP_SLIPPAGE = 0.01
 STAKE = 10.0  # fixed per-trade stake so results are comparable
 
+
+# ---------------- Polymarket path ----------------
 
 def fetch_resolved_markets(n):
     """Recently-ended, order-book, binary markets with a clean 0/1 resolution."""
@@ -64,7 +69,7 @@ def fetch_history(token_id):
 
 
 def simulate_market(market, rules):
-    """Replay strategy rules on one resolved market. Returns a trade or None."""
+    """Replay strategy rules on one resolved Polymarket market."""
     strat = next((s for s in rules["strategies"] if s.get("enabled")), None)
     if strat is None:
         return None
@@ -96,7 +101,6 @@ def simulate_market(market, rules):
     payout = round(market["prices"][side])
     exits = rules["exits"]
 
-    # Variant A: rules as written (stop loss / take profit active).
     exit_kind, exit_price = "settle", float(payout)
     for ts, p0 in hist0:
         if ts <= entry_ts:
@@ -118,10 +122,93 @@ def simulate_market(market, rules):
         "exit_kind": exit_kind,
         "exit_price": round(exit_price, 4),
         "pnl": round(qty * exit_price - STAKE, 2),
-        "pnl_no_stop": round(qty * payout - STAKE, 2),  # Variant B: hold to settle
+        "pnl_no_stop": round(qty * payout - STAKE, 2),  # hold-to-settle variant
         "volume_total": market["volume_total"],
     }
 
+
+# ---------------- Kalshi path ----------------
+
+def simulate_market_kalshi(market, rules, venue):
+    """Replay strategy rules on one settled Kalshi market, fees included."""
+    strat = next((s for s in rules["strategies"] if s.get("enabled")), None)
+    if strat is None:
+        return None
+    uni = rules["universe"]
+    tick = str(market.get("event_ticker") or market["id"])
+    if any(tick.startswith(p) for p in uni.get("exclude_ticker_prefixes") or []):
+        return None
+    try:
+        candles = venue.candles(market)
+    except Exception:
+        return None
+    if len(candles) < 3:
+        return None
+    resolution_ts = candles[-1][0]
+
+    def ask(bid_yes, ask_yes, side):   # what we'd pay to enter this side
+        return ask_yes if side == 0 else round(1.0 - bid_yes, 4)
+
+    def bid(bid_yes, ask_yes, side):   # what we'd receive exiting this side
+        return bid_yes if side == 0 else round(1.0 - ask_yes, 4)
+
+    best = None
+    for side in (0, 1):
+        for ts, b, a in candles:
+            price = ask(b, a, side)
+            spread = round(a - b, 4)
+            hours_left = (resolution_ts - ts) / 3600.0
+            if hours_left < uni["min_hours_to_resolution"]:
+                break
+            if hours_left > uni["max_days_to_resolution"] * 24:
+                continue
+            if price <= 0 or price >= 1 or spread > strat["max_spread"]:
+                continue
+            if strat["min_price"] <= price <= strat["max_price"]:
+                if best is None or ts < best[0]:
+                    best = (ts, side, price)
+                break
+    if best is None:
+        return None
+
+    entry_ts, side, entry = best
+    qty = STAKE / entry
+    fee_entry = taker_fee(entry, qty)
+    payout = round(market["prices"][side])
+    exits = rules["exits"]
+
+    exit_kind, exit_price, fee_exit = "settle", float(payout), 0.0
+    for ts, b, a in candles:
+        if ts <= entry_ts:
+            continue
+        our_bid, our_ask = bid(b, a, side), ask(b, a, side)
+        # stop triggers on the ASK — a collapsed bid alone is thin-book noise
+        if our_ask <= entry - exits["stop_loss_points"]:
+            exit_kind, exit_price = "stop_loss", max(our_bid, 0.001)
+            fee_exit = taker_fee(exit_price, qty)
+            break
+        if our_bid >= exits["take_profit_bid"]:
+            exit_kind, exit_price = "take_profit", our_bid
+            fee_exit = taker_fee(exit_price, qty)
+            break
+
+    cost = STAKE + fee_entry
+    return {
+        "series": (market["event_ticker"] or market["id"]).split("-")[0],
+        "question": market["question"],
+        "outcome": market["outcomes"][side],
+        "entry": round(entry, 4),
+        "hours_before_resolution": round((resolution_ts - entry_ts) / 3600, 1),
+        "exit_kind": exit_kind,
+        "exit_price": round(exit_price, 4),
+        "fees": round(fee_entry + fee_exit, 2),
+        "pnl": round(qty * exit_price - fee_exit - cost, 2),
+        "pnl_no_stop": round(qty * payout - cost, 2),
+        "volume_total": market["volume_total"],
+    }
+
+
+# ---------------- shared ----------------
 
 def summarize(trades):
     def stats(pnls):
@@ -150,23 +237,32 @@ def main():
     ap.add_argument("--markets", type=int, default=400)
     args = ap.parse_args()
 
-    rules = load_rules()
-    markets = fetch_resolved_markets(args.markets)
-    print(f"backtesting rules v{rules.get('version')} on {len(markets)} resolved markets…")
+    venue = get_venue(os.environ.get("POLMA_VENUE", "polymarket"))
+    rules = load_rules(venue.name)
+    if venue.name == "kalshi":
+        markets = venue.settled_markets(args.markets)
+        sim = lambda m: simulate_market_kalshi(m, rules, venue)
+    else:
+        markets = fetch_resolved_markets(args.markets)
+        sim = lambda m: simulate_market(m, rules)
+    print(f"backtesting rules v{rules.get('version')} on {len(markets)} "
+          f"resolved {venue.name} markets…")
 
     with ThreadPoolExecutor(max_workers=8) as pool:
-        results = list(pool.map(lambda m: simulate_market(m, rules), markets))
+        results = list(pool.map(sim, markets))
     trades = [t for t in results if t]
 
     summary = summarize(trades)
     report = {
         "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "venue": venue.name,
         "rules_version": rules.get("version"),
         "markets_scanned": len(markets),
         "summary": summary,
     }
     os.makedirs(os.path.join(JOURNAL_DIR, "backtests"), exist_ok=True)
-    fname = f"{datetime.now(timezone.utc).strftime('%Y-%m-%dT%H%M')}-v{rules.get('version')}.json"
+    fname = (f"{datetime.now(timezone.utc).strftime('%Y-%m-%dT%H%M')}"
+             f"-{venue.name}-v{rules.get('version')}.json")
     with open(os.path.join(JOURNAL_DIR, "backtests", fname), "w") as f:
         json.dump({**report, "trades": trades}, f, indent=2)
 

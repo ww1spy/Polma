@@ -1,5 +1,5 @@
 {
-  "cash": 450.0,
+  "cash": 420.03,
   "cooldowns": {},
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
@@ -21,6 +21,20 @@
       "strategy": "favorite_discount",
       "token_id": "2713513099701874841211904036306380872954046458118816101814076669172073583249"
     },
+    "2555350": {
+      "cost": 9.99,
+      "entry_price": 0.961,
+      "market_id": "2555350",
+      "opened": "2026-07-07T23:38:58+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.4,
+      "question": "Israel closes its airspace by July 15?",
+      "rules_version": 4,
+      "slug": "israel-closes-its-airspace-by-july-15-182",
+      "strategy": "favorite_discount",
+      "token_id": "16604135165449683652972617941998736394154596078818094319494023401259995185346"
+    },
     "2804857": {
       "cost": 10.0,
       "entry_price": 0.86,
@@ -34,6 +48,20 @@
       "slug": "fifwc-fra-mar-2026-07-09-mar",
       "strategy": "favorite_discount",
       "token_id": "4276652487326143253210821867516441281012279891363576541196839966947856398966"
+    },
+    "2804885": {
+      "cost": 9.99,
+      "entry_price": 0.9,
+      "market_id": "2804885",
+      "opened": "2026-07-07T23:38:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.1,
+      "question": "Exact Score: France 2 - 1 Morocco?",
+      "rules_version": 4,
+      "slug": "fifwc-fra-mar-2026-07-09-exact-score-2-1",
+      "strategy": "favorite_discount",
+      "token_id": "4978464250471161723708738295904284025272884485812438919940732000132896659301"
     },
     "2815244": {
       "cost": 10.0,
@@ -63,6 +91,20 @@
       "strategy": "favorite_discount",
       "token_id": "104168612209577741232048048702224916349341407364901971672986978453223992318663"
     },
+    "2821797": {
+      "cost": 9.99,
+      "entry_price": 0.9381,
+      "market_id": "2821797",
+      "opened": "2026-07-07T23:38:58+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.65,
+      "question": "Will Graham Platner drop out by July 17?",
+      "rules_version": 4,
+      "slug": "will-graham-platner-drop-out-by-july-17-974-785-861",
+      "strategy": "favorite_discount",
+      "token_id": "81571380492002640837831762878498865181928814950219688494239020033973603013673"
+    },
     "558951": {
       "cost": 10.0,
       "entry_price": 0.94,
@@ -80,5 +122,5 @@
   },
   "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-07T23:05:57+00:00"
+  "updated": "2026-07-07T23:38:58+00:00"
 }

@@ -1,51 +1,58 @@
-# Going live: what YOU need to set up
+# Going live on Kalshi: what YOU need to set up
 
-The bot is code-complete for live trading but deliberately cannot go live
-until you provide credentials. Here is your part (~30 minutes), then the
-validation sequence we run together.
+Kalshi is the live venue: CFTC-regulated, legal for US citizens, web-based
+(no iPhone needed), and API-friendly. The bot is code-complete for it but
+cannot go live until you provide API credentials. Your part takes ~30
+minutes, most of it waiting on KYC.
 
 ## Your checklist
 
-1. **Eligibility.** Polymarket's terms geo-restrict trading in some
-   jurisdictions (including the US). Confirm you can trade under their
-   terms from where you are. This one is entirely on you — the bot can't
-   and won't check it, and we don't work around it.
+1. **Create a Kalshi account** at kalshi.com — standard web signup with
+   KYC (SSN, ID verification, US persons welcome). Note: a few states
+   restrict specific market types (e.g. sports contracts); Kalshi's UI
+   enforces this per your residence automatically.
 
-2. **Create a dedicated Polymarket account** at polymarket.com — email
-   signup is easiest. Strongly recommended: a *fresh* account used only by
-   the bot, so its key never guards anything else you own.
+2. **Deposit small.** Fund what live *testing* needs — $50–$200 via bank
+   transfer or debit. Scale up only after the bot has proven itself with
+   real fills.
 
-3. **Fund it small.** Deposit what live *testing* needs, not the full
-   bankroll — $50–$200. Card and crypto deposits both work. Scale up only
-   after the bot has proven itself with real fills.
+3. **Create an API key.** Log in → https://kalshi.com/account/profile →
+   "API Keys" → "Create New API Key". You get:
+   - a **Key ID**, and
+   - an **RSA private key** (PEM file) shown **once** — download it
+     immediately; Kalshi does not store it and cannot recover it.
 
-4. **Export the wallet's private key.** In the Polymarket app: profile →
-   Settings → Export private key. Also copy your **wallet address** (shown
-   on your profile / deposit page).
+4. **Put the credentials into the Claude Code environment settings** (the
+   environment this repo runs in → environment variables):
+   - `KALSHI_API_KEY_ID` — the Key ID
+   - `KALSHI_PRIVATE_KEY` — the full PEM contents (multi-line), **or**
+     `KALSHI_PRIVATE_KEY_PATH` — a path to the PEM file if you mount it
 
-5. **Put both into the Claude Code environment settings** (the environment
-   this repo runs in → environment variables):
-   - `POLYMARKET_PRIVATE_KEY` — the exported key
-   - `POLYMARKET_WALLET_ADDRESS` — your Polymarket wallet address
+   **Never** paste the key into chat, commit it, or put it in this repo.
+   Anyone with it can trade (though Kalshi API keys cannot withdraw funds
+   — withdrawals stay behind your login).
 
-   **Never** paste the key into chat, commit it, or put it in a file in
-   this repo. Env vars only. Anyone with this key controls the funds —
-   that includes any tooling running in this environment, which is another
-   reason the account should hold only the bot's bankroll.
-
-## Then the validation sequence (I run this, with you watching)
+## Then the validation sequence (run together, in order)
 
 1. `pip install -r requirements-live.txt`
-2. `python3 scripts/setup_live.py` — authenticates and runs Polymarket's
-   idempotent `setup_trading_approvals()`. No orders placed.
-3. One **$1 manual buy** and one **$1 sell** via the live executor, outside
-   the engine, to validate order plumbing and fill parsing end to end.
-4. First live engine cycle with `POLMA_MODE=live` and sizing caps floored
-   (`max_notional_per_trade_usd: 2`).
-5. Only after 1–4 are clean: raise sizing to the real conservative limits
-   and schedule the live Routine.
+2. `python3 scripts/setup_live.py` — verifies signed authentication and
+   prints the account balance. Places NO orders.
+3. One **1-contract buy** and **1-contract sell** via the live executor,
+   outside the engine, to validate order plumbing and fill parsing end to
+   end (order-field names must be confirmed against the real API).
+4. First live engine cycle: `POLMA_VENUE=kalshi POLMA_MODE=live` with
+   sizing floored (`max_notional_per_trade_usd: 2`).
+5. Only after 1–4 are clean: set `starting_bankroll_usd` in
+   `config/risk_limits.yaml` to the real deposit, raise sizing to the
+   normal conservative limits, and schedule the live Routine.
 
-Live state is tracked separately in `state/portfolio_live.json`; paper
-trading keeps running in parallel as the strategy testbed. Before the first
-live cycle, set `starting_bankroll_usd` in `config/risk_limits.yaml` to the
-amount actually deposited.
+Live state is tracked separately in `state/portfolio_kalshi_live.json`;
+paper trading keeps running in parallel on both venues as the strategy
+testbed.
+
+## Polymarket (non-US path, parked)
+
+The Polymarket executor remains wired (`polymarket-client` SDK,
+`POLYMARKET_PRIVATE_KEY` / `POLYMARKET_WALLET_ADDRESS`). US persons can't
+use the main exchange; Polymarket US is iOS-only as of July 2026. If that
+changes, the validation sequence mirrors the one above.

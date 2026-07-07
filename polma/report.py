@@ -9,9 +9,10 @@ from .journal import JOURNAL_DIR
 def main():
     limits = risk.load_limits()
     mode = os.environ.get("POLMA_MODE", "paper").lower()
-    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode)
+    venue = os.environ.get("POLMA_VENUE", "polymarket").lower()
+    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode, venue=venue)
 
-    print(f"=== Polma portfolio ({state['mode']}) ===")
+    print(f"=== Polma portfolio ({venue} {state['mode']}) ===")
     print(f"cash:          ${state['cash']:.2f}")
     print(f"realized PnL:  ${state['realized_pnl']:+.2f}")
     print(f"peak equity:   ${state['peak_equity']:.2f}")

@@ -1,9 +1,12 @@
-# Polma — rules-driven Polymarket paper/live trading bot
+# Polma — rules-driven prediction-market trading bot (Kalshi + Polymarket)
 
-A conservative, rules-driven trading bot for Polymarket. The strategy lives in
-a YAML file that gets edited and re-committed as it evolves; the engine, risk
-guardrails, and trade journal stay fixed. **Currently paper-trading only** —
-real market data, simulated fills, simulated bankroll.
+A conservative, rules-driven trading bot for prediction markets. The strategy
+lives in a YAML file that gets edited and re-committed as it evolves; the
+engine, risk guardrails, and trade journal stay fixed. Two venues behind one
+interface (`polma/venues/`): **Kalshi** (CFTC-regulated, the live venue for US
+users) and **Polymarket** (paper testbed; live only where eligible).
+**Currently paper-trading only** — real market data and order books, simulated
+fills (taker fees modeled), simulated bankroll.
 
 ## How it works
 
@@ -35,10 +38,16 @@ Each **cycle** (run on a schedule) does, in order:
 
 ```bash
 pip install -r requirements.txt
-python3 -m polma.cycle              # run one trading cycle (paper by default)
-python3 -m polma.report             # portfolio + win/loss summary
-python3 -m polma.backtest           # replay current rules over resolved markets
+python3 -m polma.cycle              # one trading cycle (paper, polymarket default)
+POLMA_VENUE=kalshi python3 -m polma.cycle      # same, on Kalshi
+POLMA_VENUE=kalshi python3 -m polma.report     # portfolio + win/loss summary
+POLMA_VENUE=kalshi python3 -m polma.backtest   # replay rules over resolved markets
 ```
+
+Env switches: `POLMA_VENUE` (`polymarket`|`kalshi`), `POLMA_MODE`
+(`paper`|`live`). Each venue+mode pair keeps its own state file under
+`state/`; rules support per-venue overrides (`venue_overrides:` in
+`rules/rules.yaml`) because the venues' profitable pockets genuinely differ.
 
 The backtester is the fast learning loop: it replays the current rules over
 hundreds of already-resolved markets' hourly price history and reports win
