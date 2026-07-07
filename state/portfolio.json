@@ -1,0 +1,42 @@
+{
+  "cash": 480.0,
+  "cooldowns": {},
+  "created": "2026-07-07T22:51:45+00:00",
+  "halt_reason": "",
+  "halted": false,
+  "mode": "paper",
+  "peak_equity": 500.0,
+  "positions": {
+    "2804857": {
+      "cost": 10.0,
+      "entry_price": 0.86,
+      "market_id": "2804857",
+      "opened": "2026-07-07T22:51:48+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.63,
+      "question": "Will Morocco win on 2026-07-09?",
+      "rules_version": 1,
+      "slug": "fifwc-fra-mar-2026-07-09-mar",
+      "strategy": "favorite_discount",
+      "token_id": "4276652487326143253210821867516441281012279891363576541196839966947856398966"
+    },
+    "558951": {
+      "cost": 10.0,
+      "entry_price": 0.94,
+      "market_id": "558951",
+      "opened": "2026-07-07T22:51:48+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.64,
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "rules_version": 1,
+      "slug": "will-norway-win-the-2026-fifa-world-cup-893",
+      "strategy": "favorite_discount",
+      "token_id": "111538579557239934343870815626480092245052857494675784434731223739153238373070"
+    }
+  },
+  "realized_pnl": 0.0,
+  "starting_bankroll": 500.0,
+  "updated": "2026-07-07T22:51:48+00:00"
+}

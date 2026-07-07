@@ -1,0 +1,54 @@
+# ============================================================
+# Polma trading rules
+# ============================================================
+# This file IS the strategy. Edit it, commit it, and the next
+# trading cycle picks it up. Git history is the audit trail of
+# how the strategy evolved — bump `version` and `updated` on
+# every meaningful change so journal entries can be traced back
+# to the exact rules that produced them.
+#
+# Hard risk guardrails live in config/risk_limits.yaml and
+# ALWAYS override anything written here.
+# ============================================================
+
+version: 1
+updated: "2026-07-07"
+notes: >
+  v1 starter rules: conservative "discounted favorite" strategy.
+  Buy outcomes the market already considers very likely (85-96c)
+  in liquid, near-term markets, and hold to resolution unless the
+  thesis breaks (stop loss). Expected profile: many small wins,
+  occasional larger losses when a favorite flips — those losses
+  are the tuition; every one gets a post-mortem in journal/.
+
+# ---- Which markets are even considered ----
+universe:
+  min_liquidity_usd: 20000        # skip thin books we couldn't exit
+  min_volume_24h_usd: 10000       # skip dead markets
+  min_hours_to_resolution: 12     # avoid in-play / imminent events (live sports swing violently)
+  max_days_to_resolution: 21      # keep capital velocity up; no long lockups
+  exclude_question_keywords: []   # e.g. ["mention", "tweet"] to skip meme markets
+
+# ---- Entry strategies (evaluated in order, all must be enabled to fire) ----
+strategies:
+  - name: favorite_discount
+    enabled: true
+    description: >
+      Buy the favored outcome when it trades between min_price and
+      max_price with a tight spread. The bet: markets slightly
+      underprice near-certainties due to longshot bias.
+    min_price: 0.85
+    max_price: 0.96
+    max_spread: 0.02              # book must be tight = liquid + low entry cost
+
+# ---- Exit rules (apply to all open positions every cycle) ----
+exits:
+  hold_to_resolution: true        # default: let winners settle at $1
+  take_profit_bid: 0.99           # ...but if bid hits this, sell and free the capital early
+  stop_loss_points: 0.10          # exit if best bid falls this far below our entry price
+
+# ---- Position sizing ----
+sizing:
+  bankroll_fraction_per_trade: 0.02   # 2% of current equity per position
+  max_notional_per_trade_usd: 15.0    # absolute cap regardless of equity
+  max_new_positions_per_cycle: 2      # slow accumulation; no spray-and-pray
