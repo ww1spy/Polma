@@ -14,16 +14,13 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 def check_kalshi():
     from polma.http import SESSION
-    from polma.venues.kalshi import auth_headers
+    from polma.venues.kalshi import auth_headers, load_private_key_env
 
     key_id = os.environ.get("KALSHI_API_KEY_ID")
-    pem = os.environ.get("KALSHI_PRIVATE_KEY")
-    pem_path = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
-    if not pem and pem_path:
-        with open(pem_path) as f:
-            pem = f.read()
+    pem = load_private_key_env()
     if not (key_id and pem):
-        sys.exit("KALSHI_API_KEY_ID / KALSHI_PRIVATE_KEY not set — see docs/GOING_LIVE.md")
+        sys.exit("KALSHI_API_KEY_ID / KALSHI_PRIVATE_KEY not set (or the key isn't "
+                 "valid PEM) — see docs/GOING_LIVE.md")
 
     path = "/trade-api/v2/portfolio/balance"
     resp = SESSION.get(

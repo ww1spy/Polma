@@ -70,12 +70,7 @@ class KalshiLiveExecutor:
 
         self.kalshi = kalshi
         self.key_id = os.environ.get("KALSHI_API_KEY_ID")
-        pem = os.environ.get("KALSHI_PRIVATE_KEY")
-        pem_path = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
-        if not pem and pem_path:
-            with open(pem_path) as f:
-                pem = f.read()
-        self.pem = pem
+        self.pem = kalshi.load_private_key_env()
         if not (self.key_id and self.pem):
             raise RuntimeError(
                 "POLMA_MODE=live on kalshi needs KALSHI_API_KEY_ID and "

@@ -19,6 +19,34 @@ BASE = "https://api.elections.kalshi.com/trade-api/v2"
 TAKER_FEE_COEF = 0.07
 
 
+def load_private_key_env():
+    """Read the RSA key from KALSHI_PRIVATE_KEY / KALSHI_PRIVATE_KEY_PATH.
+
+    Tolerates the ways env-var UIs mangle multi-line PEM values: literal
+    "\\n" sequences, surrounding quotes, or the whole file base64-encoded.
+    Returns the PEM string or None.
+    """
+    import os
+
+    pem = os.environ.get("KALSHI_PRIVATE_KEY", "").strip().strip("'\"")
+    path = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
+    if not pem and path:
+        with open(path) as f:
+            pem = f.read()
+    if not pem:
+        return None
+    if "\\n" in pem and "-----" in pem:
+        pem = pem.replace("\\n", "\n")
+    if "-----" not in pem:
+        try:
+            decoded = base64.b64decode(pem).decode()
+            if "-----" in decoded:
+                pem = decoded
+        except Exception:
+            pass
+    return pem if "-----" in pem else None
+
+
 def auth_headers(key_id, private_key_pem, method, path):
     """Signed headers for authenticated calls (see docs.kalshi.com api_keys).
 
