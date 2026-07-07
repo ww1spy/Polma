@@ -1,0 +1,2 @@
+# Extra dependencies for LIVE trading only (paper mode needs requirements.txt only)
+polymarket-client

@@ -1,8 +1,7 @@
 """Read-only client for Polymarket's CLOB API (live order books)."""
-import requests
+from .http import get_json
 
 CLOB_URL = "https://clob.polymarket.com"
-TIMEOUT = 20
 
 
 def get_book(token_id):
@@ -11,9 +10,7 @@ def get_book(token_id):
     The raw API returns levels with the BEST price at the END of each list;
     we sort explicitly so callers never depend on that quirk.
     """
-    resp = requests.get(f"{CLOB_URL}/book", params={"token_id": token_id}, timeout=TIMEOUT)
-    resp.raise_for_status()
-    raw = resp.json()
+    raw = get_json(f"{CLOB_URL}/book", params={"token_id": token_id})
     bids = sorted(
         ((float(l["price"]), float(l["size"])) for l in raw.get("bids", [])),
         key=lambda l: l[0], reverse=True,

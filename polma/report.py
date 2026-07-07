@@ -8,7 +8,8 @@ from .journal import JOURNAL_DIR
 
 def main():
     limits = risk.load_limits()
-    state = portfolio.load(limits["starting_bankroll_usd"])
+    mode = os.environ.get("POLMA_MODE", "paper").lower()
+    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode)
 
     print(f"=== Polma portfolio ({state['mode']}) ===")
     print(f"cash:          ${state['cash']:.2f}")

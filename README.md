@@ -35,9 +35,16 @@ Each **cycle** (run on a schedule) does, in order:
 
 ```bash
 pip install -r requirements.txt
-python3 -m polma.cycle    # run one trading cycle
-python3 -m polma.report   # portfolio + win/loss summary
+python3 -m polma.cycle              # run one trading cycle (paper by default)
+python3 -m polma.report             # portfolio + win/loss summary
+python3 -m polma.backtest           # replay current rules over resolved markets
 ```
+
+The backtester is the fast learning loop: it replays the current rules over
+hundreds of already-resolved markets' hourly price history and reports win
+rate / ROI, with results archived in `journal/backtests/`. Its caveats are
+documented in `polma/backtest.py` — use it to rank rule variants, not to
+predict returns.
 
 ## The learning loop
 
@@ -49,11 +56,12 @@ python3 -m polma.report   # portfolio + win/loss summary
 4. Git history of `rules/` + `journal/` = the full record of what was tried,
    what it cost, and what was learned.
 
-## Going live (later, deliberately)
+## Going live
 
-Live mode requires: the paper phase to prove out the rules, `py-clob-client`
-wiring in `polma/executor.py` (`LiveExecutor`), a funded Polygon USDC wallet
-whose private key is provided **only** via environment variable (see
-`.env.example` — never committed), one-time token allowances for Polymarket's
-exchange contracts, and eligibility to trade under Polymarket's terms in your
-jurisdiction. The paper→live switch is intentionally not a config flag yet.
+`LiveExecutor` is wired to the official `polymarket-client` SDK and activates
+only when `POLMA_MODE=live` **and** `POLYMARKET_PRIVATE_KEY` is set in the
+environment (never in the repo). Live state is tracked separately in
+`state/portfolio_live.json`. The owner-side setup checklist and the
+validation sequence ($1 test orders before real sizing) are in
+**`docs/GOING_LIVE.md`**. Trading live requires eligibility under
+Polymarket's terms in your jurisdiction.

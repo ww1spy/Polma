@@ -3,20 +3,26 @@ import json
 import os
 from datetime import datetime, timezone
 
-STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "state", "portfolio.json")
+STATE_DIR = os.path.join(os.path.dirname(__file__), "..", "state")
+
+
+def state_path(mode):
+    name = "portfolio_live.json" if mode == "live" else "portfolio.json"
+    return os.path.join(STATE_DIR, name)
 
 
 def _now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def load(starting_bankroll):
-    if os.path.exists(STATE_PATH):
-        with open(STATE_PATH) as f:
+def load(starting_bankroll, mode="paper"):
+    path = state_path(mode)
+    if os.path.exists(path):
+        with open(path) as f:
             return json.load(f)
     return {
         "created": _now_iso(),
-        "mode": "paper",
+        "mode": mode,
         "starting_bankroll": starting_bankroll,
         "cash": starting_bankroll,
         "peak_equity": starting_bankroll,
@@ -31,9 +37,9 @@ def load(starting_bankroll):
 
 
 def save(state):
-    os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
+    os.makedirs(STATE_DIR, exist_ok=True)
     state["updated"] = _now_iso()
-    with open(STATE_PATH, "w") as f:
+    with open(state_path(state.get("mode", "paper")), "w") as f:
         json.dump(state, f, indent=2, sort_keys=True)
         f.write("\n")
 

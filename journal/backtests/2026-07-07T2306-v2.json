@@ -1,0 +1,525 @@
+{
+  "ts": "2026-07-07T23:06:13+00:00",
+  "rules_version": 2,
+  "markets_scanned": 600,
+  "summary": {
+    "with_stop_loss": {
+      "trades": 39,
+      "win_rate": 0.923,
+      "total_pnl": 8.61,
+      "avg_pnl": 0.221,
+      "return_on_stakes": 0.0221
+    },
+    "hold_to_settle_no_stop": {
+      "trades": 39,
+      "win_rate": 0.923,
+      "total_pnl": 6.17,
+      "avg_pnl": 0.158,
+      "return_on_stakes": 0.0158
+    },
+    "by_exit_kind": {
+      "stop_loss": {
+        "trades": 3,
+        "win_rate": 0.0,
+        "total_pnl": -24.94,
+        "avg_pnl": -8.313,
+        "return_on_stakes": -0.8313
+      },
+      "take_profit": {
+        "trades": 36,
+        "win_rate": 1.0,
+        "total_pnl": 33.55,
+        "avg_pnl": 0.932,
+        "return_on_stakes": 0.0932
+      }
+    },
+    "worst_losses": [
+      {
+        "question": "Cap FDV above $250M one day after launch?",
+        "outcome": "No",
+        "entry": 0.855,
+        "hours_before_resolution": 240.0,
+        "exit_kind": "stop_loss",
+        "exit_price": 0.12,
+        "pnl": -8.6,
+        "pnl_no_stop": -10.0,
+        "volume_total": 69147.27357700006
+      },
+      {
+        "question": "o1 FDV above $300M one day after launch?",
+        "outcome": "No",
+        "entry": 0.87,
+        "hours_before_resolution": 76.0,
+        "exit_kind": "stop_loss",
+        "exit_price": 0.145,
+        "pnl": -8.33,
+        "pnl_no_stop": -10.0,
+        "volume_total": 39318.49257999997
+      },
+      {
+        "question": "Will Abigail Anderson be one of Taylor Swift's bridesmaids?",
+        "outcome": "Yes",
+        "entry": 0.855,
+        "hours_before_resolution": 239.0,
+        "exit_kind": "stop_loss",
+        "exit_price": 0.17,
+        "pnl": -8.01,
+        "pnl_no_stop": -10.0,
+        "volume_total": 50073.299069000015
+      },
+      {
+        "question": "SpaceX IPO closing market cap above $1.4T?",
+        "outcome": "Yes",
+        "entry": 0.9645,
+        "hours_before_resolution": 78.0,
+        "exit_kind": "take_profit",
+        "exit_price": 0.991,
+        "pnl": 0.27,
+        "pnl_no_stop": 0.37,
+        "volume_total": 705594.4274390005
+      },
+      {
+        "question": "o1 FDV above $200M one day after launch?",
+        "outcome": "Yes",
+        "entry": 0.965,
+        "hours_before_resolution": 29.0,
+        "exit_kind": "take_profit",
+        "exit_price": 0.9935,
+        "pnl": 0.3,
+        "pnl_no_stop": 0.36,
+        "volume_total": 100127.72688299998
+      }
+    ]
+  },
+  "trades": [
+    {
+      "question": "Cap FDV above $50M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.9185,
+      "hours_before_resolution": 240.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9905,
+      "pnl": 0.78,
+      "pnl_no_stop": 0.89,
+      "volume_total": 55583.901295
+    },
+    {
+      "question": "Arcium FDV above $300M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.94,
+      "hours_before_resolution": 19.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.99,
+      "pnl": 0.53,
+      "pnl_no_stop": 0.64,
+      "volume_total": 31372.534320000017
+    },
+    {
+      "question": "o1 FDV above $300M one day after launch?",
+      "outcome": "No",
+      "entry": 0.87,
+      "hours_before_resolution": 76.0,
+      "exit_kind": "stop_loss",
+      "exit_price": 0.145,
+      "pnl": -8.33,
+      "pnl_no_stop": -10.0,
+      "volume_total": 39318.49257999997
+    },
+    {
+      "question": "Will o1 launch a token by September 30, 2026?",
+      "outcome": "Yes",
+      "entry": 0.9435,
+      "hours_before_resolution": 138.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9965,
+      "pnl": 0.56,
+      "pnl_no_stop": 0.6,
+      "volume_total": 28651.865639000003
+    },
+    {
+      "question": "Cap FDV above $250M one day after launch?",
+      "outcome": "No",
+      "entry": 0.855,
+      "hours_before_resolution": 240.0,
+      "exit_kind": "stop_loss",
+      "exit_price": 0.12,
+      "pnl": -8.6,
+      "pnl_no_stop": -10.0,
+      "volume_total": 69147.27357700006
+    },
+    {
+      "question": "o1 FDV above $1B one day after launch?",
+      "outcome": "No",
+      "entry": 0.9275,
+      "hours_before_resolution": 239.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9925,
+      "pnl": 0.7,
+      "pnl_no_stop": 0.78,
+      "volume_total": 22533.574275
+    },
+    {
+      "question": "Laso Finance FDV above $12M one day after launch",
+      "outcome": "No",
+      "entry": 0.93,
+      "hours_before_resolution": 145.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9925,
+      "pnl": 0.67,
+      "pnl_no_stop": 0.75,
+      "volume_total": 24315.624003999998
+    },
+    {
+      "question": "o1 FDV above $200M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.965,
+      "hours_before_resolution": 29.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9935,
+      "pnl": 0.3,
+      "pnl_no_stop": 0.36,
+      "volume_total": 100127.72688299998
+    },
+    {
+      "question": "Cap FDV above $150M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.855,
+      "hours_before_resolution": 61.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.991,
+      "pnl": 1.59,
+      "pnl_no_stop": 1.7,
+      "volume_total": 96481.59055499997
+    },
+    {
+      "question": "Arcium FDV above $200M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.86,
+      "hours_before_resolution": 34.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9915,
+      "pnl": 1.53,
+      "pnl_no_stop": 1.63,
+      "volume_total": 75452.46797600003
+    },
+    {
+      "question": "Cap FDV above $200M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.9,
+      "hours_before_resolution": 32.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9945,
+      "pnl": 1.05,
+      "pnl_no_stop": 1.11,
+      "volume_total": 26191.990242999997
+    },
+    {
+      "question": "o1 FDV above $100M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.875,
+      "hours_before_resolution": 81.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9935,
+      "pnl": 1.35,
+      "pnl_no_stop": 1.43,
+      "volume_total": 207700.57103000002
+    },
+    {
+      "question": "Laso Finance FDV above $5M one day after launch",
+      "outcome": "Yes",
+      "entry": 0.905,
+      "hours_before_resolution": 17.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9965,
+      "pnl": 1.01,
+      "pnl_no_stop": 1.05,
+      "volume_total": 42513.76229100001
+    },
+    {
+      "question": "Cap FDV above $500M one day after launch?",
+      "outcome": "No",
+      "entry": 0.9195,
+      "hours_before_resolution": 240.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.991,
+      "pnl": 0.78,
+      "pnl_no_stop": 0.88,
+      "volume_total": 29300.65815499999
+    },
+    {
+      "question": "Cap FDV above $100M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.86,
+      "hours_before_resolution": 83.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.99,
+      "pnl": 1.51,
+      "pnl_no_stop": 1.63,
+      "volume_total": 100959.68097000015
+    },
+    {
+      "question": "Laso Finance FDV above $8M one day after launch",
+      "outcome": "No",
+      "entry": 0.87,
+      "hours_before_resolution": 145.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9995,
+      "pnl": 1.49,
+      "pnl_no_stop": 1.49,
+      "volume_total": 28916.800734999993
+    },
+    {
+      "question": "Arcium FDV above $500M one day after launch?",
+      "outcome": "No",
+      "entry": 0.89,
+      "hours_before_resolution": 240.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9985,
+      "pnl": 1.22,
+      "pnl_no_stop": 1.24,
+      "volume_total": 21745.69319100001
+    },
+    {
+      "question": "Arcium FDV above $100M one day after launch?",
+      "outcome": "Yes",
+      "entry": 0.855,
+      "hours_before_resolution": 116.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.991,
+      "pnl": 1.59,
+      "pnl_no_stop": 1.7,
+      "volume_total": 30831.051235000003
+    },
+    {
+      "question": "Laso Finance FDV above $3M one day after launch",
+      "outcome": "Yes",
+      "entry": 0.91,
+      "hours_before_resolution": 240.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.99,
+      "pnl": 0.88,
+      "pnl_no_stop": 0.99,
+      "volume_total": 23143.740171000005
+    },
+    {
+      "question": "Laso Finance FDV above $15M one day after launch",
+      "outcome": "No",
+      "entry": 0.895,
+      "hours_before_resolution": 207.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9905,
+      "pnl": 1.07,
+      "pnl_no_stop": 1.17,
+      "volume_total": 28368.531549000007
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $2.8T?",
+      "outcome": "No",
+      "entry": 0.9,
+      "hours_before_resolution": 118.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9955,
+      "pnl": 1.06,
+      "pnl_no_stop": 1.11,
+      "volume_total": 797677.8044770007
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $1.8T?",
+      "outcome": "Yes",
+      "entry": 0.9,
+      "hours_before_resolution": 105.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.994,
+      "pnl": 1.04,
+      "pnl_no_stop": 1.11,
+      "volume_total": 2142060.642198998
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $3.4T?",
+      "outcome": "No",
+      "entry": 0.9585,
+      "hours_before_resolution": 13.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.993,
+      "pnl": 0.36,
+      "pnl_no_stop": 0.43,
+      "volume_total": 286211.6791990016
+    },
+    {
+      "question": "Will SpaceX's market cap be between $1.6T and $1.8T at market close on IPO day?",
+      "outcome": "No",
+      "entry": 0.885,
+      "hours_before_resolution": 119.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.992,
+      "pnl": 1.21,
+      "pnl_no_stop": 1.3,
+      "volume_total": 179491.4833179999
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $1.6T?",
+      "outcome": "Yes",
+      "entry": 0.9145,
+      "hours_before_resolution": 118.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.991,
+      "pnl": 0.84,
+      "pnl_no_stop": 0.93,
+      "volume_total": 1100152.2636889983
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $2.6T?",
+      "outcome": "No",
+      "entry": 0.86,
+      "hours_before_resolution": 117.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.999,
+      "pnl": 1.62,
+      "pnl_no_stop": 1.63,
+      "volume_total": 1240220.9359409988
+    },
+    {
+      "question": "Will SpaceX's market cap be between $1.8T and $2.0T at market close on IPO day?",
+      "outcome": "No",
+      "entry": 0.855,
+      "hours_before_resolution": 24.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9965,
+      "pnl": 1.65,
+      "pnl_no_stop": 1.7,
+      "volume_total": 181850.14141699992
+    },
+    {
+      "question": "Will SpaceX's market cap be between $1.2T and $1.4T at market close on IPO day?",
+      "outcome": "No",
+      "entry": 0.9595,
+      "hours_before_resolution": 35.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.99,
+      "pnl": 0.32,
+      "pnl_no_stop": 0.42,
+      "volume_total": 124356.40014499988
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $3.2T?",
+      "outcome": "No",
+      "entry": 0.965,
+      "hours_before_resolution": 118.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9935,
+      "pnl": 0.3,
+      "pnl_no_stop": 0.36,
+      "volume_total": 557754.0407510004
+    },
+    {
+      "question": "Will SpaceX's market cap be between $1.4T and $1.6T at market close on IPO day?",
+      "outcome": "No",
+      "entry": 0.954,
+      "hours_before_resolution": 119.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.99,
+      "pnl": 0.38,
+      "pnl_no_stop": 0.48,
+      "volume_total": 180888.9601349999
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $3T?",
+      "outcome": "No",
+      "entry": 0.94,
+      "hours_before_resolution": 118.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9955,
+      "pnl": 0.59,
+      "pnl_no_stop": 0.64,
+      "volume_total": 2517449.7475009975
+    },
+    {
+      "question": "SpaceX IPO closing market cap above $1.4T?",
+      "outcome": "Yes",
+      "entry": 0.9645,
+      "hours_before_resolution": 78.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.991,
+      "pnl": 0.27,
+      "pnl_no_stop": 0.37,
+      "volume_total": 705594.4274390005
+    },
+    {
+      "question": "Will Abigail Anderson be one of Taylor Swift's bridesmaids?",
+      "outcome": "Yes",
+      "entry": 0.855,
+      "hours_before_resolution": 239.0,
+      "exit_kind": "stop_loss",
+      "exit_price": 0.17,
+      "pnl": -8.01,
+      "pnl_no_stop": -10.0,
+      "volume_total": 50073.299069000015
+    },
+    {
+      "question": "Will Brittany Mahomes be one of Taylor Swift's bridesmaids?",
+      "outcome": "No",
+      "entry": 0.935,
+      "hours_before_resolution": 240.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9945,
+      "pnl": 0.64,
+      "pnl_no_stop": 0.7,
+      "volume_total": 25078.890206999997
+    },
+    {
+      "question": "Will Anthropic's valuation hit (HIGH) $1.1T by December 31?",
+      "outcome": "Yes",
+      "entry": 0.9565,
+      "hours_before_resolution": 131.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9915,
+      "pnl": 0.37,
+      "pnl_no_stop": 0.45,
+      "volume_total": 125019.67092499987
+    },
+    {
+      "question": "Will Theo launch a token by June 30 2026?",
+      "outcome": "No",
+      "entry": 0.963,
+      "hours_before_resolution": 209.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.993,
+      "pnl": 0.31,
+      "pnl_no_stop": 0.38,
+      "volume_total": 77724.88724799998
+    },
+    {
+      "question": "Will Perena launch a token by June 30, 2026?",
+      "outcome": "No",
+      "entry": 0.8985,
+      "hours_before_resolution": 234.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.991,
+      "pnl": 1.03,
+      "pnl_no_stop": 1.13,
+      "volume_total": 97248.09807899916
+    },
+    {
+      "question": "Will GRVT launch a token by June 30, 2026?",
+      "outcome": "No",
+      "entry": 0.88,
+      "hours_before_resolution": 169.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.997,
+      "pnl": 1.33,
+      "pnl_no_stop": 1.36,
+      "volume_total": 61449.81384800006
+    },
+    {
+      "question": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+      "outcome": "Yes",
+      "entry": 0.86,
+      "hours_before_resolution": 239.0,
+      "exit_kind": "take_profit",
+      "exit_price": 0.9995,
+      "pnl": 1.62,
+      "pnl_no_stop": 1.63,
+      "volume_total": 137448.126236
+    }
+  ]
+}

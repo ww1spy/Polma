@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 import yaml
 
 from . import clob, gamma, journal, portfolio, risk
-from .executor import PaperExecutor
+from .executor import LiveExecutor, PaperExecutor
 
 RULES_PATH = os.path.join(os.path.dirname(__file__), "..", "rules", "rules.yaml")
 
@@ -188,11 +188,14 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions):
 
 
 def run_cycle():
+    # Live mode requires BOTH the env switch and credentials — a paper run can
+    # never accidentally place a real order.
+    mode = os.environ.get("POLMA_MODE", "paper").lower()
     rules = load_rules()
     limits = risk.load_limits()
-    state = portfolio.load(limits["starting_bankroll_usd"])
-    executor = PaperExecutor()  # live mode is a deliberate, later, explicit switch
-    actions = []
+    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode)
+    executor = LiveExecutor() if mode == "live" else PaperExecutor()
+    actions = [f"mode: {mode}"]
 
     settle_resolved(state, actions)
     marks = mark_positions(state, actions)

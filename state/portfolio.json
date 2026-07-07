@@ -1,5 +1,5 @@
 {
-  "cash": 480.0,
+  "cash": 450.0,
   "cooldowns": {},
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
@@ -7,6 +7,20 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "1087892": {
+      "cost": 10.0,
+      "entry_price": 0.869,
+      "market_id": "1087892",
+      "opened": "2026-07-07T23:05:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.51,
+      "question": "Will Novak Djokovic be the 2026 Men\u2019s Wimbledon winner?",
+      "rules_version": 2,
+      "slug": "will-novak-djokovic-be-the-2026-mens-wimbledon-winner",
+      "strategy": "favorite_discount",
+      "token_id": "2713513099701874841211904036306380872954046458118816101814076669172073583249"
+    },
     "2804857": {
       "cost": 10.0,
       "entry_price": 0.86,
@@ -20,6 +34,34 @@
       "slug": "fifwc-fra-mar-2026-07-09-mar",
       "strategy": "favorite_discount",
       "token_id": "4276652487326143253210821867516441281012279891363576541196839966947856398966"
+    },
+    "2815244": {
+      "cost": 10.0,
+      "entry_price": 0.86,
+      "market_id": "2815244",
+      "opened": "2026-07-07T23:05:56+00:00",
+      "outcome": "T1",
+      "outcome_idx": 1,
+      "qty": 11.63,
+      "question": "LoL: G2 Esports vs T1 (BO5) - Mid-Season Invitational Playoffs",
+      "rules_version": 2,
+      "slug": "lol-g2-t1-2026-07-08",
+      "strategy": "favorite_discount",
+      "token_id": "77182240731271426840458461483661918228246646763805233273034766024334059552030"
+    },
+    "2815480": {
+      "cost": 10.0,
+      "entry_price": 0.94,
+      "market_id": "2815480",
+      "opened": "2026-07-07T23:05:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.64,
+      "question": "Exact Score: Norway 2 - 1 England?",
+      "rules_version": 2,
+      "slug": "fifwc-nor-eng-2026-07-11-exact-score-2-1",
+      "strategy": "favorite_discount",
+      "token_id": "104168612209577741232048048702224916349341407364901971672986978453223992318663"
     },
     "558951": {
       "cost": 10.0,
@@ -38,5 +80,5 @@
   },
   "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-07T22:51:48+00:00"
+  "updated": "2026-07-07T23:05:57+00:00"
 }

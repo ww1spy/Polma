@@ -2,10 +2,9 @@
 import json
 from datetime import datetime, timezone
 
-import requests
+from .http import get_json
 
 GAMMA_URL = "https://gamma-api.polymarket.com"
-TIMEOUT = 20
 
 
 def _parse_json_field(raw):
@@ -62,7 +61,7 @@ def fetch_open_markets(max_markets=300):
     offset = 0
     while len(out) < max_markets:
         batch = min(100, max_markets - len(out))
-        resp = requests.get(
+        rows = get_json(
             f"{GAMMA_URL}/markets",
             params={
                 "closed": "false",
@@ -72,10 +71,7 @@ def fetch_open_markets(max_markets=300):
                 "order": "volume24hr",
                 "ascending": "false",
             },
-            timeout=TIMEOUT,
         )
-        resp.raise_for_status()
-        rows = resp.json()
         if not rows:
             break
         for raw in rows:
@@ -88,9 +84,7 @@ def fetch_open_markets(max_markets=300):
 
 def fetch_market(market_id):
     """Fetch a single market by Gamma id (used to settle held positions)."""
-    resp = requests.get(f"{GAMMA_URL}/markets/{market_id}", timeout=TIMEOUT)
-    resp.raise_for_status()
-    return normalize(resp.json())
+    return normalize(get_json(f"{GAMMA_URL}/markets/{market_id}"))
 
 
 def hours_to_resolution(market, now=None):
