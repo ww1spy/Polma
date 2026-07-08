@@ -1,0 +1,15 @@
+{
+  "cash": 74.9614,
+  "cooldowns": {},
+  "created": "2026-07-08T01:28:06+00:00",
+  "halt_reason": "",
+  "halted": false,
+  "live_balance_synced": true,
+  "mode": "live",
+  "peak_equity": 74.9614,
+  "positions": {},
+  "realized_pnl": 0.0,
+  "starting_bankroll": 74.9614,
+  "updated": "2026-07-08T01:28:07+00:00",
+  "venue": "kalshi"
+}
