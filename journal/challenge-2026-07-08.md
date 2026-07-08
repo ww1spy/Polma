@@ -58,3 +58,18 @@ preserved for the remaining days unless the owner explicitly overrides.
   is a permanent engine fix, not challenge-specific.
 - 02:10 UTC — loop v2 running: 43 cycles × 8 min. Open: LAD variance leg +
   BTC-range accident. Cash $15.31.
+- 03:30 UTC — **Checkpoint 1.** Equity $77.79 (+$2.83): +$0.17 realized
+  (BTC-range take-profit), LAD leg marked at 0.82 vs 0.74 entry (Dodgers
+  leading). Loop healthy (re-armed twice around a 30-min monitor clamp).
+- 03:30 UTC — **Learning #5 (the drought is real):** since the band/exclusion
+  fixes, the grind loop has found **zero** qualifying candidates in ~10
+  consecutive scans. Overnight UTC is Kalshi's dead zone — nearly nothing
+  liquid resolves 02:00–08:00 that isn't crypto (excluded as -EV). An edge
+  needs a market to express itself in; time-of-day is a strategy parameter
+  we never priced in. Correct daytime expectation: the same loop during US
+  afternoon/evening would see sports/econ settlements constantly.
+- 03:30 UTC — plan for the back half: LAD settles ~05:15 (+$9.86 if it
+  holds → ~$85). Then scan for anything liquid at 0.70–0.85 resolving
+  before 07:30 (Asia-session markets?) for a second $30 leg; if that wins
+  (~$95), one final small leg only if a clean candidate exists. Floor $56
+  stands. Target remains a stretch: two more wins needed with no losses.
