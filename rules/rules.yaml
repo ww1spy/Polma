@@ -59,7 +59,7 @@ venue_overrides:
         - KXMLBGAME               # pre-game MLB moneylines: +2.2%, both halves
         - KXRT-                   # Rotten Tomatoes (trailing dash: KXRT matched KXRTX5090 GPU markets!)
         - KXTRUMPSAY              # retail lottery flow on YES: NO-side +1.7%
-        - KXWTI                   # +1.9% but mechanism unclear — provisional
+        - KXWTI-                  # +1.9%, provisional (dash: KXWTI matched unvalidated KXWTIW weekly)
         - KXWT20MATCH             # women's T20 cricket: +3.8%
         - KXFIBAGAME              # FIBA basketball: +0.4%, marginal
     strategy:
