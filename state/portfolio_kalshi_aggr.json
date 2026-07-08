@@ -1,6 +1,7 @@
 {
-  "cash": 46.58999999999997,
+  "cash": 52.38999999999997,
   "cooldowns": {
+    "KXHIGHLAX-26JUL08-T78": "2026-07-08",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
@@ -54,19 +55,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL08-B73.5:no"
     },
-    "KXHIGHLAX-26JUL08-T78": {
-      "cost": 39.93,
-      "entry_price": 0.94,
-      "market_id": "KXHIGHLAX-26JUL08-T78",
-      "opened": "2026-07-08T09:05:57+00:00",
+    "KXHIGHLAX-26JUL08-B77.5": {
+      "cost": 36.05,
+      "entry_price": 0.95,
+      "event_ticker": "KXHIGHLAX-26JUL08",
+      "market_id": "KXHIGHLAX-26JUL08-B77.5",
+      "opened": "2026-07-08T18:06:14+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 42.3,
-      "question": "Will the **high temp in LA** be >78\u00b0 on Jul 8, 2026? \u2014 79\u00b0 or above",
+      "qty": 37.81,
+      "question": "Will the **high temp in LA** be 77-78\u00b0 on Jul 8, 2026? \u2014 77\u00b0 to 78\u00b0",
       "rules_version": 2,
-      "slug": "kxhighlax-26jul08-t78",
+      "slug": "kxhighlax-26jul08-b77.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL08-T78:no"
+      "token_id": "KXHIGHLAX-26JUL08-B77.5:no"
     },
     "KXHIGHTBOS-26JUL08-B78.5": {
       "cost": 39.09,
@@ -169,8 +171,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -21.140000000000004,
+  "realized_pnl": -19.220000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-08T17:05:57+00:00",
+  "updated": "2026-07-08T18:06:14+00:00",
   "venue": "kalshi"
 }
