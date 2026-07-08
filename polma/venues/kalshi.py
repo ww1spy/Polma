@@ -44,7 +44,27 @@ def load_private_key_env():
                 pem = decoded
         except Exception:
             pass
-    return pem if "-----" in pem else None
+    if "-----" not in pem:
+        return None
+    return _rewrap_pem(pem)
+
+
+def _rewrap_pem(pem):
+    """Rebuild PEM structure when newlines were flattened to spaces.
+
+    "-----BEGIN RSA PRIVATE KEY----- MIIEpA... -----END RSA PRIVATE KEY-----"
+    becomes a properly line-broken PEM. Already-valid PEMs pass through
+    reconstructed identically.
+    """
+    import re
+
+    m = re.search(r"-----BEGIN ([^-]+)-----(.*?)-----END ([^-]+)-----", pem, re.S)
+    if not m:
+        return pem
+    label, body = m.group(1).strip(), m.group(2)
+    body = re.sub(r"\s+", "", body)
+    lines = [body[i:i + 64] for i in range(0, len(body), 64)]
+    return f"-----BEGIN {label}-----\n" + "\n".join(lines) + f"\n-----END {label}-----\n"
 
 
 def auth_headers(key_id, private_key_pem, method, path):
