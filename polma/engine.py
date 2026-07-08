@@ -24,6 +24,7 @@ def load_rules(venue_name=None):
     ov = (rules.get("venue_overrides") or {}).get(venue_name) or {}
     rules["universe"] = {**rules["universe"], **(ov.get("universe") or {})}
     rules["exits"] = {**rules["exits"], **(ov.get("exits") or {})}
+    rules["sizing"] = {**rules["sizing"], **(ov.get("sizing") or {})}
     strat_ov = ov.get("strategy") or {}
     rules["strategies"] = [{**s, **strat_ov} for s in rules["strategies"]]
     return rules
@@ -168,7 +169,14 @@ def find_candidates(rules, state, venue, max_markets=300):
             if market["spread"] > strat["max_spread"]:
                 continue
             for idx, price in enumerate(market["prices"]):
-                if strat["min_price"] <= price <= strat["max_price"]:
+                # Band-check what we'd actually PAY (the ask for this side),
+                # not the mid — crossing the spread at the band edge otherwise
+                # buys above max_price (live lesson: mid 0.97 filled at 0.982).
+                ask = market["best_ask"] if idx == 0 else (
+                    round(1.0 - market["best_bid"], 4)
+                    if market["best_bid"] is not None else None)
+                entry_price = ask if ask is not None else price
+                if strat["min_price"] <= entry_price <= strat["max_price"]:
                     candidates.append((market, idx, strat["name"]))
                     break  # at most one outcome per market
             break  # first enabled strategy that fires wins
