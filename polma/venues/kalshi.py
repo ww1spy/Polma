@@ -20,15 +20,34 @@ TAKER_FEE_COEF = 0.07
 
 
 def load_private_key_env():
-    """Read the RSA key from KALSHI_PRIVATE_KEY / KALSHI_PRIVATE_KEY_PATH.
+    """Read the RSA key from the environment.
 
-    Tolerates the ways env-var UIs mangle multi-line PEM values: literal
-    "\\n" sequences, surrounding quotes, or the whole file base64-encoded.
+    Sources, in order: KALSHI_PRIVATE_KEY (optionally continued in
+    KALSHI_PRIVATE_KEY_2, _3, ... for env-var UIs with a length limit —
+    chunks are concatenated in numeric order; _1 may start the chain
+    instead), or a file at KALSHI_PRIVATE_KEY_PATH.
+
+    Tolerates the ways env-var UIs mangle values: flattened/escaped
+    newlines, surrounding quotes, or the whole file base64-encoded
+    (including base64 split across the numbered chunks).
     Returns the PEM string or None.
     """
     import os
 
-    pem = os.environ.get("KALSHI_PRIVATE_KEY", "").strip().strip("'\"")
+    def clean(s):
+        return (s or "").strip().strip("'\"")
+
+    parts = [clean(os.environ.get("KALSHI_PRIVATE_KEY"))
+             or clean(os.environ.get("KALSHI_PRIVATE_KEY_1"))]
+    i = 2
+    while True:
+        nxt = clean(os.environ.get(f"KALSHI_PRIVATE_KEY_{i}"))
+        if not nxt:
+            break
+        parts.append(nxt)
+        i += 1
+    pem = "".join(parts)
+
     path = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
     if not pem and path:
         with open(path) as f:
