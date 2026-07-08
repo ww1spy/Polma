@@ -18,6 +18,16 @@ NO-side, WTI, women's T20) is +1.7% to +5.5%. Family selection IS the
 strategy; the price band is just the costume.
 *Evidence: journal/backtests/hypotheses-4wk-2026-07-08.md*
 
+**M2a. Even mechanism-backed family-picking must survive a SECOND
+independent period.** The owner-requested May portfolio test (v9 rules,
+$500, full engine semantics) lost 13.4% and tripped the halt: WTI
+(−$44.91) and MLB (−$30.92) failed out-of-sample despite passing the
+Jun–Jul study; only Rotten Tomatoes (+$8.64) and Trump-mention (+$0.42)
+survived both periods. A 91% win rate coexisted with a −13% month —
+favorites' rare losses arrive CLUSTERED, not i.i.d. Live now trades only
+double-validated families (v10); everything else is measured in paper.
+*Evidence: journal/backtests/oos-may-2026-07-08.md*
+
 **M2. Naive family-picking does not transfer out-of-sample.**
 Families selected for being profitable in weeks 1–2 returned **-2.68%**
 in weeks 3–4 — indistinguishable from the -2.91% pick-nothing baseline.

@@ -9,8 +9,14 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 9
+version: 10
 updated: "2026-07-08"
+# v10: OUT-OF-SAMPLE portfolio test (May 1-31, $500, v9 rules) LOST 13.4%
+# and tripped the halt — WTI (-$45) and MLB (-$31) failed OOS; only
+# Rotten Tomatoes (+$8.6) and Trump-mention (+$0.4) held up. Live now
+# trades ONLY families positive in BOTH periods. Demoted families keep
+# being measured in the aggr paper book.
+# Evidence: journal/backtests/oos-may-2026-07-08.md
 # v8: 4-week study (journal/backtests/hypotheses-4wk-2026-07-08.md) showed
 # the pooled kalshi favorite edge is NEGATIVE (-4.1%, n=4272) and that
 # naive family-picking fails out-of-sample. Kalshi universe is now an
@@ -56,12 +62,12 @@ venue_overrides:
       # positive in both half-periods (n>=30). Everything else measured
       # negative or unstable out-of-sample.
       include_ticker_prefixes:
-        - KXMLBGAME               # pre-game MLB moneylines: +2.2%, both halves
-        - KXRT-                   # Rotten Tomatoes (trailing dash: KXRT matched KXRTX5090 GPU markets!)
-        - KXTRUMPSAY              # retail lottery flow on YES: NO-side +1.7%
-        - KXWTI-                  # +1.9%, provisional (dash: KXWTI matched unvalidated KXWTIW weekly)
-        - KXWT20MATCH             # women's T20 cricket: +3.8%
-        - KXFIBAGAME              # FIBA basketball: +0.4%, marginal
+        # Only families positive BOTH Jun-Jul (selection) AND May (OOS):
+        - KXRT-                   # Rotten Tomatoes: +5.5% in-sample, +$8.64 May OOS, 100% win
+        - KXTRUMPSAY              # NO-side of mention markets: +1.7% / +$0.42 OOS
+        - KXWT20MATCH             # +3.8% in-sample; May OOS small sample, kept provisionally
+        # DEMOTED to aggr paper book after May OOS test (v10):
+        #   KXMLBGAME (-$30.92 May), KXWTI- (-$44.91 May), KXFIBAGAME (no OOS data)
     strategy:
       min_price: 0.90             # 0.90-0.97 band beat 0.85-0.96 on Kalshi
       max_price: 0.97
