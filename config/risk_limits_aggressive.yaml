@@ -1,0 +1,11 @@
+# Risk envelope for the PAPER-ONLY "aggr" experiment profile.
+# Wider than the base limits on purpose — the experiment's question is
+# whether the extra risk buys proportionate growth. Never use for live.
+
+starting_bankroll_usd: 500.0
+max_bankroll_fraction_per_trade: 0.10
+max_open_positions: 12
+max_exposure_fraction: 0.90
+max_daily_realized_loss_fraction: 0.15
+max_drawdown_halt_fraction: 0.30
+one_position_per_market: true

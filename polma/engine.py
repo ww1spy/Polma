@@ -16,8 +16,9 @@ from .venues import get_venue
 RULES_PATH = os.path.join(os.path.dirname(__file__), "..", "rules", "rules.yaml")
 
 
-def load_rules(venue_name=None):
-    with open(RULES_PATH) as f:
+def load_rules(venue_name=None, path=None):
+    path = path or os.environ.get("POLMA_RULES") or RULES_PATH
+    with open(path) as f:
         rules = yaml.safe_load(f)
     # Venue-specific overrides: venues differ in market scale, fee structure,
     # and which pockets are profitable (see journal/backtests/).
@@ -58,7 +59,7 @@ def settle_resolved(state, actions, venue):
         proceeds = round(pos["qty"] * payout_per_share, 2)
         pos_closed, pnl = portfolio.close_position(state, mid, proceeds)
         journal.log_event(
-            "SETTLE", venue=venue.name, mode=state.get("mode", "paper"), market_id=mid, question=pos_closed["question"],
+            "SETTLE", venue=venue.name, profile=state.get("profile"), mode=state.get("mode", "paper"), market_id=mid, question=pos_closed["question"],
             outcome=pos_closed["outcome"], qty=pos_closed["qty"],
             entry_price=pos_closed["entry_price"], payout=payout_per_share,
             proceeds=proceeds, pnl=round(pnl, 2), strategy=pos_closed["strategy"],
@@ -110,7 +111,7 @@ def apply_exits(state, rules, marks, executor, actions, venue):
             continue
         pos_closed, pnl = portfolio.close_position(state, mid, fill["notional"])
         journal.log_event(
-            "EXIT", venue=venue.name, mode=state.get("mode", "paper"), exit_kind=kind, market_id=mid,
+            "EXIT", venue=venue.name, profile=state.get("profile"), mode=state.get("mode", "paper"), exit_kind=kind, market_id=mid,
             question=pos_closed["question"], outcome=pos_closed["outcome"],
             qty=fill["qty"], entry_price=pos_closed["entry_price"],
             exit_price=fill["avg_price"], proceeds=fill["notional"],
@@ -189,7 +190,8 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
     rules_version = rules.get("version", "?")
     entered = 0
     today_loss = journal.today_realized_loss(venue=venue.name,
-                                             mode=state.get("mode", "paper"))
+                                             mode=state.get("mode", "paper"),
+                                             profile=state.get("profile"))
     for market, idx, strat_name in candidates:
         if entered >= rules["sizing"]["max_new_positions_per_cycle"]:
             break
@@ -201,7 +203,7 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
             blocks.append("insufficient cash")
         if blocks:
             journal.log_event(
-                "BLOCK", venue=venue.name, mode=state.get("mode", "paper"), market_id=market["id"],
+                "BLOCK", venue=venue.name, profile=state.get("profile"), mode=state.get("mode", "paper"), market_id=market["id"],
                 question=market["question"], reasons=blocks, rules_version=rules_version,
             )
             actions.append(f"BLOCK {market['question'][:60]}: {'; '.join(blocks)}")
@@ -215,7 +217,7 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
         fill["rules_version"] = rules_version
         portfolio.open_position(state, market, idx, fill)
         journal.log_event(
-            "ENTER", venue=venue.name, mode=state.get("mode", "paper"), market_id=market["id"],
+            "ENTER", venue=venue.name, profile=state.get("profile"), mode=state.get("mode", "paper"), market_id=market["id"],
             question=market["question"], outcome=market["outcomes"][idx],
             strategy=strat_name, qty=fill["qty"], price=fill["avg_price"],
             notional=fill["notional"], fee=fill.get("fee", 0),
@@ -243,10 +245,15 @@ def run_cycle():
     # Live mode requires BOTH the env switch and credentials — a paper run can
     # never accidentally place a real order.
     mode = os.environ.get("POLMA_MODE", "paper").lower()
+    profile = os.environ.get("POLMA_PROFILE") or None
+    if profile and mode == "live":
+        raise RuntimeError("experimental profiles are PAPER-ONLY; unset "
+                           "POLMA_PROFILE for live runs")
     venue = get_venue(os.environ.get("POLMA_VENUE", "polymarket"))
     rules = load_rules(venue.name)
     limits = risk.load_limits()
-    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode, venue=venue.name)
+    state = portfolio.load(limits["starting_bankroll_usd"], mode=mode,
+                           venue=venue.name, profile=profile)
     executor = make_executor(mode, venue)
     actions = [f"venue: {venue.name}, mode: {mode}"]
 
@@ -270,7 +277,7 @@ def run_cycle():
     eq = portfolio.equity(state, marks)
     drawdown = risk.check_drawdown_halt(limits, state, eq)
     if state["halted"]:
-        journal.log_event("HALT", venue=venue.name, mode=state.get("mode", "paper"), reason=state["halt_reason"],
+        journal.log_event("HALT", venue=venue.name, profile=state.get("profile"), mode=state.get("mode", "paper"), reason=state["halt_reason"],
                           equity=round(eq, 2))
         actions.append(f"HALTED: {state['halt_reason']}")
     else:
@@ -282,6 +289,7 @@ def run_cycle():
     summary = {
         "venue": venue.name,
         "mode": mode,
+        "profile": profile,
         "equity": round(eq, 2),
         "cash": round(state["cash"], 2),
         "open_positions": len(state["positions"]),

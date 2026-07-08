@@ -1,0 +1,64 @@
+# ============================================================
+# EXPERIMENTAL profile "aggr" — PAPER ONLY (engine enforces this).
+# Run: POLMA_PROFILE=aggr POLMA_RULES=rules/rules-aggressive.yaml \
+#      POLMA_LIMITS=config/risk_limits_aggressive.yaml \
+#      POLMA_VENUE=kalshi python3 -m polma.cycle
+#
+# Three hypotheses this profile tests against the base v7 book:
+#  H1 (in-play): sports favorites at 0.90-0.97 DURING games, held to
+#     settle with the ask-side disaster stop, are +EV. (The old "no
+#     in-play" rule was driven by stop-loss whipsaw — which we fixed.
+#     The challenge never got to test this: min_hours drops 2h -> 10min.)
+#  H2 (sizing velocity): 8%/trade with up to 12 concurrent positions
+#     compounds meaningfully faster without breaching a 30% halt.
+#  H3 (ETH15M anomaly): the one crypto family positive in ALL backtest
+#     configs keeps its edge at volume.
+# Success test vs base book after ~24h: higher equity AND max drawdown
+# within its envelope AND >= 20 settled trades for signal.
+# ============================================================
+
+version: 1
+updated: "2026-07-08"
+notes: >
+  Aggressive paper experiment. Everything here is deliberately riskier
+  than the base rules; it must never be pointed at real money without
+  its own backtest + owner sign-off.
+
+universe:
+  min_liquidity_usd: 20000
+  min_volume_24h_usd: 10000
+  min_hours_to_resolution: 12
+  max_days_to_resolution: 10
+  exclude_question_keywords: []
+
+strategies:
+  - name: favorite_discount
+    enabled: true
+    description: In-play-inclusive fast favorites (H1) at higher sizing (H2).
+    min_price: 0.90
+    max_price: 0.97
+    max_spread: 0.02
+
+exits:
+  hold_to_resolution: true
+  take_profit_bid: 0.99
+  stop_loss_points: 0.55
+
+venue_overrides:
+  kalshi:
+    universe:
+      min_liquidity_usd: 3000
+      min_volume_24h_usd: 1000
+      min_hours_to_resolution: 0.17    # ~10 min: allows IN-PLAY entries (H1)
+      max_days_to_resolution: 3
+      exclude_ticker_prefixes:
+        - KXPGA
+        - KXBTC
+        - KXSOL
+        - KXETHD
+        - KXETH-                       # keeps KXETH15M allowed (H3)
+
+sizing:
+  bankroll_fraction_per_trade: 0.08    # H2
+  max_notional_per_trade_usd: 40.0
+  max_new_positions_per_cycle: 4

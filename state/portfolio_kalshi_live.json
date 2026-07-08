@@ -5,14 +5,14 @@
     "KXMLBGAME-26JUL072210COLLAD-LAD": "2026-07-08"
   },
   "created": "2026-07-08T01:28:06+00:00",
-  "halt_reason": "drawdown 43.3% from peak $79.39 breached 25% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
-  "halted": true,
+  "halt_reason": "",
+  "halted": false,
   "live_balance_synced": true,
   "mode": "live",
-  "peak_equity": 79.3914,
+  "peak_equity": 44.9914,
   "positions": {},
   "realized_pnl": -29.970000000000002,
   "starting_bankroll": 74.9614,
-  "updated": "2026-07-08T05:10:41+00:00",
+  "updated": "2026-07-08T08:49:51+00:00",
   "venue": "kalshi"
 }

@@ -9,12 +9,12 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 6
+version: 7
 updated: "2026-07-08"
-# v6 = post-challenge revert to the validated v4 parameters. The 6h
-# challenge (v5) ended early at the drawdown halt — full account in
-# journal/challenge-2026-07-08.md and the LAD post-mortem. Kept from the
-# challenge: blanket crypto exclusions, ask-side band check (engine fix).
+# v7 = v6 (validated v4 parameters) + kalshi sizing floor: at the current
+# small live bankroll, 2% per trade is less than ONE contract in the
+# 0.90-0.97 band, so kalshi sizes at 2.5% — the smallest real position.
+# Post-challenge history: journal/challenge-2026-07-08.md + LAD post-mortem.
 notes: >
   v4: Kalshi strategy calibrated from its own backtests (journal/backtests/,
   grid over ~300 settled markets, fees modeled). Kalshi findings: (1) golf
@@ -59,6 +59,9 @@ venue_overrides:
     strategy:
       min_price: 0.90             # 0.90-0.97 band beat 0.85-0.96 on Kalshi
       max_price: 0.97
+    sizing:
+      # 1-contract minimum: 2% of a small bankroll can't buy a 0.90+ contract
+      bankroll_fraction_per_trade: 0.025
 
 # ---- Entry strategies ----
 strategies:

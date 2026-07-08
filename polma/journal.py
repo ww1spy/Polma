@@ -33,7 +33,7 @@ def log_cycle(summary):
     return _append("cycles.jsonl", summary)
 
 
-def today_realized_loss(venue=None, mode=None):
+def today_realized_loss(venue=None, mode=None, profile=None):
     """Sum of today's realized losses (UTC) from the trade log, filtered to
     one venue+mode book — a live loss must not freeze the paper books and
     vice versa. Records predating the mode field count toward every book
@@ -54,6 +54,8 @@ def today_realized_loss(venue=None, mode=None):
             if venue and rec.get("venue", venue) != venue:
                 continue
             if mode and rec.get("mode") and rec["mode"] != mode:
+                continue
+            if rec.get("profile") != profile:
                 continue
             loss += -rec["pnl"]
     return loss

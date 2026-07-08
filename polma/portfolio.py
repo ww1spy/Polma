@@ -6,18 +6,19 @@ from datetime import datetime, timezone
 STATE_DIR = os.path.join(os.path.dirname(__file__), "..", "state")
 
 
-def state_path(mode, venue="polymarket"):
+def state_path(mode, venue="polymarket", profile=None):
     suffix = "" if venue == "polymarket" else f"_{venue}"
     live = "_live" if mode == "live" else ""
-    return os.path.join(STATE_DIR, f"portfolio{suffix}{live}.json")
+    prof = f"_{profile}" if profile else ""
+    return os.path.join(STATE_DIR, f"portfolio{suffix}{prof}{live}.json")
 
 
 def _now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def load(starting_bankroll, mode="paper", venue="polymarket"):
-    path = state_path(mode, venue)
+def load(starting_bankroll, mode="paper", venue="polymarket", profile=None):
+    path = state_path(mode, venue, profile)
     if os.path.exists(path):
         with open(path) as f:
             return json.load(f)
@@ -25,6 +26,7 @@ def load(starting_bankroll, mode="paper", venue="polymarket"):
         "created": _now_iso(),
         "mode": mode,
         "venue": venue,
+        "profile": profile,
         "starting_bankroll": starting_bankroll,
         "cash": starting_bankroll,
         "peak_equity": starting_bankroll,
@@ -42,7 +44,8 @@ def save(state):
     os.makedirs(STATE_DIR, exist_ok=True)
     state["updated"] = _now_iso()
     with open(state_path(state.get("mode", "paper"),
-                         state.get("venue", "polymarket")), "w") as f:
+                         state.get("venue", "polymarket"),
+                         state.get("profile")), "w") as f:
         json.dump(state, f, indent=2, sort_keys=True)
         f.write("\n")
 

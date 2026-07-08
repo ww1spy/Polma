@@ -6,8 +6,9 @@ import yaml
 LIMITS_PATH = os.path.join(os.path.dirname(__file__), "..", "config", "risk_limits.yaml")
 
 
-def load_limits():
-    with open(LIMITS_PATH) as f:
+def load_limits(path=None):
+    path = path or os.environ.get("POLMA_LIMITS") or LIMITS_PATH
+    with open(path) as f:
         return yaml.safe_load(f)
 
 
