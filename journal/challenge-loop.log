@@ -447,3 +447,63 @@
     "scan: 0 candidate(s) passed the rules"
   ]
 }
+{
+  "venue": "kalshi",
+  "mode": "live",
+  "equity": 78.19,
+  "cash": 44.99,
+  "open_positions": 1,
+  "realized_pnl_total": 0.17,
+  "drawdown_from_peak": 0.0,
+  "rules_version": 5,
+  "halted": false,
+  "actions": [
+    "venue: kalshi, mode: live",
+    "scan: 0 candidate(s) passed the rules"
+  ]
+}
+{
+  "venue": "kalshi",
+  "mode": "live",
+  "equity": 77.39,
+  "cash": 44.99,
+  "open_positions": 1,
+  "realized_pnl_total": 0.17,
+  "drawdown_from_peak": 0.0102,
+  "rules_version": 5,
+  "halted": false,
+  "actions": [
+    "venue: kalshi, mode: live",
+    "scan: 0 candidate(s) passed the rules"
+  ]
+}
+{
+  "venue": "kalshi",
+  "mode": "live",
+  "equity": 76.99,
+  "cash": 44.99,
+  "open_positions": 1,
+  "realized_pnl_total": 0.17,
+  "drawdown_from_peak": 0.0153,
+  "rules_version": 5,
+  "halted": false,
+  "actions": [
+    "venue: kalshi, mode: live",
+    "scan: 0 candidate(s) passed the rules"
+  ]
+}
+{
+  "venue": "kalshi",
+  "mode": "live",
+  "equity": 75.39,
+  "cash": 44.99,
+  "open_positions": 1,
+  "realized_pnl_total": 0.17,
+  "drawdown_from_peak": 0.0358,
+  "rules_version": 5,
+  "halted": false,
+  "actions": [
+    "venue: kalshi, mode: live",
+    "scan: 0 candidate(s) passed the rules"
+  ]
+}

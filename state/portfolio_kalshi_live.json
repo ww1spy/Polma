@@ -8,7 +8,7 @@
   "halted": false,
   "live_balance_synced": true,
   "mode": "live",
-  "peak_equity": 75.3914,
+  "peak_equity": 78.19139999999999,
   "positions": {
     "KXMLBGAME-26JUL072210COLLAD-LAD": {
       "cost": 30.14,
@@ -27,6 +27,6 @@
   },
   "realized_pnl": 0.16999999999999815,
   "starting_bankroll": 74.9614,
-  "updated": "2026-07-08T02:11:47+00:00",
+  "updated": "2026-07-08T02:42:01+00:00",
   "venue": "kalshi"
 }
