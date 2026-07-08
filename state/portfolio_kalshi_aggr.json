@@ -1,7 +1,8 @@
 {
-  "cash": 71.02999999999997,
+  "cash": 46.58999999999997,
   "cooldowns": {
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
+    "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08"
   },
@@ -67,20 +68,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL08-T78:no"
     },
-    "KXHIGHNY-26JUL08-T83": {
-      "cost": 40.12,
-      "entry_price": 0.95,
-      "market_id": "KXHIGHNY-26JUL08-T83",
-      "opened": "2026-07-08T08:49:53+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 42.09,
-      "question": "Will the **high temp in NYC** be >83\u00b0 on Jul 8, 2026? \u2014 84\u00b0 or above",
-      "rules_version": 1,
-      "slug": "kxhighny-26jul08-t83",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL08-T83:no"
-    },
     "KXHIGHTBOS-26JUL08-B78.5": {
       "cost": 39.09,
       "entry_price": 0.9297,
@@ -108,6 +95,21 @@
       "slug": "kxliusaeliminationw-26jul10-ani",
       "strategy": "favorite_discount",
       "token_id": "KXLIUSAELIMINATIONW-26JUL10-ANI:no"
+    },
+    "KXLIUSAELIMINATIONW-26JUL10-KEN": {
+      "cost": 36.85,
+      "entry_price": 0.91,
+      "event_ticker": "KXLIUSAELIMINATIONW-26JUL10",
+      "market_id": "KXLIUSAELIMINATIONW-26JUL10-KEN",
+      "opened": "2026-07-08T17:05:57+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 40.23,
+      "question": "Will Kenzie be eliminated from Love Island USA Season 8 before Jul 11, 2026?",
+      "rules_version": 2,
+      "slug": "kxliusaeliminationw-26jul10-ken",
+      "strategy": "favorite_discount",
+      "token_id": "KXLIUSAELIMINATIONW-26JUL10-KEN:yes"
     },
     "KXRTX5090WS-26JUL10-0.750": {
       "cost": 39.05,
@@ -167,8 +169,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 6.569999999999993,
+  "realized_pnl": -21.140000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-08T16:06:13+00:00",
+  "updated": "2026-07-08T17:05:57+00:00",
   "venue": "kalshi"
 }
