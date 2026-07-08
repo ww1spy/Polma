@@ -35,6 +35,8 @@ def max_notional(limits, rules, eq, peak_equity=None):
 
 def entry_blocks(limits, state, eq, notional, today_realized_loss):
     """Return a list of reasons this entry must be refused (empty = allowed)."""
+    from datetime import datetime, timezone
+
     blocks = []
     if state.get("halted"):
         blocks.append(f"portfolio halted: {state.get('halt_reason', 'unknown')}")
@@ -45,7 +47,12 @@ def entry_blocks(limits, state, eq, notional, today_realized_loss):
         blocks.append(
             f"would exceed max exposure {limits['max_exposure_fraction']:.0%} of equity"
         )
-    if today_realized_loss >= limits["max_daily_realized_loss_fraction"] * eq:
+    # A waiver is a dated, owner-authorized, journaled exception that expires
+    # at UTC midnight — it never weakens the rule for any other day.
+    today = datetime.now(timezone.utc).date().isoformat()
+    waived = state.get("daily_loss_waiver") == today
+    if (not waived
+            and today_realized_loss >= limits["max_daily_realized_loss_fraction"] * eq):
         blocks.append("daily realized loss limit hit; no new entries today")
     return blocks
 

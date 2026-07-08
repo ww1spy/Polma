@@ -1,18 +1,48 @@
 {
-  "cash": 44.9914,
+  "cash": 43.1514,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXMLBGAME-26JUL072210COLLAD-LAD": "2026-07-08"
   },
   "created": "2026-07-08T01:28:06+00:00",
+  "daily_loss_waiver": "2026-07-08",
   "halt_reason": "",
   "halted": false,
   "live_balance_synced": true,
   "mode": "live",
   "peak_equity": 44.9914,
-  "positions": {},
+  "positions": {
+    "KXHIGHLAX-26JUL08-B73.5": {
+      "cost": 0.93,
+      "entry_price": 0.92,
+      "market_id": "KXHIGHLAX-26JUL08-B73.5",
+      "opened": "2026-07-08T08:57:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 1.0,
+      "question": "Will the **high temp in LA** be 73-74\u00b0 on Jul 8, 2026? \u2014 73\u00b0 to 74\u00b0",
+      "rules_version": 7,
+      "slug": "kxhighlax-26jul08-b73.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHLAX-26JUL08-B73.5:no"
+    },
+    "KXT20MATCH-26JUL080500ESTDEN-EST": {
+      "cost": 0.91,
+      "entry_price": 0.9,
+      "market_id": "KXT20MATCH-26JUL080500ESTDEN-EST",
+      "opened": "2026-07-08T08:57:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 1.0,
+      "question": "Denmark vs Estonia Winner?",
+      "rules_version": 7,
+      "slug": "kxt20match-26jul080500estden-est",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26JUL080500ESTDEN-EST:no"
+    }
+  },
   "realized_pnl": -29.970000000000002,
   "starting_bankroll": 74.9614,
-  "updated": "2026-07-08T08:49:51+00:00",
+  "updated": "2026-07-08T08:57:39+00:00",
   "venue": "kalshi"
 }
