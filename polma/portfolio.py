@@ -53,6 +53,7 @@ def save(state):
 def open_position(state, market, outcome_idx, fill):
     state["positions"][market["id"]] = {
         "market_id": market["id"],
+        "event_ticker": market.get("event_ticker") or "",
         "question": market["question"],
         "slug": market["slug"],
         "token_id": market["token_ids"][outcome_idx],

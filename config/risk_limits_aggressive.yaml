@@ -9,3 +9,8 @@ max_exposure_fraction: 0.90
 max_daily_realized_loss_fraction: 0.15
 max_drawdown_halt_fraction: 0.30
 one_position_per_market: true
+
+# Correlation guard (LEARNINGS M9/M2a: favorites' losses arrive clustered):
+# never hold two positions on the same event; cap positions per family.
+one_position_per_event: true
+max_positions_per_family: 3

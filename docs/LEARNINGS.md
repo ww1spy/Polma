@@ -74,10 +74,13 @@ is a candidate desert (Learning #5 of the challenge) but entry quality is
 flat across UTC buckets (H6). Cadence and patience solve this; strategy
 changes don't.
 
-**M9. Correlated positions are an unpriced risk.** The books repeatedly
-held multiple positions on one event (France–Morocco cluster; the
-challenge's FDV family). No correlation guard exists yet in code — it's
-the top known gap. *Flagged in rules notes since v2.*
+**M9. Correlated positions are an unpriced risk — now guarded in code.**
+The books repeatedly held multiple positions on one event (France–Morocco
+cluster; the challenge's FDV family), and M2a showed favorites' losses
+arrive clustered. The engine now enforces one position per EVENT and a cap
+per market family (config: one_position_per_event, max_positions_per_family)
+across all books. Residual gap: cross-family correlation (e.g. two crypto
+families moved by one BTC drop) is unguarded.
 
 ---
 
@@ -232,7 +235,14 @@ was written down first.
 
 ---
 
-## Current state (as of 2026-07-08, rules v9)
+**P5. The system re-validates itself.** polma/revalidate.py re-runs the
+rolling family study weekly (scheduled Mondays 12:00 UTC into the owner
+session): DEMOTE flags on live families are pre-authorized and applied
+(conservative direction); promotions always require human review. The
+include-list must re-earn its place every week from fresh data — the
+methodology that caught WTI/MLB survives the end of interactive sessions.
+
+## Current state (as of 2026-07-08, rules v10)
 
 - **Live (Kalshi):** ~$45, 1-contract positions, six-family include-list,
   all guardrails at conservative values. Expected pace: cents/day until

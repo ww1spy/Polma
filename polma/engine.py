@@ -192,12 +192,30 @@ def find_candidates(rules, state, venue, max_markets=300):
 def apply_entries(state, rules, limits, marks, candidates, executor, actions, venue):
     rules_version = rules.get("version", "?")
     entered = 0
+    # Correlation guard (M9): never stack positions on one EVENT, and cap
+    # positions per market family — favorites' losses arrive clustered.
+    held_events = {p.get("event_ticker") for p in state["positions"].values()
+                   if p.get("event_ticker")}
+    fam_counts = {}
+    for p in state["positions"].values():
+        fam = (p.get("event_ticker") or str(p["market_id"])).split("-")[0]
+        fam_counts[fam] = fam_counts.get(fam, 0) + 1
+    max_fam = limits.get("max_positions_per_family")
+    corr_skipped = 0
     today_loss = journal.today_realized_loss(venue=venue.name,
                                              mode=state.get("mode", "paper"),
                                              profile=state.get("profile"))
     for market, idx, strat_name in candidates:
         if entered >= rules["sizing"]["max_new_positions_per_cycle"]:
             break
+        ev = market.get("event_ticker") or ""
+        fam = (ev or str(market["id"])).split("-")[0]
+        if limits.get("one_position_per_event", True) and ev and ev in held_events:
+            corr_skipped += 1
+            continue
+        if max_fam and fam_counts.get(fam, 0) >= max_fam:
+            corr_skipped += 1
+            continue
         eq = portfolio.equity(state, marks)
         notional = risk.max_notional(limits, rules, eq,
                                      peak_equity=state.get("peak_equity"))
@@ -232,7 +250,12 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
             f"ENTER {market['question'][:60]} [{market['outcomes'][idx]}] "
             f"{fill['qty']} @ {fill['avg_price']:.3f} (${fill['notional']:.2f})"
         )
+        if ev:
+            held_events.add(ev)
+        fam_counts[fam] = fam_counts.get(fam, 0) + 1
         entered += 1
+    if corr_skipped:
+        actions.append(f"correlation guard skipped {corr_skipped} candidate(s)")
     return entered
 
 

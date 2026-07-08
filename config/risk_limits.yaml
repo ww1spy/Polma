@@ -32,3 +32,8 @@ max_drawdown_halt_fraction: 0.15
 
 # At most one position per market.
 one_position_per_market: true
+
+# Correlation guard (LEARNINGS M9/M2a: favorites' losses arrive clustered):
+# never hold two positions on the same event; cap positions per family.
+one_position_per_event: true
+max_positions_per_family: 3
