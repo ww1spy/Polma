@@ -1,5 +1,5 @@
 {
-  "cash": 179.82999999999996,
+  "cash": 62.63999999999996,
   "cooldowns": {},
   "created": "2026-07-08T08:49:52+00:00",
   "halt_reason": "",
@@ -77,6 +77,34 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL08-T83:no"
     },
+    "KXHIGHTBOS-26JUL08-B78.5": {
+      "cost": 39.09,
+      "entry_price": 0.9297,
+      "market_id": "KXHIGHTBOS-26JUL08-B78.5",
+      "opened": "2026-07-08T10:08:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.83,
+      "question": "Will the maximum temperature be 78-79\u00b0 on Jul 8, 2026? \u2014 78\u00b0 to 79\u00b0",
+      "rules_version": 2,
+      "slug": "kxhightbos-26jul08-b78.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTBOS-26JUL08-B78.5:no"
+    },
+    "KXRTX5090WS-26JUL10-0.750": {
+      "cost": 39.05,
+      "entry_price": 0.94,
+      "market_id": "KXRTX5090WS-26JUL10-0.750",
+      "opened": "2026-07-08T10:08:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.36,
+      "question": "Will the NVIDIA RTX 5090 compute per hour price be above $0.75 at 4 PM ET on Jul 10? \u2014 Above $0.75",
+      "rules_version": 2,
+      "slug": "kxrtx5090ws-26jul10-0.750",
+      "strategy": "favorite_discount",
+      "token_id": "KXRTX5090WS-26JUL10-0.750:no"
+    },
     "KXT20MATCH-26JUL080500ESTDEN-EST": {
       "cost": 39.92,
       "entry_price": 0.95,
@@ -105,6 +133,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXWTIW-26JUL1014-B68.50:no"
     },
+    "KXWTIW-26JUL1014-B69.50": {
+      "cost": 39.05,
+      "entry_price": 0.9336,
+      "market_id": "KXWTIW-26JUL1014-B69.50",
+      "opened": "2026-07-08T10:08:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.63,
+      "question": "Will the WTI crude oil settlement price be between 69.00 and 69.99 USD/Bbl on Jul 10, 2026? \u2014 $69.00 to $69.99",
+      "rules_version": 2,
+      "slug": "kxwtiw-26jul1014-b69.50",
+      "strategy": "favorite_discount",
+      "token_id": "KXWTIW-26JUL1014-B69.50:no"
+    },
     "KXWTIW-26JUL1014-B75.50": {
       "cost": 39.98,
       "entry_price": 0.92,
@@ -123,6 +165,6 @@
   "profile": "aggr",
   "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-08T09:05:57+00:00",
+  "updated": "2026-07-08T10:08:33+00:00",
   "venue": "kalshi"
 }
