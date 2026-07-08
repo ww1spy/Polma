@@ -57,6 +57,11 @@ predict returns.
 
 ## The learning loop
 
+**Read `docs/LEARNINGS.md` first** — the consolidated distillation of every
+market, risk, methodology, engineering, and process lesson to date, each
+linked to its primary evidence in `journal/`.
+
+
 1. Bot trades on the current rules; every decision is journaled with the
    rules `version` that produced it.
 2. Losses generate post-mortem stubs. During review, fill in *why* it lost
