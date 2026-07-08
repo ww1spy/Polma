@@ -143,6 +143,17 @@ real bid AND ask — entries simulated at ask, exits at bid, fees exact.
 Polymarket history is a single mid-ish series requiring slippage guesses.
 Fidelity differences change conclusions; know which one you're getting.
 
+**B6. Know your data horizon — and what it means when you exhaust it.**
+Kalshi's settled-market index serves a rolling ~65-day window (oldest
+available settlement: ~May 3 as of Jul 8). April is untestable; a naive
+run returned 6 boundary-artifact trades that looked like a (meaningless)
+result. With Jun–Jul consumed by selection and May consumed by the OOS
+test, THE HISTORICAL RECORD IS SPENT: the only remaining out-of-sample
+period is the future. Forward paper/live performance is now the sole
+independent test of v10 — which is precisely what the running books are
+for. (Polymarket history reaches further back; its OOS study can use
+older windows.)
+
 **B5. Simulated fills must walk the real book.** Band-checking the MID
 while filling at the ASK bought a 0.982 entry that "passed" a 0.97 band —
 needing a 98.4% win rate to break even. Candidates are now band-checked
