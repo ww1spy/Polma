@@ -9,12 +9,14 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 7
+version: 8
 updated: "2026-07-08"
-# v7 = v6 (validated v4 parameters) + kalshi sizing floor: at the current
-# small live bankroll, 2% per trade is less than ONE contract in the
-# 0.90-0.97 band, so kalshi sizes at 2.5% — the smallest real position.
-# Post-challenge history: journal/challenge-2026-07-08.md + LAD post-mortem.
+# v8: 4-week study (journal/backtests/hypotheses-4wk-2026-07-08.md) showed
+# the pooled kalshi favorite edge is NEGATIVE (-4.1%, n=4272) and that
+# naive family-picking fails out-of-sample. Kalshi universe is now an
+# INCLUDE-LIST of mechanism-backed families positive in both half-periods;
+# take-profit 0.99 -> 0.98 (same ROI, 3h faster capital recycling).
+# History: v7 sizing floor; challenge post-mortems in journal/.
 notes: >
   v4: Kalshi strategy calibrated from its own backtests (journal/backtests/,
   grid over ~300 settled markets, fees modeled). Kalshi findings: (1) golf
@@ -46,16 +48,16 @@ venue_overrides:
       min_volume_24h_usd: 5000
       min_hours_to_resolution: 2
       max_days_to_resolution: 3   # the edge decays fast with horizon here
-      exclude_ticker_prefixes:
-        - KXPGA                   # golf finish props: consistent loser in backtests
-        # Crypto strike/range ladders: negative EV in intraday backtests.
-        # Blanket prefixes — a sibling family (KXBTC- ranges) leaked through
-        # narrower ones during the challenge. KXETH15M stays allowed (positive
-        # in all backtest configs).
-        - KXBTC
-        - KXSOL
-        - KXETHD
-        - KXETH-
+      # 4-week evidence: trade ONLY mechanism-backed families that were
+      # positive in both half-periods (n>=30). Everything else measured
+      # negative or unstable out-of-sample.
+      include_ticker_prefixes:
+        - KXMLBGAME               # pre-game MLB moneylines: +2.2%, both halves
+        - KXRT                    # Rotten Tomatoes: +5.5%, 39/39 wins
+        - KXTRUMPSAY              # retail lottery flow on YES: NO-side +1.7%
+        - KXWTI                   # +1.9% but mechanism unclear — provisional
+        - KXWT20MATCH             # women's T20 cricket: +3.8%
+        - KXFIBAGAME              # FIBA basketball: +0.4%, marginal
     strategy:
       min_price: 0.90             # 0.90-0.97 band beat 0.85-0.96 on Kalshi
       max_price: 0.97
@@ -77,7 +79,7 @@ strategies:
 # ---- Exit rules ----
 exits:
   hold_to_resolution: true
-  take_profit_bid: 0.99           # free capital early once outcome is near-certain
+  take_profit_bid: 0.98           # H8 (4wk): same ROI as 0.99, ~3h faster recycling
   # DISASTER stop only: fires when the favorite has fully flipped to
   # underdog (entry 0.90 → trigger ~0.35). Backtests showed tighter stops
   # (0.10, 0.25) lose money in every configuration — do not tighten this
