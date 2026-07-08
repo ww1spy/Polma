@@ -1,6 +1,8 @@
 {
-  "cash": 62.63999999999996,
-  "cooldowns": {},
+  "cash": 64.81999999999996,
+  "cooldowns": {
+    "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08"
+  },
   "created": "2026-07-08T08:49:52+00:00",
   "halt_reason": "",
   "halted": false,
@@ -91,6 +93,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTBOS-26JUL08-B78.5:no"
     },
+    "KXNPBGAME-26JUL080515CHUYOK-YOK": {
+      "cost": 39.25,
+      "entry_price": 0.92,
+      "market_id": "KXNPBGAME-26JUL080515CHUYOK-YOK",
+      "opened": "2026-07-08T11:06:21+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 42.43,
+      "question": "Chunichi Dragons vs Yokohama DeNA BayStars winner?",
+      "rules_version": 2,
+      "slug": "kxnpbgame-26jul080515chuyok-yok",
+      "strategy": "favorite_discount",
+      "token_id": "KXNPBGAME-26JUL080515CHUYOK-YOK:yes"
+    },
     "KXRTX5090WS-26JUL10-0.750": {
       "cost": 39.05,
       "entry_price": 0.94,
@@ -104,20 +120,6 @@
       "slug": "kxrtx5090ws-26jul10-0.750",
       "strategy": "favorite_discount",
       "token_id": "KXRTX5090WS-26JUL10-0.750:no"
-    },
-    "KXT20MATCH-26JUL080500ESTDEN-EST": {
-      "cost": 39.92,
-      "entry_price": 0.95,
-      "market_id": "KXT20MATCH-26JUL080500ESTDEN-EST",
-      "opened": "2026-07-08T09:05:56+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.88,
-      "question": "Denmark vs Estonia Winner?",
-      "rules_version": 2,
-      "slug": "kxt20match-26jul080500estden-est",
-      "strategy": "favorite_discount",
-      "token_id": "KXT20MATCH-26JUL080500ESTDEN-EST:no"
     },
     "KXWTIW-26JUL1014-B68.50": {
       "cost": 40.05,
@@ -163,8 +165,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 0.0,
+  "realized_pnl": 1.509999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-08T10:08:33+00:00",
+  "updated": "2026-07-08T11:06:21+00:00",
   "venue": "kalshi"
 }
