@@ -33,8 +33,11 @@ def log_cycle(summary):
     return _append("cycles.jsonl", summary)
 
 
-def today_realized_loss():
-    """Sum of today's realized losses (UTC), from the trade log."""
+def today_realized_loss(venue=None, mode=None):
+    """Sum of today's realized losses (UTC) from the trade log, filtered to
+    one venue+mode book — a live loss must not freeze the paper books and
+    vice versa. Records predating the mode field count toward every book
+    of their venue (conservative)."""
     path = os.path.join(JOURNAL_DIR, "trades.jsonl")
     if not os.path.exists(path):
         return 0.0
@@ -46,8 +49,13 @@ def today_realized_loss():
                 rec = json.loads(line)
             except ValueError:
                 continue
-            if rec.get("ts", "").startswith(today) and rec.get("pnl", 0) < 0:
-                loss += -rec["pnl"]
+            if not (rec.get("ts", "").startswith(today) and rec.get("pnl", 0) < 0):
+                continue
+            if venue and rec.get("venue", venue) != venue:
+                continue
+            if mode and rec.get("mode") and rec["mode"] != mode:
+                continue
+            loss += -rec["pnl"]
     return loss
 
 

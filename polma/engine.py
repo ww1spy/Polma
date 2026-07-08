@@ -58,7 +58,7 @@ def settle_resolved(state, actions, venue):
         proceeds = round(pos["qty"] * payout_per_share, 2)
         pos_closed, pnl = portfolio.close_position(state, mid, proceeds)
         journal.log_event(
-            "SETTLE", venue=venue.name, market_id=mid, question=pos_closed["question"],
+            "SETTLE", venue=venue.name, mode=state.get("mode", "paper"), market_id=mid, question=pos_closed["question"],
             outcome=pos_closed["outcome"], qty=pos_closed["qty"],
             entry_price=pos_closed["entry_price"], payout=payout_per_share,
             proceeds=proceeds, pnl=round(pnl, 2), strategy=pos_closed["strategy"],
@@ -110,7 +110,7 @@ def apply_exits(state, rules, marks, executor, actions, venue):
             continue
         pos_closed, pnl = portfolio.close_position(state, mid, fill["notional"])
         journal.log_event(
-            "EXIT", venue=venue.name, exit_kind=kind, market_id=mid,
+            "EXIT", venue=venue.name, mode=state.get("mode", "paper"), exit_kind=kind, market_id=mid,
             question=pos_closed["question"], outcome=pos_closed["outcome"],
             qty=fill["qty"], entry_price=pos_closed["entry_price"],
             exit_price=fill["avg_price"], proceeds=fill["notional"],
@@ -188,7 +188,8 @@ def find_candidates(rules, state, venue, max_markets=300):
 def apply_entries(state, rules, limits, marks, candidates, executor, actions, venue):
     rules_version = rules.get("version", "?")
     entered = 0
-    today_loss = journal.today_realized_loss()
+    today_loss = journal.today_realized_loss(venue=venue.name,
+                                             mode=state.get("mode", "paper"))
     for market, idx, strat_name in candidates:
         if entered >= rules["sizing"]["max_new_positions_per_cycle"]:
             break
@@ -200,7 +201,7 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
             blocks.append("insufficient cash")
         if blocks:
             journal.log_event(
-                "BLOCK", venue=venue.name, market_id=market["id"],
+                "BLOCK", venue=venue.name, mode=state.get("mode", "paper"), market_id=market["id"],
                 question=market["question"], reasons=blocks, rules_version=rules_version,
             )
             actions.append(f"BLOCK {market['question'][:60]}: {'; '.join(blocks)}")
@@ -214,7 +215,7 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
         fill["rules_version"] = rules_version
         portfolio.open_position(state, market, idx, fill)
         journal.log_event(
-            "ENTER", venue=venue.name, market_id=market["id"],
+            "ENTER", venue=venue.name, mode=state.get("mode", "paper"), market_id=market["id"],
             question=market["question"], outcome=market["outcomes"][idx],
             strategy=strat_name, qty=fill["qty"], price=fill["avg_price"],
             notional=fill["notional"], fee=fill.get("fee", 0),
@@ -269,7 +270,7 @@ def run_cycle():
     eq = portfolio.equity(state, marks)
     drawdown = risk.check_drawdown_halt(limits, state, eq)
     if state["halted"]:
-        journal.log_event("HALT", venue=venue.name, reason=state["halt_reason"],
+        journal.log_event("HALT", venue=venue.name, mode=state.get("mode", "paper"), reason=state["halt_reason"],
                           equity=round(eq, 2))
         actions.append(f"HALTED: {state['halt_reason']}")
     else:
