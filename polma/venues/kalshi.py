@@ -49,6 +49,35 @@ def load_private_key_env():
     return _rewrap_pem(pem)
 
 
+def diagnose_pem(pem):
+    """Structural diagnostics for an unparseable PEM. Returns ONLY safe
+    metadata (lengths, character classes) — never key material."""
+    import re
+
+    info = {}
+    m = re.search(r"-----BEGIN ([^-]+)-----(.*?)-----END ([^-]+)-----", pem or "", re.S)
+    if not m:
+        info["envelope"] = "no BEGIN/END envelope found"
+        info["total_chars"] = len(pem or "")
+        return info
+    body = re.sub(r"\s+", "", m.group(2))
+    info["label"] = m.group(1).strip()
+    info["body_chars"] = len(body)
+    info["body_len_mod4"] = len(body) % 4
+    info["reference"] = "a 2048-bit PKCS#1 RSA key body is ~1592-1624 chars"
+    bad = sorted(set(re.findall(r"[^A-Za-z0-9+/=]", body)))
+    info["non_base64_chars"] = bad
+    try:
+        raw = base64.b64decode(body, validate=True)
+        info["base64_decodes"] = True
+        info["der_bytes"] = len(raw)
+        info["der_starts_with_sequence"] = raw[:1] == b"\x30"
+    except Exception as e:
+        info["base64_decodes"] = False
+        info["decode_error"] = type(e).__name__
+    return info
+
+
 def _rewrap_pem(pem):
     """Rebuild PEM structure when newlines were flattened to spaces.
 
