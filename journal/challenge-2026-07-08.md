@@ -73,3 +73,44 @@ preserved for the remaining days unless the owner explicitly overrides.
   before 07:30 (Asia-session markets?) for a second $30 leg; if that wins
   (~$95), one final small leg only if a clean candidate exists. Floor $56
   stands. Target remains a stretch: two more wins needed with no losses.
+- ~05:15 UTC — **LAD LOSES.** Colorado came back after LAD was marked 0.85+.
+  Settled -$30.14. Equity $44.99. **Drawdown halt fired (43% from marked
+  peak $79.39 > 25%)** — live trading halted, pending owner review.
+- 05:20 UTC — **Challenge closed early at the halt.** No loss-chasing:
+  overriding our own halt to sprint at a lost target is the exact behavior
+  this program exists to prevent.
+
+## Final accounting
+
+| | |
+|---|---|
+| Start | $74.96 |
+| BTC-range accident (take-profit) | +$0.17 |
+| Grind loop (validated band) | 0 trades — overnight drought (Learning #5) |
+| LAD variance leg | **-$30.14** |
+| **End** | **$44.99 (-40%)** |
+| Target $100 | Not reached. Never realistic; said so up front. |
+
+- **Learning #6 (the big one): a floor only binds if every position's
+  worst case respects it.** We set a $56 floor and then sized a single
+  binary position whose total loss landed at $44.82. Max risk should have
+  been equity − floor ≈ $19. Authorization is a ceiling, not a target.
+  → Now enforced IN CODE: risk.max_notional caps size at equity − floor.
+- **Learning #7: unrealized peaks count.** Peak equity $79.39 was a
+  mark-to-market high (LAD at 0.85); the drawdown halt measured from it.
+  Correct and conservative — but it means variance legs with no
+  profit-taking plan donate their peak to the drawdown math. If variance
+  legs ever return: pre-committed take-profit.
+- **Learning #8: infrastructure is part of risk.** Three container restarts
+  killed the trading loop mid-challenge; the send_later scheduler failed
+  repeatedly. Positions held through infrastructure gaps were unmanaged for
+  up to ~40 min at a time. The hourly Routine was the reliable backstop —
+  design for the backstop, treat fast loops as best-effort.
+
+## Post-challenge state
+- Rules reverted to validated v4 parameters (as v6); challenge risk limits
+  reverted to conservative values. Kept permanently: ask-side band check,
+  blanket crypto exclusions, floor-aware sizing cap.
+- Live trading remains **HALTED** until the owner reviews this file and the
+  LAD post-mortem and explicitly clears it. Paper trading continues on both
+  venues.

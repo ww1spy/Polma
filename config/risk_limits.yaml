@@ -7,28 +7,28 @@
 
 starting_bankroll_usd: 500.0
 
-# ---- TEMPORARY 6-HOUR CHALLENGE VALUES (owner-authorized 2026-07-08,
-# ---- see journal/challenge-2026-07-08.md). Previous values in comments;
-# ---- REVERT when the challenge ends.
+# (Challenge values reverted 2026-07-08 after the drawdown halt — see
+# journal/challenge-2026-07-08.md. Lesson encoded from the LAD post-mortem:
+# a floor only binds if every position's worst case respects it.)
 
 # No single new position may exceed this fraction of current equity,
 # even if rules.yaml asks for more.
-max_bankroll_fraction_per_trade: 0.42   # normal: 0.05
+max_bankroll_fraction_per_trade: 0.05
 
 # Never hold more than this many open positions at once.
 max_open_positions: 8
 
 # Never deploy more than this fraction of equity into positions;
 # the rest stays as cash reserve.
-max_exposure_fraction: 0.85             # normal: 0.60
+max_exposure_fraction: 0.60
 
 # If realized losses today reach this fraction of equity, stop
 # opening new positions until tomorrow (exits still allowed).
-max_daily_realized_loss_fraction: 0.25  # normal: 0.05
+max_daily_realized_loss_fraction: 0.05
 
 # If equity falls this far below its all-time peak, halt ALL new
 # entries until a human reviews the journal and clears the halt.
-max_drawdown_halt_fraction: 0.25        # normal: 0.15
+max_drawdown_halt_fraction: 0.15
 
 # At most one position per market.
 one_position_per_market: true

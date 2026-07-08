@@ -1,32 +1,18 @@
 {
   "cash": 44.9914,
   "cooldowns": {
-    "KXBTC-26JUL0722-B63550": "2026-07-08"
+    "KXBTC-26JUL0722-B63550": "2026-07-08",
+    "KXMLBGAME-26JUL072210COLLAD-LAD": "2026-07-08"
   },
   "created": "2026-07-08T01:28:06+00:00",
-  "halt_reason": "",
-  "halted": false,
+  "halt_reason": "drawdown 43.3% from peak $79.39 breached 25% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
+  "halted": true,
   "live_balance_synced": true,
   "mode": "live",
-  "peak_equity": 78.19139999999999,
-  "positions": {
-    "KXMLBGAME-26JUL072210COLLAD-LAD": {
-      "cost": 30.14,
-      "entry_price": 0.74,
-      "market_id": "KXMLBGAME-26JUL072210COLLAD-LAD",
-      "opened": "2026-07-08T01:39:49+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 40.0,
-      "question": "Colorado vs Los Angeles D Winner?",
-      "rules_version": 5,
-      "slug": "kxmlbgame-26jul072210collad-lad",
-      "strategy": "variance_leg",
-      "token_id": "KXMLBGAME-26JUL072210COLLAD-LAD:yes"
-    }
-  },
-  "realized_pnl": 0.16999999999999815,
+  "peak_equity": 79.3914,
+  "positions": {},
+  "realized_pnl": -29.970000000000002,
   "starting_bankroll": 74.9614,
-  "updated": "2026-07-08T02:58:03+00:00",
+  "updated": "2026-07-08T05:07:11+00:00",
   "venue": "kalshi"
 }

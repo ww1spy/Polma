@@ -9,11 +9,12 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 5
+version: 6
 updated: "2026-07-08"
-# v5 = TEMPORARY 6-hour challenge config (owner-authorized, see
-# journal/challenge-2026-07-08.md). Kalshi overrides switch to intraday
-# horizon with $30 sizing. REVERT to v4 values when the challenge ends.
+# v6 = post-challenge revert to the validated v4 parameters. The 6h
+# challenge (v5) ended early at the drawdown halt — full account in
+# journal/challenge-2026-07-08.md and the LAD post-mortem. Kept from the
+# challenge: blanket crypto exclusions, ask-side band check (engine fix).
 notes: >
   v4: Kalshi strategy calibrated from its own backtests (journal/backtests/,
   grid over ~300 settled markets, fees modeled). Kalshi findings: (1) golf
@@ -41,10 +42,10 @@ universe:
 venue_overrides:
   kalshi:
     universe:
-      min_liquidity_usd: 3000     # intraday markets run smaller
-      min_volume_24h_usd: 1000
-      min_hours_to_resolution: 0.15   # ~9 min — no last-second entries
-      max_days_to_resolution: 0.25    # 6h — challenge window only
+      min_liquidity_usd: 10000    # open-interest proxy, ~$1/contract
+      min_volume_24h_usd: 5000
+      min_hours_to_resolution: 2
+      max_days_to_resolution: 3   # the edge decays fast with horizon here
       exclude_ticker_prefixes:
         - KXPGA                   # golf finish props: consistent loser in backtests
         # Crypto strike/range ladders: negative EV in intraday backtests.
@@ -58,10 +59,6 @@ venue_overrides:
     strategy:
       min_price: 0.90             # 0.90-0.97 band beat 0.85-0.96 on Kalshi
       max_price: 0.97
-    sizing:
-      bankroll_fraction_per_trade: 0.40
-      max_notional_per_trade_usd: 30.0
-      max_new_positions_per_cycle: 3
 
 # ---- Entry strategies ----
 strategies:

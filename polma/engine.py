@@ -193,7 +193,8 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
         if entered >= rules["sizing"]["max_new_positions_per_cycle"]:
             break
         eq = portfolio.equity(state, marks)
-        notional = risk.max_notional(limits, rules, eq)
+        notional = risk.max_notional(limits, rules, eq,
+                                     peak_equity=state.get("peak_equity"))
         blocks = risk.entry_blocks(limits, state, eq, notional, today_loss)
         if notional > state["cash"]:
             blocks.append("insufficient cash")

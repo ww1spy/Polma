@@ -11,17 +11,25 @@ def load_limits():
         return yaml.safe_load(f)
 
 
-def max_notional(limits, rules, eq):
+def max_notional(limits, rules, eq, peak_equity=None):
     """Per-trade notional: the strategy's ask, capped by the hard limit and
     by POLMA_MAX_NOTIONAL_USD when set (used to floor sizing during live
-    validation, e.g. =2 for the first real-money cycles)."""
+    validation, e.g. =2 for the first real-money cycles).
+
+    Also capped so a TOTAL loss of the position cannot single-handedly
+    breach the drawdown-halt floor (LAD post-mortem, 2026-07-08: a floor
+    only binds if every position's worst case respects it)."""
     want = min(
         rules["sizing"]["bankroll_fraction_per_trade"] * eq,
         rules["sizing"]["max_notional_per_trade_usd"],
     )
     hard_cap = limits["max_bankroll_fraction_per_trade"] * eq
     env_cap = float(os.environ.get("POLMA_MAX_NOTIONAL_USD", "inf"))
-    return min(want, hard_cap, env_cap)
+    floor_cap = float("inf")
+    if peak_equity:
+        floor = peak_equity * (1.0 - limits["max_drawdown_halt_fraction"])
+        floor_cap = max(eq - floor, 0.0)
+    return min(want, hard_cap, env_cap, floor_cap)
 
 
 def entry_blocks(limits, state, eq, notional, today_realized_loss):
