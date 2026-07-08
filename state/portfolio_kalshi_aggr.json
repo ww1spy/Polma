@@ -1,6 +1,7 @@
 {
-  "cash": 68.15999999999997,
+  "cash": 71.02999999999997,
   "cooldowns": {
+    "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08"
   },
@@ -66,20 +67,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL08-T78:no"
     },
-    "KXHIGHNY-26JUL08-B78.5": {
-      "cost": 39.09,
-      "entry_price": 0.94,
-      "market_id": "KXHIGHNY-26JUL08-B78.5",
-      "opened": "2026-07-08T12:06:17+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.41,
-      "question": "Will the **high temp in NYC** be 78-79\u00b0 on Jul 8, 2026? \u2014 78\u00b0 to 79\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighny-26jul08-b78.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL08-B78.5:no"
-    },
     "KXHIGHNY-26JUL08-T83": {
       "cost": 40.12,
       "entry_price": 0.95,
@@ -107,6 +94,20 @@
       "slug": "kxhightbos-26jul08-b78.5",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTBOS-26JUL08-B78.5:no"
+    },
+    "KXLIUSAELIMINATIONW-26JUL10-ANI": {
+      "cost": 38.1,
+      "entry_price": 0.96,
+      "market_id": "KXLIUSAELIMINATIONW-26JUL10-ANI",
+      "opened": "2026-07-08T16:06:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.58,
+      "question": "Will Aniya be eliminated from Love Island USA Season 8 before Jul 11, 2026?",
+      "rules_version": 2,
+      "slug": "kxliusaeliminationw-26jul10-ani",
+      "strategy": "favorite_discount",
+      "token_id": "KXLIUSAELIMINATIONW-26JUL10-ANI:no"
     },
     "KXRTX5090WS-26JUL10-0.750": {
       "cost": 39.05,
@@ -166,8 +167,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 4.689999999999998,
+  "realized_pnl": 6.569999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-08T15:06:14+00:00",
+  "updated": "2026-07-08T16:06:13+00:00",
   "venue": "kalshi"
 }
