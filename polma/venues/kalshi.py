@@ -19,6 +19,32 @@ BASE = "https://api.elections.kalshi.com/trade-api/v2"
 TAKER_FEE_COEF = 0.07
 
 
+def fetch_balance():
+    """Signed GET of the account balance in dollars, or None if unavailable.
+
+    Requires KALSHI_API_KEY_ID + the private key in the environment.
+    """
+    import os
+
+    from ..http import SESSION
+
+    key_id = os.environ.get("KALSHI_API_KEY_ID")
+    pem = load_private_key_env()
+    if not (key_id and pem):
+        return None
+    path = "/trade-api/v2/portfolio/balance"
+    resp = SESSION.get(f"{BASE.rsplit('/trade-api', 1)[0]}{path}",
+                       headers=auth_headers(key_id, pem, "GET", path), timeout=20)
+    resp.raise_for_status()
+    data = resp.json()
+    for k in ("balance_dollars", "available_balance_dollars"):
+        if data.get(k) is not None:
+            return float(data[k])
+    if data.get("balance") is not None:
+        return float(data["balance"]) / 100.0  # legacy cents
+    return None
+
+
 def load_private_key_env():
     """Read the RSA key from the environment.
 

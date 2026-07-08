@@ -240,6 +240,19 @@ def run_cycle():
     executor = make_executor(mode, venue)
     actions = [f"venue: {venue.name}, mode: {mode}"]
 
+    # A brand-new LIVE portfolio starts from the real account balance, not
+    # the paper bankroll constant.
+    if (mode == "live" and venue.name == "kalshi"
+            and not state["positions"] and not state.get("live_balance_synced")):
+        from .venues.kalshi import fetch_balance
+        balance = fetch_balance()
+        if balance is None:
+            raise RuntimeError("live mode: could not read Kalshi balance to "
+                               "initialize the portfolio — refusing to trade blind")
+        state.update(cash=balance, starting_bankroll=balance,
+                     peak_equity=balance, live_balance_synced=True)
+        actions.append(f"live portfolio initialized from account balance")
+
     settle_resolved(state, actions, venue)
     marks = mark_positions(state, actions, venue)
     apply_exits(state, rules, marks, executor, actions, venue)

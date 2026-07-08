@@ -48,6 +48,16 @@ minutes, most of it waiting on KYC.
    Anyone with it can trade (though Kalshi API keys cannot withdraw funds
    — withdrawals stay behind your login).
 
+## Where live orders can run (learned the hard way)
+
+Headless trigger-spawned sessions cannot place real-money orders: the
+platform's safety classifier requires the owner's authorization to be
+verifiable in the session doing the trading, and a claim relayed inside a
+trigger prompt doesn't qualify. Live trading therefore runs in the main
+owner-authorized session (woken hourly by its Routine), while fresh
+headless sessions handle read-only work (checks, paper data). Fresh
+sessions also have read-only git access.
+
 ## Then the validation sequence (run together, in order)
 
 1. `pip install -r requirements-live.txt`

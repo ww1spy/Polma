@@ -59,11 +59,18 @@ class PaperExecutor:
 
 
 class KalshiLiveExecutor:
-    """Real Kalshi orders: marketable limit IOC, signed with the API key.
+    """Real Kalshi orders via the V2 order API (marketable limit IOC).
 
-    Field names for order placement (count/price units) MUST be validated
-    with a 1-contract order during live onboarding before real sizing.
+    V2 semantics (docs.kalshi.com api-reference/orders/create-order-v2):
+    everything is expressed on the YES leg — side is "bid"/"ask", prices are
+    dollar strings. Buying NO == ask on YES at (1 - no_price); selling NO ==
+    bid on YES. Fills come back as fill_count / average_fill_price /
+    average_fee_paid (per contract).
     """
+
+    ORDER_HOSTS = ("https://external-api.kalshi.com",
+                   "https://api.elections.kalshi.com")
+    ORDERS_PATH = "/trade-api/v2/portfolio/events/orders"
 
     def __init__(self):
         from .venues import kalshi
@@ -80,37 +87,52 @@ class KalshiLiveExecutor:
     def _post(self, path, payload):
         from .http import SESSION
 
-        url = f"https://api.elections.kalshi.com{path}"
-        headers = self.kalshi.auth_headers(self.key_id, self.pem, "POST", path)
-        resp = SESSION.post(url, json=payload, headers=headers, timeout=20)
-        resp.raise_for_status()
-        return resp.json()
+        last_err = None
+        for host in self.ORDER_HOSTS:
+            headers = self.kalshi.auth_headers(self.key_id, self.pem, "POST", path)
+            resp = SESSION.post(f"{host}{path}", json=payload,
+                                headers=headers, timeout=20)
+            if resp.status_code in (404, 410):
+                last_err = resp  # endpoint not on this host — try the next
+                continue
+            resp.raise_for_status()
+            return resp.json()
+        last_err.raise_for_status()
 
     def _order(self, token_id, action, count, limit_price):
-        ticker, side = token_id.rsplit(":", 1)
-        price_cents = max(1, min(99, round(limit_price * 100)))
+        """Place an IOC limit order. count = whole contracts; limit_price is
+        in the TOKEN's own price space (no-tokens use NO prices)."""
+        ticker, leg = token_id.rsplit(":", 1)
+        if leg == "yes":
+            side = "bid" if action == "buy" else "ask"
+            yes_price = limit_price
+        else:
+            side = "ask" if action == "buy" else "bid"
+            yes_price = 1.0 - limit_price
+        yes_price = min(max(round(yes_price, 4), 0.01), 0.99)
         payload = {
             "ticker": ticker,
             "client_order_id": str(uuid.uuid4()),
-            "action": action,
             "side": side,
-            "type": "limit",
-            "count": int(count),
+            "count": f"{count:.2f}",
+            "price": f"{yes_price:.4f}",
             "time_in_force": "immediate_or_cancel",
-            f"{side}_price": price_cents,
+            "self_trade_prevention_type": "taker_at_cross",
         }
-        data = self._post("/trade-api/v2/portfolio/orders", payload)
+        if action == "sell":
+            payload["reduce_only"] = True  # never flip an exit into a short
+        data = self._post(self.ORDERS_PATH, payload)
         order = data.get("order", data)
-        qty = float(order.get("taker_fill_count") or order.get("filled_count") or 0)
-        cost = float(order.get("taker_fill_cost_dollars")
-                     or order.get("fill_cost_dollars") or 0)
-        fee = float(order.get("taker_fees_dollars") or order.get("fees_dollars") or 0)
-        if qty <= 0:
+        fill = float(order.get("fill_count") or 0)
+        if fill <= 0:
             return None
-        avg = cost / qty if cost else limit_price
+        avg_yes = float(order.get("average_fill_price") or yes_price)
+        fee = round(float(order.get("average_fee_paid") or 0) * fill, 4)
+        avg_tok = avg_yes if leg == "yes" else round(1.0 - avg_yes, 4)
+        cost = fill * avg_tok
         notional = cost + fee if action == "buy" else cost - fee
-        return {"qty": qty, "notional": round(notional, 2),
-                "avg_price": round(avg, 4), "fee": fee, "raw": order}
+        return {"qty": fill, "notional": round(notional, 2),
+                "avg_price": round(avg_tok, 4), "fee": round(fee, 2), "raw": order}
 
     def buy(self, token_id, notional):
         book_ask = self._best_price(token_id, "asks")
