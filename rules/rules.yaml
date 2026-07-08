@@ -9,7 +9,7 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 8
+version: 9
 updated: "2026-07-08"
 # v8: 4-week study (journal/backtests/hypotheses-4wk-2026-07-08.md) showed
 # the pooled kalshi favorite edge is NEGATIVE (-4.1%, n=4272) and that
@@ -44,8 +44,12 @@ universe:
 venue_overrides:
   kalshi:
     universe:
-      min_liquidity_usd: 10000    # open-interest proxy, ~$1/contract
-      min_volume_24h_usd: 5000
+      # v9: thresholds aligned to what the 4-week backtest actually measured
+      # (volume >= $2000; the include-list now does the quality filtering,
+      # and 1-contract sizing needs no depth). The old 10k OI floor was
+      # rejecting in-band trades in validated families (e.g. WTI strikes).
+      min_liquidity_usd: 2000
+      min_volume_24h_usd: 1000
       min_hours_to_resolution: 2
       max_days_to_resolution: 3   # the edge decays fast with horizon here
       # 4-week evidence: trade ONLY mechanism-backed families that were
@@ -53,7 +57,7 @@ venue_overrides:
       # negative or unstable out-of-sample.
       include_ticker_prefixes:
         - KXMLBGAME               # pre-game MLB moneylines: +2.2%, both halves
-        - KXRT                    # Rotten Tomatoes: +5.5%, 39/39 wins
+        - KXRT-                   # Rotten Tomatoes (trailing dash: KXRT matched KXRTX5090 GPU markets!)
         - KXTRUMPSAY              # retail lottery flow on YES: NO-side +1.7%
         - KXWTI                   # +1.9% but mechanism unclear — provisional
         - KXWT20MATCH             # women's T20 cricket: +3.8%
