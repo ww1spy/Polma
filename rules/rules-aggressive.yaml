@@ -17,12 +17,16 @@
 # within its envelope AND >= 20 settled trades for signal.
 # ============================================================
 
-version: 1
+version: 2
 updated: "2026-07-08"
 notes: >
-  Aggressive paper experiment. Everything here is deliberately riskier
-  than the base rules; it must never be pointed at real money without
-  its own backtest + owner sign-off.
+  Aggressive paper experiment. v2: H1 (in-play) is DEAD — backtest over 444
+  settled sports markets showed in-play favorites lose 5-16% ROI (win rates
+  71-87% vs ~94% breakeven) while pre-game 4-12h entries return +2.9% at
+  95.7%. min_hours restored to 2h. Remaining hypotheses: H2 sizing velocity
+  (Monte Carlo: 8%/30%-halt ≈ 3x median growth of 2.5%, p10 -12%, halt 1.2%)
+  and H3 ETH15M (separate "eth15" profile). Never point at real money
+  without owner sign-off.
 
 universe:
   min_liquidity_usd: 20000
@@ -49,7 +53,7 @@ venue_overrides:
     universe:
       min_liquidity_usd: 3000
       min_volume_24h_usd: 1000
-      min_hours_to_resolution: 0.17    # ~10 min: allows IN-PLAY entries (H1)
+      min_hours_to_resolution: 2       # H1 verdict: in-play LOSES; pre-game only
       max_days_to_resolution: 3
       exclude_ticker_prefixes:
         - KXPGA

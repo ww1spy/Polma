@@ -144,6 +144,9 @@ def in_universe(market, uni):
     tick = str(market.get("event_ticker") or market["id"])
     if any(tick.startswith(p) for p in uni.get("exclude_ticker_prefixes") or []):
         return False
+    include = uni.get("include_ticker_prefixes")
+    if include and not any(tick.startswith(p) for p in include):
+        return False
     return True
 
 
