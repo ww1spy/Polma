@@ -26,8 +26,14 @@ def load_rules(venue_name=None, path=None):
     rules["universe"] = {**rules["universe"], **(ov.get("universe") or {})}
     rules["exits"] = {**rules["exits"], **(ov.get("exits") or {})}
     rules["sizing"] = {**rules["sizing"], **(ov.get("sizing") or {})}
-    strat_ov = ov.get("strategy") or {}
-    rules["strategies"] = [{**s, **strat_ov} for s in rules["strategies"]]
+    if ov.get("strategies"):
+        # Full per-venue strategy list — replaces the base list outright
+        # (needed once a venue runs multiple bands: a blanket dict merge
+        # would clobber every strategy with the same min/max price).
+        rules["strategies"] = ov["strategies"]
+    else:
+        strat_ov = ov.get("strategy") or {}
+        rules["strategies"] = [{**s, **strat_ov} for s in rules["strategies"]]
     return rules
 
 
@@ -91,17 +97,23 @@ def mark_positions(state, actions, venue):
 
 def apply_exits(state, rules, marks, executor, actions, venue):
     exits = rules["exits"]
+    # A strategy may override take_profit_bid (rt_last_mile enters at 0.97+,
+    # so the global 0.98 tp would close it instantly for fees — it holds to
+    # settlement via an unreachable tp instead).
+    strat_tp = {s["name"]: s["take_profit_bid"] for s in rules["strategies"]
+                if "take_profit_bid" in s}
     for mid in list(state["positions"]):
         pos = state["positions"][mid]
         mark = marks.get(mid) or {}
         bid, ask = mark.get("bid"), mark.get("ask")
         kind = None
+        tp = strat_tp.get(pos.get("strategy"), exits["take_profit_bid"])
         # Stop triggers on the ASK: a lone collapsed bid in a thin book is
         # noise, but a collapsed ask means the market has truly repriced.
         # (Backtests: bid-triggered stops phantom-fired constantly on Kalshi.)
         if ask is not None and ask <= pos["entry_price"] - exits["stop_loss_points"]:
             kind = "stop_loss"
-        elif bid is not None and bid >= exits["take_profit_bid"]:
+        elif bid is not None and bid >= tp:
             kind = "take_profit"
         if kind is None:
             continue
@@ -167,8 +179,16 @@ def find_candidates(rules, state, venue, max_markets=300):
             continue  # don't re-enter a market we exited today
         if not in_universe(market, rules["universe"]):
             continue
+        tick = str(market.get("event_ticker") or market["id"])
+        matched = False
         for strat in rules["strategies"]:
             if not strat.get("enabled"):
+                continue
+            # A strategy may be scoped to specific families (e.g. rt_last_mile
+            # only applies to KXRT- — the settlement-lag edge is family-
+            # specific, see journal/backtests/structure-study-2026-07-09.md).
+            sinc = strat.get("include_ticker_prefixes")
+            if sinc and not any(tick.startswith(p) for p in sinc):
                 continue
             if market["spread"] > strat["max_spread"]:
                 continue
@@ -182,8 +202,10 @@ def find_candidates(rules, state, venue, max_markets=300):
                 entry_price = ask if ask is not None else price
                 if strat["min_price"] <= entry_price <= strat["max_price"]:
                     candidates.append((market, idx, strat["name"]))
+                    matched = True
                     break  # at most one outcome per market
-            break  # first enabled strategy that fires wins
+            if matched:
+                break  # first strategy that fires wins the market
     # Most liquid first — easiest to enter and exit.
     candidates.sort(key=lambda c: c[0]["liquidity"], reverse=True)
     return candidates

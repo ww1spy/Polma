@@ -9,8 +9,17 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 10
-updated: "2026-07-08"
+version: 11
+updated: "2026-07-09"
+# v11: RT "last-mile" strategy (owner-approved for paper AND live). An RT
+# threshold market's outcome is often publicly decided (score posted) hours
+# before Kalshi settles it, so 0.97-0.995 entries collect a settlement-lag
+# premium on a decided fact: 119/119 wins, +1.86% ROI after fees over 60d,
+# halves +1.96%/+1.77%. The same trade LOSES in WT20/WTI/ETH15M (they can
+# still flip late) — so it is scoped to KXRT- only, NOT a band extension.
+# Holds to settlement (per-strategy tp override; global 0.98 tp would close
+# a 0.98 entry instantly). Kalshi now carries its own strategies list.
+# Evidence: journal/backtests/structure-study-2026-07-09.md
 # v10: OUT-OF-SAMPLE portfolio test (May 1-31, $500, v9 rules) LOST 13.4%
 # and tripped the halt — WTI (-$45) and MLB (-$31) failed OOS; only
 # Rotten Tomatoes (+$8.6) and Trump-mention (+$0.4) held up. Live now
@@ -68,9 +77,28 @@ venue_overrides:
         - KXWT20MATCH             # +3.8% in-sample; May OOS small sample, kept provisionally
         # DEMOTED to aggr paper book after May OOS test (v10):
         #   KXMLBGAME (-$30.92 May), KXWTI- (-$44.91 May), KXFIBAGAME (no OOS data)
-    strategy:
-      min_price: 0.90             # 0.90-0.97 band beat 0.85-0.96 on Kalshi
-      max_price: 0.97
+    # v11: full strategy list for Kalshi (replaces the base list at load).
+    strategies:
+      - name: favorite_discount
+        enabled: true
+        description: >
+          Buy the favored outcome at 90-97c and hold to resolution.
+          0.90-0.97 band beat 0.85-0.96 on Kalshi (v4 backtests).
+        min_price: 0.90
+        max_price: 0.97
+        max_spread: 0.02
+      - name: rt_last_mile
+        enabled: true
+        description: >
+          KXRT- only: buy 0.97-0.995 favorites in the final approach. The RT
+          score is usually already published — this collects the settlement
+          lag, not a prediction. 119/119 wins, +1.86% ROI, both halves
+          positive (structure-study-2026-07-09). Holds to settlement.
+        include_ticker_prefixes: [KXRT-]
+        min_price: 0.97
+        max_price: 0.995
+        max_spread: 0.02
+        take_profit_bid: 1.01     # unreachable — hold to settlement
     sizing:
       # 1-contract minimum: 2% of a small bankroll can't buy a 0.90+ contract
       bankroll_fraction_per_trade: 0.025
