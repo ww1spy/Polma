@@ -1,11 +1,12 @@
 {
-  "cash": 95.84999999999997,
+  "cash": 137.22999999999996,
   "cooldowns": {
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
+    "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08"
   },
@@ -42,20 +43,6 @@
       "slug": "kxaprpotus-26jul10-41.2",
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26JUL10-41.2:no"
-    },
-    "KXHIGHTBOS-26JUL08-B78.5": {
-      "cost": 39.09,
-      "entry_price": 0.9297,
-      "market_id": "KXHIGHTBOS-26JUL08-B78.5",
-      "opened": "2026-07-08T10:08:33+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.83,
-      "question": "Will the maximum temperature be 78-79\u00b0 on Jul 8, 2026? \u2014 78\u00b0 to 79\u00b0",
-      "rules_version": 2,
-      "slug": "kxhightbos-26jul08-b78.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTBOS-26JUL08-B78.5:no"
     },
     "KXLIUSAELIMINATIONW-26JUL10-ANI": {
       "cost": 38.1,
@@ -144,8 +131,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -52.029999999999994,
+  "realized_pnl": -49.739999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-08T23:06:06+00:00",
+  "updated": "2026-07-09T00:06:25+00:00",
   "venue": "kalshi"
 }
