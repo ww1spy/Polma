@@ -1,12 +1,13 @@
 {
-  "cash": 434.71,
+  "cash": 415.23,
   "cooldowns": {
     "2804857": "2026-07-09",
     "2804877": "2026-07-09",
     "2804885": "2026-07-09",
     "2804892": "2026-07-09",
     "2815244": "2026-07-08",
-    "2821797": "2026-07-09"
+    "2821797": "2026-07-09",
+    "2840841": "2026-07-09"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
@@ -56,20 +57,50 @@
       "strategy": "favorite_discount",
       "token_id": "104168612209577741232048048702224916349341407364901971672986978453223992318663"
     },
-    "2840841": {
+    "2829192": {
       "cost": 9.89,
-      "entry_price": 0.97,
+      "entry_price": 0.9,
       "event_ticker": "",
-      "market_id": "2840841",
-      "opened": "2026-07-09T22:04:32+00:00",
-      "outcome": "Hernan Casanova",
-      "outcome_idx": 0,
-      "qty": 10.19,
-      "question": "Bogota: Hernan Casanova vs Luciano Emanuel Ambrogi",
-      "rules_version": 10,
-      "slug": "atp-casanov-ambrogi-2026-07-08",
+      "market_id": "2829192",
+      "opened": "2026-07-09T22:49:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.99,
+      "question": "Exact Score: Spain 2 - 0 Belgium?",
+      "rules_version": 11,
+      "slug": "fifwc-esp-bel-2026-07-10-exact-score-2-0",
       "strategy": "favorite_discount",
-      "token_id": "57469186888784520156829438164857823734737152389873833692390601630863560777202"
+      "token_id": "101500485608653350092955762641455442307350054339527058741912588684776307874003"
+    },
+    "2829196": {
+      "cost": 9.89,
+      "entry_price": 0.89,
+      "event_ticker": "",
+      "market_id": "2829196",
+      "opened": "2026-07-09T22:49:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.11,
+      "question": "Exact Score: Spain 2 - 1 Belgium?",
+      "rules_version": 11,
+      "slug": "fifwc-esp-bel-2026-07-10-exact-score-2-1",
+      "strategy": "favorite_discount",
+      "token_id": "89678620324945103691453027244768442808347756718998569444909552396402439411892"
+    },
+    "2829197": {
+      "cost": 9.89,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "2829197",
+      "opened": "2026-07-09T22:49:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.52,
+      "question": "Exact Score: Spain 3 - 0 Belgium?",
+      "rules_version": 11,
+      "slug": "fifwc-esp-bel-2026-07-10-exact-score-3-0",
+      "strategy": "favorite_discount",
+      "token_id": "82295795004428430940433303735647458980029294814595402162619417282565717266755"
     },
     "2851088": {
       "cost": 9.89,
@@ -101,7 +132,7 @@
       "token_id": "111538579557239934343870815626480092245052857494675784434731223739153238373070"
     }
   },
-  "realized_pnl": -5.52,
+  "realized_pnl": -5.220000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-09T22:04:32+00:00"
+  "updated": "2026-07-09T22:49:50+00:00"
 }
