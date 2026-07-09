@@ -9,8 +9,15 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 11
+version: 12
 updated: "2026-07-09"
+# v12: kalshi sizing 2.5% -> 5% (owner-approved 2026-07-09, "sizing change
+# 1"). Monte Carlo over the live families' 60-day trade data: 5% roughly
+# doubles median 30-day growth (+16.6% -> +35.5%) at P(halt) ~= 0.2% with
+# the 15% drawdown halt UNCHANGED. 5% is exactly the hard cap in
+# config/risk_limits.yaml — the hard limits did not move. Going past 5%
+# requires live confirmation first (25 settled live trades, <=2 losses)
+# AND a separate owner decision. Evidence: journal/backtests/sizing-mc-2026-07-09.md
 # v11: RT "last-mile" strategy (owner-approved for paper AND live). An RT
 # threshold market's outcome is often publicly decided (score posted) hours
 # before Kalshi settles it, so 0.97-0.995 entries collect a settlement-lag
@@ -100,8 +107,10 @@ venue_overrides:
         max_spread: 0.02
         take_profit_bid: 1.01     # unreachable — hold to settlement
     sizing:
-      # 1-contract minimum: 2% of a small bankroll can't buy a 0.90+ contract
-      bankroll_fraction_per_trade: 0.025
+      # v12: 5% per trade (owner-approved; MC-backed — see version note).
+      # Sits exactly at the hard cap; risk.max_notional still applies the
+      # floor-aware cap so no single loss can breach the drawdown floor.
+      bankroll_fraction_per_trade: 0.05
 
 # ---- Entry strategies ----
 strategies:
