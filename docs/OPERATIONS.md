@@ -20,7 +20,7 @@ candidates → apply entries, all under the hard limits in `config/`.
 
 | book | purpose | state file |
 |---|---|---|
-| kalshi **live** | real money, include-list families only, 2.5% sizing | `portfolio_kalshi_live.json` |
+| kalshi **live** | real money, include-list families only, 5% sizing (v12) | `portfolio_kalshi_live.json` |
 | kalshi paper | shadow of the live rules at $500 paper | `portfolio_kalshi.json` |
 | polymarket paper | keeps the second venue's rules honest for a future US launch | `portfolio.json` |
 | aggr paper | broad-universe discovery at a wider risk envelope | `portfolio_kalshi_aggr.json` |
@@ -155,10 +155,14 @@ Never clear a halt from an automated/scheduled run. That defeats its purpose.
   (e.g. the June study AND the May out-of-sample rerun) with positive ROI in
   both halves of each, plus a stated mechanism. One good period is noise —
   that's how MLB/WTI/FIBA got in and then demoted.
-- **Sizing 2.5% → 5%** (with drawdown halt loosened 15% → 25%): requires
-  **≥50 settled live trades at ≤5% loss rate**. Count them from
-  `journal/trades.jsonl` (venue=kalshi, mode=live, SETTLE events). Human
-  applies the change to `rules/rules.yaml` sizing + `config/risk_limits.yaml`.
+- **Sizing 5% → 10%** (with drawdown halt loosened 15% → 25%): requires
+  **≥25 settled live trades at ≤2 losses** AND a fresh owner decision.
+  Count from `journal/trades.jsonl` (venue=kalshi, mode=live, SETTLE/EXIT
+  events since rules v12). Human applies the change to `rules/rules.yaml`
+  sizing + `config/risk_limits.yaml` (both the per-trade cap and the halt).
+  (History: the original 2.5% → 5% gate was granted early at v12 by owner
+  decision on Monte Carlo evidence — journal/backtests/sizing-mc-2026-07-09.md;
+  the 15% halt did NOT move, and 5% sits exactly at the hard per-trade cap.)
 - **eth15 → live**: not gated yet. It would need its own faster loop
   (15-min markets can't be traded well on an hourly cron) and a fill-quality
   review of the paper book first. Treat as research until then.
