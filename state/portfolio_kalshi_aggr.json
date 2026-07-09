@@ -1,5 +1,5 @@
 {
-  "cash": 143.07999999999998,
+  "cash": 75.53000000000002,
   "cooldowns": {
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -10,6 +10,7 @@
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
+    "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08"
   },
   "created": "2026-07-08T08:49:52+00:00",
@@ -18,6 +19,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXAPRPOTUS-26JUL10-40.3": {
+      "cost": 36.22,
+      "entry_price": 0.909,
+      "event_ticker": "KXAPRPOTUS-26JUL10",
+      "market_id": "KXAPRPOTUS-26JUL10-40.3",
+      "opened": "2026-07-09T22:04:35+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.59,
+      "question": "Will the President's approval rating be between 40.2 and 40.4 according to RealClearPolitics? \u2014 40.2 to 40.4",
+      "rules_version": 2,
+      "slug": "kxaprpotus-26jul10-40.3",
+      "strategy": "favorite_discount",
+      "token_id": "KXAPRPOTUS-26JUL10-40.3:no"
+    },
     "KXAPRPOTUS-26JUL10-41.2": {
       "cost": 40.06,
       "entry_price": 0.97,
@@ -61,19 +77,35 @@
       "strategy": "favorite_discount",
       "token_id": "KXLIUSAELIMINATIONW-26JUL10-KEN:yes"
     },
-    "KXRTX5090WS-26JUL10-0.750": {
-      "cost": 39.05,
-      "entry_price": 0.94,
-      "market_id": "KXRTX5090WS-26JUL10-0.750",
-      "opened": "2026-07-08T10:08:33+00:00",
+    "KXPUREALBUMS-XPE26JUL09-3K": {
+      "cost": 36.11,
+      "entry_price": 0.96,
+      "event_ticker": "KXPUREALBUMS-XPE26JUL09",
+      "market_id": "KXPUREALBUMS-XPE26JUL09-3K",
+      "opened": "2026-07-09T22:04:35+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 41.36,
-      "question": "Will the NVIDIA RTX 5090 compute per hour price be above $0.75 at 4 PM ET on Jul 10? \u2014 Above $0.75",
+      "qty": 37.5,
+      "question": "Will xperiment by Ken Carson have above 3000 Pure Album Sales (aka Product Sales) during the July 03, 2026 - July 09, 2026 tracking week? \u2014 Above 3K",
       "rules_version": 2,
-      "slug": "kxrtx5090ws-26jul10-0.750",
+      "slug": "kxpurealbums-xpe26jul09-3k",
       "strategy": "favorite_discount",
-      "token_id": "KXRTX5090WS-26JUL10-0.750:no"
+      "token_id": "KXPUREALBUMS-XPE26JUL09-3K:no"
+    },
+    "KXTRUMPUFC-26JUL-DJT": {
+      "cost": 36.14,
+      "entry_price": 0.95,
+      "event_ticker": "KXTRUMPUFC-26JUL",
+      "market_id": "KXTRUMPUFC-26JUL-DJT",
+      "opened": "2026-07-09T22:04:35+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.9,
+      "question": "Will Donald Trump attend UFC 329? \u2014 Yes",
+      "rules_version": 2,
+      "slug": "kxtrumpufc-26jul-djt",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPUFC-26JUL-DJT:no"
     },
     "KXWTI-26JUL1014-T68.49": {
       "cost": 35.76,
@@ -134,8 +166,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -48.019999999999996,
+  "realized_pnl": -46.14999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-09T21:04:41+00:00",
+  "updated": "2026-07-09T22:04:35+00:00",
   "venue": "kalshi"
 }
