@@ -1,5 +1,5 @@
 {
-  "cash": 137.22999999999996,
+  "cash": 65.64999999999998,
   "cooldowns": {
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
@@ -44,6 +44,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26JUL10-41.2:no"
     },
+    "KXHIGHLAX-26JUL09-T80": {
+      "cost": 35.82,
+      "entry_price": 0.97,
+      "event_ticker": "KXHIGHLAX-26JUL09",
+      "market_id": "KXHIGHLAX-26JUL09-T80",
+      "opened": "2026-07-09T08:13:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.84,
+      "question": "Will the **high temp in LA** be >80\u00b0 on Jul 9, 2026? \u2014 81\u00b0 or above",
+      "rules_version": 2,
+      "slug": "kxhighlax-26jul09-t80",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHLAX-26JUL09-T80:no"
+    },
     "KXLIUSAELIMINATIONW-26JUL10-ANI": {
       "cost": 38.1,
       "entry_price": 0.96,
@@ -86,6 +101,21 @@
       "slug": "kxrtx5090ws-26jul10-0.750",
       "strategy": "favorite_discount",
       "token_id": "KXRTX5090WS-26JUL10-0.750:no"
+    },
+    "KXWTI-26JUL1014-T68.49": {
+      "cost": 35.76,
+      "entry_price": 0.989,
+      "event_ticker": "KXWTI-26JUL1014",
+      "market_id": "KXWTI-26JUL1014-T68.49",
+      "opened": "2026-07-09T08:13:56+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 36.13,
+      "question": "Will the WTI crude oil settlement price be above 68.49 USD/Bbl on Jul 10, 2026? \u2014 Above $68.49",
+      "rules_version": 2,
+      "slug": "kxwti-26jul1014-t68.49",
+      "strategy": "favorite_discount",
+      "token_id": "KXWTI-26JUL1014-T68.49:yes"
     },
     "KXWTIW-26JUL1014-B68.50": {
       "cost": 40.05,
@@ -133,6 +163,6 @@
   "profile": "aggr",
   "realized_pnl": -49.739999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-09T07:04:52+00:00",
+  "updated": "2026-07-09T08:13:56+00:00",
   "venue": "kalshi"
 }
