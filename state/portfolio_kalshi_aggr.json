@@ -1,9 +1,10 @@
 {
-  "cash": 65.64999999999998,
+  "cash": 102.08999999999997,
   "cooldowns": {
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
+    "KXHIGHLAX-26JUL09-T80": "2026-07-09",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
@@ -43,21 +44,6 @@
       "slug": "kxaprpotus-26jul10-41.2",
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26JUL10-41.2:no"
-    },
-    "KXHIGHLAX-26JUL09-T80": {
-      "cost": 35.82,
-      "entry_price": 0.97,
-      "event_ticker": "KXHIGHLAX-26JUL09",
-      "market_id": "KXHIGHLAX-26JUL09-T80",
-      "opened": "2026-07-09T08:13:56+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.84,
-      "question": "Will the **high temp in LA** be >80\u00b0 on Jul 9, 2026? \u2014 81\u00b0 or above",
-      "rules_version": 2,
-      "slug": "kxhighlax-26jul09-t80",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL09-T80:no"
     },
     "KXLIUSAELIMINATIONW-26JUL10-ANI": {
       "cost": 38.1,
@@ -161,8 +147,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -49.739999999999995,
+  "realized_pnl": -49.12,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-09T16:04:35+00:00",
+  "updated": "2026-07-09T17:04:31+00:00",
   "venue": "kalshi"
 }
