@@ -192,8 +192,9 @@ the conservative direction is always pre-authorized.
 
 ## 10. State at handoff (2026-07-09)
 
-- Live book: $103.04, 0 open positions, 2.5% sizing, v10 rules
-  (include-list: `KXRT-`, `KXTRUMPSAY`, `KXWT20MATCH`).
+- Live book: $103.04, 0 open positions, 2.5% sizing, v11 rules
+  (include-list: `KXRT-`, `KXTRUMPSAY`, `KXWT20MATCH`; two strategies —
+  the 0.90-0.97 favorite band plus the KXRT-only 0.97-0.995 last-mile).
 - Honest read of the edge (LEARNINGS, bottom line): the *pooled* Kalshi
   favorite strategy is negative; only RT/Trump-mention survived two
   independent periods, WT20 is provisional, eth15 is paper-only but healthy
