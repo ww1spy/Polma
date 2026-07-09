@@ -1,5 +1,5 @@
 {
-  "cash": 44.2314,
+  "cash": 103.0398,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -15,10 +15,10 @@
   "halted": false,
   "live_balance_synced": true,
   "mode": "live",
-  "peak_equity": 45.061400000000006,
+  "peak_equity": 103.87,
   "positions": {},
   "realized_pnl": -30.730000000000004,
-  "starting_bankroll": 74.9614,
+  "starting_bankroll": 133.77,
   "updated": "2026-07-09T01:06:14+00:00",
   "venue": "kalshi"
 }
