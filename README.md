@@ -55,6 +55,13 @@ rate / ROI, with results archived in `journal/backtests/`. Its caveats are
 documented in `polma/backtest.py` — use it to rank rule variants, not to
 predict returns.
 
+## Operating the system
+
+**`docs/OPERATIONS.md`** is the run book: how to run all five books from any
+machine on a cron (`ops/hourly.sh`), read the weekly revalidation reports,
+clear a halt, and what the promotion gates are. It's written so a new
+operator can take over cold.
+
 ## The learning loop
 
 **Read `docs/LEARNINGS.md` first** — the consolidated distillation of every
