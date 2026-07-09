@@ -8,7 +8,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 501.1978,
+  "peak_equity": 501.30649999999997,
   "positions": {
     "KXTRUMPUFC-26JUL-DJT": {
       "cost": 10.06,
@@ -27,6 +27,6 @@
   },
   "realized_pnl": 1.0399999999999974,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-09T19:04:26+00:00",
+  "updated": "2026-07-09T20:04:24+00:00",
   "venue": "kalshi"
 }
