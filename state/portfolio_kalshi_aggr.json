@@ -1,5 +1,5 @@
 {
-  "cash": 107.10000000000007,
+  "cash": 70.10000000000007,
   "cooldowns": {
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
@@ -108,6 +108,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-EVI-72:no"
     },
+    "KXRT-INV-94": {
+      "cost": 37.0,
+      "entry_price": 0.96,
+      "event_ticker": "KXRT-INV",
+      "market_id": "KXRT-INV-94",
+      "opened": "2026-07-10T22:04:56+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.42,
+      "question": "The Invite Rotten Tomatoes score? \u2014 Above 94",
+      "rules_version": 2,
+      "slug": "kxrt-inv-94",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-INV-94:yes"
+    },
     "KXRT-MOA-37": {
       "cost": 37.57,
       "entry_price": 0.9462,
@@ -187,6 +202,6 @@
   "profile": "aggr",
   "realized_pnl": -21.62999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T21:04:39+00:00",
+  "updated": "2026-07-10T22:04:56+00:00",
   "venue": "kalshi"
 }
