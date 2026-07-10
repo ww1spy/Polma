@@ -1,8 +1,9 @@
 {
-  "cash": 81.06,
+  "cash": 54.380000000000045,
   "cooldowns": {
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
+    "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
@@ -13,8 +14,10 @@
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
+    "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
     "KXWTI-26JUL1014-T68.49": "2026-07-10",
-    "KXWTIW-26JUL1014-B68.50": "2026-07-10"
+    "KXWTIW-26JUL1014-B68.50": "2026-07-10",
+    "KXWTIW-26JUL1014-B75.50": "2026-07-10"
   },
   "created": "2026-07-08T08:49:52+00:00",
   "halt_reason": "",
@@ -22,19 +25,20 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAPRPOTUS-26JUL10-41.2": {
-      "cost": 40.06,
-      "entry_price": 0.97,
-      "market_id": "KXAPRPOTUS-26JUL10-41.2",
-      "opened": "2026-07-08T08:49:53+00:00",
+    "KXBRENTW-26JUL1017-T77.99": {
+      "cost": 36.95,
+      "entry_price": 0.96,
+      "event_ticker": "KXBRENTW-26JUL1017",
+      "market_id": "KXBRENTW-26JUL1017-T77.99",
+      "opened": "2026-07-10T16:05:03+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 41.21,
-      "question": "Will the President's approval rating be between 41.1 and 41.3 according to RealClearPolitics? \u2014 41.1 to 41.3",
-      "rules_version": 1,
-      "slug": "kxaprpotus-26jul10-41.2",
+      "qty": 38.38,
+      "question": "Will the brent crude oil close price be above 77.99 USD/Bbl on July 10, 2026 at 5:00 PM EDT? \u2014 above $77.99",
+      "rules_version": 2,
+      "slug": "kxbrentw-26jul1017-t77.99",
       "strategy": "favorite_discount",
-      "token_id": "KXAPRPOTUS-26JUL10-41.2:no"
+      "token_id": "KXBRENTW-26JUL1017-T77.99:no"
     },
     "KXHIGHLAX-26JUL10-T74": {
       "cost": 36.45,
@@ -50,6 +54,36 @@
       "slug": "kxhighlax-26jul10-t74",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL10-T74:no"
+    },
+    "KXHIGHNY-26JUL10-T87": {
+      "cost": 37.07,
+      "entry_price": 0.9095,
+      "event_ticker": "KXHIGHNY-26JUL10",
+      "market_id": "KXHIGHNY-26JUL10-T87",
+      "opened": "2026-07-10T16:05:03+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 40.5,
+      "question": "Will the **high temp in NYC** be <87\u00b0 on Jul 10, 2026? \u2014 86\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhighny-26jul10-t87",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHNY-26JUL10-T87:yes"
+    },
+    "KXHIGHTATL-26JUL10-B95.5": {
+      "cost": 37.07,
+      "entry_price": 0.9,
+      "event_ticker": "KXHIGHTATL-26JUL10",
+      "market_id": "KXHIGHTATL-26JUL10-B95.5",
+      "opened": "2026-07-10T16:05:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.91,
+      "question": "Will the maximum temperature be 95-96\u00b0 on Jul 10, 2026? \u2014 95\u00b0 to 96\u00b0",
+      "rules_version": 2,
+      "slug": "kxhightatl-26jul10-b95.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTATL-26JUL10-B95.5:no"
     },
     "KXLIUSAELIMINATIONW-26JUL10-ANI": {
       "cost": 38.1,
@@ -125,20 +159,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPUFC-26JUL-DJT:no"
     },
-    "KXWODIMATCH-26JUL100545WINIRL-IRL": {
-      "cost": 36.78,
-      "entry_price": 0.97,
-      "event_ticker": "KXWODIMATCH-26JUL100545WINIRL",
-      "market_id": "KXWODIMATCH-26JUL100545WINIRL-IRL",
-      "opened": "2026-07-10T15:05:36+00:00",
+    "KXWTI-26JUL1014-T72.49": {
+      "cost": 36.98,
+      "entry_price": 0.95,
+      "event_ticker": "KXWTI-26JUL1014",
+      "market_id": "KXWTI-26JUL1014-T72.49",
+      "opened": "2026-07-10T16:05:02+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 37.84,
-      "question": "Ireland vs West Indies Winner?",
+      "qty": 38.79,
+      "question": "Will the WTI crude oil settlement price be above 72.49 USD/Bbl on Jul 10, 2026? \u2014 Above $72.49",
       "rules_version": 2,
-      "slug": "kxwodimatch-26jul100545winirl-irl",
+      "slug": "kxwti-26jul1014-t72.49",
       "strategy": "favorite_discount",
-      "token_id": "KXWODIMATCH-26JUL100545WINIRL-IRL:no"
+      "token_id": "KXWTI-26JUL1014-T72.49:no"
     },
     "KXWTIW-26JUL1014-B69.50": {
       "cost": 39.05,
@@ -153,25 +187,11 @@
       "slug": "kxwtiw-26jul1014-b69.50",
       "strategy": "favorite_discount",
       "token_id": "KXWTIW-26JUL1014-B69.50:no"
-    },
-    "KXWTIW-26JUL1014-B75.50": {
-      "cost": 39.98,
-      "entry_price": 0.92,
-      "market_id": "KXWTIW-26JUL1014-B75.50",
-      "opened": "2026-07-08T09:05:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 43.21,
-      "question": "Will the WTI crude oil settlement price be between 75.00 and 75.99 USD/Bbl on Jul 10, 2026? \u2014 $75.00 to $75.99",
-      "rules_version": 2,
-      "slug": "kxwtiw-26jul1014-b75.50",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTIW-26JUL1014-B75.50:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -42.83999999999998,
+  "realized_pnl": -38.26999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T15:05:36+00:00",
+  "updated": "2026-07-10T16:05:03+00:00",
   "venue": "kalshi"
 }
