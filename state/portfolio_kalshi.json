@@ -1,32 +1,18 @@
 {
-  "cash": 490.97999999999996,
+  "cash": 501.60999999999996,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
-    "KXPLATNERDROPOUT-26": "2026-07-09"
+    "KXPLATNERDROPOUT-26": "2026-07-09",
+    "KXTRUMPUFC-26JUL-DJT": "2026-07-10"
   },
   "created": "2026-07-07T23:30:22+00:00",
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 501.52389999999997,
-  "positions": {
-    "KXTRUMPUFC-26JUL-DJT": {
-      "cost": 10.06,
-      "entry_price": 0.92,
-      "market_id": "KXTRUMPUFC-26JUL-DJT",
-      "opened": "2026-07-07T23:31:43+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.87,
-      "question": "Will Donald Trump attend UFC 329? \u2014 Yes",
-      "rules_version": 3,
-      "slug": "kxtrumpufc-26jul-djt",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPUFC-26JUL-DJT:no"
-    }
-  },
-  "realized_pnl": 1.0399999999999974,
+  "peak_equity": 501.60999999999996,
+  "positions": {},
+  "realized_pnl": 1.6099999999999977,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T03:04:38+00:00",
+  "updated": "2026-07-10T04:04:27+00:00",
   "venue": "kalshi"
 }
