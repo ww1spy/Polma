@@ -9,7 +9,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 501.60999999999996,
+  "peak_equity": 501.9432,
   "positions": {
     "KXRT-EVI-75": {
       "cost": 15.08,
@@ -59,6 +59,6 @@
   },
   "realized_pnl": 1.6099999999999977,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T14:05:35+00:00",
+  "updated": "2026-07-10T15:05:29+00:00",
   "venue": "kalshi"
 }

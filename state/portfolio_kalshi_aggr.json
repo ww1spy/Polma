@@ -1,5 +1,5 @@
 {
-  "cash": 77.08000000000001,
+  "cash": 81.06,
   "cooldowns": {
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
@@ -13,7 +13,8 @@
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
-    "KXWTI-26JUL1014-T68.49": "2026-07-10"
+    "KXWTI-26JUL1014-T68.49": "2026-07-10",
+    "KXWTIW-26JUL1014-B68.50": "2026-07-10"
   },
   "created": "2026-07-08T08:49:52+00:00",
   "halt_reason": "",
@@ -124,19 +125,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPUFC-26JUL-DJT:no"
     },
-    "KXWTIW-26JUL1014-B68.50": {
-      "cost": 40.05,
+    "KXWODIMATCH-26JUL100545WINIRL-IRL": {
+      "cost": 36.78,
       "entry_price": 0.97,
-      "market_id": "KXWTIW-26JUL1014-B68.50",
-      "opened": "2026-07-08T08:49:53+00:00",
+      "event_ticker": "KXWODIMATCH-26JUL100545WINIRL",
+      "market_id": "KXWODIMATCH-26JUL100545WINIRL-IRL",
+      "opened": "2026-07-10T15:05:36+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 41.2,
-      "question": "Will the WTI crude oil settlement price be between 68.00 and 68.99 USD/Bbl on Jul 10, 2026? \u2014 $68.00 to $68.99",
-      "rules_version": 1,
-      "slug": "kxwtiw-26jul1014-b68.50",
+      "qty": 37.84,
+      "question": "Ireland vs West Indies Winner?",
+      "rules_version": 2,
+      "slug": "kxwodimatch-26jul100545winirl-irl",
       "strategy": "favorite_discount",
-      "token_id": "KXWTIW-26JUL1014-B68.50:no"
+      "token_id": "KXWODIMATCH-26JUL100545WINIRL-IRL:no"
     },
     "KXWTIW-26JUL1014-B69.50": {
       "cost": 39.05,
@@ -168,8 +170,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -43.54999999999998,
+  "realized_pnl": -42.83999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T14:05:44+00:00",
+  "updated": "2026-07-10T15:05:36+00:00",
   "venue": "kalshi"
 }
