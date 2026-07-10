@@ -1,5 +1,5 @@
 {
-  "cash": 93.4998,
+  "cash": 88.6398,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -18,6 +18,21 @@
   "mode": "live",
   "peak_equity": 103.87,
   "positions": {
+    "KXRT-EVI-72": {
+      "cost": 4.86,
+      "entry_price": 0.97,
+      "event_ticker": "KXRT-EVI",
+      "market_id": "KXRT-EVI-72",
+      "opened": "2026-07-10T17:04:41+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Evil Dead Burn Rotten Tomatoes score? \u2014 Above 72",
+      "rules_version": 12,
+      "slug": "kxrt-evi-72",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-EVI-72:no"
+    },
     "KXRT-INV-96": {
       "cost": 4.95,
       "entry_price": 0.99,
@@ -51,6 +66,6 @@
   },
   "realized_pnl": -30.510000000000005,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-10T16:05:07+00:00",
+  "updated": "2026-07-10T17:04:41+00:00",
   "venue": "kalshi"
 }
