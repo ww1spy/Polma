@@ -1,5 +1,5 @@
 {
-  "cash": 60.15000000000006,
+  "cash": 61.70000000000007,
   "cooldowns": {
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
@@ -12,6 +12,7 @@
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
+    "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
@@ -103,20 +104,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTATL-26JUL10-B95.5:no"
     },
-    "KXLIUSAELIMINATIONW-26JUL10-ANI": {
-      "cost": 38.1,
-      "entry_price": 0.96,
-      "market_id": "KXLIUSAELIMINATIONW-26JUL10-ANI",
-      "opened": "2026-07-08T16:06:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.58,
-      "question": "Will Aniya be eliminated from Love Island USA Season 8 before Jul 11, 2026?",
-      "rules_version": 2,
-      "slug": "kxliusaeliminationw-26jul10-ani",
-      "strategy": "favorite_discount",
-      "token_id": "KXLIUSAELIMINATIONW-26JUL10-ANI:no"
-    },
     "KXLIUSAELIMINATIONW-26JUL10-KEN": {
       "cost": 36.85,
       "entry_price": 0.91,
@@ -177,6 +164,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-EVI-72:no"
     },
+    "KXTECHRANKLISTAICODE-26JUL13-CHAT": {
+      "cost": 37.6,
+      "entry_price": 0.9695,
+      "event_ticker": "KXTECHRANKLISTAICODE-26JUL13",
+      "market_id": "KXTECHRANKLISTAICODE-26JUL13-CHAT",
+      "opened": "2026-07-10T20:04:34+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.69,
+      "question": "Top Coding AI this week? \u2014 ChatGPT",
+      "rules_version": 2,
+      "slug": "kxtechranklistaicode-26jul13-chat",
+      "strategy": "favorite_discount",
+      "token_id": "KXTECHRANKLISTAICODE-26JUL13-CHAT:no"
+    },
     "KXTRUMPUFC-26JUL-DJT": {
       "cost": 36.14,
       "entry_price": 0.95,
@@ -194,8 +196,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -31.98999999999998,
+  "realized_pnl": -30.939999999999984,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T19:04:27+00:00",
+  "updated": "2026-07-10T20:04:34+00:00",
   "venue": "kalshi"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 418.05,
+  "cash": 419.66,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2804857": "2026-07-09",
@@ -8,6 +8,8 @@
     "2804892": "2026-07-09",
     "2815244": "2026-07-08",
     "2821797": "2026-07-09",
+    "2829192": "2026-07-10",
+    "2829197": "2026-07-10",
     "2840841": "2026-07-09",
     "2851088": "2026-07-10"
   },
@@ -60,20 +62,20 @@
       "strategy": "favorite_discount",
       "token_id": "104168612209577741232048048702224916349341407364901971672986978453223992318663"
     },
-    "2829192": {
-      "cost": 9.89,
-      "entry_price": 0.9,
+    "2815565": {
+      "cost": 9.94,
+      "entry_price": 0.9125,
       "event_ticker": "",
-      "market_id": "2829192",
-      "opened": "2026-07-09T22:49:50+00:00",
-      "outcome": "No",
+      "market_id": "2815565",
+      "opened": "2026-07-10T20:04:30+00:00",
+      "outcome": "England",
       "outcome_idx": 1,
-      "qty": 10.99,
-      "question": "Exact Score: Spain 2 - 0 Belgium?",
-      "rules_version": 11,
-      "slug": "fifwc-esp-bel-2026-07-10-exact-score-2-0",
+      "qty": 10.9,
+      "question": "Spread: Norway (-1.5)",
+      "rules_version": 12,
+      "slug": "fifwc-nor-eng-2026-07-11-spread-home-1pt5",
       "strategy": "favorite_discount",
-      "token_id": "101500485608653350092955762641455442307350054339527058741912588684776307874003"
+      "token_id": "82188830294413868662234649716820992078860196794961505299164580840016554126590"
     },
     "2829196": {
       "cost": 9.89,
@@ -90,21 +92,6 @@
       "strategy": "favorite_discount",
       "token_id": "89678620324945103691453027244768442808347756718998569444909552396402439411892"
     },
-    "2829197": {
-      "cost": 9.89,
-      "entry_price": 0.94,
-      "event_ticker": "",
-      "market_id": "2829197",
-      "opened": "2026-07-09T22:49:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.52,
-      "question": "Exact Score: Spain 3 - 0 Belgium?",
-      "rules_version": 11,
-      "slug": "fifwc-esp-bel-2026-07-10-exact-score-3-0",
-      "strategy": "favorite_discount",
-      "token_id": "82295795004428430940433303735647458980029294814595402162619417282565717266755"
-    },
     "2869298": {
       "cost": 9.93,
       "entry_price": 0.88,
@@ -119,6 +106,21 @@
       "slug": "lol-hle1-ly-2026-07-11",
       "strategy": "favorite_discount",
       "token_id": "106618579082857173205099187418291680068349149870923665139597643374871754972322"
+    },
+    "558935": {
+      "cost": 9.94,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "558935",
+      "opened": "2026-07-10T20:04:30+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.7,
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "rules_version": 12,
+      "slug": "will-england-win-the-2026-fifa-world-cup-937",
+      "strategy": "favorite_discount",
+      "token_id": "77121637225348873006259930776623502125079210522997384841464684944292365296940"
     },
     "558951": {
       "cost": 10.0,
@@ -135,7 +137,7 @@
       "token_id": "111538579557239934343870815626480092245052857494675784434731223739153238373070"
     }
   },
-  "realized_pnl": -2.450000000000001,
+  "realized_pnl": -0.740000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T19:04:24+00:00"
+  "updated": "2026-07-10T20:04:30+00:00"
 }

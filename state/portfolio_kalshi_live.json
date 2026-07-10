@@ -1,10 +1,11 @@
 {
-  "cash": 84.0098,
+  "cash": 83.9898,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXMLBGAME-26JUL072210COLLAD-LAD": "2026-07-08",
     "KXRT-EVI-75": "2026-07-10",
+    "KXRT-MOA-40": "2026-07-10",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXWTIW-26JUL1014-B69.50": "2026-07-08",
@@ -48,20 +49,20 @@
       "strategy": "rt_last_mile",
       "token_id": "KXRT-INV-96:no"
     },
-    "KXRT-MOA-40": {
-      "cost": 4.81,
-      "entry_price": 0.96,
+    "KXRT-MOA-30": {
+      "cost": 4.91,
+      "entry_price": 0.98,
       "event_ticker": "KXRT-MOA",
-      "market_id": "KXRT-MOA-40",
-      "opened": "2026-07-10T14:05:48+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
+      "market_id": "KXRT-MOA-30",
+      "opened": "2026-07-10T20:04:41+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
       "qty": 5.0,
-      "question": "Moana Rotten Tomatoes score? \u2014 Above 40",
+      "question": "Moana Rotten Tomatoes score? \u2014 Above 30",
       "rules_version": 12,
-      "slug": "kxrt-moa-40",
-      "strategy": "favorite_discount",
-      "token_id": "KXRT-MOA-40:no"
+      "slug": "kxrt-moa-30",
+      "strategy": "rt_last_mile",
+      "token_id": "KXRT-MOA-30:yes"
     },
     "KXTRUMPSAY-26JUL13-STUP": {
       "cost": 4.63,
@@ -79,8 +80,8 @@
       "token_id": "KXTRUMPSAY-26JUL13-STUP:no"
     }
   },
-  "realized_pnl": -30.510000000000005,
+  "realized_pnl": -30.430000000000007,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-10T19:04:30+00:00",
+  "updated": "2026-07-10T20:04:41+00:00",
   "venue": "kalshi"
 }
