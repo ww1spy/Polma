@@ -1,5 +1,5 @@
 {
-  "cash": 415.23,
+  "cash": 416.62,
   "cooldowns": {
     "2804857": "2026-07-09",
     "2804877": "2026-07-09",
@@ -7,7 +7,8 @@
     "2804892": "2026-07-09",
     "2815244": "2026-07-08",
     "2821797": "2026-07-09",
-    "2840841": "2026-07-09"
+    "2840841": "2026-07-09",
+    "2851088": "2026-07-10"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
@@ -28,6 +29,21 @@
       "slug": "will-novak-djokovic-be-the-2026-mens-wimbledon-winner",
       "strategy": "favorite_discount",
       "token_id": "2713513099701874841211904036306380872954046458118816101814076669172073583249"
+    },
+    "2448672": {
+      "cost": 9.91,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "2448672",
+      "opened": "2026-07-10T14:05:40+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.89,
+      "question": "Will A Nation That Has Never Won the World Cup Win in 2026?",
+      "rules_version": 12,
+      "slug": "will-a-nation-that-has-never-won-the-world-cup-win-in-2026-20260605003149811",
+      "strategy": "favorite_discount",
+      "token_id": "890229056247558400069208815257522203919154788094968491430570471743655563235"
     },
     "2555350": {
       "cost": 9.99,
@@ -102,21 +118,6 @@
       "strategy": "favorite_discount",
       "token_id": "82295795004428430940433303735647458980029294814595402162619417282565717266755"
     },
-    "2851088": {
-      "cost": 9.89,
-      "entry_price": 0.86,
-      "event_ticker": "",
-      "market_id": "2851088",
-      "opened": "2026-07-09T22:04:31+00:00",
-      "outcome": "Alexander Zverev",
-      "outcome_idx": 1,
-      "qty": 11.5,
-      "question": "Wimbledon ATP: Arthur Fery vs Alexander Zverev",
-      "rules_version": 10,
-      "slug": "atp-fery-zverev-2026-07-10",
-      "strategy": "favorite_discount",
-      "token_id": "78334358978805601866743907030457743625112492721014343161957148240182609461662"
-    },
     "558951": {
       "cost": 10.0,
       "entry_price": 0.94,
@@ -132,7 +133,7 @@
       "token_id": "111538579557239934343870815626480092245052857494675784434731223739153238373070"
     }
   },
-  "realized_pnl": -5.220000000000001,
+  "realized_pnl": -3.8100000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T13:05:47+00:00"
+  "updated": "2026-07-10T14:05:40+00:00"
 }
