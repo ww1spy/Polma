@@ -1,7 +1,8 @@
 {
-  "cash": 75.53000000000002,
+  "cash": 78.07000000000001,
   "cooldowns": {
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
+    "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
@@ -19,21 +20,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAPRPOTUS-26JUL10-40.3": {
-      "cost": 36.22,
-      "entry_price": 0.909,
-      "event_ticker": "KXAPRPOTUS-26JUL10",
-      "market_id": "KXAPRPOTUS-26JUL10-40.3",
-      "opened": "2026-07-09T22:04:35+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.59,
-      "question": "Will the President's approval rating be between 40.2 and 40.4 according to RealClearPolitics? \u2014 40.2 to 40.4",
-      "rules_version": 2,
-      "slug": "kxaprpotus-26jul10-40.3",
-      "strategy": "favorite_discount",
-      "token_id": "KXAPRPOTUS-26JUL10-40.3:no"
-    },
     "KXAPRPOTUS-26JUL10-41.2": {
       "cost": 40.06,
       "entry_price": 0.97,
@@ -47,6 +33,21 @@
       "slug": "kxaprpotus-26jul10-41.2",
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26JUL10-41.2:no"
+    },
+    "KXHIGHLAX-26JUL10-T74": {
+      "cost": 36.45,
+      "entry_price": 0.9155,
+      "event_ticker": "KXHIGHLAX-26JUL10",
+      "market_id": "KXHIGHLAX-26JUL10-T74",
+      "opened": "2026-07-10T12:22:18+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.58,
+      "question": "Will the **high temp in LA** be <74\u00b0 on Jul 10, 2026? \u2014 73\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhighlax-26jul10-t74",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHLAX-26JUL10-T74:no"
     },
     "KXLIUSAELIMINATIONW-26JUL10-ANI": {
       "cost": 38.1,
@@ -166,8 +167,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -46.14999999999999,
+  "realized_pnl": -43.37999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-10T11:04:35+00:00",
+  "updated": "2026-07-10T12:22:18+00:00",
   "venue": "kalshi"
 }
