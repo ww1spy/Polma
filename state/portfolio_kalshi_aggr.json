@@ -1,5 +1,5 @@
 {
-  "cash": 153.27000000000007,
+  "cash": 118.23000000000008,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -36,6 +36,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXCPICOMBO-26JUN-0302": {
+      "cost": 35.04,
+      "entry_price": 0.97,
+      "event_ticker": "KXCPICOMBO-26JUN",
+      "market_id": "KXCPICOMBO-26JUN-0302",
+      "opened": "2026-07-11T13:04:37+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.04,
+      "question": "Will Headline be -0.3% or below AND Core be Exactly 0.2% for Jun 2026? \u2014 Headline: -0.3% or below, Core: Exactly 0.2%",
+      "rules_version": 2,
+      "slug": "kxcpicombo-26jun-0302",
+      "strategy": "favorite_discount",
+      "token_id": "KXCPICOMBO-26JUN-0302:no"
+    },
     "KXPUREALBUMS-XPE26JUL09-3K": {
       "cost": 36.11,
       "entry_price": 0.96,
@@ -160,6 +175,6 @@
   "profile": "aggr",
   "realized_pnl": -49.399999999999984,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-11T12:05:47+00:00",
+  "updated": "2026-07-11T13:04:37+00:00",
   "venue": "kalshi"
 }
