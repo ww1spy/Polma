@@ -1,6 +1,7 @@
 {
-  "cash": 109.90000000000006,
+  "cash": 153.27000000000007,
   "cooldowns": {
+    "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
     "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
@@ -18,6 +19,7 @@
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
+    "KXLLM1-26JUL13-OPEN": "2026-07-11",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
@@ -34,36 +36,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAAAGASW-26JUL13-3.880": {
-      "cost": 37.51,
-      "entry_price": 0.97,
-      "event_ticker": "KXAAAGASW-26JUL13",
-      "market_id": "KXAAAGASW-26JUL13-3.880",
-      "opened": "2026-07-10T18:04:53+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.59,
-      "question": "Will average **gas prices** be above $3.880? \u2014 Above 3.880",
-      "rules_version": 2,
-      "slug": "kxaaagasw-26jul13-3.880",
-      "strategy": "favorite_discount",
-      "token_id": "KXAAAGASW-26JUL13-3.880:yes"
-    },
-    "KXLLM1-26JUL13-OPEN": {
-      "cost": 36.58,
-      "entry_price": 0.96,
-      "event_ticker": "KXLLM1-26JUL13",
-      "market_id": "KXLLM1-26JUL13-OPEN",
-      "opened": "2026-07-10T14:05:44+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.99,
-      "question": "Best AI in Jul 2026? \u2014 ChatGPT",
-      "rules_version": 2,
-      "slug": "kxllm1-26jul13-open",
-      "strategy": "favorite_discount",
-      "token_id": "KXLLM1-26JUL13-OPEN:no"
-    },
     "KXPUREALBUMS-XPE26JUL09-3K": {
       "cost": 36.11,
       "entry_price": 0.96,
@@ -186,8 +158,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -18.679999999999986,
+  "realized_pnl": -49.399999999999984,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-11T07:04:26+00:00",
+  "updated": "2026-07-11T08:04:18+00:00",
   "venue": "kalshi"
 }
