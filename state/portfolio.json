@@ -1,5 +1,5 @@
 {
-  "cash": 411.28000000000003,
+  "cash": 413.59,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2804857": "2026-07-09",
@@ -7,6 +7,9 @@
     "2804885": "2026-07-09",
     "2804892": "2026-07-09",
     "2815244": "2026-07-08",
+    "2815480": "2026-07-11",
+    "2815484": "2026-07-11",
+    "2815565": "2026-07-11",
     "2821797": "2026-07-09",
     "2829192": "2026-07-10",
     "2829196": "2026-07-10",
@@ -21,6 +24,51 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "2069636": {
+      "cost": 9.86,
+      "entry_price": 0.954,
+      "event_ticker": "",
+      "market_id": "2069636",
+      "opened": "2026-07-11T23:04:20+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.33,
+      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
+      "rules_version": 12,
+      "slug": "will-erling-haaland-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+      "strategy": "favorite_discount",
+      "token_id": "37459691885280571389083350894291361093570876624819527228743420655749611231692"
+    },
+    "2069670": {
+      "cost": 9.86,
+      "entry_price": 0.962,
+      "event_ticker": "",
+      "market_id": "2069670",
+      "opened": "2026-07-11T23:04:20+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.25,
+      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
+      "rules_version": 12,
+      "slug": "will-harry-kane-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+      "strategy": "favorite_discount",
+      "token_id": "79813026047219556089086866254442022710149639219968664847450227889530897495282"
+    },
+    "2071523": {
+      "cost": 9.86,
+      "entry_price": 0.928,
+      "event_ticker": "",
+      "market_id": "2071523",
+      "opened": "2026-07-11T23:04:20+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.62,
+      "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
+      "rules_version": 12,
+      "slug": "will-switzerland-reach-the-2026-fifa-world-cup-final",
+      "strategy": "favorite_discount",
+      "token_id": "82055609672173475489519739564891907535438414764092905193080080173199234227714"
+    },
     "2448672": {
       "cost": 9.91,
       "entry_price": 0.91,
@@ -49,50 +97,6 @@
       "slug": "israel-closes-its-airspace-by-july-15-182",
       "strategy": "favorite_discount",
       "token_id": "16604135165449683652972617941998736394154596078818094319494023401259995185346"
-    },
-    "2815480": {
-      "cost": 10.0,
-      "entry_price": 0.94,
-      "market_id": "2815480",
-      "opened": "2026-07-07T23:05:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.64,
-      "question": "Exact Score: Norway 2 - 1 England?",
-      "rules_version": 2,
-      "slug": "fifwc-nor-eng-2026-07-11-exact-score-2-1",
-      "strategy": "favorite_discount",
-      "token_id": "104168612209577741232048048702224916349341407364901971672986978453223992318663"
-    },
-    "2815484": {
-      "cost": 9.78,
-      "entry_price": 0.94,
-      "event_ticker": "",
-      "market_id": "2815484",
-      "opened": "2026-07-10T22:04:48+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.4,
-      "question": "Exact Score: Norway 2 - 2 England?",
-      "rules_version": 12,
-      "slug": "fifwc-nor-eng-2026-07-11-exact-score-2-2",
-      "strategy": "favorite_discount",
-      "token_id": "41294820437650274061329106375705945303905655306510317564147405432053700985409"
-    },
-    "2815565": {
-      "cost": 9.94,
-      "entry_price": 0.9125,
-      "event_ticker": "",
-      "market_id": "2815565",
-      "opened": "2026-07-10T20:04:30+00:00",
-      "outcome": "England",
-      "outcome_idx": 1,
-      "qty": 10.9,
-      "question": "Spread: Norway (-1.5)",
-      "rules_version": 12,
-      "slug": "fifwc-nor-eng-2026-07-11-spread-home-1pt5",
-      "strategy": "favorite_discount",
-      "token_id": "82188830294413868662234649716820992078860196794961505299164580840016554126590"
     },
     "2844088": {
       "cost": 9.81,
@@ -139,7 +143,7 @@
       "token_id": "111538579557239934343870815626480092245052857494675784434731223739153238373070"
     }
   },
-  "realized_pnl": -9.350000000000001,
+  "realized_pnl": -7.18,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-11T22:04:29+00:00"
+  "updated": "2026-07-11T23:04:20+00:00"
 }

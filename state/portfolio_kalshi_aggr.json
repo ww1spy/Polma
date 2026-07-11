@@ -1,5 +1,5 @@
 {
-  "cash": 86.17000000000007,
+  "cash": 125.24000000000007,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -22,6 +22,7 @@
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXRT-INV-94": "2026-07-11",
+    "KXRT-MOA-37": "2026-07-11",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
@@ -112,21 +113,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-EVI-72:no"
     },
-    "KXRT-MOA-37": {
-      "cost": 37.57,
-      "entry_price": 0.9462,
-      "event_ticker": "KXRT-MOA",
-      "market_id": "KXRT-MOA-37",
-      "opened": "2026-07-10T21:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.55,
-      "question": "Moana Rotten Tomatoes score? \u2014 Above 37",
-      "rules_version": 2,
-      "slug": "kxrt-moa-37",
-      "strategy": "favorite_discount",
-      "token_id": "KXRT-MOA-37:no"
-    },
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": {
       "cost": 37.6,
       "entry_price": 0.9695,
@@ -189,8 +175,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -48.389999999999986,
+  "realized_pnl": -46.889999999999986,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-11T22:04:32+00:00",
+  "updated": "2026-07-11T23:04:24+00:00",
   "venue": "kalshi"
 }
