@@ -1,5 +1,5 @@
 {
-  "cash": 118.23000000000008,
+  "cash": 48.16000000000007,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -50,6 +50,36 @@
       "slug": "kxcpicombo-26jun-0302",
       "strategy": "favorite_discount",
       "token_id": "KXCPICOMBO-26JUN-0302:no"
+    },
+    "KXCPIYOY-26JUN-T3.9": {
+      "cost": 34.96,
+      "entry_price": 0.96,
+      "event_ticker": "KXCPIYOY-26JUN",
+      "market_id": "KXCPIYOY-26JUN-T3.9",
+      "opened": "2026-07-11T14:04:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.32,
+      "question": "Will the rate of CPI inflation be above 3.9% for the year ending in June 2026? \u2014 Above 3.9%",
+      "rules_version": 2,
+      "slug": "kxcpiyoy-26jun-t3.9",
+      "strategy": "favorite_discount",
+      "token_id": "KXCPIYOY-26JUN-T3.9:no"
+    },
+    "KXHORMUZWEEKLY-26JUL12-T175": {
+      "cost": 35.11,
+      "entry_price": 0.9,
+      "event_ticker": "KXHORMUZWEEKLY-26JUL12",
+      "market_id": "KXHORMUZWEEKLY-26JUL12-T175",
+      "opened": "2026-07-11T14:04:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.73,
+      "question": "Will there be more than 175 transit calls through the Strait of Hormuz from Jul 6, 2026 to Jul 12, 2026? \u2014 Above 175",
+      "rules_version": 2,
+      "slug": "kxhormuzweekly-26jul12-t175",
+      "strategy": "favorite_discount",
+      "token_id": "KXHORMUZWEEKLY-26JUL12-T175:no"
     },
     "KXPUREALBUMS-XPE26JUL09-3K": {
       "cost": 36.11,
@@ -175,6 +205,6 @@
   "profile": "aggr",
   "realized_pnl": -49.399999999999984,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-11T13:04:37+00:00",
+  "updated": "2026-07-11T14:04:33+00:00",
   "venue": "kalshi"
 }
