@@ -1,7 +1,9 @@
 {
-  "cash": 413.59,
+  "cash": 415.64,
   "cooldowns": {
     "1087892": "2026-07-10",
+    "2069636": "2026-07-12",
+    "2448672": "2026-07-12",
     "2804857": "2026-07-09",
     "2804877": "2026-07-09",
     "2804885": "2026-07-09",
@@ -16,7 +18,8 @@
     "2829197": "2026-07-10",
     "2840841": "2026-07-09",
     "2851088": "2026-07-10",
-    "2869298": "2026-07-11"
+    "2869298": "2026-07-11",
+    "558951": "2026-07-12"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
@@ -24,21 +27,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "2069636": {
-      "cost": 9.86,
-      "entry_price": 0.954,
-      "event_ticker": "",
-      "market_id": "2069636",
-      "opened": "2026-07-11T23:04:20+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.33,
-      "question": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
-      "rules_version": 12,
-      "slug": "will-erling-haaland-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
-      "strategy": "favorite_discount",
-      "token_id": "37459691885280571389083350894291361093570876624819527228743420655749611231692"
-    },
     "2069670": {
       "cost": 9.86,
       "entry_price": 0.962,
@@ -69,21 +57,6 @@
       "strategy": "favorite_discount",
       "token_id": "82055609672173475489519739564891907535438414764092905193080080173199234227714"
     },
-    "2448672": {
-      "cost": 9.91,
-      "entry_price": 0.91,
-      "event_ticker": "",
-      "market_id": "2448672",
-      "opened": "2026-07-10T14:05:40+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.89,
-      "question": "Will A Nation That Has Never Won the World Cup Win in 2026?",
-      "rules_version": 12,
-      "slug": "will-a-nation-that-has-never-won-the-world-cup-win-in-2026-20260605003149811",
-      "strategy": "favorite_discount",
-      "token_id": "890229056247558400069208815257522203919154788094968491430570471743655563235"
-    },
     "2555350": {
       "cost": 9.99,
       "entry_price": 0.961,
@@ -97,6 +70,51 @@
       "slug": "israel-closes-its-airspace-by-july-15-182",
       "strategy": "favorite_discount",
       "token_id": "16604135165449683652972617941998736394154596078818094319494023401259995185346"
+    },
+    "2816894": {
+      "cost": 9.88,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "2816894",
+      "opened": "2026-07-12T00:04:52+00:00",
+      "outcome": "Philadelphia Phillies",
+      "outcome_idx": 0,
+      "qty": 10.51,
+      "question": "Philadelphia Phillies vs. Detroit Tigers",
+      "rules_version": 12,
+      "slug": "mlb-phi-det-2026-07-11",
+      "strategy": "favorite_discount",
+      "token_id": "14312865761906542156710916391563143779848463419919023292842857442579529161852"
+    },
+    "2816898": {
+      "cost": 9.88,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2816898",
+      "opened": "2026-07-12T00:04:52+00:00",
+      "outcome": "Houston Astros",
+      "outcome_idx": 0,
+      "qty": 10.63,
+      "question": "Houston Astros vs. Texas Rangers",
+      "rules_version": 12,
+      "slug": "mlb-hou-tex-2026-07-11",
+      "strategy": "favorite_discount",
+      "token_id": "52447875107298261122146422158725333292452289535121369270432435264982388606562"
+    },
+    "2816902": {
+      "cost": 9.88,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "2816902",
+      "opened": "2026-07-12T00:04:52+00:00",
+      "outcome": "St. Louis Cardinals",
+      "outcome_idx": 1,
+      "qty": 11.63,
+      "question": "Atlanta Braves vs. St. Louis Cardinals",
+      "rules_version": 12,
+      "slug": "mlb-atl-stl-2026-07-11",
+      "strategy": "favorite_discount",
+      "token_id": "5023980916076763547747294646821396826299946838409448174198872066542446088258"
     },
     "2844088": {
       "cost": 9.81,
@@ -127,23 +145,9 @@
       "slug": "will-england-win-the-2026-fifa-world-cup-937",
       "strategy": "favorite_discount",
       "token_id": "77121637225348873006259930776623502125079210522997384841464684944292365296940"
-    },
-    "558951": {
-      "cost": 10.0,
-      "entry_price": 0.94,
-      "market_id": "558951",
-      "opened": "2026-07-07T22:51:48+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.64,
-      "question": "Will Norway win the 2026 FIFA World Cup?",
-      "rules_version": 1,
-      "slug": "will-norway-win-the-2026-fifa-world-cup-893",
-      "strategy": "favorite_discount",
-      "token_id": "111538579557239934343870815626480092245052857494675784434731223739153238373070"
     }
   },
-  "realized_pnl": -7.18,
+  "realized_pnl": -5.259999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-11T23:04:20+00:00"
+  "updated": "2026-07-12T00:04:52+00:00"
 }
