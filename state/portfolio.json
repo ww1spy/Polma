@@ -1,8 +1,9 @@
 {
-  "cash": 459.95,
+  "cash": 460.57,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
+    "2071523": "2026-07-12",
     "2448672": "2026-07-12",
     "2804857": "2026-07-09",
     "2804877": "2026-07-09",
@@ -47,21 +48,6 @@
       "strategy": "favorite_discount",
       "token_id": "79813026047219556089086866254442022710149639219968664847450227889530897495282"
     },
-    "2071523": {
-      "cost": 9.86,
-      "entry_price": 0.928,
-      "event_ticker": "",
-      "market_id": "2071523",
-      "opened": "2026-07-11T23:04:20+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.62,
-      "question": "Will Switzerland reach the 2026 FIFA World Cup final?",
-      "rules_version": 12,
-      "slug": "will-switzerland-reach-the-2026-fifa-world-cup-final",
-      "strategy": "favorite_discount",
-      "token_id": "82055609672173475489519739564891907535438414764092905193080080173199234227714"
-    },
     "2555350": {
       "cost": 9.99,
       "entry_price": 0.961,
@@ -75,6 +61,21 @@
       "slug": "israel-closes-its-airspace-by-july-15-182",
       "strategy": "favorite_discount",
       "token_id": "16604135165449683652972617941998736394154596078818094319494023401259995185346"
+    },
+    "2880035": {
+      "cost": 9.99,
+      "entry_price": 0.954,
+      "event_ticker": "",
+      "market_id": "2880035",
+      "opened": "2026-07-12T04:04:30+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.47,
+      "question": "Exact Score: France 3 - 1 Spain?",
+      "rules_version": 12,
+      "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-1",
+      "strategy": "favorite_discount",
+      "token_id": "88750360141157570751897328929802001137892873715465404759582879927201970362369"
     },
     "558935": {
       "cost": 9.94,
@@ -92,7 +93,7 @@
       "token_id": "77121637225348873006259930776623502125079210522997384841464684944292365296940"
     }
   },
-  "realized_pnl": -0.40000000000000036,
+  "realized_pnl": 0.34999999999999964,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-12T03:04:26+00:00"
+  "updated": "2026-07-12T04:04:30+00:00"
 }
