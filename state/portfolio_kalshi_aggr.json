@@ -1,5 +1,5 @@
 {
-  "cash": 162.73000000000008,
+  "cash": 56.82000000000007,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -69,6 +69,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXCPIYOY-26JUN-T3.9:no"
     },
+    "KXECONSTATCPI-26JUN-T0.0": {
+      "cost": 35.29,
+      "entry_price": 0.9539,
+      "event_ticker": "KXECONSTATCPI-26JUN",
+      "market_id": "KXECONSTATCPI-26JUN-T0.0",
+      "opened": "2026-07-12T06:04:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.86,
+      "question": "CPI month-over-month in Jun 2026? \u2014 Exactly 0.0%",
+      "rules_version": 2,
+      "slug": "kxeconstatcpi-26jun-t0.0",
+      "strategy": "favorite_discount",
+      "token_id": "KXECONSTATCPI-26JUN-T0.0:no"
+    },
     "KXHORMUZWEEKLY-26JUL12-T175": {
       "cost": 35.11,
       "entry_price": 0.9,
@@ -83,6 +98,21 @@
       "slug": "kxhormuzweekly-26jul12-t175",
       "strategy": "favorite_discount",
       "token_id": "KXHORMUZWEEKLY-26JUL12-T175:no"
+    },
+    "KXNETFLIXRANKMOVIE-26JUL13-ENO": {
+      "cost": 35.27,
+      "entry_price": 0.97,
+      "event_ticker": "KXNETFLIXRANKMOVIE-26JUL13",
+      "market_id": "KXNETFLIXRANKMOVIE-26JUL13-ENO",
+      "opened": "2026-07-12T06:04:55+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.27,
+      "question": "Top US Netflix Movie on Jul 13, 2026? \u2014 Enola Holmes 3",
+      "rules_version": 2,
+      "slug": "kxnetflixrankmovie-26jul13-eno",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKMOVIE-26JUL13-ENO:no"
     },
     "KXPUREALBUMS-XPE26JUL09-3K": {
       "cost": 36.11,
@@ -113,6 +143,21 @@
       "slug": "kxrt-evi-72",
       "strategy": "favorite_discount",
       "token_id": "KXRT-EVI-72:no"
+    },
+    "KXRT-INV-95": {
+      "cost": 35.35,
+      "entry_price": 0.935,
+      "event_ticker": "KXRT-INV",
+      "market_id": "KXRT-INV-95",
+      "opened": "2026-07-12T06:04:56+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 37.63,
+      "question": "The Invite Rotten Tomatoes score? \u2014 Above 95",
+      "rules_version": 2,
+      "slug": "kxrt-inv-95",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-INV-95:yes"
     },
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": {
       "cost": 37.6,
@@ -163,6 +208,6 @@
   "profile": "aggr",
   "realized_pnl": -45.539999999999985,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-12T05:04:46+00:00",
+  "updated": "2026-07-12T06:04:56+00:00",
   "venue": "kalshi"
 }
