@@ -1,5 +1,5 @@
 {
-  "cash": 83.9898,
+  "cash": 88.8798,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -8,6 +8,7 @@
     "KXRT-MOA-40": "2026-07-10",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
+    "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXWTIW-26JUL1014-B69.50": "2026-07-08",
     "KXWTIW-26JUL1014-B72.50": "2026-07-08"
   },
@@ -63,25 +64,10 @@
       "slug": "kxrt-moa-30",
       "strategy": "rt_last_mile",
       "token_id": "KXRT-MOA-30:yes"
-    },
-    "KXTRUMPSAY-26JUL13-STUP": {
-      "cost": 4.63,
-      "entry_price": 0.92,
-      "event_ticker": "KXTRUMPSAY-26JUL13",
-      "market_id": "KXTRUMPSAY-26JUL13-STUP",
-      "opened": "2026-07-10T18:04:56+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 5.0,
-      "question": "Will Trump say \"Stupid Question\" before Jul 13, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsay-26jul13-stup",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAY-26JUL13-STUP:no"
     }
   },
-  "realized_pnl": -30.430000000000007,
+  "realized_pnl": -30.17000000000001,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-12T20:04:41+00:00",
+  "updated": "2026-07-12T21:04:36+00:00",
   "venue": "kalshi"
 }
