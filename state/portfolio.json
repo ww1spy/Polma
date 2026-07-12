@@ -1,5 +1,5 @@
 {
-  "cash": 460.57,
+  "cash": 430.59999999999997,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -62,6 +62,51 @@
       "strategy": "favorite_discount",
       "token_id": "16604135165449683652972617941998736394154596078818094319494023401259995185346"
     },
+    "2880020": {
+      "cost": 9.99,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "2880020",
+      "opened": "2026-07-12T05:04:43+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.62,
+      "question": "Exact Score: France 1 - 1 Spain?",
+      "rules_version": 12,
+      "slug": "fifwc-fra-esp-2026-07-14-exact-score-1-1",
+      "strategy": "favorite_discount",
+      "token_id": "87736848929201374241638717288141281766061664661743179210897233426378698632606"
+    },
+    "2880022": {
+      "cost": 9.99,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2880022",
+      "opened": "2026-07-12T05:04:43+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.74,
+      "question": "Exact Score: France 2 - 0 Spain?",
+      "rules_version": 12,
+      "slug": "fifwc-fra-esp-2026-07-14-exact-score-2-0",
+      "strategy": "favorite_discount",
+      "token_id": "38943848909340836707170753195823543725159145154498130463341347967320135003712"
+    },
+    "2880028": {
+      "cost": 9.99,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "2880028",
+      "opened": "2026-07-12T05:04:43+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.98,
+      "question": "Exact Score: France 2 - 1 Spain?",
+      "rules_version": 12,
+      "slug": "fifwc-fra-esp-2026-07-14-exact-score-2-1",
+      "strategy": "favorite_discount",
+      "token_id": "11298697570668477206551804987669230914382059226396503238092011463633231929806"
+    },
     "2880035": {
       "cost": 9.99,
       "entry_price": 0.954,
@@ -95,5 +140,5 @@
   },
   "realized_pnl": 0.34999999999999964,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-12T04:04:30+00:00"
+  "updated": "2026-07-12T05:04:43+00:00"
 }
