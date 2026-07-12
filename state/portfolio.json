@@ -1,5 +1,5 @@
 {
-  "cash": 430.59999999999997,
+  "cash": 420.61999999999995,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -92,6 +92,21 @@
       "strategy": "favorite_discount",
       "token_id": "38943848909340836707170753195823543725159145154498130463341347967320135003712"
     },
+    "2880025": {
+      "cost": 9.98,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2880025",
+      "opened": "2026-07-12T10:57:45+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.73,
+      "question": "Exact Score: France 1 - 2 Spain?",
+      "rules_version": 12,
+      "slug": "fifwc-fra-esp-2026-07-14-exact-score-1-2",
+      "strategy": "favorite_discount",
+      "token_id": "63040697995918257653570716014690931054959732722329401152076109060274482346327"
+    },
     "2880028": {
       "cost": 9.99,
       "entry_price": 0.91,
@@ -140,5 +155,5 @@
   },
   "realized_pnl": 0.34999999999999964,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-12T06:04:53+00:00"
+  "updated": "2026-07-12T10:57:45+00:00"
 }
