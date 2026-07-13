@@ -14,9 +14,16 @@
 # book's job is fill-fidelity confirmation, not statistical power.
 # ============================================================
 
-version: 1
-updated: "2026-07-08"
-notes: ETH15M-only fast-favorite profile (H3), paper-only.
+version: 2
+updated: "2026-07-13"
+# v2: PAUSED by weekly revalidation (journal/revalidations/2026-07-13.md).
+# The edge decayed to DEMOTE: 7-day 1-min study -0.98% ROI with BOTH halves
+# negative, statistically indistinguishable from the BTC control (-1.05%) —
+# the original +2.3% was a regime artifact, exactly what the control was
+# for. Paper record while it ran: 4-for-4, +$8.05. Strategy disabled
+# (cycles stay runnable: settles/exits would still process). Re-enabling
+# requires a fresh two-period-positive study vs control + owner sign-off.
+notes: ETH15M-only fast-favorite profile (H3), paper-only. PAUSED v2.
 
 universe:
   min_liquidity_usd: 2000
@@ -28,7 +35,7 @@ universe:
 
 strategies:
   - name: eth15_favorite
-    enabled: true
+    enabled: false               # v2: paused — see version note
     description: Backtested 0.90-0.97 band, 3-12 min pre-settle, hold to settle.
     min_price: 0.90
     max_price: 0.97
