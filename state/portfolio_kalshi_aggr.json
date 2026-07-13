@@ -1,5 +1,5 @@
 {
-  "cash": 48.530000000000086,
+  "cash": 84.57000000000008,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -19,6 +19,7 @@
     "KXHIGHNY-26JUL13-B86.5": "2026-07-13",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
+    "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
@@ -107,21 +108,6 @@
       "slug": "kxeconstatcpi-26jun-t0.0",
       "strategy": "favorite_discount",
       "token_id": "KXECONSTATCPI-26JUN-T0.0:no"
-    },
-    "KXHIGHTSFO-26JUL13-T76": {
-      "cost": 34.05,
-      "entry_price": 0.93,
-      "event_ticker": "KXHIGHTSFO-26JUL13",
-      "market_id": "KXHIGHTSFO-26JUL13-T76",
-      "opened": "2026-07-13T19:04:30+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.43,
-      "question": "Will the maximum temperature be <76\u00b0 on Jul 13, 2026? \u2014 75\u00b0 or below",
-      "rules_version": 2,
-      "slug": "kxhightsfo-26jul13-t76",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTSFO-26JUL13-T76:no"
     },
     "KXHORMUZWEEKLY-26JUL12-T175": {
       "cost": 35.11,
@@ -215,8 +201,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -67.86999999999998,
+  "realized_pnl": -65.87999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T19:04:30+00:00",
+  "updated": "2026-07-13T20:04:33+00:00",
   "venue": "kalshi"
 }
