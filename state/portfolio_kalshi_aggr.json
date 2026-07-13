@@ -1,5 +1,5 @@
 {
-  "cash": 84.57000000000008,
+  "cash": 50.16000000000008,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -184,6 +184,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI:yes"
     },
+    "KXODIMATCH-26JUL131430NZWI-NZ": {
+      "cost": 34.41,
+      "entry_price": 0.97,
+      "event_ticker": "KXODIMATCH-26JUL131430NZWI",
+      "market_id": "KXODIMATCH-26JUL131430NZWI-NZ",
+      "opened": "2026-07-13T21:04:34+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 35.39,
+      "question": "West Indies vs New Zealand Winner?",
+      "rules_version": 2,
+      "slug": "kxodimatch-26jul131430nzwi-nz",
+      "strategy": "favorite_discount",
+      "token_id": "KXODIMATCH-26JUL131430NZWI-NZ:yes"
+    },
     "KXWTI-26JUL1414-T73.49": {
       "cost": 32.43,
       "entry_price": 0.94,
@@ -203,6 +218,6 @@
   "profile": "aggr",
   "realized_pnl": -65.87999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T20:04:33+00:00",
+  "updated": "2026-07-13T21:04:34+00:00",
   "venue": "kalshi"
 }
