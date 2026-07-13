@@ -1,5 +1,5 @@
 {
-  "cash": 74.11000000000007,
+  "cash": 41.68000000000007,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -195,11 +195,26 @@
       "slug": "kxnetflixrankshowrunnerup-26jul13-iwi",
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI:yes"
+    },
+    "KXWTI-26JUL1414-T73.49": {
+      "cost": 32.43,
+      "entry_price": 0.94,
+      "event_ticker": "KXWTI-26JUL1414",
+      "market_id": "KXWTI-26JUL1414-T73.49",
+      "opened": "2026-07-13T18:04:35+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 34.35,
+      "question": "Will the WTI crude oil settlement price be above 73.49 USD/Bbl on Jul 14, 2026? \u2014 Above $73.49",
+      "rules_version": 2,
+      "slug": "kxwti-26jul1414-t73.49",
+      "strategy": "favorite_discount",
+      "token_id": "KXWTI-26JUL1414-T73.49:yes"
     }
   },
   "profile": "aggr",
   "realized_pnl": -70.21999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T17:04:36+00:00",
+  "updated": "2026-07-13T18:04:35+00:00",
   "venue": "kalshi"
 }
