@@ -1,5 +1,5 @@
 {
-  "cash": 58.120000000000076,
+  "cash": 60.840000000000074,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -26,6 +26,7 @@
     "KXRT-MOA-37": "2026-07-11",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
+    "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
     "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
     "KXWTI-26JUL1014-T68.49": "2026-07-10",
@@ -40,6 +41,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXCPI-26JUN-T0.0": {
+      "cost": 35.55,
+      "entry_price": 0.9789,
+      "event_ticker": "KXCPI-26JUN",
+      "market_id": "KXCPI-26JUN-T0.0",
+      "opened": "2026-07-13T00:07:24+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.25,
+      "question": "Will CPI rise more than 0.0% in June 2026? \u2014 Above 0.0%",
+      "rules_version": 2,
+      "slug": "kxcpi-26jun-t0.0",
+      "strategy": "favorite_discount",
+      "token_id": "KXCPI-26JUN-T0.0:no"
+    },
     "KXCPICOMBO-26JUN-0302": {
       "cost": 35.04,
       "entry_price": 0.97,
@@ -160,21 +176,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-INV-95:yes"
     },
-    "KXTECHRANKLISTAICODE-26JUL13-CHAT": {
-      "cost": 37.6,
-      "entry_price": 0.9695,
-      "event_ticker": "KXTECHRANKLISTAICODE-26JUL13",
-      "market_id": "KXTECHRANKLISTAICODE-26JUL13-CHAT",
-      "opened": "2026-07-10T20:04:34+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.69,
-      "question": "Top Coding AI this week? \u2014 ChatGPT",
-      "rules_version": 2,
-      "slug": "kxtechranklistaicode-26jul13-chat",
-      "strategy": "favorite_discount",
-      "token_id": "KXTECHRANKLISTAICODE-26JUL13-CHAT:no"
-    },
     "KXTRUMPSAY-26JUL13-STUP": {
       "cost": 37.55,
       "entry_price": 0.9476,
@@ -207,8 +208,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -44.899999999999984,
+  "realized_pnl": -44.22999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-12T23:04:49+00:00",
+  "updated": "2026-07-13T00:07:24+00:00",
   "venue": "kalshi"
 }
