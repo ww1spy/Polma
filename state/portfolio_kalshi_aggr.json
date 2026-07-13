@@ -1,5 +1,5 @@
 {
-  "cash": 60.840000000000074,
+  "cash": 64.01000000000008,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -20,6 +20,7 @@
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
+    "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXPUREALBUMS-XPE26JUL09-3K": "2026-07-12",
     "KXRT-INV-94": "2026-07-11",
@@ -27,6 +28,7 @@
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
+    "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
     "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
     "KXWTI-26JUL1014-T68.49": "2026-07-10",
@@ -116,21 +118,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHORMUZWEEKLY-26JUL12-T175:no"
     },
-    "KXNETFLIXRANKMOVIE-26JUL13-ENO": {
-      "cost": 35.27,
-      "entry_price": 0.97,
-      "event_ticker": "KXNETFLIXRANKMOVIE-26JUL13",
-      "market_id": "KXNETFLIXRANKMOVIE-26JUL13-ENO",
-      "opened": "2026-07-12T06:04:55+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.27,
-      "question": "Top US Netflix Movie on Jul 13, 2026? \u2014 Enola Holmes 3",
-      "rules_version": 2,
-      "slug": "kxnetflixrankmovie-26jul13-eno",
-      "strategy": "favorite_discount",
-      "token_id": "KXNETFLIXRANKMOVIE-26JUL13-ENO:no"
-    },
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": {
       "cost": 35.45,
       "entry_price": 0.9,
@@ -145,6 +132,36 @@
       "slug": "kxnetflixrankmovieglobal-26jul13-eno",
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO:yes"
+    },
+    "KXNETFLIXRANKMOVIERUNNERUP-26JUL13-ENO": {
+      "cost": 35.89,
+      "entry_price": 0.94,
+      "event_ticker": "KXNETFLIXRANKMOVIERUNNERUP-26JUL13",
+      "market_id": "KXNETFLIXRANKMOVIERUNNERUP-26JUL13-ENO",
+      "opened": "2026-07-13T02:04:35+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.02,
+      "question": "#2 US Netflix Movie on Jul 13, 2026? \u2014 Enola Holmes 3",
+      "rules_version": 2,
+      "slug": "kxnetflixrankmovierunnerup-26jul13-eno",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKMOVIERUNNERUP-26JUL13-ENO:no"
+    },
+    "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": {
+      "cost": 35.88,
+      "entry_price": 0.9389,
+      "event_ticker": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13",
+      "market_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI",
+      "opened": "2026-07-13T02:04:35+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.05,
+      "question": "#2 US Netflix Show on Jul 13, 2026? \u2014 I Will Find You: Limited Series",
+      "rules_version": 2,
+      "slug": "kxnetflixrankshowrunnerup-26jul13-iwi",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI:yes"
     },
     "KXRT-EVI-72": {
       "cost": 37.72,
@@ -176,21 +193,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-INV-95:yes"
     },
-    "KXTRUMPSAY-26JUL13-STUP": {
-      "cost": 37.55,
-      "entry_price": 0.9476,
-      "event_ticker": "KXTRUMPSAY-26JUL13",
-      "market_id": "KXTRUMPSAY-26JUL13-STUP",
-      "opened": "2026-07-10T21:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.48,
-      "question": "Will Trump say \"Stupid Question\" before Jul 13, 2026?",
-      "rules_version": 2,
-      "slug": "kxtrumpsay-26jul13-stup",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAY-26JUL13-STUP:no"
-    },
     "KXWTI-26JUL1314-T74.99": {
       "cost": 37.64,
       "entry_price": 0.91,
@@ -208,8 +210,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -44.22999999999998,
+  "realized_pnl": -42.10999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T01:04:39+00:00",
+  "updated": "2026-07-13T02:04:35+00:00",
   "venue": "kalshi"
 }
