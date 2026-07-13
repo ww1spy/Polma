@@ -1,5 +1,5 @@
 {
-  "cash": 67.16000000000008,
+  "cash": 67.14000000000007,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -25,6 +25,7 @@
     "KXPUREALBUMS-XPE26JUL09-3K": "2026-07-12",
     "KXRT-EVI-72": "2026-07-13",
     "KXRT-INV-94": "2026-07-11",
+    "KXRT-INV-95": "2026-07-13",
     "KXRT-MOA-37": "2026-07-11",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
@@ -119,6 +120,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL13-B73.5:no"
     },
+    "KXHIGHNY-26JUL13-B86.5": {
+      "cost": 36.52,
+      "entry_price": 0.96,
+      "event_ticker": "KXHIGHNY-26JUL13",
+      "market_id": "KXHIGHNY-26JUL13-B86.5",
+      "opened": "2026-07-13T14:05:32+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.93,
+      "question": "Will the **high temp in NYC** be 86-87\u00b0 on Jul 13, 2026? \u2014 86\u00b0 to 87\u00b0",
+      "rules_version": 2,
+      "slug": "kxhighny-26jul13-b86.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHNY-26JUL13-B86.5:no"
+    },
     "KXHORMUZWEEKLY-26JUL12-T175": {
       "cost": 35.11,
       "entry_price": 0.9,
@@ -179,21 +195,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI:yes"
     },
-    "KXRT-INV-95": {
-      "cost": 35.35,
-      "entry_price": 0.935,
-      "event_ticker": "KXRT-INV",
-      "market_id": "KXRT-INV-95",
-      "opened": "2026-07-12T06:04:56+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 37.63,
-      "question": "The Invite Rotten Tomatoes score? \u2014 Above 95",
-      "rules_version": 2,
-      "slug": "kxrt-inv-95",
-      "strategy": "favorite_discount",
-      "token_id": "KXRT-INV-95:yes"
-    },
     "KXWTI-26JUL1314-T74.99": {
       "cost": 37.64,
       "entry_price": 0.91,
@@ -211,8 +212,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -40.699999999999974,
+  "realized_pnl": -39.549999999999976,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T13:05:45+00:00",
+  "updated": "2026-07-13T14:05:32+00:00",
   "venue": "kalshi"
 }

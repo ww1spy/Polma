@@ -1,10 +1,12 @@
 {
-  "cash": 473.41999999999996,
+  "cash": 503.58,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
     "KXRT-EVI-72": "2026-07-13",
     "KXRT-EVI-75": "2026-07-10",
+    "KXRT-INV-96": "2026-07-13",
+    "KXRT-MOA-30": "2026-07-13",
     "KXRT-MOA-40": "2026-07-10",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-10"
@@ -13,41 +15,10 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 503.57539999999995,
-  "positions": {
-    "KXRT-INV-96": {
-      "cost": 15.02,
-      "entry_price": 0.99,
-      "event_ticker": "KXRT-INV",
-      "market_id": "KXRT-INV-96",
-      "opened": "2026-07-10T14:05:34+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.15,
-      "question": "The Invite Rotten Tomatoes score? \u2014 Above 96",
-      "rules_version": 12,
-      "slug": "kxrt-inv-96",
-      "strategy": "rt_last_mile",
-      "token_id": "KXRT-INV-96:no"
-    },
-    "KXRT-MOA-30": {
-      "cost": 15.03,
-      "entry_price": 0.98,
-      "event_ticker": "KXRT-MOA",
-      "market_id": "KXRT-MOA-30",
-      "opened": "2026-07-10T20:04:26+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 15.31,
-      "question": "Moana Rotten Tomatoes score? \u2014 Above 30",
-      "rules_version": 12,
-      "slug": "kxrt-moa-30",
-      "strategy": "rt_last_mile",
-      "token_id": "KXRT-MOA-30:yes"
-    }
-  },
-  "realized_pnl": 3.4699999999999953,
+  "peak_equity": 503.58,
+  "positions": {},
+  "realized_pnl": 3.5799999999999965,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T13:05:36+00:00",
+  "updated": "2026-07-13T14:05:25+00:00",
   "venue": "kalshi"
 }
