@@ -1,5 +1,5 @@
 {
-  "cash": 41.68000000000007,
+  "cash": 48.530000000000086,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -12,9 +12,11 @@
     "KXHIGHLAX-26JUL09-T80": "2026-07-09",
     "KXHIGHLAX-26JUL10-B74.5": "2026-07-10",
     "KXHIGHLAX-26JUL10-T74": "2026-07-10",
+    "KXHIGHLAX-26JUL13-B73.5": "2026-07-13",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
+    "KXHIGHNY-26JUL13-B86.5": "2026-07-13",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
@@ -106,35 +108,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXECONSTATCPI-26JUN-T0.0:no"
     },
-    "KXHIGHLAX-26JUL13-B73.5": {
-      "cost": 35.98,
-      "entry_price": 0.95,
-      "event_ticker": "KXHIGHLAX-26JUL13",
-      "market_id": "KXHIGHLAX-26JUL13-B73.5",
-      "opened": "2026-07-13T12:05:43+00:00",
+    "KXHIGHTSFO-26JUL13-T76": {
+      "cost": 34.05,
+      "entry_price": 0.93,
+      "event_ticker": "KXHIGHTSFO-26JUL13",
+      "market_id": "KXHIGHTSFO-26JUL13-T76",
+      "opened": "2026-07-13T19:04:30+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 37.74,
-      "question": "Will the **high temp in LA** be 73-74\u00b0 on Jul 13, 2026? \u2014 73\u00b0 to 74\u00b0",
+      "qty": 36.43,
+      "question": "Will the maximum temperature be <76\u00b0 on Jul 13, 2026? \u2014 75\u00b0 or below",
       "rules_version": 2,
-      "slug": "kxhighlax-26jul13-b73.5",
+      "slug": "kxhightsfo-26jul13-t76",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL13-B73.5:no"
-    },
-    "KXHIGHNY-26JUL13-B86.5": {
-      "cost": 36.52,
-      "entry_price": 0.96,
-      "event_ticker": "KXHIGHNY-26JUL13",
-      "market_id": "KXHIGHNY-26JUL13-B86.5",
-      "opened": "2026-07-13T14:05:32+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.93,
-      "question": "Will the **high temp in NYC** be 86-87\u00b0 on Jul 13, 2026? \u2014 86\u00b0 to 87\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighny-26jul13-b86.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL13-B86.5:no"
+      "token_id": "KXHIGHTSFO-26JUL13-T76:no"
     },
     "KXHORMUZWEEKLY-26JUL12-T175": {
       "cost": 35.11,
@@ -181,6 +168,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKMOVIERUNNERUP-26JUL13-ENO:no"
     },
+    "KXNETFLIXRANKSHOW-26JUL13-WOR": {
+      "cost": 33.95,
+      "entry_price": 0.972,
+      "event_ticker": "KXNETFLIXRANKSHOW-26JUL13",
+      "market_id": "KXNETFLIXRANKSHOW-26JUL13-WOR",
+      "opened": "2026-07-13T19:04:30+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 34.86,
+      "question": "Top US Netflix Show on Jul 13, 2026? \u2014 Worst Neighbor Ever: Season 1",
+      "rules_version": 2,
+      "slug": "kxnetflixrankshow-26jul13-wor",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKSHOW-26JUL13-WOR:yes"
+    },
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": {
       "cost": 35.88,
       "entry_price": 0.9389,
@@ -213,8 +215,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -70.21999999999997,
+  "realized_pnl": -67.86999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T18:04:35+00:00",
+  "updated": "2026-07-13T19:04:30+00:00",
   "venue": "kalshi"
 }
