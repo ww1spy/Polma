@@ -13,7 +13,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 503.42229999999995,
+  "peak_equity": 503.57539999999995,
   "positions": {
     "KXRT-INV-96": {
       "cost": 15.02,
@@ -48,6 +48,6 @@
   },
   "realized_pnl": 3.4699999999999953,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T12:05:36+00:00",
+  "updated": "2026-07-13T13:05:36+00:00",
   "venue": "kalshi"
 }
