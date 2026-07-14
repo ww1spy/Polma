@@ -1,5 +1,5 @@
 {
-  "cash": 67.69000000000011,
+  "cash": 45.78000000000011,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -26,14 +26,17 @@
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
     "KXHIGHNY-26JUL13-B86.5": "2026-07-13",
+    "KXHIGHNY-26JUL14-B90.5": "2026-07-14",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
+    "KXINX-26JUL14H1600-B7612": "2026-07-14",
     "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
+    "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": "2026-07-14",
     "KXNETFLIXRANKMOVIERUNNERUP-26JUL13-ENO": "2026-07-14",
@@ -142,35 +145,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL14-B78.5:no"
     },
-    "KXHIGHNY-26JUL14-B90.5": {
-      "cost": 35.1,
-      "entry_price": 0.93,
-      "event_ticker": "KXHIGHNY-26JUL14",
-      "market_id": "KXHIGHNY-26JUL14-B90.5",
-      "opened": "2026-07-14T13:04:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.55,
-      "question": "Will the **high temp in NYC** be 90-91\u00b0 on Jul 14, 2026? \u2014 90\u00b0 to 91\u00b0",
+    "KXLOLGAME-26JUL150610GAMT1-T1": {
+      "cost": 34.37,
+      "entry_price": 0.92,
+      "event_ticker": "KXLOLGAME-26JUL150610GAMT1",
+      "market_id": "KXLOLGAME-26JUL150610GAMT1-T1",
+      "opened": "2026-07-14T20:04:57+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 37.14,
+      "question": "Will T1 win the GAM Esports vs. T1 League of Legends match?",
       "rules_version": 2,
-      "slug": "kxhighny-26jul14-b90.5",
+      "slug": "kxlolgame-26jul150610gamt1-t1",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL14-B90.5:no"
-    },
-    "KXINX-26JUL14H1600-B7612": {
-      "cost": 35.0,
-      "entry_price": 0.9597,
-      "event_ticker": "KXINX-26JUL14H1600",
-      "market_id": "KXINX-26JUL14H1600-B7612",
-      "opened": "2026-07-14T13:04:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.37,
-      "question": "Will the S&P 500 be between 7600 and 7624.9999 on Jul 14, 2026 at 4pm EDT? \u2014 7,600 to 7,624.9999",
-      "rules_version": 2,
-      "slug": "kxinx-26jul14h1600-b7612",
-      "strategy": "favorite_discount",
-      "token_id": "KXINX-26JUL14H1600-B7612:no"
+      "token_id": "KXLOLGAME-26JUL150610GAMT1-T1:yes"
     },
     "KXLOLGAME-26JUL150830MILOHLE-HLE": {
       "cost": 35.06,
@@ -187,21 +175,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXLOLGAME-26JUL150830MILOHLE-HLE:yes"
     },
-    "KXNASDAQ100-26JUL14H1600-B29950": {
-      "cost": 35.1,
-      "entry_price": 0.92,
-      "event_ticker": "KXNASDAQ100-26JUL14H1600",
-      "market_id": "KXNASDAQ100-26JUL14H1600-B29950",
-      "opened": "2026-07-14T13:04:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.93,
-      "question": "Will the Nasdaq-100 be between 29900 and 29999.9900 at the end of Jul 14, 2026 at 4pm EDT? \u2014 29,900 to 29,999.99",
-      "rules_version": 2,
-      "slug": "kxnasdaq100-26jul14h1600-b29950",
-      "strategy": "favorite_discount",
-      "token_id": "KXNASDAQ100-26JUL14H1600-B29950:no"
-    },
     "KXSILVERD-26JUL1417-T58": {
       "cost": 35.61,
       "entry_price": 0.93,
@@ -217,6 +190,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXSILVERD-26JUL1417-T58:yes"
     },
+    "KXWCPRICE-26JULWCSEMI2-3000": {
+      "cost": 34.28,
+      "entry_price": 0.9616,
+      "event_ticker": "KXWCPRICE-26JULWCSEMI2",
+      "market_id": "KXWCPRICE-26JULWCSEMI2-3000",
+      "opened": "2026-07-14T20:04:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 35.55,
+      "question": "Will Get-in price of the Semi-Final - World Cup Match 102 (Mercedes-Benz Stadium) on TicketData be above $3000 on 3:00PM ET July 15th, 2026? \u2014 Above $3000",
+      "rules_version": 2,
+      "slug": "kxwcprice-26julwcsemi2-3000",
+      "strategy": "favorite_discount",
+      "token_id": "KXWCPRICE-26JULWCSEMI2-3000:no"
+    },
     "KXWTI-26JUL1514-T84.99": {
       "cost": 34.76,
       "entry_price": 0.9,
@@ -231,11 +219,26 @@
       "slug": "kxwti-26jul1514-t84.99",
       "strategy": "favorite_discount",
       "token_id": "KXWTI-26JUL1514-T84.99:no"
+    },
+    "KXWTIW-26JUL1714-B77.50": {
+      "cost": 34.42,
+      "entry_price": 0.91,
+      "event_ticker": "KXWTIW-26JUL1714",
+      "market_id": "KXWTIW-26JUL1714-B77.50",
+      "opened": "2026-07-14T20:04:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.58,
+      "question": "Will the WTI crude oil settlement price be between 77.00 and 77.99 USD/Bbl on Jul 17, 2026? \u2014 $77.00 to $77.99",
+      "rules_version": 2,
+      "slug": "kxwtiw-26jul1714-b77.50",
+      "strategy": "favorite_discount",
+      "token_id": "KXWTIW-26JUL1714-B77.50:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -43.38999999999996,
+  "realized_pnl": -67.42999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T19:05:10+00:00",
+  "updated": "2026-07-14T20:04:57+00:00",
   "venue": "kalshi"
 }
