@@ -1,5 +1,5 @@
 {
-  "cash": 455.93000000000006,
+  "cash": 425.6900000000001,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -70,6 +70,21 @@
       "strategy": "favorite_discount",
       "token_id": "91650759796378202584724157456744833051057694449229578587519268009658092695924"
     },
+    "2891230": {
+      "cost": 10.08,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2891230",
+      "opened": "2026-07-14T22:04:35+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.84,
+      "question": "Exact Score: England 1 - 2 Argentina?",
+      "rules_version": 12,
+      "slug": "fifwc-eng-arg-2026-07-15-exact-score-1-2",
+      "strategy": "favorite_discount",
+      "token_id": "105417117367513783489773296552210774986159257496601169303738978592687497537717"
+    },
     "2891232": {
       "cost": 9.95,
       "entry_price": 0.93,
@@ -85,6 +100,21 @@
       "strategy": "favorite_discount",
       "token_id": "79308791843823770902626560398054587026493043481914041462250885886140861951241"
     },
+    "2891238": {
+      "cost": 10.08,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "2891238",
+      "opened": "2026-07-14T22:04:36+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.61,
+      "question": "Exact Score: England 2 - 2 Argentina?",
+      "rules_version": 12,
+      "slug": "fifwc-eng-arg-2026-07-15-exact-score-2-2",
+      "strategy": "favorite_discount",
+      "token_id": "21146949608908075016905035834719422927394104436010973394302036200270077023437"
+    },
     "2891653": {
       "cost": 10.08,
       "entry_price": 0.8525,
@@ -99,6 +129,21 @@
       "slug": "fifwc-eng-arg-2026-07-15-spread-home-1pt5",
       "strategy": "favorite_discount",
       "token_id": "85114811880071364109901579684216057234728758303760246661139812198099702976200"
+    },
+    "2891655": {
+      "cost": 10.08,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "2891655",
+      "opened": "2026-07-14T22:04:36+00:00",
+      "outcome": "Argentina",
+      "outcome_idx": 1,
+      "qty": 10.5,
+      "question": "Spread: England (-2.5)",
+      "rules_version": 12,
+      "slug": "fifwc-eng-arg-2026-07-15-spread-home-2pt5",
+      "strategy": "favorite_discount",
+      "token_id": "96036106742311747725667254197426653072075345216843694664556026635474500642969"
     },
     "558935": {
       "cost": 9.94,
@@ -118,5 +163,5 @@
   },
   "realized_pnl": 5.84,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T21:05:01+00:00"
+  "updated": "2026-07-14T22:04:36+00:00"
 }
