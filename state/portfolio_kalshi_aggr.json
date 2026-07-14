@@ -1,5 +1,5 @@
 {
-  "cash": 50.16000000000008,
+  "cash": 50.720000000000084,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -25,6 +25,7 @@
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
+    "KXODIMATCH-26JUL131430NZWI-NZ": "2026-07-14",
     "KXPUREALBUMS-XPE26JUL09-3K": "2026-07-12",
     "KXRT-EVI-72": "2026-07-13",
     "KXRT-INV-94": "2026-07-11",
@@ -49,6 +50,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXCBDECISIONKOREA-26JUL15-HOLD": {
+      "cost": 34.83,
+      "entry_price": 0.9352,
+      "event_ticker": "KXCBDECISIONKOREA-26JUL15",
+      "market_id": "KXCBDECISIONKOREA-26JUL15-HOLD",
+      "opened": "2026-07-14T00:04:47+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.08,
+      "question": "Will the Bank of Korea Maintain current rate at the July Bank of Korea Monetary Policy Board meeting?",
+      "rules_version": 2,
+      "slug": "kxcbdecisionkorea-26jul15-hold",
+      "strategy": "favorite_discount",
+      "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
+    },
     "KXCPI-26JUN-T0.0": {
       "cost": 35.55,
       "entry_price": 0.9789,
@@ -184,21 +200,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI:yes"
     },
-    "KXODIMATCH-26JUL131430NZWI-NZ": {
-      "cost": 34.41,
-      "entry_price": 0.97,
-      "event_ticker": "KXODIMATCH-26JUL131430NZWI",
-      "market_id": "KXODIMATCH-26JUL131430NZWI-NZ",
-      "opened": "2026-07-13T21:04:34+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 35.39,
-      "question": "West Indies vs New Zealand Winner?",
-      "rules_version": 2,
-      "slug": "kxodimatch-26jul131430nzwi-nz",
-      "strategy": "favorite_discount",
-      "token_id": "KXODIMATCH-26JUL131430NZWI-NZ:yes"
-    },
     "KXWTI-26JUL1414-T73.49": {
       "cost": 32.43,
       "entry_price": 0.94,
@@ -216,8 +217,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -65.87999999999997,
+  "realized_pnl": -64.89999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-13T23:04:44+00:00",
+  "updated": "2026-07-14T00:04:47+00:00",
   "venue": "kalshi"
 }
