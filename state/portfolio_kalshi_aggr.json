@@ -1,5 +1,5 @@
 {
-  "cash": 59.15000000000011,
+  "cash": 61.820000000000114,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -9,6 +9,7 @@
     "KXCPI-26JUN-T0.0": "2026-07-14",
     "KXCPICOMBO-26JUN-0302": "2026-07-14",
     "KXCPIYOY-26JUN-T3.9": "2026-07-14",
+    "KXCS2GAME-26JUL141100FNCHOTU-FNC": "2026-07-14",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
@@ -77,20 +78,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
     },
-    "KXCS2GAME-26JUL141100FNCHOTU-FNC": {
-      "cost": 35.07,
-      "entry_price": 0.91,
-      "event_ticker": "KXCS2GAME-26JUL141100FNCHOTU",
-      "market_id": "KXCS2GAME-26JUL141100FNCHOTU-FNC",
-      "opened": "2026-07-14T16:05:24+00:00",
+    "KXCS2GAME-26JUL141200ODKPAINA-ODK": {
+      "cost": 35.21,
+      "entry_price": 0.9,
+      "event_ticker": "KXCS2GAME-26JUL141200ODKPAINA",
+      "market_id": "KXCS2GAME-26JUL141200ODKPAINA-ODK",
+      "opened": "2026-07-14T17:04:40+00:00",
       "outcome": "Yes",
       "outcome_idx": 0,
-      "qty": 38.29,
-      "question": "Will fnatic win the fnatic vs. HOTU CS2 match?",
+      "qty": 38.84,
+      "question": "Will ODDIK win the ODDIK vs. paiN Academy CS2 match?",
       "rules_version": 2,
-      "slug": "kxcs2game-26jul141100fnchotu-fnc",
+      "slug": "kxcs2game-26jul141200odkpaina-odk",
       "strategy": "favorite_discount",
-      "token_id": "KXCS2GAME-26JUL141100FNCHOTU-FNC:yes"
+      "token_id": "KXCS2GAME-26JUL141200ODKPAINA-ODK:yes"
     },
     "KXHIGHCHI-26JUL14-T94": {
       "cost": 33.26,
@@ -229,8 +230,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -55.82999999999997,
+  "realized_pnl": -53.01999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T16:05:24+00:00",
+  "updated": "2026-07-14T17:04:40+00:00",
   "venue": "kalshi"
 }
