@@ -1,5 +1,5 @@
 {
-  "cash": 65.05000000000011,
+  "cash": 67.69000000000011,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -12,6 +12,7 @@
     "KXCS2GAME-26JUL141100FNCHOTU-FNC": "2026-07-14",
     "KXCS2GAME-26JUL141200ODKPAINA-ODK": "2026-07-14",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
+    "KXHIGHCHI-26JUL14-T94": "2026-07-14",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
@@ -29,6 +30,7 @@
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
+    "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
@@ -54,6 +56,7 @@
     "KXWTI-26JUL1014-T72.49": "2026-07-10",
     "KXWTI-26JUL1314-T74.99": "2026-07-13",
     "KXWTI-26JUL1414-T73.49": "2026-07-14",
+    "KXWTI-26JUL1414-T77.99": "2026-07-14",
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10"
@@ -64,6 +67,51 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXAAAGASD-26JUL15-3.880": {
+      "cost": 35.99,
+      "entry_price": 0.9162,
+      "event_ticker": "KXAAAGASD-26JUL15",
+      "market_id": "KXAAAGASD-26JUL15-3.880",
+      "opened": "2026-07-14T19:05:10+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 39.06,
+      "question": "Will average **gas prices** be above $3.880? \u2014 Above 3.880",
+      "rules_version": 2,
+      "slug": "kxaaagasd-26jul15-3.880",
+      "strategy": "favorite_discount",
+      "token_id": "KXAAAGASD-26JUL15-3.880:yes"
+    },
+    "KXAPRPOTUS-26JUL17-40.0": {
+      "cost": 35.85,
+      "entry_price": 0.97,
+      "event_ticker": "KXAPRPOTUS-26JUL17",
+      "market_id": "KXAPRPOTUS-26JUL17-40.0",
+      "opened": "2026-07-14T19:05:10+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.87,
+      "question": "Will the President's approval rating be between 39.9 and 40.1 according to RealClearPolitics? \u2014 39.9 to 40.1",
+      "rules_version": 2,
+      "slug": "kxaprpotus-26jul17-40.0",
+      "strategy": "favorite_discount",
+      "token_id": "KXAPRPOTUS-26JUL17-40.0:no"
+    },
+    "KXBIGBROTHERELIMINATION-26JUL16-TAY": {
+      "cost": 36.01,
+      "entry_price": 0.92,
+      "event_ticker": "KXBIGBROTHERELIMINATION-26JUL16",
+      "market_id": "KXBIGBROTHERELIMINATION-26JUL16-TAY",
+      "opened": "2026-07-14T19:05:10+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.91,
+      "question": "Will Taylor Brown be eliminated from Big Brother Season 28 before Jul 17, 2026?",
+      "rules_version": 2,
+      "slug": "kxbigbrotherelimination-26jul16-tay",
+      "strategy": "favorite_discount",
+      "token_id": "KXBIGBROTHERELIMINATION-26JUL16-TAY:no"
+    },
     "KXCBDECISIONKOREA-26JUL15-HOLD": {
       "cost": 34.83,
       "entry_price": 0.9352,
@@ -78,21 +126,6 @@
       "slug": "kxcbdecisionkorea-26jul15-hold",
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
-    },
-    "KXHIGHCHI-26JUL14-T94": {
-      "cost": 33.26,
-      "entry_price": 0.9688,
-      "event_ticker": "KXHIGHCHI-26JUL14",
-      "market_id": "KXHIGHCHI-26JUL14-T94",
-      "opened": "2026-07-14T10:04:55+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 34.25,
-      "question": "Will the high temp in Chicago be <94\u00b0 on Jul 14, 2026? \u2014 93\u00b0 or below",
-      "rules_version": 2,
-      "slug": "kxhighchi-26jul14-t94",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHCHI-26JUL14-T94:no"
     },
     "KXHIGHLAX-26JUL14-B78.5": {
       "cost": 35.61,
@@ -139,21 +172,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXINX-26JUL14H1600-B7612:no"
     },
-    "KXINXU-26JUL14H1600-T7474.9999": {
-      "cost": 35.57,
-      "entry_price": 0.93,
-      "event_ticker": "KXINXU-26JUL14H1600",
-      "market_id": "KXINXU-26JUL14H1600-T7474.9999",
-      "opened": "2026-07-14T14:04:44+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.06,
-      "question": "Will the S&P 500 be above 7474.9999 on Jul 14, 2026 at 4pm EDT? \u2014 7,475 or above",
-      "rules_version": 2,
-      "slug": "kxinxu-26jul14h1600-t7474.9999",
-      "strategy": "favorite_discount",
-      "token_id": "KXINXU-26JUL14H1600-T7474.9999:yes"
-    },
     "KXLOLGAME-26JUL150830MILOHLE-HLE": {
       "cost": 35.06,
       "entry_price": 0.93,
@@ -199,21 +217,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXSILVERD-26JUL1417-T58:yes"
     },
-    "KXWTI-26JUL1414-T77.99": {
-      "cost": 35.66,
-      "entry_price": 0.9,
-      "event_ticker": "KXWTI-26JUL1414",
-      "market_id": "KXWTI-26JUL1414-T77.99",
-      "opened": "2026-07-14T14:04:44+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 39.35,
-      "question": "Will the WTI crude oil settlement price be above 77.99 USD/Bbl on Jul 14, 2026? \u2014 Above $77.99",
-      "rules_version": 2,
-      "slug": "kxwti-26jul1414-t77.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTI-26JUL1414-T77.99:yes"
-    },
     "KXWTI-26JUL1514-T84.99": {
       "cost": 34.76,
       "entry_price": 0.9,
@@ -231,8 +234,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -49.389999999999965,
+  "realized_pnl": -43.38999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T18:04:43+00:00",
+  "updated": "2026-07-14T19:05:10+00:00",
   "venue": "kalshi"
 }
