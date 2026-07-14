@@ -1,5 +1,5 @@
 {
-  "cash": 59.3900000000001,
+  "cash": 58.96000000000011,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -9,6 +9,7 @@
     "KXCPI-26JUN-T0.0": "2026-07-14",
     "KXCPICOMBO-26JUN-0302": "2026-07-14",
     "KXCPIYOY-26JUN-T3.9": "2026-07-14",
+    "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
@@ -16,6 +17,7 @@
     "KXHIGHLAX-26JUL10-B74.5": "2026-07-10",
     "KXHIGHLAX-26JUL10-T74": "2026-07-10",
     "KXHIGHLAX-26JUL13-B73.5": "2026-07-13",
+    "KXHIGHLAX-26JUL14-T81": "2026-07-14",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
@@ -48,6 +50,7 @@
     "KXWTI-26JUL1014-T68.49": "2026-07-10",
     "KXWTI-26JUL1014-T72.49": "2026-07-10",
     "KXWTI-26JUL1314-T74.99": "2026-07-13",
+    "KXWTI-26JUL1414-T73.49": "2026-07-14",
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10"
@@ -73,21 +76,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
     },
-    "KXECONSTATCPI-26JUN-T0.0": {
-      "cost": 35.29,
-      "entry_price": 0.9539,
-      "event_ticker": "KXECONSTATCPI-26JUN",
-      "market_id": "KXECONSTATCPI-26JUN-T0.0",
-      "opened": "2026-07-12T06:04:56+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.86,
-      "question": "CPI month-over-month in Jun 2026? \u2014 Exactly 0.0%",
-      "rules_version": 2,
-      "slug": "kxeconstatcpi-26jun-t0.0",
-      "strategy": "favorite_discount",
-      "token_id": "KXECONSTATCPI-26JUN-T0.0:no"
-    },
     "KXHIGHCHI-26JUL14-T94": {
       "cost": 33.26,
       "entry_price": 0.9688,
@@ -103,20 +91,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHCHI-26JUL14-T94:no"
     },
-    "KXHIGHLAX-26JUL14-T81": {
-      "cost": 34.62,
-      "entry_price": 0.96,
+    "KXHIGHLAX-26JUL14-B78.5": {
+      "cost": 35.61,
+      "entry_price": 0.91,
       "event_ticker": "KXHIGHLAX-26JUL14",
-      "market_id": "KXHIGHLAX-26JUL14-T81",
-      "opened": "2026-07-14T04:04:18+00:00",
+      "market_id": "KXHIGHLAX-26JUL14-B78.5",
+      "opened": "2026-07-14T14:04:44+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 35.96,
-      "question": "Will the **high temp in LA** be >81\u00b0 on Jul 14, 2026? \u2014 82\u00b0 or above",
+      "qty": 38.88,
+      "question": "Will the **high temp in LA** be 78-79\u00b0 on Jul 14, 2026? \u2014 78\u00b0 to 79\u00b0",
       "rules_version": 2,
-      "slug": "kxhighlax-26jul14-t81",
+      "slug": "kxhighlax-26jul14-b78.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL14-T81:no"
+      "token_id": "KXHIGHLAX-26JUL14-B78.5:no"
     },
     "KXHIGHMIA-26JUL14-B90.5": {
       "cost": 34.5,
@@ -163,6 +151,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXINX-26JUL14H1600-B7612:no"
     },
+    "KXINXU-26JUL14H1600-T7474.9999": {
+      "cost": 35.57,
+      "entry_price": 0.93,
+      "event_ticker": "KXINXU-26JUL14H1600",
+      "market_id": "KXINXU-26JUL14H1600-T7474.9999",
+      "opened": "2026-07-14T14:04:44+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.06,
+      "question": "Will the S&P 500 be above 7474.9999 on Jul 14, 2026 at 4pm EDT? \u2014 7,475 or above",
+      "rules_version": 2,
+      "slug": "kxinxu-26jul14h1600-t7474.9999",
+      "strategy": "favorite_discount",
+      "token_id": "KXINXU-26JUL14H1600-T7474.9999:yes"
+    },
     "KXLOLGAME-26JUL150830MILOHLE-HLE": {
       "cost": 35.06,
       "entry_price": 0.93,
@@ -193,20 +196,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXNASDAQ100-26JUL14H1600-B29950:no"
     },
-    "KXWTI-26JUL1414-T73.49": {
-      "cost": 32.43,
-      "entry_price": 0.94,
+    "KXWTI-26JUL1414-T77.99": {
+      "cost": 35.66,
+      "entry_price": 0.9,
       "event_ticker": "KXWTI-26JUL1414",
-      "market_id": "KXWTI-26JUL1414-T73.49",
-      "opened": "2026-07-13T18:04:35+00:00",
+      "market_id": "KXWTI-26JUL1414-T77.99",
+      "opened": "2026-07-14T14:04:44+00:00",
       "outcome": "Yes",
       "outcome_idx": 0,
-      "qty": 34.35,
-      "question": "Will the WTI crude oil settlement price be above 73.49 USD/Bbl on Jul 14, 2026? \u2014 Above $73.49",
+      "qty": 39.35,
+      "question": "Will the WTI crude oil settlement price be above 77.99 USD/Bbl on Jul 14, 2026? \u2014 Above $77.99",
       "rules_version": 2,
-      "slug": "kxwti-26jul1414-t73.49",
+      "slug": "kxwti-26jul1414-t77.99",
       "strategy": "favorite_discount",
-      "token_id": "KXWTI-26JUL1414-T73.49:yes"
+      "token_id": "KXWTI-26JUL1414-T77.99:yes"
     },
     "KXWTI-26JUL1514-T84.99": {
       "cost": 34.76,
@@ -225,8 +228,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -60.65999999999997,
+  "realized_pnl": -56.58999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T13:04:58+00:00",
+  "updated": "2026-07-14T14:04:44+00:00",
   "venue": "kalshi"
 }
