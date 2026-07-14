@@ -1,5 +1,5 @@
 {
-  "cash": 87.04000000000008,
+  "cash": 53.78000000000008,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -129,6 +129,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXECONSTATCPI-26JUN-T0.0:no"
     },
+    "KXHIGHCHI-26JUL14-T94": {
+      "cost": 33.26,
+      "entry_price": 0.9688,
+      "event_ticker": "KXHIGHCHI-26JUL14",
+      "market_id": "KXHIGHCHI-26JUL14-T94",
+      "opened": "2026-07-14T10:04:55+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 34.25,
+      "question": "Will the high temp in Chicago be <94\u00b0 on Jul 14, 2026? \u2014 93\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhighchi-26jul14-t94",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHCHI-26JUL14-T94:no"
+    },
     "KXHIGHLAX-26JUL14-T81": {
       "cost": 34.62,
       "entry_price": 0.96,
@@ -208,6 +223,6 @@
   "profile": "aggr",
   "realized_pnl": -65.86999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T09:05:15+00:00",
+  "updated": "2026-07-14T10:04:55+00:00",
   "venue": "kalshi"
 }
