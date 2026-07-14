@@ -1,5 +1,5 @@
 {
-  "cash": 421.60999999999996,
+  "cash": 455.93000000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -26,14 +26,19 @@
     "2844088": "2026-07-12",
     "2851088": "2026-07-10",
     "2869298": "2026-07-11",
+    "2880015": "2026-07-14",
+    "2880020": "2026-07-14",
     "2880022": "2026-07-14",
+    "2880025": "2026-07-14",
+    "2880028": "2026-07-14",
+    "2880035": "2026-07-14",
     "558951": "2026-07-12"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 500.0,
+  "peak_equity": 504.2207,
   "positions": {
     "2069670": {
       "cost": 9.86,
@@ -50,80 +55,20 @@
       "strategy": "favorite_discount",
       "token_id": "79813026047219556089086866254442022710149639219968664847450227889530897495282"
     },
-    "2880015": {
-      "cost": 9.98,
-      "entry_price": 0.93,
+    "2891215": {
+      "cost": 10.08,
+      "entry_price": 0.9,
       "event_ticker": "",
-      "market_id": "2880015",
-      "opened": "2026-07-13T14:05:29+00:00",
+      "market_id": "2891215",
+      "opened": "2026-07-14T21:05:01+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 10.73,
-      "question": "Exact Score: France 0 - 1 Spain?",
+      "qty": 11.2,
+      "question": "Exact Score: England 0 - 0 Argentina?",
       "rules_version": 12,
-      "slug": "fifwc-fra-esp-2026-07-14-exact-score-0-1",
+      "slug": "fifwc-eng-arg-2026-07-15-exact-score-0-0",
       "strategy": "favorite_discount",
-      "token_id": "38987024222824992062885932044774134146032062916970708494826980316584975066700"
-    },
-    "2880020": {
-      "cost": 9.99,
-      "entry_price": 0.86,
-      "event_ticker": "",
-      "market_id": "2880020",
-      "opened": "2026-07-12T05:04:43+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.62,
-      "question": "Exact Score: France 1 - 1 Spain?",
-      "rules_version": 12,
-      "slug": "fifwc-fra-esp-2026-07-14-exact-score-1-1",
-      "strategy": "favorite_discount",
-      "token_id": "87736848929201374241638717288141281766061664661743179210897233426378698632606"
-    },
-    "2880025": {
-      "cost": 9.98,
-      "entry_price": 0.93,
-      "event_ticker": "",
-      "market_id": "2880025",
-      "opened": "2026-07-12T10:57:45+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.73,
-      "question": "Exact Score: France 1 - 2 Spain?",
-      "rules_version": 12,
-      "slug": "fifwc-fra-esp-2026-07-14-exact-score-1-2",
-      "strategy": "favorite_discount",
-      "token_id": "63040697995918257653570716014690931054959732722329401152076109060274482346327"
-    },
-    "2880028": {
-      "cost": 9.99,
-      "entry_price": 0.91,
-      "event_ticker": "",
-      "market_id": "2880028",
-      "opened": "2026-07-12T05:04:43+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.98,
-      "question": "Exact Score: France 2 - 1 Spain?",
-      "rules_version": 12,
-      "slug": "fifwc-fra-esp-2026-07-14-exact-score-2-1",
-      "strategy": "favorite_discount",
-      "token_id": "11298697570668477206551804987669230914382059226396503238092011463633231929806"
-    },
-    "2880035": {
-      "cost": 9.99,
-      "entry_price": 0.954,
-      "event_ticker": "",
-      "market_id": "2880035",
-      "opened": "2026-07-12T04:04:30+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.47,
-      "question": "Exact Score: France 3 - 1 Spain?",
-      "rules_version": 12,
-      "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-1",
-      "strategy": "favorite_discount",
-      "token_id": "88750360141157570751897328929802001137892873715465404759582879927201970362369"
+      "token_id": "91650759796378202584724157456744833051057694449229578587519268009658092695924"
     },
     "2891232": {
       "cost": 9.95,
@@ -139,6 +84,21 @@
       "slug": "fifwc-eng-arg-2026-07-15-exact-score-2-1",
       "strategy": "favorite_discount",
       "token_id": "79308791843823770902626560398054587026493043481914041462250885886140861951241"
+    },
+    "2891653": {
+      "cost": 10.08,
+      "entry_price": 0.8525,
+      "event_ticker": "",
+      "market_id": "2891653",
+      "opened": "2026-07-14T21:05:01+00:00",
+      "outcome": "Argentina",
+      "outcome_idx": 1,
+      "qty": 11.83,
+      "question": "Spread: England (-1.5)",
+      "rules_version": 12,
+      "slug": "fifwc-eng-arg-2026-07-15-spread-home-1pt5",
+      "strategy": "favorite_discount",
+      "token_id": "85114811880071364109901579684216057234728758303760246661139812198099702976200"
     },
     "558935": {
       "cost": 9.94,
@@ -156,7 +116,7 @@
       "token_id": "77121637225348873006259930776623502125079210522997384841464684944292365296940"
     }
   },
-  "realized_pnl": 1.2899999999999991,
+  "realized_pnl": 5.84,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T20:04:53+00:00"
+  "updated": "2026-07-14T21:05:01+00:00"
 }
