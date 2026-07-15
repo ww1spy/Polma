@@ -1,5 +1,5 @@
 {
-  "cash": 51.44000000000011,
+  "cash": 85.9000000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -14,6 +14,7 @@
     "KXCS2GAME-26JUL141200ODKPAINA-ODK": "2026-07-14",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXHIGHCHI-26JUL14-T94": "2026-07-14",
+    "KXHIGHCHI-26JUL15-B98.5": "2026-07-15",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-B77.5": "2026-07-08",
     "KXHIGHLAX-26JUL08-T78": "2026-07-08",
@@ -25,6 +26,7 @@
     "KXHIGHLAX-26JUL14-T81": "2026-07-14",
     "KXHIGHLAX-26JUL15-T85": "2026-07-15",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
+    "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
@@ -143,21 +145,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
     },
-    "KXHIGHCHI-26JUL15-B98.5": {
-      "cost": 32.14,
-      "entry_price": 0.92,
-      "event_ticker": "KXHIGHCHI-26JUL15",
-      "market_id": "KXHIGHCHI-26JUL15-B98.5",
-      "opened": "2026-07-15T15:04:54+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 34.74,
-      "question": "Will the high temp in Chicago be 98-99\u00b0 on Jul 15, 2026? \u2014 98\u00b0 to 99\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighchi-26jul15-b98.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHCHI-26JUL15-B98.5:no"
-    },
     "KXHIGHLAX-26JUL15-B82.5": {
       "cost": 32.18,
       "entry_price": 0.91,
@@ -173,21 +160,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL15-B82.5:no"
     },
-    "KXHIGHMIA-26JUL15-B96.5": {
-      "cost": 32.58,
-      "entry_price": 0.9535,
-      "event_ticker": "KXHIGHMIA-26JUL15",
-      "market_id": "KXHIGHMIA-26JUL15-B96.5",
-      "opened": "2026-07-15T18:04:31+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 34.05,
-      "question": "Will the **high temp in Miami** be 96-97\u00b0 on Jul 15, 2026? \u2014 96\u00b0 to 97\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighmia-26jul15-b96.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHMIA-26JUL15-B96.5:no"
-    },
     "KXHIGHNY-26JUL15-T97": {
       "cost": 32.55,
       "entry_price": 0.921,
@@ -202,6 +174,21 @@
       "slug": "kxhighny-26jul15-t97",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL15-T97:yes"
+    },
+    "KXLIUKELIMINATIONW-26JUL17-ELL": {
+      "cost": 33.58,
+      "entry_price": 0.9683,
+      "event_ticker": "KXLIUKELIMINATIONW-26JUL17",
+      "market_id": "KXLIUKELIMINATIONW-26JUL17-ELL",
+      "opened": "2026-07-15T21:05:07+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 34.59,
+      "question": "Will Ellie be eliminated from Love Island UK S13 before Jul 18, 2026?",
+      "rules_version": 2,
+      "slug": "kxliukeliminationw-26jul17-ell",
+      "strategy": "favorite_discount",
+      "token_id": "KXLIUKELIMINATIONW-26JUL17-ELL:yes"
     },
     "KXLOLGAME-26JUL160500GENSEN-GEN": {
       "cost": 33.28,
@@ -250,8 +237,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -75.45999999999992,
+  "realized_pnl": -72.13999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T20:05:29+00:00",
+  "updated": "2026-07-15T21:05:07+00:00",
   "venue": "kalshi"
 }

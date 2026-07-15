@@ -1,8 +1,9 @@
 {
-  "cash": 426.3000000000001,
+  "cash": 481.8800000000001,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
+    "2069670": "2026-07-15",
     "2071523": "2026-07-12",
     "2448672": "2026-07-12",
     "2555350": "2026-07-13",
@@ -32,31 +33,20 @@
     "2880025": "2026-07-14",
     "2880028": "2026-07-14",
     "2880035": "2026-07-14",
+    "2891215": "2026-07-15",
+    "2891232": "2026-07-15",
     "2891238": "2026-07-15",
+    "2891653": "2026-07-15",
     "2891655": "2026-07-15",
+    "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 504.2207,
+  "peak_equity": 509.49269000000015,
   "positions": {
-    "2069670": {
-      "cost": 9.86,
-      "entry_price": 0.962,
-      "event_ticker": "",
-      "market_id": "2069670",
-      "opened": "2026-07-11T23:04:20+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.25,
-      "question": "Will Harry Kane be the top goalscorer at the 2026 FIFA World Cup?",
-      "rules_version": 12,
-      "slug": "will-harry-kane-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
-      "strategy": "favorite_discount",
-      "token_id": "79813026047219556089086866254442022710149639219968664847450227889530897495282"
-    },
     "2853044": {
       "cost": 10.08,
       "entry_price": 0.9408,
@@ -71,21 +61,6 @@
       "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-17",
       "strategy": "favorite_discount",
       "token_id": "76669316578542606529844041363160327397447482962573821136950065846355954681256"
-    },
-    "2891215": {
-      "cost": 10.08,
-      "entry_price": 0.9,
-      "event_ticker": "",
-      "market_id": "2891215",
-      "opened": "2026-07-14T21:05:01+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.2,
-      "question": "Exact Score: England 0 - 0 Argentina?",
-      "rules_version": 12,
-      "slug": "fifwc-eng-arg-2026-07-15-exact-score-0-0",
-      "strategy": "favorite_discount",
-      "token_id": "91650759796378202584724157456744833051057694449229578587519268009658092695924"
     },
     "2891230": {
       "cost": 10.08,
@@ -102,36 +77,6 @@
       "strategy": "favorite_discount",
       "token_id": "105417117367513783489773296552210774986159257496601169303738978592687497537717"
     },
-    "2891232": {
-      "cost": 9.95,
-      "entry_price": 0.93,
-      "event_ticker": "",
-      "market_id": "2891232",
-      "opened": "2026-07-14T20:04:53+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.7,
-      "question": "Exact Score: England 2 - 1 Argentina?",
-      "rules_version": 12,
-      "slug": "fifwc-eng-arg-2026-07-15-exact-score-2-1",
-      "strategy": "favorite_discount",
-      "token_id": "79308791843823770902626560398054587026493043481914041462250885886140861951241"
-    },
-    "2891653": {
-      "cost": 10.08,
-      "entry_price": 0.8525,
-      "event_ticker": "",
-      "market_id": "2891653",
-      "opened": "2026-07-14T21:05:01+00:00",
-      "outcome": "Argentina",
-      "outcome_idx": 1,
-      "qty": 11.83,
-      "question": "Spread: England (-1.5)",
-      "rules_version": 12,
-      "slug": "fifwc-eng-arg-2026-07-15-spread-home-1pt5",
-      "strategy": "favorite_discount",
-      "token_id": "85114811880071364109901579684216057234728758303760246661139812198099702976200"
-    },
     "2923102": {
       "cost": 10.08,
       "entry_price": 0.8442,
@@ -146,24 +91,9 @@
       "slug": "atp-prizmic-molcan-2026-07-15",
       "strategy": "favorite_discount",
       "token_id": "62499046361825878330793053909900921114611947882303674589860232398180454225857"
-    },
-    "558935": {
-      "cost": 9.94,
-      "entry_price": 0.85,
-      "event_ticker": "",
-      "market_id": "558935",
-      "opened": "2026-07-10T20:04:30+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.7,
-      "question": "Will England win the 2026 FIFA World Cup?",
-      "rules_version": 12,
-      "slug": "will-england-win-the-2026-fifa-world-cup-937",
-      "strategy": "favorite_discount",
-      "token_id": "77121637225348873006259930776623502125079210522997384841464684944292365296940"
     }
   },
-  "realized_pnl": 6.449999999999999,
+  "realized_pnl": 12.120000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T20:05:22+00:00"
+  "updated": "2026-07-15T21:04:58+00:00"
 }
