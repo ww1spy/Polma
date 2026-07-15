@@ -1,5 +1,5 @@
 {
-  "cash": 48.51000000000012,
+  "cash": 52.060000000000116,
   "cooldowns": {
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
@@ -20,6 +20,7 @@
     "KXHIGHLAX-26JUL10-B74.5": "2026-07-10",
     "KXHIGHLAX-26JUL10-T74": "2026-07-10",
     "KXHIGHLAX-26JUL13-B73.5": "2026-07-13",
+    "KXHIGHLAX-26JUL14-B78.5": "2026-07-15",
     "KXHIGHLAX-26JUL14-T81": "2026-07-14",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
@@ -131,21 +132,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
     },
-    "KXHIGHLAX-26JUL14-B78.5": {
-      "cost": 35.61,
-      "entry_price": 0.91,
-      "event_ticker": "KXHIGHLAX-26JUL14",
-      "market_id": "KXHIGHLAX-26JUL14-B78.5",
-      "opened": "2026-07-14T14:04:44+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.88,
-      "question": "Will the **high temp in LA** be 78-79\u00b0 on Jul 14, 2026? \u2014 78\u00b0 to 79\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighlax-26jul14-b78.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL14-B78.5:no"
-    },
     "KXLOLGAME-26JUL150610GAMT1-T1": {
       "cost": 34.37,
       "entry_price": 0.92,
@@ -175,6 +161,21 @@
       "slug": "kxlolgame-26jul150830milohle-hle",
       "strategy": "favorite_discount",
       "token_id": "KXLOLGAME-26JUL150830MILOHLE-HLE:yes"
+    },
+    "KXMLBTOTAL-26JUL142000ALNL-4": {
+      "cost": 34.91,
+      "entry_price": 0.92,
+      "event_ticker": "KXMLBTOTAL-26JUL142000ALNL",
+      "market_id": "KXMLBTOTAL-26JUL142000ALNL-4",
+      "opened": "2026-07-15T00:05:08+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 37.73,
+      "question": "AL vs NL Total Runs? \u2014 Over 3.5 runs scored",
+      "rules_version": 2,
+      "slug": "kxmlbtotal-26jul142000alnl-4",
+      "strategy": "favorite_discount",
+      "token_id": "KXMLBTOTAL-26JUL142000ALNL-4:yes"
     },
     "KXRTX5090WS-26JUL17-0.750": {
       "cost": 34.61,
@@ -238,8 +239,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -65.69999999999996,
+  "realized_pnl": -62.84999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-14T23:05:03+00:00",
+  "updated": "2026-07-15T00:05:08+00:00",
   "venue": "kalshi"
 }
