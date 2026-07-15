@@ -1,5 +1,5 @@
 {
-  "cash": 85.9000000000001,
+  "cash": 86.7800000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -33,6 +33,7 @@
     "KXHIGHNY-26JUL13-B86.5": "2026-07-13",
     "KXHIGHNY-26JUL14-B90.5": "2026-07-14",
     "KXHIGHNY-26JUL15-B99.5": "2026-07-15",
+    "KXHIGHNY-26JUL15-T97": "2026-07-15",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
@@ -160,20 +161,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL15-B82.5:no"
     },
-    "KXHIGHNY-26JUL15-T97": {
-      "cost": 32.55,
-      "entry_price": 0.921,
-      "event_ticker": "KXHIGHNY-26JUL15",
-      "market_id": "KXHIGHNY-26JUL15-T97",
-      "opened": "2026-07-15T19:05:00+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 35.15,
-      "question": "Will the **high temp in NYC** be <97\u00b0 on Jul 15, 2026? \u2014 96\u00b0 or below",
+    "KXHIGHLAX-26JUL16-T86": {
+      "cost": 33.89,
+      "entry_price": 0.93,
+      "event_ticker": "KXHIGHLAX-26JUL16",
+      "market_id": "KXHIGHLAX-26JUL16-T86",
+      "opened": "2026-07-15T22:05:45+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.26,
+      "question": "Will the **high temp in LA** be >86\u00b0 on Jul 16, 2026? \u2014 87\u00b0 or above",
       "rules_version": 2,
-      "slug": "kxhighny-26jul15-t97",
+      "slug": "kxhighlax-26jul16-t86",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL15-T97:yes"
+      "token_id": "KXHIGHLAX-26JUL16-T86:no"
     },
     "KXLIUKELIMINATIONW-26JUL17-ELL": {
       "cost": 33.58,
@@ -237,8 +238,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -72.13999999999993,
+  "realized_pnl": -69.91999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T21:05:07+00:00",
+  "updated": "2026-07-15T22:05:45+00:00",
   "venue": "kalshi"
 }
