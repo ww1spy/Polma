@@ -1,5 +1,5 @@
 {
-  "cash": 462.20000000000016,
+  "cash": 442.5200000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -93,9 +93,39 @@
       "slug": "2026-the-open-championship-winner-rory-mcilroy-win",
       "strategy": "favorite_discount",
       "token_id": "71000529995395556620831075299133883593347305231386906608154873423096179500587"
+    },
+    "2916835": {
+      "cost": 9.84,
+      "entry_price": 0.9615,
+      "event_ticker": "",
+      "market_id": "2916835",
+      "opened": "2026-07-15T23:04:47+00:00",
+      "outcome": "Aleksandar Vukic",
+      "outcome_idx": 0,
+      "qty": 10.23,
+      "question": "Granby: Aleksandar Vukic vs Nicolas Arseneault",
+      "rules_version": 12,
+      "slug": "atp-vukic-arsenea-2026-07-15",
+      "strategy": "favorite_discount",
+      "token_id": "90129674658014041763864618482812735446054179099310571889517924636154901188919"
+    },
+    "2933207": {
+      "cost": 9.84,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2933207",
+      "opened": "2026-07-15T23:04:47+00:00",
+      "outcome": "Gen.G",
+      "outcome_idx": 1,
+      "qty": 10.58,
+      "question": "LoL: Sentinels vs Gen.G (BO1) - Esports World Cup Group B",
+      "rules_version": 12,
+      "slug": "lol-sen-gen-2026-07-16",
+      "strategy": "favorite_discount",
+      "token_id": "29881870043810715915286937143807473640548887405522711033371095061361756046164"
     }
   },
   "realized_pnl": -8.04,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T22:05:42+00:00"
+  "updated": "2026-07-15T23:04:47+00:00"
 }
