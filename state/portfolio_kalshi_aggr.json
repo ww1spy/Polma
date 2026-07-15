@@ -1,5 +1,5 @@
 {
-  "cash": 41.660000000000124,
+  "cash": 45.230000000000125,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -23,6 +23,7 @@
     "KXHIGHLAX-26JUL13-B73.5": "2026-07-13",
     "KXHIGHLAX-26JUL14-B78.5": "2026-07-15",
     "KXHIGHLAX-26JUL14-T81": "2026-07-14",
+    "KXHIGHLAX-26JUL15-T85": "2026-07-15",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
@@ -153,20 +154,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHCHI-26JUL15-B98.5:no"
     },
-    "KXHIGHLAX-26JUL15-T85": {
-      "cost": 34.79,
-      "entry_price": 0.96,
+    "KXHIGHLAX-26JUL15-B82.5": {
+      "cost": 32.18,
+      "entry_price": 0.91,
       "event_ticker": "KXHIGHLAX-26JUL15",
-      "market_id": "KXHIGHLAX-26JUL15-T85",
-      "opened": "2026-07-15T04:04:36+00:00",
+      "market_id": "KXHIGHLAX-26JUL15-B82.5",
+      "opened": "2026-07-15T17:04:53+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 36.14,
-      "question": "Will the **high temp in LA** be >85\u00b0 on Jul 15, 2026? \u2014 86\u00b0 or above",
+      "qty": 35.13,
+      "question": "Will the **high temp in LA** be 82-83\u00b0 on Jul 15, 2026? \u2014 82\u00b0 to 83\u00b0",
       "rules_version": 2,
-      "slug": "kxhighlax-26jul15-t85",
+      "slug": "kxhighlax-26jul15-b82.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL15-T85:no"
+      "token_id": "KXHIGHLAX-26JUL15-B82.5:no"
     },
     "KXHIGHNY-26JUL15-B99.5": {
       "cost": 33.68,
@@ -245,8 +246,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -82.90999999999994,
+  "realized_pnl": -81.94999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T16:05:17+00:00",
+  "updated": "2026-07-15T17:04:53+00:00",
   "venue": "kalshi"
 }
