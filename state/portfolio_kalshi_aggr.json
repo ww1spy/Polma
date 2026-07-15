@@ -1,5 +1,5 @@
 {
-  "cash": 68.05000000000013,
+  "cash": 41.660000000000124,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -67,6 +67,7 @@
     "KXWTI-26JUL1314-T74.99": "2026-07-13",
     "KXWTI-26JUL1414-T73.49": "2026-07-14",
     "KXWTI-26JUL1414-T77.99": "2026-07-14",
+    "KXWTI-26JUL1514-T84.99": "2026-07-15",
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10"
@@ -137,6 +138,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
     },
+    "KXHIGHCHI-26JUL15-B98.5": {
+      "cost": 32.14,
+      "entry_price": 0.92,
+      "event_ticker": "KXHIGHCHI-26JUL15",
+      "market_id": "KXHIGHCHI-26JUL15-B98.5",
+      "opened": "2026-07-15T15:04:54+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 34.74,
+      "question": "Will the high temp in Chicago be 98-99\u00b0 on Jul 15, 2026? \u2014 98\u00b0 to 99\u00b0",
+      "rules_version": 2,
+      "slug": "kxhighchi-26jul15-b98.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHCHI-26JUL15-B98.5:no"
+    },
     "KXHIGHLAX-26JUL15-T85": {
       "cost": 34.79,
       "entry_price": 0.96,
@@ -166,6 +182,21 @@
       "slug": "kxhighny-26jul15-b99.5",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL15-B99.5:no"
+    },
+    "KXLOLGAME-26JUL151210DKFUR-DK": {
+      "cost": 32.19,
+      "entry_price": 0.91,
+      "event_ticker": "KXLOLGAME-26JUL151210DKFUR",
+      "market_id": "KXLOLGAME-26JUL151210DKFUR-DK",
+      "opened": "2026-07-15T15:04:54+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 35.14,
+      "question": "Will Dplus KIA win the Dplus KIA vs. FURIA Esports League of Legends match?",
+      "rules_version": 2,
+      "slug": "kxlolgame-26jul151210dkfur-dk",
+      "strategy": "favorite_discount",
+      "token_id": "KXLOLGAME-26JUL151210DKFUR-DK:yes"
     },
     "KXRTX5090WS-26JUL17-0.750": {
       "cost": 34.61,
@@ -197,21 +228,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXWCSTART-26JUL15ENGARG-ARG-EFERNA24:yes"
     },
-    "KXWTI-26JUL1514-T84.99": {
-      "cost": 34.76,
-      "entry_price": 0.9,
-      "event_ticker": "KXWTI-26JUL1514",
-      "market_id": "KXWTI-26JUL1514-T84.99",
-      "opened": "2026-07-14T04:04:18+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.35,
-      "question": "Will the WTI crude oil settlement price be above 84.99 USD/Bbl on Jul 15, 2026? \u2014 Above $84.99",
-      "rules_version": 2,
-      "slug": "kxwti-26jul1514-t84.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTI-26JUL1514-T84.99:no"
-    },
     "KXWTIW-26JUL1714-B77.50": {
       "cost": 34.42,
       "entry_price": 0.91,
@@ -229,8 +245,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -86.08999999999995,
+  "realized_pnl": -82.90999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T14:04:30+00:00",
+  "updated": "2026-07-15T15:04:54+00:00",
   "venue": "kalshi"
 }
