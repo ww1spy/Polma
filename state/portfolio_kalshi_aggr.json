@@ -1,6 +1,7 @@
 {
-  "cash": 54.73000000000011,
+  "cash": 57.83000000000012,
   "cooldowns": {
+    "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
@@ -73,21 +74,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAAAGASD-26JUL15-3.880": {
-      "cost": 35.99,
-      "entry_price": 0.9162,
-      "event_ticker": "KXAAAGASD-26JUL15",
-      "market_id": "KXAAAGASD-26JUL15-3.880",
-      "opened": "2026-07-14T19:05:10+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 39.06,
-      "question": "Will average **gas prices** be above $3.880? \u2014 Above 3.880",
-      "rules_version": 2,
-      "slug": "kxaaagasd-26jul15-3.880",
-      "strategy": "favorite_discount",
-      "token_id": "KXAAAGASD-26JUL15-3.880:yes"
-    },
     "KXAPRPOTUS-26JUL17-40.0": {
       "cost": 35.85,
       "entry_price": 0.97,
@@ -147,6 +133,21 @@
       "slug": "kxcbdecisionkorea-26jul15-hold",
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONKOREA-26JUL15-HOLD:no"
+    },
+    "KXHIGHLAX-26JUL15-T85": {
+      "cost": 34.79,
+      "entry_price": 0.96,
+      "event_ticker": "KXHIGHLAX-26JUL15",
+      "market_id": "KXHIGHLAX-26JUL15-T85",
+      "opened": "2026-07-15T04:04:36+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.14,
+      "question": "Will the **high temp in LA** be >85\u00b0 on Jul 15, 2026? \u2014 86\u00b0 or above",
+      "rules_version": 2,
+      "slug": "kxhighlax-26jul15-t85",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHLAX-26JUL15-T85:no"
     },
     "KXLOLGAME-26JUL150610GAMT1-T1": {
       "cost": 34.37,
@@ -240,8 +241,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -60.439999999999955,
+  "realized_pnl": -58.53999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T03:05:01+00:00",
+  "updated": "2026-07-15T04:04:36+00:00",
   "venue": "kalshi"
 }
