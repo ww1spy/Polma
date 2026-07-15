@@ -1,5 +1,5 @@
 {
-  "cash": 425.6900000000001,
+  "cash": 426.3000000000001,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -32,6 +32,8 @@
     "2880025": "2026-07-14",
     "2880028": "2026-07-14",
     "2880035": "2026-07-14",
+    "2891238": "2026-07-15",
+    "2891655": "2026-07-15",
     "558951": "2026-07-12"
   },
   "created": "2026-07-07T22:51:45+00:00",
@@ -54,6 +56,21 @@
       "slug": "will-harry-kane-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
       "strategy": "favorite_discount",
       "token_id": "79813026047219556089086866254442022710149639219968664847450227889530897495282"
+    },
+    "2853044": {
+      "cost": 10.08,
+      "entry_price": 0.9408,
+      "event_ticker": "",
+      "market_id": "2853044",
+      "opened": "2026-07-15T20:05:22+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.72,
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
+      "rules_version": 12,
+      "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-17",
+      "strategy": "favorite_discount",
+      "token_id": "76669316578542606529844041363160327397447482962573821136950065846355954681256"
     },
     "2891215": {
       "cost": 10.08,
@@ -100,21 +117,6 @@
       "strategy": "favorite_discount",
       "token_id": "79308791843823770902626560398054587026493043481914041462250885886140861951241"
     },
-    "2891238": {
-      "cost": 10.08,
-      "entry_price": 0.95,
-      "event_ticker": "",
-      "market_id": "2891238",
-      "opened": "2026-07-14T22:04:36+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.61,
-      "question": "Exact Score: England 2 - 2 Argentina?",
-      "rules_version": 12,
-      "slug": "fifwc-eng-arg-2026-07-15-exact-score-2-2",
-      "strategy": "favorite_discount",
-      "token_id": "21146949608908075016905035834719422927394104436010973394302036200270077023437"
-    },
     "2891653": {
       "cost": 10.08,
       "entry_price": 0.8525,
@@ -130,20 +132,20 @@
       "strategy": "favorite_discount",
       "token_id": "85114811880071364109901579684216057234728758303760246661139812198099702976200"
     },
-    "2891655": {
+    "2923102": {
       "cost": 10.08,
-      "entry_price": 0.96,
+      "entry_price": 0.8442,
       "event_ticker": "",
-      "market_id": "2891655",
-      "opened": "2026-07-14T22:04:36+00:00",
-      "outcome": "Argentina",
-      "outcome_idx": 1,
-      "qty": 10.5,
-      "question": "Spread: England (-2.5)",
+      "market_id": "2923102",
+      "opened": "2026-07-15T20:05:22+00:00",
+      "outcome": "Dino Prizmic",
+      "outcome_idx": 0,
+      "qty": 11.95,
+      "question": "Croatia Open: Dino Prizmic vs Alex Molcan",
       "rules_version": 12,
-      "slug": "fifwc-eng-arg-2026-07-15-spread-home-2pt5",
+      "slug": "atp-prizmic-molcan-2026-07-15",
       "strategy": "favorite_discount",
-      "token_id": "96036106742311747725667254197426653072075345216843694664556026635474500642969"
+      "token_id": "62499046361825878330793053909900921114611947882303674589860232398180454225857"
     },
     "558935": {
       "cost": 9.94,
@@ -161,7 +163,7 @@
       "token_id": "77121637225348873006259930776623502125079210522997384841464684944292365296940"
     }
   },
-  "realized_pnl": 5.84,
+  "realized_pnl": 6.449999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-15T19:04:51+00:00"
+  "updated": "2026-07-15T20:05:22+00:00"
 }
