@@ -1,5 +1,5 @@
 {
-  "cash": 123.8900000000001,
+  "cash": 89.1900000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -193,6 +193,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXLOLGAME-26JUL161100UCAMFLK-FLK:no"
     },
+    "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": {
+      "cost": 34.7,
+      "entry_price": 0.94,
+      "event_ticker": "KXNBASUMMER1HSPREAD-26JUL15UTASAS",
+      "market_id": "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3",
+      "opened": "2026-07-16T02:04:14+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.76,
+      "question": "Will Utah win the 1H by over 2.5 points? \u2014 Utah wins the 1H by over 2.5 points",
+      "rules_version": 2,
+      "slug": "kxnbasummer1hspread-26jul15utasas-uta3",
+      "strategy": "favorite_discount",
+      "token_id": "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3:no"
+    },
     "KXRTX5090WS-26JUL17-0.750": {
       "cost": 34.61,
       "entry_price": 0.9789,
@@ -227,6 +242,6 @@
   "profile": "aggr",
   "realized_pnl": -65.83999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T01:04:54+00:00",
+  "updated": "2026-07-16T02:04:14+00:00",
   "venue": "kalshi"
 }
