@@ -1,5 +1,5 @@
 {
-  "cash": 72.35000000000011,
+  "cash": 42.28000000000011,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -28,6 +28,7 @@
     "KXHIGHLAX-26JUL14-T81": "2026-07-14",
     "KXHIGHLAX-26JUL15-B82.5": "2026-07-15",
     "KXHIGHLAX-26JUL15-T85": "2026-07-15",
+    "KXHIGHLAX-26JUL16-T86": "2026-07-16",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
@@ -154,21 +155,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXFEATURE-26DAU-BON:no"
     },
-    "KXHIGHLAX-26JUL16-T86": {
-      "cost": 33.89,
-      "entry_price": 0.93,
-      "event_ticker": "KXHIGHLAX-26JUL16",
-      "market_id": "KXHIGHLAX-26JUL16-T86",
-      "opened": "2026-07-15T22:05:45+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.26,
-      "question": "Will the **high temp in LA** be >86\u00b0 on Jul 16, 2026? \u2014 87\u00b0 or above",
-      "rules_version": 2,
-      "slug": "kxhighlax-26jul16-t86",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL16-T86:no"
-    },
     "KXHIGHNY-26JUL16-T89": {
       "cost": 32.85,
       "entry_price": 0.9224,
@@ -183,6 +169,21 @@
       "slug": "kxhighny-26jul16-t89",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL16-T89:yes"
+    },
+    "KXINX-26JUL17H1600-B7612": {
+      "cost": 32.99,
+      "entry_price": 0.96,
+      "event_ticker": "KXINX-26JUL17H1600",
+      "market_id": "KXINX-26JUL17H1600-B7612",
+      "opened": "2026-07-16T20:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 34.26,
+      "question": "Will the S&P 500 be between 7600 and 7624.9999 on Jul 17, 2026 at 4pm EDT? \u2014 7,600 to 7,624.9999",
+      "rules_version": 2,
+      "slug": "kxinx-26jul17h1600-b7612",
+      "strategy": "favorite_discount",
+      "token_id": "KXINX-26JUL17H1600-B7612:no"
     },
     "KXLIUKELIMINATIONW-26JUL17-ELL": {
       "cost": 33.58,
@@ -229,6 +230,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXTRUTHSOCIAL-26JUL18-B230:no"
     },
+    "KXWCPRICE-26JULWCFINAL-12000": {
+      "cost": 32.95,
+      "entry_price": 0.9776,
+      "event_ticker": "KXWCPRICE-26JULWCFINAL",
+      "market_id": "KXWCPRICE-26JULWCFINAL-12000",
+      "opened": "2026-07-16T20:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 33.65,
+      "question": "Will Get-in price of the 2026 World Cup Final on TicketData be above $12000 on 3:00PM ET July 18th, 2026? \u2014 Above $12000",
+      "rules_version": 2,
+      "slug": "kxwcprice-26julwcfinal-12000",
+      "strategy": "favorite_discount",
+      "token_id": "KXWCPRICE-26JULWCFINAL-12000:no"
+    },
     "KXWTIW-26JUL1714-B77.50": {
       "cost": 34.42,
       "entry_price": 0.91,
@@ -246,8 +262,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -87.00999999999993,
+  "realized_pnl": -85.02999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T19:06:21+00:00",
+  "updated": "2026-07-16T20:05:15+00:00",
   "venue": "kalshi"
 }
