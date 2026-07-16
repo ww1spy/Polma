@@ -1,5 +1,5 @@
 {
-  "cash": 424.8600000000002,
+  "cash": 415.1700000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -140,9 +140,24 @@
       "slug": "lol-sen-gen-2026-07-16",
       "strategy": "favorite_discount",
       "token_id": "29881870043810715915286937143807473640548887405522711033371095061361756046164"
+    },
+    "2941995": {
+      "cost": 9.69,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "2941995",
+      "opened": "2026-07-16T07:05:16+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.31,
+      "question": "Exact Score: France 3 - 1 England?",
+      "rules_version": 12,
+      "slug": "fifwc-fra-eng-2026-07-18-exact-score-3-1",
+      "strategy": "favorite_discount",
+      "token_id": "21068985420988296968126799664296613266675922370351368397019455239267146952705"
     }
   },
   "realized_pnl": -15.839999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T06:04:33+00:00"
+  "updated": "2026-07-16T07:05:16+00:00"
 }
