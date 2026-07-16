@@ -1,5 +1,5 @@
 {
-  "cash": 42.28000000000011,
+  "cash": 44.48000000000011,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -46,6 +46,7 @@
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
     "KXINX-26JUL14H1600-B7612": "2026-07-14",
     "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
+    "KXLIUKELIMINATIONW-26JUL17-ELL": "2026-07-16",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
@@ -70,6 +71,7 @@
     "KXRT-INV-95": "2026-07-13",
     "KXRT-MOA-37": "2026-07-11",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
+    "KXRTX5090WS-26JUL17-0.750": "2026-07-16",
     "KXSILVERD-26JUL1417-T58": "2026-07-14",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXT20MATCH-26JUL152130NEWWAS-WAS": "2026-07-16",
@@ -140,6 +142,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL1717-T93.99:no"
     },
+    "KXCS2GAME-26JUL170100DXAFLY-DXA": {
+      "cost": 33.46,
+      "entry_price": 0.94,
+      "event_ticker": "KXCS2GAME-26JUL170100DXAFLY",
+      "market_id": "KXCS2GAME-26JUL170100DXAFLY-DXA",
+      "opened": "2026-07-16T21:10:47+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 35.45,
+      "question": "Will DXA Esports win the DXA Esports vs. Flyquest CS2 match?",
+      "rules_version": 2,
+      "slug": "kxcs2game-26jul170100dxafly-dxa",
+      "strategy": "favorite_discount",
+      "token_id": "KXCS2GAME-26JUL170100DXAFLY-DXA:no"
+    },
     "KXFEATURE-26DAU-BON": {
       "cost": 34.97,
       "entry_price": 0.9293,
@@ -185,35 +202,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXINX-26JUL17H1600-B7612:no"
     },
-    "KXLIUKELIMINATIONW-26JUL17-ELL": {
-      "cost": 33.58,
-      "entry_price": 0.9683,
-      "event_ticker": "KXLIUKELIMINATIONW-26JUL17",
-      "market_id": "KXLIUKELIMINATIONW-26JUL17-ELL",
-      "opened": "2026-07-15T21:05:07+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 34.59,
-      "question": "Will Ellie be eliminated from Love Island UK S13 before Jul 18, 2026?",
-      "rules_version": 2,
-      "slug": "kxliukeliminationw-26jul17-ell",
-      "strategy": "favorite_discount",
-      "token_id": "KXLIUKELIMINATIONW-26JUL17-ELL:yes"
-    },
-    "KXRTX5090WS-26JUL17-0.750": {
-      "cost": 34.61,
-      "entry_price": 0.9789,
-      "event_ticker": "KXRTX5090WS-26JUL17",
-      "market_id": "KXRTX5090WS-26JUL17-0.750",
-      "opened": "2026-07-14T21:05:05+00:00",
+    "KXODIMATCH-26JUL161430NZWI-WI": {
+      "cost": 33.47,
+      "entry_price": 0.94,
+      "event_ticker": "KXODIMATCH-26JUL161430NZWI",
+      "market_id": "KXODIMATCH-26JUL161430NZWI-WI",
+      "opened": "2026-07-16T21:10:46+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 35.3,
-      "question": "Will the NVIDIA RTX 5090 compute per hour price be above $0.75 at 4 PM ET on Jul 17? \u2014 Above $0.75",
+      "qty": 35.46,
+      "question": "West Indies vs New Zealand Winner?",
       "rules_version": 2,
-      "slug": "kxrtx5090ws-26jul17-0.750",
+      "slug": "kxodimatch-26jul161430nzwi-wi",
       "strategy": "favorite_discount",
-      "token_id": "KXRTX5090WS-26JUL17-0.750:no"
+      "token_id": "KXODIMATCH-26JUL161430NZWI-WI:no"
     },
     "KXTRUTHSOCIAL-26JUL18-B230": {
       "cost": 32.79,
@@ -262,8 +264,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -85.02999999999994,
+  "realized_pnl": -84.08999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T20:05:15+00:00",
+  "updated": "2026-07-16T21:10:47+00:00",
   "venue": "kalshi"
 }
