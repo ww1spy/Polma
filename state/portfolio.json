@@ -1,5 +1,5 @@
 {
-  "cash": 415.1700000000002,
+  "cash": 405.4900000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -155,9 +155,24 @@
       "slug": "fifwc-fra-eng-2026-07-18-exact-score-3-1",
       "strategy": "favorite_discount",
       "token_id": "21068985420988296968126799664296613266675922370351368397019455239267146952705"
+    },
+    "2942017": {
+      "cost": 9.68,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "2942017",
+      "opened": "2026-07-16T08:05:08+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.52,
+      "question": "Exact Score: Spain 2 - 1 Argentina?",
+      "rules_version": 12,
+      "slug": "fifwc-esp-arg-2026-07-19-exact-score-2-1",
+      "strategy": "favorite_discount",
+      "token_id": "45493746872063564096177937323959647647530659113687507849142486516762995679101"
     }
   },
   "realized_pnl": -15.839999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T07:05:16+00:00"
+  "updated": "2026-07-16T08:05:08+00:00"
 }
