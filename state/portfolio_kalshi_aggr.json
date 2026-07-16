@@ -1,5 +1,5 @@
 {
-  "cash": 89.1900000000001,
+  "cash": 55.97000000000011,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -51,6 +51,7 @@
     "KXLOLGAME-26JUL151210DKFUR-DK": "2026-07-15",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
+    "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": "2026-07-16",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": "2026-07-14",
     "KXNETFLIXRANKMOVIERUNNERUP-26JUL13-ENO": "2026-07-14",
@@ -133,6 +134,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL1717-T93.99:no"
     },
+    "KXFEATURE-26DAU-BON": {
+      "cost": 34.97,
+      "entry_price": 0.9293,
+      "event_ticker": "KXFEATURE-26DAU",
+      "market_id": "KXFEATURE-26DAU-BON",
+      "opened": "2026-07-16T03:05:07+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.44,
+      "question": "Will Bon Iver be featured on 'Daughter from Hell'?",
+      "rules_version": 2,
+      "slug": "kxfeature-26dau-bon",
+      "strategy": "favorite_discount",
+      "token_id": "KXFEATURE-26DAU-BON:no"
+    },
     "KXHIGHLAX-26JUL16-T86": {
       "cost": 33.89,
       "entry_price": 0.93,
@@ -193,21 +209,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXLOLGAME-26JUL161100UCAMFLK-FLK:no"
     },
-    "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": {
-      "cost": 34.7,
-      "entry_price": 0.94,
-      "event_ticker": "KXNBASUMMER1HSPREAD-26JUL15UTASAS",
-      "market_id": "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3",
-      "opened": "2026-07-16T02:04:14+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.76,
-      "question": "Will Utah win the 1H by over 2.5 points? \u2014 Utah wins the 1H by over 2.5 points",
-      "rules_version": 2,
-      "slug": "kxnbasummer1hspread-26jul15utasas-uta3",
-      "strategy": "favorite_discount",
-      "token_id": "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3:no"
-    },
     "KXRTX5090WS-26JUL17-0.750": {
       "cost": 34.61,
       "entry_price": 0.9789,
@@ -222,6 +223,21 @@
       "slug": "kxrtx5090ws-26jul17-0.750",
       "strategy": "favorite_discount",
       "token_id": "KXRTX5090WS-26JUL17-0.750:no"
+    },
+    "KXT20MATCH-26JUL152130NEWWAS-WAS": {
+      "cost": 35.01,
+      "entry_price": 0.92,
+      "event_ticker": "KXT20MATCH-26JUL152130NEWWAS",
+      "market_id": "KXT20MATCH-26JUL152130NEWWAS-WAS",
+      "opened": "2026-07-16T03:05:07+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.83,
+      "question": "Washington Freedom vs MI New York Winner?",
+      "rules_version": 2,
+      "slug": "kxt20match-26jul152130newwas-was",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26JUL152130NEWWAS-WAS:no"
     },
     "KXWTIW-26JUL1714-B77.50": {
       "cost": 34.42,
@@ -240,8 +256,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -65.83999999999993,
+  "realized_pnl": -63.77999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T02:04:14+00:00",
+  "updated": "2026-07-16T03:05:07+00:00",
   "venue": "kalshi"
 }
