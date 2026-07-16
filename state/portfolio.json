@@ -1,5 +1,5 @@
 {
-  "cash": 452.7500000000002,
+  "cash": 433.0500000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -65,6 +65,21 @@
       "strategy": "favorite_discount",
       "token_id": "68099147950522191308134976209533771147823729818517018192391581768804443699549"
     },
+    "2431017": {
+      "cost": 9.85,
+      "entry_price": 0.925,
+      "event_ticker": "",
+      "market_id": "2431017",
+      "opened": "2026-07-16T01:04:51+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.64,
+      "question": "Will Rodri win the Golden Ball at the 2026 FIFA World Cup?",
+      "rules_version": 12,
+      "slug": "will-rodri-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032287",
+      "strategy": "favorite_discount",
+      "token_id": "52869489947740157291376289472378859002771430926745372537097524577015006645385"
+    },
     "2853044": {
       "cost": 10.08,
       "entry_price": 0.9408,
@@ -79,6 +94,21 @@
       "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-17",
       "strategy": "favorite_discount",
       "token_id": "76669316578542606529844041363160327397447482962573821136950065846355954681256"
+    },
+    "2906926": {
+      "cost": 9.85,
+      "entry_price": 0.89,
+      "event_ticker": "",
+      "market_id": "2906926",
+      "opened": "2026-07-16T01:04:51+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.06,
+      "question": "Will Scottie Scheffler win the 2026 The Open Championship?",
+      "rules_version": 12,
+      "slug": "2026-the-open-championship-winner-scottie-scheffler-win",
+      "strategy": "favorite_discount",
+      "token_id": "16389757131269799657954236333348172933661771019793442768672579716135138981958"
     },
     "2906929": {
       "cost": 9.84,
@@ -113,5 +143,5 @@
   },
   "realized_pnl": -7.649999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-16T00:04:52+00:00"
+  "updated": "2026-07-16T01:04:51+00:00"
 }
