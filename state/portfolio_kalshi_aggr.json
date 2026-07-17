@@ -1,5 +1,5 @@
 {
-  "cash": 56.28000000000011,
+  "cash": 91.8200000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -10,6 +10,7 @@
     "KXAPRPOTUS-26JUL17-41.3": "2026-07-17",
     "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
+    "KXBRENTW-26JUL1717-T93.99": "2026-07-17",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
     "KXCPI-26JUN-T0.0": "2026-07-14",
     "KXCPICOMBO-26JUN-0302": "2026-07-14",
@@ -136,21 +137,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXALBUMEQUIV-ALB26JUL16-145K:no"
     },
-    "KXBRENTW-26JUL1717-T93.99": {
-      "cost": 34.65,
-      "entry_price": 0.9,
-      "event_ticker": "KXBRENTW-26JUL1717",
-      "market_id": "KXBRENTW-26JUL1717-T93.99",
-      "opened": "2026-07-15T03:05:01+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.22,
-      "question": "Will the brent crude oil close price be above 93.99 USD/Bbl on July 17, 2026 at 5:00 PM EDT? \u2014 above $93.99",
-      "rules_version": 2,
-      "slug": "kxbrentw-26jul1717-t93.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXBRENTW-26JUL1717-T93.99:no"
-    },
     "KXRT-ODY-94": {
       "cost": 35.02,
       "entry_price": 0.92,
@@ -273,8 +259,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -67.45999999999994,
+  "realized_pnl": -66.56999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-17T20:05:10+00:00",
+  "updated": "2026-07-17T21:04:16+00:00",
   "venue": "kalshi"
 }
