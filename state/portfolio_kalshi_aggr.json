@@ -1,8 +1,9 @@
 {
-  "cash": 91.8200000000001,
+  "cash": 58.49000000000011,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
+    "KXAAAGASW-26JUL20-4.100": "2026-07-17",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
     "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
@@ -107,21 +108,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAAAGASW-26JUL20-4.100": {
-      "cost": 34.85,
-      "entry_price": 0.9775,
-      "event_ticker": "KXAAAGASW-26JUL20",
-      "market_id": "KXAAAGASW-26JUL20-4.100",
-      "opened": "2026-07-17T14:04:28+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.6,
-      "question": "Will average **gas prices** be above $4.100? \u2014 Above 4.100",
-      "rules_version": 2,
-      "slug": "kxaaagasw-26jul20-4.100",
-      "strategy": "favorite_discount",
-      "token_id": "KXAAAGASW-26JUL20-4.100:no"
-    },
     "KXALBUMEQUIV-ALB26JUL16-145K": {
       "cost": 33.38,
       "entry_price": 0.9258,
@@ -167,6 +153,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXTECHRANKLISTAICODE-26JUL20-KIMI:yes"
     },
+    "KXTRUMPATTEND": {
+      "cost": 34.24,
+      "entry_price": 0.966,
+      "event_ticker": "KXTRUMPATTEND",
+      "market_id": "KXTRUMPATTEND",
+      "opened": "2026-07-17T22:04:25+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 35.36,
+      "question": "Will Donald J. Trump attend The 2026 FIFA World Cup Final? \u2014 Yes",
+      "rules_version": 2,
+      "slug": "kxtrumpattend",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPATTEND:yes"
+    },
     "KXTRUMPENDORSEMENTS-26JUL18-A20": {
       "cost": 33.52,
       "entry_price": 0.97,
@@ -181,6 +182,21 @@
       "slug": "kxtrumpendorsements-26jul18-a20",
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPENDORSEMENTS-26JUL18-A20:no"
+    },
+    "KXTRUMPSAY-26JUL20-STUP": {
+      "cost": 34.3,
+      "entry_price": 0.94,
+      "event_ticker": "KXTRUMPSAY-26JUL20",
+      "market_id": "KXTRUMPSAY-26JUL20-STUP",
+      "opened": "2026-07-17T22:04:25+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.33,
+      "question": "Will Trump say \"Stupid Question\" before Jul 20, 2026?",
+      "rules_version": 2,
+      "slug": "kxtrumpsay-26jul20-stup",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPSAY-26JUL20-STUP:no"
     },
     "KXTRUTHSOCIAL-26JUL18-B230": {
       "cost": 32.79,
@@ -259,8 +275,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -66.56999999999994,
+  "realized_pnl": -66.20999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-17T21:04:16+00:00",
+  "updated": "2026-07-17T22:04:25+00:00",
   "venue": "kalshi"
 }
