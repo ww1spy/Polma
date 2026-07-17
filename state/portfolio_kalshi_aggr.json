@@ -1,5 +1,5 @@
 {
-  "cash": 55.5100000000001,
+  "cash": 54.1800000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -50,6 +50,7 @@
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
     "KXINX-26JUL14H1600-B7612": "2026-07-14",
+    "KXINX-26JUL17H1600-B7612": "2026-07-17",
     "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
     "KXLIUKELIMINATIONW-26JUL17-ELL": "2026-07-16",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
@@ -149,21 +150,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL1717-T93.99:no"
     },
-    "KXINX-26JUL17H1600-B7612": {
-      "cost": 32.99,
-      "entry_price": 0.96,
-      "event_ticker": "KXINX-26JUL17H1600",
-      "market_id": "KXINX-26JUL17H1600-B7612",
-      "opened": "2026-07-16T20:05:15+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 34.26,
-      "question": "Will the S&P 500 be between 7600 and 7624.9999 on Jul 17, 2026 at 4pm EDT? \u2014 7,600 to 7,624.9999",
-      "rules_version": 2,
-      "slug": "kxinx-26jul17h1600-b7612",
-      "strategy": "favorite_discount",
-      "token_id": "KXINX-26JUL17H1600-B7612:no"
-    },
     "KXRT-ODY-94": {
       "cost": 35.02,
       "entry_price": 0.92,
@@ -224,6 +210,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXTRUTHSOCIAL-26JUL18-B230:no"
     },
+    "KXWCATTEND-26JUL20-TOM": {
+      "cost": 34.6,
+      "entry_price": 0.94,
+      "event_ticker": "KXWCATTEND-26JUL20",
+      "market_id": "KXWCATTEND-26JUL20-TOM",
+      "opened": "2026-07-17T15:04:41+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 36.64,
+      "question": "Will Tom Cruise attend 2026 FIFA World Cup Final in 2026?",
+      "rules_version": 2,
+      "slug": "kxwcattend-26jul20-tom",
+      "strategy": "favorite_discount",
+      "token_id": "KXWCATTEND-26JUL20-TOM:yes"
+    },
     "KXWCFIRSTSONG-26JUL20-DYN": {
       "cost": 34.88,
       "entry_price": 0.97,
@@ -271,8 +272,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -70.14999999999993,
+  "realized_pnl": -69.86999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-17T14:04:28+00:00",
+  "updated": "2026-07-17T15:04:41+00:00",
   "venue": "kalshi"
 }
