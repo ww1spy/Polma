@@ -1,5 +1,5 @@
 {
-  "cash": 103.66980000000001,
+  "cash": 94.08980000000001,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -22,9 +22,40 @@
   "live_balance_synced": true,
   "mode": "live",
   "peak_equity": 103.87,
-  "positions": {},
+  "positions": {
+    "KXRT-ODY-97": {
+      "cost": 4.95,
+      "entry_price": 0.99,
+      "event_ticker": "KXRT-ODY",
+      "market_id": "KXRT-ODY-97",
+      "opened": "2026-07-17T14:04:38+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "The Odyssey Rotten Tomatoes score? \u2014 Above 97",
+      "rules_version": 12,
+      "slug": "kxrt-ody-97",
+      "strategy": "rt_last_mile",
+      "token_id": "KXRT-ODY-97:no"
+    },
+    "KXTRUMPSAY-26JUL20-URAN": {
+      "cost": 4.63,
+      "entry_price": 0.92,
+      "event_ticker": "KXTRUMPSAY-26JUL20",
+      "market_id": "KXTRUMPSAY-26JUL20-URAN",
+      "opened": "2026-07-17T14:04:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Will Trump say \"Uranium\" before Jul 20, 2026?",
+      "rules_version": 12,
+      "slug": "kxtrumpsay-26jul20-uran",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPSAY-26JUL20-URAN:no"
+    }
+  },
   "realized_pnl": -30.10000000000001,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-17T13:04:35+00:00",
+  "updated": "2026-07-17T14:04:39+00:00",
   "venue": "kalshi"
 }

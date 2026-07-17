@@ -1,5 +1,5 @@
 {
-  "cash": 124.46000000000012,
+  "cash": 55.5100000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -7,6 +7,7 @@
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
     "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
     "KXAPRPOTUS-26JUL17-40.0": "2026-07-16",
+    "KXAPRPOTUS-26JUL17-41.3": "2026-07-17",
     "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
@@ -80,6 +81,7 @@
     "KXSILVERD-26JUL1417-T58": "2026-07-14",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXT20MATCH-26JUL152130NEWWAS-WAS": "2026-07-16",
+    "KXT20MATCH-26JUL170830BANZIM-ZIM": "2026-07-17",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
@@ -102,6 +104,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXAAAGASW-26JUL20-4.100": {
+      "cost": 34.85,
+      "entry_price": 0.9775,
+      "event_ticker": "KXAAAGASW-26JUL20",
+      "market_id": "KXAAAGASW-26JUL20-4.100",
+      "opened": "2026-07-17T14:04:28+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 35.6,
+      "question": "Will average **gas prices** be above $4.100? \u2014 Above 4.100",
+      "rules_version": 2,
+      "slug": "kxaaagasw-26jul20-4.100",
+      "strategy": "favorite_discount",
+      "token_id": "KXAAAGASW-26JUL20-4.100:no"
+    },
     "KXALBUMEQUIV-ALB26JUL16-145K": {
       "cost": 33.38,
       "entry_price": 0.9258,
@@ -116,21 +133,6 @@
       "slug": "kxalbumequiv-alb26jul16-145k",
       "strategy": "favorite_discount",
       "token_id": "KXALBUMEQUIV-ALB26JUL16-145K:no"
-    },
-    "KXAPRPOTUS-26JUL17-41.3": {
-      "cost": 32.87,
-      "entry_price": 0.9,
-      "event_ticker": "KXAPRPOTUS-26JUL17",
-      "market_id": "KXAPRPOTUS-26JUL17-41.3",
-      "opened": "2026-07-16T17:04:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.27,
-      "question": "Will the President's approval rating be above 41.3 according to RealClearPolitics? \u2014 Above 41.3",
-      "rules_version": 2,
-      "slug": "kxaprpotus-26jul17-41.3",
-      "strategy": "favorite_discount",
-      "token_id": "KXAPRPOTUS-26JUL17-41.3:no"
     },
     "KXBRENTW-26JUL1717-T93.99": {
       "cost": 34.65,
@@ -162,20 +164,35 @@
       "strategy": "favorite_discount",
       "token_id": "KXINX-26JUL17H1600-B7612:no"
     },
-    "KXT20MATCH-26JUL170830BANZIM-ZIM": {
-      "cost": 34.22,
-      "entry_price": 0.97,
-      "event_ticker": "KXT20MATCH-26JUL170830BANZIM",
-      "market_id": "KXT20MATCH-26JUL170830BANZIM-ZIM",
-      "opened": "2026-07-17T13:04:31+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.19,
-      "question": "Zimbabwe vs Bangladesh match: Zimbabwe wins",
+    "KXRT-ODY-94": {
+      "cost": 35.02,
+      "entry_price": 0.92,
+      "event_ticker": "KXRT-ODY",
+      "market_id": "KXRT-ODY-94",
+      "opened": "2026-07-17T14:04:27+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 37.85,
+      "question": "The Odyssey Rotten Tomatoes score? \u2014 Above 94",
       "rules_version": 2,
-      "slug": "kxt20match-26jul170830banzim-zim",
+      "slug": "kxrt-ody-94",
       "strategy": "favorite_discount",
-      "token_id": "KXT20MATCH-26JUL170830BANZIM-ZIM:no"
+      "token_id": "KXRT-ODY-94:yes"
+    },
+    "KXTECHRANKLISTAICODE-26JUL20-KIMI": {
+      "cost": 34.89,
+      "entry_price": 0.97,
+      "event_ticker": "KXTECHRANKLISTAICODE-26JUL20",
+      "market_id": "KXTECHRANKLISTAICODE-26JUL20-KIMI",
+      "opened": "2026-07-17T14:04:28+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 35.88,
+      "question": "Top Coding AI this week? \u2014 Kimi",
+      "rules_version": 2,
+      "slug": "kxtechranklistaicode-26jul20-kimi",
+      "strategy": "favorite_discount",
+      "token_id": "KXTECHRANKLISTAICODE-26JUL20-KIMI:yes"
     },
     "KXTRUMPENDORSEMENTS-26JUL18-A20": {
       "cost": 33.52,
@@ -206,6 +223,21 @@
       "slug": "kxtruthsocial-26jul18-b230",
       "strategy": "favorite_discount",
       "token_id": "KXTRUTHSOCIAL-26JUL18-B230:no"
+    },
+    "KXWCFIRSTSONG-26JUL20-DYN": {
+      "cost": 34.88,
+      "entry_price": 0.97,
+      "event_ticker": "KXWCFIRSTSONG-26JUL20",
+      "market_id": "KXWCFIRSTSONG-26JUL20-DYN",
+      "opened": "2026-07-17T14:04:28+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 35.88,
+      "question": "Will Dynamite be the first song performed by any of Madonna, Shakira, or BTS (any member of BTS) during the FIFA World Cup 2026 Final Halftime Show scheduled for July 19, 2026 at New York New Jersey Stadium?",
+      "rules_version": 2,
+      "slug": "kxwcfirstsong-26jul20-dyn",
+      "strategy": "favorite_discount",
+      "token_id": "KXWCFIRSTSONG-26JUL20-DYN:no"
     },
     "KXWCPRICE-26JULWCFINAL-12000": {
       "cost": 32.95,
@@ -239,8 +271,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -73.74999999999994,
+  "realized_pnl": -70.14999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-17T13:04:31+00:00",
+  "updated": "2026-07-17T14:04:28+00:00",
   "venue": "kalshi"
 }
