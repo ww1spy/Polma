@@ -1,5 +1,5 @@
 {
-  "cash": 81.22000000000011,
+  "cash": 119.71000000000012,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -7,6 +7,7 @@
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
     "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
     "KXAPRPOTUS-26JUL17-40.0": "2026-07-16",
+    "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
     "KXCPI-26JUN-T0.0": "2026-07-14",
@@ -129,21 +130,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26JUL17-41.3:no"
     },
-    "KXBIGBROTHERELIMINATION-26JUL16-TAY": {
-      "cost": 36.01,
-      "entry_price": 0.92,
-      "event_ticker": "KXBIGBROTHERELIMINATION-26JUL16",
-      "market_id": "KXBIGBROTHERELIMINATION-26JUL16-TAY",
-      "opened": "2026-07-14T19:05:10+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.91,
-      "question": "Will Taylor Brown be eliminated from Big Brother Season 28 before Jul 17, 2026?",
-      "rules_version": 2,
-      "slug": "kxbigbrotherelimination-26jul16-tay",
-      "strategy": "favorite_discount",
-      "token_id": "KXBIGBROTHERELIMINATION-26JUL16-TAY:no"
-    },
     "KXBRENTW-26JUL1717-T93.99": {
       "cost": 34.65,
       "entry_price": 0.9,
@@ -251,8 +237,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -80.28999999999995,
+  "realized_pnl": -77.80999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-17T00:05:06+00:00",
+  "updated": "2026-07-17T01:05:20+00:00",
   "venue": "kalshi"
 }
