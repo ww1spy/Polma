@@ -1,5 +1,5 @@
 {
-  "cash": 406.3700000000002,
+  "cash": 407.19000000000017,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -26,6 +26,7 @@
     "2840841": "2026-07-09",
     "2844088": "2026-07-12",
     "2851088": "2026-07-10",
+    "2853044": "2026-07-17",
     "2869298": "2026-07-11",
     "2880015": "2026-07-14",
     "2880020": "2026-07-14",
@@ -81,21 +82,6 @@
       "slug": "will-rodri-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032287",
       "strategy": "favorite_discount",
       "token_id": "52869489947740157291376289472378859002771430926745372537097524577015006645385"
-    },
-    "2853044": {
-      "cost": 10.08,
-      "entry_price": 0.9408,
-      "event_ticker": "",
-      "market_id": "2853044",
-      "opened": "2026-07-15T20:05:22+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.72,
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 17?",
-      "rules_version": 12,
-      "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-17",
-      "strategy": "favorite_discount",
-      "token_id": "76669316578542606529844041363160327397447482962573821136950065846355954681256"
     },
     "2906926": {
       "cost": 9.85,
@@ -171,9 +157,24 @@
       "slug": "fifwc-esp-arg-2026-07-19-exact-score-2-1",
       "strategy": "favorite_discount",
       "token_id": "45493746872063564096177937323959647647530659113687507849142486516762995679101"
+    },
+    "2942020": {
+      "cost": 9.7,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "2942020",
+      "opened": "2026-07-17T06:05:23+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.21,
+      "question": "Exact Score: Spain 2 - 2 Argentina?",
+      "rules_version": 12,
+      "slug": "fifwc-esp-arg-2026-07-19-exact-score-2-2",
+      "strategy": "favorite_discount",
+      "token_id": "34891371387938701211840591458071323530884822030384779347681535463054581294576"
     }
   },
-  "realized_pnl": -15.109999999999998,
+  "realized_pnl": -14.669999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-17T05:04:18+00:00"
+  "updated": "2026-07-17T06:05:23+00:00"
 }
