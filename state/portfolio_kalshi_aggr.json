@@ -1,5 +1,5 @@
 {
-  "cash": 58.49000000000011,
+  "cash": 58.66000000000011,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -88,6 +88,7 @@
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
+    "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXWCPRICE-26JULWCSEMI2-3000": "2026-07-15",
     "KXWCSTART-26JUL15ENGARG-ARG-EFERNA24": "2026-07-15",
     "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
@@ -198,20 +199,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPSAY-26JUL20-STUP:no"
     },
-    "KXTRUTHSOCIAL-26JUL18-B230": {
-      "cost": 32.79,
-      "entry_price": 0.9428,
-      "event_ticker": "KXTRUTHSOCIAL-26JUL18",
-      "market_id": "KXTRUTHSOCIAL-26JUL18-B230",
-      "opened": "2026-07-16T17:04:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 34.64,
-      "question": "Will Donald Trump make between 220 and 240 Truth Social posts the week of Jul 12, 2026? \u2014 220-240",
+    "KXTRUMPWORLDCUP-26-DJT-1": {
+      "cost": 34.09,
+      "entry_price": 0.96,
+      "event_ticker": "KXTRUMPWORLDCUP-26-DJT",
+      "market_id": "KXTRUMPWORLDCUP-26-DJT-1",
+      "opened": "2026-07-18T13:05:13+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 35.4,
+      "question": "How many 2026 FIFA World Cup matches will Donald Trump attend this season? \u2014 At least 1",
       "rules_version": 2,
-      "slug": "kxtruthsocial-26jul18-b230",
+      "slug": "kxtrumpworldcup-26-djt-1",
       "strategy": "favorite_discount",
-      "token_id": "KXTRUTHSOCIAL-26JUL18-B230:no"
+      "token_id": "KXTRUMPWORLDCUP-26-DJT-1:yes"
     },
     "KXWCATTEND-26JUL20-TOM": {
       "cost": 34.6,
@@ -275,8 +276,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -66.20999999999994,
+  "realized_pnl": -64.73999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-18T12:04:35+00:00",
+  "updated": "2026-07-18T13:05:13+00:00",
   "venue": "kalshi"
 }
