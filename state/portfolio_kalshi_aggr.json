@@ -1,9 +1,10 @@
 {
-  "cash": 126.91000000000011,
+  "cash": 160.62000000000012,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAAAGASW-26JUL20-4.100": "2026-07-17",
+    "KXALBUMEQUIV-ALB26JUL16-145K": "2026-07-19",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
     "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
@@ -112,21 +113,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXALBUMEQUIV-ALB26JUL16-145K": {
-      "cost": 33.38,
-      "entry_price": 0.9258,
-      "event_ticker": "KXALBUMEQUIV-ALB26JUL16",
-      "market_id": "KXALBUMEQUIV-ALB26JUL16-145K",
-      "opened": "2026-07-16T23:05:19+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.86,
-      "question": "Will The Real Me by Future have above 145000 Album Equivalent Units during the July 10, 2026 -July 16, 2026 tracking week? \u2014 Above 145K",
-      "rules_version": 2,
-      "slug": "kxalbumequiv-alb26jul16-145k",
-      "strategy": "favorite_discount",
-      "token_id": "KXALBUMEQUIV-ALB26JUL16-145K:no"
-    },
     "KXHORMUZWEEKLY-26JUL19-T75": {
       "cost": 34.63,
       "entry_price": 0.96,
@@ -249,8 +235,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -63.21999999999994,
+  "realized_pnl": -62.889999999999944,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T13:04:53+00:00",
+  "updated": "2026-07-19T14:04:19+00:00",
   "venue": "kalshi"
 }
