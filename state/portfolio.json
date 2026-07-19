@@ -1,5 +1,5 @@
 {
-  "cash": 425.0100000000003,
+  "cash": 416.2200000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -49,6 +49,7 @@
     "2941994": "2026-07-18",
     "2941995": "2026-07-18",
     "2942009": "2026-07-19",
+    "2942014": "2026-07-19",
     "2942016": "2026-07-19",
     "2942017": "2026-07-19",
     "2942020": "2026-07-19",
@@ -121,6 +122,36 @@
       "strategy": "favorite_discount",
       "token_id": "52869489947740157291376289472378859002771430926745372537097524577015006645385"
     },
+    "2853059": {
+      "cost": 9.7,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2853059",
+      "opened": "2026-07-19T22:05:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.43,
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 24?",
+      "rules_version": 12,
+      "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-24",
+      "strategy": "favorite_discount",
+      "token_id": "76755883373039851290695610249455633595892527905785960150127813908400558868227"
+    },
+    "2905898": {
+      "cost": 9.7,
+      "entry_price": 0.921,
+      "event_ticker": "",
+      "market_id": "2905898",
+      "opened": "2026-07-19T22:05:13+00:00",
+      "outcome": "Washington Nationals",
+      "outcome_idx": 0,
+      "qty": 10.53,
+      "question": "Washington Nationals vs. Athletics",
+      "rules_version": 12,
+      "slug": "mlb-wsh-oak-2026-07-19",
+      "strategy": "favorite_discount",
+      "token_id": "59375454505362148697909407782041654516112098830510114658564986035863473750079"
+    },
     "2937524": {
       "cost": 9.69,
       "entry_price": 0.92,
@@ -135,24 +166,9 @@
       "slug": "us-x-iran-effective-ceasfire-by-july-24-20260715194822044",
       "strategy": "favorite_discount",
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
-    },
-    "2942014": {
-      "cost": 9.77,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "2942014",
-      "opened": "2026-07-18T22:04:47+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.62,
-      "question": "Exact Score: Spain 2 - 0 Argentina?",
-      "rules_version": 12,
-      "slug": "fifwc-esp-arg-2026-07-19-exact-score-2-0",
-      "strategy": "favorite_discount",
-      "token_id": "22893608586228782078354772038228054619714640643126094831956979889813476081650"
     }
   },
-  "realized_pnl": -16.389999999999993,
+  "realized_pnl": -15.549999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T21:05:00+00:00"
+  "updated": "2026-07-19T22:05:13+00:00"
 }
