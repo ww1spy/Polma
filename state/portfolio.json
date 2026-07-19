@@ -1,5 +1,5 @@
 {
-  "cash": 409.17000000000024,
+  "cash": 410.2600000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -40,6 +40,7 @@
     "2891238": "2026-07-15",
     "2891653": "2026-07-15",
     "2891655": "2026-07-15",
+    "2906926": "2026-07-19",
     "2906929": "2026-07-18",
     "2907500": "2026-07-16",
     "2916835": "2026-07-16",
@@ -56,6 +57,21 @@
   "mode": "paper",
   "peak_equity": 509.49269000000015,
   "positions": {
+    "1654958": {
+      "cost": 9.76,
+      "entry_price": 0.946,
+      "event_ticker": "",
+      "market_id": "1654958",
+      "opened": "2026-07-19T16:04:29+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.32,
+      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "rules_version": 12,
+      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting",
+      "strategy": "favorite_discount",
+      "token_id": "111604417349377875799825956621596386269673370070912696668140891647145772186047"
+    },
     "2431013": {
       "cost": 9.84,
       "entry_price": 0.896,
@@ -85,21 +101,6 @@
       "slug": "will-rodri-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032287",
       "strategy": "favorite_discount",
       "token_id": "52869489947740157291376289472378859002771430926745372537097524577015006645385"
-    },
-    "2906926": {
-      "cost": 9.85,
-      "entry_price": 0.89,
-      "event_ticker": "",
-      "market_id": "2906926",
-      "opened": "2026-07-16T01:04:51+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.06,
-      "question": "Will Scottie Scheffler win the 2026 The Open Championship?",
-      "rules_version": 12,
-      "slug": "2026-the-open-championship-winner-scottie-scheffler-win",
-      "strategy": "favorite_discount",
-      "token_id": "16389757131269799657954236333348172933661771019793442768672579716135138981958"
     },
     "2942009": {
       "cost": 9.77,
@@ -177,7 +178,7 @@
       "token_id": "34891371387938701211840591458071323530884822030384779347681535463054581294576"
     }
   },
-  "realized_pnl": -12.659999999999997,
+  "realized_pnl": -11.659999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T15:04:30+00:00"
+  "updated": "2026-07-19T16:04:29+00:00"
 }
