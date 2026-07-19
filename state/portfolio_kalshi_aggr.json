@@ -1,5 +1,5 @@
 {
-  "cash": 230.62000000000012,
+  "cash": 302.09000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -94,9 +94,11 @@
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
+    "KXWCFIRSTSONG-26JUL20-DYN": "2026-07-19",
     "KXWCPRICE-26JULWCFINAL-12000": "2026-07-18",
     "KXWCPRICE-26JULWCSEMI2-3000": "2026-07-15",
     "KXWCSTART-26JUL15ENGARG-ARG-EFERNA24": "2026-07-15",
+    "KXWCSTART-26JUL19ESPARG-ARG-LMARTI6": "2026-07-19",
     "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
     "KXWTI-26JUL1014-T68.49": "2026-07-10",
     "KXWTI-26JUL1014-T72.49": "2026-07-10",
@@ -174,41 +176,11 @@
       "slug": "kxwcattend-26jul20-tom",
       "strategy": "favorite_discount",
       "token_id": "KXWCATTEND-26JUL20-TOM:yes"
-    },
-    "KXWCFIRSTSONG-26JUL20-DYN": {
-      "cost": 34.88,
-      "entry_price": 0.97,
-      "event_ticker": "KXWCFIRSTSONG-26JUL20",
-      "market_id": "KXWCFIRSTSONG-26JUL20-DYN",
-      "opened": "2026-07-17T14:04:28+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.88,
-      "question": "Will Dynamite be the first song performed by any of Madonna, Shakira, or BTS (any member of BTS) during the FIFA World Cup 2026 Final Halftime Show scheduled for July 19, 2026 at New York New Jersey Stadium?",
-      "rules_version": 2,
-      "slug": "kxwcfirstsong-26jul20-dyn",
-      "strategy": "favorite_discount",
-      "token_id": "KXWCFIRSTSONG-26JUL20-DYN:no"
-    },
-    "KXWCSTART-26JUL19ESPARG-ARG-LMARTI6": {
-      "cost": 34.73,
-      "entry_price": 0.9518,
-      "event_ticker": "KXWCSTART-26JUL19ESPARG-ARG",
-      "market_id": "KXWCSTART-26JUL19ESPARG-ARG-LMARTI6",
-      "opened": "2026-07-17T20:05:10+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 36.37,
-      "question": "Will Lisandro Martinez start for Argentina? \u2014 Lisandro Martinez starts for Argentina",
-      "rules_version": 2,
-      "slug": "kxwcstart-26jul19esparg-arg-lmarti6",
-      "strategy": "favorite_discount",
-      "token_id": "KXWCSTART-26JUL19ESPARG-ARG-LMARTI6:yes"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -61.21999999999995,
+  "realized_pnl": -59.35999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T17:05:23+00:00",
+  "updated": "2026-07-19T18:04:32+00:00",
   "venue": "kalshi"
 }
