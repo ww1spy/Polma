@@ -1,5 +1,5 @@
 {
-  "cash": 416.2200000000003,
+  "cash": 417.0500000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -40,6 +40,7 @@
     "2891238": "2026-07-15",
     "2891653": "2026-07-15",
     "2891655": "2026-07-15",
+    "2905898": "2026-07-19",
     "2906926": "2026-07-19",
     "2906929": "2026-07-18",
     "2907500": "2026-07-16",
@@ -137,21 +138,6 @@
       "strategy": "favorite_discount",
       "token_id": "76755883373039851290695610249455633595892527905785960150127813908400558868227"
     },
-    "2905898": {
-      "cost": 9.7,
-      "entry_price": 0.921,
-      "event_ticker": "",
-      "market_id": "2905898",
-      "opened": "2026-07-19T22:05:13+00:00",
-      "outcome": "Washington Nationals",
-      "outcome_idx": 0,
-      "qty": 10.53,
-      "question": "Washington Nationals vs. Athletics",
-      "rules_version": 12,
-      "slug": "mlb-wsh-oak-2026-07-19",
-      "strategy": "favorite_discount",
-      "token_id": "59375454505362148697909407782041654516112098830510114658564986035863473750079"
-    },
     "2937524": {
       "cost": 9.69,
       "entry_price": 0.92,
@@ -166,9 +152,24 @@
       "slug": "us-x-iran-effective-ceasfire-by-july-24-20260715194822044",
       "strategy": "favorite_discount",
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
+    },
+    "2980340": {
+      "cost": 9.69,
+      "entry_price": 0.31,
+      "event_ticker": "",
+      "market_id": "2980340",
+      "opened": "2026-07-19T23:04:26+00:00",
+      "outcome": "Ilya Ivashka",
+      "outcome_idx": 1,
+      "qty": 31.27,
+      "question": "Pozoblanco: Chris Rodesch vs Ilya Ivashka",
+      "rules_version": 12,
+      "slug": "atp-rodesch-ivashka-2026-07-19",
+      "strategy": "favorite_discount",
+      "token_id": "85447800358658338031667260725112235453914779409697496103049422480554740113882"
     }
   },
-  "realized_pnl": -15.549999999999994,
+  "realized_pnl": -14.729999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T22:05:13+00:00"
+  "updated": "2026-07-19T23:04:26+00:00"
 }
