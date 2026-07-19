@@ -1,5 +1,5 @@
 {
-  "cash": 57.31000000000011,
+  "cash": 91.4200000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -86,6 +86,7 @@
     "KXT20MATCH-26JUL152130NEWWAS-WAS": "2026-07-16",
     "KXT20MATCH-26JUL170830BANZIM-ZIM": "2026-07-17",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
+    "KXTRUMPENDORSEMENTS-26JUL18-A20": "2026-07-19",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
@@ -185,21 +186,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPATTEND:yes"
     },
-    "KXTRUMPENDORSEMENTS-26JUL18-A20": {
-      "cost": 33.52,
-      "entry_price": 0.97,
-      "event_ticker": "KXTRUMPENDORSEMENTS-26JUL18",
-      "market_id": "KXTRUMPENDORSEMENTS-26JUL18-A20",
-      "opened": "2026-07-17T02:04:36+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 34.48,
-      "question": "Will Trump endorse at least 20 people on Truth Social this week? \u2014 At least 20",
-      "rules_version": 2,
-      "slug": "kxtrumpendorsements-26jul18-a20",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPENDORSEMENTS-26JUL18-A20:no"
-    },
     "KXTRUMPSAY-26JUL20-STUP": {
       "cost": 34.3,
       "entry_price": 0.94,
@@ -277,8 +263,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -64.40999999999994,
+  "realized_pnl": -63.81999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T01:04:41+00:00",
+  "updated": "2026-07-19T02:04:50+00:00",
   "venue": "kalshi"
 }
