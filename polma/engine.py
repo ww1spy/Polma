@@ -199,7 +199,13 @@ def find_candidates(rules, state, venue, max_markets=300):
                 ask = market["best_ask"] if idx == 0 else (
                     round(1.0 - market["best_bid"], 4)
                     if market["best_bid"] is not None else None)
-                entry_price = ask if ask is not None else price
+                if ask is None:
+                    # One-sided book: the listed price is stale and the real
+                    # cost is unknowable — never band-check against it.
+                    # (2026-07-20: a 0.31 fill passed the band via this
+                    # fallback on a bidless Polymarket tennis market.)
+                    continue
+                entry_price = ask
                 if strat["min_price"] <= entry_price <= strat["max_price"]:
                     candidates.append((market, idx, strat["name"]))
                     matched = True
