@@ -1,5 +1,5 @@
 {
-  "cash": 160.62000000000012,
+  "cash": 230.62000000000012,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -88,9 +88,11 @@
     "KXT20MATCH-26JUL170830BANZIM-ZIM": "2026-07-17",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTECHRANKLISTAICODE-26JUL20-KIMI": "2026-07-19",
+    "KXTRUMPATTEND": "2026-07-19",
     "KXTRUMPENDORSEMENTS-26JUL18-A20": "2026-07-19",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
+    "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXWCPRICE-26JULWCFINAL-12000": "2026-07-18",
     "KXWCPRICE-26JULWCSEMI2-3000": "2026-07-15",
@@ -143,21 +145,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-ODY-94:yes"
     },
-    "KXTRUMPATTEND": {
-      "cost": 34.24,
-      "entry_price": 0.966,
-      "event_ticker": "KXTRUMPATTEND",
-      "market_id": "KXTRUMPATTEND",
-      "opened": "2026-07-17T22:04:25+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 35.36,
-      "question": "Will Donald J. Trump attend The 2026 FIFA World Cup Final? \u2014 Yes",
-      "rules_version": 2,
-      "slug": "kxtrumpattend",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPATTEND:yes"
-    },
     "KXTRUMPSAY-26JUL20-STUP": {
       "cost": 34.3,
       "entry_price": 0.94,
@@ -172,21 +159,6 @@
       "slug": "kxtrumpsay-26jul20-stup",
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPSAY-26JUL20-STUP:no"
-    },
-    "KXTRUMPWORLDCUP-26-DJT-1": {
-      "cost": 34.09,
-      "entry_price": 0.96,
-      "event_ticker": "KXTRUMPWORLDCUP-26-DJT",
-      "market_id": "KXTRUMPWORLDCUP-26-DJT-1",
-      "opened": "2026-07-18T13:05:13+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 35.4,
-      "question": "How many 2026 FIFA World Cup matches will Donald Trump attend this season? \u2014 At least 1",
-      "rules_version": 2,
-      "slug": "kxtrumpworldcup-26-djt-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPWORLDCUP-26-DJT-1:yes"
     },
     "KXWCATTEND-26JUL20-TOM": {
       "cost": 34.6,
@@ -235,8 +207,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -62.889999999999944,
+  "realized_pnl": -61.21999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-19T16:04:32+00:00",
+  "updated": "2026-07-19T17:05:23+00:00",
   "venue": "kalshi"
 }
