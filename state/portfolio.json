@@ -5,6 +5,8 @@
     "2069636": "2026-07-12",
     "2069670": "2026-07-15",
     "2071523": "2026-07-12",
+    "2431013": "2026-07-20",
+    "2431017": "2026-07-20",
     "2448672": "2026-07-12",
     "2555350": "2026-07-13",
     "2804857": "2026-07-09",
@@ -94,36 +96,6 @@
       "strategy": "favorite_discount",
       "token_id": "102979714187432523726496609637889951679226430871494531752837414533106422105296"
     },
-    "2431013": {
-      "cost": 9.84,
-      "entry_price": 0.896,
-      "event_ticker": "",
-      "market_id": "2431013",
-      "opened": "2026-07-15T22:05:42+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10.98,
-      "question": "Will Lionel Messi win the Golden Ball at the 2026 FIFA World Cup?",
-      "rules_version": 12,
-      "slug": "will-lionel-messi-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032283",
-      "strategy": "favorite_discount",
-      "token_id": "68099147950522191308134976209533771147823729818517018192391581768804443699549"
-    },
-    "2431017": {
-      "cost": 9.85,
-      "entry_price": 0.925,
-      "event_ticker": "",
-      "market_id": "2431017",
-      "opened": "2026-07-16T01:04:51+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.64,
-      "question": "Will Rodri win the Golden Ball at the 2026 FIFA World Cup?",
-      "rules_version": 12,
-      "slug": "will-rodri-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032287",
-      "strategy": "favorite_discount",
-      "token_id": "52869489947740157291376289472378859002771430926745372537097524577015006645385"
-    },
     "2853059": {
       "cost": 9.7,
       "entry_price": 0.93,
@@ -170,7 +142,7 @@
       "token_id": "55134690462508708908640861246360238756213326968267019013270715366551143152122"
     }
   },
-  "realized_pnl": -24.419999999999995,
+  "realized_pnl": -44.10999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T00:06:34+00:00"
+  "updated": "2026-07-20T01:05:14+00:00"
 }
