@@ -1,5 +1,5 @@
 {
-  "cash": 63.07000000000015,
+  "cash": 65.27000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -112,6 +112,7 @@
     "KXWTI-26JUL1414-T73.49": "2026-07-14",
     "KXWTI-26JUL1414-T77.99": "2026-07-14",
     "KXWTI-26JUL1514-T84.99": "2026-07-15",
+    "KXWTI-26JUL2014-T80.99": "2026-07-20",
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10",
@@ -137,6 +138,21 @@
       "slug": "kxbrentd-26jul2017-t87.50",
       "strategy": "favorite_discount",
       "token_id": "KXBRENTD-26JUL2017-T87.50:yes"
+    },
+    "KXHIGHCHI-26JUL20-B85.5": {
+      "cost": 35.85,
+      "entry_price": 0.911,
+      "event_ticker": "KXHIGHCHI-26JUL20",
+      "market_id": "KXHIGHCHI-26JUL20-B85.5",
+      "opened": "2026-07-20T19:04:30+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.1,
+      "question": "Will the high temp in Chicago be 85-86\u00b0 on Jul 20, 2026? \u2014 85\u00b0 to 86\u00b0",
+      "rules_version": 2,
+      "slug": "kxhighchi-26jul20-b85.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHCHI-26JUL20-B85.5:no"
     },
     "KXHIGHMIA-26JUL20-B93.5": {
       "cost": 35.96,
@@ -258,21 +274,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR:no"
     },
-    "KXWTI-26JUL2014-T80.99": {
-      "cost": 35.56,
-      "entry_price": 0.92,
-      "event_ticker": "KXWTI-26JUL2014",
-      "market_id": "KXWTI-26JUL2014-T80.99",
-      "opened": "2026-07-20T04:04:59+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.43,
-      "question": "Will the WTI crude oil settlement price be above 80.99 USD/Bbl on Jul 20, 2026? \u2014 Above $80.99",
-      "rules_version": 2,
-      "slug": "kxwti-26jul2014-t80.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTI-26JUL2014-T80.99:yes"
-    },
     "KXWTI-26JUL2114-T79.99": {
       "cost": 35.54,
       "entry_price": 0.9,
@@ -290,8 +291,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -47.97999999999996,
+  "realized_pnl": -45.48999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T18:05:48+00:00",
+  "updated": "2026-07-20T19:04:30+00:00",
   "venue": "kalshi"
 }
