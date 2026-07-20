@@ -1,5 +1,5 @@
 {
-  "cash": 338.33000000000015,
+  "cash": 196.15000000000018,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -133,6 +133,66 @@
       "strategy": "favorite_discount",
       "token_id": "KXHORMUZWEEKLY-26JUL19-T75:no"
     },
+    "KXNETFLIXRANKMOVIE-26JUL20-SHI": {
+      "cost": 35.56,
+      "entry_price": 0.96,
+      "event_ticker": "KXNETFLIXRANKMOVIE-26JUL20",
+      "market_id": "KXNETFLIXRANKMOVIE-26JUL20-SHI",
+      "opened": "2026-07-20T03:04:26+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 36.94,
+      "question": "Top US Netflix Movie on Jul 20, 2026? \u2014 Shipwrecked: Nightmare at Sea",
+      "rules_version": 2,
+      "slug": "kxnetflixrankmovie-26jul20-shi",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKMOVIE-26JUL20-SHI:yes"
+    },
+    "KXNETFLIXRANKMOVIEGLOBAL-26JUL20-ENO": {
+      "cost": 35.56,
+      "entry_price": 0.9605,
+      "event_ticker": "KXNETFLIXRANKMOVIEGLOBAL-26JUL20",
+      "market_id": "KXNETFLIXRANKMOVIEGLOBAL-26JUL20-ENO",
+      "opened": "2026-07-20T03:04:26+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.91,
+      "question": "Top Global Netflix Movie on Jul 20, 2026? \u2014 Enola Holmes 3",
+      "rules_version": 2,
+      "slug": "kxnetflixrankmovieglobal-26jul20-eno",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKMOVIEGLOBAL-26JUL20-ENO:no"
+    },
+    "KXNETFLIXRANKSHOW-26JUL20-WOR": {
+      "cost": 35.53,
+      "entry_price": 0.9767,
+      "event_ticker": "KXNETFLIXRANKSHOW-26JUL20",
+      "market_id": "KXNETFLIXRANKSHOW-26JUL20-WOR",
+      "opened": "2026-07-20T03:04:26+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.31,
+      "question": "Top US Netflix Show on Jul 20, 2026? \u2014 Worst Neighbor Ever: Season 1",
+      "rules_version": 2,
+      "slug": "kxnetflixrankshow-26jul20-wor",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKSHOW-26JUL20-WOR:no"
+    },
+    "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": {
+      "cost": 35.53,
+      "entry_price": 0.97,
+      "event_ticker": "KXNETFLIXRANKSHOWRUNNERUP-26JUL20",
+      "market_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR",
+      "opened": "2026-07-20T03:04:26+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.54,
+      "question": "#2 US Netflix Show on Jul 20, 2026? \u2014 Worst Neighbor Ever: Season 1",
+      "rules_version": 2,
+      "slug": "kxnetflixrankshowrunnerup-26jul20-wor",
+      "strategy": "favorite_discount",
+      "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR:no"
+    },
     "KXRT-ODY-94": {
       "cost": 35.02,
       "entry_price": 0.92,
@@ -167,6 +227,6 @@
   "profile": "aggr",
   "realized_pnl": -57.71999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T02:04:38+00:00",
+  "updated": "2026-07-20T03:04:26+00:00",
   "venue": "kalshi"
 }
