@@ -1,5 +1,5 @@
 {
-  "cash": 94.08980000000001,
+  "cash": 98.97980000000001,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -12,6 +12,7 @@
     "KXRTX5090WS-26JUL10-0.750": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
+    "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXWTIW-26JUL1014-B69.50": "2026-07-08",
     "KXWTIW-26JUL1014-B72.50": "2026-07-08"
   },
@@ -21,7 +22,7 @@
   "halted": false,
   "live_balance_synced": true,
   "mode": "live",
-  "peak_equity": 103.87,
+  "peak_equity": 103.92980000000001,
   "positions": {
     "KXRT-ODY-97": {
       "cost": 4.95,
@@ -37,25 +38,10 @@
       "slug": "kxrt-ody-97",
       "strategy": "rt_last_mile",
       "token_id": "KXRT-ODY-97:no"
-    },
-    "KXTRUMPSAY-26JUL20-URAN": {
-      "cost": 4.63,
-      "entry_price": 0.92,
-      "event_ticker": "KXTRUMPSAY-26JUL20",
-      "market_id": "KXTRUMPSAY-26JUL20-URAN",
-      "opened": "2026-07-17T14:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 5.0,
-      "question": "Will Trump say \"Uranium\" before Jul 20, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsay-26jul20-uran",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAY-26JUL20-URAN:no"
     }
   },
-  "realized_pnl": -30.10000000000001,
+  "realized_pnl": -29.84000000000001,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-20T01:05:18+00:00",
+  "updated": "2026-07-20T02:04:44+00:00",
   "venue": "kalshi"
 }
