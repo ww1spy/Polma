@@ -57,6 +57,7 @@
     "2942017": "2026-07-19",
     "2942020": "2026-07-19",
     "2980340": "2026-07-20",
+    "2986334": "2026-07-20",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -125,24 +126,9 @@
       "slug": "us-x-iran-effective-ceasfire-by-july-24-20260715194822044",
       "strategy": "favorite_discount",
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
-    },
-    "2986334": {
-      "cost": 9.5,
-      "entry_price": 0.85,
-      "event_ticker": "",
-      "market_id": "2986334",
-      "opened": "2026-07-20T00:06:34+00:00",
-      "outcome": "Mark Lajal",
-      "outcome_idx": 1,
-      "qty": 11.18,
-      "question": "Lincoln: Bernard Tomic vs Mark Lajal",
-      "rules_version": 12,
-      "slug": "atp-tomic-lajal-2026-07-19",
-      "strategy": "favorite_discount",
-      "token_id": "55134690462508708908640861246360238756213326968267019013270715366551143152122"
     }
   },
-  "realized_pnl": -44.10999999999999,
+  "realized_pnl": -53.60999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T03:04:24+00:00"
+  "updated": "2026-07-20T04:04:57+00:00"
 }
