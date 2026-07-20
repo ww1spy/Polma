@@ -1,5 +1,5 @@
 {
-  "cash": 61.03000000000017,
+  "cash": 63.07000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -11,6 +11,7 @@
     "KXAPRPOTUS-26JUL17-40.0": "2026-07-16",
     "KXAPRPOTUS-26JUL17-41.3": "2026-07-17",
     "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
+    "KXBRENTD-26JUL2017-T94.50": "2026-07-20",
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
     "KXBRENTW-26JUL1717-T93.99": "2026-07-17",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
@@ -37,6 +38,7 @@
     "KXHIGHLAX-26JUL15-T85": "2026-07-15",
     "KXHIGHLAX-26JUL16-T86": "2026-07-16",
     "KXHIGHLAX-26JUL20-B75.5": "2026-07-20",
+    "KXHIGHLAX-26JUL20-B77.5": "2026-07-20",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
@@ -121,35 +123,35 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXBRENTD-26JUL2017-T94.50": {
-      "cost": 35.57,
-      "entry_price": 0.91,
+    "KXBRENTD-26JUL2017-T87.50": {
+      "cost": 35.92,
+      "entry_price": 0.94,
       "event_ticker": "KXBRENTD-26JUL2017",
-      "market_id": "KXBRENTD-26JUL2017-T94.50",
-      "opened": "2026-07-20T04:04:59+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.83,
-      "question": "Will the brent crude oil close price be above 94.50 USD/Bbl on July 20, 2026 at 5:00 PM EDT? \u2014 above $94.50",
+      "market_id": "KXBRENTD-26JUL2017-T87.50",
+      "opened": "2026-07-20T18:05:48+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.05,
+      "question": "Will the brent crude oil close price be above 87.50 USD/Bbl on July 20, 2026 at 5:00 PM EDT? \u2014 above $87.50",
       "rules_version": 2,
-      "slug": "kxbrentd-26jul2017-t94.50",
+      "slug": "kxbrentd-26jul2017-t87.50",
       "strategy": "favorite_discount",
-      "token_id": "KXBRENTD-26JUL2017-T94.50:no"
+      "token_id": "KXBRENTD-26JUL2017-T87.50:yes"
     },
-    "KXHIGHLAX-26JUL20-B77.5": {
-      "cost": 34.03,
-      "entry_price": 0.9441,
-      "event_ticker": "KXHIGHLAX-26JUL20",
-      "market_id": "KXHIGHLAX-26JUL20-B77.5",
-      "opened": "2026-07-20T14:05:05+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.9,
-      "question": "Will the **high temp in LA** be 77-78\u00b0 on Jul 20, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "KXHIGHMIA-26JUL20-B93.5": {
+      "cost": 35.96,
+      "entry_price": 0.93,
+      "event_ticker": "KXHIGHMIA-26JUL20",
+      "market_id": "KXHIGHMIA-26JUL20-B93.5",
+      "opened": "2026-07-20T18:05:48+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.47,
+      "question": "Will the **high temp in Miami** be 93-94\u00b0 on Jul 20, 2026? \u2014 93\u00b0 to 94\u00b0",
       "rules_version": 2,
-      "slug": "kxhighlax-26jul20-b77.5",
+      "slug": "kxhighmia-26jul20-b93.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL20-B77.5:no"
+      "token_id": "KXHIGHMIA-26JUL20-B93.5:yes"
     },
     "KXHIGHNY-26JUL20-B83.5": {
       "cost": 33.75,
@@ -288,8 +290,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -52.299999999999955,
+  "realized_pnl": -47.97999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T17:04:39+00:00",
+  "updated": "2026-07-20T18:05:48+00:00",
   "venue": "kalshi"
 }
