@@ -1,5 +1,5 @@
 {
-  "cash": 65.27000000000015,
+  "cash": 139.18000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -41,6 +41,7 @@
     "KXHIGHLAX-26JUL20-B77.5": "2026-07-20",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
+    "KXHIGHMIA-26JUL20-B93.5": "2026-07-20",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
@@ -50,6 +51,7 @@
     "KXHIGHNY-26JUL15-T97": "2026-07-15",
     "KXHIGHNY-26JUL16-B93.5": "2026-07-16",
     "KXHIGHNY-26JUL16-T89": "2026-07-16",
+    "KXHIGHNY-26JUL20-B83.5": "2026-07-20",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
@@ -153,36 +155,6 @@
       "slug": "kxhighchi-26jul20-b85.5",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHCHI-26JUL20-B85.5:no"
-    },
-    "KXHIGHMIA-26JUL20-B93.5": {
-      "cost": 35.96,
-      "entry_price": 0.93,
-      "event_ticker": "KXHIGHMIA-26JUL20",
-      "market_id": "KXHIGHMIA-26JUL20-B93.5",
-      "opened": "2026-07-20T18:05:48+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.47,
-      "question": "Will the **high temp in Miami** be 93-94\u00b0 on Jul 20, 2026? \u2014 93\u00b0 to 94\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighmia-26jul20-b93.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHMIA-26JUL20-B93.5:yes"
-    },
-    "KXHIGHNY-26JUL20-B83.5": {
-      "cost": 33.75,
-      "entry_price": 0.9218,
-      "event_ticker": "KXHIGHNY-26JUL20",
-      "market_id": "KXHIGHNY-26JUL20-B83.5",
-      "opened": "2026-07-20T12:05:44+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.41,
-      "question": "Will the **high temp in NYC** be 83-84\u00b0 on Jul 20, 2026? \u2014 83\u00b0 to 84\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighny-26jul20-b83.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL20-B83.5:no"
     },
     "KXHORMUZWEEKLY-26JUL19-T75": {
       "cost": 34.63,
@@ -291,8 +263,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -45.48999999999997,
+  "realized_pnl": -41.289999999999964,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T19:04:30+00:00",
+  "updated": "2026-07-20T20:04:53+00:00",
   "venue": "kalshi"
 }
