@@ -1,5 +1,5 @@
 {
-  "cash": 142.42000000000013,
+  "cash": 181.18000000000012,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -104,6 +104,7 @@
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
+    "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
     "KXWCATTEND-26JUL20-TOM": "2026-07-19",
     "KXWCFIRSTSONG-26JUL20-DYN": "2026-07-19",
     "KXWCPRICE-26JULWCFINAL-12000": "2026-07-18",
@@ -234,21 +235,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR:no"
     },
-    "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": {
-      "cost": 36.22,
-      "entry_price": 0.93,
-      "event_ticker": "KXVALORANTGAME-26JUL201700FLYRC9GC",
-      "market_id": "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR",
-      "opened": "2026-07-20T22:04:44+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.76,
-      "question": "Will FlyQuest RED win the FlyQuest RED vs. Cloud9 GC Valorant match?",
-      "rules_version": 2,
-      "slug": "kxvalorantgame-26jul201700flyrc9gc-flyr",
-      "strategy": "favorite_discount",
-      "token_id": "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR:yes"
-    },
     "KXWTI-26JUL2114-T79.99": {
       "cost": 35.54,
       "entry_price": 0.9,
@@ -266,8 +252,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -36.499999999999964,
+  "realized_pnl": -33.959999999999965,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T22:04:44+00:00",
+  "updated": "2026-07-20T23:04:11+00:00",
   "venue": "kalshi"
 }
