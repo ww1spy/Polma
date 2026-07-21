@@ -1,5 +1,5 @@
 {
-  "cash": 65.69000000000017,
+  "cash": 79.16000000000017,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -44,6 +44,7 @@
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHMIA-26JUL20-B93.5": "2026-07-20",
+    "KXHIGHMIA-26JUL21-B89.5": "2026-07-21",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
@@ -58,6 +59,7 @@
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
+    "KXHIGHTSFO-26JUL21-T75": "2026-07-21",
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
     "KXHORMUZWEEKLY-26JUL19-T75": "2026-07-21",
     "KXINX-26JUL14H1600-B7612": "2026-07-14",
@@ -77,6 +79,7 @@
     "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
+    "KXNASDAQ100-26JUL21H1600-B29450": "2026-07-21",
     "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": "2026-07-16",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIE-26JUL20-SHI": "2026-07-21",
@@ -128,6 +131,7 @@
     "KXWTI-26JUL1414-T77.99": "2026-07-14",
     "KXWTI-26JUL1514-T84.99": "2026-07-15",
     "KXWTI-26JUL2014-T80.99": "2026-07-20",
+    "KXWTI-26JUL2114-T79.99": "2026-07-21",
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10",
@@ -139,6 +143,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXHIGHAUS-26JUL21-T102": {
+      "cost": 35.62,
+      "entry_price": 0.96,
+      "event_ticker": "KXHIGHAUS-26JUL21",
+      "market_id": "KXHIGHAUS-26JUL21-T102",
+      "opened": "2026-07-21T15:04:21+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.0,
+      "question": "Will the **high temp in Austin** be >102\u00b0 on Jul 21, 2026? \u2014 103\u00b0 or above",
+      "rules_version": 2,
+      "slug": "kxhighaus-26jul21-t102",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHAUS-26JUL21-T102:no"
+    },
     "KXHIGHCHI-26JUL21-T84": {
       "cost": 37.89,
       "entry_price": 0.91,
@@ -169,20 +188,35 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL21-B77.5:no"
     },
-    "KXHIGHMIA-26JUL21-B89.5": {
-      "cost": 37.4,
-      "entry_price": 0.94,
-      "event_ticker": "KXHIGHMIA-26JUL21",
-      "market_id": "KXHIGHMIA-26JUL21-B89.5",
-      "opened": "2026-07-21T07:05:24+00:00",
+    "KXHIGHNY-26JUL21-B83.5": {
+      "cost": 35.62,
+      "entry_price": 0.9682,
+      "event_ticker": "KXHIGHNY-26JUL21",
+      "market_id": "KXHIGHNY-26JUL21-B83.5",
+      "opened": "2026-07-21T15:04:21+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 39.62,
-      "question": "Will the **high temp in Miami** be 89-90\u00b0 on Jul 21, 2026? \u2014 89\u00b0 to 90\u00b0",
+      "qty": 36.71,
+      "question": "Will the **high temp in NYC** be 83-84\u00b0 on Jul 21, 2026? \u2014 83\u00b0 to 84\u00b0",
       "rules_version": 2,
-      "slug": "kxhighmia-26jul21-b89.5",
+      "slug": "kxhighny-26jul21-b83.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHMIA-26JUL21-B89.5:no"
+      "token_id": "KXHIGHNY-26JUL21-B83.5:no"
+    },
+    "KXHIGHTATL-26JUL21-B88.5": {
+      "cost": 35.7,
+      "entry_price": 0.9366,
+      "event_ticker": "KXHIGHTATL-26JUL21",
+      "market_id": "KXHIGHTATL-26JUL21-B88.5",
+      "opened": "2026-07-21T15:04:21+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.94,
+      "question": "Will the maximum temperature be 88-89\u00b0 on Jul 21, 2026? \u2014 88\u00b0 to 89\u00b0",
+      "rules_version": 2,
+      "slug": "kxhightatl-26jul21-b88.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTATL-26JUL21-B88.5:no"
     },
     "KXHIGHTHOU-26JUL21-T98": {
       "cost": 37.84,
@@ -229,35 +263,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSEA-26JUL21-B88.5:no"
     },
-    "KXHIGHTSFO-26JUL21-T75": {
-      "cost": 37.48,
-      "entry_price": 0.9413,
+    "KXHIGHTSFO-26JUL21-B77.5": {
+      "cost": 35.6,
+      "entry_price": 0.9689,
       "event_ticker": "KXHIGHTSFO-26JUL21",
-      "market_id": "KXHIGHTSFO-26JUL21-T75",
-      "opened": "2026-07-21T08:04:38+00:00",
+      "market_id": "KXHIGHTSFO-26JUL21-B77.5",
+      "opened": "2026-07-21T15:04:21+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 39.65,
-      "question": "Will the maximum temperature be <75\u00b0 on Jul 21, 2026? \u2014 74\u00b0 or below",
+      "qty": 36.66,
+      "question": "Will the maximum temperature be 77-78\u00b0 on Jul 21, 2026? \u2014 77\u00b0 to 78\u00b0",
       "rules_version": 2,
-      "slug": "kxhightsfo-26jul21-t75",
+      "slug": "kxhightsfo-26jul21-b77.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHTSFO-26JUL21-T75:no"
-    },
-    "KXNASDAQ100-26JUL21H1600-B29450": {
-      "cost": 37.78,
-      "entry_price": 0.96,
-      "event_ticker": "KXNASDAQ100-26JUL21H1600",
-      "market_id": "KXNASDAQ100-26JUL21H1600-B29450",
-      "opened": "2026-07-21T12:05:15+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.24,
-      "question": "Will the Nasdaq-100 be between 29400 and 29499.9900 at the end of Jul 21, 2026 at 4pm EDT? \u2014 29,400 to 29,499.99",
-      "rules_version": 2,
-      "slug": "kxnasdaq100-26jul21h1600-b29450",
-      "strategy": "favorite_discount",
-      "token_id": "KXNASDAQ100-26JUL21H1600-B29450:no"
+      "token_id": "KXHIGHTSFO-26JUL21-B77.5:no"
     },
     "KXUST2AD-26JUL21-T4.29": {
       "cost": 37.6,
@@ -273,26 +292,11 @@
       "slug": "kxust2ad-26jul21-t4.29",
       "strategy": "favorite_discount",
       "token_id": "KXUST2AD-26JUL21-T4.29:no"
-    },
-    "KXWTI-26JUL2114-T79.99": {
-      "cost": 35.54,
-      "entry_price": 0.9,
-      "event_ticker": "KXWTI-26JUL2114",
-      "market_id": "KXWTI-26JUL2114-T79.99",
-      "opened": "2026-07-20T05:04:49+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 39.22,
-      "question": "Will the WTI crude oil settlement price be above 79.99 USD/Bbl on Jul 21, 2026? \u2014 Above $79.99",
-      "rules_version": 2,
-      "slug": "kxwti-26jul2114-t79.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTI-26JUL2114-T79.99:yes"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -62.059999999999974,
+  "realized_pnl": -54.24999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T14:04:29+00:00",
+  "updated": "2026-07-21T15:04:21+00:00",
   "venue": "kalshi"
 }
