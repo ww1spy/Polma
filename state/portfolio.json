@@ -1,5 +1,5 @@
 {
-  "cash": 389.71000000000026,
+  "cash": 371.97000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -127,6 +127,21 @@
       "strategy": "favorite_discount",
       "token_id": "33752982532314842955867034258985568949958761450943043689987049583448528253590"
     },
+    "2922135": {
+      "cost": 8.87,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "2922135",
+      "opened": "2026-07-21T01:04:30+00:00",
+      "outcome": "New York Yankees",
+      "outcome_idx": 1,
+      "qty": 9.64,
+      "question": "Pittsburgh Pirates vs. New York Yankees",
+      "rules_version": 12,
+      "slug": "mlb-pit-nyy-2026-07-20",
+      "strategy": "favorite_discount",
+      "token_id": "44548601526623713731893179460479051651978722860235519651839811259913416666464"
+    },
     "2922141": {
       "cost": 8.92,
       "entry_price": 0.91,
@@ -141,6 +156,21 @@
       "slug": "mlb-lad-phi-2026-07-20",
       "strategy": "favorite_discount",
       "token_id": "29067366822734929159634406193888039913022776831759228576032030202417024353718"
+    },
+    "2922153": {
+      "cost": 8.87,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "2922153",
+      "opened": "2026-07-21T01:04:30+00:00",
+      "outcome": "Houston Astros",
+      "outcome_idx": 1,
+      "qty": 9.64,
+      "question": "Miami Marlins vs. Houston Astros",
+      "rules_version": 12,
+      "slug": "mlb-mia-hou-2026-07-20",
+      "strategy": "favorite_discount",
+      "token_id": "98360472065928663408388471277326853880037915193402838957903842532954042424742"
     },
     "2937524": {
       "cost": 9.69,
@@ -160,5 +190,5 @@
   },
   "realized_pnl": -53.60999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T00:04:10+00:00"
+  "updated": "2026-07-21T01:04:30+00:00"
 }
