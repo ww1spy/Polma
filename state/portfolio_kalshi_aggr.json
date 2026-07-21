@@ -1,5 +1,5 @@
 {
-  "cash": 323.0100000000001,
+  "cash": 285.6100000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -150,6 +150,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL21-B77.5:no"
     },
+    "KXHIGHMIA-26JUL21-B89.5": {
+      "cost": 37.4,
+      "entry_price": 0.94,
+      "event_ticker": "KXHIGHMIA-26JUL21",
+      "market_id": "KXHIGHMIA-26JUL21-B89.5",
+      "opened": "2026-07-21T07:05:24+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.62,
+      "question": "Will the **high temp in Miami** be 89-90\u00b0 on Jul 21, 2026? \u2014 89\u00b0 to 90\u00b0",
+      "rules_version": 2,
+      "slug": "kxhighmia-26jul21-b89.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHMIA-26JUL21-B89.5:no"
+    },
     "KXHORMUZWEEKLY-26JUL19-T75": {
       "cost": 34.63,
       "entry_price": 0.96,
@@ -199,6 +214,6 @@
   "profile": "aggr",
   "realized_pnl": -33.099999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T06:05:32+00:00",
+  "updated": "2026-07-21T07:05:24+00:00",
   "venue": "kalshi"
 }
