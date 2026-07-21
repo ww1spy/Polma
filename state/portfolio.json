@@ -1,5 +1,5 @@
 {
-  "cash": 378.5500000000003,
+  "cash": 380.1200000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -65,6 +65,7 @@
     "2980428": "2026-07-21",
     "2980445": "2026-07-21",
     "2986334": "2026-07-20",
+    "2989431": "2026-07-21",
     "2994172": "2026-07-21",
     "3001619": "2026-07-21",
     "3006264": "2026-07-21",
@@ -182,23 +183,23 @@
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
     },
-    "2989431": {
-      "cost": 9.04,
-      "entry_price": 0.85,
+    "2980460": {
+      "cost": 9.06,
+      "entry_price": 0.7319,
       "event_ticker": "",
-      "market_id": "2989431",
-      "opened": "2026-07-21T16:05:07+00:00",
-      "outcome": "Barbora Krejcikova",
+      "market_id": "2980460",
+      "opened": "2026-07-21T18:04:40+00:00",
+      "outcome": "Jaime Faria",
       "outcome_idx": 1,
-      "qty": 10.63,
-      "question": "Livesport Prague Open: Linda Fruhvirtova vs Barbora Krejcikova",
+      "qty": 12.38,
+      "question": "Estoril Open: Botic van de Zandschulp vs Jaime Faria",
       "rules_version": 12,
-      "slug": "wta-fruhvir-krejcik-2026-07-21",
+      "slug": "atp-zandsch-faria-2026-07-20",
       "strategy": "favorite_discount",
-      "token_id": "78411067993536066432711946582414105376728275169619080384609234422951635624710"
+      "token_id": "70140943404160458374470217514539126920286110578454258125351354352855133574557"
     }
   },
-  "realized_pnl": -46.659999999999975,
+  "realized_pnl": -45.06999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T17:06:23+00:00"
+  "updated": "2026-07-21T18:04:40+00:00"
 }
