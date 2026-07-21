@@ -1,5 +1,5 @@
 {
-  "cash": 387.5900000000003,
+  "cash": 378.5500000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -181,9 +181,24 @@
       "slug": "israel-closes-its-airspace-by-july-24",
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
+    },
+    "2989431": {
+      "cost": 9.04,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "2989431",
+      "opened": "2026-07-21T16:05:07+00:00",
+      "outcome": "Barbora Krejcikova",
+      "outcome_idx": 1,
+      "qty": 10.63,
+      "question": "Livesport Prague Open: Linda Fruhvirtova vs Barbora Krejcikova",
+      "rules_version": 12,
+      "slug": "wta-fruhvir-krejcik-2026-07-21",
+      "strategy": "favorite_discount",
+      "token_id": "78411067993536066432711946582414105376728275169619080384609234422951635624710"
     }
   },
   "realized_pnl": -46.659999999999975,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T15:04:17+00:00"
+  "updated": "2026-07-21T16:05:07+00:00"
 }
