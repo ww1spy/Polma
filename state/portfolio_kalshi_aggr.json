@@ -1,5 +1,5 @@
 {
-  "cash": 136.89000000000016,
+  "cash": 61.59000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -87,6 +87,7 @@
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": "2026-07-14",
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": "2026-07-21",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
+    "KXNPBGAME-26JUL210500HIRYOM-YOM": "2026-07-21",
     "KXODIMATCH-26JUL131430NZWI-NZ": "2026-07-14",
     "KXODIMATCH-26JUL161430NZWI-WI": "2026-07-17",
     "KXPUREALBUMS-XPE26JUL09-3K": "2026-07-12",
@@ -181,6 +182,36 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHMIA-26JUL21-B89.5:no"
     },
+    "KXHIGHTHOU-26JUL21-T98": {
+      "cost": 37.84,
+      "entry_price": 0.9398,
+      "event_ticker": "KXHIGHTHOU-26JUL21",
+      "market_id": "KXHIGHTHOU-26JUL21-T98",
+      "opened": "2026-07-21T12:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.1,
+      "question": "Will the maximum temperature be <98\u00b0 on Jul 21, 2026? \u2014 97\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhighthou-26jul21-t98",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTHOU-26JUL21-T98:no"
+    },
+    "KXHIGHTPHX-26JUL21-T100": {
+      "cost": 37.8,
+      "entry_price": 0.95,
+      "event_ticker": "KXHIGHTPHX-26JUL21",
+      "market_id": "KXHIGHTPHX-26JUL21-T100",
+      "opened": "2026-07-21T12:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.64,
+      "question": "Will the maximum temperature be <100\u00b0 on Jul 21, 2026? \u2014 99\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhightphx-26jul21-t100",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTPHX-26JUL21-T100:no"
+    },
     "KXHIGHTSFO-26JUL21-T75": {
       "cost": 37.48,
       "entry_price": 0.9413,
@@ -226,20 +257,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXINXU-26JUL21H1600-T7369.9999:yes"
     },
-    "KXNPBGAME-26JUL210500HIRYOM-YOM": {
-      "cost": 37.58,
-      "entry_price": 0.973,
-      "event_ticker": "KXNPBGAME-26JUL210500HIRYOM",
-      "market_id": "KXNPBGAME-26JUL210500HIRYOM-YOM",
-      "opened": "2026-07-21T10:04:55+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.54,
-      "question": "Hiroshima Toyo Carp vs Yomiuri Giants winner?",
+    "KXNASDAQ100-26JUL21H1600-B29450": {
+      "cost": 37.78,
+      "entry_price": 0.96,
+      "event_ticker": "KXNASDAQ100-26JUL21H1600",
+      "market_id": "KXNASDAQ100-26JUL21H1600-B29450",
+      "opened": "2026-07-21T12:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.24,
+      "question": "Will the Nasdaq-100 be between 29400 and 29499.9900 at the end of Jul 21, 2026 at 4pm EDT? \u2014 29,400 to 29,499.99",
       "rules_version": 2,
-      "slug": "kxnpbgame-26jul210500hiryom-yom",
+      "slug": "kxnasdaq100-26jul21h1600-b29450",
       "strategy": "favorite_discount",
-      "token_id": "KXNPBGAME-26JUL210500HIRYOM-YOM:yes"
+      "token_id": "KXNASDAQ100-26JUL21H1600-B29450:no"
     },
     "KXUST2AD-26JUL21-T4.29": {
       "cost": 37.6,
@@ -273,8 +304,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -31.269999999999968,
+  "realized_pnl": -30.72999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T11:05:12+00:00",
+  "updated": "2026-07-21T12:05:15+00:00",
   "venue": "kalshi"
 }
