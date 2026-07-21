@@ -1,5 +1,5 @@
 {
-  "cash": 285.6100000000001,
+  "cash": 248.13000000000014,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -165,6 +165,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHMIA-26JUL21-B89.5:no"
     },
+    "KXHIGHTSFO-26JUL21-T75": {
+      "cost": 37.48,
+      "entry_price": 0.9413,
+      "event_ticker": "KXHIGHTSFO-26JUL21",
+      "market_id": "KXHIGHTSFO-26JUL21-T75",
+      "opened": "2026-07-21T08:04:38+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.65,
+      "question": "Will the maximum temperature be <75\u00b0 on Jul 21, 2026? \u2014 74\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhightsfo-26jul21-t75",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTSFO-26JUL21-T75:no"
+    },
     "KXHORMUZWEEKLY-26JUL19-T75": {
       "cost": 34.63,
       "entry_price": 0.96,
@@ -214,6 +229,6 @@
   "profile": "aggr",
   "realized_pnl": -33.099999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T07:05:24+00:00",
+  "updated": "2026-07-21T08:04:38+00:00",
   "venue": "kalshi"
 }

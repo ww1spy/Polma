@@ -1,5 +1,5 @@
 {
-  "cash": 393.8200000000002,
+  "cash": 384.81000000000023,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -161,9 +161,24 @@
       "slug": "us-x-iran-effective-ceasfire-by-july-24-20260715194822044",
       "strategy": "favorite_discount",
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
+    },
+    "2977246": {
+      "cost": 9.01,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "2977246",
+      "opened": "2026-07-21T08:04:35+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 9.48,
+      "question": "Israel closes its airspace by July 24?",
+      "rules_version": 12,
+      "slug": "israel-closes-its-airspace-by-july-24",
+      "strategy": "favorite_discount",
+      "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
     }
   },
   "realized_pnl": -49.43999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T07:05:19+00:00"
+  "updated": "2026-07-21T08:04:35+00:00"
 }
