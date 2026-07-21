@@ -1,5 +1,5 @@
 {
-  "cash": 250.79000000000016,
+  "cash": 327.9100000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -67,6 +67,8 @@
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
     "KXHIGHTHOU-26JUL21-T98": "2026-07-21",
     "KXHIGHTNOLA-26JUL21-T94": "2026-07-21",
+    "KXHIGHTPHX-26JUL21-T100": "2026-07-21",
+    "KXHIGHTSEA-26JUL21-B88.5": "2026-07-21",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXHIGHTSFO-26JUL21-B77.5": "2026-07-21",
     "KXHIGHTSFO-26JUL21-T75": "2026-07-21",
@@ -187,36 +189,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
     },
-    "KXHIGHTPHX-26JUL21-T100": {
-      "cost": 37.8,
-      "entry_price": 0.95,
-      "event_ticker": "KXHIGHTPHX-26JUL21",
-      "market_id": "KXHIGHTPHX-26JUL21-T100",
-      "opened": "2026-07-21T12:05:15+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.64,
-      "question": "Will the maximum temperature be <100\u00b0 on Jul 21, 2026? \u2014 99\u00b0 or below",
-      "rules_version": 2,
-      "slug": "kxhightphx-26jul21-t100",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTPHX-26JUL21-T100:no"
-    },
-    "KXHIGHTSEA-26JUL21-B88.5": {
-      "cost": 35.48,
-      "entry_price": 0.9206,
-      "event_ticker": "KXHIGHTSEA-26JUL21",
-      "market_id": "KXHIGHTSEA-26JUL21-B88.5",
-      "opened": "2026-07-21T14:04:29+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.32,
-      "question": "Will the maximum temperature be 88-89\u00b0 on Jul 21, 2026? \u2014 88\u00b0 to 89\u00b0",
-      "rules_version": 2,
-      "slug": "kxhightsea-26jul21-b88.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTSEA-26JUL21-B88.5:no"
-    },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
       "entry_price": 0.92,
@@ -249,8 +221,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -30.929999999999957,
+  "realized_pnl": -27.089999999999954,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T22:04:25+00:00",
+  "updated": "2026-07-21T23:05:06+00:00",
   "venue": "kalshi"
 }
