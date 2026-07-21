@@ -1,5 +1,5 @@
 {
-  "cash": 54.99000000000018,
+  "cash": 55.94000000000017,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -78,6 +78,7 @@
     "KXLOLGAME-26JUL160500GENSEN-GEN": "2026-07-16",
     "KXLOLGAME-26JUL161100UCAMFLK-FLK": "2026-07-16",
     "KXLOLGAME-26JUL210500GENBRO-GEN": "2026-07-21",
+    "KXLOLGAME-26JUL211100UBLUA-UB": "2026-07-21",
     "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
@@ -119,6 +120,7 @@
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
+    "KXVALORANTGAME-26JUL211100HBSG2-HBS": "2026-07-21",
     "KXWCATTEND-26JUL20-TOM": "2026-07-19",
     "KXWCFIRSTSONG-26JUL20-DYN": "2026-07-19",
     "KXWCPRICE-26JULWCFINAL-12000": "2026-07-18",
@@ -145,6 +147,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXAAAGASD-26JUL22-4.040": {
+      "cost": 36.25,
+      "entry_price": 0.91,
+      "event_ticker": "KXAAAGASD-26JUL22",
+      "market_id": "KXAAAGASD-26JUL22-4.040",
+      "opened": "2026-07-21T17:06:27+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 39.58,
+      "question": "Will average **gas prices** be above $4.040? \u2014 Above 4.040",
+      "rules_version": 2,
+      "slug": "kxaaagasd-26jul22-4.040",
+      "strategy": "favorite_discount",
+      "token_id": "KXAAAGASD-26JUL22-4.040:yes"
+    },
     "KXHIGHAUS-26JUL21-T102": {
       "cost": 35.62,
       "entry_price": 0.96,
@@ -220,6 +237,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTHOU-26JUL21-T98:no"
     },
+    "KXHIGHTNOLA-26JUL21-T94": {
+      "cost": 36.18,
+      "entry_price": 0.9408,
+      "event_ticker": "KXHIGHTNOLA-26JUL21",
+      "market_id": "KXHIGHTNOLA-26JUL21-T94",
+      "opened": "2026-07-21T17:06:27+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.29,
+      "question": "Will the maximum temperature be <94\u00b0 on Jul 21, 2026? \u2014 93\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhightnola-26jul21-t94",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTNOLA-26JUL21-T94:no"
+    },
     "KXHIGHTPHX-26JUL21-T100": {
       "cost": 37.8,
       "entry_price": 0.95,
@@ -265,21 +297,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSFO-26JUL21-B77.5:no"
     },
-    "KXLOLGAME-26JUL211100UBLUA-UB": {
-      "cost": 35.1,
-      "entry_price": 0.96,
-      "event_ticker": "KXLOLGAME-26JUL211100UBLUA",
-      "market_id": "KXLOLGAME-26JUL211100UBLUA-UB",
-      "opened": "2026-07-21T16:05:10+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.46,
-      "question": "Will UB Alma Mater win the UB Alma Mater vs. LUA Gaming League of Legends match?",
-      "rules_version": 2,
-      "slug": "kxlolgame-26jul211100ublua-ub",
-      "strategy": "favorite_discount",
-      "token_id": "KXLOLGAME-26JUL211100UBLUA-UB:no"
-    },
     "KXUST2AD-26JUL21-T4.29": {
       "cost": 37.6,
       "entry_price": 0.96,
@@ -294,26 +311,11 @@
       "slug": "kxust2ad-26jul21-t4.29",
       "strategy": "favorite_discount",
       "token_id": "KXUST2AD-26JUL21-T4.29:no"
-    },
-    "KXVALORANTGAME-26JUL211100HBSG2-HBS": {
-      "cost": 35.16,
-      "entry_price": 0.9273,
-      "event_ticker": "KXVALORANTGAME-26JUL211100HBSG2",
-      "market_id": "KXVALORANTGAME-26JUL211100HBSG2-HBS",
-      "opened": "2026-07-21T16:05:11+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.72,
-      "question": "Will Habos Babos win the Habos Babos vs. G2 Gozen Valorant match?",
-      "rules_version": 2,
-      "slug": "kxvalorantgame-26jul211100hbsg2-hbs",
-      "strategy": "favorite_discount",
-      "token_id": "KXVALORANTGAME-26JUL211100HBSG2-HBS:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -48.39999999999997,
+  "realized_pnl": -45.279999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T16:05:11+00:00",
+  "updated": "2026-07-21T17:06:27+00:00",
   "venue": "kalshi"
 }
