@@ -1,5 +1,5 @@
 {
-  "cash": 360.4500000000001,
+  "cash": 323.0100000000001,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -135,6 +135,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXHIGHLAX-26JUL21-B77.5": {
+      "cost": 37.44,
+      "entry_price": 0.9147,
+      "event_ticker": "KXHIGHLAX-26JUL21",
+      "market_id": "KXHIGHLAX-26JUL21-B77.5",
+      "opened": "2026-07-21T06:05:32+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.68,
+      "question": "Will the **high temp in LA** be 77-78\u00b0 on Jul 21, 2026? \u2014 77\u00b0 to 78\u00b0",
+      "rules_version": 2,
+      "slug": "kxhighlax-26jul21-b77.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHLAX-26JUL21-B77.5:no"
+    },
     "KXHORMUZWEEKLY-26JUL19-T75": {
       "cost": 34.63,
       "entry_price": 0.96,
@@ -184,6 +199,6 @@
   "profile": "aggr",
   "realized_pnl": -33.099999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T05:04:13+00:00",
+  "updated": "2026-07-21T06:05:32+00:00",
   "venue": "kalshi"
 }
