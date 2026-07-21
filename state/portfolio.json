@@ -1,5 +1,5 @@
 {
-  "cash": 385.48000000000025,
+  "cash": 376.46000000000026,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -177,9 +177,24 @@
       "slug": "israel-closes-its-airspace-by-july-24",
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
+    },
+    "2980445": {
+      "cost": 9.02,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "2980445",
+      "opened": "2026-07-21T11:05:09+00:00",
+      "outcome": "Nikola Bartunkova",
+      "outcome_idx": 0,
+      "qty": 9.4,
+      "question": "Livesport Prague Open: Nikola Bartunkova vs Yue Yuan",
+      "rules_version": 12,
+      "slug": "wta-bartunk-yuan-2026-07-20",
+      "strategy": "favorite_discount",
+      "token_id": "15675423730949583574764057368320104754758216744720927856454315047234648476446"
     }
   },
   "realized_pnl": -48.76999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T10:04:52+00:00"
+  "updated": "2026-07-21T11:05:09+00:00"
 }
