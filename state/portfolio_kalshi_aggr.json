@@ -1,5 +1,5 @@
 {
-  "cash": 131.98000000000016,
+  "cash": 96.35000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -60,6 +60,7 @@
     "KXHIGHNY-26JUL20-B83.5": "2026-07-20",
     "KXHIGHNY-26JUL21-B83.5": "2026-07-21",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
+    "KXHIGHTATL-26JUL21-B88.5": "2026-07-21",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
     "KXHIGHTNOLA-26JUL21-T94": "2026-07-21",
@@ -182,6 +183,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26JUL24-41.8:no"
     },
+    "KXBRENTW-26JUL2417-T96.99": {
+      "cost": 36.54,
+      "entry_price": 0.95,
+      "event_ticker": "KXBRENTW-26JUL2417",
+      "market_id": "KXBRENTW-26JUL2417-T96.99",
+      "opened": "2026-07-21T21:04:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.32,
+      "question": "Will the brent crude oil close price be above 96.99 USD/Bbl on July 24, 2026 at 5:00 PM EDT? \u2014 above $96.99",
+      "rules_version": 2,
+      "slug": "kxbrentw-26jul2417-t96.99",
+      "strategy": "favorite_discount",
+      "token_id": "KXBRENTW-26JUL2417-T96.99:no"
+    },
     "KXHIGHAUS-26JUL21-T102": {
       "cost": 35.62,
       "entry_price": 0.96,
@@ -196,21 +212,6 @@
       "slug": "kxhighaus-26jul21-t102",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHAUS-26JUL21-T102:no"
-    },
-    "KXHIGHTATL-26JUL21-B88.5": {
-      "cost": 35.7,
-      "entry_price": 0.9366,
-      "event_ticker": "KXHIGHTATL-26JUL21",
-      "market_id": "KXHIGHTATL-26JUL21-B88.5",
-      "opened": "2026-07-21T15:04:21+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.94,
-      "question": "Will the maximum temperature be 88-89\u00b0 on Jul 21, 2026? \u2014 88\u00b0 to 89\u00b0",
-      "rules_version": 2,
-      "slug": "kxhightatl-26jul21-b88.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTATL-26JUL21-B88.5:no"
     },
     "KXHIGHTHOU-26JUL21-T98": {
       "cost": 37.84,
@@ -257,6 +258,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSEA-26JUL21-B88.5:no"
     },
+    "KXLOLGAME-26JUL211700RMDPNGA-RMD": {
+      "cost": 36.62,
+      "entry_price": 0.9234,
+      "event_ticker": "KXLOLGAME-26JUL211700RMDPNGA",
+      "market_id": "KXLOLGAME-26JUL211700RMDPNGA-RMD",
+      "opened": "2026-07-21T21:04:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.44,
+      "question": "Will RMD Gaming win the RMD Gaming vs. paiN Gaming Academy League of Legends match?",
+      "rules_version": 2,
+      "slug": "kxlolgame-26jul211700rmdpnga-rmd",
+      "strategy": "favorite_discount",
+      "token_id": "KXLOLGAME-26JUL211700RMDPNGA-RMD:no"
+    },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
       "entry_price": 0.92,
@@ -289,8 +305,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -40.86999999999996,
+  "realized_pnl": -39.039999999999964,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T20:04:19+00:00",
+  "updated": "2026-07-21T21:04:39+00:00",
   "venue": "kalshi"
 }

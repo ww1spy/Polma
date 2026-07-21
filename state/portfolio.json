@@ -1,5 +1,5 @@
 {
-  "cash": 383.96000000000026,
+  "cash": 384.35000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -71,6 +71,7 @@
     "2994172": "2026-07-21",
     "3001619": "2026-07-21",
     "3006264": "2026-07-21",
+    "3010227": "2026-07-21",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -185,23 +186,23 @@
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
     },
-    "3010227": {
+    "2980538": {
       "cost": 9.13,
-      "entry_price": 0.958,
+      "entry_price": 0.95,
       "event_ticker": "",
-      "market_id": "3010227",
-      "opened": "2026-07-21T20:04:13+00:00",
-      "outcome": "Thanasi Kokkinakis",
+      "market_id": "2980538",
+      "opened": "2026-07-21T21:04:36+00:00",
+      "outcome": "Clara Burel",
       "outcome_idx": 1,
-      "qty": 9.53,
-      "question": "Bloomfield Hills: Evan Zhu vs Thanasi Kokkinakis",
+      "qty": 9.61,
+      "question": "Palermo: Anastasia Abbagnato vs Clara Burel",
       "rules_version": 12,
-      "slug": "atp-zh-kokkina-2026-07-21",
+      "slug": "wta-abbagna-burel-2026-07-20",
       "strategy": "favorite_discount",
-      "token_id": "106303380794961074647336442733957736730141532426039761338444425323968489677467"
+      "token_id": "13016747238896080282363684549220156401197554425065356806344609586878353060025"
     }
   },
-  "realized_pnl": -41.159999999999975,
+  "realized_pnl": -40.769999999999975,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T20:04:13+00:00"
+  "updated": "2026-07-21T21:04:36+00:00"
 }
