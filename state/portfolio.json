@@ -1,5 +1,5 @@
 {
-  "cash": 393.04000000000025,
+  "cash": 384.05000000000024,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -146,6 +146,21 @@
       "strategy": "favorite_discount",
       "token_id": "33752982532314842955867034258985568949958761450943043689987049583448528253590"
     },
+    "2922149": {
+      "cost": 8.99,
+      "entry_price": 0.9198,
+      "event_ticker": "",
+      "market_id": "2922149",
+      "opened": "2026-07-21T04:05:13+00:00",
+      "outcome": "Detroit Tigers",
+      "outcome_idx": 0,
+      "qty": 9.77,
+      "question": "Detroit Tigers vs. Chicago Cubs",
+      "rules_version": 12,
+      "slug": "mlb-det-chc-2026-07-20",
+      "strategy": "favorite_discount",
+      "token_id": "54586127310696938710329659886589507109522692834515207054124836255486172405112"
+    },
     "2937524": {
       "cost": 9.69,
       "entry_price": 0.92,
@@ -164,5 +179,5 @@
   },
   "realized_pnl": -50.219999999999985,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T03:04:08+00:00"
+  "updated": "2026-07-21T04:05:13+00:00"
 }
