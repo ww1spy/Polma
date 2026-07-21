@@ -1,5 +1,5 @@
 {
-  "cash": 372.66000000000025,
+  "cash": 393.04000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -48,6 +48,9 @@
     "2907500": "2026-07-16",
     "2916835": "2026-07-16",
     "2922135": "2026-07-21",
+    "2922141": "2026-07-21",
+    "2922151": "2026-07-21",
+    "2922153": "2026-07-21",
     "2923102": "2026-07-15",
     "2933207": "2026-07-16",
     "2941994": "2026-07-18",
@@ -98,6 +101,21 @@
       "strategy": "favorite_discount",
       "token_id": "102979714187432523726496609637889951679226430871494531752837414533106422105296"
     },
+    "2730676": {
+      "cost": 8.98,
+      "entry_price": 0.959,
+      "event_ticker": "",
+      "market_id": "2730676",
+      "opened": "2026-07-21T03:04:08+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 9.37,
+      "question": "Iran leadership change by July 31?",
+      "rules_version": 12,
+      "slug": "iran-leadership-change-by-july-31-20260629143932628",
+      "strategy": "favorite_discount",
+      "token_id": "81227913022464789020420026850668797006106628368067299950425613264309232066763"
+    },
     "2853059": {
       "cost": 9.7,
       "entry_price": 0.93,
@@ -128,51 +146,6 @@
       "strategy": "favorite_discount",
       "token_id": "33752982532314842955867034258985568949958761450943043689987049583448528253590"
     },
-    "2922141": {
-      "cost": 8.92,
-      "entry_price": 0.91,
-      "event_ticker": "",
-      "market_id": "2922141",
-      "opened": "2026-07-21T00:04:10+00:00",
-      "outcome": "Philadelphia Phillies",
-      "outcome_idx": 1,
-      "qty": 9.8,
-      "question": "Los Angeles Dodgers vs. Philadelphia Phillies",
-      "rules_version": 12,
-      "slug": "mlb-lad-phi-2026-07-20",
-      "strategy": "favorite_discount",
-      "token_id": "29067366822734929159634406193888039913022776831759228576032030202417024353718"
-    },
-    "2922151": {
-      "cost": 8.94,
-      "entry_price": 0.9,
-      "event_ticker": "",
-      "market_id": "2922151",
-      "opened": "2026-07-21T02:04:46+00:00",
-      "outcome": "Chicago White Sox",
-      "outcome_idx": 0,
-      "qty": 9.94,
-      "question": "Chicago White Sox vs. Texas Rangers",
-      "rules_version": 12,
-      "slug": "mlb-cws-tex-2026-07-20",
-      "strategy": "favorite_discount",
-      "token_id": "114692280631324549361092811971596480515926209975801772420940382417974476304289"
-    },
-    "2922153": {
-      "cost": 8.87,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "2922153",
-      "opened": "2026-07-21T01:04:30+00:00",
-      "outcome": "Houston Astros",
-      "outcome_idx": 1,
-      "qty": 9.64,
-      "question": "Miami Marlins vs. Houston Astros",
-      "rules_version": 12,
-      "slug": "mlb-mia-hou-2026-07-20",
-      "strategy": "favorite_discount",
-      "token_id": "98360472065928663408388471277326853880037915193402838957903842532954042424742"
-    },
     "2937524": {
       "cost": 9.69,
       "entry_price": 0.92,
@@ -189,7 +162,7 @@
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
     }
   },
-  "realized_pnl": -52.849999999999994,
+  "realized_pnl": -50.219999999999985,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T02:04:46+00:00"
+  "updated": "2026-07-21T03:04:08+00:00"
 }

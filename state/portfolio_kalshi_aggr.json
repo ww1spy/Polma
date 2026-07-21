@@ -1,5 +1,5 @@
 {
-  "cash": 181.18000000000012,
+  "cash": 219.68000000000012,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -71,6 +71,7 @@
     "KXLOLGAME-26JUL151210DKFUR-DK": "2026-07-15",
     "KXLOLGAME-26JUL160500GENSEN-GEN": "2026-07-16",
     "KXLOLGAME-26JUL161100UCAMFLK-FLK": "2026-07-16",
+    "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
     "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": "2026-07-16",
@@ -160,21 +161,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXINXU-26JUL21H1600-T7369.9999:yes"
     },
-    "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": {
-      "cost": 36.35,
-      "entry_price": 0.94,
-      "event_ticker": "KXMLBEXTRAS-26JUL201940NYMMIL",
-      "market_id": "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS",
-      "opened": "2026-07-20T21:04:16+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.5,
-      "question": "Will there be extra innings in the New York M vs Milwaukee game originally scheduled for Jul 20, 2026 at 7:40 PM EDT? \u2014 Game goes to extra innings",
-      "rules_version": 2,
-      "slug": "kxmlbextras-26jul201940nymmil-extras",
-      "strategy": "favorite_discount",
-      "token_id": "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS:no"
-    },
     "KXNETFLIXRANKMOVIE-26JUL20-SHI": {
       "cost": 35.56,
       "entry_price": 0.96,
@@ -252,8 +238,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -33.959999999999965,
+  "realized_pnl": -31.809999999999967,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T02:04:49+00:00",
+  "updated": "2026-07-21T03:04:11+00:00",
   "venue": "kalshi"
 }
