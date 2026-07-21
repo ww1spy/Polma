@@ -1,7 +1,8 @@
 {
-  "cash": 96.35000000000016,
+  "cash": 250.79000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
+    "KXAAAGASD-26JUL22-4.040": "2026-07-21",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAAAGASW-26JUL20-4.100": "2026-07-17",
     "KXALBUMEQUIV-ALB26JUL16-145K": "2026-07-19",
@@ -24,6 +25,7 @@
     "KXCS2GAME-26JUL170100DXAFLY-DXA": "2026-07-17",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXFEATURE-26DAU-BON": "2026-07-17",
+    "KXHIGHAUS-26JUL21-T102": "2026-07-21",
     "KXHIGHCHI-26JUL14-T94": "2026-07-14",
     "KXHIGHCHI-26JUL15-B98.5": "2026-07-15",
     "KXHIGHCHI-26JUL20-B85.5": "2026-07-20",
@@ -63,6 +65,7 @@
     "KXHIGHTATL-26JUL21-B88.5": "2026-07-21",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
+    "KXHIGHTHOU-26JUL21-T98": "2026-07-21",
     "KXHIGHTNOLA-26JUL21-T94": "2026-07-21",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXHIGHTSFO-26JUL21-B77.5": "2026-07-21",
@@ -84,6 +87,7 @@
     "KXLOLGAME-26JUL161100UCAMFLK-FLK": "2026-07-16",
     "KXLOLGAME-26JUL210500GENBRO-GEN": "2026-07-21",
     "KXLOLGAME-26JUL211100UBLUA-UB": "2026-07-21",
+    "KXLOLGAME-26JUL211700RMDPNGA-RMD": "2026-07-21",
     "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
@@ -153,21 +157,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAAAGASD-26JUL22-4.040": {
-      "cost": 36.25,
-      "entry_price": 0.91,
-      "event_ticker": "KXAAAGASD-26JUL22",
-      "market_id": "KXAAAGASD-26JUL22-4.040",
-      "opened": "2026-07-21T17:06:27+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 39.58,
-      "question": "Will average **gas prices** be above $4.040? \u2014 Above 4.040",
-      "rules_version": 2,
-      "slug": "kxaaagasd-26jul22-4.040",
-      "strategy": "favorite_discount",
-      "token_id": "KXAAAGASD-26JUL22-4.040:yes"
-    },
     "KXAPRPOTUS-26JUL24-41.8": {
       "cost": 36.15,
       "entry_price": 0.97,
@@ -198,36 +187,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
     },
-    "KXHIGHAUS-26JUL21-T102": {
-      "cost": 35.62,
-      "entry_price": 0.96,
-      "event_ticker": "KXHIGHAUS-26JUL21",
-      "market_id": "KXHIGHAUS-26JUL21-T102",
-      "opened": "2026-07-21T15:04:21+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.0,
-      "question": "Will the **high temp in Austin** be >102\u00b0 on Jul 21, 2026? \u2014 103\u00b0 or above",
-      "rules_version": 2,
-      "slug": "kxhighaus-26jul21-t102",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHAUS-26JUL21-T102:no"
-    },
-    "KXHIGHTHOU-26JUL21-T98": {
-      "cost": 37.84,
-      "entry_price": 0.9398,
-      "event_ticker": "KXHIGHTHOU-26JUL21",
-      "market_id": "KXHIGHTHOU-26JUL21-T98",
-      "opened": "2026-07-21T12:05:15+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.1,
-      "question": "Will the maximum temperature be <98\u00b0 on Jul 21, 2026? \u2014 97\u00b0 or below",
-      "rules_version": 2,
-      "slug": "kxhighthou-26jul21-t98",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTHOU-26JUL21-T98:no"
-    },
     "KXHIGHTPHX-26JUL21-T100": {
       "cost": 37.8,
       "entry_price": 0.95,
@@ -257,21 +216,6 @@
       "slug": "kxhightsea-26jul21-b88.5",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSEA-26JUL21-B88.5:no"
-    },
-    "KXLOLGAME-26JUL211700RMDPNGA-RMD": {
-      "cost": 36.62,
-      "entry_price": 0.9234,
-      "event_ticker": "KXLOLGAME-26JUL211700RMDPNGA",
-      "market_id": "KXLOLGAME-26JUL211700RMDPNGA-RMD",
-      "opened": "2026-07-21T21:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.44,
-      "question": "Will RMD Gaming win the RMD Gaming vs. paiN Gaming Academy League of Legends match?",
-      "rules_version": 2,
-      "slug": "kxlolgame-26jul211700rmdpnga-rmd",
-      "strategy": "favorite_discount",
-      "token_id": "KXLOLGAME-26JUL211700RMDPNGA-RMD:no"
     },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
@@ -305,8 +249,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -39.039999999999964,
+  "realized_pnl": -30.929999999999957,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T21:04:39+00:00",
+  "updated": "2026-07-21T22:04:25+00:00",
   "venue": "kalshi"
 }
