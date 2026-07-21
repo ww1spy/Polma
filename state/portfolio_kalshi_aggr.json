@@ -1,5 +1,5 @@
 {
-  "cash": 55.97000000000017,
+  "cash": 131.98000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -58,10 +58,13 @@
     "KXHIGHNY-26JUL16-B93.5": "2026-07-16",
     "KXHIGHNY-26JUL16-T89": "2026-07-16",
     "KXHIGHNY-26JUL20-B83.5": "2026-07-20",
+    "KXHIGHNY-26JUL21-B83.5": "2026-07-21",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
+    "KXHIGHTNOLA-26JUL21-T94": "2026-07-21",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
+    "KXHIGHTSFO-26JUL21-B77.5": "2026-07-21",
     "KXHIGHTSFO-26JUL21-T75": "2026-07-21",
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
     "KXHORMUZWEEKLY-26JUL19-T75": "2026-07-21",
@@ -120,6 +123,7 @@
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
+    "KXUST2AD-26JUL21-T4.29": "2026-07-21",
     "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
     "KXVALORANTGAME-26JUL211100HBSG2-HBS": "2026-07-21",
     "KXWCATTEND-26JUL20-TOM": "2026-07-19",
@@ -163,6 +167,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXAAAGASD-26JUL22-4.040:yes"
     },
+    "KXAPRPOTUS-26JUL24-41.8": {
+      "cost": 36.15,
+      "entry_price": 0.97,
+      "event_ticker": "KXAPRPOTUS-26JUL24",
+      "market_id": "KXAPRPOTUS-26JUL24-41.8",
+      "opened": "2026-07-21T20:04:19+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.19,
+      "question": "Will the President's approval rating be between 41.7 and 41.9 according to RealClearPolitics? \u2014 41.7 to 41.9",
+      "rules_version": 2,
+      "slug": "kxaprpotus-26jul24-41.8",
+      "strategy": "favorite_discount",
+      "token_id": "KXAPRPOTUS-26JUL24-41.8:no"
+    },
     "KXHIGHAUS-26JUL21-T102": {
       "cost": 35.62,
       "entry_price": 0.96,
@@ -177,21 +196,6 @@
       "slug": "kxhighaus-26jul21-t102",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHAUS-26JUL21-T102:no"
-    },
-    "KXHIGHNY-26JUL21-B83.5": {
-      "cost": 35.62,
-      "entry_price": 0.9682,
-      "event_ticker": "KXHIGHNY-26JUL21",
-      "market_id": "KXHIGHNY-26JUL21-B83.5",
-      "opened": "2026-07-21T15:04:21+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.71,
-      "question": "Will the **high temp in NYC** be 83-84\u00b0 on Jul 21, 2026? \u2014 83\u00b0 to 84\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighny-26jul21-b83.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL21-B83.5:no"
     },
     "KXHIGHTATL-26JUL21-B88.5": {
       "cost": 35.7,
@@ -223,21 +227,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTHOU-26JUL21-T98:no"
     },
-    "KXHIGHTNOLA-26JUL21-T94": {
-      "cost": 36.18,
-      "entry_price": 0.9408,
-      "event_ticker": "KXHIGHTNOLA-26JUL21",
-      "market_id": "KXHIGHTNOLA-26JUL21-T94",
-      "opened": "2026-07-21T17:06:27+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.29,
-      "question": "Will the maximum temperature be <94\u00b0 on Jul 21, 2026? \u2014 93\u00b0 or below",
-      "rules_version": 2,
-      "slug": "kxhightnola-26jul21-t94",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHTNOLA-26JUL21-T94:no"
-    },
     "KXHIGHTPHX-26JUL21-T100": {
       "cost": 37.8,
       "entry_price": 0.95,
@@ -268,35 +257,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSEA-26JUL21-B88.5:no"
     },
-    "KXHIGHTSFO-26JUL21-B77.5": {
-      "cost": 35.6,
-      "entry_price": 0.9689,
-      "event_ticker": "KXHIGHTSFO-26JUL21",
-      "market_id": "KXHIGHTSFO-26JUL21-B77.5",
-      "opened": "2026-07-21T15:04:21+00:00",
+    "KXTRUMPVH-26JUL24-T40.5": {
+      "cost": 36.28,
+      "entry_price": 0.92,
+      "event_ticker": "KXTRUMPVH-26JUL24",
+      "market_id": "KXTRUMPVH-26JUL24-T40.5",
+      "opened": "2026-07-21T20:04:19+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 36.66,
-      "question": "Will the maximum temperature be 77-78\u00b0 on Jul 21, 2026? \u2014 77\u00b0 to 78\u00b0",
+      "qty": 39.2,
+      "question": "Will Donald Trump's VoteHub approval polling average be above 40.5% at 10:00 AM ET on Jul 24, 2026? \u2014 Above 40.5%",
       "rules_version": 2,
-      "slug": "kxhightsfo-26jul21-b77.5",
+      "slug": "kxtrumpvh-26jul24-t40.5",
       "strategy": "favorite_discount",
-      "token_id": "KXHIGHTSFO-26JUL21-B77.5:no"
-    },
-    "KXUST2AD-26JUL21-T4.29": {
-      "cost": 37.6,
-      "entry_price": 0.96,
-      "event_ticker": "KXUST2AD-26JUL21",
-      "market_id": "KXUST2AD-26JUL21-T4.29",
-      "opened": "2026-07-21T10:04:55+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.05,
-      "question": "Will the 2Y U.S. Treasury yield be above 4.29% on Jul 21, 2026? \u2014 4.3% or above",
-      "rules_version": 2,
-      "slug": "kxust2ad-26jul21-t4.29",
-      "strategy": "favorite_discount",
-      "token_id": "KXUST2AD-26JUL21-T4.29:no"
+      "token_id": "KXTRUMPVH-26JUL24-T40.5:no"
     },
     "KXWTIW-26JUL2414-T94.99": {
       "cost": 36.03,
@@ -315,8 +289,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -44.30999999999997,
+  "realized_pnl": -40.86999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T19:04:27+00:00",
+  "updated": "2026-07-21T20:04:19+00:00",
   "venue": "kalshi"
 }
