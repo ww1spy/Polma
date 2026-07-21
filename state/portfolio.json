@@ -1,5 +1,5 @@
 {
-  "cash": 376.83000000000027,
+  "cash": 377.0000000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -62,6 +62,7 @@
     "2942017": "2026-07-19",
     "2942020": "2026-07-19",
     "2980340": "2026-07-20",
+    "2980428": "2026-07-21",
     "2980445": "2026-07-21",
     "2986334": "2026-07-20",
     "3001619": "2026-07-21",
@@ -179,23 +180,23 @@
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
     },
-    "2980428": {
+    "2994172": {
       "cost": 9.03,
-      "entry_price": 0.98,
+      "entry_price": 0.91,
       "event_ticker": "",
-      "market_id": "2980428",
-      "opened": "2026-07-21T12:05:11+00:00",
-      "outcome": "Pablo Carreno Busta",
+      "market_id": "2994172",
+      "opened": "2026-07-21T13:04:56+00:00",
+      "outcome": "Quentin Halys",
       "outcome_idx": 1,
-      "qty": 9.21,
-      "question": "Estoril Open: Vilius Gaubas vs Pablo Carreno Busta",
+      "qty": 9.92,
+      "question": "Generali Open: Laslo Djere vs Quentin Halys",
       "rules_version": 12,
-      "slug": "atp-gaubas-busta-2026-07-20",
+      "slug": "atp-djere-halys-2026-07-21",
       "strategy": "favorite_discount",
-      "token_id": "24205280298331214289385474884226342027312210270435850600451582699338839486822"
+      "token_id": "34023240755712207581077152888421106566356894201742607290951088376812032713166"
     }
   },
-  "realized_pnl": -48.38999999999998,
+  "realized_pnl": -48.21999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T12:05:11+00:00"
+  "updated": "2026-07-21T13:04:56+00:00"
 }

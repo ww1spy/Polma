@@ -1,5 +1,5 @@
 {
-  "cash": 61.59000000000016,
+  "cash": 61.95000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -59,6 +59,7 @@
     "KXHIGHTBOS-26JUL15-T91": "2026-07-15",
     "KXHIGHTSFO-26JUL13-T76": "2026-07-13",
     "KXHORMUZWEEKLY-26JUL12-T175": "2026-07-14",
+    "KXHORMUZWEEKLY-26JUL19-T75": "2026-07-21",
     "KXINX-26JUL14H1600-B7612": "2026-07-14",
     "KXINX-26JUL17H1600-B7612": "2026-07-17",
     "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
@@ -227,21 +228,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSFO-26JUL21-T75:no"
     },
-    "KXHORMUZWEEKLY-26JUL19-T75": {
-      "cost": 34.63,
-      "entry_price": 0.96,
-      "event_ticker": "KXHORMUZWEEKLY-26JUL19",
-      "market_id": "KXHORMUZWEEKLY-26JUL19-T75",
-      "opened": "2026-07-18T18:04:36+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.96,
-      "question": "Will there be more than 75 transit calls through the Strait of Hormuz from Jul 13, 2026 to Jul 19, 2026? \u2014 Above 75",
-      "rules_version": 2,
-      "slug": "kxhormuzweekly-26jul19-t75",
-      "strategy": "favorite_discount",
-      "token_id": "KXHORMUZWEEKLY-26JUL19-T75:no"
-    },
     "KXINXU-26JUL21H1600-T7369.9999": {
       "cost": 36.28,
       "entry_price": 0.9032,
@@ -304,8 +290,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -30.72999999999997,
+  "realized_pnl": -64.99999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T12:05:15+00:00",
+  "updated": "2026-07-21T13:05:00+00:00",
   "venue": "kalshi"
 }
