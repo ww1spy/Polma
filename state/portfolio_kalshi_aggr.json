@@ -1,5 +1,5 @@
 {
-  "cash": 55.94000000000017,
+  "cash": 55.97000000000017,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -47,6 +47,7 @@
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHMIA-26JUL20-B93.5": "2026-07-20",
     "KXHIGHMIA-26JUL21-B89.5": "2026-07-21",
+    "KXHIGHMIA-26JUL21-B95.5": "2026-07-21",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
@@ -177,21 +178,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHAUS-26JUL21-T102:no"
     },
-    "KXHIGHMIA-26JUL21-B95.5": {
-      "cost": 35.09,
-      "entry_price": 0.96,
-      "event_ticker": "KXHIGHMIA-26JUL21",
-      "market_id": "KXHIGHMIA-26JUL21-B95.5",
-      "opened": "2026-07-21T16:05:11+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.45,
-      "question": "Will the **high temp in Miami** be 95-96\u00b0 on Jul 21, 2026? \u2014 95\u00b0 to 96\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighmia-26jul21-b95.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHMIA-26JUL21-B95.5:no"
-    },
     "KXHIGHNY-26JUL21-B83.5": {
       "cost": 35.62,
       "entry_price": 0.9682,
@@ -311,11 +297,26 @@
       "slug": "kxust2ad-26jul21-t4.29",
       "strategy": "favorite_discount",
       "token_id": "KXUST2AD-26JUL21-T4.29:no"
+    },
+    "KXWTIW-26JUL2414-T94.99": {
+      "cost": 36.03,
+      "entry_price": 0.961,
+      "event_ticker": "KXWTIW-26JUL2414",
+      "market_id": "KXWTIW-26JUL2414-T94.99",
+      "opened": "2026-07-21T19:04:27+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.39,
+      "question": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Jul 24, 2026? \u2014 Above $94.99",
+      "rules_version": 2,
+      "slug": "kxwtiw-26jul2414-t94.99",
+      "strategy": "favorite_discount",
+      "token_id": "KXWTIW-26JUL2414-T94.99:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -45.279999999999966,
+  "realized_pnl": -44.30999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T18:04:43+00:00",
+  "updated": "2026-07-21T19:04:27+00:00",
   "venue": "kalshi"
 }
