@@ -1,5 +1,5 @@
 {
-  "cash": 61.95000000000016,
+  "cash": 65.69000000000017,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -63,6 +63,7 @@
     "KXINX-26JUL14H1600-B7612": "2026-07-14",
     "KXINX-26JUL17H1600-B7612": "2026-07-17",
     "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
+    "KXINXU-26JUL21H1600-T7369.9999": "2026-07-21",
     "KXLIUKELIMINATIONW-26JUL17-ELL": "2026-07-16",
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
@@ -213,6 +214,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTPHX-26JUL21-T100:no"
     },
+    "KXHIGHTSEA-26JUL21-B88.5": {
+      "cost": 35.48,
+      "entry_price": 0.9206,
+      "event_ticker": "KXHIGHTSEA-26JUL21",
+      "market_id": "KXHIGHTSEA-26JUL21-B88.5",
+      "opened": "2026-07-21T14:04:29+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.32,
+      "question": "Will the maximum temperature be 88-89\u00b0 on Jul 21, 2026? \u2014 88\u00b0 to 89\u00b0",
+      "rules_version": 2,
+      "slug": "kxhightsea-26jul21-b88.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHTSEA-26JUL21-B88.5:no"
+    },
     "KXHIGHTSFO-26JUL21-T75": {
       "cost": 37.48,
       "entry_price": 0.9413,
@@ -227,21 +243,6 @@
       "slug": "kxhightsfo-26jul21-t75",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHTSFO-26JUL21-T75:no"
-    },
-    "KXINXU-26JUL21H1600-T7369.9999": {
-      "cost": 36.28,
-      "entry_price": 0.9032,
-      "event_ticker": "KXINXU-26JUL21H1600",
-      "market_id": "KXINXU-26JUL21H1600-T7369.9999",
-      "opened": "2026-07-20T22:04:44+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 39.89,
-      "question": "Will the S&P 500 be above 7369.9999 on Jul 21, 2026 at 4pm EDT? \u2014 7,370 or above",
-      "rules_version": 2,
-      "slug": "kxinxu-26jul21h1600-t7369.9999",
-      "strategy": "favorite_discount",
-      "token_id": "KXINXU-26JUL21H1600-T7369.9999:yes"
     },
     "KXNASDAQ100-26JUL21H1600-B29450": {
       "cost": 37.78,
@@ -290,8 +291,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -64.99999999999997,
+  "realized_pnl": -62.059999999999974,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T13:05:00+00:00",
+  "updated": "2026-07-21T14:04:29+00:00",
   "venue": "kalshi"
 }
