@@ -1,5 +1,5 @@
 {
-  "cash": 407.5500000000003,
+  "cash": 389.71000000000026,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -112,6 +112,36 @@
       "strategy": "favorite_discount",
       "token_id": "76755883373039851290695610249455633595892527905785960150127813908400558868227"
     },
+    "2911873": {
+      "cost": 8.92,
+      "entry_price": 0.946,
+      "event_ticker": "",
+      "market_id": "2911873",
+      "opened": "2026-07-21T00:04:10+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 9.43,
+      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
+      "rules_version": 12,
+      "slug": "bab-el-mandeb-strait-effectively-closed-by-july-31",
+      "strategy": "favorite_discount",
+      "token_id": "33752982532314842955867034258985568949958761450943043689987049583448528253590"
+    },
+    "2922141": {
+      "cost": 8.92,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "2922141",
+      "opened": "2026-07-21T00:04:10+00:00",
+      "outcome": "Philadelphia Phillies",
+      "outcome_idx": 1,
+      "qty": 9.8,
+      "question": "Los Angeles Dodgers vs. Philadelphia Phillies",
+      "rules_version": 12,
+      "slug": "mlb-lad-phi-2026-07-20",
+      "strategy": "favorite_discount",
+      "token_id": "29067366822734929159634406193888039913022776831759228576032030202417024353718"
+    },
     "2937524": {
       "cost": 9.69,
       "entry_price": 0.92,
@@ -130,5 +160,5 @@
   },
   "realized_pnl": -53.60999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-20T23:04:08+00:00"
+  "updated": "2026-07-21T00:04:10+00:00"
 }
