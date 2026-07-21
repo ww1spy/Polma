@@ -1,5 +1,5 @@
 {
-  "cash": 375.81000000000023,
+  "cash": 385.48000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -63,6 +63,7 @@
     "2942020": "2026-07-19",
     "2980340": "2026-07-20",
     "2986334": "2026-07-20",
+    "3001619": "2026-07-21",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -176,24 +177,9 @@
       "slug": "israel-closes-its-airspace-by-july-24",
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
-    },
-    "3001619": {
-      "cost": 9.0,
-      "entry_price": 0.93,
-      "event_ticker": "",
-      "market_id": "3001619",
-      "opened": "2026-07-21T09:05:05+00:00",
-      "outcome": "Panna Udvardy",
-      "outcome_idx": 1,
-      "qty": 9.68,
-      "question": "Hamburg European Open: Elena Pridankina vs Panna Udvardy",
-      "rules_version": 12,
-      "slug": "wta-pridank-udvardy-2026-07-21",
-      "strategy": "favorite_discount",
-      "token_id": "10018156655290872725190475906114926146812513590366739212534403077934498240370"
     }
   },
-  "realized_pnl": -49.43999999999998,
+  "realized_pnl": -48.76999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T09:05:05+00:00"
+  "updated": "2026-07-21T10:04:52+00:00"
 }

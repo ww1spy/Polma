@@ -1,5 +1,5 @@
 {
-  "cash": 248.13000000000014,
+  "cash": 135.30000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
@@ -210,6 +210,51 @@
       "strategy": "favorite_discount",
       "token_id": "KXINXU-26JUL21H1600-T7369.9999:yes"
     },
+    "KXLOLGAME-26JUL210500GENBRO-GEN": {
+      "cost": 37.65,
+      "entry_price": 0.95,
+      "event_ticker": "KXLOLGAME-26JUL210500GENBRO",
+      "market_id": "KXLOLGAME-26JUL210500GENBRO-GEN",
+      "opened": "2026-07-21T10:04:55+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.48,
+      "question": "Will Gen.G win the Gen.G vs. OKSavingsBank BRION League of Legends match?",
+      "rules_version": 2,
+      "slug": "kxlolgame-26jul210500genbro-gen",
+      "strategy": "favorite_discount",
+      "token_id": "KXLOLGAME-26JUL210500GENBRO-GEN:no"
+    },
+    "KXNPBGAME-26JUL210500HIRYOM-YOM": {
+      "cost": 37.58,
+      "entry_price": 0.973,
+      "event_ticker": "KXNPBGAME-26JUL210500HIRYOM",
+      "market_id": "KXNPBGAME-26JUL210500HIRYOM-YOM",
+      "opened": "2026-07-21T10:04:55+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.54,
+      "question": "Hiroshima Toyo Carp vs Yomiuri Giants winner?",
+      "rules_version": 2,
+      "slug": "kxnpbgame-26jul210500hiryom-yom",
+      "strategy": "favorite_discount",
+      "token_id": "KXNPBGAME-26JUL210500HIRYOM-YOM:yes"
+    },
+    "KXUST2AD-26JUL21-T4.29": {
+      "cost": 37.6,
+      "entry_price": 0.96,
+      "event_ticker": "KXUST2AD-26JUL21",
+      "market_id": "KXUST2AD-26JUL21-T4.29",
+      "opened": "2026-07-21T10:04:55+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.05,
+      "question": "Will the 2Y U.S. Treasury yield be above 4.29% on Jul 21, 2026? \u2014 4.3% or above",
+      "rules_version": 2,
+      "slug": "kxust2ad-26jul21-t4.29",
+      "strategy": "favorite_discount",
+      "token_id": "KXUST2AD-26JUL21-T4.29:no"
+    },
     "KXWTI-26JUL2114-T79.99": {
       "cost": 35.54,
       "entry_price": 0.9,
@@ -229,6 +274,6 @@
   "profile": "aggr",
   "realized_pnl": -33.099999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T09:05:08+00:00",
+  "updated": "2026-07-21T10:04:55+00:00",
   "venue": "kalshi"
 }
