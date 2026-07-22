@@ -1,5 +1,5 @@
 {
-  "cash": 395.08000000000027,
+  "cash": 385.91000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -113,6 +113,21 @@
       "strategy": "favorite_discount",
       "token_id": "102979714187432523726496609637889951679226430871494531752837414533106422105296"
     },
+    "2643400": {
+      "cost": 9.17,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "2643400",
+      "opened": "2026-07-22T00:04:52+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 9.97,
+      "question": "Will Iran announce withdrawal from MOU negotiations by July 31?",
+      "rules_version": 12,
+      "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-31-20260622191733846-586-829-787",
+      "strategy": "favorite_discount",
+      "token_id": "5936953867461627005928331168675590531068630483393393529667483486782789092014"
+    },
     "2730676": {
       "cost": 8.98,
       "entry_price": 0.959,
@@ -191,5 +206,5 @@
   },
   "realized_pnl": -39.16999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-21T23:05:03+00:00"
+  "updated": "2026-07-22T00:04:52+00:00"
 }
