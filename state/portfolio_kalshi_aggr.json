@@ -1,5 +1,5 @@
 {
-  "cash": 65.06000000000017,
+  "cash": 68.46000000000018,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -23,6 +23,7 @@
     "KXCS2GAME-26JUL141100FNCHOTU-FNC": "2026-07-14",
     "KXCS2GAME-26JUL141200ODKPAINA-ODK": "2026-07-14",
     "KXCS2GAME-26JUL170100DXAFLY-DXA": "2026-07-17",
+    "KXDOTA2GAME-26JUL230300Z10DAN-DAN": "2026-07-23",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXFEATURE-26DAU-BON": "2026-07-17",
     "KXHIGHAUS-26JUL21-T102": "2026-07-21",
@@ -234,21 +235,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCS2GAME-26JUL231300OGTS-TS:yes"
     },
-    "KXDOTA2GAME-26JUL230300Z10DAN-DAN": {
-      "cost": 37.49,
-      "entry_price": 0.9146,
-      "event_ticker": "KXDOTA2GAME-26JUL230300Z10DAN",
-      "market_id": "KXDOTA2GAME-26JUL230300Z10DAN-DAN",
-      "opened": "2026-07-23T06:06:01+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.74,
-      "question": "Will Dandelions win the Zero Tenacity vs. Dandelions Dota 2 match?",
-      "rules_version": 2,
-      "slug": "kxdota2game-26jul230300z10dan-dan",
-      "strategy": "favorite_discount",
-      "token_id": "KXDOTA2GAME-26JUL230300Z10DAN-DAN:no"
-    },
     "KXHIGHLAX-26JUL23-T86": {
       "cost": 37.49,
       "entry_price": 0.96,
@@ -278,6 +264,21 @@
       "slug": "kxhighmia-26jul23-b94.5",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHMIA-26JUL23-B94.5:no"
+    },
+    "KXHIGHNY-26JUL23-T79": {
+      "cost": 36.9,
+      "entry_price": 0.9071,
+      "event_ticker": "KXHIGHNY-26JUL23",
+      "market_id": "KXHIGHNY-26JUL23-T79",
+      "opened": "2026-07-23T10:05:16+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.42,
+      "question": "Will the **high temp in NYC** be <79\u00b0 on Jul 23, 2026? \u2014 78\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhighny-26jul23-t79",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHNY-26JUL23-T79:no"
     },
     "KXLOLGAME-26JUL231100LUAKOIA-LUA": {
       "cost": 37.67,
@@ -326,8 +327,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -27.089999999999954,
+  "realized_pnl": -24.27999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T09:04:46+00:00",
+  "updated": "2026-07-23T10:05:16+00:00",
   "venue": "kalshi"
 }
