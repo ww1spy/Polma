@@ -1,5 +1,5 @@
 {
-  "cash": 68.46000000000018,
+  "cash": 69.40000000000018,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -17,6 +17,7 @@
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
     "KXBRENTW-26JUL1717-T93.99": "2026-07-17",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
+    "KXCOPPERD-26JUL2317-T6.76": "2026-07-23",
     "KXCPI-26JUN-T0.0": "2026-07-14",
     "KXCPICOMBO-26JUN-0302": "2026-07-14",
     "KXCPIYOY-26JUN-T3.9": "2026-07-14",
@@ -205,21 +206,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
     },
-    "KXCOPPERD-26JUL2317-T6.76": {
-      "cost": 37.45,
-      "entry_price": 0.97,
-      "event_ticker": "KXCOPPERD-26JUL2317",
-      "market_id": "KXCOPPERD-26JUL2317-T6.76",
-      "opened": "2026-07-23T05:04:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.53,
-      "question": "Will the copper close price be above 6.76 USD/Lbs on July 23, 2026 at 5:00 PM EDT? \u2014 Above $6.76",
-      "rules_version": 2,
-      "slug": "kxcopperd-26jul2317-t6.76",
-      "strategy": "favorite_discount",
-      "token_id": "KXCOPPERD-26JUL2317-T6.76:no"
-    },
     "KXCS2GAME-26JUL231300OGTS-TS": {
       "cost": 37.65,
       "entry_price": 0.94,
@@ -295,6 +281,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXLOLGAME-26JUL231100LUAKOIA-LUA:no"
     },
+    "KXT20MATCH-26JUL230700INDZIM-ZIM": {
+      "cost": 37.17,
+      "entry_price": 0.91,
+      "event_ticker": "KXT20MATCH-26JUL230700INDZIM",
+      "market_id": "KXT20MATCH-26JUL230700INDZIM-ZIM",
+      "opened": "2026-07-23T11:05:36+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.58,
+      "question": "Zimbabwe vs India match: Zimbabwe wins",
+      "rules_version": 2,
+      "slug": "kxt20match-26jul230700indzim-zim",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26JUL230700INDZIM-ZIM:no"
+    },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
       "entry_price": 0.92,
@@ -327,8 +328,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -24.27999999999996,
+  "realized_pnl": -23.619999999999962,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T10:05:16+00:00",
+  "updated": "2026-07-23T11:05:36+00:00",
   "venue": "kalshi"
 }
