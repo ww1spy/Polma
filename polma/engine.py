@@ -207,6 +207,7 @@ def find_candidates(rules, state, venue, max_markets=300):
                     continue
                 entry_price = ask
                 if strat["min_price"] <= entry_price <= strat["max_price"]:
+                    market["scan_ask"] = entry_price
                     candidates.append((market, idx, strat["name"]))
                     matched = True
                     break  # at most one outcome per market
@@ -262,6 +263,25 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
             continue
         if market["min_order_size"] and fill["qty"] < market["min_order_size"]:
             continue  # too small to be a real order on this market
+        # Fill-sanity guard: the band was validated against the ask at scan
+        # time, but the book is re-fetched to fill. A fill far from the
+        # scanned ask means the market moved in between — a LOWER fill on an
+        # in-play book is adverse selection, not a bargain (Faria 0.88->0.732,
+        # Guardians 0.85+->0.820 settled -$9.20). Paper only: a live IOC fill
+        # is already real and cannot be un-bought.
+        scan_ask = market.get("scan_ask")
+        if (state.get("mode") != "live" and scan_ask is not None
+                and abs(fill["avg_price"] - scan_ask) > 0.02):
+            journal.log_event(
+                "SKIP_FILL_DRIFT", venue=venue.name, profile=state.get("profile"),
+                mode=state.get("mode", "paper"), market_id=market["id"],
+                question=market["question"], scan_ask=scan_ask,
+                fill_price=fill["avg_price"], rules_version=rules_version,
+            )
+            actions.append(
+                f"SKIP (fill drift) {market['question'][:60]}: "
+                f"scanned {scan_ask:.3f}, book moved to {fill['avg_price']:.3f}")
+            continue
         fill["strategy"] = strat_name
         fill["rules_version"] = rules_version
         portfolio.open_position(state, market, idx, fill)

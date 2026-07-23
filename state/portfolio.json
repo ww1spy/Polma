@@ -1,5 +1,5 @@
 {
-  "cash": 380.6800000000003,
+  "cash": 381.0500000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -78,6 +78,7 @@
     "3006315": "2026-07-23",
     "3010227": "2026-07-21",
     "3021240": "2026-07-23",
+    "3021273": "2026-07-23",
     "3021319": "2026-07-23",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
@@ -178,6 +179,21 @@
       "strategy": "favorite_discount",
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
     },
+    "2937525": {
+      "cost": 9.02,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "2937525",
+      "opened": "2026-07-23T21:31:52+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.61,
+      "question": "US x Iran Effective Ceasefire by July 31?",
+      "rules_version": 12,
+      "slug": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045",
+      "strategy": "favorite_discount",
+      "token_id": "34707224416470630443022501916513884846577205082389077639001965749737041106571"
+    },
     "2977246": {
       "cost": 9.01,
       "entry_price": 0.95,
@@ -192,24 +208,9 @@
       "slug": "israel-closes-its-airspace-by-july-24",
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
-    },
-    "3021273": {
-      "cost": 9.01,
-      "entry_price": 0.958,
-      "event_ticker": "",
-      "market_id": "3021273",
-      "opened": "2026-07-23T21:04:07+00:00",
-      "outcome": "Lucia Bronzetti",
-      "outcome_idx": 1,
-      "qty": 9.4,
-      "question": "Palermo: Dalila Spiteri vs Lucia Bronzetti",
-      "rules_version": 12,
-      "slug": "wta-spiteri-bronzet-2026-07-23",
-      "strategy": "favorite_discount",
-      "token_id": "2163139724202461926463903778157357174494374510206795664184835346837268490946"
     }
   },
-  "realized_pnl": -45.08999999999996,
+  "realized_pnl": -44.70999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T21:04:07+00:00"
+  "updated": "2026-07-23T21:31:52+00:00"
 }
