@@ -1,5 +1,5 @@
 {
-  "cash": 102.55000000000018,
+  "cash": 65.06000000000017,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -234,6 +234,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXCS2GAME-26JUL231300OGTS-TS:yes"
     },
+    "KXDOTA2GAME-26JUL230300Z10DAN-DAN": {
+      "cost": 37.49,
+      "entry_price": 0.9146,
+      "event_ticker": "KXDOTA2GAME-26JUL230300Z10DAN",
+      "market_id": "KXDOTA2GAME-26JUL230300Z10DAN-DAN",
+      "opened": "2026-07-23T06:06:01+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.74,
+      "question": "Will Dandelions win the Zero Tenacity vs. Dandelions Dota 2 match?",
+      "rules_version": 2,
+      "slug": "kxdota2game-26jul230300z10dan-dan",
+      "strategy": "favorite_discount",
+      "token_id": "KXDOTA2GAME-26JUL230300Z10DAN-DAN:no"
+    },
     "KXHIGHLAX-26JUL23-T86": {
       "cost": 37.49,
       "entry_price": 0.96,
@@ -313,6 +328,6 @@
   "profile": "aggr",
   "realized_pnl": -27.089999999999954,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T05:04:41+00:00",
+  "updated": "2026-07-23T06:06:01+00:00",
   "venue": "kalshi"
 }
