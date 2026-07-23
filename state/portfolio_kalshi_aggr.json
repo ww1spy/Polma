@@ -1,5 +1,5 @@
 {
-  "cash": 327.9100000000002,
+  "cash": 252.5900000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -189,6 +189,36 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
     },
+    "KXCS2GAME-26JUL231300OGTS-TS": {
+      "cost": 37.65,
+      "entry_price": 0.94,
+      "event_ticker": "KXCS2GAME-26JUL231300OGTS",
+      "market_id": "KXCS2GAME-26JUL231300OGTS-TS",
+      "opened": "2026-07-23T04:04:39+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 39.88,
+      "question": "Will Spirit win the OG vs. Spirit CS2 match?",
+      "rules_version": 2,
+      "slug": "kxcs2game-26jul231300ogts-ts",
+      "strategy": "favorite_discount",
+      "token_id": "KXCS2GAME-26JUL231300OGTS-TS:yes"
+    },
+    "KXLOLGAME-26JUL231100LUAKOIA-LUA": {
+      "cost": 37.67,
+      "entry_price": 0.93,
+      "event_ticker": "KXLOLGAME-26JUL231100LUAKOIA",
+      "market_id": "KXLOLGAME-26JUL231100LUAKOIA-LUA",
+      "opened": "2026-07-23T04:04:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.3,
+      "question": "Will LUA Gaming win the LUA Gaming vs. Movistar KOI F\u00e9nix League of Legends match?",
+      "rules_version": 2,
+      "slug": "kxlolgame-26jul231100luakoia-lua",
+      "strategy": "favorite_discount",
+      "token_id": "KXLOLGAME-26JUL231100LUAKOIA-LUA:no"
+    },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
       "entry_price": 0.92,
@@ -223,6 +253,6 @@
   "profile": "aggr",
   "realized_pnl": -27.089999999999954,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T03:05:02+00:00",
+  "updated": "2026-07-23T04:04:39+00:00",
   "venue": "kalshi"
 }
