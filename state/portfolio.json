@@ -1,5 +1,5 @@
 {
-  "cash": 386.9900000000003,
+  "cash": 388.22000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -75,6 +75,7 @@
     "3001619": "2026-07-21",
     "3006264": "2026-07-21",
     "3010227": "2026-07-21",
+    "3021319": "2026-07-23",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -189,23 +190,23 @@
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
     },
-    "3021319": {
-      "cost": 9.14,
+    "3021240": {
+      "cost": 9.16,
       "entry_price": 0.88,
       "event_ticker": "",
-      "market_id": "3021319",
-      "opened": "2026-07-23T12:06:27+00:00",
-      "outcome": "Igor Ribeiro Marcondes",
+      "market_id": "3021240",
+      "opened": "2026-07-23T13:05:10+00:00",
+      "outcome": "Barbora Krejcikova",
       "outcome_idx": 1,
-      "qty": 10.39,
-      "question": "Tampere: Sascha Gueymard-Wayenburg vs Igor Ribeiro Marcondes",
+      "qty": 10.41,
+      "question": "Livesport Prague Open: Lucie Havlickova vs Barbora Krejcikova",
       "rules_version": 12,
-      "slug": "atp-gueymar-marcond-2026-07-23",
+      "slug": "wta-havlick-krejcik-2026-07-23",
       "strategy": "favorite_discount",
-      "token_id": "91231823419496622624490385789266523252009716329321534452410767694335171608978"
+      "token_id": "71928264497039917805193170314672431978586631660390760666292441053578400265056"
     }
   },
-  "realized_pnl": -38.64999999999997,
+  "realized_pnl": -37.39999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T12:06:27+00:00"
+  "updated": "2026-07-23T13:05:10+00:00"
 }
