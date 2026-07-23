@@ -1,5 +1,5 @@
 {
-  "cash": 385.91000000000025,
+  "cash": 386.9900000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -29,6 +29,7 @@
     "2844088": "2026-07-12",
     "2851088": "2026-07-10",
     "2853044": "2026-07-17",
+    "2853059": "2026-07-23",
     "2869298": "2026-07-11",
     "2880015": "2026-07-14",
     "2880020": "2026-07-14",
@@ -143,21 +144,6 @@
       "strategy": "favorite_discount",
       "token_id": "81227913022464789020420026850668797006106628368067299950425613264309232066763"
     },
-    "2853059": {
-      "cost": 9.7,
-      "entry_price": 0.93,
-      "event_ticker": "",
-      "market_id": "2853059",
-      "opened": "2026-07-19T22:05:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.43,
-      "question": "Will Iran announce withdrawal from MOU negotiations by July 24?",
-      "rules_version": 12,
-      "slug": "will-iran-announce-withdrawal-from-mou-negotiations-by-july-24",
-      "strategy": "favorite_discount",
-      "token_id": "76755883373039851290695610249455633595892527905785960150127813908400558868227"
-    },
     "2911873": {
       "cost": 8.92,
       "entry_price": 0.946,
@@ -202,9 +188,24 @@
       "slug": "israel-closes-its-airspace-by-july-24",
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
+    },
+    "3021319": {
+      "cost": 9.14,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "3021319",
+      "opened": "2026-07-23T12:06:27+00:00",
+      "outcome": "Igor Ribeiro Marcondes",
+      "outcome_idx": 1,
+      "qty": 10.39,
+      "question": "Tampere: Sascha Gueymard-Wayenburg vs Igor Ribeiro Marcondes",
+      "rules_version": 12,
+      "slug": "atp-gueymar-marcond-2026-07-23",
+      "strategy": "favorite_discount",
+      "token_id": "91231823419496622624490385789266523252009716329321534452410767694335171608978"
     }
   },
-  "realized_pnl": -39.16999999999997,
+  "realized_pnl": -38.64999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T11:05:27+00:00"
+  "updated": "2026-07-23T12:06:27+00:00"
 }
