@@ -1,5 +1,5 @@
 {
-  "cash": 227.7700000000002,
+  "cash": 267.5400000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -54,6 +54,7 @@
     "KXHIGHMIA-26JUL20-B93.5": "2026-07-20",
     "KXHIGHMIA-26JUL21-B89.5": "2026-07-21",
     "KXHIGHMIA-26JUL21-B95.5": "2026-07-21",
+    "KXHIGHMIA-26JUL23-B94.5": "2026-07-23",
     "KXHIGHNY-26JUL08-B78.5": "2026-07-08",
     "KXHIGHNY-26JUL08-T83": "2026-07-08",
     "KXHIGHNY-26JUL10-T87": "2026-07-10",
@@ -211,21 +212,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCS2GAME-26JUL231300OGTS-TS:yes"
     },
-    "KXHIGHMIA-26JUL23-B94.5": {
-      "cost": 37.56,
-      "entry_price": 0.9295,
-      "event_ticker": "KXHIGHMIA-26JUL23",
-      "market_id": "KXHIGHMIA-26JUL23-B94.5",
-      "opened": "2026-07-23T05:04:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.2,
-      "question": "Will the **high temp in Miami** be 94-95\u00b0 on Jul 23, 2026? \u2014 94\u00b0 to 95\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighmia-26jul23-b94.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHMIA-26JUL23-B94.5:no"
-    },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
       "entry_price": 0.92,
@@ -273,8 +259,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -13.689999999999962,
+  "realized_pnl": -11.479999999999961,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T19:04:14+00:00",
+  "updated": "2026-07-23T20:04:39+00:00",
   "venue": "kalshi"
 }
