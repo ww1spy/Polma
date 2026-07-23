@@ -1,5 +1,5 @@
 {
-  "cash": 72.60000000000018,
+  "cash": 187.7800000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -11,6 +11,7 @@
     "KXAPRPOTUS-26JUL10-41.2": "2026-07-10",
     "KXAPRPOTUS-26JUL17-40.0": "2026-07-16",
     "KXAPRPOTUS-26JUL17-41.3": "2026-07-17",
+    "KXAPRPOTUS-26JUL24-41.8": "2026-07-23",
     "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
     "KXBRENTD-26JUL2017-T87.50": "2026-07-20",
     "KXBRENTD-26JUL2017-T94.50": "2026-07-20",
@@ -47,6 +48,7 @@
     "KXHIGHLAX-26JUL20-B75.5": "2026-07-20",
     "KXHIGHLAX-26JUL20-B77.5": "2026-07-20",
     "KXHIGHLAX-26JUL21-B77.5": "2026-07-21",
+    "KXHIGHLAX-26JUL23-T86": "2026-07-23",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHMIA-26JUL20-B93.5": "2026-07-20",
@@ -92,6 +94,7 @@
     "KXLOLGAME-26JUL210500GENBRO-GEN": "2026-07-21",
     "KXLOLGAME-26JUL211100UBLUA-UB": "2026-07-21",
     "KXLOLGAME-26JUL211700RMDPNGA-RMD": "2026-07-21",
+    "KXLOLGAME-26JUL231100LUAKOIA-LUA": "2026-07-23",
     "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
@@ -162,21 +165,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXAPRPOTUS-26JUL24-41.8": {
-      "cost": 36.15,
-      "entry_price": 0.97,
-      "event_ticker": "KXAPRPOTUS-26JUL24",
-      "market_id": "KXAPRPOTUS-26JUL24-41.8",
-      "opened": "2026-07-21T20:04:19+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.19,
-      "question": "Will the President's approval rating be between 41.7 and 41.9 according to RealClearPolitics? \u2014 41.7 to 41.9",
-      "rules_version": 2,
-      "slug": "kxaprpotus-26jul24-41.8",
-      "strategy": "favorite_discount",
-      "token_id": "KXAPRPOTUS-26JUL24-41.8:no"
-    },
     "KXBIGBROTHERELIMINATION-26JUL23-MEL": {
       "cost": 37.54,
       "entry_price": 0.9488,
@@ -222,21 +210,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCS2GAME-26JUL231300OGTS-TS:yes"
     },
-    "KXHIGHLAX-26JUL23-T86": {
-      "cost": 37.49,
-      "entry_price": 0.96,
-      "event_ticker": "KXHIGHLAX-26JUL23",
-      "market_id": "KXHIGHLAX-26JUL23-T86",
-      "opened": "2026-07-23T05:04:40+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.94,
-      "question": "Will the **high temp in LA** be >86\u00b0 on Jul 23, 2026? \u2014 87\u00b0 or above",
-      "rules_version": 2,
-      "slug": "kxhighlax-26jul23-t86",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL23-T86:no"
-    },
     "KXHIGHMIA-26JUL23-B94.5": {
       "cost": 37.56,
       "entry_price": 0.9295,
@@ -266,21 +239,6 @@
       "slug": "kxhighny-26jul23-t79",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL23-T79:no"
-    },
-    "KXLOLGAME-26JUL231100LUAKOIA-LUA": {
-      "cost": 37.67,
-      "entry_price": 0.93,
-      "event_ticker": "KXLOLGAME-26JUL231100LUAKOIA",
-      "market_id": "KXLOLGAME-26JUL231100LUAKOIA-LUA",
-      "opened": "2026-07-23T04:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.3,
-      "question": "Will LUA Gaming win the LUA Gaming vs. Movistar KOI F\u00e9nix League of Legends match?",
-      "rules_version": 2,
-      "slug": "kxlolgame-26jul231100luakoia-lua",
-      "strategy": "favorite_discount",
-      "token_id": "KXLOLGAME-26JUL231100LUAKOIA-LUA:no"
     },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
@@ -329,8 +287,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -20.649999999999963,
+  "realized_pnl": -16.779999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T16:06:38+00:00",
+  "updated": "2026-07-23T17:04:41+00:00",
   "venue": "kalshi"
 }
