@@ -1,5 +1,5 @@
 {
-  "cash": 69.40000000000018,
+  "cash": 72.60000000000018,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -123,6 +123,7 @@
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXT20MATCH-26JUL152130NEWWAS-WAS": "2026-07-16",
     "KXT20MATCH-26JUL170830BANZIM-ZIM": "2026-07-17",
+    "KXT20MATCH-26JUL230700INDZIM-ZIM": "2026-07-23",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTECHRANKLISTAICODE-26JUL20-KIMI": "2026-07-19",
     "KXTRUMPATTEND": "2026-07-19",
@@ -281,21 +282,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXLOLGAME-26JUL231100LUAKOIA-LUA:no"
     },
-    "KXT20MATCH-26JUL230700INDZIM-ZIM": {
-      "cost": 37.17,
-      "entry_price": 0.91,
-      "event_ticker": "KXT20MATCH-26JUL230700INDZIM",
-      "market_id": "KXT20MATCH-26JUL230700INDZIM-ZIM",
-      "opened": "2026-07-23T11:05:36+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.58,
-      "question": "Zimbabwe vs India match: Zimbabwe wins",
-      "rules_version": 2,
-      "slug": "kxt20match-26jul230700indzim-zim",
-      "strategy": "favorite_discount",
-      "token_id": "KXT20MATCH-26JUL230700INDZIM-ZIM:no"
-    },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
       "entry_price": 0.92,
@@ -310,6 +296,21 @@
       "slug": "kxtrumpvh-26jul24-t40.5",
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPVH-26JUL24-T40.5:no"
+    },
+    "KXTRUTHSOCIAL-26JUL25-B129": {
+      "cost": 36.94,
+      "entry_price": 0.96,
+      "event_ticker": "KXTRUTHSOCIAL-26JUL25",
+      "market_id": "KXTRUTHSOCIAL-26JUL25-B129",
+      "opened": "2026-07-23T14:04:25+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.37,
+      "question": "Will Donald Trump make between 120 and 139 Truth Social posts the week of Jul 19, 2026? \u2014 120-139",
+      "rules_version": 2,
+      "slug": "kxtruthsocial-26jul25-b129",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUTHSOCIAL-26JUL25-B129:no"
     },
     "KXWTIW-26JUL2414-T94.99": {
       "cost": 36.03,
@@ -328,8 +329,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -23.619999999999962,
+  "realized_pnl": -20.649999999999963,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T13:05:18+00:00",
+  "updated": "2026-07-23T14:04:25+00:00",
   "venue": "kalshi"
 }
