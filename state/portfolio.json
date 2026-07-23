@@ -1,5 +1,5 @@
 {
-  "cash": 389.42000000000024,
+  "cash": 389.6900000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -74,6 +74,7 @@
     "2994172": "2026-07-21",
     "3001619": "2026-07-21",
     "3006264": "2026-07-21",
+    "3006315": "2026-07-23",
     "3010227": "2026-07-21",
     "3021240": "2026-07-23",
     "3021319": "2026-07-23",
@@ -176,6 +177,21 @@
       "strategy": "favorite_discount",
       "token_id": "86061825988167227130786985582830419834226509797189675226118388137342919202672"
     },
+    "2959087": {
+      "cost": 9.2,
+      "entry_price": 0.82,
+      "event_ticker": "",
+      "market_id": "2959087",
+      "opened": "2026-07-23T19:04:11+00:00",
+      "outcome": "Cleveland Guardians",
+      "outcome_idx": 1,
+      "qty": 11.22,
+      "question": "Minnesota Twins vs. Cleveland Guardians",
+      "rules_version": 12,
+      "slug": "mlb-min-cle-2026-07-23",
+      "strategy": "favorite_discount",
+      "token_id": "96602847157481094116677079304690039719448818844868690491811003600777147608868"
+    },
     "2977246": {
       "cost": 9.01,
       "entry_price": 0.95,
@@ -190,24 +206,9 @@
       "slug": "israel-closes-its-airspace-by-july-24",
       "strategy": "favorite_discount",
       "token_id": "6918807899516741141706440795911823565439212758846256207318452381428111774981"
-    },
-    "3006315": {
-      "cost": 9.2,
-      "entry_price": 0.97,
-      "event_ticker": "",
-      "market_id": "3006315",
-      "opened": "2026-07-23T18:04:45+00:00",
-      "outcome": "Luciano Darderi",
-      "outcome_idx": 1,
-      "qty": 9.48,
-      "question": "Estoril Open: Pedro Martinez vs Luciano Darderi",
-      "rules_version": 12,
-      "slug": "atp-martine-darderi-2026-07-22",
-      "strategy": "favorite_discount",
-      "token_id": "103888761049708093613438431210380925681144106410557346566841637452138901927671"
     }
   },
-  "realized_pnl": -36.15999999999997,
+  "realized_pnl": -35.889999999999965,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-23T18:04:45+00:00"
+  "updated": "2026-07-23T19:04:11+00:00"
 }
