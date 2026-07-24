@@ -1,5 +1,5 @@
 {
-  "cash": 191.92000000000016,
+  "cash": 77.43000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -184,6 +184,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXALBUMEQUIV-DAU26JUL23B-130K:no"
     },
+    "KXALBUMEQUIV-SET26JUL23-20K": {
+      "cost": 38.14,
+      "entry_price": 0.96,
+      "event_ticker": "KXALBUMEQUIV-SET26JUL23",
+      "market_id": "KXALBUMEQUIV-SET26JUL23-20K",
+      "opened": "2026-07-24T03:05:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.62,
+      "question": "Will SET IN STONE by Rick Ross have above 20000 Album Equivalent Units during the July 17, 2026 - July 23, 2026 tracking week? \u2014 Above 20K",
+      "rules_version": 2,
+      "slug": "kxalbumequiv-set26jul23-20k",
+      "strategy": "favorite_discount",
+      "token_id": "KXALBUMEQUIV-SET26JUL23-20K:no"
+    },
     "KXBRENTW-26JUL2417-T96.99": {
       "cost": 36.54,
       "entry_price": 0.95,
@@ -213,6 +228,36 @@
       "slug": "kxcs2game-26jul241100liqvit-liq",
       "strategy": "favorite_discount",
       "token_id": "KXCS2GAME-26JUL241100LIQVIT-LIQ:no"
+    },
+    "KXHIGHLAX-26JUL24-T80": {
+      "cost": 38.26,
+      "entry_price": 0.9114,
+      "event_ticker": "KXHIGHLAX-26JUL24",
+      "market_id": "KXHIGHLAX-26JUL24-T80",
+      "opened": "2026-07-24T03:05:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.72,
+      "question": "Will the **high temp in LA** be <80\u00b0 on Jul 24, 2026? \u2014 79\u00b0 or below",
+      "rules_version": 2,
+      "slug": "kxhighlax-26jul24-t80",
+      "strategy": "favorite_discount",
+      "token_id": "KXHIGHLAX-26JUL24-T80:no"
+    },
+    "KXINX-26JUL24H1600-B7512": {
+      "cost": 38.09,
+      "entry_price": 0.97,
+      "event_ticker": "KXINX-26JUL24H1600",
+      "market_id": "KXINX-26JUL24H1600-B7512",
+      "opened": "2026-07-24T03:05:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.18,
+      "question": "Will the S&P 500 be between 7500 and 7524.9999 on Jul 24, 2026 at 4pm EDT? \u2014 7,500 to 7,524.9999",
+      "rules_version": 2,
+      "slug": "kxinx-26jul24h1600-b7512",
+      "strategy": "favorite_discount",
+      "token_id": "KXINX-26JUL24H1600-B7512:no"
     },
     "KXRTX5090WS-26JUL24-0.500": {
       "cost": 38.64,
@@ -293,6 +338,6 @@
   "profile": "aggr",
   "realized_pnl": -7.7999999999999545,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T02:04:13+00:00",
+  "updated": "2026-07-24T03:05:03+00:00",
   "venue": "kalshi"
 }
