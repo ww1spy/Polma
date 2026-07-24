@@ -1,5 +1,5 @@
 {
-  "cash": 307.4200000000002,
+  "cash": 346.4100000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -13,6 +13,7 @@
     "KXAPRPOTUS-26JUL17-41.3": "2026-07-17",
     "KXAPRPOTUS-26JUL24-41.8": "2026-07-23",
     "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
+    "KXBIGBROTHERELIMINATION-26JUL23-MEL": "2026-07-24",
     "KXBRENTD-26JUL2017-T87.50": "2026-07-20",
     "KXBRENTD-26JUL2017-T94.50": "2026-07-20",
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
@@ -168,21 +169,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXBIGBROTHERELIMINATION-26JUL23-MEL": {
-      "cost": 37.54,
-      "entry_price": 0.9488,
-      "event_ticker": "KXBIGBROTHERELIMINATION-26JUL23",
-      "market_id": "KXBIGBROTHERELIMINATION-26JUL23-MEL",
-      "opened": "2026-07-23T05:04:40+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.41,
-      "question": "Will Melody Morris be eliminated from Big Brother Season 28 before Jul 24, 2026?",
-      "rules_version": 2,
-      "slug": "kxbigbrotherelimination-26jul23-mel",
-      "strategy": "favorite_discount",
-      "token_id": "KXBIGBROTHERELIMINATION-26JUL23-MEL:no"
-    },
     "KXBRENTW-26JUL2417-T96.99": {
       "cost": 36.54,
       "entry_price": 0.95,
@@ -245,8 +231,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -9.249999999999957,
+  "realized_pnl": -7.7999999999999545,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T00:04:36+00:00",
+  "updated": "2026-07-24T01:04:27+00:00",
   "venue": "kalshi"
 }
