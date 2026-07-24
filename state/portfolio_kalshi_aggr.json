@@ -1,5 +1,5 @@
 {
-  "cash": 47.56000000000015,
+  "cash": 92.89000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -52,6 +52,7 @@
     "KXHIGHLAX-26JUL20-B77.5": "2026-07-20",
     "KXHIGHLAX-26JUL21-B77.5": "2026-07-21",
     "KXHIGHLAX-26JUL23-T86": "2026-07-23",
+    "KXHIGHLAX-26JUL24-T80": "2026-07-24",
     "KXHIGHMIA-26JUL14-B90.5": "2026-07-14",
     "KXHIGHMIA-26JUL15-B96.5": "2026-07-15",
     "KXHIGHMIA-26JUL20-B93.5": "2026-07-20",
@@ -128,6 +129,7 @@
     "KXRT-ODY-94": "2026-07-20",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXRTX5090WS-26JUL17-0.750": "2026-07-16",
+    "KXRTX5090WS-26JUL24-0.500": "2026-07-24",
     "KXSILVERD-26JUL1417-T58": "2026-07-14",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXT20MATCH-26JUL152130NEWWAS-WAS": "2026-07-16",
@@ -218,21 +220,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
     },
-    "KXHIGHLAX-26JUL24-T80": {
-      "cost": 38.26,
-      "entry_price": 0.9114,
-      "event_ticker": "KXHIGHLAX-26JUL24",
-      "market_id": "KXHIGHLAX-26JUL24-T80",
-      "opened": "2026-07-24T03:05:03+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.72,
-      "question": "Will the **high temp in LA** be <80\u00b0 on Jul 24, 2026? \u2014 79\u00b0 or below",
-      "rules_version": 2,
-      "slug": "kxhighlax-26jul24-t80",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHLAX-26JUL24-T80:no"
-    },
     "KXHIGHNY-26JUL24-B83.5": {
       "cost": 34.77,
       "entry_price": 0.9038,
@@ -277,21 +264,6 @@
       "slug": "kxrt-pin-85",
       "strategy": "favorite_discount",
       "token_id": "KXRT-PIN-85:no"
-    },
-    "KXRTX5090WS-26JUL24-0.500": {
-      "cost": 38.64,
-      "entry_price": 0.9327,
-      "event_ticker": "KXRTX5090WS-26JUL24",
-      "market_id": "KXRTX5090WS-26JUL24-0.500",
-      "opened": "2026-07-24T02:04:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.23,
-      "question": "Will the NVIDIA RTX 5090 compute per hour price be above $0.5 at 4 PM ET on Jul 24? \u2014 Above $0.50",
-      "rules_version": 2,
-      "slug": "kxrtx5090ws-26jul24-0.500",
-      "strategy": "favorite_discount",
-      "token_id": "KXRTX5090WS-26JUL24-0.500:no"
     },
     "KXT20MATCH-26JUL250700INDZIM-IND": {
       "cost": 37.51,
@@ -340,8 +312,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -42.579999999999956,
+  "realized_pnl": -74.14999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T19:04:50+00:00",
+  "updated": "2026-07-24T20:04:37+00:00",
   "venue": "kalshi"
 }
