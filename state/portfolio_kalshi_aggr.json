@@ -1,5 +1,5 @@
 {
-  "cash": 92.89000000000016,
+  "cash": 171.54000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -18,6 +18,7 @@
     "KXBRENTD-26JUL2017-T94.50": "2026-07-20",
     "KXBRENTW-26JUL1017-T77.99": "2026-07-10",
     "KXBRENTW-26JUL1717-T93.99": "2026-07-17",
+    "KXBRENTW-26JUL2417-T96.99": "2026-07-24",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
     "KXCOPPERD-26JUL2317-T6.76": "2026-07-23",
     "KXCPI-26JUN-T0.0": "2026-07-14",
@@ -121,6 +122,7 @@
     "KXNPBGAME-26JUL210500HIRYOM-YOM": "2026-07-21",
     "KXODIMATCH-26JUL131430NZWI-NZ": "2026-07-14",
     "KXODIMATCH-26JUL161430NZWI-WI": "2026-07-17",
+    "KXODIMATCH-26JUL240830SUSDUR-SUS": "2026-07-24",
     "KXPUREALBUMS-XPE26JUL09-3K": "2026-07-12",
     "KXRT-EVI-72": "2026-07-13",
     "KXRT-INV-94": "2026-07-11",
@@ -205,21 +207,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXALBUMEQUIV-SET26JUL23-20K:no"
     },
-    "KXBRENTW-26JUL2417-T96.99": {
-      "cost": 36.54,
-      "entry_price": 0.95,
-      "event_ticker": "KXBRENTW-26JUL2417",
-      "market_id": "KXBRENTW-26JUL2417-T96.99",
-      "opened": "2026-07-21T21:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.32,
-      "question": "Will the brent crude oil close price be above 96.99 USD/Bbl on July 24, 2026 at 5:00 PM EDT? \u2014 above $96.99",
-      "rules_version": 2,
-      "slug": "kxbrentw-26jul2417-t96.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXBRENTW-26JUL2417-T96.99:no"
-    },
     "KXHIGHNY-26JUL24-B83.5": {
       "cost": 34.77,
       "entry_price": 0.9038,
@@ -234,21 +221,6 @@
       "slug": "kxhighny-26jul24-b83.5",
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL24-B83.5:no"
-    },
-    "KXODIMATCH-26JUL240830SUSDUR-SUS": {
-      "cost": 37.25,
-      "entry_price": 0.9,
-      "event_ticker": "KXODIMATCH-26JUL240830SUSDUR",
-      "market_id": "KXODIMATCH-26JUL240830SUSDUR-SUS",
-      "opened": "2026-07-24T16:04:37+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.1,
-      "question": "Durham vs Sussex match: Sussex wins",
-      "rules_version": 2,
-      "slug": "kxodimatch-26jul240830susdur-sus",
-      "strategy": "favorite_discount",
-      "token_id": "KXODIMATCH-26JUL240830SUSDUR-SUS:no"
     },
     "KXRT-PIN-85": {
       "cost": 34.69,
@@ -312,8 +284,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -74.14999999999995,
+  "realized_pnl": -69.28999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T20:04:37+00:00",
+  "updated": "2026-07-24T21:04:40+00:00",
   "venue": "kalshi"
 }
