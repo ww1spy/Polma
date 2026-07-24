@@ -27,6 +27,7 @@
     "KXCS2GAME-26JUL141200ODKPAINA-ODK": "2026-07-14",
     "KXCS2GAME-26JUL170100DXAFLY-DXA": "2026-07-17",
     "KXCS2GAME-26JUL231300OGTS-TS": "2026-07-23",
+    "KXCS2GAME-26JUL241100LIQVIT-LIQ": "2026-07-24",
     "KXDOTA2GAME-26JUL230300Z10DAN-DAN": "2026-07-23",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXFEATURE-26DAU-BON": "2026-07-17",
@@ -216,21 +217,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
     },
-    "KXCS2GAME-26JUL241100LIQVIT-LIQ": {
-      "cost": 38.73,
-      "entry_price": 0.91,
-      "event_ticker": "KXCS2GAME-26JUL241100LIQVIT",
-      "market_id": "KXCS2GAME-26JUL241100LIQVIT-LIQ",
-      "opened": "2026-07-24T02:04:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 42.29,
-      "question": "Will Team Liquid win the Team Liquid vs. Vitality CS2 match?",
-      "rules_version": 2,
-      "slug": "kxcs2game-26jul241100liqvit-liq",
-      "strategy": "favorite_discount",
-      "token_id": "KXCS2GAME-26JUL241100LIQVIT-LIQ:no"
-    },
     "KXHIGHLAX-26JUL24-T80": {
       "cost": 38.26,
       "entry_price": 0.9114,
@@ -338,8 +324,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -4.109999999999957,
+  "realized_pnl": -42.839999999999954,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T17:05:03+00:00",
+  "updated": "2026-07-24T18:05:06+00:00",
   "venue": "kalshi"
 }
