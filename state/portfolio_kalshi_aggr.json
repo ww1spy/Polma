@@ -1,5 +1,5 @@
 {
-  "cash": 346.4100000000002,
+  "cash": 191.92000000000016,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -169,6 +169,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXALBUMEQUIV-DAU26JUL23B-130K": {
+      "cost": 38.6,
+      "entry_price": 0.95,
+      "event_ticker": "KXALBUMEQUIV-DAU26JUL23B",
+      "market_id": "KXALBUMEQUIV-DAU26JUL23B-130K",
+      "opened": "2026-07-24T02:04:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.49,
+      "question": "Will Daughter From Hell by Gracie Abrams have above 130000 Album Equivalent Units during the July 17, 2026 - July 23, 2026 tracking week? \u2014 Above 130K",
+      "rules_version": 2,
+      "slug": "kxalbumequiv-dau26jul23b-130k",
+      "strategy": "favorite_discount",
+      "token_id": "KXALBUMEQUIV-DAU26JUL23B-130K:no"
+    },
     "KXBRENTW-26JUL2417-T96.99": {
       "cost": 36.54,
       "entry_price": 0.95,
@@ -183,6 +198,51 @@
       "slug": "kxbrentw-26jul2417-t96.99",
       "strategy": "favorite_discount",
       "token_id": "KXBRENTW-26JUL2417-T96.99:no"
+    },
+    "KXCS2GAME-26JUL241100LIQVIT-LIQ": {
+      "cost": 38.73,
+      "entry_price": 0.91,
+      "event_ticker": "KXCS2GAME-26JUL241100LIQVIT",
+      "market_id": "KXCS2GAME-26JUL241100LIQVIT-LIQ",
+      "opened": "2026-07-24T02:04:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 42.29,
+      "question": "Will Team Liquid win the Team Liquid vs. Vitality CS2 match?",
+      "rules_version": 2,
+      "slug": "kxcs2game-26jul241100liqvit-liq",
+      "strategy": "favorite_discount",
+      "token_id": "KXCS2GAME-26JUL241100LIQVIT-LIQ:no"
+    },
+    "KXRTX5090WS-26JUL24-0.500": {
+      "cost": 38.64,
+      "entry_price": 0.9327,
+      "event_ticker": "KXRTX5090WS-26JUL24",
+      "market_id": "KXRTX5090WS-26JUL24-0.500",
+      "opened": "2026-07-24T02:04:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.23,
+      "question": "Will the NVIDIA RTX 5090 compute per hour price be above $0.5 at 4 PM ET on Jul 24? \u2014 Above $0.50",
+      "rules_version": 2,
+      "slug": "kxrtx5090ws-26jul24-0.500",
+      "strategy": "favorite_discount",
+      "token_id": "KXRTX5090WS-26JUL24-0.500:no"
+    },
+    "KXTRUMPMENTIONDURATION-JUL2626-11": {
+      "cost": 38.52,
+      "entry_price": 0.9729,
+      "event_ticker": "KXTRUMPMENTIONDURATION-JUL2626",
+      "market_id": "KXTRUMPMENTIONDURATION-JUL2626-11",
+      "opened": "2026-07-24T02:04:13+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 39.51,
+      "question": "How long will Donald Trump speak for at White House Correspondents' Dinner originally scheduled for July 24th, 2026? \u2014 12 or above",
+      "rules_version": 2,
+      "slug": "kxtrumpmentionduration-jul2626-11",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPMENTIONDURATION-JUL2626-11:yes"
     },
     "KXTRUMPVH-26JUL24-T40.5": {
       "cost": 36.28,
@@ -233,6 +293,6 @@
   "profile": "aggr",
   "realized_pnl": -7.7999999999999545,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T01:04:27+00:00",
+  "updated": "2026-07-24T02:04:13+00:00",
   "venue": "kalshi"
 }
