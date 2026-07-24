@@ -1,5 +1,5 @@
 {
-  "cash": 79.12000000000015,
+  "cash": 78.67000000000014,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -162,7 +162,8 @@
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10",
-    "KXWTIW-26JUL1714-B77.50": "2026-07-17"
+    "KXWTIW-26JUL1714-B77.50": "2026-07-17",
+    "KXWTIW-26JUL2414-T94.99": "2026-07-24"
   },
   "created": "2026-07-08T08:49:52+00:00",
   "halt_reason": "",
@@ -260,6 +261,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXINX-26JUL24H1600-B7512:no"
     },
+    "KXODIMATCH-26JUL240830SUSDUR-SUS": {
+      "cost": 37.25,
+      "entry_price": 0.9,
+      "event_ticker": "KXODIMATCH-26JUL240830SUSDUR",
+      "market_id": "KXODIMATCH-26JUL240830SUSDUR-SUS",
+      "opened": "2026-07-24T16:04:37+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.1,
+      "question": "Durham vs Sussex match: Sussex wins",
+      "rules_version": 2,
+      "slug": "kxodimatch-26jul240830susdur-sus",
+      "strategy": "favorite_discount",
+      "token_id": "KXODIMATCH-26JUL240830SUSDUR-SUS:no"
+    },
     "KXRTX5090WS-26JUL24-0.500": {
       "cost": 38.64,
       "entry_price": 0.9327,
@@ -319,26 +335,11 @@
       "slug": "kxtruthsocial-26jul25-b129",
       "strategy": "favorite_discount",
       "token_id": "KXTRUTHSOCIAL-26JUL25-B129:no"
-    },
-    "KXWTIW-26JUL2414-T94.99": {
-      "cost": 36.03,
-      "entry_price": 0.961,
-      "event_ticker": "KXWTIW-26JUL2414",
-      "market_id": "KXWTIW-26JUL2414-T94.99",
-      "opened": "2026-07-21T19:04:27+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.39,
-      "question": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Jul 24, 2026? \u2014 Above $94.99",
-      "rules_version": 2,
-      "slug": "kxwtiw-26jul2414-t94.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTIW-26JUL2414-T94.99:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -4.879999999999953,
+  "realized_pnl": -4.109999999999957,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T15:05:34+00:00",
+  "updated": "2026-07-24T16:04:37+00:00",
   "venue": "kalshi"
 }
