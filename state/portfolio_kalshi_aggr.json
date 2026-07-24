@@ -1,5 +1,5 @@
 {
-  "cash": 77.43000000000015,
+  "cash": 79.12000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -138,6 +138,7 @@
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPSAY-26JUL20-STUP": "2026-07-20",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
+    "KXTRUMPVH-26JUL24-T40.5": "2026-07-24",
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXUST2AD-26JUL21-T4.29": "2026-07-21",
@@ -274,6 +275,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXRTX5090WS-26JUL24-0.500:no"
     },
+    "KXT20MATCH-26JUL250700INDZIM-IND": {
+      "cost": 37.51,
+      "entry_price": 0.92,
+      "event_ticker": "KXT20MATCH-26JUL250700INDZIM",
+      "market_id": "KXT20MATCH-26JUL250700INDZIM-IND",
+      "opened": "2026-07-24T15:05:34+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 40.55,
+      "question": "Zimbabwe vs India match: India wins",
+      "rules_version": 2,
+      "slug": "kxt20match-26jul250700indzim-ind",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26JUL250700INDZIM-IND:yes"
+    },
     "KXTRUMPMENTIONDURATION-JUL2626-11": {
       "cost": 38.52,
       "entry_price": 0.9729,
@@ -288,21 +304,6 @@
       "slug": "kxtrumpmentionduration-jul2626-11",
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPMENTIONDURATION-JUL2626-11:yes"
-    },
-    "KXTRUMPVH-26JUL24-T40.5": {
-      "cost": 36.28,
-      "entry_price": 0.92,
-      "event_ticker": "KXTRUMPVH-26JUL24",
-      "market_id": "KXTRUMPVH-26JUL24-T40.5",
-      "opened": "2026-07-21T20:04:19+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.2,
-      "question": "Will Donald Trump's VoteHub approval polling average be above 40.5% at 10:00 AM ET on Jul 24, 2026? \u2014 Above 40.5%",
-      "rules_version": 2,
-      "slug": "kxtrumpvh-26jul24-t40.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPVH-26JUL24-T40.5:no"
     },
     "KXTRUTHSOCIAL-26JUL25-B129": {
       "cost": 36.94,
@@ -336,8 +337,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -7.7999999999999545,
+  "realized_pnl": -4.879999999999953,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T14:05:47+00:00",
+  "updated": "2026-07-24T15:05:34+00:00",
   "venue": "kalshi"
 }
