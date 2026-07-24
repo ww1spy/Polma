@@ -1,5 +1,5 @@
 {
-  "cash": 78.67000000000014,
+  "cash": 47.56000000000015,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -85,6 +85,7 @@
     "KXHORMUZWEEKLY-26JUL19-T75": "2026-07-21",
     "KXINX-26JUL14H1600-B7612": "2026-07-14",
     "KXINX-26JUL17H1600-B7612": "2026-07-17",
+    "KXINX-26JUL24H1600-B7512": "2026-07-24",
     "KXINXU-26JUL14H1600-T7474.9999": "2026-07-14",
     "KXINXU-26JUL21H1600-T7369.9999": "2026-07-21",
     "KXLIUKELIMINATIONW-26JUL17-ELL": "2026-07-16",
@@ -232,20 +233,20 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHLAX-26JUL24-T80:no"
     },
-    "KXINX-26JUL24H1600-B7512": {
-      "cost": 38.09,
-      "entry_price": 0.97,
-      "event_ticker": "KXINX-26JUL24H1600",
-      "market_id": "KXINX-26JUL24H1600-B7512",
-      "opened": "2026-07-24T03:05:03+00:00",
+    "KXHIGHNY-26JUL24-B83.5": {
+      "cost": 34.77,
+      "entry_price": 0.9038,
+      "event_ticker": "KXHIGHNY-26JUL24",
+      "market_id": "KXHIGHNY-26JUL24-B83.5",
+      "opened": "2026-07-24T19:04:50+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 39.18,
-      "question": "Will the S&P 500 be between 7500 and 7524.9999 on Jul 24, 2026 at 4pm EDT? \u2014 7,500 to 7,524.9999",
+      "qty": 38.2,
+      "question": "Will the **high temp in NYC** be 83-84\u00b0 on Jul 24, 2026? \u2014 83\u00b0 to 84\u00b0",
       "rules_version": 2,
-      "slug": "kxinx-26jul24h1600-b7512",
+      "slug": "kxhighny-26jul24-b83.5",
       "strategy": "favorite_discount",
-      "token_id": "KXINX-26JUL24H1600-B7512:no"
+      "token_id": "KXHIGHNY-26JUL24-B83.5:no"
     },
     "KXODIMATCH-26JUL240830SUSDUR-SUS": {
       "cost": 37.25,
@@ -261,6 +262,21 @@
       "slug": "kxodimatch-26jul240830susdur-sus",
       "strategy": "favorite_discount",
       "token_id": "KXODIMATCH-26JUL240830SUSDUR-SUS:no"
+    },
+    "KXRT-PIN-85": {
+      "cost": 34.69,
+      "entry_price": 0.94,
+      "event_ticker": "KXRT-PIN",
+      "market_id": "KXRT-PIN-85",
+      "opened": "2026-07-24T19:04:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.74,
+      "question": "Pinocchio Unstrung Rotten Tomatoes score? \u2014 Above 85",
+      "rules_version": 2,
+      "slug": "kxrt-pin-85",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-PIN-85:no"
     },
     "KXRTX5090WS-26JUL24-0.500": {
       "cost": 38.64,
@@ -324,8 +340,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -42.839999999999954,
+  "realized_pnl": -42.579999999999956,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-24T18:05:06+00:00",
+  "updated": "2026-07-24T19:04:50+00:00",
   "venue": "kalshi"
 }
