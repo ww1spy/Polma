@@ -1,5 +1,5 @@
 {
-  "cash": 384.1300000000003,
+  "cash": 384.9100000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -85,6 +85,7 @@
     "3021240": "2026-07-23",
     "3021273": "2026-07-23",
     "3021319": "2026-07-23",
+    "3091149": "2026-07-25",
     "3095986": "2026-07-25",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
@@ -124,6 +125,21 @@
       "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting",
       "strategy": "favorite_discount",
       "token_id": "102979714187432523726496609637889951679226430871494531752837414533106422105296"
+    },
+    "2555351": {
+      "cost": 9.09,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "2555351",
+      "opened": "2026-07-25T20:04:38+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 9.99,
+      "question": "Israel closes its airspace by July 31?",
+      "rules_version": 12,
+      "slug": "israel-closes-its-airspace-by-july-31-287",
+      "strategy": "favorite_discount",
+      "token_id": "17973586937761078448873484917108971852340583833844287573538816307502825884858"
     },
     "2643400": {
       "cost": 9.17,
@@ -199,24 +215,9 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-26",
       "strategy": "favorite_discount",
       "token_id": "95970203500150390696017820790991771432553030593132347633957312670362563399618"
-    },
-    "3091149": {
-      "cost": 9.08,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "3091149",
-      "opened": "2026-07-25T19:04:17+00:00",
-      "outcome": "Jacob Fearnley",
-      "outcome_idx": 0,
-      "qty": 9.87,
-      "question": "Bloomfield Hills: Jacob Fearnley vs Michael Zheng",
-      "rules_version": 12,
-      "slug": "atp-fearnle-zheng-2026-07-25",
-      "strategy": "favorite_discount",
-      "token_id": "82002638926572371149905530916888456429361364526171286070897579391912392607350"
     }
   },
-  "realized_pnl": -41.969999999999956,
+  "realized_pnl": -41.17999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T19:04:17+00:00"
+  "updated": "2026-07-25T20:04:38+00:00"
 }
