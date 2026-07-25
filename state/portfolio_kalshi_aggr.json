@@ -1,5 +1,5 @@
 {
-  "cash": 246.62000000000018,
+  "cash": 247.00000000000017,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -72,6 +72,7 @@
     "KXHIGHNY-26JUL20-B83.5": "2026-07-20",
     "KXHIGHNY-26JUL21-B83.5": "2026-07-21",
     "KXHIGHNY-26JUL23-T79": "2026-07-23",
+    "KXHIGHNY-26JUL24-B83.5": "2026-07-25",
     "KXHIGHTATL-26JUL10-B95.5": "2026-07-10",
     "KXHIGHTATL-26JUL21-B88.5": "2026-07-21",
     "KXHIGHTBOS-26JUL08-B78.5": "2026-07-09",
@@ -209,21 +210,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXALBUMEQUIV-SET26JUL23-20K:no"
     },
-    "KXHIGHNY-26JUL24-B83.5": {
-      "cost": 34.77,
-      "entry_price": 0.9038,
-      "event_ticker": "KXHIGHNY-26JUL24",
-      "market_id": "KXHIGHNY-26JUL24-B83.5",
-      "opened": "2026-07-24T19:04:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.2,
-      "question": "Will the **high temp in NYC** be 83-84\u00b0 on Jul 24, 2026? \u2014 83\u00b0 to 84\u00b0",
-      "rules_version": 2,
-      "slug": "kxhighny-26jul24-b83.5",
-      "strategy": "favorite_discount",
-      "token_id": "KXHIGHNY-26JUL24-B83.5:no"
-    },
     "KXT20MATCH-26JUL250700INDZIM-IND": {
       "cost": 37.51,
       "entry_price": 0.92,
@@ -256,8 +242,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -67.41999999999996,
+  "realized_pnl": -101.80999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T04:04:11+00:00",
+  "updated": "2026-07-25T05:04:09+00:00",
   "venue": "kalshi"
 }
