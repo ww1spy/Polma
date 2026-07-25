@@ -1,5 +1,5 @@
 {
-  "cash": 210.62000000000018,
+  "cash": 246.62000000000018,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -129,6 +129,7 @@
     "KXRT-INV-95": "2026-07-13",
     "KXRT-MOA-37": "2026-07-11",
     "KXRT-ODY-94": "2026-07-20",
+    "KXRT-PIN-85": "2026-07-25",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-09",
     "KXRTX5090WS-26JUL17-0.750": "2026-07-16",
     "KXRTX5090WS-26JUL24-0.500": "2026-07-24",
@@ -223,21 +224,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXHIGHNY-26JUL24-B83.5:no"
     },
-    "KXRT-PIN-85": {
-      "cost": 34.69,
-      "entry_price": 0.94,
-      "event_ticker": "KXRT-PIN",
-      "market_id": "KXRT-PIN-85",
-      "opened": "2026-07-24T19:04:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.74,
-      "question": "Pinocchio Unstrung Rotten Tomatoes score? \u2014 Above 85",
-      "rules_version": 2,
-      "slug": "kxrt-pin-85",
-      "strategy": "favorite_discount",
-      "token_id": "KXRT-PIN-85:no"
-    },
     "KXT20MATCH-26JUL250700INDZIM-IND": {
       "cost": 37.51,
       "entry_price": 0.92,
@@ -270,8 +256,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -68.72999999999996,
+  "realized_pnl": -67.41999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T03:04:38+00:00",
+  "updated": "2026-07-25T04:04:11+00:00",
   "venue": "kalshi"
 }
