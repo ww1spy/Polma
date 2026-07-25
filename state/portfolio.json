@@ -1,5 +1,5 @@
 {
-  "cash": 383.48000000000025,
+  "cash": 383.66000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -48,6 +48,7 @@
     "2906926": "2026-07-19",
     "2906929": "2026-07-18",
     "2907500": "2026-07-16",
+    "2911873": "2026-07-25",
     "2916835": "2026-07-16",
     "2922135": "2026-07-21",
     "2922141": "2026-07-21",
@@ -168,21 +169,6 @@
       "strategy": "favorite_discount",
       "token_id": "92816915429998265485709440266340158621084369220656661191529847288128743404723"
     },
-    "2911873": {
-      "cost": 8.92,
-      "entry_price": 0.946,
-      "event_ticker": "",
-      "market_id": "2911873",
-      "opened": "2026-07-21T00:04:10+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 9.43,
-      "question": "Bab el-Mandeb Strait effectively closed by July 31?",
-      "rules_version": 12,
-      "slug": "bab-el-mandeb-strait-effectively-closed-by-july-31",
-      "strategy": "favorite_discount",
-      "token_id": "33752982532314842955867034258985568949958761450943043689987049583448528253590"
-    },
     "2937525": {
       "cost": 9.02,
       "entry_price": 0.85,
@@ -212,9 +198,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-26",
       "strategy": "favorite_discount",
       "token_id": "95970203500150390696017820790991771432553030593132347633957312670362563399618"
+    },
+    "3095986": {
+      "cost": 9.06,
+      "entry_price": 0.947,
+      "event_ticker": "",
+      "market_id": "3095986",
+      "opened": "2026-07-25T18:04:37+00:00",
+      "outcome": "Polina Kudermetova",
+      "outcome_idx": 0,
+      "qty": 9.56,
+      "question": "Mubadala Citi DC Open, Qualification: Polina Kudermetova vs Mei Yamaguchi",
+      "rules_version": 12,
+      "slug": "wta-kuderme-yamaguc-2026-07-25",
+      "strategy": "favorite_discount",
+      "token_id": "86914435434220447514899434803940625145022073026276747363826056609633850303110"
     }
   },
-  "realized_pnl": -42.77999999999996,
+  "realized_pnl": -42.45999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T17:04:51+00:00"
+  "updated": "2026-07-25T18:04:37+00:00"
 }
