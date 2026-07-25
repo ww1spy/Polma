@@ -1,5 +1,5 @@
 {
-  "cash": 171.54000000000016,
+  "cash": 210.62000000000018,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -141,6 +141,7 @@
     "KXTECHRANKLISTAICODE-26JUL20-KIMI": "2026-07-19",
     "KXTRUMPATTEND": "2026-07-19",
     "KXTRUMPENDORSEMENTS-26JUL18-A20": "2026-07-19",
+    "KXTRUMPMENTIONDURATION-JUL2626-11": "2026-07-25",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-13",
     "KXTRUMPSAY-26JUL20-STUP": "2026-07-20",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-12",
@@ -252,21 +253,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXT20MATCH-26JUL250700INDZIM-IND:yes"
     },
-    "KXTRUMPMENTIONDURATION-JUL2626-11": {
-      "cost": 38.52,
-      "entry_price": 0.9729,
-      "event_ticker": "KXTRUMPMENTIONDURATION-JUL2626",
-      "market_id": "KXTRUMPMENTIONDURATION-JUL2626-11",
-      "opened": "2026-07-24T02:04:13+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 39.51,
-      "question": "How long will Donald Trump speak for at White House Correspondents' Dinner originally scheduled for July 24th, 2026? \u2014 12 or above",
-      "rules_version": 2,
-      "slug": "kxtrumpmentionduration-jul2626-11",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPMENTIONDURATION-JUL2626-11:yes"
-    },
     "KXTRUTHSOCIAL-26JUL25-B129": {
       "cost": 36.94,
       "entry_price": 0.96,
@@ -284,8 +270,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -69.28999999999996,
+  "realized_pnl": -68.72999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T00:05:01+00:00",
+  "updated": "2026-07-25T01:04:34+00:00",
   "venue": "kalshi"
 }
