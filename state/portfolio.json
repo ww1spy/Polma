@@ -1,5 +1,5 @@
 {
-  "cash": 383.37000000000023,
+  "cash": 383.48000000000025,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -9,6 +9,7 @@
     "2431017": "2026-07-20",
     "2448672": "2026-07-12",
     "2555350": "2026-07-13",
+    "2730676": "2026-07-25",
     "2804857": "2026-07-09",
     "2804877": "2026-07-09",
     "2804885": "2026-07-09",
@@ -152,21 +153,6 @@
       "strategy": "favorite_discount",
       "token_id": "52291129144401642016884410294342801343795747572699125397137780768401166138352"
     },
-    "2730676": {
-      "cost": 8.98,
-      "entry_price": 0.959,
-      "event_ticker": "",
-      "market_id": "2730676",
-      "opened": "2026-07-21T03:04:08+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 9.37,
-      "question": "Iran leadership change by July 31?",
-      "rules_version": 12,
-      "slug": "iran-leadership-change-by-july-31-20260629143932628",
-      "strategy": "favorite_discount",
-      "token_id": "81227913022464789020420026850668797006106628368067299950425613264309232066763"
-    },
     "2758338": {
       "cost": 9.04,
       "entry_price": 0.86,
@@ -211,9 +197,24 @@
       "slug": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045",
       "strategy": "favorite_discount",
       "token_id": "34707224416470630443022501916513884846577205082389077639001965749737041106571"
+    },
+    "3044546": {
+      "cost": 9.07,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "3044546",
+      "opened": "2026-07-25T10:05:14+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 9.55,
+      "question": "Israel x Iran ceasefire continues through July 26?",
+      "rules_version": 12,
+      "slug": "israel-x-iran-ceasefire-continues-through-july-26",
+      "strategy": "favorite_discount",
+      "token_id": "95970203500150390696017820790991771432553030593132347633957312670362563399618"
     }
   },
-  "realized_pnl": -42.979999999999954,
+  "realized_pnl": -42.77999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T09:05:02+00:00"
+  "updated": "2026-07-25T10:05:14+00:00"
 }
