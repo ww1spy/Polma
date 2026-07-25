@@ -1,5 +1,5 @@
 {
-  "cash": 383.66000000000025,
+  "cash": 384.1300000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -85,6 +85,7 @@
     "3021240": "2026-07-23",
     "3021273": "2026-07-23",
     "3021319": "2026-07-23",
+    "3095986": "2026-07-25",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -199,23 +200,23 @@
       "strategy": "favorite_discount",
       "token_id": "95970203500150390696017820790991771432553030593132347633957312670362563399618"
     },
-    "3095986": {
-      "cost": 9.06,
-      "entry_price": 0.947,
+    "3091149": {
+      "cost": 9.08,
+      "entry_price": 0.92,
       "event_ticker": "",
-      "market_id": "3095986",
-      "opened": "2026-07-25T18:04:37+00:00",
-      "outcome": "Polina Kudermetova",
+      "market_id": "3091149",
+      "opened": "2026-07-25T19:04:17+00:00",
+      "outcome": "Jacob Fearnley",
       "outcome_idx": 0,
-      "qty": 9.56,
-      "question": "Mubadala Citi DC Open, Qualification: Polina Kudermetova vs Mei Yamaguchi",
+      "qty": 9.87,
+      "question": "Bloomfield Hills: Jacob Fearnley vs Michael Zheng",
       "rules_version": 12,
-      "slug": "wta-kuderme-yamaguc-2026-07-25",
+      "slug": "atp-fearnle-zheng-2026-07-25",
       "strategy": "favorite_discount",
-      "token_id": "86914435434220447514899434803940625145022073026276747363826056609633850303110"
+      "token_id": "82002638926572371149905530916888456429361364526171286070897579391912392607350"
     }
   },
-  "realized_pnl": -42.45999999999996,
+  "realized_pnl": -41.969999999999956,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T18:04:37+00:00"
+  "updated": "2026-07-25T19:04:17+00:00"
 }
