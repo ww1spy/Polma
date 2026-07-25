@@ -1,5 +1,5 @@
 {
-  "cash": 237.5100000000002,
+  "cash": 277.6200000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -140,6 +140,7 @@
     "KXT20MATCH-26JUL152130NEWWAS-WAS": "2026-07-16",
     "KXT20MATCH-26JUL170830BANZIM-ZIM": "2026-07-17",
     "KXT20MATCH-26JUL230700INDZIM-ZIM": "2026-07-23",
+    "KXT20MATCH-26JUL250700INDZIM-IND": "2026-07-25",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTECHRANKLISTAICODE-26JUL20-KIMI": "2026-07-19",
     "KXTRUMPATTEND": "2026-07-19",
@@ -196,21 +197,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXALBUMEQUIV-DAU26JUL23B-130K:no"
     },
-    "KXT20MATCH-26JUL250700INDZIM-IND": {
-      "cost": 37.51,
-      "entry_price": 0.92,
-      "event_ticker": "KXT20MATCH-26JUL250700INDZIM",
-      "market_id": "KXT20MATCH-26JUL250700INDZIM-IND",
-      "opened": "2026-07-24T15:05:34+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 40.55,
-      "question": "Zimbabwe vs India match: India wins",
-      "rules_version": 2,
-      "slug": "kxt20match-26jul250700indzim-ind",
-      "strategy": "favorite_discount",
-      "token_id": "KXT20MATCH-26JUL250700INDZIM-IND:yes"
-    },
     "KXTRUTHSOCIAL-26JUL25-B129": {
       "cost": 36.94,
       "entry_price": 0.96,
@@ -243,8 +229,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -135.95999999999995,
+  "realized_pnl": -133.35999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-25T13:05:37+00:00",
+  "updated": "2026-07-25T14:04:41+00:00",
   "venue": "kalshi"
 }
