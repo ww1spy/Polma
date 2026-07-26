@@ -1,5 +1,5 @@
 {
-  "cash": 387.9200000000002,
+  "cash": 388.41000000000014,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -82,6 +82,7 @@
     "2986334": "2026-07-20",
     "2989431": "2026-07-21",
     "2994172": "2026-07-21",
+    "3000573": "2026-07-26",
     "3001619": "2026-07-21",
     "3006264": "2026-07-21",
     "3006315": "2026-07-23",
@@ -208,23 +209,23 @@
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
     },
-    "3000573": {
-      "cost": 9.11,
-      "entry_price": 0.95,
+    "3109670": {
+      "cost": 9.1,
+      "entry_price": 0.87,
       "event_ticker": "",
-      "market_id": "3000573",
-      "opened": "2026-07-26T22:05:38+00:00",
-      "outcome": "Los Angeles Angels",
+      "market_id": "3109670",
+      "opened": "2026-07-26T23:05:01+00:00",
+      "outcome": "Tatiana Prozorova",
       "outcome_idx": 0,
-      "qty": 9.59,
-      "question": "Los Angeles Angels vs. San Francisco Giants",
+      "qty": 10.46,
+      "question": "The Memphis Classic, Qualification: Tatiana Prozorova vs Kennedy Drenser-Hagmann",
       "rules_version": 12,
-      "slug": "mlb-laa-sf-2026-07-26",
+      "slug": "wta-prozoro-drenser-2026-07-26",
       "strategy": "favorite_discount",
-      "token_id": "80824554254077209098617116835308543146966107370694502774649618639552235172043"
+      "token_id": "12989584534314615204306568182926044604355100184066894378094966931438682939328"
     }
   },
-  "realized_pnl": -38.11999999999995,
+  "realized_pnl": -37.639999999999944,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T22:05:38+00:00"
+  "updated": "2026-07-26T23:05:01+00:00"
 }

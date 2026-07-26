@@ -1,5 +1,5 @@
 {
-  "cash": 320.5300000000002,
+  "cash": 334.3800000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -172,6 +172,7 @@
     "KXWTI-26JUL1514-T84.99": "2026-07-15",
     "KXWTI-26JUL2014-T80.99": "2026-07-20",
     "KXWTI-26JUL2114-T79.99": "2026-07-21",
+    "KXWTI-26JUL2714-T98.99": "2026-07-26",
     "KXWTIW-26JUL1014-B68.50": "2026-07-10",
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10",
@@ -183,26 +184,10 @@
   "halted": true,
   "mode": "paper",
   "peak_equity": 500.0,
-  "positions": {
-    "KXWTI-26JUL2714-T98.99": {
-      "cost": 13.48,
-      "entry_price": 0.96,
-      "event_ticker": "KXWTI-26JUL2714",
-      "market_id": "KXWTI-26JUL2714-T98.99",
-      "opened": "2026-07-25T07:04:24+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 14.0,
-      "question": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Jul 27, 2026? \u2014 Above $98.99",
-      "rules_version": 2,
-      "slug": "kxwti-26jul2714-t98.99",
-      "strategy": "favorite_discount",
-      "token_id": "KXWTI-26JUL2714-T98.99:no"
-    }
-  },
+  "positions": {},
   "profile": "aggr",
-  "realized_pnl": -165.98999999999995,
+  "realized_pnl": -165.61999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T22:05:39+00:00",
+  "updated": "2026-07-26T23:05:02+00:00",
   "venue": "kalshi"
 }
