@@ -1,5 +1,5 @@
 {
-  "cash": 385.2500000000003,
+  "cash": 385.53000000000026,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -86,6 +86,7 @@
     "3021240": "2026-07-23",
     "3021273": "2026-07-23",
     "3021319": "2026-07-23",
+    "3044546": "2026-07-26",
     "3091149": "2026-07-25",
     "3095986": "2026-07-25",
     "558935": "2026-07-15",
@@ -202,23 +203,23 @@
       "strategy": "favorite_discount",
       "token_id": "87461865681689699081648262736937951256169066109275377425968376597869321557502"
     },
-    "3044546": {
-      "cost": 9.07,
-      "entry_price": 0.95,
+    "3083664": {
+      "cost": 9.11,
+      "entry_price": 0.959,
       "event_ticker": "",
-      "market_id": "3044546",
-      "opened": "2026-07-25T10:05:14+00:00",
+      "market_id": "3083664",
+      "opened": "2026-07-26T07:05:01+00:00",
       "outcome": "Yes",
       "outcome_idx": 0,
-      "qty": 9.55,
-      "question": "Israel x Iran ceasefire continues through July 26?",
+      "qty": 9.5,
+      "question": "Israel x Iran ceasefire continues through July 27?",
       "rules_version": 12,
-      "slug": "israel-x-iran-ceasefire-continues-through-july-26",
+      "slug": "israel-x-iran-ceasefire-continues-through-july-27",
       "strategy": "favorite_discount",
-      "token_id": "95970203500150390696017820790991771432553030593132347633957312670362563399618"
+      "token_id": "90664643079633325229069388592013287463357580070351448429341061965362517324082"
     }
   },
-  "realized_pnl": -40.799999999999955,
+  "realized_pnl": -40.479999999999954,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T06:05:25+00:00"
+  "updated": "2026-07-26T07:05:01+00:00"
 }
