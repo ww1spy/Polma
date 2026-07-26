@@ -11,6 +11,7 @@
     "KXRT-ODY-97": "2026-07-20",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
+    "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-10"
   },
   "created": "2026-07-07T23:30:22+00:00",
@@ -33,25 +34,10 @@
       "slug": "kxrt-pin-60",
       "strategy": "rt_last_mile",
       "token_id": "KXRT-PIN-60:yes"
-    },
-    "KXTRUMPSAY-26JUL27-MARI": {
-      "cost": 15.04,
-      "entry_price": 0.97,
-      "event_ticker": "KXTRUMPSAY-26JUL27",
-      "market_id": "KXTRUMPSAY-26JUL27-MARI",
-      "opened": "2026-07-24T15:05:20+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.46,
-      "question": "Will Trump say \"Marijuana / Weed / Cannabis\" before Jul 27, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsay-26jul27-mari",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAY-26JUL27-MARI:no"
     }
   },
-  "realized_pnl": 4.409999999999997,
+  "realized_pnl": -10.630000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T16:05:11+00:00",
+  "updated": "2026-07-26T17:04:24+00:00",
   "venue": "kalshi"
 }
