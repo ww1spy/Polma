@@ -1,11 +1,12 @@
 {
-  "cash": 284.4900000000002,
+  "cash": 320.5300000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
     "KXAAAGASW-26JUL13-3.880": "2026-07-11",
     "KXAAAGASW-26JUL20-4.100": "2026-07-17",
     "KXALBUMEQUIV-ALB26JUL16-145K": "2026-07-19",
+    "KXALBUMEQUIV-DAU26JUL23B-130K": "2026-07-26",
     "KXALBUMEQUIV-SET26JUL23-20K": "2026-07-25",
     "KXAPRPOTUS-26JUL10-40.0": "2026-07-09",
     "KXAPRPOTUS-26JUL10-40.3": "2026-07-10",
@@ -183,21 +184,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXALBUMEQUIV-DAU26JUL23B-130K": {
-      "cost": 38.6,
-      "entry_price": 0.95,
-      "event_ticker": "KXALBUMEQUIV-DAU26JUL23B",
-      "market_id": "KXALBUMEQUIV-DAU26JUL23B-130K",
-      "opened": "2026-07-24T02:04:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.49,
-      "question": "Will Daughter From Hell by Gracie Abrams have above 130000 Album Equivalent Units during the July 17, 2026 - July 23, 2026 tracking week? \u2014 Above 130K",
-      "rules_version": 2,
-      "slug": "kxalbumequiv-dau26jul23b-130k",
-      "strategy": "favorite_discount",
-      "token_id": "KXALBUMEQUIV-DAU26JUL23B-130K:no"
-    },
     "KXWTI-26JUL2714-T98.99": {
       "cost": 13.48,
       "entry_price": 0.96,
@@ -215,8 +201,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -163.42999999999995,
+  "realized_pnl": -165.98999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T13:05:13+00:00",
+  "updated": "2026-07-26T14:05:08+00:00",
   "venue": "kalshi"
 }

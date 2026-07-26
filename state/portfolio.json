@@ -1,5 +1,5 @@
 {
-  "cash": 386.5200000000002,
+  "cash": 386.6600000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -91,6 +91,7 @@
     "3044546": "2026-07-26",
     "3091149": "2026-07-25",
     "3095986": "2026-07-25",
+    "3101591": "2026-07-26",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -144,6 +145,21 @@
       "slug": "israel-closes-its-airspace-by-july-31-287",
       "strategy": "favorite_discount",
       "token_id": "17973586937761078448873484917108971852340583833844287573538816307502825884858"
+    },
+    "2677862": {
+      "cost": 9.12,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "2677862",
+      "opened": "2026-07-26T14:05:06+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 9.7,
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in July?",
+      "rules_version": 12,
+      "slug": "will-wti-reach-100-in-july-2026-928",
+      "strategy": "favorite_discount",
+      "token_id": "7879725478536356917422362732460515493463084598262424681347350457402251864086"
     },
     "2708525": {
       "cost": 9.11,
@@ -204,24 +220,9 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-27",
       "strategy": "favorite_discount",
       "token_id": "90664643079633325229069388592013287463357580070351448429341061965362517324082"
-    },
-    "3101591": {
-      "cost": 9.1,
-      "entry_price": 0.967,
-      "event_ticker": "",
-      "market_id": "3101591",
-      "opened": "2026-07-26T12:04:42+00:00",
-      "outcome": "India",
-      "outcome_idx": 1,
-      "qty": 9.41,
-      "question": "T20 Series Zimbabwe vs India: Zimbabwe vs India",
-      "rules_version": 12,
-      "slug": "crint-zwe2-ind4-2026-07-26",
-      "strategy": "favorite_discount",
-      "token_id": "101474356248389795616137609175419661521438160493764195700735401100735012423631"
     }
   },
-  "realized_pnl": -39.55999999999995,
+  "realized_pnl": -39.39999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T13:05:12+00:00"
+  "updated": "2026-07-26T14:05:06+00:00"
 }
