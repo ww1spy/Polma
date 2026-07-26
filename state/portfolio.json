@@ -1,5 +1,5 @@
 {
-  "cash": 387.6900000000002,
+  "cash": 387.9200000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -90,6 +90,7 @@
     "3021273": "2026-07-23",
     "3021319": "2026-07-23",
     "3044546": "2026-07-26",
+    "3083664": "2026-07-26",
     "3091149": "2026-07-25",
     "3095986": "2026-07-25",
     "3101591": "2026-07-26",
@@ -207,23 +208,23 @@
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
     },
-    "3083664": {
+    "3000573": {
       "cost": 9.11,
-      "entry_price": 0.959,
+      "entry_price": 0.95,
       "event_ticker": "",
-      "market_id": "3083664",
-      "opened": "2026-07-26T07:05:01+00:00",
-      "outcome": "Yes",
+      "market_id": "3000573",
+      "opened": "2026-07-26T22:05:38+00:00",
+      "outcome": "Los Angeles Angels",
       "outcome_idx": 0,
-      "qty": 9.5,
-      "question": "Israel x Iran ceasefire continues through July 27?",
+      "qty": 9.59,
+      "question": "Los Angeles Angels vs. San Francisco Giants",
       "rules_version": 12,
-      "slug": "israel-x-iran-ceasefire-continues-through-july-27",
+      "slug": "mlb-laa-sf-2026-07-26",
       "strategy": "favorite_discount",
-      "token_id": "90664643079633325229069388592013287463357580070351448429341061965362517324082"
+      "token_id": "80824554254077209098617116835308543146966107370694502774649618639552235172043"
     }
   },
-  "realized_pnl": -38.34999999999995,
+  "realized_pnl": -38.11999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-26T21:04:17+00:00"
+  "updated": "2026-07-26T22:05:38+00:00"
 }
