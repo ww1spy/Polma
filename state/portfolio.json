@@ -1,5 +1,5 @@
 {
-  "cash": 382.04000000000013,
+  "cash": 383.34000000000015,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -13,6 +13,7 @@
     "2677861": "2026-07-26",
     "2708525": "2026-07-26",
     "2730676": "2026-07-25",
+    "2758338": "2026-07-27",
     "2804857": "2026-07-09",
     "2804877": "2026-07-09",
     "2804885": "2026-07-09",
@@ -180,21 +181,6 @@
       "strategy": "favorite_discount",
       "token_id": "22380582002052839082465005899114395003938630732672759582910297636521820401881"
     },
-    "2758338": {
-      "cost": 9.04,
-      "entry_price": 0.86,
-      "event_ticker": "",
-      "market_id": "2758338",
-      "opened": "2026-07-24T09:04:16+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.51,
-      "question": "Will Bitcoin reach $70,000 in July?",
-      "rules_version": 12,
-      "slug": "will-bitcoin-reach-70k-in-july-2026",
-      "strategy": "favorite_discount",
-      "token_id": "92816915429998265485709440266340158621084369220656661191529847288128743404723"
-    },
     "2937525": {
       "cost": 9.02,
       "entry_price": 0.85,
@@ -224,9 +210,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243",
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
+    },
+    "3109694": {
+      "cost": 9.01,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "3109694",
+      "opened": "2026-07-27T23:05:46+00:00",
+      "outcome": "Madison Keys",
+      "outcome_idx": 1,
+      "qty": 9.91,
+      "question": "Mubadala Citi DC Open: Liudmila Samsonova vs Madison Keys",
+      "rules_version": 12,
+      "slug": "wta-samsono-keys-2026-07-27",
+      "strategy": "favorite_discount",
+      "token_id": "57615349416317211944325516290296803430685083674206993201761636617663631939516"
     }
   },
-  "realized_pnl": -44.11999999999994,
+  "realized_pnl": -42.84999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-27T22:05:27+00:00"
+  "updated": "2026-07-27T23:05:46+00:00"
 }
