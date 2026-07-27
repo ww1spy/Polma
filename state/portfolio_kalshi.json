@@ -1,5 +1,5 @@
 {
-  "cash": 474.35,
+  "cash": 489.35,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -9,6 +9,7 @@
     "KXRT-MOA-30": "2026-07-13",
     "KXRT-MOA-40": "2026-07-10",
     "KXRT-ODY-97": "2026-07-20",
+    "KXRT-PIN-60": "2026-07-27",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
@@ -19,25 +20,9 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {
-    "KXRT-PIN-60": {
-      "cost": 15.02,
-      "entry_price": 0.99,
-      "event_ticker": "KXRT-PIN",
-      "market_id": "KXRT-PIN-60",
-      "opened": "2026-07-24T14:05:39+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 15.15,
-      "question": "Pinocchio Unstrung Rotten Tomatoes score? \u2014 Above 60",
-      "rules_version": 12,
-      "slug": "kxrt-pin-60",
-      "strategy": "rt_last_mile",
-      "token_id": "KXRT-PIN-60:yes"
-    }
-  },
-  "realized_pnl": -10.630000000000003,
+  "positions": {},
+  "realized_pnl": -10.650000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-27T13:05:39+00:00",
+  "updated": "2026-07-27T14:05:21+00:00",
   "venue": "kalshi"
 }
