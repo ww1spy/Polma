@@ -1,5 +1,5 @@
 {
-  "cash": 388.41000000000014,
+  "cash": 382.04000000000013,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -95,6 +95,7 @@
     "3091149": "2026-07-25",
     "3095986": "2026-07-25",
     "3101591": "2026-07-26",
+    "3109670": "2026-07-27",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -164,6 +165,21 @@
       "strategy": "favorite_discount",
       "token_id": "7879725478536356917422362732460515493463084598262424681347350457402251864086"
     },
+    "2730117": {
+      "cost": 8.99,
+      "entry_price": 0.859,
+      "event_ticker": "",
+      "market_id": "2730117",
+      "opened": "2026-07-27T01:05:07+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.47,
+      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in July?",
+      "rules_version": 12,
+      "slug": "will-wti-reach-95-in-july-2026",
+      "strategy": "favorite_discount",
+      "token_id": "22380582002052839082465005899114395003938630732672759582910297636521820401881"
+    },
     "2758338": {
       "cost": 9.04,
       "entry_price": 0.86,
@@ -208,24 +224,9 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243",
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
-    },
-    "3109670": {
-      "cost": 9.1,
-      "entry_price": 0.87,
-      "event_ticker": "",
-      "market_id": "3109670",
-      "opened": "2026-07-26T23:05:01+00:00",
-      "outcome": "Tatiana Prozorova",
-      "outcome_idx": 0,
-      "qty": 10.46,
-      "question": "The Memphis Classic, Qualification: Tatiana Prozorova vs Kennedy Drenser-Hagmann",
-      "rules_version": 12,
-      "slug": "wta-prozoro-drenser-2026-07-26",
-      "strategy": "favorite_discount",
-      "token_id": "12989584534314615204306568182926044604355100184066894378094966931438682939328"
     }
   },
-  "realized_pnl": -37.639999999999944,
+  "realized_pnl": -44.11999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-27T00:05:23+00:00"
+  "updated": "2026-07-27T01:05:07+00:00"
 }
