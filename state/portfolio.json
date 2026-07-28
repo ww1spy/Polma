@@ -1,5 +1,5 @@
 {
-  "cash": 383.34000000000015,
+  "cash": 375.07000000000016,
   "cooldowns": {
     "1087892": "2026-07-10",
     "2069636": "2026-07-12",
@@ -97,6 +97,7 @@
     "3095986": "2026-07-25",
     "3101591": "2026-07-26",
     "3109670": "2026-07-27",
+    "3109694": "2026-07-28",
     "558935": "2026-07-15",
     "558951": "2026-07-12"
   },
@@ -181,6 +182,21 @@
       "strategy": "favorite_discount",
       "token_id": "22380582002052839082465005899114395003938630732672759582910297636521820401881"
     },
+    "2758339": {
+      "cost": 8.27,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "2758339",
+      "opened": "2026-07-28T02:05:22+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 8.9,
+      "question": "Will Bitcoin reach $67,500 in July?",
+      "rules_version": 12,
+      "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
+      "strategy": "favorite_discount",
+      "token_id": "94252409631375149642232709930779092548259642333831512866206597068377247772631"
+    },
     "2937525": {
       "cost": 9.02,
       "entry_price": 0.85,
@@ -210,24 +226,9 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243",
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
-    },
-    "3109694": {
-      "cost": 9.01,
-      "entry_price": 0.91,
-      "event_ticker": "",
-      "market_id": "3109694",
-      "opened": "2026-07-27T23:05:46+00:00",
-      "outcome": "Madison Keys",
-      "outcome_idx": 1,
-      "qty": 9.91,
-      "question": "Mubadala Citi DC Open: Liudmila Samsonova vs Madison Keys",
-      "rules_version": 12,
-      "slug": "wta-samsono-keys-2026-07-27",
-      "strategy": "favorite_discount",
-      "token_id": "57615349416317211944325516290296803430685083674206993201761636617663631939516"
     }
   },
-  "realized_pnl": -42.84999999999994,
+  "realized_pnl": -51.859999999999935,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-28T01:05:24+00:00"
+  "updated": "2026-07-28T02:05:22+00:00"
 }
