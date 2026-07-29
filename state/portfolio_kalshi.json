@@ -1,5 +1,5 @@
 {
-  "cash": 459.27,
+  "cash": 474.39,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -13,6 +13,7 @@
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
+    "KXTRUMPSAYMONTH-26AUG01-MAKE": "2026-07-29",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-10"
   },
   "created": "2026-07-07T23:30:22+00:00",
@@ -35,25 +36,10 @@
       "slug": "kxtrumpsaycompany-26aug01-tsla",
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPSAYCOMPANY-26AUG01-TSLA:no"
-    },
-    "KXTRUMPSAYMONTH-26AUG01-MAKE": {
-      "cost": 15.04,
-      "entry_price": 0.97,
-      "event_ticker": "KXTRUMPSAYMONTH-26AUG01",
-      "market_id": "KXTRUMPSAYMONTH-26AUG01-MAKE",
-      "opened": "2026-07-29T14:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.46,
-      "question": "Will Trump say \"Make Iran Great Again\" before Aug 1, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsaymonth-26aug01-make",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAYMONTH-26AUG01-MAKE:no"
     }
   },
-  "realized_pnl": -10.650000000000002,
+  "realized_pnl": -10.570000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-29T19:04:45+00:00",
+  "updated": "2026-07-29T21:05:58+00:00",
   "venue": "kalshi"
 }

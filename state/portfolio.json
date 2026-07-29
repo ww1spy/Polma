@@ -1,5 +1,5 @@
 {
-  "cash": 379.9600000000002,
+  "cash": 380.8000000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -97,6 +97,7 @@
     "3021273": "2026-07-23",
     "3021319": "2026-07-23",
     "3044546": "2026-07-26",
+    "3054111": "2026-07-29",
     "3083664": "2026-07-26",
     "3091149": "2026-07-25",
     "3095986": "2026-07-25",
@@ -202,21 +203,6 @@
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
     },
-    "3054111": {
-      "cost": 8.99,
-      "entry_price": 0.91,
-      "event_ticker": "",
-      "market_id": "3054111",
-      "opened": "2026-07-29T18:05:04+00:00",
-      "outcome": "Arizona Diamondbacks",
-      "outcome_idx": 0,
-      "qty": 9.88,
-      "question": "Arizona Diamondbacks vs. Pittsburgh Pirates",
-      "rules_version": 12,
-      "slug": "mlb-ari-pit-2026-07-29",
-      "strategy": "favorite_discount",
-      "token_id": "12168152022343129626267197320562306417817037306440556268349365437531887386604"
-    },
     "3054115": {
       "cost": 8.99,
       "entry_price": 0.91,
@@ -231,9 +217,24 @@
       "slug": "mlb-bal-det-2026-07-29",
       "strategy": "favorite_discount",
       "token_id": "16593177791186182517651607371136063394987904637251073476080399235980342419714"
+    },
+    "599305": {
+      "cost": 9.04,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "599305",
+      "opened": "2026-07-29T21:06:02+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.39,
+      "question": "Will Abdul El-Sayed win the 2026 Michigan Democratic Primary?",
+      "rules_version": 12,
+      "slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
+      "strategy": "favorite_discount",
+      "token_id": "74768395815166461619548348007728690058055087254143355558596876906836785272025"
     }
   },
-  "realized_pnl": -48.79999999999993,
+  "realized_pnl": -47.90999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-29T19:04:49+00:00"
+  "updated": "2026-07-29T21:06:02+00:00"
 }
