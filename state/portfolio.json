@@ -1,7 +1,9 @@
 {
-  "cash": 377.37000000000023,
+  "cash": 379.9600000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
+    "1654958": "2026-07-29",
+    "1654959": "2026-07-29",
     "2069636": "2026-07-12",
     "2069670": "2026-07-15",
     "2071523": "2026-07-12",
@@ -110,36 +112,6 @@
   "mode": "paper",
   "peak_equity": 509.49269000000015,
   "positions": {
-    "1654958": {
-      "cost": 9.76,
-      "entry_price": 0.946,
-      "event_ticker": "",
-      "market_id": "1654958",
-      "opened": "2026-07-19T16:04:29+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10.32,
-      "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-      "rules_version": 12,
-      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting",
-      "strategy": "favorite_discount",
-      "token_id": "111604417349377875799825956621596386269673370070912696668140891647145772186047"
-    },
-    "1654959": {
-      "cost": 9.69,
-      "entry_price": 0.944,
-      "event_ticker": "",
-      "market_id": "1654959",
-      "opened": "2026-07-19T21:05:00+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.27,
-      "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-      "rules_version": 12,
-      "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting",
-      "strategy": "favorite_discount",
-      "token_id": "102979714187432523726496609637889951679226430871494531752837414533106422105296"
-    },
     "2555351": {
       "cost": 9.09,
       "entry_price": 0.91,
@@ -229,9 +201,39 @@
       "slug": "israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243",
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
+    },
+    "3054111": {
+      "cost": 8.99,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "3054111",
+      "opened": "2026-07-29T18:05:04+00:00",
+      "outcome": "Arizona Diamondbacks",
+      "outcome_idx": 0,
+      "qty": 9.88,
+      "question": "Arizona Diamondbacks vs. Pittsburgh Pirates",
+      "rules_version": 12,
+      "slug": "mlb-ari-pit-2026-07-29",
+      "strategy": "favorite_discount",
+      "token_id": "12168152022343129626267197320562306417817037306440556268349365437531887386604"
+    },
+    "3054115": {
+      "cost": 8.99,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "3054115",
+      "opened": "2026-07-29T18:05:04+00:00",
+      "outcome": "Detroit Tigers",
+      "outcome_idx": 1,
+      "qty": 9.88,
+      "question": "Baltimore Orioles vs. Detroit Tigers",
+      "rules_version": 12,
+      "slug": "mlb-bal-det-2026-07-29",
+      "strategy": "favorite_discount",
+      "token_id": "16593177791186182517651607371136063394987904637251073476080399235980342419714"
     }
   },
-  "realized_pnl": -49.91999999999994,
+  "realized_pnl": -48.79999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-29T17:04:51+00:00"
+  "updated": "2026-07-29T18:05:04+00:00"
 }
