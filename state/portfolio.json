@@ -1,5 +1,5 @@
 {
-  "cash": 381.7900000000002,
+  "cash": 372.8700000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -191,6 +191,21 @@
       "strategy": "favorite_discount",
       "token_id": "107961194152792740725727064379230288293910546811577910480987951504293301797282"
     },
+    "3211543": {
+      "cost": 8.92,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "3211543",
+      "opened": "2026-07-30T13:06:00+00:00",
+      "outcome": "Alex de Minaur",
+      "outcome_idx": 0,
+      "qty": 9.8,
+      "question": "Mubadala Citi DC Open: Alex de Minaur vs Cruz Hewitt",
+      "rules_version": 12,
+      "slug": "atp-minaur-hewitt-2026-07-30",
+      "strategy": "favorite_discount",
+      "token_id": "34873711628466479832202539978907250663613863887290639130019195364542756529973"
+    },
     "599304": {
       "cost": 8.93,
       "entry_price": 0.9663,
@@ -224,5 +239,5 @@
   },
   "realized_pnl": -55.24999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-30T12:05:57+00:00"
+  "updated": "2026-07-30T13:06:00+00:00"
 }
