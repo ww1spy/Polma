@@ -1,5 +1,5 @@
 {
-  "cash": 94.23980000000002,
+  "cash": 99.12980000000002,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -16,6 +16,7 @@
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
+    "KXTRUMPSAYCOMPANY-26AUG01-TSLA": "2026-07-30",
     "KXTRUMPSAYMONTH-26AUG01-MAKE": "2026-07-29",
     "KXWTIW-26JUL1014-B69.50": "2026-07-08",
     "KXWTIW-26JUL1014-B72.50": "2026-07-08"
@@ -27,25 +28,9 @@
   "live_balance_synced": true,
   "mode": "live",
   "peak_equity": 103.92980000000001,
-  "positions": {
-    "KXTRUMPSAYCOMPANY-26AUG01-TSLA": {
-      "cost": 4.86,
-      "entry_price": 0.97,
-      "event_ticker": "KXTRUMPSAYCOMPANY-26AUG01",
-      "market_id": "KXTRUMPSAYCOMPANY-26AUG01-TSLA",
-      "opened": "2026-07-29T14:04:49+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 5.0,
-      "question": "Will Trump say \"Tesla / TSLA\" before Aug 1, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsaycompany-26aug01-tsla",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAYCOMPANY-26AUG01-TSLA:no"
-    }
-  },
-  "realized_pnl": -34.67000000000001,
+  "positions": {},
+  "realized_pnl": -34.64000000000001,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-30T04:04:49+00:00",
+  "updated": "2026-07-30T05:04:49+00:00",
   "venue": "kalshi"
 }

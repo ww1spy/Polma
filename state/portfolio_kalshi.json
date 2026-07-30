@@ -1,5 +1,5 @@
 {
-  "cash": 474.39,
+  "cash": 489.51,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -13,6 +13,7 @@
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
+    "KXTRUMPSAYCOMPANY-26AUG01-TSLA": "2026-07-30",
     "KXTRUMPSAYMONTH-26AUG01-MAKE": "2026-07-29",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-10"
   },
@@ -21,25 +22,9 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {
-    "KXTRUMPSAYCOMPANY-26AUG01-TSLA": {
-      "cost": 15.04,
-      "entry_price": 0.97,
-      "event_ticker": "KXTRUMPSAYCOMPANY-26AUG01",
-      "market_id": "KXTRUMPSAYCOMPANY-26AUG01-TSLA",
-      "opened": "2026-07-29T14:04:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.46,
-      "question": "Will Trump say \"Tesla / TSLA\" before Aug 1, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsaycompany-26aug01-tsla",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAYCOMPANY-26AUG01-TSLA:no"
-    }
-  },
-  "realized_pnl": -10.570000000000002,
+  "positions": {},
+  "realized_pnl": -10.490000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-07-30T04:04:43+00:00",
+  "updated": "2026-07-30T05:04:42+00:00",
   "venue": "kalshi"
 }
