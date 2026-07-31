@@ -1,5 +1,5 @@
 {
-  "cash": 99.12980000000002,
+  "cash": 89.63980000000002,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -28,9 +28,40 @@
   "live_balance_synced": true,
   "mode": "live",
   "peak_equity": 103.92980000000001,
-  "positions": {},
+  "positions": {
+    "KXRT-SPI-92": {
+      "cost": 4.91,
+      "entry_price": 0.98,
+      "event_ticker": "KXRT-SPI",
+      "market_id": "KXRT-SPI-92",
+      "opened": "2026-07-31T14:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Spider-Man: Brand New Day Rotten Tomatoes score? \u2014 Above 92",
+      "rules_version": 12,
+      "slug": "kxrt-spi-92",
+      "strategy": "rt_last_mile",
+      "token_id": "KXRT-SPI-92:no"
+    },
+    "KXTRUMPSAY-26AUG03-URAN": {
+      "cost": 4.58,
+      "entry_price": 0.91,
+      "event_ticker": "KXTRUMPSAY-26AUG03",
+      "market_id": "KXTRUMPSAY-26AUG03-URAN",
+      "opened": "2026-07-31T14:05:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Will Trump say \"Uranium\" before Aug 3, 2026?",
+      "rules_version": 12,
+      "slug": "kxtrumpsay-26aug03-uran",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPSAY-26AUG03-URAN:no"
+    }
+  },
   "realized_pnl": -34.64000000000001,
   "starting_bankroll": 133.77,
-  "updated": "2026-07-31T13:04:55+00:00",
+  "updated": "2026-07-31T14:05:15+00:00",
   "venue": "kalshi"
 }
