@@ -117,8 +117,8 @@
     "558951": "2026-07-12"
   },
   "created": "2026-07-07T22:51:45+00:00",
-  "halt_reason": "",
-  "halted": false,
+  "halt_reason": "drawdown 15.3% from peak $509.49 breached 15% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
+  "halted": true,
   "mode": "paper",
   "peak_equity": 509.49269000000015,
   "positions": {
@@ -170,5 +170,5 @@
   },
   "realized_pnl": -65.22999999999992,
   "starting_bankroll": 500.0,
-  "updated": "2026-08-02T02:05:02+00:00"
+  "updated": "2026-08-02T03:04:56+00:00"
 }
