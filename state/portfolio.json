@@ -1,5 +1,5 @@
 {
-  "cash": 407.78000000000014,
+  "cash": 427.02000000000015,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -114,7 +114,9 @@
     "3128584": "2026-07-31",
     "3211543": "2026-07-30",
     "558935": "2026-07-15",
-    "558951": "2026-07-12"
+    "558951": "2026-07-12",
+    "599304": "2026-08-03",
+    "599305": "2026-08-03"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "halt_reason": "drawdown 15.3% from peak $509.49 breached 15% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
@@ -136,39 +138,9 @@
       "slug": "us-x-iran-effective-ceasfire-by-july-31-20260715194822045",
       "strategy": "favorite_discount",
       "token_id": "34707224416470630443022501916513884846577205082389077639001965749737041106571"
-    },
-    "599304": {
-      "cost": 8.93,
-      "entry_price": 0.9663,
-      "event_ticker": "",
-      "market_id": "599304",
-      "opened": "2026-07-30T12:05:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 9.24,
-      "question": "Will Haley Stevens win the 2026 Michigan Democratic Primary?",
-      "rules_version": 12,
-      "slug": "will-haley-stevens-win-the-2026-michigan-democratic-primary",
-      "strategy": "favorite_discount",
-      "token_id": "105325602140854796101190465907542426130401271786879982796716189175875071392057"
-    },
-    "599305": {
-      "cost": 9.04,
-      "entry_price": 0.87,
-      "event_ticker": "",
-      "market_id": "599305",
-      "opened": "2026-07-29T21:06:02+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10.39,
-      "question": "Will Abdul El-Sayed win the 2026 Michigan Democratic Primary?",
-      "rules_version": 12,
-      "slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
-      "strategy": "favorite_discount",
-      "token_id": "74768395815166461619548348007728690058055087254143355558596876906836785272025"
     }
   },
-  "realized_pnl": -65.22999999999992,
+  "realized_pnl": -63.95999999999992,
   "starting_bankroll": 500.0,
-  "updated": "2026-08-03T11:05:44+00:00"
+  "updated": "2026-08-03T12:06:23+00:00"
 }
