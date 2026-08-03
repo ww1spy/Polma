@@ -1,5 +1,5 @@
 {
-  "cash": 89.63980000000002,
+  "cash": 94.52980000000002,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -13,6 +13,7 @@
     "KXRT-PIN-60": "2026-07-27",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
+    "KXTRUMPSAY-26AUG03-URAN": "2026-08-03",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
@@ -43,25 +44,10 @@
       "slug": "kxrt-spi-92",
       "strategy": "rt_last_mile",
       "token_id": "KXRT-SPI-92:no"
-    },
-    "KXTRUMPSAY-26AUG03-URAN": {
-      "cost": 4.58,
-      "entry_price": 0.91,
-      "event_ticker": "KXTRUMPSAY-26AUG03",
-      "market_id": "KXTRUMPSAY-26AUG03-URAN",
-      "opened": "2026-07-31T14:05:15+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 5.0,
-      "question": "Will Trump say \"Uranium\" before Aug 3, 2026?",
-      "rules_version": 12,
-      "slug": "kxtrumpsay-26aug03-uran",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAY-26AUG03-URAN:no"
     }
   },
-  "realized_pnl": -34.64000000000001,
+  "realized_pnl": -34.330000000000005,
   "starting_bankroll": 133.77,
-  "updated": "2026-08-03T01:04:29+00:00",
+  "updated": "2026-08-03T02:05:13+00:00",
   "venue": "kalshi"
 }
