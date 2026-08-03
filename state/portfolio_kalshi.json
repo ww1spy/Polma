@@ -1,5 +1,5 @@
 {
-  "cash": 475.5,
+  "cash": 490.66,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -10,6 +10,7 @@
     "KXRT-MOA-40": "2026-07-10",
     "KXRT-ODY-97": "2026-07-20",
     "KXRT-PIN-60": "2026-07-27",
+    "KXRT-SPI-92": "2026-08-03",
     "KXTRUMPSAY-26AUG03-URAN": "2026-08-03",
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
@@ -23,25 +24,9 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {
-    "KXRT-SPI-92": {
-      "cost": 15.03,
-      "entry_price": 0.98,
-      "event_ticker": "KXRT-SPI",
-      "market_id": "KXRT-SPI-92",
-      "opened": "2026-07-31T14:05:09+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.31,
-      "question": "Spider-Man: Brand New Day Rotten Tomatoes score? \u2014 Above 92",
-      "rules_version": 12,
-      "slug": "kxrt-spi-92",
-      "strategy": "rt_last_mile",
-      "token_id": "KXRT-SPI-92:no"
-    }
-  },
-  "realized_pnl": -9.47,
+  "positions": {},
+  "realized_pnl": -9.34,
   "starting_bankroll": 500.0,
-  "updated": "2026-08-03T13:05:21+00:00",
+  "updated": "2026-08-03T14:06:03+00:00",
   "venue": "kalshi"
 }
