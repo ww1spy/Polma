@@ -1,5 +1,5 @@
 {
-  "cash": 99.47980000000003,
+  "cash": 85.20980000000003,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -30,9 +30,55 @@
   "live_balance_synced": true,
   "mode": "live",
   "peak_equity": 103.92980000000001,
-  "positions": {},
+  "positions": {
+    "KXRT-ICE-30": {
+      "cost": 4.63,
+      "entry_price": 0.92,
+      "event_ticker": "KXRT-ICE",
+      "market_id": "KXRT-ICE-30",
+      "opened": "2026-08-07T14:14:17+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Ice Cream Man Rotten Tomatoes score? \u2014 Above 30",
+      "rules_version": 12,
+      "slug": "kxrt-ice-30",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-ICE-30:no"
+    },
+    "KXRT-ONE-50": {
+      "cost": 4.83,
+      "entry_price": 0.9644,
+      "event_ticker": "KXRT-ONE",
+      "market_id": "KXRT-ONE-50",
+      "opened": "2026-08-07T14:14:16+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "One Night Only Rotten Tomatoes score? \u2014 Above 50",
+      "rules_version": 12,
+      "slug": "kxrt-one-50",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-ONE-50:no"
+    },
+    "KXRT-SUPER-45": {
+      "cost": 4.81,
+      "entry_price": 0.9602,
+      "event_ticker": "KXRT-SUPER",
+      "market_id": "KXRT-SUPER-45",
+      "opened": "2026-08-07T14:14:17+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Super Troopers 3 Rotten Tomatoes score? \u2014 Above 45",
+      "rules_version": 12,
+      "slug": "kxrt-super-45",
+      "strategy": "favorite_discount",
+      "token_id": "KXRT-SUPER-45:no"
+    }
+  },
   "realized_pnl": -34.290000000000006,
   "starting_bankroll": 133.77,
-  "updated": "2026-08-07T13:27:44+00:00",
+  "updated": "2026-08-07T14:14:17+00:00",
   "venue": "kalshi"
 }
