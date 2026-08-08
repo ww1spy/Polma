@@ -1,5 +1,5 @@
 {
-  "cash": 80.40980000000003,
+  "cash": 81.34980000000003,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -13,6 +13,7 @@
     "KXRT-ONE-50": "2026-08-07",
     "KXRT-PIN-60": "2026-07-27",
     "KXRT-SPI-92": "2026-08-03",
+    "KXRT-SUPER-45": "2026-08-08",
     "KXRTX5090WS-26JUL10-0.750": "2026-07-08",
     "KXT20MATCH-26JUL080500ESTDEN-EST": "2026-07-08",
     "KXTRUMPSAY-26AUG03-URAN": "2026-08-03",
@@ -47,21 +48,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXRT-ICE-30:no"
     },
-    "KXRT-SUPER-45": {
-      "cost": 4.81,
-      "entry_price": 0.9602,
-      "event_ticker": "KXRT-SUPER",
-      "market_id": "KXRT-SUPER-45",
-      "opened": "2026-08-07T14:14:17+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 5.0,
-      "question": "Super Troopers 3 Rotten Tomatoes score? \u2014 Above 45",
-      "rules_version": 12,
-      "slug": "kxrt-super-45",
-      "strategy": "favorite_discount",
-      "token_id": "KXRT-SUPER-45:no"
-    },
     "KXRT-TON-95": {
       "cost": 4.83,
       "entry_price": 0.9633,
@@ -93,8 +79,8 @@
       "token_id": "KXTRUMPSAY-26AUG10-PRED:no"
     }
   },
-  "realized_pnl": -34.230000000000004,
+  "realized_pnl": -38.1,
   "starting_bankroll": 133.77,
-  "updated": "2026-08-07T23:07:09+00:00",
+  "updated": "2026-08-08T00:07:28+00:00",
   "venue": "kalshi"
 }
