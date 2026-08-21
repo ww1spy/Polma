@@ -135,6 +135,9 @@ class KalshiLiveExecutor:
                 "avg_price": round(avg_tok, 4), "fee": round(fee, 2), "raw": order}
 
     def buy(self, token_id, notional):
+        import sys
+        from requests.exceptions import HTTPError
+
         book_ask = self._best_price(token_id, "asks")
         if book_ask is None:
             return None
@@ -142,7 +145,16 @@ class KalshiLiveExecutor:
         if count < 1:
             return None
         # cross the spread by a cent to fill IOC
-        return self._order(token_id, "buy", count, min(book_ask + 0.01, 0.99))
+        try:
+            return self._order(token_id, "buy", count, min(book_ask + 0.01, 0.99))
+        except HTTPError as e:
+            # Exchange rejected the order (e.g. a compliance/eligibility
+            # restriction on opening new positions) — treat as no-fill so
+            # one rejected candidate doesn't crash the whole cycle. Exits
+            # (sell) are left to raise: reduce-only order failures need to
+            # surface, not be silently skipped.
+            print(f"!! live buy rejected for {token_id}: {e}", file=sys.stderr)
+            return None
 
     def sell(self, token_id, qty):
         book_bid = self._best_price(token_id, "bids")
