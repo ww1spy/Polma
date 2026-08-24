@@ -9,8 +9,15 @@
 # ALWAYS override anything written here.
 # ============================================================
 
-version: 12
-updated: "2026-07-09"
+version: 13
+updated: "2026-08-24"
+# v13: KXRT- DEMOTED from the kalshi live include-list. Weekly revalidation
+# (60-day rolling, v12 semantics) showed ROI decaying REVIEW -> DEMOTE over
+# two consecutive weeks: 2026-08-17 +0.06% (half2 -4.12%, flagged REVIEW),
+# 2026-08-24 -1.91% (half2 -6.34%, flagged DEMOTE). Demotion is the
+# conservative direction and pre-authorized by standing policy
+# (docs/LEARNINGS.md M2a); no live positions were open in the family at
+# demotion time, so no unwind was needed. Evidence: journal/revalidations/2026-08-24.md
 # v12: kalshi sizing 2.5% -> 5% (owner-approved 2026-07-09, "sizing change
 # 1"). Monte Carlo over the live families' 60-day trade data: 5% roughly
 # doubles median 30-day growth (+16.6% -> +35.5%) at P(halt) ~= 0.2% with
@@ -79,11 +86,13 @@ venue_overrides:
       # negative or unstable out-of-sample.
       include_ticker_prefixes:
         # Only families positive BOTH Jun-Jul (selection) AND May (OOS):
-        - KXRT-                   # Rotten Tomatoes: +5.5% in-sample, +$8.64 May OOS, 100% win
         - KXTRUMPSAY              # NO-side of mention markets: +1.7% / +$0.42 OOS
         - KXWT20MATCH             # +3.8% in-sample; May OOS small sample, kept provisionally
         # DEMOTED to aggr paper book after May OOS test (v10):
         #   KXMLBGAME (-$30.92 May), KXWTI- (-$44.91 May), KXFIBAGAME (no OOS data)
+        # DEMOTED v13 (2026-08-24): KXRT- (Rotten Tomatoes) — two consecutive
+        # weekly revalidations showed decaying ROI, ending at -1.91% / half2
+        # -6.34%. See journal/revalidations/2026-08-24.md.
     # v11: full strategy list for Kalshi (replaces the base list at load).
     strategies:
       - name: favorite_discount
