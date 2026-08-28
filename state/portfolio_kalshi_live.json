@@ -1,5 +1,5 @@
 {
-  "cash": 96.33980000000004,
+  "cash": 91.61980000000004,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -36,9 +36,25 @@
   "live_balance_synced": true,
   "mode": "live",
   "peak_equity": 103.92980000000001,
-  "positions": {},
+  "positions": {
+    "KXTRUMPSAY-26AUG31-STUP": {
+      "cost": 4.72,
+      "entry_price": 0.94,
+      "event_ticker": "KXTRUMPSAY-26AUG31",
+      "market_id": "KXTRUMPSAY-26AUG31-STUP",
+      "opened": "2026-08-28T14:21:08+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Will Trump say \"Stupid Question\" before Aug 31, 2026?",
+      "rules_version": 13,
+      "slug": "kxtrumpsay-26aug31-stup",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPSAY-26AUG31-STUP:no"
+    }
+  },
   "realized_pnl": -37.43,
   "starting_bankroll": 133.77,
-  "updated": "2026-08-28T13:23:02+00:00",
+  "updated": "2026-08-28T14:21:08+00:00",
   "venue": "kalshi"
 }
