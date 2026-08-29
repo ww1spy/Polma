@@ -1,5 +1,5 @@
 {
-  "cash": 91.61980000000004,
+  "cash": 83.19980000000004,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -51,10 +51,40 @@
       "slug": "kxtrumpsay-26aug31-stup",
       "strategy": "favorite_discount",
       "token_id": "KXTRUMPSAY-26AUG31-STUP:no"
+    },
+    "KXTRUMPSAYCOMPANY-26SEP01-SPCX": {
+      "cost": 3.89,
+      "entry_price": 0.97,
+      "event_ticker": "KXTRUMPSAYCOMPANY-26SEP01",
+      "market_id": "KXTRUMPSAYCOMPANY-26SEP01-SPCX",
+      "opened": "2026-08-29T14:19:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 4.0,
+      "question": "Will Trump say \"SpaceX / SPCX\" before Sep 1, 2026?",
+      "rules_version": 13,
+      "slug": "kxtrumpsaycompany-26sep01-spcx",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPSAYCOMPANY-26SEP01-SPCX:no"
+    },
+    "KXTRUMPSAYMONTH-26SEP01-THIR": {
+      "cost": 4.53,
+      "entry_price": 0.9,
+      "event_ticker": "KXTRUMPSAYMONTH-26SEP01",
+      "market_id": "KXTRUMPSAYMONTH-26SEP01-THIR",
+      "opened": "2026-08-29T14:19:49+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 5.0,
+      "question": "Will Trump say \"Third Term\" before Sep 1, 2026?",
+      "rules_version": 13,
+      "slug": "kxtrumpsaymonth-26sep01-thir",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUMPSAYMONTH-26SEP01-THIR:no"
     }
   },
   "realized_pnl": -37.43,
   "starting_bankroll": 133.77,
-  "updated": "2026-08-29T13:20:17+00:00",
+  "updated": "2026-08-29T14:19:50+00:00",
   "venue": "kalshi"
 }
