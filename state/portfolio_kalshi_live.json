@@ -1,5 +1,5 @@
 {
-  "cash": 88.14980000000004,
+  "cash": 92.05980000000004,
   "cooldowns": {
     "KXBTC-26JUL0722-B63550": "2026-07-08",
     "KXHIGHLAX-26JUL08-B73.5": "2026-07-08",
@@ -26,6 +26,7 @@
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
     "KXTRUMPSAYCOMPANY-26AUG01-TSLA": "2026-07-30",
+    "KXTRUMPSAYCOMPANY-26SEP01-SPCX": "2026-08-31",
     "KXTRUMPSAYMONTH-26AUG01-MAKE": "2026-07-29",
     "KXWTIW-26JUL1014-B69.50": "2026-07-08",
     "KXWTIW-26JUL1014-B72.50": "2026-07-08"
@@ -38,21 +39,6 @@
   "mode": "live",
   "peak_equity": 103.92980000000001,
   "positions": {
-    "KXTRUMPSAYCOMPANY-26SEP01-SPCX": {
-      "cost": 3.89,
-      "entry_price": 0.97,
-      "event_ticker": "KXTRUMPSAYCOMPANY-26SEP01",
-      "market_id": "KXTRUMPSAYCOMPANY-26SEP01-SPCX",
-      "opened": "2026-08-29T14:19:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 4.0,
-      "question": "Will Trump say \"SpaceX / SPCX\" before Sep 1, 2026?",
-      "rules_version": 13,
-      "slug": "kxtrumpsaycompany-26sep01-spcx",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAYCOMPANY-26SEP01-SPCX:no"
-    },
     "KXTRUMPSAYMONTH-26SEP01-THIR": {
       "cost": 4.53,
       "entry_price": 0.9,
@@ -69,8 +55,8 @@
       "token_id": "KXTRUMPSAYMONTH-26SEP01-THIR:no"
     }
   },
-  "realized_pnl": -37.2,
+  "realized_pnl": -37.18,
   "starting_bankroll": 133.77,
-  "updated": "2026-08-31T08:19:48+00:00",
+  "updated": "2026-08-31T09:20:11+00:00",
   "venue": "kalshi"
 }
