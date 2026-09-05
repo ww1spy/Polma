@@ -1,5 +1,5 @@
 {
-  "cash": 469.46999999999986,
+  "cash": 484.74999999999983,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -24,6 +24,7 @@
     "KXTRUMPSAY-26JUL13-STUP": "2026-07-12",
     "KXTRUMPSAY-26JUL20-URAN": "2026-07-20",
     "KXTRUMPSAY-26JUL27-MARI": "2026-07-26",
+    "KXTRUMPSAY-26SEP07-MARI": "2026-09-05",
     "KXTRUMPSAYCOMPANY-26AUG01-TSLA": "2026-07-30",
     "KXTRUMPSAYCOMPANY-26SEP01-SPCX": "2026-08-31",
     "KXTRUMPSAYMONTH-26AUG01-MAKE": "2026-07-29",
@@ -35,25 +36,9 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {
-    "KXTRUMPSAY-26SEP07-MARI": {
-      "cost": 15.05,
-      "entry_price": 0.96,
-      "event_ticker": "KXTRUMPSAY-26SEP07",
-      "market_id": "KXTRUMPSAY-26SEP07-MARI",
-      "opened": "2026-09-04T14:21:52+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.62,
-      "question": "Will Trump say \"Marijuana / Weed / Cannabis\" before Sep 7, 2026?",
-      "rules_version": 13,
-      "slug": "kxtrumpsay-26sep07-mari",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUMPSAY-26SEP07-MARI:no"
-    }
-  },
-  "realized_pnl": -15.48,
+  "positions": {},
+  "realized_pnl": -15.250000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-05T05:20:24+00:00",
+  "updated": "2026-09-05T06:20:18+00:00",
   "venue": "kalshi"
 }
