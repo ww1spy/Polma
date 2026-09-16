@@ -1,5 +1,5 @@
 {
-  "cash": 484.74999999999983,
+  "cash": 469.6999999999998,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -36,9 +36,25 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {},
+  "positions": {
+    "KXWT20MATCH-26SEP170730RSAZIM-RSA": {
+      "cost": 15.05,
+      "entry_price": 0.96,
+      "event_ticker": "KXWT20MATCH-26SEP170730RSAZIM",
+      "market_id": "KXWT20MATCH-26SEP170730RSAZIM-RSA",
+      "opened": "2026-09-16T16:19:31+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 15.62,
+      "question": "South Africa wins",
+      "rules_version": 14,
+      "slug": "kxwt20match-26sep170730rsazim-rsa",
+      "strategy": "favorite_discount",
+      "token_id": "KXWT20MATCH-26SEP170730RSAZIM-RSA:yes"
+    }
+  },
   "realized_pnl": -15.250000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-16T15:19:42+00:00",
+  "updated": "2026-09-16T16:19:31+00:00",
   "venue": "kalshi"
 }
