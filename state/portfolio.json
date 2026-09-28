@@ -1,5 +1,5 @@
 {
-  "cash": 450.72,
+  "cash": 440.69000000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -211,9 +211,24 @@
       "slug": "will-ethereum-dip-to-2500-in-september-2026-from-september-18",
       "strategy": "favorite_discount",
       "token_id": "108935915031238699291144143420902191881761399185760744201965121007567877285212"
+    },
+    "5025001": {
+      "cost": 10.03,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "5025001",
+      "opened": "2026-09-28T15:22:08+00:00",
+      "outcome": "Enrico Dalla Valle",
+      "outcome_idx": 1,
+      "qty": 11.4,
+      "question": "Bari: Buvaysar Gadamauri vs Enrico Dalla Valle",
+      "rules_version": 14,
+      "slug": "atp-gadamau-valle-2026-09-28",
+      "strategy": "favorite_discount",
+      "token_id": "84987848987764280415834459829840970258883049548900804997002940999605879183714"
     }
   },
   "realized_pnl": 0.7200000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T14:21:26+00:00"
+  "updated": "2026-09-28T15:22:08+00:00"
 }
