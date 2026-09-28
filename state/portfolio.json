@@ -1,5 +1,5 @@
 {
-  "cash": 440.69000000000005,
+  "cash": 452.09000000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -115,6 +115,7 @@
     "3128584": "2026-07-31",
     "3211543": "2026-07-30",
     "4797508": "2026-09-28",
+    "5025001": "2026-09-28",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
     "599304": "2026-08-03",
@@ -135,7 +136,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 501.88006,
+  "peak_equity": 503.1215200000001,
   "positions": {
     "3128887": {
       "cost": 10.0,
@@ -211,24 +212,9 @@
       "slug": "will-ethereum-dip-to-2500-in-september-2026-from-september-18",
       "strategy": "favorite_discount",
       "token_id": "108935915031238699291144143420902191881761399185760744201965121007567877285212"
-    },
-    "5025001": {
-      "cost": 10.03,
-      "entry_price": 0.88,
-      "event_ticker": "",
-      "market_id": "5025001",
-      "opened": "2026-09-28T15:22:08+00:00",
-      "outcome": "Enrico Dalla Valle",
-      "outcome_idx": 1,
-      "qty": 11.4,
-      "question": "Bari: Buvaysar Gadamauri vs Enrico Dalla Valle",
-      "rules_version": 14,
-      "slug": "atp-gadamau-valle-2026-09-28",
-      "strategy": "favorite_discount",
-      "token_id": "84987848987764280415834459829840970258883049548900804997002940999605879183714"
     }
   },
-  "realized_pnl": 0.7200000000000006,
+  "realized_pnl": 2.0900000000000016,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T15:22:08+00:00"
+  "updated": "2026-09-28T16:20:51+00:00"
 }
