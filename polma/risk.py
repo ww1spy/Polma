@@ -40,7 +40,7 @@ def entry_blocks(limits, state, eq, notional, today_realized_loss):
     blocks = []
     if state.get("halted"):
         blocks.append(f"portfolio halted: {state.get('halt_reason', 'unknown')}")
-    if len(state["positions"]) >= limits["max_open_positions"]:
+    if len(state["positions"]) + len(state.get("orders") or {}) >= limits["max_open_positions"]:
         blocks.append(f"max open positions ({limits['max_open_positions']}) reached")
     deployed = eq - state["cash"]
     if eq > 0 and (deployed + notional) / eq > limits["max_exposure_fraction"]:

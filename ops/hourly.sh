@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Hourly operating loop — runs all five books, commits and pushes state.
+# Hourly operating loop — runs all six books, commits and pushes state.
 # See docs/OPERATIONS.md §3. Safe to run from cron on any machine:
 #   5 * * * * cd $HOME/Polma && ./ops/hourly.sh >> cron.log 2>&1
 # Live cycle only places orders if KALSHI_* credentials are present AND
@@ -20,6 +20,9 @@ run env POLMA_VENUE=kalshi POLMA_PROFILE=aggr \
 run env POLMA_VENUE=kalshi POLMA_PROFILE=eth15 \
     POLMA_RULES=rules/rules-eth15.yaml \
     POLMA_LIMITS=config/risk_limits_aggressive.yaml python3 -m polma.cycle
+run env POLMA_VENUE=kalshi POLMA_PROFILE=maker \
+    POLMA_RULES=rules/rules-maker.yaml \
+    POLMA_LIMITS=config/risk_limits_aggressive.yaml python3 -m polma.cycle
 
 # LIVE last, clean profile env (engine hard-refuses profile+live anyway).
 if [ -n "${KALSHI_API_KEY_ID:-}" ]; then
@@ -28,6 +31,8 @@ if [ -n "${KALSHI_API_KEY_ID:-}" ]; then
 else
     echo "== live cycle skipped (no KALSHI_API_KEY_ID in environment) =="
 fi
+
+run python3 -m polma.scorecard > /dev/null
 
 git add state journal
 git diff --cached --quiet && { echo "no state changes"; exit 0; }

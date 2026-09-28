@@ -12,7 +12,7 @@ Termux) and have push access to this repo. Companion docs:
 
 ## 1. What runs, and why
 
-One engine (`polma/`), five independent **books**. Each book is a
+One engine (`polma/`), six independent **books**. Each book is a
 (venue, mode, profile) triple with its own state file in `state/` and its own
 tagged rows in `journal/trades.jsonl` / `journal/cycles.jsonl`. The engine's
 cycle is: settle resolved markets → mark positions → apply exits → scan for
@@ -25,6 +25,7 @@ candidates → apply entries, all under the hard limits in `config/`.
 | polymarket paper | keeps the second venue's rules honest for a future US launch | `portfolio.json` |
 | aggr paper | broad-universe discovery at a wider risk envelope | `portfolio_kalshi_aggr.json` |
 | eth15 paper | single-family fast-favorite experiment (H3) | `portfolio_kalshi_eth15.json` |
+| maker paper | same band as live, but resting limit orders instead of crossing the spread; watchlist families (`rules/rules-maker.yaml`, 2026-09-28) | `portfolio_kalshi_maker.json` |
 
 Paper books exist to generate evidence; the live book only ever trades what
 paper + backtests have already validated twice (see §7 promotion gates).
@@ -50,7 +51,7 @@ prints only safe structural metadata when debugging a mangled key.
 
 Run every book once per hour, then commit and push state + journal (git is
 the system's memory — an unpushed state file dies with the machine). The
-whole loop is `ops/hourly.sh`: it pulls, runs the four paper books, runs the
+whole loop is `ops/hourly.sh`: it pulls, runs the five paper books, runs the
 live book last with a clean profile environment (skipped automatically if no
 Kalshi credentials are set), then commits and pushes with retry. One failing
 book doesn't stop the others.
@@ -93,7 +94,18 @@ python3 -m polma.revalidate --fast-only  # just the 1-min-candle eth15 section (
 Runs every live include-list family and the watchlist over the full ~60-day
 API retention window (and the eth15 family + BTC control over 7 days of
 1-minute candles), with half-period consistency, and writes
-`journal/revalidations/YYYY-MM-DD.md`. Read the **verdict** column:
+`journal/revalidations/YYYY-MM-DD.md`. `--families A,B --days N` runs an
+ad-hoc study (report suffixed `-custom`). All requests go through the
+pacer in `polma/http.py` (`POLMA_HTTP_RPS`, default 4/s), so a full run
+takes ~15–25 minutes.
+
+Every family is simulated twice: **taker** (today's execution: cross the
+spread) and **maker** (rest a bid one tick inside; filled only when a later
+print trades *through* it; maker fee per the series' `fee_type`). Columns:
+n, ROI, SE (clustered by entry day), LB (one-sided lower bound, Bonferroni-
+corrected for the number of families screened), halves, maker fill rate.
+
+Read the **verdict** column (policy revised 2026-09-28, LEARNINGS S1):
 
 - **DEMOTE** (live family went negative): pre-authorized — remove its prefix
   from `include_ticker_prefixes` in `rules/rules.yaml` (kalshi
@@ -103,15 +115,33 @@ API retention window (and the eth15 family + BTC control over 7 days of
   that lingered after weather was excluded).
 - **REVIEW** (one negative half): no rule change; watch next week. Two
   consecutive REVIEWs → treat as DEMOTE.
-- **PROMOTE-CANDIDATE** (watchlist family, n≥30, both halves positive):
-  **requires human judgment** — you must articulate a mechanism (WHY the
-  edge exists) before adding it to the live list. No mechanism, no promotion.
+- **healthy but UNPROVEN** (live family): point estimate positive but its
+  90% lower bound ≤ 0 — informational; families promoted before the gates
+  existed are grandfathered until they fail.
+- **PROMOTE-CANDIDATE** (n ≥ 100, both halves positive, AND corrected lower
+  bound > 0): **requires human judgment** — you must articulate a mechanism
+  (WHY the edge exists) before adding it to the live list. No mechanism, no
+  promotion. "(maker only)" means the edge exists only with resting-order
+  execution — it cannot go live until a maker paper book confirms fills.
+- **positive, not significant**: a point estimate is not evidence; keep
+  watching. (Before 2026-09-28 these were promoted at n≥30 — every one of
+  them later failed.)
 - Fast-section flags apply to the eth15 **paper** book: DEMOTE = stop
   running that book; the BTC control row is informational (if the control
   turns positive too, the "edge" is market regime, not family skill).
 
 The script never edits rules itself. Demotions are the only rule change
 pre-authorized to happen without a human reviewing anything beyond the report.
+
+**Maker book.** Its orders sit in `state["orders"]` with their cash
+reserved (counted in equity, exposure and position caps). Each cycle it
+checks the public trade tape: an order fills only on volume that printed
+*through* its price after placement, and expires unfilled at the entry
+cutoff or after 24h (journal events `ORDER_PLACE` / `ORDER_CANCEL`, fills
+are `ENTER` with `execution: maker`). The engine refuses
+`execution: maker` in live mode. Compare its scorecard row against the
+kalshi paper book — if it beats taker by roughly the spread over 100+ fills,
+live maker execution becomes an owner decision.
 
 ## 5. Halts and how to clear them
 
@@ -137,7 +167,16 @@ To clear a drawdown halt (owner or successor only):
    halt hair-triggered).
 4. Commit state + post-mortem together.
 
-Never clear a halt from an automated/scheduled run. That defeats its purpose.
+Never clear a LIVE halt from an automated/scheduled run. That defeats its
+purpose.
+
+**Paper books are different (owner decision 2026-09-28):** a halted paper
+book that is flat automatically archives the finished run into
+`state["epochs"]`, logs an `EPOCH_RESET` journal event, and restarts at the
+configured bankroll. Three paper books sat halted for 10+ weeks in 2026 and
+produced no information; a paper book's job is measurement, not capital
+preservation. `journal/scorecard.md` (regenerated every hourly run) shows
+lifetime results across epochs.
 
 ## 6. Who may change what
 

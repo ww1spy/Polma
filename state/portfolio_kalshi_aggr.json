@@ -1,5 +1,5 @@
 {
-  "cash": 334.3800000000002,
+  "cash": 339.21999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -180,14 +180,86 @@
     "KXWTIW-26JUL2414-T94.99": "2026-07-24"
   },
   "created": "2026-07-08T08:49:52+00:00",
-  "halt_reason": "drawdown 30.5% from peak $500.00 breached 30% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
-  "halted": true,
+  "epoch_started": "2026-09-28T02:58:54+00:00",
+  "epochs": [
+    {
+      "ended": "2026-09-28T02:58:54+00:00",
+      "final_equity": 334.38,
+      "halt_reason": "drawdown 30.5% from peak $500.00 breached 30% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
+      "realized_pnl": -165.62,
+      "started": "2026-07-08T08:49:52+00:00",
+      "starting_bankroll": 500.0
+    }
+  ],
+  "halt_reason": "",
+  "halted": false,
   "mode": "paper",
   "peak_equity": 500.0,
-  "positions": {},
+  "positions": {
+    "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": {
+      "cost": 40.25,
+      "entry_price": 0.9,
+      "event_ticker": "KXNFLFIRSTTD-26SEP28PHICHI",
+      "market_id": "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1",
+      "opened": "2026-09-28T02:59:00+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 44.41,
+      "question": "Jalen Hurts: 1st Touchdown",
+      "rules_version": 2,
+      "slug": "kxnflfirsttd-26sep28phichi-phijhurts1",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1:no"
+    },
+    "KXNFLOT-26SEP28PHICHI-Y": {
+      "cost": 40.12,
+      "entry_price": 0.96,
+      "event_ticker": "KXNFLOT-26SEP28PHICHI",
+      "market_id": "KXNFLOT-26SEP28PHICHI-Y",
+      "opened": "2026-09-28T02:59:00+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.67,
+      "question": "Philadelphia vs Chicago goes to overtime? \u2014 Game goes to overtime",
+      "rules_version": 2,
+      "slug": "kxnflot-26sep28phichi-y",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLOT-26SEP28PHICHI-Y:no"
+    },
+    "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": {
+      "cost": 40.19,
+      "entry_price": 0.9166,
+      "event_ticker": "KXNFLPASSYDS-26SEP28PHICHI",
+      "market_id": "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250",
+      "opened": "2026-09-28T02:59:01+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 43.59,
+      "question": "Case Keenum: 250+ passing yards",
+      "rules_version": 2,
+      "slug": "kxnflpassyds-26sep28phichi-chickeenum11-250",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250:no"
+    },
+    "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": {
+      "cost": 40.22,
+      "entry_price": 0.92,
+      "event_ticker": "KXNFLTD-26SEP28PHICHI",
+      "market_id": "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1",
+      "opened": "2026-09-28T02:59:00+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 43.47,
+      "question": "Darius Cooper: 1+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26sep28phichi-phidcooper80-1",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1:no"
+    }
+  },
   "profile": "aggr",
-  "realized_pnl": -165.61999999999995,
+  "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T02:20:23+00:00",
+  "updated": "2026-09-28T02:59:01+00:00",
   "venue": "kalshi"
 }

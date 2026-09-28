@@ -245,33 +245,39 @@ class KalshiVenue:
     name = "kalshi"
 
     def open_markets(self, max_markets=300, min_close_hours=6, max_close_days=30,
-                     max_pages=4, **_):
+                     max_pages=4, series=None, **_):
         """Open markets closing within the given window, busiest first.
 
         The close-time window is essential: without it the listing is
         dominated by same-day in-play markets and far-future longshots.
+
+        `series`: when a book trades only an include-list, query just those
+        series (one small request each) instead of paging every open market
+        on the exchange — the full scan is what kept tripping 429s.
         """
         now = int(time.time())
-        out, cursor = [], None
-        for _ in range(max_pages):
-            params = {
-                "limit": 1000,
-                "status": "open",
-                "min_close_ts": now + int(min_close_hours * 3600),
-                "max_close_ts": now + int(max_close_days * 86400),
-            }
-            if cursor:
-                params["cursor"] = cursor
-            data = get_json(f"{BASE}/markets", params=params)
-            for raw in data.get("markets", []):
-                if _is_junk(raw):
-                    continue
-                m = normalize(raw)
-                if m["order_book"] and m["active"]:
-                    out.append(m)
-            cursor = data.get("cursor")
-            if not cursor:
-                break
+        base = {
+            "limit": 1000,
+            "status": "open",
+            "min_close_ts": now + int(min_close_hours * 3600),
+            "max_close_ts": now + int(max_close_days * 86400),
+        }
+        queries = [{**base, "series_ticker": s} for s in series] if series else [base]
+        out = []
+        for q in queries:
+            cursor = None
+            for _ in range(max_pages):
+                params = {**q, **({"cursor": cursor} if cursor else {})}
+                data = get_json(f"{BASE}/markets", params=params)
+                for raw in data.get("markets", []):
+                    if _is_junk(raw):
+                        continue
+                    m = normalize(raw)
+                    if m["order_book"] and m["active"]:
+                        out.append(m)
+                cursor = data.get("cursor")
+                if not cursor:
+                    break
         out.sort(key=lambda m: m["volume_24h"], reverse=True)
         return out[:max_markets]
 
@@ -292,6 +298,43 @@ class KalshiVenue:
 
     def taker_fee(self, price, qty):
         return taker_fee(price, qty)
+
+    _fee_types = {}
+
+    def fee_type(self, series):
+        """Series fee schedule: "quadratic" (taker-only fees; makers pay 0),
+        "quadratic_with_maker_fees", or "flat". Cached per process."""
+        if series not in self._fee_types:
+            try:
+                d = get_json(f"{BASE}/series/{series}")
+                self._fee_types[series] = (d.get("series") or d).get("fee_type") or "unknown"
+            except Exception:
+                self._fee_types[series] = "unknown"
+        return self._fee_types[series]
+
+    def maker_fee(self, price, qty, series):
+        ftype = self.fee_type(series)
+        if ftype == "quadratic":
+            return 0.0
+        coef = 0.0175 if ftype == "quadratic_with_maker_fees" else TAKER_FEE_COEF
+        return math.ceil(coef * price * (1.0 - price) * qty * 100) / 100.0
+
+    def trades(self, ticker, min_ts, max_pages=5):
+        """Public trade prints since min_ts: [(ts, yes_price, count)]."""
+        out, cursor = [], None
+        for _ in range(max_pages):
+            params = {"ticker": ticker, "min_ts": int(min_ts), "limit": 1000}
+            if cursor:
+                params["cursor"] = cursor
+            data = get_json(f"{BASE}/markets/trades", params=params)
+            for t in data.get("trades", []):
+                ts = _parse_time(t.get("created_time"))
+                out.append((ts.timestamp() if ts else 0.0,
+                            _f(t.get("yes_price_dollars")), _f(t.get("count_fp"))))
+            cursor = data.get("cursor")
+            if not cursor:
+                break
+        return out
 
     # ---- history for backtesting ----
     def candles(self, market, period_minutes=60):

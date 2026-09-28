@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 
 import yaml
 
-from . import journal, portfolio, risk
+from . import journal, maker, portfolio, risk
 from .executor import KalshiLiveExecutor, PaperExecutor, PolymarketLiveExecutor
 from .venues import get_venue
 
@@ -165,15 +165,20 @@ def in_universe(market, uni):
 def find_candidates(rules, state, venue, max_markets=300):
     """Scan the universe and return [(market, outcome_idx, strategy_name), ...]."""
     uni = rules["universe"]
+    # An include-list names whole series; fetch only those (exact series,
+    # which also closes the stem-leak class in LEARNINGS E1).
+    include = uni.get("include_ticker_prefixes")
+    series = sorted({p.rstrip("-") for p in include}) if include else None
     markets = venue.open_markets(
         max_markets=max_markets,
         min_close_hours=uni["min_hours_to_resolution"],
         max_close_days=uni["max_days_to_resolution"],
+        series=series,
     )
     today = _today()
     candidates = []
     for market in markets:
-        if market["id"] in state["positions"]:
+        if market["id"] in state["positions"] or market["id"] in (state.get("orders") or {}):
             continue
         if state["cooldowns"].get(market["id"]) == today:
             continue  # don't re-enter a market we exited today
@@ -223,10 +228,11 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
     entered = 0
     # Correlation guard (M9): never stack positions on one EVENT, and cap
     # positions per market family — favorites' losses arrive clustered.
-    held_events = {p.get("event_ticker") for p in state["positions"].values()
-                   if p.get("event_ticker")}
+    # Resting maker orders count as positions for every guard.
+    held = list(state["positions"].values()) + list((state.get("orders") or {}).values())
+    held_events = {p.get("event_ticker") for p in held if p.get("event_ticker")}
     fam_counts = {}
-    for p in state["positions"].values():
+    for p in held:
         fam = (p.get("event_ticker") or str(p["market_id"])).split("-")[0]
         fam_counts[fam] = fam_counts.get(fam, 0) + 1
     max_fam = limits.get("max_positions_per_family")
@@ -258,6 +264,14 @@ def apply_entries(state, rules, limits, marks, candidates, executor, actions, ve
             )
             actions.append(f"BLOCK {market['question'][:60]}: {'; '.join(blocks)}")
             break  # risk blocks apply portfolio-wide; no point trying more
+        if rules.get("execution") == "maker":
+            strat = next(s for s in rules["strategies"] if s["name"] == strat_name)
+            if maker.place(state, market, idx, strat, notional, rules, venue, actions):
+                if ev:
+                    held_events.add(ev)
+                fam_counts[fam] = fam_counts.get(fam, 0) + 1
+                entered += 1
+            continue
         fill = executor.buy(market["token_ids"][idx], notional)
         if fill is None:
             continue
@@ -325,6 +339,8 @@ def run_cycle():
                            "POLMA_PROFILE for live runs")
     venue = get_venue(os.environ.get("POLMA_VENUE", "polymarket"))
     rules = load_rules(venue.name)
+    if rules.get("execution") == "maker" and (mode == "live" or venue.name != "kalshi"):
+        raise RuntimeError("maker execution is a Kalshi PAPER experiment only")
     limits = risk.load_limits()
     state = portfolio.load(limits["starting_bankroll_usd"], mode=mode,
                            venue=venue.name, profile=profile)
@@ -347,9 +363,22 @@ def run_cycle():
     settle_resolved(state, actions, venue)
     marks = mark_positions(state, actions, venue)
     apply_exits(state, rules, marks, executor, actions, venue)
+    if state.get("orders"):
+        maker.sweep(state, venue, actions)
 
     eq = portfolio.equity(state, marks)
     drawdown = risk.check_drawdown_halt(limits, state, eq)
+    if (state["halted"] and mode != "live" and not state["positions"]
+            and not state.get("orders")):
+        # Paper halt + flat book → archive the epoch and keep measuring
+        # (a frozen paper book yields no data). Live halts stay owner-only.
+        ended = portfolio.start_new_epoch(state, limits["starting_bankroll_usd"], eq)
+        journal.log_event("EPOCH_RESET", venue=venue.name, profile=state.get("profile"),
+                          mode=mode, epoch=len(state["epochs"]), **ended)
+        actions.append(f"EPOCH_RESET: epoch {len(state['epochs'])} ended at "
+                       f"${ended['final_equity']:.2f} ({ended['halt_reason'][:60]}); "
+                       f"restarting at ${state['cash']:.2f}")
+        eq, drawdown = state["cash"], 0.0
     if state["halted"]:
         journal.log_event("HALT", venue=venue.name, profile=state.get("profile"), mode=state.get("mode", "paper"), reason=state["halt_reason"],
                           equity=round(eq, 2))
@@ -367,6 +396,7 @@ def run_cycle():
         "equity": round(eq, 2),
         "cash": round(state["cash"], 2),
         "open_positions": len(state["positions"]),
+        "open_orders": len(state.get("orders") or {}),
         "realized_pnl_total": round(state["realized_pnl"], 2),
         "drawdown_from_peak": round(drawdown, 4),
         "rules_version": rules.get("version"),

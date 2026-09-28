@@ -78,6 +78,32 @@ def close_position(state, market_id, proceeds):
     return pos, pnl
 
 
+def start_new_epoch(state, bankroll, final_equity):
+    """PAPER books only: archive the finished epoch and restart flat.
+
+    A halted paper book that sits frozen produces no information (three books
+    sat halted for 10+ weeks in 2026). Owner decision 2026-09-28: paper halts
+    roll into a fresh, journaled epoch instead. Lifetime results stay
+    recoverable from state["epochs"] and the journal. Live halts are never
+    reset here — they still require the owner.
+    """
+    assert state.get("mode") != "live", "live books never auto-reset"
+    epochs = state.setdefault("epochs", [])
+    epochs.append({
+        "started": state.get("epoch_started") or state.get("created"),
+        "ended": _now_iso(),
+        "starting_bankroll": state["starting_bankroll"],
+        "final_equity": round(final_equity, 2),
+        "realized_pnl": round(state["realized_pnl"], 2),
+        "halt_reason": state.get("halt_reason", ""),
+    })
+    state.update(
+        cash=bankroll, starting_bankroll=bankroll, peak_equity=bankroll,
+        realized_pnl=0.0, halted=False, halt_reason="", epoch_started=_now_iso(),
+    )
+    return epochs[-1]
+
+
 def equity(state, marks):
     """Cash plus positions valued at best bid (marks: market_id -> {bid, ask}).
 
@@ -87,4 +113,6 @@ def equity(state, marks):
     for mid, pos in state["positions"].items():
         mark = (marks.get(mid) or {}).get("bid")
         total += pos["qty"] * (mark if mark is not None else pos["entry_price"])
+    # Resting maker orders: their cash is reserved, not spent.
+    total += sum(o["reserved"] for o in (state.get("orders") or {}).values())
     return total

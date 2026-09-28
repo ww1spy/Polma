@@ -1,0 +1,98 @@
+{
+  "cash": 471.6,
+  "cooldowns": {},
+  "created": "2026-09-28T02:58:24+00:00",
+  "halt_reason": "",
+  "halted": false,
+  "mode": "paper",
+  "orders": {
+    "KXRT-FOR-93": {
+      "book_at_place": {
+        "ask": 0.97,
+        "bid": 0.96
+      },
+      "end_date": "2026-09-28T14:00:00+00:00",
+      "event_ticker": "KXRT-FOR",
+      "expires_ts": 1790596800.0,
+      "market_id": "KXRT-FOR-93",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1790564312.4158726,
+      "price": 0.96,
+      "qty": 10,
+      "question": "Forgotten Island Rotten Tomatoes score? \u2014 Above 93",
+      "reserved": 9.6,
+      "rules_version": 1,
+      "slug": "kxrt-for-93",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-FOR-93:yes",
+        "KXRT-FOR-93:no"
+      ]
+    },
+    "KXRT-PRI-86": {
+      "book_at_place": {
+        "ask": 0.95,
+        "bid": 0.93
+      },
+      "end_date": "2026-09-28T14:00:00+00:00",
+      "event_ticker": "KXRT-PRI",
+      "expires_ts": 1790596800.0,
+      "market_id": "KXRT-PRI-86",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1790564312.1521878,
+      "price": 0.94,
+      "qty": 10,
+      "question": "Primetime Rotten Tomatoes score? \u2014 Above 86",
+      "reserved": 9.4,
+      "rules_version": 1,
+      "slug": "kxrt-pri-86",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-PRI-86:yes",
+        "KXRT-PRI-86:no"
+      ]
+    },
+    "KXWTI-26SEP2814-T96.99": {
+      "book_at_place": {
+        "ask": 0.95,
+        "bid": 0.94
+      },
+      "end_date": "2026-09-28T18:30:00+00:00",
+      "event_ticker": "KXWTI-26SEP2814",
+      "expires_ts": 1790613000.0,
+      "market_id": "KXWTI-26SEP2814-T96.99",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1790564312.6539063,
+      "price": 0.94,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Sep 28, 2026? \u2014 Above $96.99",
+      "reserved": 9.4,
+      "rules_version": 1,
+      "slug": "kxwti-26sep2814-t96.99",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWTI-26SEP2814-T96.99:yes",
+        "KXWTI-26SEP2814-T96.99:no"
+      ]
+    }
+  },
+  "peak_equity": 500.0,
+  "positions": {},
+  "profile": "maker",
+  "realized_pnl": 0.0,
+  "starting_bankroll": 500.0,
+  "updated": "2026-09-28T02:58:32+00:00",
+  "venue": "kalshi"
+}

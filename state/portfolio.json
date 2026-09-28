@@ -1,5 +1,5 @@
 {
-  "cash": 429.9900000000002,
+  "cash": 470.0,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -120,12 +120,69 @@
     "599305": "2026-08-03"
   },
   "created": "2026-07-07T22:51:45+00:00",
-  "halt_reason": "drawdown 15.3% from peak $509.49 breached 15% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
-  "halted": true,
+  "epoch_started": "2026-09-28T02:58:52+00:00",
+  "epochs": [
+    {
+      "ended": "2026-09-28T02:58:52+00:00",
+      "final_equity": 429.99,
+      "halt_reason": "drawdown 15.3% from peak $509.49 breached 15% halt threshold \u2014 human review required (set halted=false in state/portfolio.json to resume)",
+      "realized_pnl": -70.01,
+      "started": "2026-07-07T22:51:45+00:00",
+      "starting_bankroll": 500.0
+    }
+  ],
+  "halt_reason": "",
+  "halted": false,
   "mode": "paper",
-  "peak_equity": 509.49269000000015,
-  "positions": {},
-  "realized_pnl": -70.00999999999992,
+  "peak_equity": 500.0,
+  "positions": {
+    "3128887": {
+      "cost": 10.0,
+      "entry_price": 0.958,
+      "event_ticker": "",
+      "market_id": "3128887",
+      "opened": "2026-09-28T02:58:54+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.44,
+      "question": "US announces end of Iranian blockade by September 30, 2026?",
+      "rules_version": 14,
+      "slug": "us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831",
+      "strategy": "favorite_discount",
+      "token_id": "56465933220082022835700817063946174635909725507734416248556389304448520396318"
+    },
+    "4641064": {
+      "cost": 10.0,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "4641064",
+      "opened": "2026-09-28T02:58:54+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.87,
+      "question": "US x Iran ceasefire continues through September 30?",
+      "rules_version": 14,
+      "slug": "us-x-iran-ceasefire-continues-through-september-30-20260917",
+      "strategy": "favorite_discount",
+      "token_id": "18108354744468601294025853601030425188395211927926870885542758981304523217919"
+    },
+    "4689728": {
+      "cost": 10.0,
+      "entry_price": 0.947,
+      "event_ticker": "",
+      "market_id": "4689728",
+      "opened": "2026-09-28T02:58:54+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.56,
+      "question": "Will Bitcoin dip to $77,500 in September?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-dip-to-77pt5k-in-september-2026-from-september-18",
+      "strategy": "favorite_discount",
+      "token_id": "16286866371037423000621251621641771774253997005774900345533372386928212988431"
+    }
+  },
+  "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T02:20:22+00:00"
+  "updated": "2026-09-28T02:58:54+00:00"
 }
