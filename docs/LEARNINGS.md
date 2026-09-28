@@ -242,7 +242,69 @@ session): DEMOTE flags on live families are pre-authorized and applied
 include-list must re-earn its place every week from fresh data — the
 methodology that caught WTI/MLB survives the end of interactive sessions.
 
-## Current state (as of 2026-07-08, rules v10)
+## VI. Methodology review (2026-09-28, after ~3 months of no progress)
+
+**S1. Point estimates promoted noise.** At 90%+ win rates a per-trade ROI
+has SD ~23%, so a 50-trade family carries a ~±3.5% standard error — the
+same size as the edges being chased. Screening ~9 families a week at n≥30
+on "both halves positive" promoted MLB, WTI, RT and TRUMPSAY; every one
+later failed. Now (polma/stats.py): ROI SEs clustered by entry day, a
+tail guard (LB can't exceed the ROI after one more full-stake loss — a
+family with no in-sample losses has a meaningless SE), and PROMOTE needs
+n≥100 AND a Bonferroni-corrected lower bound > 0.
+
+**S2. Measure the scoreboard, not the anecdotes.** journal/scorecard.md
+(hourly) puts each book's win% next to its break-even win%. On 2026-09-28
+every book was below break-even (live 71% vs 90%; kalshi paper 81% vs 96%;
+aggr 88% vs 92%; polymarket 86% vs 92%). Favorite-buying with taker
+execution has not shown an edge anywhere, in any book, over months.
+
+**S3. Owner-gated paper halts froze research.** Three paper books sat
+halted 10+ weeks producing zero data. Paper books now auto-start a new
+epoch when halted and flat (EPOCH_RESET event, history in state["epochs"]);
+live halts stay owner-only.
+
+**S4. Kalshi 429s were burst throttling on the shared egress IP**, not
+scan volume (a second request 200 ms after the first could 429; 3 s spacing
+never did). Fix: process-wide pacer (POLMA_HTTP_RPS, default 4) +
+Retry-After-aware backoff. Include-listed books also scan only their
+series instead of paging the whole exchange.
+
+**S5. Maker execution is not a general fix — adverse selection eats the
+spread.** Hypothesis: resting one tick inside the spread (0 maker fee on
+"quadratic" series) recovers the taker cost. 60-day revalidation
+(journal/revalidations/2026-09-28.md), fill = trade-through prints only:
+maker was WORSE than taker in WTI (-6.6% vs -4.5%, n=608), RT, FIBA, WNBA
+and the BTC15M control; about equal on TRUMPSAY and ETH15M; better only on
+KXWT20MATCH (+6.0% vs +4.2%, n=35). A resting bid fills mostly when price
+moves toward it — i.e. when the favorite is weakening. The maker paper
+book (rules/rules-maker.yaml) now tests the fill model forward against the
+live tape; unless it beats the kalshi paper book over 100+ fills, drop it.
+
+**S6. Honest bottom line.** The only family with a statistically positive
+lower bound is KXWT20MATCH (taker +4.16%, n=44, LB +1.85% after the tail
+guard) — a seasonal cricket family with ~1 candidate a week. There is no
+evidence-backed way to trade more at this edge. Progress now means either
+(a) a genuinely new mechanism (information/settlement-lag edges like RT's
+last mile, not "favorites are underpriced"), or (b) accepting that the
+system's correct output is mostly "no trade". Do not widen the universe or
+raise sizing to manufacture activity.
+
+## Current state (as of 2026-09-28, rules v14)
+
+- **Live (Kalshi):** ~$97, include-list KXWT20MATCH only, 5% sizing; idle
+  since Aug 31 because the one family rarely offers an in-band candidate.
+- **Paper:** kalshi base (shadow of live), polymarket and aggr (both
+  auto-reset to epoch 2 on 2026-09-28), eth15 (re-enabled, v3), maker
+  (new, resting-order execution over the watchlist).
+- **Top open questions:** does the maker fill model hold forward (S5)?
+  Is there any mechanism-backed family besides WT20 (S6)? Polymarket
+  needs the same family-level study before it can inform anything.
+
+---
+
+## Previous state (as of 2026-07-08, rules v10)
+
 
 - **Live (Kalshi):** ~$45, 1-contract positions, six-family include-list,
   all guardrails at conservative values. Expected pace: cents/day until
