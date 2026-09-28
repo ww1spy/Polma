@@ -290,6 +290,21 @@ last mile, not "favorites are underpriced"), or (b) accepting that the
 system's correct output is mostly "no trade". Do not widen the universe or
 raise sizing to manufacture activity.
 
+**S7. Temperature settlement lag is already arbitraged (2026-09-28).**
+Hypothesis: once a station has observed a temperature above a KXHIGH*
+threshold, the outcome is decided hours before the market closes at local
+midnight. polma/wxstudy.py matched 30 days of IEM ASOS observations to 15
+cities' settled markets: 685 markets locked by an observation, 0 settled
+against the lock (the data logic is sound) — and all 685 were already priced
+at $1.00 by the first hourly candle after the observation. 1-minute candles
+show the price reaching 1.00 within ~5 minutes of the METAR time, often
+BEFORE it (traders use 1-minute ASOS feeds). A decided-fact edge on a busy
+market is a latency race; an hourly cron cannot win it. No paper book was
+built — it would place zero trades. Evidence:
+journal/backtests/wx-settlement-lag-2026-09-28.md. Lesson for the next
+hypothesis: RT's last-mile edge survived because the family is small and
+slow, not because the mechanism was clever. Look where bots aren't.
+
 ## Current state (as of 2026-09-28, rules v14)
 
 - **Live (Kalshi):** ~$97, include-list KXWT20MATCH only, 5% sizing; idle
