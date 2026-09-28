@@ -1,5 +1,5 @@
 {
-  "cash": 339.21999999999997,
+  "cash": 299.2,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -241,6 +241,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250:no"
     },
+    "KXNFLSPREAD-26SEP28PHICHI-PHI21": {
+      "cost": 40.02,
+      "entry_price": 0.9,
+      "event_ticker": "KXNFLSPREAD-26SEP28PHICHI",
+      "market_id": "KXNFLSPREAD-26SEP28PHICHI-PHI21",
+      "opened": "2026-09-28T03:20:11+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 44.15,
+      "question": "PHI Eagles wins by over 20.5 points?",
+      "rules_version": 2,
+      "slug": "kxnflspread-26sep28phichi-phi21",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLSPREAD-26SEP28PHICHI-PHI21:no"
+    },
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": {
       "cost": 40.22,
       "entry_price": 0.92,
@@ -260,6 +275,6 @@
   "profile": "aggr",
   "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T02:59:01+00:00",
+  "updated": "2026-09-28T03:20:11+00:00",
   "venue": "kalshi"
 }

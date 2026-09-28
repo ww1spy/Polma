@@ -1,5 +1,5 @@
 {
-  "cash": 470.0,
+  "cash": 440.0,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -151,6 +151,21 @@
       "strategy": "favorite_discount",
       "token_id": "56465933220082022835700817063946174635909725507734416248556389304448520396318"
     },
+    "4052418": {
+      "cost": 10.0,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "4052418",
+      "opened": "2026-09-28T03:19:55+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.36,
+      "question": "Will Bitcoin reach $87,500 in September?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-reach-87pt5k-in-september-2026",
+      "strategy": "favorite_discount",
+      "token_id": "4154193998817736104851866613650963230068092479669344695639193833815805918087"
+    },
     "4641064": {
       "cost": 10.0,
       "entry_price": 0.92,
@@ -180,9 +195,39 @@
       "slug": "will-bitcoin-dip-to-77pt5k-in-september-2026-from-september-18",
       "strategy": "favorite_discount",
       "token_id": "16286866371037423000621251621641771774253997005774900345533372386928212988431"
+    },
+    "4689737": {
+      "cost": 10.0,
+      "entry_price": 0.89,
+      "event_ticker": "",
+      "market_id": "4689737",
+      "opened": "2026-09-28T03:19:55+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.23,
+      "question": "Will Ethereum dip to $2,500 in September?",
+      "rules_version": 14,
+      "slug": "will-ethereum-dip-to-2500-in-september-2026-from-september-18",
+      "strategy": "favorite_discount",
+      "token_id": "108935915031238699291144143420902191881761399185760744201965121007567877285212"
+    },
+    "4797508": {
+      "cost": 10.0,
+      "entry_price": 0.917,
+      "event_ticker": "",
+      "market_id": "4797508",
+      "opened": "2026-09-28T03:19:55+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.9,
+      "question": "Will the price of Bitcoin be above $82,000 on September 28?",
+      "rules_version": 14,
+      "slug": "bitcoin-above-82k-on-september-28-2026",
+      "strategy": "favorite_discount",
+      "token_id": "15946357842662755050436585089585340626875010733340605848296875948346325176667"
     }
   },
   "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T02:58:54+00:00"
+  "updated": "2026-09-28T03:19:55+00:00"
 }
