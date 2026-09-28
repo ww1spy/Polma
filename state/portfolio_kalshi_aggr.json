@@ -1,5 +1,5 @@
 {
-  "cash": 219.7,
+  "cash": 179.92,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -256,6 +256,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250:no"
     },
+    "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": {
+      "cost": 39.78,
+      "entry_price": 0.9341,
+      "event_ticker": "KXNFLREC-26SEP28PHICHI",
+      "market_id": "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5",
+      "opened": "2026-09-28T05:21:07+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 42.38,
+      "question": "D'Andre Swift: 5+ receptions",
+      "rules_version": 2,
+      "slug": "kxnflrec-26sep28phichi-chidswift4-5",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5:no"
+    },
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": {
       "cost": 40.02,
       "entry_price": 0.9,
@@ -305,6 +320,6 @@
   "profile": "aggr",
   "realized_pnl": 0.0,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T04:21:08+00:00",
+  "updated": "2026-09-28T05:21:07+00:00",
   "venue": "kalshi"
 }
