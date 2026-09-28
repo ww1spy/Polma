@@ -1,5 +1,5 @@
 {
-  "cash": 431.96000000000004,
+  "cash": 421.90000000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -242,9 +242,24 @@
       "slug": "will-ethereum-dip-to-2500-in-september-2026-from-september-18",
       "strategy": "favorite_discount",
       "token_id": "108935915031238699291144143420902191881761399185760744201965121007567877285212"
+    },
+    "4844455": {
+      "cost": 10.06,
+      "entry_price": 0.84,
+      "event_ticker": "",
+      "market_id": "4844455",
+      "opened": "2026-09-28T22:20:42+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.98,
+      "question": "Will Ethereum reach $2,800 in September?",
+      "rules_version": 14,
+      "slug": "will-ethereum-reach-2800-in-september-2026-from-september-22",
+      "strategy": "favorite_discount",
+      "token_id": "106240680901299666579798956296850414975222872962930565897420739730655076331192"
     }
   },
   "realized_pnl": 2.0900000000000016,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T21:20:04+00:00"
+  "updated": "2026-09-28T22:20:42+00:00"
 }
