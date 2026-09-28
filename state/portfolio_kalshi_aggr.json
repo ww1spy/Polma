@@ -1,5 +1,5 @@
 {
-  "cash": 60.89999999999998,
+  "cash": 103.47999999999998,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -154,6 +154,7 @@
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXTRUTHSOCIAL-26JUL25-B129": "2026-07-25",
+    "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2": "2026-09-28",
     "KXUST2AD-26JUL21-T4.29": "2026-07-21",
     "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
     "KXVALORANTGAME-26JUL211100HBSG2-HBS": "2026-07-21",
@@ -345,26 +346,11 @@
       "slug": "kxnfltotal-26sep28phichi-66",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTOTAL-26SEP28PHICHI-66:no"
-    },
-    "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2": {
-      "cost": 39.8,
-      "entry_price": 0.93,
-      "event_ticker": "KXUEFANLSCORE-26SEP28BELFRA",
-      "market_id": "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2",
-      "opened": "2026-09-28T04:21:08+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 42.58,
-      "question": "Final score France wins 2-0?",
-      "rules_version": 2,
-      "slug": "kxuefanlscore-26sep28belfra-bel0fra2",
-      "strategy": "favorite_discount",
-      "token_id": "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": 0.0,
+  "realized_pnl": 2.780000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-28T20:20:34+00:00",
+  "updated": "2026-09-28T21:20:11+00:00",
   "venue": "kalshi"
 }
