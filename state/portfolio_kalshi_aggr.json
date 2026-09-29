@@ -1,5 +1,5 @@
 {
-  "cash": 103.47999999999998,
+  "cash": 147.89,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -121,6 +121,7 @@
     "KXNETFLIXRANKSHOW-26JUL20-WOR": "2026-07-20",
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": "2026-07-14",
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": "2026-07-21",
+    "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": "2026-09-29",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXNPBGAME-26JUL210500HIRYOM-YOM": "2026-07-21",
     "KXODIMATCH-26JUL131430NZWI-NZ": "2026-07-14",
@@ -226,21 +227,6 @@
       "slug": "kxethmaxmon-eth-26sep30-300000",
       "strategy": "favorite_discount",
       "token_id": "KXETHMAXMON-ETH-26SEP30-300000:no"
-    },
-    "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": {
-      "cost": 40.25,
-      "entry_price": 0.9,
-      "event_ticker": "KXNFLFIRSTTD-26SEP28PHICHI",
-      "market_id": "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1",
-      "opened": "2026-09-28T02:59:00+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 44.41,
-      "question": "Jalen Hurts: 1st Touchdown",
-      "rules_version": 2,
-      "slug": "kxnflfirsttd-26sep28phichi-phijhurts1",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1:no"
     },
     "KXNFLOT-26SEP28PHICHI-Y": {
       "cost": 40.12,
@@ -349,8 +335,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 2.780000000000001,
+  "realized_pnl": 6.939999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-29T00:19:58+00:00",
+  "updated": "2026-09-29T01:19:59+00:00",
   "venue": "kalshi"
 }
