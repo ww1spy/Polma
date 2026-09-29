@@ -1,5 +1,5 @@
 {
-  "cash": 443.32000000000005,
+  "cash": 433.30000000000007,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -229,9 +229,24 @@
       "slug": "will-ethereum-reach-2800-in-september-2026-from-september-22",
       "strategy": "favorite_discount",
       "token_id": "106240680901299666579798956296850414975222872962930565897420739730655076331192"
+    },
+    "4867450": {
+      "cost": 10.02,
+      "entry_price": 0.9122,
+      "event_ticker": "",
+      "market_id": "4867450",
+      "opened": "2026-09-29T13:21:24+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.98,
+      "question": "Next US-Iran senior diplomatic meeting by September 30, 2026?",
+      "rules_version": 14,
+      "slug": "us-x-iran-diplomatic-meeting-by-march-31-2027-20260922",
+      "strategy": "favorite_discount",
+      "token_id": "94480770786245075145527010664580997372603205700648838806218279251723651859437"
     }
   },
   "realized_pnl": 3.5100000000000016,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-29T12:21:40+00:00"
+  "updated": "2026-09-29T13:21:24+00:00"
 }
