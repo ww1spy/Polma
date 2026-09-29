@@ -1,36 +1,49 @@
 {
-  "cash": 491.15,
+  "cash": 492.60999999999996,
   "cooldowns": {
     "KXRT-FOR-93": "2026-09-28",
     "KXRT-PRI-86": "2026-09-28",
-    "KXWTI-26SEP2814-T96.99": "2026-09-28"
+    "KXWTI-26SEP2814-T96.99": "2026-09-28",
+    "KXWTI-26SEP2914-T96.49": "2026-09-29"
   },
   "created": "2026-09-28T02:58:24+00:00",
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
-  "peak_equity": 501.71,
-  "positions": {
-    "KXWTI-26SEP2914-T96.49": {
-      "cost": 9.9,
-      "entry_price": 0.9,
+  "orders": {
+    "KXWTI-26SEP2914-T89.49": {
+      "book_at_place": {
+        "ask": 0.94,
+        "bid": 0.92
+      },
+      "end_date": "2026-09-29T18:30:00+00:00",
       "event_ticker": "KXWTI-26SEP2914",
-      "market_id": "KXWTI-26SEP2914-T96.49",
-      "opened": "2026-09-28T19:20:26+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11,
-      "question": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Sep 29, 2026? \u2014 Above $96.49",
+      "expires_ts": 1790699400.0,
+      "market_id": "KXWTI-26SEP2914-T89.49",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1790677220.8286796,
+      "price": 0.93,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 89.49 USD/Bbl on Sep 29, 2026? \u2014 Above $89.49",
+      "reserved": 9.3,
       "rules_version": 1,
-      "slug": "kxwti-26sep2914-t96.49",
+      "slug": "kxwti-26sep2914-t89.49",
       "strategy": "favorite_discount_maker",
-      "token_id": "KXWTI-26SEP2914-T96.49:no"
+      "token_ids": [
+        "KXWTI-26SEP2914-T89.49:yes",
+        "KXWTI-26SEP2914-T89.49:no"
+      ]
     }
   },
+  "peak_equity": 501.90999999999997,
+  "positions": {},
   "profile": "maker",
-  "realized_pnl": 1.049999999999999,
+  "realized_pnl": 1.9099999999999984,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-29T09:20:13+00:00",
+  "updated": "2026-09-29T10:20:20+00:00",
   "venue": "kalshi"
 }
