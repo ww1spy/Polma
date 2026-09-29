@@ -11,7 +11,7 @@
   "halted": false,
   "mode": "paper",
   "orders": {},
-  "peak_equity": 501.90999999999997,
+  "peak_equity": 502.10999999999996,
   "positions": {
     "KXWTI-26SEP2914-T89.49": {
       "cost": 9.3,
@@ -32,6 +32,6 @@
   "profile": "maker",
   "realized_pnl": 1.9099999999999984,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-29T13:21:31+00:00",
+  "updated": "2026-09-29T15:18:21+00:00",
   "venue": "kalshi"
 }
