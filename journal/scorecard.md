@@ -1,4 +1,4 @@
-# Scorecard — 2026-09-28
+# Scorecard — 2026-09-29
 
 Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed to break even given this book's actual average win and loss.
 
