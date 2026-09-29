@@ -305,6 +305,16 @@ journal/backtests/wx-settlement-lag-2026-09-28.md. Lesson for the next
 hypothesis: RT's last-mile edge survived because the family is small and
 slow, not because the mechanism was clever. Look where bots aren't.
 
+**S8. "Closed" is not "settled" (fixed 2026-09-29).** Kalshi flips a market
+to status "closed" when trading stops, hours before it publishes the result.
+The engine treated closed as settled and paid out at the last trade: 44
+settles since July booked at non-final prices (mostly 0.97-0.99, slightly
+understating wins, incl. 5 live RT wins by a few cents; outliers at 0.01,
+0.80, 0.85 in aggr paper; a maker WTI position at 0.32). Positions now settle
+only when result is yes/no. The maker WTI settle was reversed
+(SETTLE_REVERSED event; scorecard skips reversed settles). Historical aggr
+numbers carry this noise — small next to that book's real losses.
+
 ## Current state (as of 2026-09-28, rules v14)
 
 - **Live (Kalshi):** ~$97, include-list KXWT20MATCH only, 5% sizing; idle

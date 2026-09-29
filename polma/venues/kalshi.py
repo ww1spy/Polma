@@ -197,7 +197,10 @@ def normalize(m, event_title=""):
         yes_price = _f(m.get("last_price_dollars"))
         spread = 1.0
     result = m.get("result") or ""
-    closed = m.get("status") in ("settled", "finalized", "closed")
+    # Settled only once Kalshi publishes the result. "closed" alone means
+    # trading stopped; paying out at the last trade then booked 44 settles
+    # at non-final prices (e.g. WTI at 0.32 on 2026-09-29).
+    closed = result in ("yes", "no")
     if result == "yes":
         prices = [1.0, 0.0]
     elif result == "no":

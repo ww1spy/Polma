@@ -30,7 +30,9 @@ def _book(r):
 def _summ(events, since=None):
     ev = [e for e in events if since is None or _ts(e["ts"]) >= since]
     entries = [e for e in ev if e["type"] == "ENTER"]
-    closes = [e for e in ev if e["type"] in ("EXIT", "SETTLE") and e.get("pnl") is not None]
+    reversed_ = {(e["market_id"], e["reversed_ts"]) for e in ev if e["type"] == "SETTLE_REVERSED"}
+    closes = [e for e in ev if e["type"] in ("EXIT", "SETTLE") and e.get("pnl") is not None
+              and (e.get("market_id"), e["ts"]) not in reversed_]
     wins = [e["pnl"] for e in closes if e["pnl"] > 0]
     losses = [e["pnl"] for e in closes if e["pnl"] <= 0]
     fees = sum(e.get("fee") or 0 for e in ev if e["type"] in ("ENTER", "EXIT"))
