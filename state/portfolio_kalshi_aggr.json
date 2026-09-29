@@ -1,5 +1,5 @@
 {
-  "cash": 320.92999999999995,
+  "cash": 362.59999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -122,6 +122,7 @@
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": "2026-07-14",
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": "2026-07-21",
     "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": "2026-09-29",
+    "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": "2026-09-29",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
@@ -233,26 +234,11 @@
       "slug": "kxethmaxmon-eth-26sep30-300000",
       "strategy": "favorite_discount",
       "token_id": "KXETHMAXMON-ETH-26SEP30-300000:no"
-    },
-    "KXNFLOT-26SEP28PHICHI-Y": {
-      "cost": 40.12,
-      "entry_price": 0.96,
-      "event_ticker": "KXNFLOT-26SEP28PHICHI",
-      "market_id": "KXNFLOT-26SEP28PHICHI-Y",
-      "opened": "2026-09-28T02:59:00+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.67,
-      "question": "Philadelphia vs Chicago goes to overtime? \u2014 Game goes to overtime",
-      "rules_version": 2,
-      "slug": "kxnflot-26sep28phichi-y",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLOT-26SEP28PHICHI-Y:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -59.56000000000001,
+  "realized_pnl": -58.010000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-29T03:20:21+00:00",
+  "updated": "2026-09-29T04:20:19+00:00",
   "venue": "kalshi"
 }
