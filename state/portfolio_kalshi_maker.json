@@ -1,38 +1,51 @@
 {
-  "cash": 485.49,
+  "cash": 483.81,
   "cooldowns": {
     "KXRT-FOR-93": "2026-09-28",
     "KXRT-PRI-86": "2026-09-28",
     "KXWTI-26SEP2814-T96.99": "2026-09-28",
     "KXWTI-26SEP2914-T89.49": "2026-09-30",
-    "KXWTI-26SEP2914-T96.49": "2026-09-29"
+    "KXWTI-26SEP2914-T96.49": "2026-09-29",
+    "KXWTI-26SEP3014-T85.99": "2026-09-30"
   },
   "created": "2026-09-28T02:58:24+00:00",
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
-  "peak_equity": 502.21,
-  "positions": {
-    "KXWTI-26SEP3014-T85.99": {
-      "cost": 7.12,
-      "entry_price": 0.89,
+  "orders": {
+    "KXWTI-26SEP3014-T93.99": {
+      "book_at_place": {
+        "ask": 0.96,
+        "bid": 0.95
+      },
+      "end_date": "2026-09-30T18:30:00+00:00",
       "event_ticker": "KXWTI-26SEP3014",
-      "market_id": "KXWTI-26SEP3014-T85.99",
-      "opened": "2026-09-29T22:19:44+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 8,
-      "question": "Will the WTI crude oil settlement price be above 85.99 USD/Bbl on Sep 30, 2026? \u2014 Above $85.99",
+      "expires_ts": 1790785800.0,
+      "market_id": "KXWTI-26SEP3014-T93.99",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1790767233.6782992,
+      "price": 0.95,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Sep 30, 2026? \u2014 Above $93.99",
+      "reserved": 9.5,
       "rules_version": 1,
-      "slug": "kxwti-26sep3014-t85.99",
+      "slug": "kxwti-26sep3014-t93.99",
       "strategy": "favorite_discount_maker",
-      "token_id": "KXWTI-26SEP3014-T85.99:yes"
+      "token_ids": [
+        "KXWTI-26SEP3014-T93.99:yes",
+        "KXWTI-26SEP3014-T93.99:no"
+      ]
     }
   },
+  "peak_equity": 502.21,
+  "positions": {},
   "profile": "maker",
-  "realized_pnl": -7.390000000000001,
+  "realized_pnl": -6.69,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T10:20:19+00:00",
+  "updated": "2026-09-30T11:20:33+00:00",
   "venue": "kalshi"
 }
