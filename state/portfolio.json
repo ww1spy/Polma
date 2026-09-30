@@ -1,5 +1,5 @@
 {
-  "cash": 502.27000000000004,
+  "cash": 492.02000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -165,9 +165,24 @@
       "slug": "atp-lehecka-bergs-2026-09-29",
       "strategy": "favorite_discount",
       "token_id": "69456211673155010302823396085725248546018097787430087349128112291348863825681"
+    },
+    "601920": {
+      "cost": 10.25,
+      "entry_price": 0.947,
+      "event_ticker": "",
+      "market_id": "601920",
+      "opened": "2026-09-30T22:20:17+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.82,
+      "question": "Will any presidential candidate win outright in the first round of the Brazil election?",
+      "rules_version": 14,
+      "slug": "will-any-presidential-candidate-win-outright-in-the-first-round-of-the-brazil-election",
+      "strategy": "favorite_discount",
+      "token_id": "45822599979868501396582860994506290061594012396386219725082308923565779306211"
     }
   },
   "realized_pnl": 12.499999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T21:19:46+00:00"
+  "updated": "2026-09-30T22:20:17+00:00"
 }
