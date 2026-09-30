@@ -1,5 +1,5 @@
 {
-  "cash": 453.8500000000001,
+  "cash": 443.69000000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -140,7 +140,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 507.3382000000001,
+  "peak_equity": 507.84201,
   "positions": {
     "4052418": {
       "cost": 10.0,
@@ -216,9 +216,24 @@
       "slug": "us-x-iran-diplomatic-meeting-by-march-31-2027-20260922",
       "strategy": "favorite_discount",
       "token_id": "94480770786245075145527010664580997372603205700648838806218279251723651859437"
+    },
+    "5098575": {
+      "cost": 10.16,
+      "entry_price": 0.9,
+      "event_ticker": "",
+      "market_id": "5098575",
+      "opened": "2026-09-30T00:20:06+00:00",
+      "outcome": "Keegan Smith",
+      "outcome_idx": 1,
+      "qty": 11.29,
+      "question": "Columbus: Kaylan Bigun vs Keegan Smith",
+      "rules_version": 14,
+      "slug": "atp-bigun-smit-2026-09-29",
+      "strategy": "favorite_discount",
+      "token_id": "24842912621900829179576640972412956594688319158549634640467545303486025876525"
     }
   },
   "realized_pnl": 4.000000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-29T23:20:05+00:00"
+  "updated": "2026-09-30T00:20:06+00:00"
 }
