@@ -1,5 +1,5 @@
 {
-  "cash": 454.9800000000001,
+  "cash": 444.81000000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -217,9 +217,24 @@
       "slug": "us-x-iran-diplomatic-meeting-by-march-31-2027-20260922",
       "strategy": "favorite_discount",
       "token_id": "94480770786245075145527010664580997372603205700648838806218279251723651859437"
+    },
+    "4978475": {
+      "cost": 10.17,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "4978475",
+      "opened": "2026-09-30T02:20:18+00:00",
+      "outcome": "New York Yankees",
+      "outcome_idx": 1,
+      "qty": 11.7,
+      "question": "Boston Red Sox vs. New York Yankees",
+      "rules_version": 14,
+      "slug": "mlb-bos-nyy-2026-09-29",
+      "strategy": "favorite_discount",
+      "token_id": "69497169841697697466893349746299603456770203469488116666167621676197163154113"
     }
   },
   "realized_pnl": 5.130000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T01:20:00+00:00"
+  "updated": "2026-09-30T02:20:18+00:00"
 }
