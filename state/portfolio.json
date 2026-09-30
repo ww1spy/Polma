@@ -1,5 +1,5 @@
 {
-  "cash": 446.2900000000001,
+  "cash": 467.6500000000001,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -116,11 +116,13 @@
     "3128887": "2026-09-29",
     "3211543": "2026-07-30",
     "4052449": "2026-09-29",
+    "4641064": "2026-09-30",
     "4689728": "2026-09-29",
     "4689737": "2026-09-29",
     "4797508": "2026-09-28",
     "4978475": "2026-09-30",
     "5025001": "2026-09-28",
+    "5029258": "2026-09-30",
     "5098575": "2026-09-30",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
@@ -142,7 +144,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 510.4778800000001,
+  "peak_equity": 511.0984700000001,
   "positions": {
     "4052418": {
       "cost": 10.0,
@@ -158,21 +160,6 @@
       "slug": "will-bitcoin-reach-87pt5k-in-september-2026",
       "strategy": "favorite_discount",
       "token_id": "4154193998817736104851866613650963230068092479669344695639193833815805918087"
-    },
-    "4641064": {
-      "cost": 10.0,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "4641064",
-      "opened": "2026-09-28T02:58:54+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10.87,
-      "question": "US x Iran ceasefire continues through September 30?",
-      "rules_version": 14,
-      "slug": "us-x-iran-ceasefire-continues-through-september-30-20260917",
-      "strategy": "favorite_discount",
-      "token_id": "18108354744468601294025853601030425188395211927926870885542758981304523217919"
     },
     "4689727": {
       "cost": 10.07,
@@ -218,24 +205,9 @@
       "slug": "us-x-iran-diplomatic-meeting-by-march-31-2027-20260922",
       "strategy": "favorite_discount",
       "token_id": "94480770786245075145527010664580997372603205700648838806218279251723651859437"
-    },
-    "5029258": {
-      "cost": 10.21,
-      "entry_price": 0.95,
-      "event_ticker": "",
-      "market_id": "5029258",
-      "opened": "2026-09-30T03:19:58+00:00",
-      "outcome": "San Diego Padres",
-      "outcome_idx": 1,
-      "qty": 10.75,
-      "question": "Chicago Cubs vs. San Diego Padres",
-      "rules_version": 14,
-      "slug": "mlb-chc-sd-2026-09-29",
-      "strategy": "favorite_discount",
-      "token_id": "11371484360506726634231981035451326058264367263798868606244589350804150822366"
     }
   },
-  "realized_pnl": 6.65,
+  "realized_pnl": 7.799999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T03:19:58+00:00"
+  "updated": "2026-09-30T04:19:59+00:00"
 }
