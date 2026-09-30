@@ -1,5 +1,5 @@
 {
-  "cash": 405.93999999999994,
+  "cash": 370.15999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -220,11 +220,26 @@
       "slug": "kxethmaxmon-eth-26sep30-300000",
       "strategy": "favorite_discount",
       "token_id": "KXETHMAXMON-ETH-26SEP30-300000:no"
+    },
+    "KXUEFANLGAME-26OCT01AZELIE-LIE": {
+      "cost": 35.78,
+      "entry_price": 0.96,
+      "event_ticker": "KXUEFANLGAME-26OCT01AZELIE",
+      "market_id": "KXUEFANLGAME-26OCT01AZELIE-LIE",
+      "opened": "2026-09-30T16:20:02+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.16,
+      "question": "Liechtenstein wins",
+      "rules_version": 2,
+      "slug": "kxuefanlgame-26oct01azelie-lie",
+      "strategy": "favorite_discount",
+      "token_id": "KXUEFANLGAME-26OCT01AZELIE-LIE:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -54.36,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T15:20:31+00:00",
+  "updated": "2026-09-30T16:20:02+00:00",
   "venue": "kalshi"
 }
