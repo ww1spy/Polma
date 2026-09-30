@@ -148,7 +148,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 511.9565,
+  "peak_equity": 512.27066,
   "positions": {
     "4881744": {
       "cost": 10.24,
@@ -183,5 +183,5 @@
   },
   "realized_pnl": 12.079999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T18:20:00+00:00"
+  "updated": "2026-09-30T19:19:38+00:00"
 }

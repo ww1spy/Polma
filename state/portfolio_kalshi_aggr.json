@@ -1,5 +1,5 @@
 {
-  "cash": 370.15999999999997,
+  "cash": 298.59999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -206,6 +206,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB": {
+      "cost": 35.77,
+      "entry_price": 0.94,
+      "event_ticker": "KXCONCACAFNLGAME-26OCT01IVBMSR",
+      "market_id": "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB",
+      "opened": "2026-09-30T19:19:41+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.9,
+      "question": "Virgin Islands, British wins",
+      "rules_version": 2,
+      "slug": "kxconcacafnlgame-26oct01ivbmsr-ivb",
+      "strategy": "favorite_discount",
+      "token_id": "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB:no"
+    },
     "KXETHMAXMON-ETH-26SEP30-300000": {
       "cost": 39.7,
       "entry_price": 0.97,
@@ -235,11 +250,26 @@
       "slug": "kxuefanlgame-26oct01azelie-lie",
       "strategy": "favorite_discount",
       "token_id": "KXUEFANLGAME-26OCT01AZELIE-LIE:no"
+    },
+    "KXUEFANLGAME-26OCT01GERSRB-SRB": {
+      "cost": 35.79,
+      "entry_price": 0.94,
+      "event_ticker": "KXUEFANLGAME-26OCT01GERSRB",
+      "market_id": "KXUEFANLGAME-26OCT01GERSRB-SRB",
+      "opened": "2026-09-30T19:19:41+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.91,
+      "question": "Serbia wins",
+      "rules_version": 2,
+      "slug": "kxuefanlgame-26oct01gersrb-srb",
+      "strategy": "favorite_discount",
+      "token_id": "KXUEFANLGAME-26OCT01GERSRB-SRB:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -54.36,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T18:20:02+00:00",
+  "updated": "2026-09-30T19:19:41+00:00",
   "venue": "kalshi"
 }
