@@ -1,5 +1,5 @@
 {
-  "cash": 492.02000000000004,
+  "cash": 481.77000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -149,8 +149,23 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 512.4954,
+  "peak_equity": 512.6326,
   "positions": {
+    "4753005": {
+      "cost": 10.25,
+      "entry_price": 0.9,
+      "event_ticker": "",
+      "market_id": "4753005",
+      "opened": "2026-09-30T23:19:47+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 11.39,
+      "question": "Will Spain win on 2026-10-03?",
+      "rules_version": 14,
+      "slug": "unl-esp-cze-2026-10-03-esp",
+      "strategy": "favorite_discount",
+      "token_id": "82669558778913110358094713794571156910896981020728696807098234531441878239509"
+    },
     "5071550": {
       "cost": 10.23,
       "entry_price": 0.86,
@@ -184,5 +199,5 @@
   },
   "realized_pnl": 12.499999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T22:20:17+00:00"
+  "updated": "2026-09-30T23:19:47+00:00"
 }
