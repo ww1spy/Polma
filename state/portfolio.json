@@ -1,5 +1,5 @@
 {
-  "cash": 489.5200000000001,
+  "cash": 479.2900000000001,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -177,9 +177,24 @@
       "slug": "us-x-iran-diplomatic-meeting-by-march-31-2027-20260922",
       "strategy": "favorite_discount",
       "token_id": "94480770786245075145527010664580997372603205700648838806218279251723651859437"
+    },
+    "5071550": {
+      "cost": 10.23,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "5071550",
+      "opened": "2026-09-30T12:21:09+00:00",
+      "outcome": "Jiri Lehecka",
+      "outcome_idx": 0,
+      "qty": 11.89,
+      "question": "Japan Open Tennis Championships: Jiri Lehecka vs Zizou Bergs",
+      "rules_version": 14,
+      "slug": "atp-lehecka-bergs-2026-09-29",
+      "strategy": "favorite_discount",
+      "token_id": "69456211673155010302823396085725248546018097787430087349128112291348863825681"
     }
   },
   "realized_pnl": 9.599999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-09-30T11:20:26+00:00"
+  "updated": "2026-09-30T12:21:09+00:00"
 }
