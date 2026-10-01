@@ -1,5 +1,5 @@
 {
-  "cash": 155.85999999999996,
+  "cash": 120.21999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -236,6 +236,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXETHMAXMON-ETH-26SEP30-300000:no"
     },
+    "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": {
+      "cost": 35.64,
+      "entry_price": 0.9,
+      "event_ticker": "KXNCAAFSPREAD-26OCT01UNTTLSA",
+      "market_id": "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18",
+      "opened": "2026-10-01T01:20:18+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.32,
+      "question": "North Texas wins by over 17.5 points",
+      "rules_version": 2,
+      "slug": "kxncaafspread-26oct01unttlsa-unt18",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18:no"
+    },
     "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4": {
       "cost": 35.79,
       "entry_price": 0.9,
@@ -330,6 +345,6 @@
   "profile": "aggr",
   "realized_pnl": -54.36,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T00:19:40+00:00",
+  "updated": "2026-10-01T01:20:18+00:00",
   "venue": "kalshi"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 481.77000000000004,
+  "cash": 471.52000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -166,6 +166,21 @@
       "strategy": "favorite_discount",
       "token_id": "82669558778913110358094713794571156910896981020728696807098234531441878239509"
     },
+    "4909055": {
+      "cost": 10.25,
+      "entry_price": 0.937,
+      "event_ticker": "",
+      "market_id": "4909055",
+      "opened": "2026-10-01T01:20:13+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.94,
+      "question": "Will the price of Bitcoin be above $82,000 on October 1?",
+      "rules_version": 14,
+      "slug": "bitcoin-above-82k-on-october-1-2026",
+      "strategy": "favorite_discount",
+      "token_id": "100380027569541202475580670303019345322077206696715748177308600267172882864304"
+    },
     "5071550": {
       "cost": 10.23,
       "entry_price": 0.86,
@@ -199,5 +214,5 @@
   },
   "realized_pnl": 12.499999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T00:19:35+00:00"
+  "updated": "2026-10-01T01:20:13+00:00"
 }
