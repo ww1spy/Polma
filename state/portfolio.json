@@ -1,5 +1,5 @@
 {
-  "cash": 485.54,
+  "cash": 475.21000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -154,7 +154,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 516.45742,
+  "peak_equity": 516.51212,
   "positions": {
     "4753005": {
       "cost": 10.25,
@@ -186,6 +186,21 @@
       "strategy": "favorite_discount",
       "token_id": "100380027569541202475580670303019345322077206696715748177308600267172882864304"
     },
+    "5062280": {
+      "cost": 10.33,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "5062280",
+      "opened": "2026-10-01T11:21:21+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.87,
+      "question": "Will Bitcoin dip to $78,000 September 28-October 4?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-dip-to-78k-september-28-october-4-2026",
+      "strategy": "favorite_discount",
+      "token_id": "76422952591041897522282845865093204622558548645795117951020695800816454862181"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -204,5 +219,5 @@
   },
   "realized_pnl": 16.289999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T10:20:06+00:00"
+  "updated": "2026-10-01T11:21:21+00:00"
 }
