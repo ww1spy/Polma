@@ -1,5 +1,5 @@
 {
-  "cash": 120.21999999999996,
+  "cash": 157.37999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -163,6 +163,7 @@
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXTRUTHSOCIAL-26JUL25-B129": "2026-07-25",
+    "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2": "2026-09-28",
     "KXUST2AD-26JUL21-T4.29": "2026-07-21",
     "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
@@ -311,21 +312,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLTOTAL-26OCT01PITCLE-18:yes"
     },
-    "KXUEFANLGAME-26OCT01AZELIE-LIE": {
-      "cost": 35.78,
-      "entry_price": 0.96,
-      "event_ticker": "KXUEFANLGAME-26OCT01AZELIE",
-      "market_id": "KXUEFANLGAME-26OCT01AZELIE-LIE",
-      "opened": "2026-09-30T16:20:02+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.16,
-      "question": "Liechtenstein wins",
-      "rules_version": 2,
-      "slug": "kxuefanlgame-26oct01azelie-lie",
-      "strategy": "favorite_discount",
-      "token_id": "KXUEFANLGAME-26OCT01AZELIE-LIE:no"
-    },
     "KXUEFANLGAME-26OCT01GERSRB-SRB": {
       "cost": 35.79,
       "entry_price": 0.94,
@@ -343,8 +329,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -54.36,
+  "realized_pnl": -52.980000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T17:19:57+00:00",
+  "updated": "2026-10-01T18:20:07+00:00",
   "venue": "kalshi"
 }
