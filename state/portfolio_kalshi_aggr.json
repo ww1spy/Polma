@@ -1,5 +1,5 @@
 {
-  "cash": 157.37999999999994,
+  "cash": 194.87999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -164,6 +164,7 @@
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXTRUTHSOCIAL-26JUL25-B129": "2026-07-25",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
+    "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
     "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2": "2026-09-28",
     "KXUST2AD-26JUL21-T4.29": "2026-07-21",
     "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
@@ -311,26 +312,11 @@
       "slug": "kxnfltotal-26oct01pitcle-18",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTOTAL-26OCT01PITCLE-18:yes"
-    },
-    "KXUEFANLGAME-26OCT01GERSRB-SRB": {
-      "cost": 35.79,
-      "entry_price": 0.94,
-      "event_ticker": "KXUEFANLGAME-26OCT01GERSRB",
-      "market_id": "KXUEFANLGAME-26OCT01GERSRB-SRB",
-      "opened": "2026-09-30T19:19:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.91,
-      "question": "Serbia wins",
-      "rules_version": 2,
-      "slug": "kxuefanlgame-26oct01gersrb-srb",
-      "strategy": "favorite_discount",
-      "token_id": "KXUEFANLGAME-26OCT01GERSRB-SRB:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -52.980000000000004,
+  "realized_pnl": -51.27,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T19:20:22+00:00",
+  "updated": "2026-10-01T20:20:32+00:00",
   "venue": "kalshi"
 }

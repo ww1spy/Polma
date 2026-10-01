@@ -1,5 +1,5 @@
 {
-  "cash": 486.02000000000004,
+  "cash": 475.68000000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -187,6 +187,21 @@
       "strategy": "favorite_discount",
       "token_id": "76422952591041897522282845865093204622558548645795117951020695800816454862181"
     },
+    "5166063": {
+      "cost": 10.34,
+      "entry_price": 0.916,
+      "event_ticker": "",
+      "market_id": "5166063",
+      "opened": "2026-10-01T20:20:26+00:00",
+      "outcome": "Luis Guto Miguel",
+      "outcome_idx": 1,
+      "qty": 11.29,
+      "question": "Curitiba: Joao Eduardo Schiessl vs Luis Guto Miguel",
+      "rules_version": 14,
+      "slug": "atp-schiess-miguel-2026-10-01",
+      "strategy": "favorite_discount",
+      "token_id": "108452666964246524335330493382201147787245806755460196397595727316956354071257"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -205,5 +220,5 @@
   },
   "realized_pnl": 16.849999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T19:20:16+00:00"
+  "updated": "2026-10-01T20:20:26+00:00"
 }
