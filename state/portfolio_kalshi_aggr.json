@@ -1,5 +1,5 @@
 {
-  "cash": 194.87999999999994,
+  "cash": 273.19999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -23,6 +23,7 @@
     "KXBRENTW-26JUL1717-T93.99": "2026-07-17",
     "KXBRENTW-26JUL2417-T96.99": "2026-07-24",
     "KXCBDECISIONKOREA-26JUL15-HOLD": "2026-07-16",
+    "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB": "2026-10-01",
     "KXCOPPERD-26JUL2317-T6.76": "2026-07-23",
     "KXCPI-26JUN-T0.0": "2026-07-14",
     "KXCPICOMBO-26JUN-0302": "2026-07-14",
@@ -34,6 +35,7 @@
     "KXCS2GAME-26JUL241100LIQVIT-LIQ": "2026-07-24",
     "KXDOTA2GAME-26JUL230300Z10DAN-DAN": "2026-07-23",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
+    "KXETHMAXMON-ETH-26SEP30-300000": "2026-10-01",
     "KXFEATURE-26DAU-BON": "2026-07-17",
     "KXHIGHAUS-26JUL21-T102": "2026-07-21",
     "KXHIGHCHI-26JUL14-T94": "2026-07-14",
@@ -208,36 +210,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB": {
-      "cost": 35.77,
-      "entry_price": 0.94,
-      "event_ticker": "KXCONCACAFNLGAME-26OCT01IVBMSR",
-      "market_id": "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB",
-      "opened": "2026-09-30T19:19:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.9,
-      "question": "Virgin Islands, British wins",
-      "rules_version": 2,
-      "slug": "kxconcacafnlgame-26oct01ivbmsr-ivb",
-      "strategy": "favorite_discount",
-      "token_id": "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB:no"
-    },
-    "KXETHMAXMON-ETH-26SEP30-300000": {
-      "cost": 39.7,
-      "entry_price": 0.97,
-      "event_ticker": "KXETHMAXMON-ETH-26SEP30",
-      "market_id": "KXETHMAXMON-ETH-26SEP30-300000",
-      "opened": "2026-09-28T04:21:08+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.83,
-      "question": "Will ETH trimmed mean be above $3000.00 by 11:59 PM ET on Sep 30, 2026? \u2014 Above $3,000.00",
-      "rules_version": 2,
-      "slug": "kxethmaxmon-eth-26sep30-300000",
-      "strategy": "favorite_discount",
-      "token_id": "KXETHMAXMON-ETH-26SEP30-300000:no"
-    },
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": {
       "cost": 35.64,
       "entry_price": 0.9,
@@ -315,8 +287,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -51.27,
+  "realized_pnl": -48.42000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T20:20:32+00:00",
+  "updated": "2026-10-01T21:19:44+00:00",
   "venue": "kalshi"
 }
