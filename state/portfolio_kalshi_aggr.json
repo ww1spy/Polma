@@ -1,5 +1,5 @@
 {
-  "cash": 273.19999999999993,
+  "cash": 201.38999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -225,6 +225,36 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18:no"
     },
+    "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": {
+      "cost": 35.89,
+      "entry_price": 0.92,
+      "event_ticker": "KXNCAAFSPREAD-26OCT02LIBDEL",
+      "market_id": "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28",
+      "opened": "2026-10-01T23:20:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.79,
+      "question": "Liberty wins by over 27.5 points",
+      "rules_version": 2,
+      "slug": "kxncaafspread-26oct02libdel-lib28",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28:no"
+    },
+    "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": {
+      "cost": 35.92,
+      "entry_price": 0.9,
+      "event_ticker": "KXNCAAFSPREAD-26OCT02PITTVT",
+      "market_id": "KXNCAAFSPREAD-26OCT02PITTVT-PITT15",
+      "opened": "2026-10-01T23:20:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.64,
+      "question": "Pittsburgh wins by over 14.5 points",
+      "rules_version": 2,
+      "slug": "kxncaafspread-26oct02pittvt-pitt15",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFSPREAD-26OCT02PITTVT-PITT15:no"
+    },
     "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4": {
       "cost": 35.79,
       "entry_price": 0.9,
@@ -289,6 +319,6 @@
   "profile": "aggr",
   "realized_pnl": -48.42000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T22:20:24+00:00",
+  "updated": "2026-10-01T23:20:13+00:00",
   "venue": "kalshi"
 }
