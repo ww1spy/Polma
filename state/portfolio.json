@@ -1,5 +1,5 @@
 {
-  "cash": 471.52000000000004,
+  "cash": 451.02000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -181,6 +181,21 @@
       "strategy": "favorite_discount",
       "token_id": "100380027569541202475580670303019345322077206696715748177308600267172882864304"
     },
+    "5029261": {
+      "cost": 10.25,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "5029261",
+      "opened": "2026-10-01T04:19:50+00:00",
+      "outcome": "San Diego Padres",
+      "outcome_idx": 1,
+      "qty": 10.68,
+      "question": "Chicago Cubs vs. San Diego Padres",
+      "rules_version": 14,
+      "slug": "mlb-chc-sd-2026-09-30",
+      "strategy": "favorite_discount",
+      "token_id": "79454439942177959189628380852814669891218098664921952600767211758112140027347"
+    },
     "5071550": {
       "cost": 10.23,
       "entry_price": 0.86,
@@ -195,6 +210,21 @@
       "slug": "atp-lehecka-bergs-2026-09-29",
       "strategy": "favorite_discount",
       "token_id": "69456211673155010302823396085725248546018097787430087349128112291348863825681"
+    },
+    "5130744": {
+      "cost": 10.25,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5130744",
+      "opened": "2026-10-01T04:19:50+00:00",
+      "outcome": "Qinwen Zheng",
+      "outcome_idx": 0,
+      "qty": 11.02,
+      "question": "China Open: Qinwen Zheng vs Han Shi",
+      "rules_version": 14,
+      "slug": "wta-zhen-shi-2026-09-30",
+      "strategy": "favorite_discount",
+      "token_id": "66116746648514362017405132189502436649893091852234626831397651770482538809030"
     },
     "601920": {
       "cost": 10.25,
@@ -214,5 +244,5 @@
   },
   "realized_pnl": 12.499999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T03:20:16+00:00"
+  "updated": "2026-10-01T04:19:50+00:00"
 }
