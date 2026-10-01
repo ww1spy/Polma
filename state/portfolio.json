@@ -1,5 +1,5 @@
 {
-  "cash": 451.02000000000004,
+  "cash": 440.83000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -211,6 +211,21 @@
       "strategy": "favorite_discount",
       "token_id": "69456211673155010302823396085725248546018097787430087349128112291348863825681"
     },
+    "5121584": {
+      "cost": 10.19,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "5121584",
+      "opened": "2026-10-01T05:20:17+00:00",
+      "outcome": "Stefanos Tsitsipas",
+      "outcome_idx": 1,
+      "qty": 10.62,
+      "question": "Japan Open Tennis Championships: Tomas Etcheverry vs Stefanos Tsitsipas",
+      "rules_version": 14,
+      "slug": "atp-etcheve-tsitsip-2026-09-29",
+      "strategy": "favorite_discount",
+      "token_id": "83729356339627286691619389872571915409480232048002573302164945376010521741900"
+    },
     "5130744": {
       "cost": 10.25,
       "entry_price": 0.93,
@@ -244,5 +259,5 @@
   },
   "realized_pnl": 12.499999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-01T04:19:50+00:00"
+  "updated": "2026-10-01T05:20:17+00:00"
 }
