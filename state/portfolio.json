@@ -1,5 +1,5 @@
 {
-  "cash": 458.65000000000003,
+  "cash": 448.24,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -162,7 +162,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 520.3842,
+  "peak_equity": 520.49148,
   "positions": {
     "4753005": {
       "cost": 10.25,
@@ -239,6 +239,21 @@
       "strategy": "favorite_discount",
       "token_id": "3335910203166495858921739073043249550941780270663229234515870139988296462409"
     },
+    "5174093": {
+      "cost": 10.41,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5174093",
+      "opened": "2026-10-02T22:19:38+00:00",
+      "outcome": "Carlos Alcaraz",
+      "outcome_idx": 0,
+      "qty": 11.19,
+      "question": "Japan Open Tennis Championships: Carlos Alcaraz vs Matteo Arnaldi",
+      "rules_version": 14,
+      "slug": "atp-alcaraz-arnaldi-2026-10-02",
+      "strategy": "favorite_discount",
+      "token_id": "66349530400807717097399570386501987368487592342382399876606367092033808089140"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -257,5 +272,5 @@
   },
   "realized_pnl": 20.709999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T21:20:16+00:00"
+  "updated": "2026-10-02T22:19:38+00:00"
 }
