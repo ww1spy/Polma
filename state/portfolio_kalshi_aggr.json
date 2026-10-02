@@ -1,5 +1,5 @@
 {
-  "cash": 237.62999999999994,
+  "cash": 201.41999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -300,11 +300,26 @@
       "slug": "kxnfltd-26oct01pitcle-pitarodgers8-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1:no"
+    },
+    "KXWNBA1QWINNER-26OCT02DALGS-TIE": {
+      "cost": 36.21,
+      "entry_price": 0.94,
+      "event_ticker": "KXWNBA1QWINNER-26OCT02DALGS",
+      "market_id": "KXWNBA1QWINNER-26OCT02DALGS-TIE",
+      "opened": "2026-10-02T02:20:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.35,
+      "question": "Tie wins the 1st quarter",
+      "rules_version": 2,
+      "slug": "kxwnba1qwinner-26oct02dalgs-tie",
+      "strategy": "favorite_discount",
+      "token_id": "KXWNBA1QWINNER-26OCT02DALGS-TIE:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -47.800000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T01:20:02+00:00",
+  "updated": "2026-10-02T02:20:03+00:00",
   "venue": "kalshi"
 }

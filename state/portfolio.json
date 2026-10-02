@@ -1,5 +1,5 @@
 {
-  "cash": 486.9700000000001,
+  "cash": 476.61000000000007,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -156,7 +156,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 518.14098,
+  "peak_equity": 518.19533,
   "positions": {
     "4753005": {
       "cost": 10.25,
@@ -188,6 +188,21 @@
       "strategy": "favorite_discount",
       "token_id": "76422952591041897522282845865093204622558548645795117951020695800816454862181"
     },
+    "5073589": {
+      "cost": 10.36,
+      "entry_price": 0.968,
+      "event_ticker": "",
+      "market_id": "5073589",
+      "opened": "2026-10-02T02:19:59+00:00",
+      "outcome": "Atlanta Braves",
+      "outcome_idx": 1,
+      "qty": 10.71,
+      "question": "Philadelphia Phillies vs. Atlanta Braves",
+      "rules_version": 14,
+      "slug": "mlb-phi-atl-2026-10-01",
+      "strategy": "favorite_discount",
+      "token_id": "38483503806063795439135524943230451704108442716387421367040526416619456752509"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -206,5 +221,5 @@
   },
   "realized_pnl": 17.799999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T01:19:57+00:00"
+  "updated": "2026-10-02T02:19:59+00:00"
 }
