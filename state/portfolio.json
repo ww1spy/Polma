@@ -1,5 +1,5 @@
 {
-  "cash": 479.46000000000004,
+  "cash": 469.06000000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -179,6 +179,21 @@
       "strategy": "favorite_discount",
       "token_id": "82669558778913110358094713794571156910896981020728696807098234531441878239509"
     },
+    "5062265": {
+      "cost": 10.4,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "5062265",
+      "opened": "2026-10-02T20:19:58+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.94,
+      "question": "Will Bitcoin reach $88,000 September 28-October 4?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-reach-88k-september-28-october-4-2026",
+      "strategy": "favorite_discount",
+      "token_id": "68869826787113255143118292802496532418095628685331223362842090736141056850968"
+    },
     "5062275": {
       "cost": 10.37,
       "entry_price": 0.958,
@@ -227,5 +242,5 @@
   },
   "realized_pnl": 20.709999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T19:19:33+00:00"
+  "updated": "2026-10-02T20:19:58+00:00"
 }
