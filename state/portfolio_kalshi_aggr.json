@@ -1,5 +1,5 @@
 {
-  "cash": 201.38999999999993,
+  "cash": 237.62999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -131,6 +131,7 @@
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": "2026-09-29",
     "KXNFLTEAMTOTAL-26SEP28PHICHI-PHI8": "2026-09-29",
+    "KXNFLTOTAL-26OCT01PITCLE-18": "2026-10-02",
     "KXNFLTOTAL-26SEP28PHICHI-66": "2026-09-29",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXNPBGAME-26JUL210500HIRYOM-YOM": "2026-07-21",
@@ -299,26 +300,11 @@
       "slug": "kxnfltd-26oct01pitcle-pitarodgers8-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1:no"
-    },
-    "KXNFLTOTAL-26OCT01PITCLE-18": {
-      "cost": 35.62,
-      "entry_price": 0.97,
-      "event_ticker": "KXNFLTOTAL-26OCT01PITCLE",
-      "market_id": "KXNFLTOTAL-26OCT01PITCLE-18",
-      "opened": "2026-10-01T00:19:39+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 36.64,
-      "question": "Full Game: over 17.5 points scored? \u2014 Over 17.5 points",
-      "rules_version": 2,
-      "slug": "kxnfltotal-26oct01pitcle-18",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTOTAL-26OCT01PITCLE-18:yes"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -48.42000000000001,
+  "realized_pnl": -47.800000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T00:19:47+00:00",
+  "updated": "2026-10-02T01:20:02+00:00",
   "venue": "kalshi"
 }
