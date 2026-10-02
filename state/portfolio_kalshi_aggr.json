@@ -1,5 +1,5 @@
 {
-  "cash": 201.41999999999993,
+  "cash": 314.86999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -114,6 +114,7 @@
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
     "KXNASDAQ100-26JUL21H1600-B29450": "2026-07-21",
     "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": "2026-07-16",
+    "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIE-26JUL20-SHI": "2026-07-21",
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": "2026-07-14",
@@ -125,10 +126,12 @@
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": "2026-07-14",
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": "2026-07-21",
     "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": "2026-09-29",
+    "KXNFLOT-26OCT01PITCLE-Y": "2026-10-02",
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": "2026-09-29",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
+    "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": "2026-10-02",
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": "2026-09-29",
     "KXNFLTEAMTOTAL-26SEP28PHICHI-PHI8": "2026-09-29",
     "KXNFLTOTAL-26OCT01PITCLE-18": "2026-10-02",
@@ -211,21 +214,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": {
-      "cost": 35.64,
-      "entry_price": 0.9,
-      "event_ticker": "KXNCAAFSPREAD-26OCT01UNTTLSA",
-      "market_id": "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18",
-      "opened": "2026-10-01T01:20:18+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.32,
-      "question": "North Texas wins by over 17.5 points",
-      "rules_version": 2,
-      "slug": "kxncaafspread-26oct01unttlsa-unt18",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18:no"
-    },
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": {
       "cost": 35.89,
       "entry_price": 0.92,
@@ -271,36 +259,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4:no"
     },
-    "KXNFLOT-26OCT01PITCLE-Y": {
-      "cost": 35.65,
-      "entry_price": 0.95,
-      "event_ticker": "KXNFLOT-26OCT01PITCLE",
-      "market_id": "KXNFLOT-26OCT01PITCLE-Y",
-      "opened": "2026-10-01T00:19:40+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.39,
-      "question": "Pittsburgh vs Cleveland goes to overtime? \u2014 Game goes to overtime",
-      "rules_version": 2,
-      "slug": "kxnflot-26oct01pitcle-y",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLOT-26OCT01PITCLE-Y:no"
-    },
-    "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": {
-      "cost": 35.68,
-      "entry_price": 0.95,
-      "event_ticker": "KXNFLTD-26OCT01PITCLE",
-      "market_id": "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1",
-      "opened": "2026-10-01T00:19:39+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.42,
-      "question": "Aaron Rodgers: 1+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct01pitcle-pitarodgers8-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1:no"
-    },
     "KXWNBA1QWINNER-26OCT02DALGS-TIE": {
       "cost": 36.21,
       "entry_price": 0.94,
@@ -318,8 +276,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -47.800000000000004,
+  "realized_pnl": -41.32,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T03:20:21+00:00",
+  "updated": "2026-10-02T04:19:44+00:00",
   "venue": "kalshi"
 }
