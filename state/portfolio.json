@@ -1,5 +1,5 @@
 {
-  "cash": 467.36,
+  "cash": 467.98,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -131,6 +131,7 @@
     "5029249": "2026-10-02",
     "5029258": "2026-09-30",
     "5029261": "2026-10-01",
+    "5062249": "2026-10-02",
     "5062280": "2026-10-02",
     "5071550": "2026-10-01",
     "5071559": "2026-10-01",
@@ -159,7 +160,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 519.25504,
+  "peak_equity": 519.8534999999999,
   "positions": {
     "4753005": {
       "cost": 10.25,
@@ -175,21 +176,6 @@
       "slug": "unl-esp-cze-2026-10-03-esp",
       "strategy": "favorite_discount",
       "token_id": "82669558778913110358094713794571156910896981020728696807098234531441878239509"
-    },
-    "5062249": {
-      "cost": 10.35,
-      "entry_price": 0.9236,
-      "event_ticker": "",
-      "market_id": "5062249",
-      "opened": "2026-10-02T05:20:12+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.2,
-      "question": "Will Bitcoin reach $92,000 September 28-October 4?",
-      "rules_version": 14,
-      "slug": "will-bitcoin-reach-92k-september-28-october-4-2026",
-      "strategy": "favorite_discount",
-      "token_id": "43781104073731603073714281241880322357794543585981634512734293155115306072390"
     },
     "5062258": {
       "cost": 10.37,
@@ -221,6 +207,21 @@
       "strategy": "favorite_discount",
       "token_id": "25278368631432527818919690763717291018235343343095921628219470792926142097507"
     },
+    "5165125": {
+      "cost": 10.4,
+      "entry_price": 0.949,
+      "event_ticker": "",
+      "market_id": "5165125",
+      "opened": "2026-10-02T15:20:13+00:00",
+      "outcome": "Leolia Jeanjean",
+      "outcome_idx": 0,
+      "qty": 10.96,
+      "question": "Adana: Leolia Jeanjean vs Lucrezia Stefanini",
+      "rules_version": 14,
+      "slug": "wta-jeanjea-stefani-2026-10-02",
+      "strategy": "favorite_discount",
+      "token_id": "86689805054429664645389757269143049794351213437990627993766120332792974706476"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -237,7 +238,7 @@
       "token_id": "45822599979868501396582860994506290061594012396386219725082308923565779306211"
     }
   },
-  "realized_pnl": 18.949999999999996,
+  "realized_pnl": 19.619999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T14:20:55+00:00"
+  "updated": "2026-10-02T15:20:13+00:00"
 }
