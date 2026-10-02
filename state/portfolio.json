@@ -1,5 +1,5 @@
 {
-  "cash": 477.31,
+  "cash": 456.57,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -175,6 +175,21 @@
       "strategy": "favorite_discount",
       "token_id": "82669558778913110358094713794571156910896981020728696807098234531441878239509"
     },
+    "5029249": {
+      "cost": 10.37,
+      "entry_price": 0.959,
+      "event_ticker": "",
+      "market_id": "5029249",
+      "opened": "2026-10-02T13:20:51+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.81,
+      "question": "Will Bolivia vs. Gambia end in a draw?",
+      "rules_version": 14,
+      "slug": "fif-bol-gam-2026-10-04-draw",
+      "strategy": "favorite_discount",
+      "token_id": "96376962445008068096488995405745457120981310098511298305652187120533560331153"
+    },
     "5062249": {
       "cost": 10.35,
       "entry_price": 0.9236,
@@ -205,6 +220,21 @@
       "strategy": "favorite_discount",
       "token_id": "3317112755378030214403015686780030465175356900079846233648551758283585011434"
     },
+    "5062275": {
+      "cost": 10.37,
+      "entry_price": 0.958,
+      "event_ticker": "",
+      "market_id": "5062275",
+      "opened": "2026-10-02T13:20:51+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.82,
+      "question": "Will Bitcoin dip to $82,000 September 28-October 4?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-dip-to-82k-september-28-october-4-2026",
+      "strategy": "favorite_discount",
+      "token_id": "25278368631432527818919690763717291018235343343095921628219470792926142097507"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -223,5 +253,5 @@
   },
   "realized_pnl": 18.529999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T12:21:34+00:00"
+  "updated": "2026-10-02T13:20:51+00:00"
 }
