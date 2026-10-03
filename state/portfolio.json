@@ -1,5 +1,5 @@
 {
-  "cash": 448.52,
+  "cash": 438.09999999999997,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -255,6 +255,21 @@
       "strategy": "favorite_discount",
       "token_id": "12058310690118746516250999453283218664977939406683118402152250322278479275588"
     },
+    "5180467": {
+      "cost": 10.42,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "5180467",
+      "opened": "2026-10-03T05:20:01+00:00",
+      "outcome": "Iga Swiatek",
+      "outcome_idx": 1,
+      "qty": 10.85,
+      "question": "China Open: Xinyu Gao vs Iga Swiatek",
+      "rules_version": 14,
+      "slug": "wta-gao-swiatek-2026-10-02",
+      "strategy": "favorite_discount",
+      "token_id": "110229039677637785339213540354982024068945977237401491585455086577959746598123"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -273,5 +288,5 @@
   },
   "realized_pnl": 21.039999999999992,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T04:19:33+00:00"
+  "updated": "2026-10-03T05:20:01+00:00"
 }
