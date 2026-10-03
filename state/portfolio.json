@@ -1,5 +1,5 @@
 {
-  "cash": 458.95,
+  "cash": 448.52,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -163,7 +163,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 521.0595599999999,
+  "peak_equity": 521.3764,
   "positions": {
     "4753005": {
       "cost": 10.25,
@@ -240,6 +240,21 @@
       "strategy": "favorite_discount",
       "token_id": "66349530400807717097399570386501987368487592342382399876606367092033808089140"
     },
+    "5180465": {
+      "cost": 10.43,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "5180465",
+      "opened": "2026-10-03T04:19:33+00:00",
+      "outcome": "Coco Gauff",
+      "outcome_idx": 0,
+      "qty": 10.98,
+      "question": "China Open: Coco Gauff vs Camila Osorio",
+      "rules_version": 14,
+      "slug": "wta-gauff-osorio-2026-10-02",
+      "strategy": "favorite_discount",
+      "token_id": "12058310690118746516250999453283218664977939406683118402152250322278479275588"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -258,5 +273,5 @@
   },
   "realized_pnl": 21.039999999999992,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T03:19:57+00:00"
+  "updated": "2026-10-03T04:19:33+00:00"
 }
