@@ -1,5 +1,5 @@
 {
-  "cash": 462.5600000000001,
+  "cash": 441.52000000000015,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -215,6 +215,21 @@
       "strategy": "favorite_discount",
       "token_id": "3335910203166495858921739073043249550941780270663229234515870139988296462409"
     },
+    "5130977": {
+      "cost": 10.52,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "5130977",
+      "opened": "2026-10-03T10:20:05+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 11.19,
+      "question": "US x Iran ceasefire continues through October 7?",
+      "rules_version": 14,
+      "slug": "us-x-iran-ceasefire-continues-through-october-7",
+      "strategy": "favorite_discount",
+      "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
+    },
     "5173046": {
       "cost": 10.52,
       "entry_price": 0.95,
@@ -229,6 +244,21 @@
       "slug": "wta-rybakin-charaev-2026-10-01",
       "strategy": "favorite_discount",
       "token_id": "92950307019870616620675135300665249567039973241868573379012728195985454166755"
+    },
+    "5174085": {
+      "cost": 10.52,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5174085",
+      "opened": "2026-10-03T10:20:05+00:00",
+      "outcome": "Alexander Zverev",
+      "outcome_idx": 0,
+      "qty": 11.31,
+      "question": "China Open: Alexander Zverev vs Juncheng Shang",
+      "rules_version": 14,
+      "slug": "atp-zverev-shang-2026-10-01",
+      "strategy": "favorite_discount",
+      "token_id": "47419585861092674193712418094578152477267395704830776819113789402556426412813"
     },
     "5202250": {
       "cost": 10.52,
@@ -263,5 +293,5 @@
   },
   "realized_pnl": 24.879999999999992,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T09:19:36+00:00"
+  "updated": "2026-10-03T10:20:05+00:00"
 }
