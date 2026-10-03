@@ -1,5 +1,5 @@
 {
-  "cash": 484.90999999999985,
+  "cash": 475.11999999999983,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-FOR-93": "2026-09-28",
@@ -17,7 +17,35 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
+  "orders": {
+    "KXRT-DIG-52": {
+      "book_at_place": {
+        "ask": 0.9,
+        "bid": 0.88
+      },
+      "end_date": "2026-10-05T14:00:00+00:00",
+      "event_ticker": "KXRT-DIG",
+      "expires_ts": 1791130821.4016008,
+      "market_id": "KXRT-DIG-52",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1791044421.4016008,
+      "price": 0.89,
+      "qty": 11,
+      "question": "Digger Rotten Tomatoes score? \u2014 Above 52",
+      "reserved": 9.79,
+      "rules_version": 1,
+      "slug": "kxrt-dig-52",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-DIG-52:yes",
+        "KXRT-DIG-52:no"
+      ]
+    }
+  },
   "peak_equity": 502.21,
   "positions": {
     "KXRT-VER-35": {
@@ -54,6 +82,6 @@
   "profile": "maker",
   "realized_pnl": -4.36,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T15:19:56+00:00",
+  "updated": "2026-10-03T16:20:21+00:00",
   "venue": "kalshi"
 }
