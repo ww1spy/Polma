@@ -1,5 +1,5 @@
 {
-  "cash": 494.1999999999999,
+  "cash": 484.40999999999985,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-FOR-93": "2026-09-28",
@@ -16,7 +16,35 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
+  "orders": {
+    "KXRT-VER-35": {
+      "book_at_place": {
+        "ask": 0.9,
+        "bid": 0.89
+      },
+      "end_date": "2026-10-05T14:00:00+00:00",
+      "event_ticker": "KXRT-VER",
+      "expires_ts": 1791076782.7428641,
+      "market_id": "KXRT-VER-35",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1790990382.7428641,
+      "price": 0.89,
+      "qty": 11,
+      "question": "Verity Rotten Tomatoes score? \u2014 Above 35",
+      "reserved": 9.79,
+      "rules_version": 1,
+      "slug": "kxrt-ver-35",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-VER-35:yes",
+        "KXRT-VER-35:no"
+      ]
+    }
+  },
   "peak_equity": 502.21,
   "positions": {
     "KXTRUMPSAY-26OCT05-PEAC": {
@@ -38,6 +66,6 @@
   "profile": "maker",
   "realized_pnl": -4.86,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T00:20:03+00:00",
+  "updated": "2026-10-03T01:19:42+00:00",
   "venue": "kalshi"
 }
