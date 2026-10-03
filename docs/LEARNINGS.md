@@ -315,6 +315,15 @@ only when result is yes/no. The maker WTI settle was reversed
 (SETTLE_REVERSED event; scorecard skips reversed settles). Historical aggr
 numbers carry this noise — small next to that book's real losses.
 
+**S9. The live account cannot trade the live include-list (found 2026-10-03).**
+Since 2026-08-21 Kalshi rejects (403) new positions from this account in
+Sports, Elections and Entertainment (state-residency compliance notice;
+see commit afc37dc). The only live family, KXWT20MATCH, is Sports — its
+first in-band candidate since August (2026-10-03, WIN vs ZIM) was rejected
+twice. RT was Entertainment. Any live family must come from an allowed
+category (e.g. Mentions, Commodities, Climate and Weather, Crypto,
+Economics); research on Sports/Entertainment families cannot go live.
+
 ## Current state (as of 2026-09-28, rules v14)
 
 - **Live (Kalshi):** ~$97, include-list KXWT20MATCH only, 5% sizing; idle
