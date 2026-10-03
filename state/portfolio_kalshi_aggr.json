@@ -1,5 +1,5 @@
 {
-  "cash": 244.67999999999998,
+  "cash": 284.32,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -116,6 +116,7 @@
     "KXNBASUMMER1HSPREAD-26JUL15UTASAS-UTA3": "2026-07-16",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
+    "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIE-26JUL20-SHI": "2026-07-21",
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": "2026-07-14",
@@ -261,21 +262,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26OCT03VANUGA-UGA:yes"
     },
-    "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": {
-      "cost": 35.92,
-      "entry_price": 0.9,
-      "event_ticker": "KXNCAAFSPREAD-26OCT02PITTVT",
-      "market_id": "KXNCAAFSPREAD-26OCT02PITTVT-PITT15",
-      "opened": "2026-10-01T23:20:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.64,
-      "question": "Pittsburgh wins by over 14.5 points",
-      "rules_version": 2,
-      "slug": "kxncaafspread-26oct02pittvt-pitt15",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFSPREAD-26OCT02PITTVT-PITT15:no"
-    },
     "KXNCAAFSPREAD-26OCT03MICHMINN-MICH25": {
       "cost": 36.76,
       "entry_price": 0.92,
@@ -308,8 +294,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -37.11000000000001,
+  "realized_pnl": -33.39000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T02:19:36+00:00",
+  "updated": "2026-10-03T03:20:02+00:00",
   "venue": "kalshi"
 }
