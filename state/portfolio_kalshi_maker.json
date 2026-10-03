@@ -1,6 +1,7 @@
 {
-  "cash": 484.4199999999999,
+  "cash": 494.1999999999999,
   "cooldowns": {
+    "KXRT-DIG-48": "2026-10-03",
     "KXRT-FOR-93": "2026-09-28",
     "KXRT-PRI-86": "2026-09-28",
     "KXRT-VER-40": "2026-10-02",
@@ -18,21 +19,6 @@
   "orders": {},
   "peak_equity": 502.21,
   "positions": {
-    "KXRT-DIG-48": {
-      "cost": 9.6,
-      "entry_price": 0.96,
-      "event_ticker": "KXRT-DIG",
-      "market_id": "KXRT-DIG-48",
-      "opened": "2026-10-02T18:20:25+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10,
-      "question": "Digger Rotten Tomatoes score? \u2014 Above 48",
-      "rules_version": 1,
-      "slug": "kxrt-dig-48",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-DIG-48:yes"
-    },
     "KXTRUMPSAY-26OCT05-PEAC": {
       "cost": 0.94,
       "entry_price": 0.94,
@@ -50,8 +36,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": -5.04,
+  "realized_pnl": -4.86,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-02T23:21:30+00:00",
+  "updated": "2026-10-03T00:20:03+00:00",
   "venue": "kalshi"
 }
