@@ -1,10 +1,11 @@
 {
-  "cash": 474.90999999999985,
+  "cash": 484.90999999999985,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-FOR-93": "2026-09-28",
     "KXRT-PRI-86": "2026-09-28",
     "KXRT-VER-40": "2026-10-02",
+    "KXWT20MATCH-26OCT030700WINZIM-ZIM": "2026-10-03",
     "KXWTI-26OCT0114-T88.99": "2026-10-01",
     "KXWTI-26OCT0114-T93.99": "2026-10-01",
     "KXWTI-26SEP2814-T96.99": "2026-09-28",
@@ -48,26 +49,11 @@
       "slug": "kxtrumpsay-26oct05-peac",
       "strategy": "favorite_discount_maker",
       "token_id": "KXTRUMPSAY-26OCT05-PEAC:no"
-    },
-    "KXWT20MATCH-26OCT030700WINZIM-ZIM": {
-      "cost": 9.5,
-      "entry_price": 0.95,
-      "event_ticker": "KXWT20MATCH-26OCT030700WINZIM",
-      "market_id": "KXWT20MATCH-26OCT030700WINZIM-ZIM",
-      "opened": "2026-10-03T13:20:14+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10,
-      "question": "Zimbabwe wins",
-      "rules_version": 1,
-      "slug": "kxwt20match-26oct030700winzim-zim",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXWT20MATCH-26OCT030700WINZIM-ZIM:no"
     }
   },
   "profile": "maker",
-  "realized_pnl": -4.86,
+  "realized_pnl": -4.36,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T13:20:15+00:00",
+  "updated": "2026-10-03T14:19:57+00:00",
   "venue": "kalshi"
 }
