@@ -1,5 +1,5 @@
 {
-  "cash": 134.92,
+  "cash": 98.03999999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -292,6 +292,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4:no"
     },
+    "KXNFLFIRSTTD-26OCT04INDWAS-WASAWILLIAMS14": {
+      "cost": 36.88,
+      "entry_price": 0.97,
+      "event_ticker": "KXNFLFIRSTTD-26OCT04INDWAS",
+      "market_id": "KXNFLFIRSTTD-26OCT04INDWAS-WASAWILLIAMS14",
+      "opened": "2026-10-03T15:19:52+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.93,
+      "question": "Antonio Williams: 1st Touchdown",
+      "rules_version": 2,
+      "slug": "kxnflfirsttd-26oct04indwas-wasawilliams14",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLFIRSTTD-26OCT04INDWAS-WASAWILLIAMS14:no"
+    },
     "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60": {
       "cost": 37.31,
       "entry_price": 0.9377,
@@ -356,6 +371,6 @@
   "profile": "aggr",
   "realized_pnl": -33.39000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T14:19:53+00:00",
+  "updated": "2026-10-03T15:19:52+00:00",
   "venue": "kalshi"
 }
