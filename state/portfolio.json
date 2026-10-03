@@ -1,5 +1,5 @@
 {
-  "cash": 483.6000000000001,
+  "cash": 462.5600000000001,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -168,7 +168,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 525.77962,
+  "peak_equity": 525.89864,
   "positions": {
     "4753005": {
       "cost": 10.25,
@@ -215,6 +215,36 @@
       "strategy": "favorite_discount",
       "token_id": "3335910203166495858921739073043249550941780270663229234515870139988296462409"
     },
+    "5173046": {
+      "cost": 10.52,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "5173046",
+      "opened": "2026-10-03T09:19:36+00:00",
+      "outcome": "Elena Rybakina",
+      "outcome_idx": 0,
+      "qty": 11.07,
+      "question": "China Open: Elena Rybakina vs Alina Charaeva",
+      "rules_version": 14,
+      "slug": "wta-rybakin-charaev-2026-10-01",
+      "strategy": "favorite_discount",
+      "token_id": "92950307019870616620675135300665249567039973241868573379012728195985454166755"
+    },
+    "5202250": {
+      "cost": 10.52,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "5202250",
+      "opened": "2026-10-03T09:19:36+00:00",
+      "outcome": "Daniil Medvedev",
+      "outcome_idx": 0,
+      "qty": 12.23,
+      "question": "China Open: Daniil Medvedev vs Jan-Lennard Struff",
+      "rules_version": 14,
+      "slug": "atp-medvede-struff-2026-10-02",
+      "strategy": "favorite_discount",
+      "token_id": "79501013020837617982302472797927077250433259579489389125382263708102460426778"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -233,5 +263,5 @@
   },
   "realized_pnl": 24.879999999999992,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T08:20:08+00:00"
+  "updated": "2026-10-03T09:19:36+00:00"
 }
