@@ -1,5 +1,5 @@
 {
-  "cash": 263.30999999999995,
+  "cash": 302.88999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -184,6 +184,7 @@
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
     "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2": "2026-09-28",
+    "KXUEFANLSPREAD-26OCT04IRLISR-IRL3": "2026-10-04",
     "KXUST2AD-26JUL21-T4.29": "2026-07-21",
     "KXVALORANTGAME-26JUL201700FLYRC9GC-FLYR": "2026-07-20",
     "KXVALORANTGAME-26JUL211100HBSG2-HBS": "2026-07-21",
@@ -286,26 +287,11 @@
       "slug": "kxuefanlspread-26oct04greger-gre2",
       "strategy": "favorite_discount",
       "token_id": "KXUEFANLSPREAD-26OCT04GREGER-GRE2:no"
-    },
-    "KXUEFANLSPREAD-26OCT04IRLISR-IRL3": {
-      "cost": 37.4,
-      "entry_price": 0.93,
-      "event_ticker": "KXUEFANLSPREAD-26OCT04IRLISR",
-      "market_id": "KXUEFANLSPREAD-26OCT04IRLISR-IRL3",
-      "opened": "2026-10-03T19:19:59+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.01,
-      "question": "Ireland wins by more than 2.5 goals?",
-      "rules_version": 2,
-      "slug": "kxuefanlspread-26oct04irlisr-irl3",
-      "strategy": "favorite_discount",
-      "token_id": "KXUEFANLSPREAD-26OCT04IRLISR-IRL3:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -51.650000000000006,
+  "realized_pnl": -49.470000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T19:19:45+00:00",
+  "updated": "2026-10-04T20:20:10+00:00",
   "venue": "kalshi"
 }
