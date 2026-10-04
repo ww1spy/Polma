@@ -1,5 +1,5 @@
 {
-  "cash": 183.14999999999998,
+  "cash": 222.74999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -137,6 +137,7 @@
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": "2026-09-29",
+    "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60": "2026-10-04",
     "KXNFLSPREAD-26OCT04INDWAS-WAS11": "2026-10-04",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
     "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": "2026-10-02",
@@ -240,21 +241,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4:no"
     },
-    "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60": {
-      "cost": 37.31,
-      "entry_price": 0.9377,
-      "event_ticker": "KXNFLRECYDS-26OCT04INDWAS",
-      "market_id": "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60",
-      "opened": "2026-10-03T14:19:53+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.6,
-      "question": "Laquon Treadwell: 60+ receiving yards",
-      "rules_version": 2,
-      "slug": "kxnflrecyds-26oct04indwas-indltreadwell13-60",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60:no"
-    },
     "KXNFLSPREAD-26OCT04MIAMIN-MIN28": {
       "cost": 37.27,
       "entry_price": 0.91,
@@ -332,8 +318,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -57.35000000000001,
+  "realized_pnl": -55.06000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T16:20:17+00:00",
+  "updated": "2026-10-04T17:19:46+00:00",
   "venue": "kalshi"
 }
