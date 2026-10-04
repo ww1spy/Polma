@@ -1,5 +1,5 @@
 {
-  "cash": 381.88999999999993,
+  "cash": 422.5899999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -139,6 +139,7 @@
     "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": "2026-09-29",
     "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60": "2026-10-04",
     "KXNFLSPREAD-26OCT04INDWAS-WAS11": "2026-10-04",
+    "KXNFLSPREAD-26OCT04MIAMIN-MIN28": "2026-10-04",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
     "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": "2026-10-02",
     "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1": "2026-10-04",
@@ -244,26 +245,11 @@
       "slug": "kxnflffptsladder-26oct01pitcle-pitdmetcalf4",
       "strategy": "favorite_discount",
       "token_id": "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4:no"
-    },
-    "KXNFLSPREAD-26OCT04MIAMIN-MIN28": {
-      "cost": 37.27,
-      "entry_price": 0.91,
-      "event_ticker": "KXNFLSPREAD-26OCT04MIAMIN",
-      "market_id": "KXNFLSPREAD-26OCT04MIAMIN-MIN28",
-      "opened": "2026-10-03T20:20:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.7,
-      "question": "MIN Vikings wins by over 27.5 points?",
-      "rules_version": 2,
-      "slug": "kxnflspread-26oct04miamin-min28",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLSPREAD-26OCT04MIAMIN-MIN28:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -45.050000000000004,
+  "realized_pnl": -41.620000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T22:20:40+00:00",
+  "updated": "2026-10-04T23:21:07+00:00",
   "venue": "kalshi"
 }
