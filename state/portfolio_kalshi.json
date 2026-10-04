@@ -1,5 +1,5 @@
 {
-  "cash": 485.5299999999998,
+  "cash": 470.4199999999998,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -38,9 +38,25 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {},
+  "positions": {
+    "KXWT20MATCH-26OCT050600WINZIM-ZIM": {
+      "cost": 15.11,
+      "entry_price": 0.9,
+      "event_ticker": "KXWT20MATCH-26OCT050600WINZIM",
+      "market_id": "KXWT20MATCH-26OCT050600WINZIM-ZIM",
+      "opened": "2026-10-04T14:19:58+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 16.67,
+      "question": "Zimbabwe wins",
+      "rules_version": 14,
+      "slug": "kxwt20match-26oct050600winzim-zim",
+      "strategy": "favorite_discount",
+      "token_id": "KXWT20MATCH-26OCT050600WINZIM-ZIM:no"
+    }
+  },
   "realized_pnl": -14.470000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T13:19:43+00:00",
+  "updated": "2026-10-04T14:19:58+00:00",
   "venue": "kalshi"
 }
