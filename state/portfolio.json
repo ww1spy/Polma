@@ -1,5 +1,5 @@
 {
-  "cash": 453.8200000000003,
+  "cash": 475.02000000000027,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -165,7 +165,9 @@
     "558935": "2026-07-15",
     "558951": "2026-07-12",
     "599304": "2026-08-03",
-    "599305": "2026-08-03"
+    "599305": "2026-08-03",
+    "601920": "2026-10-04",
+    "601922": "2026-10-04"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "epoch_started": "2026-09-28T02:58:52+00:00",
@@ -213,39 +215,9 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-7",
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
-    },
-    "601920": {
-      "cost": 10.25,
-      "entry_price": 0.947,
-      "event_ticker": "",
-      "market_id": "601920",
-      "opened": "2026-09-30T22:20:17+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.82,
-      "question": "Will any presidential candidate win outright in the first round of the Brazil election?",
-      "rules_version": 14,
-      "slug": "will-any-presidential-candidate-win-outright-in-the-first-round-of-the-brazil-election",
-      "strategy": "favorite_discount",
-      "token_id": "45822599979868501396582860994506290061594012396386219725082308923565779306211"
-    },
-    "601922": {
-      "cost": 10.21,
-      "entry_price": 0.961,
-      "event_ticker": "",
-      "market_id": "601922",
-      "opened": "2026-10-04T02:19:28+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10.63,
-      "question": "Will Luiz In\u00e1cio Lula da Silva qualify for Brazil's presidential runoff?",
-      "rules_version": 14,
-      "slug": "will-luiz-incio-lula-da-silva-qualify-for-brazils-presidential-runoff",
-      "strategy": "favorite_discount",
-      "token_id": "89033597404049535329336367676897002196779443515433514040396661411543836790585"
     }
   },
-  "realized_pnl": -5.310000000000006,
+  "realized_pnl": -4.570000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T21:19:55+00:00"
+  "updated": "2026-10-04T22:20:09+00:00"
 }
