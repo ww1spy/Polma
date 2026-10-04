@@ -1,5 +1,5 @@
 {
-  "cash": 467.73000000000013,
+  "cash": 447.3100000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -176,6 +176,21 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "1366008": {
+      "cost": 10.21,
+      "entry_price": 0.89,
+      "event_ticker": "",
+      "market_id": "1366008",
+      "opened": "2026-10-04T00:20:16+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.47,
+      "question": "Will Luiz In\u00e1cio Lula da Silva win the first round of the 2026 Brazilian presidential election by 5\u201310%?",
+      "rules_version": 14,
+      "slug": "will-luiz-incio-lula-da-silva-win-the-first-round-of-the-2026-brazilian-presidential-election-by-510-971",
+      "strategy": "favorite_discount",
+      "token_id": "247047209822374154288211144964214527388236984575039338710647093931430457756"
+    },
     "5062275": {
       "cost": 10.37,
       "entry_price": 0.958,
@@ -221,6 +236,21 @@
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
     },
+    "5229242": {
+      "cost": 10.21,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "5229242",
+      "opened": "2026-10-04T00:20:16+00:00",
+      "outcome": "Carlos Alcaraz",
+      "outcome_idx": 0,
+      "qty": 11.6,
+      "question": "Japan Open Tennis Championships: Carlos Alcaraz vs Denis Shapovalov",
+      "rules_version": 14,
+      "slug": "atp-alcaraz-shapova-2026-10-04",
+      "strategy": "favorite_discount",
+      "token_id": "96040977057410504258275136657909313728781036287377664561988141507190801831862"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -239,5 +269,5 @@
   },
   "realized_pnl": 9.279999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-03T23:19:57+00:00"
+  "updated": "2026-10-04T00:20:16+00:00"
 }
