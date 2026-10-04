@@ -1,5 +1,5 @@
 {
-  "cash": 103.75999999999996,
+  "cash": 183.14999999999998,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -137,11 +137,14 @@
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": "2026-09-29",
+    "KXNFLSPREAD-26OCT04INDWAS-WAS11": "2026-10-04",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
     "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": "2026-10-02",
+    "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1": "2026-10-04",
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": "2026-09-29",
     "KXNFLTEAMTOTAL-26SEP28PHICHI-PHI8": "2026-09-29",
     "KXNFLTOTAL-26OCT01PITCLE-18": "2026-10-02",
+    "KXNFLTOTAL-26OCT04INDWAS-26": "2026-10-04",
     "KXNFLTOTAL-26SEP28PHICHI-66": "2026-09-29",
     "KXNPBGAME-26JUL080515CHUYOK-YOK": "2026-07-08",
     "KXNPBGAME-26JUL210500HIRYOM-YOM": "2026-07-21",
@@ -252,21 +255,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60:no"
     },
-    "KXNFLSPREAD-26OCT04INDWAS-WAS11": {
-      "cost": 37.44,
-      "entry_price": 0.9039,
-      "event_ticker": "KXNFLSPREAD-26OCT04INDWAS",
-      "market_id": "KXNFLSPREAD-26OCT04INDWAS-WAS11",
-      "opened": "2026-10-03T14:19:52+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.14,
-      "question": "WAS Commanders wins by over 10.5 points?",
-      "rules_version": 2,
-      "slug": "kxnflspread-26oct04indwas-was11",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLSPREAD-26OCT04INDWAS-WAS11:no"
-    },
     "KXNFLSPREAD-26OCT04MIAMIN-MIN28": {
       "cost": 37.27,
       "entry_price": 0.91,
@@ -281,36 +269,6 @@
       "slug": "kxnflspread-26oct04miamin-min28",
       "strategy": "favorite_discount",
       "token_id": "KXNFLSPREAD-26OCT04MIAMIN-MIN28:no"
-    },
-    "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1": {
-      "cost": 37.4,
-      "entry_price": 0.91,
-      "event_ticker": "KXNFLTD-26OCT04INDWAS",
-      "market_id": "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1",
-      "opened": "2026-10-03T14:19:53+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.84,
-      "question": "Treylon Burks: 1+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct04indwas-wastburks13-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1:no"
-    },
-    "KXNFLTOTAL-26OCT04INDWAS-26": {
-      "cost": 37.25,
-      "entry_price": 0.96,
-      "event_ticker": "KXNFLTOTAL-26OCT04INDWAS",
-      "market_id": "KXNFLTOTAL-26OCT04INDWAS-26",
-      "opened": "2026-10-03T14:19:53+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.69,
-      "question": "Full Game: over 25.5 points scored? \u2014 Over 25.5 points",
-      "rules_version": 2,
-      "slug": "kxnfltotal-26oct04indwas-26",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTOTAL-26OCT04INDWAS-26:yes"
     },
     "KXNFLTOTAL-26OCT04MIAMIN-60": {
       "cost": 37.14,
@@ -374,8 +332,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -24.650000000000013,
+  "realized_pnl": -57.35000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T15:19:59+00:00",
+  "updated": "2026-10-04T16:20:17+00:00",
   "venue": "kalshi"
 }
