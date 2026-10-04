@@ -1,5 +1,5 @@
 {
-  "cash": 459.2900000000002,
+  "cash": 438.87000000000023,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -222,6 +222,21 @@
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
     },
+    "5207400": {
+      "cost": 10.21,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "5207400",
+      "opened": "2026-10-04T02:19:27+00:00",
+      "outcome": "Aryna Sabalenka",
+      "outcome_idx": 1,
+      "qty": 11.87,
+      "question": "China Open: Nikola Bartunkova vs Aryna Sabalenka",
+      "rules_version": 14,
+      "slug": "wta-bartunk-sabalen-2026-10-03",
+      "strategy": "favorite_discount",
+      "token_id": "33627335487010766606493312317052298994032853854179680817764748159221011286051"
+    },
     "5229242": {
       "cost": 10.21,
       "entry_price": 0.88,
@@ -251,9 +266,24 @@
       "slug": "will-any-presidential-candidate-win-outright-in-the-first-round-of-the-brazil-election",
       "strategy": "favorite_discount",
       "token_id": "45822599979868501396582860994506290061594012396386219725082308923565779306211"
+    },
+    "601922": {
+      "cost": 10.21,
+      "entry_price": 0.961,
+      "event_ticker": "",
+      "market_id": "601922",
+      "opened": "2026-10-04T02:19:28+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.63,
+      "question": "Will Luiz In\u00e1cio Lula da Silva qualify for Brazil's presidential runoff?",
+      "rules_version": 14,
+      "slug": "will-luiz-incio-lula-da-silva-qualify-for-brazils-presidential-runoff",
+      "strategy": "favorite_discount",
+      "token_id": "89033597404049535329336367676897002196779443515433514040396661411543836790585"
     }
   },
   "realized_pnl": 10.849999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T01:19:58+00:00"
+  "updated": "2026-10-04T02:19:28+00:00"
 }
