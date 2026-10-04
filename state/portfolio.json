@@ -1,5 +1,5 @@
 {
-  "cash": 450.47000000000025,
+  "cash": 440.43000000000023,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1654958": "2026-07-29",
@@ -224,6 +224,21 @@
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
     },
+    "5201298": {
+      "cost": 10.04,
+      "entry_price": 0.965,
+      "event_ticker": "",
+      "market_id": "5201298",
+      "opened": "2026-10-04T07:20:24+00:00",
+      "outcome": "Linda Noskova",
+      "outcome_idx": 0,
+      "qty": 10.41,
+      "question": "China Open: Linda Noskova vs Viktorija Golubic",
+      "rules_version": 14,
+      "slug": "wta-noskova-golubic-2026-10-03",
+      "strategy": "favorite_discount",
+      "token_id": "20665972609970351790525371433620181315433278755178666343510376157471071586819"
+    },
     "601920": {
       "cost": 10.25,
       "entry_price": 0.947,
@@ -257,5 +272,5 @@
   },
   "realized_pnl": 2.029999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-04T06:20:25+00:00"
+  "updated": "2026-10-04T07:20:24+00:00"
 }
