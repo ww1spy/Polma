@@ -1,5 +1,5 @@
 {
-  "cash": 465.11000000000024,
+  "cash": 445.2700000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -216,6 +216,21 @@
       "strategy": "favorite_discount",
       "token_id": "4691878514370458888618921953880468092400341844023136845620266723278244262852"
     },
+    "5081790": {
+      "cost": 9.92,
+      "entry_price": 0.8731,
+      "event_ticker": "",
+      "market_id": "5081790",
+      "opened": "2026-10-05T03:20:10+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.36,
+      "question": "Will the price of Bitcoin be above $88,000 on October 5?",
+      "rules_version": 14,
+      "slug": "bitcoin-above-88k-on-october-5-2026",
+      "strategy": "favorite_discount",
+      "token_id": "50260352133562756892926430001620826003813484150831976511141619643888275621652"
+    },
     "5130977": {
       "cost": 10.52,
       "entry_price": 0.94,
@@ -230,9 +245,24 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-7",
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
+    },
+    "5276764": {
+      "cost": 9.92,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "5276764",
+      "opened": "2026-10-05T03:20:10+00:00",
+      "outcome": "Carlos Alcaraz",
+      "outcome_idx": 0,
+      "qty": 11.27,
+      "question": "Japan Open Tennis Championships: Carlos Alcaraz vs Jaume Munar",
+      "rules_version": 14,
+      "slug": "atp-alcaraz-munar-2026-10-05",
+      "strategy": "favorite_discount",
+      "token_id": "17888197494456139736361493895108429590665859419032077660147741572216675185523"
     }
   },
   "realized_pnl": -4.570000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-05T02:19:34+00:00"
+  "updated": "2026-10-05T03:20:10+00:00"
 }
