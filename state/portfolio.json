@@ -1,5 +1,5 @@
 {
-  "cash": 425.4200000000002,
+  "cash": 416.7600000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -162,6 +162,7 @@
     "5229242": "2026-10-04",
     "5241287": "2026-10-04",
     "5241292": "2026-10-04",
+    "5276764": "2026-10-05",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
     "599304": "2026-08-03",
@@ -276,23 +277,38 @@
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
     },
-    "5276764": {
-      "cost": 9.92,
-      "entry_price": 0.88,
+    "5228455": {
+      "cost": 9.96,
+      "entry_price": 0.89,
       "event_ticker": "",
-      "market_id": "5276764",
-      "opened": "2026-10-05T03:20:10+00:00",
-      "outcome": "Carlos Alcaraz",
-      "outcome_idx": 0,
-      "qty": 11.27,
-      "question": "Japan Open Tennis Championships: Carlos Alcaraz vs Jaume Munar",
+      "market_id": "5228455",
+      "opened": "2026-10-05T10:20:52+00:00",
+      "outcome": "Elina Svitolina",
+      "outcome_idx": 1,
+      "qty": 11.19,
+      "question": "China Open: Maria Sakkari vs Elina Svitolina",
       "rules_version": 14,
-      "slug": "atp-alcaraz-munar-2026-10-05",
+      "slug": "wta-sakkari-svitoli-2026-10-04",
       "strategy": "favorite_discount",
-      "token_id": "17888197494456139736361493895108429590665859419032077660147741572216675185523"
+      "token_id": "43251830099794326343672750328062481557368023837862665351298848642141673714849"
+    },
+    "5239706": {
+      "cost": 9.96,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5239706",
+      "opened": "2026-10-05T10:20:53+00:00",
+      "outcome": "Coco Gauff",
+      "outcome_idx": 0,
+      "qty": 10.71,
+      "question": "China Open: Coco Gauff vs Xinran Sun",
+      "rules_version": 14,
+      "slug": "wta-gauff-su-2026-10-04",
+      "strategy": "favorite_discount",
+      "token_id": "16986890701084713809822249842806842053165632163329059596481397536992407968715"
     }
   },
-  "realized_pnl": -4.570000000000006,
+  "realized_pnl": -3.2300000000000058,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-05T09:20:23+00:00"
+  "updated": "2026-10-05T10:20:53+00:00"
 }
