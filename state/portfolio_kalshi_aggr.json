@@ -1,5 +1,5 @@
 {
-  "cash": 275.4599999999999,
+  "cash": 165.89999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -305,11 +305,56 @@
       "slug": "kxnfltd-26oct05atlno-nokaustin81-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT05ATLNO-NOKAUSTIN81-1:no"
+    },
+    "KXUEFANLGAME-26OCT06ALBSMR-ALB": {
+      "cost": 36.48,
+      "entry_price": 0.97,
+      "event_ticker": "KXUEFANLGAME-26OCT06ALBSMR",
+      "market_id": "KXUEFANLGAME-26OCT06ALBSMR-ALB",
+      "opened": "2026-10-05T19:20:00+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 37.53,
+      "question": "Albania wins",
+      "rules_version": 2,
+      "slug": "kxuefanlgame-26oct06albsmr-alb",
+      "strategy": "favorite_discount",
+      "token_id": "KXUEFANLGAME-26OCT06ALBSMR-ALB:yes"
+    },
+    "KXUEFANLGAME-26OCT06CROESP-CRO": {
+      "cost": 36.6,
+      "entry_price": 0.93,
+      "event_ticker": "KXUEFANLGAME-26OCT06CROESP",
+      "market_id": "KXUEFANLGAME-26OCT06CROESP-CRO",
+      "opened": "2026-10-05T19:20:00+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.16,
+      "question": "Croatia wins",
+      "rules_version": 2,
+      "slug": "kxuefanlgame-26oct06croesp-cro",
+      "strategy": "favorite_discount",
+      "token_id": "KXUEFANLGAME-26OCT06CROESP-CRO:no"
+    },
+    "KXUEFANLGAME-26OCT06SUIMKD-MKD": {
+      "cost": 36.48,
+      "entry_price": 0.97,
+      "event_ticker": "KXUEFANLGAME-26OCT06SUIMKD",
+      "market_id": "KXUEFANLGAME-26OCT06SUIMKD-MKD",
+      "opened": "2026-10-05T19:20:01+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.52,
+      "question": "North Macedonia wins",
+      "rules_version": 2,
+      "slug": "kxuefanlgame-26oct06suimkd-mkd",
+      "strategy": "favorite_discount",
+      "token_id": "KXUEFANLGAME-26OCT06SUIMKD-MKD:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -41.620000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-05T18:20:22+00:00",
+  "updated": "2026-10-05T19:20:01+00:00",
   "venue": "kalshi"
 }
