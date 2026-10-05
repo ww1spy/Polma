@@ -21,33 +21,6 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXTRUMPSAY-26OCT05-CEAS": {
-      "book_at_place": {
-        "ask": 0.96,
-        "bid": 0.94
-      },
-      "end_date": "2026-10-05T16:00:00+00:00",
-      "event_ticker": "KXTRUMPSAY-26OCT05",
-      "expires_ts": 1791208800.0,
-      "market_id": "KXTRUMPSAY-26OCT05-CEAS",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1791159664.4550338,
-      "price": 0.95,
-      "qty": 10,
-      "question": "Will Trump say \"Ceasefire\" before Oct 5, 2026?",
-      "reserved": 9.5,
-      "rules_version": 1,
-      "slug": "kxtrumpsay-26oct05-ceas",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXTRUMPSAY-26OCT05-CEAS:yes",
-        "KXTRUMPSAY-26OCT05-CEAS:no"
-      ]
-    },
     "KXWTI-26OCT0514-T85.49": {
       "book_at_place": {
         "ask": 0.97,
@@ -93,6 +66,21 @@
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-VER-35:no"
     },
+    "KXTRUMPSAY-26OCT05-CEAS": {
+      "cost": 9.5,
+      "entry_price": 0.95,
+      "event_ticker": "KXTRUMPSAY-26OCT05",
+      "market_id": "KXTRUMPSAY-26OCT05-CEAS",
+      "opened": "2026-10-05T01:19:44+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will Trump say \"Ceasefire\" before Oct 5, 2026?",
+      "rules_version": 1,
+      "slug": "kxtrumpsay-26oct05-ceas",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXTRUMPSAY-26OCT05-CEAS:no"
+    },
     "KXWT20MATCH-26OCT050600WINZIM-ZIM": {
       "cost": 9.79,
       "entry_price": 0.89,
@@ -112,6 +100,6 @@
   "profile": "maker",
   "realized_pnl": -3.0700000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-05T00:21:04+00:00",
+  "updated": "2026-10-05T01:19:46+00:00",
   "venue": "kalshi"
 }
