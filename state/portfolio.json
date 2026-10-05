@@ -1,5 +1,5 @@
 {
-  "cash": 459.94000000000017,
+  "cash": 449.9300000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -250,9 +250,24 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-7",
       "strategy": "favorite_discount",
       "token_id": "12124524934299636879055915822481547899306709466328996701348309520205289589305"
+    },
+    "5311842": {
+      "cost": 10.01,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "5311842",
+      "opened": "2026-10-05T18:20:18+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.88,
+      "question": "Will Bitcoin reach $92,000 October 5-11?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-reach-92k-october-5-11-2026",
+      "strategy": "favorite_discount",
+      "token_id": "12382644113994421158957117775444628280977161205328347329676828133943411943269"
     }
   },
   "realized_pnl": 0.1999999999999904,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-05T17:20:14+00:00"
+  "updated": "2026-10-05T18:20:18+00:00"
 }
