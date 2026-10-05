@@ -1,5 +1,5 @@
 {
-  "cash": 469.49999999999983,
+  "cash": 469.6999999999999,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-52": "2026-10-04",
@@ -23,31 +23,31 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXWTI-26OCT0514-T85.49": {
+    "KXWTI-26OCT0514-T93.99": {
       "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
+        "ask": 0.95,
+        "bid": 0.94
       },
       "end_date": "2026-10-05T18:30:00+00:00",
       "event_ticker": "KXWTI-26OCT0514",
-      "expires_ts": 1791192027.6366818,
-      "market_id": "KXWTI-26OCT0514-T85.49",
-      "outcome_idx": 0,
+      "expires_ts": 1791217800.0,
+      "market_id": "KXWTI-26OCT0514-T93.99",
+      "outcome_idx": 1,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1791105627.6366818,
-      "price": 0.96,
+      "placed_ts": 1791192032.0206547,
+      "price": 0.94,
       "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 85.49 USD/Bbl on Oct 5, 2026? \u2014 Above $85.49",
-      "reserved": 9.6,
+      "question": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 5, 2026? \u2014 Above $93.99",
+      "reserved": 9.4,
       "rules_version": 1,
-      "slug": "kxwti-26oct0514-t85.49",
+      "slug": "kxwti-26oct0514-t93.99",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXWTI-26OCT0514-T85.49:yes",
-        "KXWTI-26OCT0514-T85.49:no"
+        "KXWTI-26OCT0514-T93.99:yes",
+        "KXWTI-26OCT0514-T93.99:no"
       ]
     }
   },
@@ -87,6 +87,6 @@
   "profile": "maker",
   "realized_pnl": -1.709999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-05T08:20:27+00:00",
+  "updated": "2026-10-05T09:20:32+00:00",
   "venue": "kalshi"
 }
