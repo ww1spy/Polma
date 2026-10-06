@@ -1,5 +1,5 @@
 {
-  "cash": 281.49999999999994,
+  "cash": 281.37999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -189,6 +189,7 @@
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
     "KXUEFANLGAME-26OCT06ALBSMR-ALB": "2026-10-06",
+    "KXUEFANLGAME-26OCT06SUIMKD-MKD": "2026-10-06",
     "KXUEFANLSCORE-26SEP28BELFRA-BEL0FRA2": "2026-09-28",
     "KXUEFANLSPREAD-26OCT04GREGER-GRE2": "2026-10-04",
     "KXUEFANLSPREAD-26OCT04IRLISR-IRL3": "2026-10-04",
@@ -235,6 +236,21 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXAPRPOTUS-26OCT09-37.5": {
+      "cost": 37.23,
+      "entry_price": 0.94,
+      "event_ticker": "KXAPRPOTUS-26OCT09",
+      "market_id": "KXAPRPOTUS-26OCT09-37.5",
+      "opened": "2026-10-06T20:20:01+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.43,
+      "question": "Will the President's approval rating be below 37.6 according to RealClearPolitics? \u2014 Below 37.6",
+      "rules_version": 2,
+      "slug": "kxaprpotus-26oct09-37.5",
+      "strategy": "favorite_discount",
+      "token_id": "KXAPRPOTUS-26OCT09-37.5:no"
+    },
     "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4": {
       "cost": 35.79,
       "entry_price": 0.9,
@@ -280,21 +296,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXUEFANLGAME-26OCT06CROESP-CRO:no"
     },
-    "KXUEFANLGAME-26OCT06SUIMKD-MKD": {
-      "cost": 36.48,
-      "entry_price": 0.97,
-      "event_ticker": "KXUEFANLGAME-26OCT06SUIMKD",
-      "market_id": "KXUEFANLGAME-26OCT06SUIMKD-MKD",
-      "opened": "2026-10-05T19:20:01+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.52,
-      "question": "North Macedonia wins",
-      "rules_version": 2,
-      "slug": "kxuefanlgame-26oct06suimkd-mkd",
-      "strategy": "favorite_discount",
-      "token_id": "KXUEFANLGAME-26OCT06SUIMKD-MKD:no"
-    },
     "KXWT20MATCH-26OCT070600WINZIM-ZIM": {
       "cost": 37.21,
       "entry_price": 0.9,
@@ -312,8 +313,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -35.57000000000001,
+  "realized_pnl": -34.940000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-06T19:19:52+00:00",
+  "updated": "2026-10-06T20:20:01+00:00",
   "venue": "kalshi"
 }
