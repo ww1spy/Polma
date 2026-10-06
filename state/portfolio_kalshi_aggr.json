@@ -1,5 +1,5 @@
 {
-  "cash": 281.59,
+  "cash": 244.37999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -308,11 +308,26 @@
       "slug": "kxuefanlgame-26oct06suimkd-mkd",
       "strategy": "favorite_discount",
       "token_id": "KXUEFANLGAME-26OCT06SUIMKD-MKD:no"
+    },
+    "KXWT20MATCH-26OCT070600WINZIM-ZIM": {
+      "cost": 37.21,
+      "entry_price": 0.9,
+      "event_ticker": "KXWT20MATCH-26OCT070600WINZIM",
+      "market_id": "KXWT20MATCH-26OCT070600WINZIM-ZIM",
+      "opened": "2026-10-06T14:21:12+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.05,
+      "question": "Zimbabwe wins",
+      "rules_version": 2,
+      "slug": "kxwt20match-26oct070600winzim-zim",
+      "strategy": "favorite_discount",
+      "token_id": "KXWT20MATCH-26OCT070600WINZIM-ZIM:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -36.21000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-06T13:21:14+00:00",
+  "updated": "2026-10-06T14:21:12+00:00",
   "venue": "kalshi"
 }
