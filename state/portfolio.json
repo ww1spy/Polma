@@ -1,5 +1,5 @@
 {
-  "cash": 450.9200000000002,
+  "cash": 440.9100000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -252,6 +252,21 @@
       "strategy": "favorite_discount",
       "token_id": "19421076267154280439831018256831464726905901808220082673365622826516529250942"
     },
+    "5287847": {
+      "cost": 10.01,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "5287847",
+      "opened": "2026-10-06T17:19:37+00:00",
+      "outcome": "Linda Klimovicova",
+      "outcome_idx": 1,
+      "qty": 11.37,
+      "question": "Samsun: Cagla Buyukakcay vs Linda Klimovicova",
+      "rules_version": 14,
+      "slug": "wta-buyukak-klimovi-2026-10-05",
+      "strategy": "favorite_discount",
+      "token_id": "34909564748278614627067806817678061038684001849071794841602098017077288890592"
+    },
     "5311842": {
       "cost": 10.01,
       "entry_price": 0.92,
@@ -270,5 +285,5 @@
   },
   "realized_pnl": 0.6799999999999908,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-06T16:19:53+00:00"
+  "updated": "2026-10-06T17:19:37+00:00"
 }
