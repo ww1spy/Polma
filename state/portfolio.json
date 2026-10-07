@@ -1,5 +1,5 @@
 {
-  "cash": 467.4500000000002,
+  "cash": 457.2900000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -243,6 +243,21 @@
       "strategy": "favorite_discount",
       "token_id": "34909564748278614627067806817678061038684001849071794841602098017077288890592"
     },
+    "5378875": {
+      "cost": 10.16,
+      "entry_price": 0.958,
+      "event_ticker": "",
+      "market_id": "5378875",
+      "opened": "2026-10-07T11:20:51+00:00",
+      "outcome": "Lucrezia Stefanini",
+      "outcome_idx": 0,
+      "qty": 10.6,
+      "question": "Samsun: Lucrezia Stefanini vs Noma Noha Akugue",
+      "rules_version": 14,
+      "slug": "wta-stefani-akugue-2026-10-07",
+      "strategy": "favorite_discount",
+      "token_id": "97637388545875919528546271745767690466834831502926302307260649409293549793341"
+    },
     "5393038": {
       "cost": 10.15,
       "entry_price": 0.87,
@@ -261,5 +276,5 @@
   },
   "realized_pnl": 7.54999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-07T10:20:22+00:00"
+  "updated": "2026-10-07T11:20:51+00:00"
 }
