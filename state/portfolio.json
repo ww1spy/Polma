@@ -1,5 +1,5 @@
 {
-  "cash": 462.9300000000002,
+  "cash": 452.8600000000002,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -224,6 +224,21 @@
       "strategy": "favorite_discount",
       "token_id": "19421076267154280439831018256831464726905901808220082673365622826516529250942"
     },
+    "5203712": {
+      "cost": 10.07,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "5203712",
+      "opened": "2026-10-07T00:20:04+00:00",
+      "outcome": "Los Angeles Dodgers",
+      "outcome_idx": 0,
+      "qty": 11.57,
+      "question": "Los Angeles Dodgers vs. Atlanta Braves",
+      "rules_version": 14,
+      "slug": "mlb-lad-atl-2026-10-06",
+      "strategy": "favorite_discount",
+      "token_id": "77168737459157976861981714778490784075749587093273674588431941758584646840529"
+    },
     "5287847": {
       "cost": 10.01,
       "entry_price": 0.88,
@@ -257,5 +272,5 @@
   },
   "realized_pnl": 2.88999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-06T23:19:38+00:00"
+  "updated": "2026-10-07T00:20:04+00:00"
 }
