@@ -1,5 +1,5 @@
 {
-  "cash": 479.79000000000025,
+  "cash": 459.40000000000026,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -231,6 +231,36 @@
       "strategy": "favorite_discount",
       "token_id": "19421076267154280439831018256831464726905901808220082673365622826516529250942"
     },
+    "5179254": {
+      "cost": 10.19,
+      "entry_price": 0.955,
+      "event_ticker": "",
+      "market_id": "5179254",
+      "opened": "2026-10-07T14:20:52+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.68,
+      "question": "Will the price of Bitcoin be above $80,000 on October 8?",
+      "rules_version": 14,
+      "slug": "bitcoin-above-80k-on-october-8-2026",
+      "strategy": "favorite_discount",
+      "token_id": "40485584554428668469241611958393793104417692929486209319873780168120657704330"
+    },
+    "5320319": {
+      "cost": 10.2,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "5320319",
+      "opened": "2026-10-07T14:20:52+00:00",
+      "outcome": "Holger Rune",
+      "outcome_idx": 0,
+      "qty": 11.99,
+      "question": "Shanghai Rolex Masters: Holger Rune vs Daniel Altmaier",
+      "rules_version": 14,
+      "slug": "atp-rune-altmaie-2026-10-06",
+      "strategy": "favorite_discount",
+      "token_id": "92161147485538637230651753054940227638818536694310233648371148470063634941087"
+    },
     "5393038": {
       "cost": 10.15,
       "entry_price": 0.87,
@@ -249,5 +279,5 @@
   },
   "realized_pnl": 9.87999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-07T13:21:02+00:00"
+  "updated": "2026-10-07T14:20:52+00:00"
 }
