@@ -1,5 +1,5 @@
 {
-  "cash": 452.7700000000003,
+  "cash": 442.7200000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -279,9 +279,24 @@
       "slug": "will-bitcoin-dip-to-74k-october-5-11-2026",
       "strategy": "favorite_discount",
       "token_id": "87151384221028131084334661505542211640570719818475612196137881918233311521758"
+    },
+    "5393324": {
+      "cost": 10.05,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "5393324",
+      "opened": "2026-10-08T21:19:53+00:00",
+      "outcome": "Juan Carlos Prado",
+      "outcome_idx": 0,
+      "qty": 11.56,
+      "question": "Antofagasta: Juan Carlos Prado vs Pedro Boscardin Dias",
+      "rules_version": 14,
+      "slug": "atp-prado-dias-2026-10-08",
+      "strategy": "favorite_discount",
+      "token_id": "93183527465811908065860260346223661923240710938704023020529193904338412876718"
     }
   },
   "realized_pnl": 2.829999999999991,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-08T20:19:43+00:00"
+  "updated": "2026-10-08T21:19:53+00:00"
 }
