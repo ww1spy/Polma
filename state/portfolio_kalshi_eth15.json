@@ -1,38 +1,23 @@
 {
-  "cash": 486.21,
+  "cash": 513.09,
   "cooldowns": {
     "KXETH15M-26JUL081415-15": "2026-07-08",
     "KXETH15M-26JUL081815-15": "2026-07-08",
     "KXETH15M-26JUL100830-30": "2026-07-10",
     "KXETH15M-26JUL101015-15": "2026-07-10",
     "KXETH15M-26OCT080230-30": "2026-10-08",
+    "KXETH15M-26OCT081330-30": "2026-10-08",
     "KXETH15M-26SEP300930-30": "2026-09-30"
   },
   "created": "2026-07-08T09:04:34+00:00",
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 511.34,
-  "positions": {
-    "KXETH15M-26OCT081330-30": {
-      "cost": 25.13,
-      "entry_price": 0.93,
-      "event_ticker": "KXETH15M-26OCT081330",
-      "market_id": "KXETH15M-26OCT081330-30",
-      "opened": "2026-10-08T17:22:27+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 26.88,
-      "question": "ETH price up in next 15 mins? \u2014 Target Price: $2,424.12",
-      "rules_version": 3,
-      "slug": "kxeth15m-26oct081330-30",
-      "strategy": "eth15_favorite",
-      "token_id": "KXETH15M-26OCT081330-30:no"
-    }
-  },
+  "peak_equity": 513.09,
+  "positions": {},
   "profile": "eth15",
-  "realized_pnl": 11.339999999999996,
+  "realized_pnl": 13.089999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-08T17:22:27+00:00",
+  "updated": "2026-10-08T18:20:20+00:00",
   "venue": "kalshi"
 }
