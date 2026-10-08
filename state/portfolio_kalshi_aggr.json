@@ -1,5 +1,5 @@
 {
-  "cash": 137.31999999999996,
+  "cash": 99.33999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -374,11 +374,26 @@
       "slug": "kxnfltd-26oct08tbdal-daljferguson87-2",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT08TBDAL-DALJFERGUSON87-2:no"
+    },
+    "KXT20MATCH-26OCT082115QATMYA-QAT": {
+      "cost": 37.98,
+      "entry_price": 0.91,
+      "event_ticker": "KXT20MATCH-26OCT082115QATMYA",
+      "market_id": "KXT20MATCH-26OCT082115QATMYA-QAT",
+      "opened": "2026-10-08T06:21:08+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 41.48,
+      "question": "Qatar wins",
+      "rules_version": 2,
+      "slug": "kxt20match-26oct082115qatmya-qat",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26OCT082115QATMYA-QAT:yes"
     }
   },
   "profile": "aggr",
   "realized_pnl": -26.500000000000014,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-08T05:22:52+00:00",
+  "updated": "2026-10-08T06:21:08+00:00",
   "venue": "kalshi"
 }
