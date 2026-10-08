@@ -1,5 +1,5 @@
 {
-  "cash": 99.33999999999997,
+  "cash": 61.379999999999974,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -389,11 +389,26 @@
       "slug": "kxt20match-26oct082115qatmya-qat",
       "strategy": "favorite_discount",
       "token_id": "KXT20MATCH-26OCT082115QATMYA-QAT:yes"
+    },
+    "KXWODIMATCH-26OCT082350BANAUS-BAN": {
+      "cost": 37.96,
+      "entry_price": 0.97,
+      "event_ticker": "KXWODIMATCH-26OCT082350BANAUS",
+      "market_id": "KXWODIMATCH-26OCT082350BANAUS-BAN",
+      "opened": "2026-10-08T12:21:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.05,
+      "question": "Bangladesh wins",
+      "rules_version": 2,
+      "slug": "kxwodimatch-26oct082350banaus-ban",
+      "strategy": "favorite_discount",
+      "token_id": "KXWODIMATCH-26OCT082350BANAUS-BAN:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -26.500000000000014,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-08T11:20:56+00:00",
+  "updated": "2026-10-08T12:21:50+00:00",
   "venue": "kalshi"
 }
