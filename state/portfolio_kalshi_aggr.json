@@ -1,5 +1,5 @@
 {
-  "cash": 135.89999999999998,
+  "cash": 60.52999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -253,6 +253,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26OCT09-37.5:no"
     },
+    "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
+      "cost": 37.7,
+      "entry_price": 0.9405,
+      "event_ticker": "KXNFLESCALATORRSHYDS-26OCT08TBDAL",
+      "market_id": "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7",
+      "opened": "2026-10-08T01:19:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.92,
+      "question": "Bucky Irving Rushing Yards Escalator",
+      "rules_version": 2,
+      "slug": "kxnflescalatorrshyds-26oct08tbdal-tbbirving7",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7:no"
+    },
     "KXNFLFFPTSLADDER-26OCT01PITCLE-PITDMETCALF4": {
       "cost": 35.79,
       "entry_price": 0.9,
@@ -297,6 +312,21 @@
       "slug": "kxnflfirsttd-26oct08tbdal-tbbirving7",
       "strategy": "favorite_discount",
       "token_id": "KXNFLFIRSTTD-26OCT08TBDAL-TBBIRVING7:no"
+    },
+    "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33": {
+      "cost": 37.67,
+      "entry_price": 0.95,
+      "event_ticker": "KXNFLLADDERRECYDS-26OCT08TBDAL",
+      "market_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33",
+      "opened": "2026-10-08T01:19:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.5,
+      "question": "Javonte Williams receiving yards ladder",
+      "rules_version": 2,
+      "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
     "KXNFLOT-26OCT08TBDAL-Y": {
       "cost": 37.69,
@@ -377,6 +407,6 @@
   "profile": "aggr",
   "realized_pnl": -28.540000000000013,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-08T00:20:00+00:00",
+  "updated": "2026-10-08T01:19:57+00:00",
   "venue": "kalshi"
 }
