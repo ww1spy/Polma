@@ -10,7 +10,11 @@ cd "$(dirname "$0")/.."
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git pull --rebase origin "$BRANCH" || { echo "pull failed — aborting to avoid state divergence"; exit 1; }
 
-run() { echo "== $* =="; "$@" || echo "!! book failed (continuing): $*"; }
+# The request pacer (polma/http.py) is per-process; back-to-back books start
+# hitting Kalshi the instant the previous one exits and intermittently 429 out
+# on the first /markets page. A short gap between books avoids that.
+BOOK_GAP=${POLMA_BOOK_GAP:-15}
+run() { echo "== $* =="; "$@" || echo "!! book failed (continuing): $*"; sleep "$BOOK_GAP"; }
 
 run env POLMA_VENUE=kalshi python3 -m polma.cycle
 run env POLMA_VENUE=polymarket python3 -m polma.cycle
