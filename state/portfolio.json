@@ -1,5 +1,5 @@
 {
-  "cash": 451.4600000000003,
+  "cash": 462.8300000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -176,6 +176,7 @@
     "5311842": "2026-10-07",
     "5319469": "2026-10-07",
     "5320319": "2026-10-07",
+    "5320325": "2026-10-08",
     "5331922": "2026-10-07",
     "5378875": "2026-10-07",
     "5380305": "2026-10-07",
@@ -263,24 +264,9 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-12",
       "strategy": "favorite_discount",
       "token_id": "107540403103917101723616128435236138591116364556711257437238922612332295492509"
-    },
-    "5320325": {
-      "cost": 10.02,
-      "entry_price": 0.88,
-      "event_ticker": "",
-      "market_id": "5320325",
-      "opened": "2026-10-08T06:21:02+00:00",
-      "outcome": "Hubert Hurkacz",
-      "outcome_idx": 0,
-      "qty": 11.38,
-      "question": "Shanghai Rolex Masters: Hubert Hurkacz vs James Duckworth",
-      "rules_version": 14,
-      "slug": "atp-hurkacz-duckwor-2026-10-06",
-      "strategy": "favorite_discount",
-      "token_id": "19156567343813619315117037559347104495598090547346164216074980130763256771779"
     }
   },
-  "realized_pnl": 1.4799999999999915,
+  "realized_pnl": 2.829999999999991,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-08T06:21:02+00:00"
+  "updated": "2026-10-08T07:20:28+00:00"
 }
