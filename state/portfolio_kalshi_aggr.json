@@ -1,5 +1,5 @@
 {
-  "cash": 61.379999999999974,
+  "cash": 101.81999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -133,6 +133,7 @@
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": "2026-07-21",
     "KXNFLFIRSTTD-26OCT04INDWAS-WASAWILLIAMS14": "2026-10-04",
     "KXNFLFIRSTTD-26OCT05ATLNO-NOJJOHNSON83": "2026-10-06",
+    "KXNFLFIRSTTD-26OCT08TBDAL-TBBIRVING7": "2026-10-09",
     "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": "2026-09-29",
     "KXNFLOT-26OCT01PITCLE-Y": "2026-10-02",
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
@@ -300,21 +301,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLFFPTSLADDER-26OCT05ATLNO-ATLKPITTS8:no"
     },
-    "KXNFLFIRSTTD-26OCT08TBDAL-TBBIRVING7": {
-      "cost": 37.8,
-      "entry_price": 0.93,
-      "event_ticker": "KXNFLFIRSTTD-26OCT08TBDAL",
-      "market_id": "KXNFLFIRSTTD-26OCT08TBDAL-TBBIRVING7",
-      "opened": "2026-10-08T00:19:59+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.44,
-      "question": "Bucky Irving: 1st Touchdown",
-      "rules_version": 2,
-      "slug": "kxnflfirsttd-26oct08tbdal-tbbirving7",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLFIRSTTD-26OCT08TBDAL-TBBIRVING7:no"
-    },
     "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33": {
       "cost": 37.67,
       "entry_price": 0.95,
@@ -407,8 +393,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -26.500000000000014,
+  "realized_pnl": -23.860000000000014,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-09T00:20:31+00:00",
+  "updated": "2026-10-09T01:20:25+00:00",
   "venue": "kalshi"
 }
