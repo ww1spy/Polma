@@ -1,5 +1,5 @@
 {
-  "cash": 337.57,
+  "cash": 181.65,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -247,6 +247,66 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
+    "KXNCAAFGAME-26OCT10MOREDAY-MORE": {
+      "cost": 39.01,
+      "entry_price": 0.91,
+      "event_ticker": "KXNCAAFGAME-26OCT10MOREDAY",
+      "market_id": "KXNCAAFGAME-26OCT10MOREDAY-MORE",
+      "opened": "2026-10-09T16:21:59+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 42.59,
+      "question": "Morehead St. wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct10moreday-more",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT10MOREDAY-MORE:no"
+    },
+    "KXNCAAFGAME-26OCT10PRINWAG-WAG": {
+      "cost": 39.01,
+      "entry_price": 0.92,
+      "event_ticker": "KXNCAAFGAME-26OCT10PRINWAG",
+      "market_id": "KXNCAAFGAME-26OCT10PRINWAG-WAG",
+      "opened": "2026-10-09T16:21:59+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 42.16,
+      "question": "Wagner wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct10prinwag-wag",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT10PRINWAG-WAG:no"
+    },
+    "KXNCAAFSPREAD-26OCT10INDNEB-IND28": {
+      "cost": 39.02,
+      "entry_price": 0.9,
+      "event_ticker": "KXNCAAFSPREAD-26OCT10INDNEB",
+      "market_id": "KXNCAAFSPREAD-26OCT10INDNEB-IND28",
+      "opened": "2026-10-09T16:22:00+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 43.04,
+      "question": "Indiana wins by over 27.5 points",
+      "rules_version": 2,
+      "slug": "kxncaafspread-26oct10indneb-ind28",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFSPREAD-26OCT10INDNEB-IND28:no"
+    },
+    "KXNCAAFTOTAL-26OCT10TULNARMY-26": {
+      "cost": 38.88,
+      "entry_price": 0.96,
+      "event_ticker": "KXNCAAFTOTAL-26OCT10TULNARMY",
+      "market_id": "KXNCAAFTOTAL-26OCT10TULNARMY-26",
+      "opened": "2026-10-09T16:21:59+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 40.38,
+      "question": "Full Game: Over 25.5 points scored",
+      "rules_version": 2,
+      "slug": "kxncaaftotal-26oct10tulnarmy-26",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFTOTAL-26OCT10TULNARMY-26:yes"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -311,6 +371,6 @@
   "profile": "aggr",
   "realized_pnl": -14.420000000000009,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-09T15:21:20+00:00",
+  "updated": "2026-10-09T16:22:00+00:00",
   "venue": "kalshi"
 }
