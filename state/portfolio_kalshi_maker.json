@@ -1,5 +1,5 @@
 {
-  "cash": 474.0499999999997,
+  "cash": 483.64999999999975,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -30,33 +30,6 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXRT-OTH-30": {
-      "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
-      },
-      "end_date": "2026-10-12T14:00:00+00:00",
-      "event_ticker": "KXRT-OTH",
-      "expires_ts": 1791649377.4351099,
-      "market_id": "KXRT-OTH-30",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1791562977.4351099,
-      "price": 0.96,
-      "qty": 10,
-      "question": "Other Mommy Rotten Tomatoes score? \u2014 Above 30",
-      "reserved": 9.6,
-      "rules_version": 1,
-      "slug": "kxrt-oth-30",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-OTH-30:yes",
-        "KXRT-OTH-30:no"
-      ]
-    },
     "KXTRUMPSAY-26OCT12-CEAS": {
       "book_at_place": {
         "ask": 0.91,
@@ -83,40 +56,29 @@
         "KXTRUMPSAY-26OCT12-CEAS:yes",
         "KXTRUMPSAY-26OCT12-CEAS:no"
       ]
-    },
-    "KXWTI-26OCT0914-T94.99": {
-      "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.95
-      },
-      "end_date": "2026-10-09T18:30:00+00:00",
-      "event_ticker": "KXWTI-26OCT0914",
-      "expires_ts": 1791563400.0,
-      "market_id": "KXWTI-26OCT0914-T94.99",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1791501727.1671276,
-      "price": 0.96,
-      "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 9, 2026? \u2014 Above $94.99",
-      "reserved": 9.6,
-      "rules_version": 1,
-      "slug": "kxwti-26oct0914-t94.99",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWTI-26OCT0914-T94.99:yes",
-        "KXWTI-26OCT0914-T94.99:no"
-      ]
     }
   },
   "peak_equity": 503.14999999999975,
-  "positions": {},
+  "positions": {
+    "KXRT-OTH-30": {
+      "cost": 9.6,
+      "entry_price": 0.96,
+      "event_ticker": "KXRT-OTH",
+      "market_id": "KXRT-OTH-30",
+      "opened": "2026-10-09T17:21:05+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Other Mommy Rotten Tomatoes score? \u2014 Above 30",
+      "rules_version": 1,
+      "slug": "kxrt-oth-30",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXRT-OTH-30:no"
+    }
+  },
   "profile": "maker",
   "realized_pnl": 3.1500000000000017,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-09T16:22:57+00:00",
+  "updated": "2026-10-09T17:21:11+00:00",
   "venue": "kalshi"
 }
