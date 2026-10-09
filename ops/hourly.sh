@@ -14,7 +14,14 @@ git pull --rebase origin "$BRANCH" || { echo "pull failed — aborting to avoid 
 # hitting Kalshi the instant the previous one exits and intermittently 429 out
 # on the first /markets page. A short gap between books avoids that.
 BOOK_GAP=${POLMA_BOOK_GAP:-15}
-run() { echo "== $* =="; "$@" || echo "!! book failed (continuing): $*"; sleep "$BOOK_GAP"; }
+# A book that still fails (in practice: Kalshi 429 bursts) gets one retry
+# after a longer pause before we give up on it for this hour.
+run() {
+    echo "== $* =="
+    "$@" || { echo "!! book failed, retrying in 45s: $*"; sleep 45; "$@"; } \
+         || echo "!! book failed (continuing): $*"
+    sleep "$BOOK_GAP"
+}
 
 run env POLMA_VENUE=kalshi python3 -m polma.cycle
 run env POLMA_VENUE=polymarket python3 -m polma.cycle
