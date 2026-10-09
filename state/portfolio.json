@@ -1,5 +1,5 @@
 {
-  "cash": 464.5800000000003,
+  "cash": 454.49000000000035,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -266,9 +266,24 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-12",
       "strategy": "favorite_discount",
       "token_id": "107540403103917101723616128435236138591116364556711257437238922612332295492509"
+    },
+    "5424069": {
+      "cost": 10.09,
+      "entry_price": 0.923,
+      "event_ticker": "",
+      "market_id": "5424069",
+      "opened": "2026-10-09T05:20:34+00:00",
+      "outcome": "Ben Shelton",
+      "outcome_idx": 0,
+      "qty": 10.94,
+      "question": "Shanghai Rolex Masters: Ben Shelton vs Daniel Altmaier",
+      "rules_version": 14,
+      "slug": "atp-shelton-altmaie-2026-10-09",
+      "strategy": "favorite_discount",
+      "token_id": "57249720191230450167532730070258069032533242466588943389848836815542251236214"
     }
   },
   "realized_pnl": 4.579999999999991,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-09T04:19:56+00:00"
+  "updated": "2026-10-09T05:20:35+00:00"
 }

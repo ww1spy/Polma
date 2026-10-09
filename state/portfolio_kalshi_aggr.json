@@ -1,5 +1,5 @@
 {
-  "cash": 259.51,
+  "cash": 298.14,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -212,6 +212,7 @@
     "KXWCSTART-26JUL19ESPARG-ARG-LMARTI6": "2026-07-19",
     "KXWNBA1QWINNER-26OCT02DALGS-TIE": "2026-10-03",
     "KXWODIMATCH-26JUL100545WINIRL-IRL": "2026-07-10",
+    "KXWODIMATCH-26OCT082350BANAUS-BAN": "2026-10-09",
     "KXWT20MATCH-26OCT070600WINZIM-ZIM": "2026-10-07",
     "KXWTI-26JUL1014-T68.49": "2026-07-10",
     "KXWTI-26JUL1014-T72.49": "2026-07-10",
@@ -319,26 +320,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXWODIMATCH-26OCT082350BANAUS-BAN": {
-      "cost": 37.96,
-      "entry_price": 0.97,
-      "event_ticker": "KXWODIMATCH-26OCT082350BANAUS",
-      "market_id": "KXWODIMATCH-26OCT082350BANAUS-BAN",
-      "opened": "2026-10-08T12:21:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.05,
-      "question": "Bangladesh wins",
-      "rules_version": 2,
-      "slug": "kxwodimatch-26oct082350banaus-ban",
-      "strategy": "favorite_discount",
-      "token_id": "KXWODIMATCH-26OCT082350BANAUS-BAN:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -17.290000000000013,
+  "realized_pnl": -16.62000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-09T04:20:16+00:00",
+  "updated": "2026-10-09T05:20:54+00:00",
   "venue": "kalshi"
 }
