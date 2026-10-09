@@ -1,5 +1,5 @@
 {
-  "cash": 458.2100000000004,
+  "cash": 448.04000000000036,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -285,9 +285,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
+    },
+    "5445274": {
+      "cost": 10.17,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "5445274",
+      "opened": "2026-10-09T20:20:03+00:00",
+      "outcome": "Francesco Passaro",
+      "outcome_idx": 1,
+      "qty": 10.82,
+      "question": "Palermo: Enrico Dalla Valle vs Francesco Passaro",
+      "rules_version": 14,
+      "slug": "atp-valle-passaro-2026-10-09",
+      "strategy": "favorite_discount",
+      "token_id": "110331825037205768378059675779160810908736516300646162553601198442419835237870"
     }
   },
   "realized_pnl": 8.339999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-09T19:20:30+00:00"
+  "updated": "2026-10-09T20:20:03+00:00"
 }
