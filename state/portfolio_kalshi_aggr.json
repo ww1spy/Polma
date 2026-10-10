@@ -1,5 +1,5 @@
 {
-  "cash": 116.57,
+  "cash": 77.13999999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -341,6 +341,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40": {
+      "cost": 39.43,
+      "entry_price": 0.91,
+      "event_ticker": "KXNFLRECYDS-26OCT11SFSEA",
+      "market_id": "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40",
+      "opened": "2026-10-10T21:20:48+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 43.05,
+      "question": "Emanuel Wilson: 40+ receiving yards",
+      "rules_version": 2,
+      "slug": "kxnflrecyds-26oct11sfsea-seaewilson23-40",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40:no"
+    },
     "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1": {
       "cost": 38.39,
       "entry_price": 0.96,
@@ -405,6 +420,6 @@
   "profile": "aggr",
   "realized_pnl": -2.6300000000000097,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T20:20:27+00:00",
+  "updated": "2026-10-10T21:20:48+00:00",
   "venue": "kalshi"
 }
