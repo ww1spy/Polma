@@ -59,7 +59,7 @@
       ]
     }
   },
-  "peak_equity": 503.92999999999967,
+  "peak_equity": 504.0299999999997,
   "positions": {
     "KXRT-OTH-23": {
       "cost": 0.91,
@@ -95,6 +95,6 @@
   "profile": "maker",
   "realized_pnl": 3.3300000000000014,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T21:21:21+00:00",
+  "updated": "2026-10-10T22:20:59+00:00",
   "venue": "kalshi"
 }
