@@ -1,5 +1,5 @@
 {
-  "cash": 461.51000000000033,
+  "cash": 451.26000000000033,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -288,9 +288,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
+    },
+    "5427288": {
+      "cost": 10.25,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "5427288",
+      "opened": "2026-10-10T11:20:15+00:00",
+      "outcome": "Carlos Alcaraz",
+      "outcome_idx": 1,
+      "qty": 10.9,
+      "question": "Shanghai Rolex Masters: Juan Manuel Cerundolo vs Carlos Alcaraz",
+      "rules_version": 14,
+      "slug": "atp-cerund-alcaraz-2026-10-09",
+      "strategy": "favorite_discount",
+      "token_id": "20133715070478789643550445316855174704654200240765958611760497721007885077752"
     }
   },
   "realized_pnl": 11.639999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T10:19:47+00:00"
+  "updated": "2026-10-10T11:20:15+00:00"
 }
