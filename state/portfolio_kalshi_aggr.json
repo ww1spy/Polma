@@ -1,5 +1,5 @@
 {
-  "cash": 104.24,
+  "cash": 66.32,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -382,6 +382,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2": {
+      "cost": 37.92,
+      "entry_price": 0.9,
+      "event_ticker": "KXNFLTD-26OCT11LVNE",
+      "market_id": "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2",
+      "opened": "2026-10-10T17:20:48+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.83,
+      "question": "Mike Washington Jr.: 2+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26oct11lvne-lvmwashington4-2",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2:no"
+    },
     "KXT20MATCH-26OCT102115MDVMAL-MDV": {
       "cost": 38.64,
       "entry_price": 0.95,
@@ -401,6 +416,6 @@
   "profile": "aggr",
   "realized_pnl": -14.420000000000009,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T16:20:27+00:00",
+  "updated": "2026-10-10T17:20:48+00:00",
   "venue": "kalshi"
 }
