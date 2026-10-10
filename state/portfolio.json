@@ -1,5 +1,5 @@
 {
-  "cash": 460.51000000000033,
+  "cash": 450.2800000000003,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -287,9 +287,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
+    },
+    "5427270": {
+      "cost": 10.23,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "5427270",
+      "opened": "2026-10-10T08:20:11+00:00",
+      "outcome": "Arthur Fils",
+      "outcome_idx": 0,
+      "qty": 11.24,
+      "question": "Shanghai Rolex Masters: Arthur Fils vs Pavel Kotov",
+      "rules_version": 14,
+      "slug": "atp-fils-kotov-2026-10-09",
+      "strategy": "favorite_discount",
+      "token_id": "49027865734070836159104020724154445537912888764178059568906488561150950746982"
     }
   },
   "realized_pnl": 10.639999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T07:20:08+00:00"
+  "updated": "2026-10-10T08:20:11+00:00"
 }
