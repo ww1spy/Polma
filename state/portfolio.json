@@ -1,5 +1,5 @@
 {
-  "cash": 458.86000000000035,
+  "cash": 448.68000000000035,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -286,9 +286,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
+    },
+    "5434049": {
+      "cost": 10.18,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "5434049",
+      "opened": "2026-10-10T02:20:22+00:00",
+      "outcome": "Daniil Medvedev",
+      "outcome_idx": 0,
+      "qty": 11.84,
+      "question": "Shanghai Rolex Masters: Daniil Medvedev vs Jan-Lennard Struff",
+      "rules_version": 14,
+      "slug": "atp-medvede-struff-2026-10-09",
+      "strategy": "favorite_discount",
+      "token_id": "29816812219737781861050963356511683515292444057341418552902288955768288090087"
     }
   },
   "realized_pnl": 8.989999999999993,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T01:20:34+00:00"
+  "updated": "2026-10-10T02:20:22+00:00"
 }
