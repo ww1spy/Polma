@@ -1,5 +1,5 @@
 {
-  "cash": 142.88,
+  "cash": 104.24,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -381,11 +381,26 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
+    },
+    "KXT20MATCH-26OCT102115MDVMAL-MDV": {
+      "cost": 38.64,
+      "entry_price": 0.95,
+      "event_ticker": "KXT20MATCH-26OCT102115MDVMAL",
+      "market_id": "KXT20MATCH-26OCT102115MDVMAL-MDV",
+      "opened": "2026-10-10T05:21:05+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.52,
+      "question": "Maldives wins",
+      "rules_version": 2,
+      "slug": "kxt20match-26oct102115mdvmal-mdv",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26OCT102115MDVMAL-MDV:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -14.420000000000009,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T04:20:30+00:00",
+  "updated": "2026-10-10T05:21:05+00:00",
   "venue": "kalshi"
 }
