@@ -1,5 +1,5 @@
 {
-  "cash": 452.3300000000004,
+  "cash": 463.4900000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -192,6 +192,7 @@
     "5442758": "2026-10-09",
     "5445274": "2026-10-09",
     "5461112": "2026-10-10",
+    "5476024": "2026-10-10",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
     "599304": "2026-08-03",
@@ -290,24 +291,9 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
-    },
-    "5476024": {
-      "cost": 10.27,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "5476024",
-      "opened": "2026-10-10T13:20:26+00:00",
-      "outcome": "Lucrezia Stefanini",
-      "outcome_idx": 0,
-      "qty": 11.16,
-      "question": "Samsun: Lucrezia Stefanini vs Anna Blinkova",
-      "rules_version": 14,
-      "slug": "wta-stefani-blinkov-2026-10-10",
-      "strategy": "favorite_discount",
-      "token_id": "97377573332032829436170630104067932906415383705168551102307787532407190269709"
     }
   },
-  "realized_pnl": 12.729999999999995,
+  "realized_pnl": 13.619999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T13:20:26+00:00"
+  "updated": "2026-10-10T14:19:53+00:00"
 }
