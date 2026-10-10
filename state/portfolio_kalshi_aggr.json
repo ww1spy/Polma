@@ -1,5 +1,5 @@
 {
-  "cash": 66.32,
+  "cash": 70.50999999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -122,6 +122,7 @@
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
     "KXNCAAFSPREAD-26OCT03MICHMINN-MICH25": "2026-10-03",
+    "KXNCAAFSPREAD-26OCT10INDNEB-IND28": "2026-10-10",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIE-26JUL20-SHI": "2026-07-21",
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": "2026-07-14",
@@ -292,21 +293,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26OCT10PRINWAG-WAG:no"
     },
-    "KXNCAAFSPREAD-26OCT10INDNEB-IND28": {
-      "cost": 39.02,
-      "entry_price": 0.9,
-      "event_ticker": "KXNCAAFSPREAD-26OCT10INDNEB",
-      "market_id": "KXNCAAFSPREAD-26OCT10INDNEB-IND28",
-      "opened": "2026-10-09T16:22:00+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 43.04,
-      "question": "Indiana wins by over 27.5 points",
-      "rules_version": 2,
-      "slug": "kxncaafspread-26oct10indneb-ind28",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFSPREAD-26OCT10INDNEB-IND28:no"
-    },
     "KXNCAAFTOTAL-26OCT10TULNARMY-26": {
       "cost": 38.88,
       "entry_price": 0.96,
@@ -382,6 +368,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1": {
+      "cost": 38.39,
+      "entry_price": 0.96,
+      "event_ticker": "KXNFLTD-26OCT11CHIGB",
+      "market_id": "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1",
+      "opened": "2026-10-10T18:20:50+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.87,
+      "question": "Mark Redman: 1+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26oct11chigb-gbmredman86-1",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1:no"
+    },
     "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2": {
       "cost": 37.92,
       "entry_price": 0.9,
@@ -414,8 +415,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -14.420000000000009,
+  "realized_pnl": -10.860000000000014,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-10T17:20:48+00:00",
+  "updated": "2026-10-10T18:20:50+00:00",
   "venue": "kalshi"
 }
