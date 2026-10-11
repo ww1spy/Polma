@@ -1,5 +1,5 @@
 {
-  "cash": 461.4900000000004,
+  "cash": 451.2200000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -285,6 +285,21 @@
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
     },
+    "5430494": {
+      "cost": 10.27,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "5430494",
+      "opened": "2026-10-11T22:20:40+00:00",
+      "outcome": "KT Rolster",
+      "outcome_idx": 0,
+      "qty": 11.67,
+      "question": "LoL: KT Rolster vs Team Vitality (BO5) - Demacia Cup Global Invitational Playoffs",
+      "rules_version": 14,
+      "slug": "lol-kt-vit-2026-10-12",
+      "strategy": "favorite_discount",
+      "token_id": "49508328162624727756405559535255680749191056433704757278434741500726857635861"
+    },
     "5523557": {
       "cost": 10.27,
       "entry_price": 0.92,
@@ -303,5 +318,5 @@
   },
   "realized_pnl": 11.959999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T21:20:20+00:00"
+  "updated": "2026-10-11T22:20:40+00:00"
 }
