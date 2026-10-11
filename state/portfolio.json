@@ -1,5 +1,5 @@
 {
-  "cash": 467.90000000000043,
+  "cash": 469.5600000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -195,6 +195,7 @@
     "5445274": "2026-10-09",
     "5461112": "2026-10-10",
     "5476024": "2026-10-10",
+    "5481128": "2026-10-11",
     "5481136": "2026-10-11",
     "5485350": "2026-10-11",
     "5485358": "2026-10-11",
@@ -267,6 +268,21 @@
       "strategy": "favorite_discount",
       "token_id": "107540403103917101723616128435236138591116364556711257437238922612332295492509"
     },
+    "5291650": {
+      "cost": 10.43,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "5291650",
+      "opened": "2026-10-11T13:20:33+00:00",
+      "outcome": "West Indies Champions",
+      "outcome_idx": 1,
+      "qty": 10.98,
+      "question": "World Championship of Legends: Australia Champions vs West Indies Champions",
+      "rules_version": 14,
+      "slug": "cricwcl-aus-wes-2026-10-11",
+      "strategy": "favorite_discount",
+      "token_id": "41657724467725067809342533165866481212194595390480094881474181922072312495170"
+    },
     "5339988": {
       "cost": 10.13,
       "entry_price": 0.94,
@@ -281,24 +297,9 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
-    },
-    "5481128": {
-      "cost": 10.39,
-      "entry_price": 0.86,
-      "event_ticker": "",
-      "market_id": "5481128",
-      "opened": "2026-10-11T09:20:18+00:00",
-      "outcome": "Alexander Zverev",
-      "outcome_idx": 0,
-      "qty": 12.09,
-      "question": "Shanghai Rolex Masters: Alexander Zverev vs Quentin Halys",
-      "rules_version": 14,
-      "slug": "atp-zverev-halys-2026-10-11",
-      "strategy": "favorite_discount",
-      "token_id": "29648043878024969572903938556437139580604107180873479701871308724524848437956"
     }
   },
-  "realized_pnl": 18.49,
+  "realized_pnl": 20.189999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T12:20:36+00:00"
+  "updated": "2026-10-11T13:20:33+00:00"
 }
