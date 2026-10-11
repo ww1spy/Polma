@@ -1,5 +1,5 @@
 {
-  "cash": 465.0500000000004,
+  "cash": 454.71000000000043,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -279,6 +279,21 @@
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
     },
+    "5485350": {
+      "cost": 10.34,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "5485350",
+      "opened": "2026-10-11T05:19:56+00:00",
+      "outcome": "Daria Kasatkina",
+      "outcome_idx": 1,
+      "qty": 10.88,
+      "question": "Wuhan Tennis Open, Qualification: Sara Sorribes Tormo vs Daria Kasatkina",
+      "rules_version": 14,
+      "slug": "wta-tormo-kasatki-2026-10-10",
+      "strategy": "favorite_discount",
+      "token_id": "20989779923795505129031772471170577620596504670419155480325350100503255240399"
+    },
     "5485358": {
       "cost": 10.33,
       "entry_price": 0.927,
@@ -297,5 +312,5 @@
   },
   "realized_pnl": 15.579999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T04:20:15+00:00"
+  "updated": "2026-10-11T05:19:56+00:00"
 }
