@@ -1,5 +1,5 @@
 {
-  "cash": 78.82,
+  "cash": 160.08999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -156,6 +156,8 @@
     "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1": "2026-10-04",
     "KXNFLTD-26OCT05ATLNO-NOKAUSTIN81-1": "2026-10-06",
     "KXNFLTD-26OCT08TBDAL-DALJFERGUSON87-2": "2026-10-09",
+    "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1": "2026-10-11",
+    "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2": "2026-10-11",
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": "2026-09-29",
     "KXNFLTEAMTOTAL-26SEP28PHICHI-PHI8": "2026-09-29",
     "KXNFLTOTAL-26OCT01PITCLE-18": "2026-10-02",
@@ -251,7 +253,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 500.0,
+  "peak_equity": 502.27526,
   "positions": {
     "KXCPI-26SEP-T0.4": {
       "cost": 39.9,
@@ -373,21 +375,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40:no"
     },
-    "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1": {
-      "cost": 38.39,
-      "entry_price": 0.96,
-      "event_ticker": "KXNFLTD-26OCT11CHIGB",
-      "market_id": "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1",
-      "opened": "2026-10-10T18:20:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.87,
-      "question": "Mark Redman: 1+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct11chigb-gbmredman86-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1:no"
-    },
     "KXNFLTD-26OCT11DENLAC-LACDDAVIS12-1": {
       "cost": 39.63,
       "entry_price": 0.91,
@@ -402,26 +389,11 @@
       "slug": "kxnfltd-26oct11denlac-lacddavis12-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT11DENLAC-LACDDAVIS12-1:no"
-    },
-    "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2": {
-      "cost": 37.92,
-      "entry_price": 0.9,
-      "event_ticker": "KXNFLTD-26OCT11LVNE",
-      "market_id": "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2",
-      "opened": "2026-10-10T17:20:48+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.83,
-      "question": "Mike Washington Jr.: 2+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct11lvne-lvmwashington4-2",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": 1.519999999999989,
+  "realized_pnl": 6.479999999999983,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T19:20:40+00:00",
+  "updated": "2026-10-11T20:20:30+00:00",
   "venue": "kalshi"
 }
