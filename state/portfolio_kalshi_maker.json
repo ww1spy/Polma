@@ -1,10 +1,11 @@
 {
-  "cash": 487.7699999999997,
+  "cash": 488.7399999999997,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
     "KXRT-DIG-52": "2026-10-04",
     "KXRT-FOR-93": "2026-09-28",
+    "KXRT-OTH-23": "2026-10-11",
     "KXRT-OTH-30": "2026-10-10",
     "KXRT-PRI-86": "2026-09-28",
     "KXRT-VER-35": "2026-10-05",
@@ -33,21 +34,6 @@
   "orders": {},
   "peak_equity": 504.1299999999997,
   "positions": {
-    "KXRT-OTH-23": {
-      "cost": 0.91,
-      "entry_price": 0.91,
-      "event_ticker": "KXRT-OTH",
-      "market_id": "KXRT-OTH-23",
-      "opened": "2026-10-10T18:21:21+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 1,
-      "question": "Other Mommy Rotten Tomatoes score? \u2014 Above 23",
-      "rules_version": 1,
-      "slug": "kxrt-oth-23",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-OTH-23:no"
-    },
     "KXRT-SOC-52": {
       "cost": 4.75,
       "entry_price": 0.95,
@@ -80,8 +66,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": 3.3300000000000014,
+  "realized_pnl": 3.3900000000000015,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T09:22:49+00:00",
+  "updated": "2026-10-11T10:24:33+00:00",
   "venue": "kalshi"
 }
