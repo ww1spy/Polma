@@ -1,5 +1,5 @@
 {
-  "cash": 474.1100000000004,
+  "cash": 463.8000000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -263,6 +263,21 @@
       "strategy": "favorite_discount",
       "token_id": "107540403103917101723616128435236138591116364556711257437238922612332295492509"
     },
+    "5279694": {
+      "cost": 10.31,
+      "entry_price": 0.89,
+      "event_ticker": "",
+      "market_id": "5279694",
+      "opened": "2026-10-11T02:20:13+00:00",
+      "outcome": "Cleveland Guardians",
+      "outcome_idx": 1,
+      "qty": 11.58,
+      "question": "Chicago White Sox vs. Cleveland Guardians",
+      "rules_version": 14,
+      "slug": "mlb-cws-cle-2026-10-10",
+      "strategy": "favorite_discount",
+      "token_id": "3829513284626487276305256843034719130559504967135326768420204580551032850510"
+    },
     "5339988": {
       "cost": 10.13,
       "entry_price": 0.94,
@@ -281,5 +296,5 @@
   },
   "realized_pnl": 14.309999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T01:20:07+00:00"
+  "updated": "2026-10-11T02:20:13+00:00"
 }
