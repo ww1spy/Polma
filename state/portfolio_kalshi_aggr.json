@@ -1,5 +1,5 @@
 {
-  "cash": 117.66,
+  "cash": 158.7,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -118,6 +118,7 @@
     "KXNCAAFGAME-26OCT03FORLEH-FOR": "2026-10-03",
     "KXNCAAFGAME-26OCT03NDUNC-UNC": "2026-10-03",
     "KXNCAAFGAME-26OCT03VANUGA-UGA": "2026-10-03",
+    "KXNCAAFGAME-26OCT10HAWASU-HAW": "2026-10-11",
     "KXNCAAFGAME-26OCT10MOREDAY-MORE": "2026-10-10",
     "KXNCAAFGAME-26OCT10PRINWAG-WAG": "2026-10-10",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
@@ -252,21 +253,6 @@
   "mode": "paper",
   "peak_equity": 500.0,
   "positions": {
-    "KXNCAAFGAME-26OCT10HAWASU-HAW": {
-      "cost": 38.77,
-      "entry_price": 0.93,
-      "event_ticker": "KXNCAAFGAME-26OCT10HAWASU",
-      "market_id": "KXNCAAFGAME-26OCT10HAWASU-HAW",
-      "opened": "2026-10-09T17:20:29+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.48,
-      "question": "Hawai'i wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct10hawasu-haw",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT10HAWASU-HAW:no"
-    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -404,8 +390,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -0.7500000000000071,
+  "realized_pnl": 1.519999999999989,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T05:20:18+00:00",
+  "updated": "2026-10-11T06:20:53+00:00",
   "venue": "kalshi"
 }

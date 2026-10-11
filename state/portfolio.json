@@ -1,5 +1,5 @@
 {
-  "cash": 454.71000000000043,
+  "cash": 466.3800000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -195,6 +195,8 @@
     "5445274": "2026-10-09",
     "5461112": "2026-10-10",
     "5476024": "2026-10-10",
+    "5485350": "2026-10-11",
+    "5485358": "2026-10-11",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
     "599304": "2026-08-03",
@@ -279,38 +281,23 @@
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
     },
-    "5485350": {
-      "cost": 10.34,
-      "entry_price": 0.95,
+    "5481136": {
+      "cost": 10.36,
+      "entry_price": 0.87,
       "event_ticker": "",
-      "market_id": "5485350",
-      "opened": "2026-10-11T05:19:56+00:00",
-      "outcome": "Daria Kasatkina",
-      "outcome_idx": 1,
-      "qty": 10.88,
-      "question": "Wuhan Tennis Open, Qualification: Sara Sorribes Tormo vs Daria Kasatkina",
-      "rules_version": 14,
-      "slug": "wta-tormo-kasatki-2026-10-10",
-      "strategy": "favorite_discount",
-      "token_id": "20989779923795505129031772471170577620596504670419155480325350100503255240399"
-    },
-    "5485358": {
-      "cost": 10.33,
-      "entry_price": 0.927,
-      "event_ticker": "",
-      "market_id": "5485358",
-      "opened": "2026-10-11T04:20:15+00:00",
-      "outcome": "Zeynep Sonmez",
+      "market_id": "5481136",
+      "opened": "2026-10-11T06:20:31+00:00",
+      "outcome": "Hubert Hurkacz",
       "outcome_idx": 0,
-      "qty": 11.15,
-      "question": "Wuhan Tennis Open, Qualification: Zeynep Sonmez vs Sinja Kraus",
+      "qty": 11.91,
+      "question": "Shanghai Rolex Masters: Hubert Hurkacz vs Yi Zhou",
       "rules_version": 14,
-      "slug": "wta-sonmez-kraus-2026-10-10",
+      "slug": "atp-hurkacz-zhou-2026-10-11",
       "strategy": "favorite_discount",
-      "token_id": "65424518950248576464360956610629939416042526461705671530468364254243823060888"
+      "token_id": "36868633377226988357374540421063993474965755642867270225672173329258548755491"
     }
   },
-  "realized_pnl": 15.579999999999995,
+  "realized_pnl": 16.939999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T05:19:56+00:00"
+  "updated": "2026-10-11T06:20:31+00:00"
 }
