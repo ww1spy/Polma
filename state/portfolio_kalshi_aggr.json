@@ -1,5 +1,5 @@
 {
-  "cash": 198.83999999999997,
+  "cash": 241.64999999999998,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -158,6 +158,7 @@
     "KXNFLTD-26OCT05ATLNO-NOKAUSTIN81-1": "2026-10-06",
     "KXNFLTD-26OCT08TBDAL-DALJFERGUSON87-2": "2026-10-09",
     "KXNFLTD-26OCT11CHIGB-GBMREDMAN86-1": "2026-10-11",
+    "KXNFLTD-26OCT11DENLAC-LACDDAVIS12-1": "2026-10-11",
     "KXNFLTD-26OCT11LVNE-LVMWASHINGTON4-2": "2026-10-11",
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": "2026-09-29",
     "KXNFLTEAMTOTAL-26SEP28PHICHI-PHI8": "2026-09-29",
@@ -254,7 +255,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 505.69945999999993,
+  "peak_equity": 506.53976,
   "positions": {
     "KXCPI-26SEP-T0.4": {
       "cost": 39.9,
@@ -360,26 +361,11 @@
       "slug": "kxnflrecyds-26oct11sfsea-seaewilson23-40",
       "strategy": "favorite_discount",
       "token_id": "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40:no"
-    },
-    "KXNFLTD-26OCT11DENLAC-LACDDAVIS12-1": {
-      "cost": 39.63,
-      "entry_price": 0.91,
-      "event_ticker": "KXNFLTD-26OCT11DENLAC",
-      "market_id": "KXNFLTD-26OCT11DENLAC-LACDDAVIS12-1",
-      "opened": "2026-10-10T20:20:27+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 43.27,
-      "question": "Derius Davis: 1+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct11denlac-lacddavis12-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT11DENLAC-LACDDAVIS12-1:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": 5.789999999999985,
+  "realized_pnl": 8.969999999999985,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-11T22:21:01+00:00",
+  "updated": "2026-10-11T23:20:50+00:00",
   "venue": "kalshi"
 }
