@@ -1,5 +1,5 @@
 {
-  "cash": 128.08999999999997,
+  "cash": 87.96999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -274,6 +274,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXCPI-26SEP-T0.4:yes"
     },
+    "KXFIFAWGAME-26OCT13NORROU-NOR": {
+      "cost": 40.12,
+      "entry_price": 0.96,
+      "event_ticker": "KXFIFAWGAME-26OCT13NORROU",
+      "market_id": "KXFIFAWGAME-26OCT13NORROU-NOR",
+      "opened": "2026-10-12T16:20:52+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 41.67,
+      "question": "Reg Time: Norway wins",
+      "rules_version": 2,
+      "slug": "kxfifawgame-26oct13norrou-nor",
+      "strategy": "favorite_discount",
+      "token_id": "KXFIFAWGAME-26OCT13NORROU-NOR:yes"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -413,6 +428,6 @@
   "profile": "aggr",
   "realized_pnl": 16.729999999999983,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-12T15:21:50+00:00",
+  "updated": "2026-10-12T16:20:52+00:00",
   "venue": "kalshi"
 }
