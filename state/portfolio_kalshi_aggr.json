@@ -1,5 +1,5 @@
 {
-  "cash": 83.96999999999997,
+  "cash": 128.08999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -110,6 +110,7 @@
     "KXLOLGAME-26JUL211100UBLUA-UB": "2026-07-21",
     "KXLOLGAME-26JUL211700RMDPNGA-RMD": "2026-07-21",
     "KXLOLGAME-26JUL231100LUAKOIA-LUA": "2026-07-23",
+    "KXLOLGAME-26OCT120500VITKT-KT": "2026-10-12",
     "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
@@ -256,7 +257,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 510.41945999999996,
+  "peak_equity": 512.47376,
   "positions": {
     "KXCPI-26SEP-T0.4": {
       "cost": 39.9,
@@ -272,21 +273,6 @@
       "slug": "kxcpi-26sep-t0.4",
       "strategy": "favorite_discount",
       "token_id": "KXCPI-26SEP-T0.4:yes"
-    },
-    "KXLOLGAME-26OCT120500VITKT-KT": {
-      "cost": 39.98,
-      "entry_price": 0.9,
-      "event_ticker": "KXLOLGAME-26OCT120500VITKT",
-      "market_id": "KXLOLGAME-26OCT120500VITKT-KT",
-      "opened": "2026-10-11T09:20:51+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 44.12,
-      "question": "KT Rolster wins",
-      "rules_version": 2,
-      "slug": "kxlolgame-26oct120500vitkt-kt",
-      "strategy": "favorite_discount",
-      "token_id": "KXLOLGAME-26OCT120500VITKT-KT:yes"
     },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
@@ -425,8 +411,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 12.589999999999982,
+  "realized_pnl": 16.729999999999983,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-12T09:21:21+00:00",
+  "updated": "2026-10-12T10:22:50+00:00",
   "venue": "kalshi"
 }
