@@ -1,5 +1,5 @@
 {
-  "cash": 440.95000000000044,
+  "cash": 430.68000000000046,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -315,6 +315,21 @@
       "strategy": "favorite_discount",
       "token_id": "49508328162624727756405559535255680749191056433704757278434741500726857635861"
     },
+    "5509620": {
+      "cost": 10.27,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5509620",
+      "opened": "2026-10-12T02:20:25+00:00",
+      "outcome": "Carlos Alcaraz",
+      "outcome_idx": 1,
+      "qty": 11.04,
+      "question": "Shanghai Rolex Masters: Zizou Bergs vs Carlos Alcaraz",
+      "rules_version": 14,
+      "slug": "atp-bergs-alcaraz-2026-10-11",
+      "strategy": "favorite_discount",
+      "token_id": "1285264187681974919914192264476658029823993331519219673505310362732201740685"
+    },
     "5523557": {
       "cost": 10.27,
       "entry_price": 0.92,
@@ -333,5 +348,5 @@
   },
   "realized_pnl": 11.959999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-12T01:20:04+00:00"
+  "updated": "2026-10-12T02:20:25+00:00"
 }
