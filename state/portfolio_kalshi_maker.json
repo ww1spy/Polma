@@ -1,5 +1,5 @@
 {
-  "cash": 458.9099999999997,
+  "cash": 469.9099999999997,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -18,6 +18,7 @@
     "KXWT20MATCH-26OCT030700WINZIM-ZIM": "2026-10-03",
     "KXWT20MATCH-26OCT050600WINZIM-ZIM": "2026-10-05",
     "KXWT20MATCH-26OCT070600WINZIM-ZIM": "2026-10-07",
+    "KXWT20MATCH-26OCT112330MS-WST-W-ST-W": "2026-10-12",
     "KXWTI-26OCT0114-T88.99": "2026-10-01",
     "KXWTI-26OCT0114-T93.99": "2026-10-01",
     "KXWTI-26OCT0614-T89.49": "2026-10-07",
@@ -105,26 +106,11 @@
       "slug": "kxrt-soc-55",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-SOC-55:no"
-    },
-    "KXWT20MATCH-26OCT112330MS-WST-W-ST-W": {
-      "cost": 9.79,
-      "entry_price": 0.89,
-      "event_ticker": "KXWT20MATCH-26OCT112330MS-WST-W",
-      "market_id": "KXWT20MATCH-26OCT112330MS-WST-W-ST-W",
-      "opened": "2026-10-12T05:21:27+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11,
-      "question": "Sydney Thunder Women wins",
-      "rules_version": 1,
-      "slug": "kxwt20match-26oct112330ms-wst-w-st-w",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXWT20MATCH-26OCT112330MS-WST-W-ST-W:yes"
     }
   },
   "profile": "maker",
-  "realized_pnl": -6.369999999999999,
+  "realized_pnl": -5.159999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-12T05:22:01+00:00",
+  "updated": "2026-10-12T06:21:57+00:00",
   "venue": "kalshi"
 }
