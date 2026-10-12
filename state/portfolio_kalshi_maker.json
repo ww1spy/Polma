@@ -1,5 +1,5 @@
 {
-  "cash": 479.1099999999997,
+  "cash": 486.0299999999997,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -9,6 +9,7 @@
     "KXRT-OTH-30": "2026-10-10",
     "KXRT-PRI-86": "2026-09-28",
     "KXRT-SOC-52": "2026-10-11",
+    "KXRT-SOC-55": "2026-10-12",
     "KXRT-VER-35": "2026-10-05",
     "KXRT-VER-40": "2026-10-02",
     "KXTRUMPSAY-26OCT05-CEAS": "2026-10-05",
@@ -64,26 +65,10 @@
     }
   },
   "peak_equity": 504.1299999999997,
-  "positions": {
-    "KXRT-SOC-55": {
-      "cost": 6.23,
-      "entry_price": 0.89,
-      "event_ticker": "KXRT-SOC",
-      "market_id": "KXRT-SOC-55",
-      "opened": "2026-10-12T00:21:00+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 7,
-      "question": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
-      "rules_version": 1,
-      "slug": "kxrt-soc-55",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-SOC-55:no"
-    }
-  },
+  "positions": {},
   "profile": "maker",
-  "realized_pnl": -5.159999999999998,
+  "realized_pnl": -4.469999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-12T12:24:04+00:00",
+  "updated": "2026-10-12T13:22:54+00:00",
   "venue": "kalshi"
 }
