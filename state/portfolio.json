@@ -1,5 +1,5 @@
 {
-  "cash": 443.1600000000005,
+  "cash": 453.8500000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -205,6 +205,7 @@
     "5485350": "2026-10-11",
     "5485358": "2026-10-11",
     "5509620": "2026-10-12",
+    "5537619": "2026-10-13",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
     "599304": "2026-08-03",
@@ -303,24 +304,9 @@
       "slug": "us-x-yemen-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "39350880861598000811732864013769838453223223946861748445579304272049030638065"
-    },
-    "5537619": {
-      "cost": 10.12,
-      "entry_price": 0.946,
-      "event_ticker": "",
-      "market_id": "5537619",
-      "opened": "2026-10-13T00:20:33+00:00",
-      "outcome": "Rodrigo Pacheco",
-      "outcome_idx": 0,
-      "qty": 10.69,
-      "question": "Santa Cruz 2: Rodrigo Pacheco vs Juan Estevez",
-      "rules_version": 14,
-      "slug": "atp-pacheco-estevez-2026-10-12",
-      "strategy": "favorite_discount",
-      "token_id": "103874037784724041484138143047130256025873479203920958374766928937273084464260"
     }
   },
-  "realized_pnl": 3.83,
+  "realized_pnl": 4.4,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T00:20:33+00:00"
+  "updated": "2026-10-13T01:20:12+00:00"
 }
