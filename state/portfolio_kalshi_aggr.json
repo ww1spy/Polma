@@ -1,5 +1,5 @@
 {
-  "cash": 224.32999999999996,
+  "cash": 265.56999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -153,6 +153,7 @@
     "KXNFLREC-26SEP28PHICHI-CHIDSWIFT4-5": "2026-09-29",
     "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60": "2026-10-04",
     "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40": "2026-10-12",
+    "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70": "2026-10-13",
     "KXNFLSPREAD-26OCT04INDWAS-WAS11": "2026-10-04",
     "KXNFLSPREAD-26OCT04MIAMIN-MIN28": "2026-10-04",
     "KXNFLSPREAD-26OCT08TBDAL-TB10": "2026-10-09",
@@ -352,26 +353,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70": {
-      "cost": 40.09,
-      "entry_price": 0.97,
-      "event_ticker": "KXNFLRECYDS-26OCT12BUFLAR",
-      "market_id": "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70",
-      "opened": "2026-10-12T00:20:24+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.24,
-      "question": "Kyren Williams: 70+ receiving yards",
-      "rules_version": 2,
-      "slug": "kxnflrecyds-26oct12buflar-larkwilliams23-70",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -7.5500000000000185,
+  "realized_pnl": -6.40000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T03:20:26+00:00",
+  "updated": "2026-10-13T04:20:40+00:00",
   "venue": "kalshi"
 }
