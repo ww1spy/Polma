@@ -1,5 +1,5 @@
 {
-  "cash": 456.66000000000054,
+  "cash": 446.6900000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -294,9 +294,24 @@
       "slug": "ucl-vf-bay-2026-10-13-vf",
       "strategy": "favorite_discount",
       "token_id": "51290780541469568813762709126381414776716577355358064090887671827522778780805"
+    },
+    "5613322": {
+      "cost": 9.97,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "5613322",
+      "opened": "2026-10-13T13:21:49+00:00",
+      "outcome": "Georgii Kravchenko",
+      "outcome_idx": 1,
+      "qty": 11.46,
+      "question": "Olbia: Laurent Lokoli vs Georgii Kravchenko",
+      "rules_version": 14,
+      "slug": "atp-lokoli-kravche-2026-10-13",
+      "strategy": "favorite_discount",
+      "token_id": "29207704783360740578501460806177308798454218902027162293553199253047566836526"
     }
   },
   "realized_pnl": -3.0400000000000027,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T12:21:26+00:00"
+  "updated": "2026-10-13T13:21:49+00:00"
 }
