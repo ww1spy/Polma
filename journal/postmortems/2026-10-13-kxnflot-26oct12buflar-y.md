@@ -10,10 +10,22 @@
 - **Context at exit:** bid 0.25 / ask 0.26 vs entry 0.950
 
 ## What the rules saw at entry
-<!-- Fill in during review: liquidity, spread, price, hours to resolution -->
+"No overtime" at 0.95 on Bills @ Rams (MNF), entered about 24 hours before kickoff, aggressive book,
+about $40 stake (about 8% of equity). This was one of **five** aggressive-book positions on the same game
+(overtime No, Kyren Williams 70+ receiving yards No, Bills by more than 13.5 No, Allen 3+ TD No, Shakir 1st TD No),
+about $200 combined. Each one was a separate Kalshi event, so the per-event correlation guard
+allowed all five.
 
 ## Why it lost
-<!-- Was the thesis wrong, the timing wrong, or the rule too loose? -->
+The game was close late, the overtime market reprised to about 0.75, and the stop fired
+at 0.26. Even if this game never reaches overtime, the problem is structural: a
+close game moves several of these legs against us at once. The same hour, the
+aggressive book fell $50.49 (from $516.56 to $466.07): −$29.77 realized here, +$3.68 from the
+Bills-by-13.5 take-profit, and the rest from marking the open positions to market. The Allen
+and Shakir legs had already closed in profit.
 
 ## Rule change proposed
-<!-- Concrete edit to rules/rules.yaml, or "no change — acceptable variance" -->
+This is the clearest example so far of the **per-game cap** that is still waiting on the
+owner (one game = one exposure bucket, for example ≤ 1 position or ≤ 2× single-stake
+per game across event types). I have not applied it. It needs a change to the engine's
+correlation guard, plus owner approval for the aggressive rules/limits files.
