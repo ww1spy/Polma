@@ -1,5 +1,5 @@
 {
-  "cash": 148.92999999999995,
+  "cash": 109.48999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -385,6 +385,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXUCLGAME-26OCT14ASKLFC-ASK:no"
     },
+    "KXUCLGAME-26OCT14SLOVFB-SLO": {
+      "cost": 39.44,
+      "entry_price": 0.91,
+      "event_ticker": "KXUCLGAME-26OCT14SLOVFB",
+      "market_id": "KXUCLGAME-26OCT14SLOVFB-SLO",
+      "opened": "2026-10-13T21:20:31+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 43.07,
+      "question": "Slovan Bratislava wins",
+      "rules_version": 2,
+      "slug": "kxuclgame-26oct14slovfb-slo",
+      "strategy": "favorite_discount",
+      "token_id": "KXUCLGAME-26OCT14SLOVFB-SLO:no"
+    },
     "KXWODIMATCH-26OCT132350BANAUS-BAN": {
       "cost": 39.44,
       "entry_price": 0.97,
@@ -404,6 +419,6 @@
   "profile": "aggr",
   "realized_pnl": -5.3000000000000185,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T20:20:51+00:00",
+  "updated": "2026-10-13T21:20:31+00:00",
   "venue": "kalshi"
 }
