@@ -1,5 +1,5 @@
 {
-  "cash": 434.1900000000005,
+  "cash": 424.1300000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -335,9 +335,24 @@
       "slug": "us-x-yemen-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "39350880861598000811732864013769838453223223946861748445579304272049030638065"
+    },
+    "5597170": {
+      "cost": 10.06,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "5597170",
+      "opened": "2026-10-13T07:21:29+00:00",
+      "outcome": "Arthur Gea",
+      "outcome_idx": 0,
+      "qty": 11.05,
+      "question": "Shanghai Rolex Masters: Arthur Gea vs Jakub Mensik",
+      "rules_version": 14,
+      "slug": "atp-gea-mensik-2026-10-13",
+      "strategy": "favorite_discount",
+      "token_id": "18937264600976646320154936572517088224322854600856366590206396438046471434492"
     }
   },
   "realized_pnl": 5.039999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T06:21:08+00:00"
+  "updated": "2026-10-13T07:21:29+00:00"
 }
