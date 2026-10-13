@@ -1,5 +1,5 @@
 {
-  "cash": 169.98999999999995,
+  "cash": 224.32999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -146,6 +146,7 @@
     "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": "2026-09-29",
     "KXNFLOT-26OCT01PITCLE-Y": "2026-10-02",
     "KXNFLOT-26OCT08TBDAL-Y": "2026-10-09",
+    "KXNFLOT-26OCT12BUFLAR-Y": "2026-10-13",
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26OCT05ATLNO-ATLKPITTS8-7": "2026-10-06",
@@ -155,6 +156,7 @@
     "KXNFLSPREAD-26OCT04INDWAS-WAS11": "2026-10-04",
     "KXNFLSPREAD-26OCT04MIAMIN-MIN28": "2026-10-04",
     "KXNFLSPREAD-26OCT08TBDAL-TB10": "2026-10-09",
+    "KXNFLSPREAD-26OCT12BUFLAR-BUF14": "2026-10-13",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
     "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": "2026-10-02",
     "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1": "2026-10-04",
@@ -351,21 +353,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
-    "KXNFLOT-26OCT12BUFLAR-Y": {
-      "cost": 40.15,
-      "entry_price": 0.95,
-      "event_ticker": "KXNFLOT-26OCT12BUFLAR",
-      "market_id": "KXNFLOT-26OCT12BUFLAR-Y",
-      "opened": "2026-10-12T00:20:24+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 42.11,
-      "question": "Buffalo vs Los Angeles R goes to overtime? \u2014 Game goes to overtime",
-      "rules_version": 2,
-      "slug": "kxnflot-26oct12buflar-y",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLOT-26OCT12BUFLAR-Y:no"
-    },
     "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70": {
       "cost": 40.09,
       "entry_price": 0.97,
@@ -380,26 +367,11 @@
       "slug": "kxnflrecyds-26oct12buflar-larkwilliams23-70",
       "strategy": "favorite_discount",
       "token_id": "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70:no"
-    },
-    "KXNFLSPREAD-26OCT12BUFLAR-BUF14": {
-      "cost": 40.28,
-      "entry_price": 0.9,
-      "event_ticker": "KXNFLSPREAD-26OCT12BUFLAR",
-      "market_id": "KXNFLSPREAD-26OCT12BUFLAR-BUF14",
-      "opened": "2026-10-12T00:20:24+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 44.44,
-      "question": "BUF Bills wins by over 13.5 points?",
-      "rules_version": 2,
-      "slug": "kxnflspread-26oct12buflar-buf14",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLSPREAD-26OCT12BUFLAR-BUF14:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": 18.539999999999978,
+  "realized_pnl": -7.5500000000000185,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T02:20:22+00:00",
+  "updated": "2026-10-13T03:20:26+00:00",
   "venue": "kalshi"
 }
