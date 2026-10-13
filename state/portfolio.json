@@ -1,5 +1,5 @@
 {
-  "cash": 458.1500000000005,
+  "cash": 448.1500000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -295,9 +295,24 @@
       "slug": "ucl-vf-bay-2026-10-13-vf",
       "strategy": "favorite_discount",
       "token_id": "51290780541469568813762709126381414776716577355358064090887671827522778780805"
+    },
+    "5408827": {
+      "cost": 10.0,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "5408827",
+      "opened": "2026-10-13T17:20:40+00:00",
+      "outcome": "West Indies Champions",
+      "outcome_idx": 1,
+      "qty": 11.49,
+      "question": "World Championship of Legends: India Champions vs West Indies Champions",
+      "rules_version": 14,
+      "slug": "cricwcl-ind-wes-2026-10-13",
+      "strategy": "favorite_discount",
+      "token_id": "83977029400396278266168753215315847624025241073449902160990403852643931899428"
     }
   },
   "realized_pnl": -1.5500000000000025,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T16:21:46+00:00"
+  "updated": "2026-10-13T17:20:40+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 188.42999999999995,
+  "cash": 148.92999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -370,6 +370,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXT20MATCH-26OCT132115CHNMAL-CHN:no"
     },
+    "KXUCLGAME-26OCT14ASKLFC-ASK": {
+      "cost": 39.5,
+      "entry_price": 0.91,
+      "event_ticker": "KXUCLGAME-26OCT14ASKLFC",
+      "market_id": "KXUCLGAME-26OCT14ASKLFC-ASK",
+      "opened": "2026-10-13T17:21:09+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 43.13,
+      "question": "LASK wins",
+      "rules_version": 2,
+      "slug": "kxuclgame-26oct14asklfc-ask",
+      "strategy": "favorite_discount",
+      "token_id": "KXUCLGAME-26OCT14ASKLFC-ASK:no"
+    },
     "KXWODIMATCH-26OCT132350BANAUS-BAN": {
       "cost": 39.44,
       "entry_price": 0.97,
@@ -389,6 +404,6 @@
   "profile": "aggr",
   "realized_pnl": -5.3000000000000185,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T16:22:07+00:00",
+  "updated": "2026-10-13T17:21:09+00:00",
   "venue": "kalshi"
 }
