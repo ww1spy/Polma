@@ -259,7 +259,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "peak_equity": 513.94116,
+  "peak_equity": 516.5624599999999,
   "positions": {
     "KXCPI-26SEP-T0.4": {
       "cost": 39.9,
@@ -400,6 +400,6 @@
   "profile": "aggr",
   "realized_pnl": 18.539999999999978,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T01:20:38+00:00",
+  "updated": "2026-10-13T02:20:22+00:00",
   "venue": "kalshi"
 }
