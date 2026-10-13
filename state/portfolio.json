@@ -1,5 +1,5 @@
 {
-  "cash": 454.49000000000046,
+  "cash": 434.1900000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -276,6 +276,21 @@
       "strategy": "favorite_discount",
       "token_id": "56628428450402824732287359608952082337759182543635302696222526957026905553178"
     },
+    "5158627": {
+      "cost": 10.15,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "5158627",
+      "opened": "2026-10-13T06:21:08+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.57,
+      "question": "Will Viking FK win on 2026-10-13?",
+      "rules_version": 14,
+      "slug": "ucl-vf-bay-2026-10-13-vf",
+      "strategy": "favorite_discount",
+      "token_id": "51290780541469568813762709126381414776716577355358064090887671827522778780805"
+    },
     "5339988": {
       "cost": 10.13,
       "entry_price": 0.94,
@@ -290,6 +305,21 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "18092319243255801260524611222949546655679245299042332944161651044825954090328"
+    },
+    "5507176": {
+      "cost": 10.15,
+      "entry_price": 0.97,
+      "event_ticker": "",
+      "market_id": "5507176",
+      "opened": "2026-10-13T06:21:08+00:00",
+      "outcome": "Sorana Cirstea",
+      "outcome_idx": 1,
+      "qty": 10.46,
+      "question": "Wuhan Tennis Open: Hanyu Guo vs Sorana Cirstea",
+      "rules_version": 14,
+      "slug": "wta-guo-cirstea-2026-10-11",
+      "strategy": "favorite_discount",
+      "token_id": "28270606305671387082928761117508031208639254557039177410603519894998419914341"
     },
     "5523557": {
       "cost": 10.27,
@@ -309,5 +339,5 @@
   },
   "realized_pnl": 5.039999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T05:20:23+00:00"
+  "updated": "2026-10-13T06:21:08+00:00"
 }
