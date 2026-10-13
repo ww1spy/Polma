@@ -1,5 +1,5 @@
 {
-  "cash": 448.1500000000005,
+  "cash": 470.8100000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -129,6 +129,7 @@
     "4877189": "2026-10-06",
     "4877201": "2026-10-06",
     "4881744": "2026-09-30",
+    "4906127": "2026-10-13",
     "4909055": "2026-10-01",
     "4978475": "2026-09-30",
     "5015038": "2026-10-10",
@@ -190,6 +191,7 @@
     "5380305": "2026-10-07",
     "5393038": "2026-10-07",
     "5393324": "2026-10-08",
+    "5408827": "2026-10-13",
     "5424063": "2026-10-09",
     "5424069": "2026-10-09",
     "5427270": "2026-10-10",
@@ -236,21 +238,6 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
-    "4906127": {
-      "cost": 10.01,
-      "entry_price": 0.88,
-      "event_ticker": "",
-      "market_id": "4906127",
-      "opened": "2026-10-06T11:48:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.37,
-      "question": "US announces end of Iranian blockade by October 15, 2026?",
-      "rules_version": 14,
-      "slug": "us-announces-end-of-iranian-blockade-by-october-15-2026",
-      "strategy": "favorite_discount",
-      "token_id": "31187265469632759819393766291567751905226119108990371376517456149152650382781"
-    },
     "5130978": {
       "cost": 10.03,
       "entry_price": 0.91,
@@ -295,24 +282,9 @@
       "slug": "ucl-vf-bay-2026-10-13-vf",
       "strategy": "favorite_discount",
       "token_id": "51290780541469568813762709126381414776716577355358064090887671827522778780805"
-    },
-    "5408827": {
-      "cost": 10.0,
-      "entry_price": 0.87,
-      "event_ticker": "",
-      "market_id": "5408827",
-      "opened": "2026-10-13T17:20:40+00:00",
-      "outcome": "West Indies Champions",
-      "outcome_idx": 1,
-      "qty": 11.49,
-      "question": "World Championship of Legends: India Champions vs West Indies Champions",
-      "rules_version": 14,
-      "slug": "cricwcl-ind-wes-2026-10-13",
-      "strategy": "favorite_discount",
-      "token_id": "83977029400396278266168753215315847624025241073449902160990403852643931899428"
     }
   },
-  "realized_pnl": -1.5500000000000025,
+  "realized_pnl": 1.0999999999999979,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-13T18:20:30+00:00"
+  "updated": "2026-10-13T19:20:20+00:00"
 }
