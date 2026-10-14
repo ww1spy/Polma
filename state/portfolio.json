@@ -1,5 +1,5 @@
 {
-  "cash": 483.96000000000055,
+  "cash": 484.8700000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -153,6 +153,7 @@
     "5121584": "2026-10-01",
     "5130744": "2026-10-01",
     "5130977": "2026-10-06",
+    "5130978": "2026-10-14",
     "5158622": "2026-10-13",
     "5158627": "2026-10-13",
     "5165125": "2026-10-02",
@@ -242,23 +243,23 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
-    "5130978": {
-      "cost": 10.03,
-      "entry_price": 0.91,
+    "5601789": {
+      "cost": 9.9,
+      "entry_price": 0.97,
       "event_ticker": "",
-      "market_id": "5130978",
-      "opened": "2026-10-07T20:20:11+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11.02,
-      "question": "US x Iran ceasefire continues through October 15?",
+      "market_id": "5601789",
+      "opened": "2026-10-14T04:21:58+00:00",
+      "outcome": "Iga Swiatek",
+      "outcome_idx": 1,
+      "qty": 10.2,
+      "question": "Wuhan Tennis Open: Magdalena Frech vs Iga Swiatek",
       "rules_version": 14,
-      "slug": "us-x-iran-ceasefire-continues-through-october-15",
+      "slug": "wta-frech-swiatek-2026-10-13",
       "strategy": "favorite_discount",
-      "token_id": "16433157430487286816362342013001121290769377529788531146050707169389503371968"
+      "token_id": "105047122382296709766466889171604310915269512683225801699542000142065532587125"
     }
   },
-  "realized_pnl": -6.010000000000002,
+  "realized_pnl": -5.23,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T03:20:36+00:00"
+  "updated": "2026-10-14T04:21:58+00:00"
 }
