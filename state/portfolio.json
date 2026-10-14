@@ -1,5 +1,5 @@
 {
-  "cash": 483.10000000000053,
+  "cash": 473.22000000000054,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -255,9 +255,24 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-15",
       "strategy": "favorite_discount",
       "token_id": "16433157430487286816362342013001121290769377529788531146050707169389503371968"
+    },
+    "5557827": {
+      "cost": 9.88,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "5557827",
+      "opened": "2026-10-14T02:20:22+00:00",
+      "outcome": "Tampa Bay Rays",
+      "outcome_idx": 1,
+      "qty": 10.74,
+      "question": "Cleveland Guardians vs. Tampa Bay Rays",
+      "rules_version": 14,
+      "slug": "mlb-cle-tb-2026-10-13",
+      "strategy": "favorite_discount",
+      "token_id": "17547970511377510673015971495290041419435088363232971082731252247572238845721"
     }
   },
   "realized_pnl": -6.870000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T01:20:10+00:00"
+  "updated": "2026-10-14T02:20:22+00:00"
 }
