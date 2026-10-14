@@ -1,5 +1,5 @@
 {
-  "cash": 109.48999999999995,
+  "cash": 110.60999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -200,6 +200,7 @@
     "KXT20MATCH-26OCT072115MYABAH-MYA": "2026-10-08",
     "KXT20MATCH-26OCT082115QATMYA-QAT": "2026-10-09",
     "KXT20MATCH-26OCT102115MDVMAL-MDV": "2026-10-11",
+    "KXT20MATCH-26OCT132115CHNMAL-CHN": "2026-10-14",
     "KXTECHRANKLISTAICODE-26JUL13-CHAT": "2026-07-13",
     "KXTECHRANKLISTAICODE-26JUL20-KIMI": "2026-07-19",
     "KXTRUMPATTEND": "2026-07-19",
@@ -355,21 +356,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
-    "KXT20MATCH-26OCT132115CHNMAL-CHN": {
-      "cost": 39.48,
-      "entry_price": 0.96,
-      "event_ticker": "KXT20MATCH-26OCT132115CHNMAL",
-      "market_id": "KXT20MATCH-26OCT132115CHNMAL-CHN",
-      "opened": "2026-10-13T05:20:47+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 41.0,
-      "question": "China wins",
-      "rules_version": 2,
-      "slug": "kxt20match-26oct132115chnmal-chn",
-      "strategy": "favorite_discount",
-      "token_id": "KXT20MATCH-26OCT132115CHNMAL-CHN:no"
-    },
     "KXUCLGAME-26OCT14ASKLFC-ASK": {
       "cost": 39.5,
       "entry_price": 0.91,
@@ -400,6 +386,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXUCLGAME-26OCT14SLOVFB-SLO:no"
     },
+    "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": {
+      "cost": 39.44,
+      "entry_price": 0.94,
+      "event_ticker": "KXUCLSCORE-26OCT14ROMRMA",
+      "market_id": "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1",
+      "opened": "2026-10-14T01:20:48+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 41.78,
+      "question": "Final score AS Roma wins 2-1?",
+      "rules_version": 2,
+      "slug": "kxuclscore-26oct14romrma-rom2rma1",
+      "strategy": "favorite_discount",
+      "token_id": "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1:no"
+    },
     "KXWODIMATCH-26OCT132350BANAUS-BAN": {
       "cost": 39.44,
       "entry_price": 0.97,
@@ -417,8 +418,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -5.3000000000000185,
+  "realized_pnl": -4.220000000000013,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T00:20:53+00:00",
+  "updated": "2026-10-14T01:20:48+00:00",
   "venue": "kalshi"
 }
