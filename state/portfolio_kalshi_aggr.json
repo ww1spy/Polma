@@ -1,5 +1,5 @@
 {
-  "cash": 194.30999999999995,
+  "cash": 277.28,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -16,6 +16,7 @@
     "KXAPRPOTUS-26JUL17-41.3": "2026-07-17",
     "KXAPRPOTUS-26JUL24-41.8": "2026-07-23",
     "KXAPRPOTUS-26OCT09-37.5": "2026-10-09",
+    "KXAPRPOTUS-26OCT16-36.9": "2026-10-14",
     "KXBIGBROTHERELIMINATION-26JUL16-TAY": "2026-07-17",
     "KXBIGBROTHERELIMINATION-26JUL23-MEL": "2026-07-24",
     "KXBRENTD-26JUL2017-T87.50": "2026-07-20",
@@ -214,6 +215,7 @@
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXTRUTHSOCIAL-26JUL25-B129": "2026-07-25",
+    "KXUCLGAME-26OCT14ASKLFC-ASK": "2026-10-14",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
     "KXUEFANLGAME-26OCT06ALBSMR-ALB": "2026-10-06",
@@ -268,21 +270,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXAPRPOTUS-26OCT16-36.9": {
-      "cost": 39.44,
-      "entry_price": 0.9658,
-      "event_ticker": "KXAPRPOTUS-26OCT16",
-      "market_id": "KXAPRPOTUS-26OCT16-36.9",
-      "opened": "2026-10-13T16:22:07+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 40.74,
-      "question": "Will the President's approval rating be below 37.0 according to RealClearPolitics? \u2014 Below 37.0",
-      "rules_version": 2,
-      "slug": "kxaprpotus-26oct16-36.9",
-      "strategy": "favorite_discount",
-      "token_id": "KXAPRPOTUS-26OCT16-36.9:no"
-    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -343,21 +330,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
-    "KXUCLGAME-26OCT14ASKLFC-ASK": {
-      "cost": 39.5,
-      "entry_price": 0.91,
-      "event_ticker": "KXUCLGAME-26OCT14ASKLFC",
-      "market_id": "KXUCLGAME-26OCT14ASKLFC-ASK",
-      "opened": "2026-10-13T17:21:09+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 43.13,
-      "question": "LASK wins",
-      "rules_version": 2,
-      "slug": "kxuclgame-26oct14asklfc-ask",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLGAME-26OCT14ASKLFC-ASK:no"
-    },
     "KXUCLGAME-26OCT14SLOVFB-SLO": {
       "cost": 39.44,
       "entry_price": 0.91,
@@ -390,8 +362,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 0.13999999999999346,
+  "realized_pnl": 4.169999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T16:20:46+00:00",
+  "updated": "2026-10-14T17:20:32+00:00",
   "venue": "kalshi"
 }
