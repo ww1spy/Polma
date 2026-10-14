@@ -1,5 +1,5 @@
 {
-  "cash": 318.60999999999996,
+  "cash": 361.67999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -216,6 +216,7 @@
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXTRUTHSOCIAL-26JUL25-B129": "2026-07-25",
     "KXUCLGAME-26OCT14ASKLFC-ASK": "2026-10-14",
+    "KXUCLGAME-26OCT14SLOVFB-SLO": "2026-10-14",
     "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": "2026-10-14",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
@@ -330,26 +331,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXUCLGAME-26OCT14SLOVFB-SLO": {
-      "cost": 39.44,
-      "entry_price": 0.91,
-      "event_ticker": "KXUCLGAME-26OCT14SLOVFB",
-      "market_id": "KXUCLGAME-26OCT14SLOVFB-SLO",
-      "opened": "2026-10-13T21:20:31+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 43.07,
-      "question": "Slovan Bratislava wins",
-      "rules_version": 2,
-      "slug": "kxuclgame-26oct14slovfb-slo",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLGAME-26OCT14SLOVFB-SLO:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": 6.059999999999995,
+  "realized_pnl": 9.689999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T20:20:29+00:00",
+  "updated": "2026-10-14T21:20:31+00:00",
   "venue": "kalshi"
 }
