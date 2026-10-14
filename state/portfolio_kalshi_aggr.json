@@ -1,5 +1,5 @@
 {
-  "cash": 150.73999999999995,
+  "cash": 194.30999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -27,6 +27,7 @@
     "KXCONCACAFNLGAME-26OCT01IVBMSR-IVB": "2026-10-01",
     "KXCOPPERD-26JUL2317-T6.76": "2026-07-23",
     "KXCPI-26JUN-T0.0": "2026-07-14",
+    "KXCPI-26SEP-T0.4": "2026-10-14",
     "KXCPICOMBO-26JUN-0302": "2026-07-14",
     "KXCPIYOY-26JUN-T3.9": "2026-07-14",
     "KXCS2GAME-26JUL141100FNCHOTU-FNC": "2026-07-14",
@@ -282,21 +283,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26OCT16-36.9:no"
     },
-    "KXCPI-26SEP-T0.4": {
-      "cost": 39.9,
-      "entry_price": 0.91,
-      "event_ticker": "KXCPI-26SEP",
-      "market_id": "KXCPI-26SEP-T0.4",
-      "opened": "2026-10-11T14:20:33+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 43.57,
-      "question": "Will CPI rise more than 0.4% in September 2026? \u2014 Above 0.4%",
-      "rules_version": 2,
-      "slug": "kxcpi-26sep-t0.4",
-      "strategy": "favorite_discount",
-      "token_id": "KXCPI-26SEP-T0.4:yes"
-    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -404,8 +390,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -3.5300000000000082,
+  "realized_pnl": 0.13999999999999346,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T12:21:56+00:00",
+  "updated": "2026-10-14T13:21:38+00:00",
   "venue": "kalshi"
 }

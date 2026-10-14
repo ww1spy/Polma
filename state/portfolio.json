@@ -1,5 +1,5 @@
 {
-  "cash": 496.44000000000057,
+  "cash": 486.51000000000056,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -244,8 +244,24 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 528.4546200000002,
-  "positions": {},
+  "positions": {
+    "5658638": {
+      "cost": 9.93,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "5658638",
+      "opened": "2026-10-14T13:21:00+00:00",
+      "outcome": "Julia Grabher",
+      "outcome_idx": 0,
+      "qty": 11.68,
+      "question": "Mallorca: Julia Grabher vs Lidia Encheva",
+      "rules_version": 14,
+      "slug": "wta-grabher-encheva-2026-10-14",
+      "strategy": "favorite_discount",
+      "token_id": "107841177891286239385537711403996653337153728794603710479644893468824380650056"
+    }
+  },
   "realized_pnl": -3.5600000000000023,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-14T12:21:34+00:00"
+  "updated": "2026-10-14T13:21:00+00:00"
 }
