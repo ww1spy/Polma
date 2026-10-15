@@ -1,5 +1,5 @@
 {
-  "cash": 482.4900000000006,
+  "cash": 462.39000000000055,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -250,6 +250,21 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "5593519": {
+      "cost": 10.05,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "5593519",
+      "opened": "2026-10-15T21:20:16+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.92,
+      "question": "Will Bitcoin dip to $78,000 October 12-18?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-dip-to-78k-october-12-18-2026",
+      "strategy": "favorite_discount",
+      "token_id": "5715739681573136120046356372880321144642720777829717266392732557876785185587"
+    },
     "5686981": {
       "cost": 9.97,
       "entry_price": 0.933,
@@ -279,9 +294,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-18",
       "strategy": "favorite_discount",
       "token_id": "89934143411893138333951542357208271255449441787454915251869419003486856118425"
+    },
+    "5697539": {
+      "cost": 10.05,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5697539",
+      "opened": "2026-10-15T21:20:16+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.8,
+      "question": "Israel x Iran ceasefire continues through October 21?",
+      "rules_version": 14,
+      "slug": "israel-x-iran-ceasefire-continues-through-october-21",
+      "strategy": "favorite_discount",
+      "token_id": "24399767988117113521472412724678339180207513110495231843644050348352296275787"
     }
   },
   "realized_pnl": 2.469999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-15T20:20:02+00:00"
+  "updated": "2026-10-15T21:20:16+00:00"
 }
