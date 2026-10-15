@@ -1,5 +1,5 @@
 {
-  "cash": 488.4599999999998,
+  "cash": 473.42999999999984,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -40,9 +40,25 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {},
+  "positions": {
+    "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W": {
+      "cost": 15.03,
+      "entry_price": 0.9754,
+      "event_ticker": "KXWT20MATCH-26OCT150700BUL-WSWE-W",
+      "market_id": "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W",
+      "opened": "2026-10-15T11:20:40+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 15.38,
+      "question": "Bulgaria Women wins",
+      "rules_version": 14,
+      "slug": "kxwt20match-26oct150700bul-wswe-w-bul-w",
+      "strategy": "favorite_discount",
+      "token_id": "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W:no"
+    }
+  },
   "realized_pnl": -11.540000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-15T10:19:51+00:00",
+  "updated": "2026-10-15T11:20:40+00:00",
   "venue": "kalshi"
 }

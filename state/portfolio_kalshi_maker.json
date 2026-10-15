@@ -1,5 +1,5 @@
 {
-  "cash": 486.80999999999966,
+  "cash": 477.20999999999964,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -36,7 +36,35 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
+  "orders": {
+    "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W": {
+      "book_at_place": {
+        "ask": 0.97,
+        "bid": 0.96
+      },
+      "end_date": "2026-10-15T15:00:00+00:00",
+      "event_ticker": "KXWT20MATCH-26OCT150700BUL-WSWE-W",
+      "expires_ts": 1792069200.0,
+      "market_id": "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792063312.9629164,
+      "price": 0.96,
+      "qty": 10,
+      "question": "Bulgaria Women wins",
+      "reserved": 9.6,
+      "rules_version": 1,
+      "slug": "kxwt20match-26oct150700bul-wswe-w-bul-w",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W:yes",
+        "KXWT20MATCH-26OCT150700BUL-WSWE-W-BUL-W:no"
+      ]
+    }
+  },
   "peak_equity": 504.1299999999997,
   "positions": {
     "KXWTI-26OCT1514-T95.49": {
@@ -58,6 +86,6 @@
   "profile": "maker",
   "realized_pnl": -3.99,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-15T10:21:02+00:00",
+  "updated": "2026-10-15T11:21:52+00:00",
   "venue": "kalshi"
 }
