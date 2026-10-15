@@ -1,4 +1,4 @@
-# Scorecard — 2026-10-14
+# Scorecard — 2026-10-15
 
 Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed to break even given this book's actual average win and loss.
 
@@ -6,8 +6,8 @@ Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed t
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | kalshi/live/base | lifetime | 29 | 28 | 71% | 90% | $0.14 | $-1.20 | $-6.85 | $1.11 | 46d | active |
 | kalshi/live/base | 30d | 0 | 0 | – | – | $0.00 | $0.00 | $+0.00 | $0.00 |  |  |
-| kalshi/paper/aggr | lifetime | 257 | 253 | 90% | 92% | $1.83 | $-21.94 | $-155.93 | $50.57 | 0d | active, epoch 2 |
-| kalshi/paper/aggr | 30d | 80 | 76 | 93% | 93% | $2.18 | $-28.98 | $+9.69 | $15.87 |  |  |
+| kalshi/paper/aggr | lifetime | 261 | 253 | 90% | 92% | $1.83 | $-21.94 | $-155.93 | $51.26 | 0d | active, epoch 2 |
+| kalshi/paper/aggr | 30d | 84 | 76 | 93% | 93% | $2.18 | $-28.98 | $+9.69 | $16.56 |  |  |
 | kalshi/paper/base | lifetime | 34 | 35 | 83% | 95% | $0.49 | $-9.31 | $-41.51 | $2.82 | 8d | active |
 | kalshi/paper/base | 30d | 4 | 4 | 100% | 0% | $0.93 | $0.00 | $+3.71 | $0.38 |  |  |
 | kalshi/paper/eth15 | lifetime | 24 | 24 | 96% | 94% | $1.68 | $-25.18 | $+13.50 | $2.97 | 0d | active |
