@@ -1,5 +1,5 @@
 {
-  "cash": 488.75000000000057,
+  "cash": 478.78000000000054,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -261,9 +261,24 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-17",
       "strategy": "favorite_discount",
       "token_id": "76136086773721979642859940862292264934972834931434975992074705040536274369192"
+    },
+    "5691067": {
+      "cost": 9.97,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "5691067",
+      "opened": "2026-10-15T04:20:13+00:00",
+      "outcome": "Elina Svitolina",
+      "outcome_idx": 0,
+      "qty": 11.46,
+      "question": "Wuhan Tennis Open: Elina Svitolina vs Hanyu Guo",
+      "rules_version": 14,
+      "slug": "wta-svitoli-guo-2026-10-15",
+      "strategy": "favorite_discount",
+      "token_id": "38039860011613470619474532875699900967594481483157911169463434208358638057695"
     }
   },
   "realized_pnl": -1.280000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-15T03:19:52+00:00"
+  "updated": "2026-10-15T04:20:13+00:00"
 }
