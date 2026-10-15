@@ -1,5 +1,5 @@
 {
-  "cash": 490.23000000000053,
+  "cash": 470.21000000000055,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -262,9 +262,39 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-17",
       "strategy": "favorite_discount",
       "token_id": "76136086773721979642859940862292264934972834931434975992074705040536274369192"
+    },
+    "5691069": {
+      "cost": 10.01,
+      "entry_price": 0.895,
+      "event_ticker": "",
+      "market_id": "5691069",
+      "opened": "2026-10-15T12:20:37+00:00",
+      "outcome": "Iga Swiatek",
+      "outcome_idx": 1,
+      "qty": 11.18,
+      "question": "Wuhan Tennis Open: Ashlyn Krueger vs Iga Swiatek",
+      "rules_version": 14,
+      "slug": "wta-krueger-swiatek-2026-10-15",
+      "strategy": "favorite_discount",
+      "token_id": "7240876018681201580153611528836550370965850043952416523856427878708024838913"
+    },
+    "5697537": {
+      "cost": 10.01,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "5697537",
+      "opened": "2026-10-15T12:20:38+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.42,
+      "question": "Israel x Iran ceasefire continues through October 18?",
+      "rules_version": 14,
+      "slug": "israel-x-iran-ceasefire-continues-through-october-18",
+      "strategy": "favorite_discount",
+      "token_id": "89934143411893138333951542357208271255449441787454915251869419003486856118425"
     }
   },
   "realized_pnl": 0.19999999999999574,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-15T11:20:57+00:00"
+  "updated": "2026-10-15T12:20:38+00:00"
 }
