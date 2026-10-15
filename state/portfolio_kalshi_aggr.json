@@ -1,5 +1,5 @@
 {
-  "cash": 80.35999999999994,
+  "cash": 124.79999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -115,6 +115,7 @@
     "KXLOLGAME-26JUL231100LUAKOIA-LUA": "2026-07-23",
     "KXLOLGAME-26OCT120500VITKT-KT": "2026-10-12",
     "KXMLBEXTRAS-26JUL201940NYMMIL-EXTRAS": "2026-07-21",
+    "KXMLBHR-26OCT151300TBCLE-CLECDELAUTER24-1": "2026-10-15",
     "KXMLBTOTAL-26JUL142000ALNL-4": "2026-07-15",
     "KXNASDAQ100-26JUL14H1600-B29950": "2026-07-14",
     "KXNASDAQ100-26JUL21H1600-B29450": "2026-07-21",
@@ -272,21 +273,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXMLBHR-26OCT151300TBCLE-CLECDELAUTER24-1": {
-      "cost": 40.28,
-      "entry_price": 0.9,
-      "event_ticker": "KXMLBHR-26OCT151800TBCLE",
-      "market_id": "KXMLBHR-26OCT151300TBCLE-CLECDELAUTER24-1",
-      "opened": "2026-10-15T17:20:07+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 44.44,
-      "question": "Chase DeLauter: 1+ home runs?",
-      "rules_version": 2,
-      "slug": "kxmlbhr-26oct151300tbcle-clecdelauter24-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXMLBHR-26OCT151300TBCLE-CLECDELAUTER24-1:no"
-    },
     "KXNFL1H-26OCT15SEADEN-TIE": {
       "cost": 40.28,
       "entry_price": 0.9,
@@ -439,8 +425,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": 9.689999999999998,
+  "realized_pnl": 13.849999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-15T19:20:39+00:00",
+  "updated": "2026-10-15T20:20:24+00:00",
   "venue": "kalshi"
 }
