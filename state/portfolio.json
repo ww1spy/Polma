@@ -1,5 +1,5 @@
 {
-  "cash": 463.14000000000055,
+  "cash": 453.06000000000057,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -251,6 +251,21 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "5340069": {
+      "cost": 10.08,
+      "entry_price": 0.895,
+      "event_ticker": "",
+      "market_id": "5340069",
+      "opened": "2026-10-16T04:19:59+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.26,
+      "question": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8\u201312%?",
+      "rules_version": 14,
+      "slug": "will-flavio-bolsonaro-win-the-second-round-of-the-2026-brazilian-presidential-election-by-812",
+      "strategy": "favorite_discount",
+      "token_id": "26668869374105423241063822023238370156273552047413316823375341979641160307361"
+    },
     "5593519": {
       "cost": 10.05,
       "entry_price": 0.92,
@@ -314,5 +329,5 @@
   },
   "realized_pnl": 3.219999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T03:19:58+00:00"
+  "updated": "2026-10-16T04:19:59+00:00"
 }
