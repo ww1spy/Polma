@@ -1,5 +1,5 @@
 {
-  "cash": 464.6500000000006,
+  "cash": 454.5500000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -312,9 +312,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-21",
       "strategy": "favorite_discount",
       "token_id": "24399767988117113521472412724678339180207513110495231843644050348352296275787"
+    },
+    "5715908": {
+      "cost": 10.1,
+      "entry_price": 0.958,
+      "event_ticker": "",
+      "market_id": "5715908",
+      "opened": "2026-10-16T16:20:31+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.54,
+      "question": "US x Iran ceasefire continues through October 18?",
+      "rules_version": 14,
+      "slug": "us-x-iran-ceasefire-continues-through-october-18",
+      "strategy": "favorite_discount",
+      "token_id": "2625377010520972863779643236803577581748639794589636600998044189980160682944"
     }
   },
   "realized_pnl": 4.759999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T15:20:31+00:00"
+  "updated": "2026-10-16T16:20:31+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 453.15999999999957,
+  "cash": 445.65999999999957,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -30,6 +30,7 @@
     "KXWTI-26OCT0814-T93.99": "2026-10-08",
     "KXWTI-26OCT1314-T90.49": "2026-10-13",
     "KXWTI-26OCT1514-T95.49": "2026-10-15",
+    "KXWTI-26OCT1614-T96.99": "2026-10-16",
     "KXWTI-26OCT1614-T97.99": "2026-10-16",
     "KXWTI-26SEP2814-T96.99": "2026-09-28",
     "KXWTI-26SEP2914-T89.49": "2026-09-30",
@@ -121,29 +122,40 @@
         "KXRT-YOUC-96:yes",
         "KXRT-YOUC-96:no"
       ]
+    },
+    "KXWTI-26OCT1614-T96.49": {
+      "book_at_place": {
+        "ask": 0.92,
+        "bid": 0.91
+      },
+      "end_date": "2026-10-16T18:30:00+00:00",
+      "event_ticker": "KXWTI-26OCT1614",
+      "expires_ts": 1792168200.0,
+      "market_id": "KXWTI-26OCT1614-T96.49",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792167710.2357452,
+      "price": 0.91,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 16, 2026? \u2014 Above $96.49",
+      "reserved": 9.1,
+      "rules_version": 1,
+      "slug": "kxwti-26oct1614-t96.49",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWTI-26OCT1614-T96.49:yes",
+        "KXWTI-26OCT1614-T96.49:no"
+      ]
     }
   },
   "peak_equity": 504.1299999999997,
-  "positions": {
-    "KXWTI-26OCT1614-T96.99": {
-      "cost": 9.5,
-      "entry_price": 0.95,
-      "event_ticker": "KXWTI-26OCT1614",
-      "market_id": "KXWTI-26OCT1614-T96.99",
-      "opened": "2026-10-16T15:21:23+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 16, 2026? \u2014 Above $96.99",
-      "rules_version": 1,
-      "slug": "kxwti-26oct1614-t96.99",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXWTI-26OCT1614-T96.99:no"
-    }
-  },
+  "positions": {},
   "profile": "maker",
-  "realized_pnl": -8.84,
+  "realized_pnl": -16.740000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T15:21:25+00:00",
+  "updated": "2026-10-16T16:21:50+00:00",
   "venue": "kalshi"
 }
