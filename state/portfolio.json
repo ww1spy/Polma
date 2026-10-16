@@ -1,5 +1,5 @@
 {
-  "cash": 453.06000000000057,
+  "cash": 453.6900000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -219,6 +219,7 @@
     "5557827": "2026-10-14",
     "558935": "2026-07-15",
     "558951": "2026-07-12",
+    "5593519": "2026-10-16",
     "5597170": "2026-10-13",
     "5601789": "2026-10-14",
     "5613322": "2026-10-13",
@@ -266,21 +267,6 @@
       "strategy": "favorite_discount",
       "token_id": "26668869374105423241063822023238370156273552047413316823375341979641160307361"
     },
-    "5593519": {
-      "cost": 10.05,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "5593519",
-      "opened": "2026-10-15T21:20:16+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.92,
-      "question": "Will Bitcoin dip to $78,000 October 12-18?",
-      "rules_version": 14,
-      "slug": "will-bitcoin-dip-to-78k-october-12-18-2026",
-      "strategy": "favorite_discount",
-      "token_id": "5715739681573136120046356372880321144642720777829717266392732557876785185587"
-    },
     "5686981": {
       "cost": 9.97,
       "entry_price": 0.933,
@@ -325,9 +311,24 @@
       "slug": "israel-x-iran-ceasefire-continues-through-october-21",
       "strategy": "favorite_discount",
       "token_id": "24399767988117113521472412724678339180207513110495231843644050348352296275787"
+    },
+    "5745687": {
+      "cost": 10.09,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "5745687",
+      "opened": "2026-10-16T14:22:16+00:00",
+      "outcome": "Jacob Fearnley",
+      "outcome_idx": 0,
+      "qty": 10.96,
+      "question": "Olbia: Jacob Fearnley vs Maxim Mrva",
+      "rules_version": 14,
+      "slug": "atp-fearnle-mrva-2026-10-16",
+      "strategy": "favorite_discount",
+      "token_id": "98371282997591777701752530162772039831372502566817499900011582008721535516720"
     }
   },
-  "realized_pnl": 3.219999999999997,
+  "realized_pnl": 3.889999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T13:26:02+00:00"
+  "updated": "2026-10-16T14:22:16+00:00"
 }
