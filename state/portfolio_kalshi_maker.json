@@ -1,5 +1,5 @@
 {
-  "cash": 445.65999999999957,
+  "cash": 446.6499999999996,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -30,6 +30,7 @@
     "KXWTI-26OCT0814-T93.99": "2026-10-08",
     "KXWTI-26OCT1314-T90.49": "2026-10-13",
     "KXWTI-26OCT1514-T95.49": "2026-10-15",
+    "KXWTI-26OCT1614-T96.49": "2026-10-16",
     "KXWTI-26OCT1614-T96.99": "2026-10-16",
     "KXWTI-26OCT1614-T97.99": "2026-10-16",
     "KXWTI-26SEP2814-T96.99": "2026-09-28",
@@ -69,33 +70,6 @@
         "KXRT-SENS-70:no"
       ]
     },
-    "KXRT-WHA-75": {
-      "book_at_place": {
-        "ask": 0.96,
-        "bid": 0.94
-      },
-      "end_date": "2026-10-19T14:00:00+00:00",
-      "event_ticker": "KXRT-WHA",
-      "expires_ts": 1792250485.457745,
-      "market_id": "KXRT-WHA-75",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792164085.457745,
-      "price": 0.95,
-      "qty": 10,
-      "question": "Whalefall Rotten Tomatoes score? \u2014 Above 75",
-      "reserved": 9.5,
-      "rules_version": 1,
-      "slug": "kxrt-wha-75",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-WHA-75:yes",
-        "KXRT-WHA-75:no"
-      ]
-    },
     "KXRT-YOUC-96": {
       "book_at_place": {
         "ask": 0.95,
@@ -122,29 +96,56 @@
         "KXRT-YOUC-96:yes",
         "KXRT-YOUC-96:no"
       ]
+    },
+    "KXTRUMPSAY-26OCT19-ZOHR": {
+      "book_at_place": {
+        "ask": 0.9,
+        "bid": 0.88
+      },
+      "end_date": "2026-10-19T16:00:00+00:00",
+      "event_ticker": "KXTRUMPSAY-26OCT19",
+      "expires_ts": 1792261397.5063517,
+      "market_id": "KXTRUMPSAY-26OCT19-ZOHR",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792174997.5063517,
+      "price": 0.89,
+      "qty": 10,
+      "question": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
+      "reserved": 8.9,
+      "rules_version": 1,
+      "slug": "kxtrumpsay-26oct19-zohr",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXTRUMPSAY-26OCT19-ZOHR:yes",
+        "KXTRUMPSAY-26OCT19-ZOHR:no"
+      ]
     }
   },
   "peak_equity": 504.1299999999997,
   "positions": {
-    "KXWTI-26OCT1614-T96.49": {
-      "cost": 9.1,
-      "entry_price": 0.91,
-      "event_ticker": "KXWTI-26OCT1614",
-      "market_id": "KXWTI-26OCT1614-T96.49",
-      "opened": "2026-10-16T17:21:57+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
+    "KXRT-WHA-75": {
+      "cost": 9.5,
+      "entry_price": 0.95,
+      "event_ticker": "KXRT-WHA",
+      "market_id": "KXRT-WHA-75",
+      "opened": "2026-10-16T18:22:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
       "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 16, 2026? \u2014 Above $96.49",
+      "question": "Whalefall Rotten Tomatoes score? \u2014 Above 75",
       "rules_version": 1,
-      "slug": "kxwti-26oct1614-t96.49",
+      "slug": "kxrt-wha-75",
       "strategy": "favorite_discount_maker",
-      "token_id": "KXWTI-26OCT1614-T96.49:yes"
+      "token_id": "KXRT-WHA-75:no"
     }
   },
   "profile": "maker",
-  "realized_pnl": -16.740000000000002,
+  "realized_pnl": -15.950000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T17:21:59+00:00",
+  "updated": "2026-10-16T18:23:17+00:00",
   "venue": "kalshi"
 }
