@@ -26,5 +26,5 @@ so the game netted −$33.38.
 Not applied; this is the owner's call. Two candidates:
 1. Exclude `KXNFLOT` (overtime markets) from the aggressive book. At about 0.94 the price matches the
    base rate, so there is no discount to harvest. Two losses in four days total −$69.94, against
-   about +$4 for a typical win.
+   about +$2.50 for a typical win at a 0.94 entry.
 2. The per-game exposure cap already pending (one game = one bucket).
