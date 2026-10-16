@@ -1,5 +1,5 @@
 {
-  "cash": 211.93999999999994,
+  "cash": 175.27999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -292,6 +292,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26OCT16CHARTEM-CHAR:no"
     },
+    "KXNCAAFGAME-26OCT17MCNSNWST-NWST": {
+      "cost": 36.66,
+      "entry_price": 0.93,
+      "event_ticker": "KXNCAAFGAME-26OCT17MCNSNWST",
+      "market_id": "KXNCAAFGAME-26OCT17MCNSNWST-NWST",
+      "opened": "2026-10-16T17:21:24+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.22,
+      "question": "Northwestern St. wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct17mcnsnwst-nwst",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT17MCNSNWST-NWST:no"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -386,6 +401,6 @@
   "profile": "aggr",
   "realized_pnl": -19.53000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T16:21:04+00:00",
+  "updated": "2026-10-16T17:21:24+00:00",
   "venue": "kalshi"
 }
