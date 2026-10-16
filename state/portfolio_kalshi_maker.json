@@ -1,5 +1,5 @@
 {
-  "cash": 462.65999999999957,
+  "cash": 453.15999999999957,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -68,6 +68,33 @@
         "KXRT-SENS-70:no"
       ]
     },
+    "KXRT-WHA-75": {
+      "book_at_place": {
+        "ask": 0.96,
+        "bid": 0.94
+      },
+      "end_date": "2026-10-19T14:00:00+00:00",
+      "event_ticker": "KXRT-WHA",
+      "expires_ts": 1792250485.457745,
+      "market_id": "KXRT-WHA-75",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792164085.457745,
+      "price": 0.95,
+      "qty": 10,
+      "question": "Whalefall Rotten Tomatoes score? \u2014 Above 75",
+      "reserved": 9.5,
+      "rules_version": 1,
+      "slug": "kxrt-wha-75",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-WHA-75:yes",
+        "KXRT-WHA-75:no"
+      ]
+    },
     "KXRT-YOUC-96": {
       "book_at_place": {
         "ask": 0.95,
@@ -94,40 +121,29 @@
         "KXRT-YOUC-96:yes",
         "KXRT-YOUC-96:no"
       ]
-    },
-    "KXWTI-26OCT1614-T96.99": {
-      "book_at_place": {
-        "ask": 0.96,
-        "bid": 0.94
-      },
-      "end_date": "2026-10-16T18:30:00+00:00",
-      "event_ticker": "KXWTI-26OCT1614",
-      "expires_ts": 1792168200.0,
-      "market_id": "KXWTI-26OCT1614-T96.99",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792160630.8118758,
-      "price": 0.95,
-      "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 16, 2026? \u2014 Above $96.99",
-      "reserved": 9.5,
-      "rules_version": 1,
-      "slug": "kxwti-26oct1614-t96.99",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWTI-26OCT1614-T96.99:yes",
-        "KXWTI-26OCT1614-T96.99:no"
-      ]
     }
   },
   "peak_equity": 504.1299999999997,
-  "positions": {},
+  "positions": {
+    "KXWTI-26OCT1614-T96.99": {
+      "cost": 9.5,
+      "entry_price": 0.95,
+      "event_ticker": "KXWTI-26OCT1614",
+      "market_id": "KXWTI-26OCT1614-T96.99",
+      "opened": "2026-10-16T15:21:23+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 16, 2026? \u2014 Above $96.99",
+      "rules_version": 1,
+      "slug": "kxwti-26oct1614-t96.99",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXWTI-26OCT1614-T96.99:no"
+    }
+  },
   "profile": "maker",
   "realized_pnl": -8.84,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T14:23:51+00:00",
+  "updated": "2026-10-16T15:21:25+00:00",
   "venue": "kalshi"
 }

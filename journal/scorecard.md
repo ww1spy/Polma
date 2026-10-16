@@ -10,9 +10,9 @@ Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed t
 | kalshi/paper/aggr | 30d | 88 | 83 | 93% | 93% | $2.21 | $-30.84 | $-14.70 | $17.44 |  |  |
 | kalshi/paper/base | lifetime | 36 | 37 | 84% | 95% | $0.49 | $-9.31 | $-40.57 | $2.96 | 0d | active |
 | kalshi/paper/base | 30d | 6 | 6 | 100% | 0% | $0.78 | $0.00 | $+4.65 | $0.52 |  |  |
-| kalshi/paper/eth15 | lifetime | 29 | 28 | 96% | 94% | $1.68 | $-25.18 | $+20.14 | $3.60 | 0d | active |
-| kalshi/paper/eth15 | 30d | 25 | 24 | 96% | 94% | $1.62 | $-25.18 | $+12.09 | $3.03 |  |  |
-| kalshi/paper/maker | lifetime | 35 | 35 | 91% | 94% | $0.52 | $-8.51 | $-8.78 | $0.58 | 0d | active |
-| kalshi/paper/maker | 30d | 35 | 35 | 91% | 94% | $0.52 | $-8.51 | $-8.78 | $0.58 |  |  |
-| polymarket/paper/base | lifetime | 234 | 234 | 89% | 92% | $0.82 | $-9.12 | $-66.12 | $0.00 | 0d | active, epoch 2 |
-| polymarket/paper/base | 30d | 121 | 116 | 92% | 92% | $0.89 | $-10.10 | $+3.89 | $0.00 |  |  |
+| kalshi/paper/eth15 | lifetime | 29 | 29 | 97% | 94% | $1.69 | $-25.18 | $+22.03 | $3.60 | 0d | active |
+| kalshi/paper/eth15 | 30d | 25 | 25 | 96% | 94% | $1.63 | $-25.18 | $+13.98 | $3.03 |  |  |
+| kalshi/paper/maker | lifetime | 36 | 35 | 91% | 94% | $0.52 | $-8.51 | $-8.78 | $0.58 | 0d | active |
+| kalshi/paper/maker | 30d | 36 | 35 | 91% | 94% | $0.52 | $-8.51 | $-8.78 | $0.58 |  |  |
+| polymarket/paper/base | lifetime | 234 | 235 | 89% | 92% | $0.82 | $-9.12 | $-65.25 | $0.00 | 0d | active, epoch 2 |
+| polymarket/paper/base | 30d | 121 | 117 | 92% | 92% | $0.89 | $-10.10 | $+4.76 | $0.00 |  |  |
