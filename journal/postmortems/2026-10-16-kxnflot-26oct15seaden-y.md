@@ -10,10 +10,21 @@
 - **Context at exit:** market resolved to the other outcome
 
 ## What the rules saw at entry
-<!-- Fill in during review: liquidity, spread, price, hours to resolution -->
+Aggressive book, "No overtime" at 0.94 on Seattle @ Denver (TNF), about $40 stake (about 8% of equity),
+entered about 24 hours before kickoff. One of four same-game positions (overtime No, Humphrey
+1+ TD No, Engram 1st TD No, first-half tie No), about $160 combined.
 
 ## Why it lost
-<!-- Was the thesis wrong, the timing wrong, or the rule too loose? -->
+The game went to overtime. NFL overtime happens in roughly 5–7% of games, so 0.94 was
+about fair, with no real edge. The swing from "close late" to "OT" happened between
+hourly cycles, so the stop never triggered and the bet went to $0 (−$40.17).
+This is the second NFL overtime-No loss in four days (BUF@LAR stop-loss −$29.77 on 10/13).
+The other three legs on this game closed in profit (+$1.15, +$3.68, +$1.96 = +$6.79),
+so the game netted −$33.38.
 
 ## Rule change proposed
-<!-- Concrete edit to rules/rules.yaml, or "no change — acceptable variance" -->
+Not applied; this is the owner's call. Two candidates:
+1. Exclude `KXNFLOT` (overtime markets) from the aggressive book. At about 0.94 the price matches the
+   base rate, so there is no discount to harvest. Two losses in four days total −$69.94, against
+   about +$4 for a typical win.
+2. The per-game exposure cap already pending (one game = one bucket).
