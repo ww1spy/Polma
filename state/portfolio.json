@@ -1,5 +1,5 @@
 {
-  "cash": 462.39000000000055,
+  "cash": 452.33000000000055,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -265,6 +265,21 @@
       "strategy": "favorite_discount",
       "token_id": "5715739681573136120046356372880321144642720777829717266392732557876785185587"
     },
+    "5679382": {
+      "cost": 10.06,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "5679382",
+      "opened": "2026-10-16T01:20:05+00:00",
+      "outcome": "Nicolas Kicker",
+      "outcome_idx": 0,
+      "qty": 10.81,
+      "question": "Santa Cruz 2: Nicolas Kicker vs Facundo Mena",
+      "rules_version": 14,
+      "slug": "atp-kicker-mena-2026-10-14",
+      "strategy": "favorite_discount",
+      "token_id": "107866984784052651457907199691633973347811683668689353560346356748631599132179"
+    },
     "5686981": {
       "cost": 9.97,
       "entry_price": 0.933,
@@ -313,5 +328,5 @@
   },
   "realized_pnl": 2.469999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T00:20:29+00:00"
+  "updated": "2026-10-16T01:20:05+00:00"
 }
