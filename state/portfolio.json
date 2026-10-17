@@ -1,5 +1,5 @@
 {
-  "cash": 456.2200000000006,
+  "cash": 446.0800000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -329,9 +329,24 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-18",
       "strategy": "favorite_discount",
       "token_id": "2625377010520972863779643236803577581748639794589636600998044189980160682944"
+    },
+    "5777365": {
+      "cost": 10.14,
+      "entry_price": 0.85,
+      "event_ticker": "",
+      "market_id": "5777365",
+      "opened": "2026-10-17T10:20:30+00:00",
+      "outcome": "Iga Swiatek",
+      "outcome_idx": 0,
+      "qty": 11.93,
+      "question": "Wuhan Tennis Open: Iga Swiatek vs Maja Chwalinska",
+      "rules_version": 14,
+      "slug": "wta-swiatek-chwalin-2026-10-17",
+      "strategy": "favorite_discount",
+      "token_id": "57845146174532476552845818832646707450523036524401029024767271243867264346430"
     }
   },
   "realized_pnl": 6.549999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T09:20:20+00:00"
+  "updated": "2026-10-17T10:20:31+00:00"
 }
