@@ -1,5 +1,5 @@
 {
-  "cash": 441.48999999999955,
+  "cash": 433.36999999999955,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -10,6 +10,7 @@
     "KXRT-PRI-86": "2026-09-28",
     "KXRT-SOC-52": "2026-10-11",
     "KXRT-SOC-55": "2026-10-12",
+    "KXRT-STRA-45": "2026-10-17",
     "KXRT-VER-35": "2026-10-05",
     "KXRT-VER-40": "2026-10-02",
     "KXRT-WHA-75": "2026-10-17",
@@ -46,6 +47,33 @@
   "halted": false,
   "mode": "paper",
   "orders": {
+    "KXRT-STRA-42": {
+      "book_at_place": {
+        "ask": 0.91,
+        "bid": 0.9
+      },
+      "end_date": "2026-10-19T14:00:00+00:00",
+      "event_ticker": "KXRT-STRA",
+      "expires_ts": 1792358477.0610733,
+      "market_id": "KXRT-STRA-42",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792272077.0610733,
+      "price": 0.9,
+      "qty": 10,
+      "question": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
+      "reserved": 9.0,
+      "rules_version": 1,
+      "slug": "kxrt-stra-42",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-STRA-42:yes",
+        "KXRT-STRA-42:no"
+      ]
+    },
     "KXRT-WHA-72": {
       "book_at_place": {
         "ask": 0.91,
@@ -71,6 +99,33 @@
       "token_ids": [
         "KXRT-WHA-72:yes",
         "KXRT-WHA-72:no"
+      ]
+    },
+    "KXWT20MATCH-26OCT180415NZLAUS-NZL": {
+      "book_at_place": {
+        "ask": 0.9,
+        "bid": 0.89
+      },
+      "end_date": "2026-10-18T12:15:00+00:00",
+      "event_ticker": "KXWT20MATCH-26OCT180415NZLAUS",
+      "expires_ts": 1792318500.0,
+      "market_id": "KXWT20MATCH-26OCT180415NZLAUS-NZL",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792272077.3121736,
+      "price": 0.89,
+      "qty": 10,
+      "question": "New Zealand wins",
+      "reserved": 8.9,
+      "rules_version": 1,
+      "slug": "kxwt20match-26oct180415nzlaus-nzl",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWT20MATCH-26OCT180415NZLAUS-NZL:yes",
+        "KXWT20MATCH-26OCT180415NZLAUS-NZL:no"
       ]
     },
     "KXWT20MATCH-26OCT180930ZIMIND-ZIM": {
@@ -103,21 +158,6 @@
   },
   "peak_equity": 504.1299999999997,
   "positions": {
-    "KXRT-STRA-45": {
-      "cost": 8.9,
-      "entry_price": 0.89,
-      "event_ticker": "KXRT-STRA",
-      "market_id": "KXRT-STRA-45",
-      "opened": "2026-10-17T01:21:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10,
-      "question": "Street Fighter Rotten Tomatoes score? \u2014 Above 45",
-      "rules_version": 1,
-      "slug": "kxrt-stra-45",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-STRA-45:no"
-    },
     "KXRT-YOUC-97": {
       "cost": 9.4,
       "entry_price": 0.94,
@@ -150,8 +190,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": -14.490000000000002,
+  "realized_pnl": -13.610000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T20:21:43+00:00",
+  "updated": "2026-10-17T21:21:17+00:00",
   "venue": "kalshi"
 }

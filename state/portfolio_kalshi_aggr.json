@@ -1,5 +1,5 @@
 {
-  "cash": 56.15999999999993,
+  "cash": 95.02999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -128,6 +128,7 @@
     "KXNCAAFGAME-26OCT10PRINWAG-WAG": "2026-10-10",
     "KXNCAAFGAME-26OCT16CHARTEM-CHAR": "2026-10-17",
     "KXNCAAFGAME-26OCT17MCNSNWST-NWST": "2026-10-17",
+    "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": "2026-10-17",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
@@ -281,21 +282,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": {
-      "cost": 36.36,
-      "entry_price": 0.92,
-      "event_ticker": "KXNCAAFGAME-26OCT17PEAYUWGA",
-      "market_id": "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA",
-      "opened": "2026-10-16T18:21:35+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.29,
-      "question": "West Georgia wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct17peayuwga-uwga",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA:no"
-    },
     "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15": {
       "cost": 36.25,
       "entry_price": 0.95,
@@ -433,8 +419,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -82.59000000000002,
+  "realized_pnl": -80.08000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T20:20:45+00:00",
+  "updated": "2026-10-17T21:20:13+00:00",
   "venue": "kalshi"
 }
