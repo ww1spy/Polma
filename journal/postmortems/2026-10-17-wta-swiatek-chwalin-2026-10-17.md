@@ -10,10 +10,16 @@
 - **Context at exit:** bid 0.14 / ask 0.18 vs entry 0.850
 
 ## What the rules saw at entry
-<!-- Fill in during review: liquidity, spread, price, hours to resolution -->
+Swiatek at 0.85 vs Chwalinska (Wuhan, WTA 1000), standard ~2% stake ($10.14), deep book (~$147k liquidity,
+0.01 spread), entered at 10:20 UTC. 0.85 is near the low end of the favorite band.
 
 ## Why it lost
-<!-- Was the thesis wrong, the timing wrong, or the rule too loose? -->
+Swiatek was losing within three hours of entry, so the stop sold at 0.17 for −$8.11. Unlike the Alcaraz
+loss, the stop did fire before settlement, but in-play tennis moves so fast that it only saved about $2 against
+a full loss. A 0.85 favorite is priced to lose about 15% of the time, so the price itself was not wrong.
 
 ## Rule change proposed
-<!-- Concrete edit to rules/rules.yaml, or "no change — acceptable variance" -->
+Not applied; this is the owner's call. A rough keyword tally of Polymarket head-to-head settles and exits
+since 9/28 (it may include a few non-tennis "X vs Y" markets) shows 61 wins (+$62.06) and 9 losses (−$88.89),
+so net −$26.83. Wins average about +$1, and losses average about −$10. The options offered on 10/13 still stand:
+exclude tennis, cap entries at 0.92 or higher (that cap would have blocked this 0.85 entry), or run the 60-day backtest.
