@@ -1,5 +1,5 @@
 {
-  "cash": 49.49999999999994,
+  "cash": 56.15999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -126,6 +126,8 @@
     "KXNCAAFGAME-26OCT10HAWASU-HAW": "2026-10-11",
     "KXNCAAFGAME-26OCT10MOREDAY-MORE": "2026-10-10",
     "KXNCAAFGAME-26OCT10PRINWAG-WAG": "2026-10-10",
+    "KXNCAAFGAME-26OCT16CHARTEM-CHAR": "2026-10-17",
+    "KXNCAAFGAME-26OCT17MCNSNWST-NWST": "2026-10-17",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
@@ -279,36 +281,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXNCAAFGAME-26OCT16CHARTEM-CHAR": {
-      "cost": 40.17,
-      "entry_price": 0.94,
-      "event_ticker": "KXNCAAFGAME-26OCT16CHARTEM",
-      "market_id": "KXNCAAFGAME-26OCT16CHARTEM-CHAR",
-      "opened": "2026-10-16T00:22:55+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 42.55,
-      "question": "Charlotte wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct16chartem-char",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT16CHARTEM-CHAR:no"
-    },
-    "KXNCAAFGAME-26OCT17MCNSNWST-NWST": {
-      "cost": 36.66,
-      "entry_price": 0.93,
-      "event_ticker": "KXNCAAFGAME-26OCT17MCNSNWST",
-      "market_id": "KXNCAAFGAME-26OCT17MCNSNWST-NWST",
-      "opened": "2026-10-16T17:21:24+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.22,
-      "question": "Northwestern St. wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct17mcnsnwst-nwst",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT17MCNSNWST-NWST:no"
-    },
     "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": {
       "cost": 36.36,
       "entry_price": 0.92,
@@ -429,6 +401,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXNFLTD-26OCT18ARILAR-ARIEHIGGINS84-1": {
+      "cost": 32.54,
+      "entry_price": 0.93,
+      "event_ticker": "KXNFLTD-26OCT18ARILAR",
+      "market_id": "KXNFLTD-26OCT18ARILAR-ARIEHIGGINS84-1",
+      "opened": "2026-10-17T20:20:45+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 34.82,
+      "question": "Elijah Higgins: 1+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26oct18arilar-ariehiggins84-1",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26OCT18ARILAR-ARIEHIGGINS84-1:no"
+    },
     "KXNFLTD-26OCT18CARPHI-PHIMLEMON9-1": {
       "cost": 35.59,
       "entry_price": 0.9,
@@ -446,8 +433,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -44.960000000000015,
+  "realized_pnl": -82.59000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T19:20:42+00:00",
+  "updated": "2026-10-17T20:20:45+00:00",
   "venue": "kalshi"
 }
