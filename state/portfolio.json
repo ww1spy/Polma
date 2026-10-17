@@ -1,5 +1,5 @@
 {
-  "cash": 454.5500000000006,
+  "cash": 444.4600000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -268,6 +268,21 @@
       "strategy": "favorite_discount",
       "token_id": "26668869374105423241063822023238370156273552047413316823375341979641160307361"
     },
+    "5593519": {
+      "cost": 10.09,
+      "entry_price": 0.958,
+      "event_ticker": "",
+      "market_id": "5593519",
+      "opened": "2026-10-17T00:20:25+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.53,
+      "question": "Will Bitcoin dip to $78,000 October 12-18?",
+      "rules_version": 14,
+      "slug": "will-bitcoin-dip-to-78k-october-12-18-2026",
+      "strategy": "favorite_discount",
+      "token_id": "5715739681573136120046356372880321144642720777829717266392732557876785185587"
+    },
     "5686981": {
       "cost": 9.97,
       "entry_price": 0.933,
@@ -331,5 +346,5 @@
   },
   "realized_pnl": 4.759999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T23:20:06+00:00"
+  "updated": "2026-10-17T00:20:25+00:00"
 }

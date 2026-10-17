@@ -1,5 +1,5 @@
 {
-  "cash": 152.17999999999995,
+  "cash": 79.63999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -323,6 +323,36 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA:no"
     },
+    "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15": {
+      "cost": 36.25,
+      "entry_price": 0.95,
+      "event_ticker": "KXNCAAFSPREAD-26OCT17NAVYUTSA",
+      "market_id": "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15",
+      "opened": "2026-10-17T00:20:47+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.02,
+      "question": "Navy wins by over 14.5 points",
+      "rules_version": 2,
+      "slug": "kxncaafspread-26oct17navyutsa-navy15",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15:no"
+    },
+    "KXNCAAFTOTAL-26OCT17LTULM-34": {
+      "cost": 36.29,
+      "entry_price": 0.94,
+      "event_ticker": "KXNCAAFTOTAL-26OCT17LTULM",
+      "market_id": "KXNCAAFTOTAL-26OCT17LTULM-34",
+      "opened": "2026-10-17T00:20:46+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.44,
+      "question": "Full Game: Over 33.5 points scored",
+      "rules_version": 2,
+      "slug": "kxncaaftotal-26oct17ltulm-34",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFTOTAL-26OCT17LTULM-34:yes"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -402,6 +432,6 @@
   "profile": "aggr",
   "realized_pnl": -46.47000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-16T23:20:26+00:00",
+  "updated": "2026-10-17T00:20:47+00:00",
   "venue": "kalshi"
 }
