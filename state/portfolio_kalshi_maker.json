@@ -1,5 +1,5 @@
 {
-  "cash": 451.0899999999996,
+  "cash": 441.48999999999955,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -72,6 +72,33 @@
         "KXRT-WHA-72:yes",
         "KXRT-WHA-72:no"
       ]
+    },
+    "KXWT20MATCH-26OCT180930ZIMIND-ZIM": {
+      "book_at_place": {
+        "ask": 0.97,
+        "bid": 0.96
+      },
+      "end_date": "2026-10-18T17:30:00+00:00",
+      "event_ticker": "KXWT20MATCH-26OCT180930ZIMIND",
+      "expires_ts": 1792337400.0,
+      "market_id": "KXWT20MATCH-26OCT180930ZIMIND-ZIM",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792261270.1817274,
+      "price": 0.96,
+      "qty": 10,
+      "question": "Zimbabwe wins",
+      "reserved": 9.6,
+      "rules_version": 1,
+      "slug": "kxwt20match-26oct180930zimind-zim",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWT20MATCH-26OCT180930ZIMIND-ZIM:yes",
+        "KXWT20MATCH-26OCT180930ZIMIND-ZIM:no"
+      ]
     }
   },
   "peak_equity": 504.1299999999997,
@@ -125,6 +152,6 @@
   "profile": "maker",
   "realized_pnl": -14.490000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T17:21:26+00:00",
+  "updated": "2026-10-17T18:21:10+00:00",
   "venue": "kalshi"
 }
