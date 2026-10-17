@@ -1,5 +1,5 @@
 {
-  "cash": 450.48999999999955,
+  "cash": 460.0899999999996,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -46,58 +46,31 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXRT-SENS-70": {
-      "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
-      },
-      "end_date": "2026-10-19T14:00:00+00:00",
-      "event_ticker": "KXRT-SENS",
-      "expires_ts": 1792247030.567119,
-      "market_id": "KXRT-SENS-70",
-      "outcome_idx": 0,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792160630.567119,
-      "price": 0.96,
-      "qty": 10,
-      "question": "Sense and Sensibility Rotten Tomatoes score? \u2014 Above 70",
-      "reserved": 9.6,
-      "rules_version": 1,
-      "slug": "kxrt-sens-70",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-SENS-70:yes",
-        "KXRT-SENS-70:no"
-      ]
-    },
-    "KXRT-YOUC-96": {
+    "KXRT-YOUC-97": {
       "book_at_place": {
         "ask": 0.95,
-        "bid": 0.94
+        "bid": 0.93
       },
       "end_date": "2026-10-19T14:00:00+00:00",
       "event_ticker": "KXRT-YOUC",
-      "expires_ts": 1792247031.07099,
-      "market_id": "KXRT-YOUC-96",
+      "expires_ts": 1792336883.9927506,
+      "market_id": "KXRT-YOUC-97",
       "outcome_idx": 0,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1792160631.07099,
+      "placed_ts": 1792250483.9927506,
       "price": 0.94,
       "qty": 10,
-      "question": "You Can See Everything Rotten Tomatoes score? \u2014 Above 96",
+      "question": "You Can See Everything Rotten Tomatoes score? \u2014 Above 97",
       "reserved": 9.4,
       "rules_version": 1,
-      "slug": "kxrt-youc-96",
+      "slug": "kxrt-youc-97",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXRT-YOUC-96:yes",
-        "KXRT-YOUC-96:no"
+        "KXRT-YOUC-97:yes",
+        "KXRT-YOUC-97:no"
       ]
     }
   },
@@ -137,6 +110,6 @@
   "profile": "maker",
   "realized_pnl": -14.490000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T14:21:30+00:00",
+  "updated": "2026-10-17T15:21:23+00:00",
   "venue": "kalshi"
 }
