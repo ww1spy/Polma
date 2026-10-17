@@ -1,5 +1,5 @@
 {
-  "cash": 79.63999999999996,
+  "cash": 85.08999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -221,6 +221,7 @@
     "KXTRUMPWORLDCUP-26-DJT-1": "2026-07-19",
     "KXTRUTHSOCIAL-26JUL18-B230": "2026-07-18",
     "KXTRUTHSOCIAL-26JUL25-B129": "2026-07-25",
+    "KXTRUTHSOCIAL-26OCT17-T240": "2026-10-17",
     "KXUCLGAME-26OCT14ASKLFC-ASK": "2026-10-14",
     "KXUCLGAME-26OCT14SLOVFB-SLO": "2026-10-14",
     "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": "2026-10-14",
@@ -338,6 +339,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15:no"
     },
+    "KXNCAAFSPREAD-26OCT17NEBORE-NEB15": {
+      "cost": 36.21,
+      "entry_price": 0.94,
+      "event_ticker": "KXNCAAFSPREAD-26OCT17NEBORE",
+      "market_id": "KXNCAAFSPREAD-26OCT17NEBORE-NEB15",
+      "opened": "2026-10-17T07:20:10+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.35,
+      "question": "Nebraska wins by over 14.5 points",
+      "rules_version": 2,
+      "slug": "kxncaafspread-26oct17nebore-neb15",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFSPREAD-26OCT17NEBORE-NEB15:no"
+    },
     "KXNCAAFTOTAL-26OCT17LTULM-34": {
       "cost": 36.29,
       "entry_price": 0.94,
@@ -412,26 +428,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXTRUTHSOCIAL-26OCT17-T240": {
-      "cost": 40.15,
-      "entry_price": 0.95,
-      "event_ticker": "KXTRUTHSOCIAL-26OCT17",
-      "market_id": "KXTRUTHSOCIAL-26OCT17-T240",
-      "opened": "2026-10-15T14:21:22+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 42.11,
-      "question": "Will Donald Trump make above 240 Truth Social posts the week of Oct 11, 2026? \u2014 >240",
-      "rules_version": 2,
-      "slug": "kxtruthsocial-26oct17-t240",
-      "strategy": "favorite_discount",
-      "token_id": "KXTRUTHSOCIAL-26OCT17-T240:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -46.47000000000001,
+  "realized_pnl": -44.960000000000015,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T06:20:23+00:00",
+  "updated": "2026-10-17T07:20:10+00:00",
   "venue": "kalshi"
 }

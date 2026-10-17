@@ -1,5 +1,5 @@
 {
-  "cash": 449.30999999999955,
+  "cash": 440.30999999999955,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -97,6 +97,33 @@
         "KXRT-YOUC-96:yes",
         "KXRT-YOUC-96:no"
       ]
+    },
+    "KXWT20MATCH-26OCT170300AUT-WROMW-ROMW": {
+      "book_at_place": {
+        "ask": 0.91,
+        "bid": 0.89
+      },
+      "end_date": "2026-10-17T11:00:00+00:00",
+      "event_ticker": "KXWT20MATCH-26OCT170300AUT-WROMW",
+      "expires_ts": 1792227600.0,
+      "market_id": "KXWT20MATCH-26OCT170300AUT-WROMW-ROMW",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792221644.4682217,
+      "price": 0.9,
+      "qty": 10,
+      "question": "Romania Women wins",
+      "reserved": 9.0,
+      "rules_version": 1,
+      "slug": "kxwt20match-26oct170300aut-wromw-romw",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWT20MATCH-26OCT170300AUT-WROMW-ROMW:yes",
+        "KXWT20MATCH-26OCT170300AUT-WROMW-ROMW:no"
+      ]
     }
   },
   "peak_equity": 504.1299999999997,
@@ -135,6 +162,6 @@
   "profile": "maker",
   "realized_pnl": -15.670000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T06:20:57+00:00",
+  "updated": "2026-10-17T07:20:44+00:00",
   "venue": "kalshi"
 }
