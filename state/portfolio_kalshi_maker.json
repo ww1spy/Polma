@@ -71,33 +71,6 @@
         "KXRT-SENS-70:no"
       ]
     },
-    "KXRT-STRA-45": {
-      "book_at_place": {
-        "ask": 0.9,
-        "bid": 0.88
-      },
-      "end_date": "2026-10-19T14:00:00+00:00",
-      "event_ticker": "KXRT-STRA",
-      "expires_ts": 1792282905.4433744,
-      "market_id": "KXRT-STRA-45",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792196505.4433744,
-      "price": 0.89,
-      "qty": 10,
-      "question": "Street Fighter Rotten Tomatoes score? \u2014 Above 45",
-      "reserved": 8.9,
-      "rules_version": 1,
-      "slug": "kxrt-stra-45",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-STRA-45:yes",
-        "KXRT-STRA-45:no"
-      ]
-    },
     "KXRT-YOUC-96": {
       "book_at_place": {
         "ask": 0.95,
@@ -128,6 +101,21 @@
   },
   "peak_equity": 504.1299999999997,
   "positions": {
+    "KXRT-STRA-45": {
+      "cost": 8.9,
+      "entry_price": 0.89,
+      "event_ticker": "KXRT-STRA",
+      "market_id": "KXRT-STRA-45",
+      "opened": "2026-10-17T01:21:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Street Fighter Rotten Tomatoes score? \u2014 Above 45",
+      "rules_version": 1,
+      "slug": "kxrt-stra-45",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXRT-STRA-45:no"
+    },
     "KXTRUMPSAY-26OCT19-ZOHR": {
       "cost": 7.12,
       "entry_price": 0.89,
@@ -147,6 +135,6 @@
   "profile": "maker",
   "realized_pnl": -15.670000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T00:21:45+00:00",
+  "updated": "2026-10-17T01:21:15+00:00",
   "venue": "kalshi"
 }
