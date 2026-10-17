@@ -1,5 +1,5 @@
 {
-  "cash": 444.8300000000006,
+  "cash": 456.2200000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -232,6 +232,7 @@
     "5691067": "2026-10-15",
     "5691069": "2026-10-15",
     "5745687": "2026-10-16",
+    "5771296": "2026-10-17",
     "599304": "2026-08-03",
     "599305": "2026-08-03",
     "601920": "2026-10-04",
@@ -328,24 +329,9 @@
       "slug": "us-x-iran-ceasefire-continues-through-october-18",
       "strategy": "favorite_discount",
       "token_id": "2625377010520972863779643236803577581748639794589636600998044189980160682944"
-    },
-    "5771296": {
-      "cost": 10.11,
-      "entry_price": 0.888,
-      "event_ticker": "",
-      "market_id": "5771296",
-      "opened": "2026-10-17T08:19:49+00:00",
-      "outcome": "Maddison Inglis",
-      "outcome_idx": 1,
-      "qty": 11.39,
-      "question": "Japan Women's Open, Qualification: Sara Sorribes Tormo vs Maddison Inglis",
-      "rules_version": 14,
-      "slug": "wta-tormo-inglis-2026-10-17",
-      "strategy": "favorite_discount",
-      "token_id": "19174917835012148826371845292258423878292619500213045062127556537412521190935"
     }
   },
-  "realized_pnl": 5.269999999999998,
+  "realized_pnl": 6.549999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T08:19:49+00:00"
+  "updated": "2026-10-17T09:20:20+00:00"
 }
