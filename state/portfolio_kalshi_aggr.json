@@ -1,5 +1,5 @@
 {
-  "cash": 95.02999999999993,
+  "cash": 62.11999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -416,11 +416,26 @@
       "slug": "kxnfltd-26oct18carphi-phimlemon9-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT18CARPHI-PHIMLEMON9-1:no"
+    },
+    "KXNFLTD-26OCT18DALGB-GBCWATSON9-2": {
+      "cost": 32.91,
+      "entry_price": 0.91,
+      "event_ticker": "KXNFLTD-26OCT18DALGB",
+      "market_id": "KXNFLTD-26OCT18DALGB-GBCWATSON9-2",
+      "opened": "2026-10-18T00:20:40+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 35.94,
+      "question": "Christian Watson: 2+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26oct18dalgb-gbcwatson9-2",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26OCT18DALGB-GBCWATSON9-2:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -80.08000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-17T23:20:17+00:00",
+  "updated": "2026-10-18T00:20:40+00:00",
   "venue": "kalshi"
 }
