@@ -49,37 +49,24 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {
+  "orders": {},
+  "peak_equity": 504.1299999999997,
+  "positions": {
     "KXRT-SENS-75": {
-      "book_at_place": {
-        "ask": 0.93,
-        "bid": 0.92
-      },
-      "end_date": "2026-10-19T14:00:00+00:00",
+      "cost": 9.2,
+      "entry_price": 0.92,
       "event_ticker": "KXRT-SENS",
-      "expires_ts": 1792411200.0,
       "market_id": "KXRT-SENS-75",
+      "opened": "2026-10-18T21:20:55+00:00",
+      "outcome": "Yes",
       "outcome_idx": 0,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792354876.9839902,
-      "price": 0.92,
       "qty": 10,
       "question": "Sense and Sensibility Rotten Tomatoes score? \u2014 Above 75",
-      "reserved": 9.2,
       "rules_version": 1,
       "slug": "kxrt-sens-75",
       "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-SENS-75:yes",
-        "KXRT-SENS-75:no"
-      ]
-    }
-  },
-  "peak_equity": 504.1299999999997,
-  "positions": {
+      "token_id": "KXRT-SENS-75:yes"
+    },
     "KXRT-STRA-42": {
       "cost": 9.0,
       "entry_price": 0.9,
@@ -129,6 +116,6 @@
   "profile": "maker",
   "realized_pnl": -12.130000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-18T20:21:16+00:00",
+  "updated": "2026-10-18T21:21:32+00:00",
   "venue": "kalshi"
 }
