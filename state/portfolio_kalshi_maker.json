@@ -101,33 +101,6 @@
         "KXWT20MATCH-26OCT180930ZIMIND-ZIM:yes",
         "KXWT20MATCH-26OCT180930ZIMIND-ZIM:no"
       ]
-    },
-    "KXWTI-26OCT1914-T102.99": {
-      "book_at_place": {
-        "ask": 0.94,
-        "bid": 0.92
-      },
-      "end_date": "2026-10-19T18:30:00+00:00",
-      "event_ticker": "KXWTI-26OCT1914",
-      "expires_ts": 1792408930.5306926,
-      "market_id": "KXWTI-26OCT1914-T102.99",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792322530.5306926,
-      "price": 0.93,
-      "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
-      "reserved": 9.3,
-      "rules_version": 1,
-      "slug": "kxwti-26oct1914-t102.99",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWTI-26OCT1914-T102.99:yes",
-        "KXWTI-26OCT1914-T102.99:no"
-      ]
     }
   },
   "peak_equity": 504.1299999999997,
@@ -176,11 +149,26 @@
       "slug": "kxtrumpsay-26oct19-zohr",
       "strategy": "favorite_discount_maker",
       "token_id": "KXTRUMPSAY-26OCT19-ZOHR:no"
+    },
+    "KXWTI-26OCT1914-T102.99": {
+      "cost": 9.3,
+      "entry_price": 0.93,
+      "event_ticker": "KXWTI-26OCT1914",
+      "market_id": "KXWTI-26OCT1914-T102.99",
+      "opened": "2026-10-18T13:21:36+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
+      "rules_version": 1,
+      "slug": "kxwti-26oct1914-t102.99",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXWTI-26OCT1914-T102.99:no"
     }
   },
   "profile": "maker",
   "realized_pnl": -12.620000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-18T12:20:51+00:00",
+  "updated": "2026-10-18T13:21:38+00:00",
   "venue": "kalshi"
 }

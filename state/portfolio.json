@@ -1,5 +1,5 @@
 {
-  "cash": 450.9400000000005,
+  "cash": 440.9000000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -334,9 +334,24 @@
       "slug": "lol-kc-mvk-2026-10-18",
       "strategy": "favorite_discount",
       "token_id": "55930317657596676314792912289200641629192291039787133062351784667438515914390"
+    },
+    "682706": {
+      "cost": 10.04,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "682706",
+      "opened": "2026-10-18T13:20:38+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.54,
+      "question": "Will Naftali Bennett be the next Prime Minister of Israel?",
+      "rules_version": 14,
+      "slug": "will-naftali-bennett-be-the-next-prime-minister-of-israel",
+      "strategy": "favorite_discount",
+      "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
   "realized_pnl": 1.0399999999999974,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-18T12:19:55+00:00"
+  "updated": "2026-10-18T13:20:38+00:00"
 }
