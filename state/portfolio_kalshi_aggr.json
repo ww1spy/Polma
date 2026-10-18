@@ -1,5 +1,5 @@
 {
-  "cash": 73.82999999999993,
+  "cash": 111.43999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -134,6 +134,7 @@
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
     "KXNCAAFSPREAD-26OCT03MICHMINN-MICH25": "2026-10-03",
     "KXNCAAFSPREAD-26OCT10INDNEB-IND28": "2026-10-10",
+    "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15": "2026-10-18",
     "KXNCAAFTOTAL-26OCT10TULNARMY-26": "2026-10-10",
     "KXNCAAFTOTAL-26OCT17LTULM-34": "2026-10-18",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
@@ -283,21 +284,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15": {
-      "cost": 36.25,
-      "entry_price": 0.95,
-      "event_ticker": "KXNCAAFSPREAD-26OCT17NAVYUTSA",
-      "market_id": "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15",
-      "opened": "2026-10-17T00:20:47+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.02,
-      "question": "Navy wins by over 14.5 points",
-      "rules_version": 2,
-      "slug": "kxncaafspread-26oct17navyutsa-navy15",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15:no"
-    },
     "KXNCAAFSPREAD-26OCT17NEBORE-NEB15": {
       "cost": 36.21,
       "entry_price": 0.94,
@@ -420,8 +406,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -104.66000000000001,
+  "realized_pnl": -103.30000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-18T02:20:28+00:00",
+  "updated": "2026-10-18T03:20:42+00:00",
   "venue": "kalshi"
 }
