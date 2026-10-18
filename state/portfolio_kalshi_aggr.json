@@ -1,5 +1,5 @@
 {
-  "cash": 118.03999999999994,
+  "cash": 86.31999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -300,6 +300,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXCS2GAME-26OCT190645BKHSAW-SAW:yes"
     },
+    "KXDWTSELIMINATION-26OCT21-JDEW": {
+      "cost": 31.72,
+      "entry_price": 0.97,
+      "event_ticker": "KXDWTSELIMINATION-26OCT21",
+      "market_id": "KXDWTSELIMINATION-26OCT21-JDEW",
+      "opened": "2026-10-18T14:23:51+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 32.63,
+      "question": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+      "rules_version": 2,
+      "slug": "kxdwtselimination-26oct21-jdew",
+      "strategy": "favorite_discount",
+      "token_id": "KXDWTSELIMINATION-26OCT21-JDEW:no"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -409,6 +424,6 @@
   "profile": "aggr",
   "realized_pnl": -101.16000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-18T13:21:03+00:00",
+  "updated": "2026-10-18T14:23:51+00:00",
   "venue": "kalshi"
 }
