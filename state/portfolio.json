@@ -1,5 +1,5 @@
 {
-  "cash": 463.01000000000045,
+  "cash": 452.93000000000046,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -277,6 +277,21 @@
       "strategy": "favorite_discount",
       "token_id": "26668869374105423241063822023238370156273552047413316823375341979641160307361"
     },
+    "5557834": {
+      "cost": 10.08,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "5557834",
+      "opened": "2026-10-18T22:19:51+00:00",
+      "outcome": "Tampa Bay Rays",
+      "outcome_idx": 0,
+      "qty": 11.72,
+      "question": "Tampa Bay Rays vs. Cleveland Guardians",
+      "rules_version": 14,
+      "slug": "mlb-tb-cle-2026-10-17",
+      "strategy": "favorite_discount",
+      "token_id": "26890898077170571239055394126433602443161116351175389461360625969411578934475"
+    },
     "5686979": {
       "cost": 9.98,
       "entry_price": 0.92,
@@ -325,5 +340,5 @@
   },
   "realized_pnl": 3.1599999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-18T21:20:01+00:00"
+  "updated": "2026-10-18T22:19:51+00:00"
 }
