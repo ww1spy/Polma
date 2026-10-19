@@ -1,5 +1,5 @@
 {
-  "cash": 454.52000000000044,
+  "cash": 434.2800000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -263,6 +263,36 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "2589812": {
+      "cost": 10.12,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "2589812",
+      "opened": "2026-10-19T04:20:15+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 11.5,
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "rules_version": 14,
+      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+      "strategy": "favorite_discount",
+      "token_id": "111061902544814266207267295505639408607400625795891618462682726460921782993748"
+    },
+    "2589813": {
+      "cost": 10.12,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "2589813",
+      "opened": "2026-10-19T04:20:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.5,
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "rules_version": 14,
+      "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032",
+      "strategy": "favorite_discount",
+      "token_id": "78632395083310670734315205502061249602319069653915932320155846460019107676757"
+    },
     "5340069": {
       "cost": 10.08,
       "entry_price": 0.895,
@@ -341,5 +371,5 @@
   },
   "realized_pnl": 4.789999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T03:20:01+00:00"
+  "updated": "2026-10-19T04:20:15+00:00"
 }
