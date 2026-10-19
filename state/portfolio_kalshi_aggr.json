@@ -1,5 +1,5 @@
 {
-  "cash": 163.90999999999994,
+  "cash": 131.35999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -393,11 +393,26 @@
       "slug": "kxnfltd-26oct19wassf-wasdbrown6-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT19WASSF-WASDBROWN6-1:no"
+    },
+    "KXT20MATCH-26OCT200500ZAMUGA-ZAM": {
+      "cost": 32.55,
+      "entry_price": 0.96,
+      "event_ticker": "KXT20MATCH-26OCT200500ZAMUGA",
+      "market_id": "KXT20MATCH-26OCT200500ZAMUGA-ZAM",
+      "opened": "2026-10-19T13:25:42+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 33.8,
+      "question": "Zambia wins",
+      "rules_version": 2,
+      "slug": "kxt20match-26oct200500zamuga-zam",
+      "strategy": "favorite_discount",
+      "token_id": "KXT20MATCH-26OCT200500ZAMUGA-ZAM:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -91.65000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T12:23:34+00:00",
+  "updated": "2026-10-19T13:25:42+00:00",
   "venue": "kalshi"
 }
