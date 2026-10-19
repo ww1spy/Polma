@@ -1,5 +1,5 @@
 {
-  "cash": 452.90999999999934,
+  "cash": 459.41999999999933,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -80,33 +80,6 @@
         "KXRT-YOUC-98:yes",
         "KXRT-YOUC-98:no"
       ]
-    },
-    "KXWTI-26OCT1914-T100.99": {
-      "book_at_place": {
-        "ask": 0.94,
-        "bid": 0.93
-      },
-      "end_date": "2026-10-19T18:30:00+00:00",
-      "event_ticker": "KXWTI-26OCT1914",
-      "expires_ts": 1792427400.0,
-      "market_id": "KXWTI-26OCT1914-T100.99",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792391224.0721507,
-      "price": 0.93,
-      "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
-      "reserved": 9.3,
-      "rules_version": 1,
-      "slug": "kxwti-26oct1914-t100.99",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWTI-26OCT1914-T100.99:yes",
-        "KXWTI-26OCT1914-T100.99:no"
-      ]
     }
   },
   "peak_equity": 504.1299999999997,
@@ -140,11 +113,26 @@
       "slug": "kxrt-stra-42",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-STRA-42:no"
+    },
+    "KXWTI-26OCT1914-T100.99": {
+      "cost": 2.79,
+      "entry_price": 0.93,
+      "event_ticker": "KXWTI-26OCT1914",
+      "market_id": "KXWTI-26OCT1914-T100.99",
+      "opened": "2026-10-19T09:21:08+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 3,
+      "question": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
+      "rules_version": 1,
+      "slug": "kxwti-26oct1914-t100.99",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXWTI-26OCT1914-T100.99:no"
     }
   },
   "profile": "maker",
   "realized_pnl": -10.590000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T08:21:43+00:00",
+  "updated": "2026-10-19T09:21:29+00:00",
   "venue": "kalshi"
 }
