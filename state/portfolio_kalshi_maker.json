@@ -1,5 +1,5 @@
 {
-  "cash": 459.41999999999933,
+  "cash": 468.41999999999933,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -53,35 +53,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {
-    "KXRT-YOUC-98": {
-      "book_at_place": {
-        "ask": 0.91,
-        "bid": 0.89
-      },
-      "end_date": "2026-10-19T14:00:00+00:00",
-      "event_ticker": "KXRT-YOUC",
-      "expires_ts": 1792411200.0,
-      "market_id": "KXRT-YOUC-98",
-      "outcome_idx": 0,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792376472.5872362,
-      "price": 0.9,
-      "qty": 10,
-      "question": "You Can See Everything Rotten Tomatoes score? \u2014 Above 98",
-      "reserved": 9.0,
-      "rules_version": 1,
-      "slug": "kxrt-youc-98",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-YOUC-98:yes",
-        "KXRT-YOUC-98:no"
-      ]
-    }
-  },
+  "orders": {},
   "peak_equity": 504.1299999999997,
   "positions": {
     "KXRT-SENS-75": {
@@ -133,6 +105,6 @@
   "profile": "maker",
   "realized_pnl": -10.590000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T11:23:02+00:00",
+  "updated": "2026-10-19T12:24:09+00:00",
   "venue": "kalshi"
 }
