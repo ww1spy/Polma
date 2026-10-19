@@ -1,5 +1,5 @@
 {
-  "cash": 468.41999999999933,
+  "cash": 488.41999999999933,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -8,9 +8,11 @@
     "KXRT-OTH-23": "2026-10-11",
     "KXRT-OTH-30": "2026-10-10",
     "KXRT-PRI-86": "2026-09-28",
+    "KXRT-SENS-75": "2026-10-19",
     "KXRT-SENS-77": "2026-10-18",
     "KXRT-SOC-52": "2026-10-11",
     "KXRT-SOC-55": "2026-10-12",
+    "KXRT-STRA-42": "2026-10-19",
     "KXRT-STRA-45": "2026-10-17",
     "KXRT-VER-35": "2026-10-05",
     "KXRT-VER-40": "2026-10-02",
@@ -56,36 +58,6 @@
   "orders": {},
   "peak_equity": 504.1299999999997,
   "positions": {
-    "KXRT-SENS-75": {
-      "cost": 9.2,
-      "entry_price": 0.92,
-      "event_ticker": "KXRT-SENS",
-      "market_id": "KXRT-SENS-75",
-      "opened": "2026-10-18T21:20:55+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10,
-      "question": "Sense and Sensibility Rotten Tomatoes score? \u2014 Above 75",
-      "rules_version": 1,
-      "slug": "kxrt-sens-75",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-SENS-75:yes"
-    },
-    "KXRT-STRA-42": {
-      "cost": 9.0,
-      "entry_price": 0.9,
-      "event_ticker": "KXRT-STRA",
-      "market_id": "KXRT-STRA-42",
-      "opened": "2026-10-17T22:21:05+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10,
-      "question": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
-      "rules_version": 1,
-      "slug": "kxrt-stra-42",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-STRA-42:no"
-    },
     "KXWTI-26OCT1914-T100.99": {
       "cost": 2.79,
       "entry_price": 0.93,
@@ -103,8 +75,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": -10.590000000000005,
+  "realized_pnl": -8.790000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T14:21:54+00:00",
+  "updated": "2026-10-19T15:21:32+00:00",
   "venue": "kalshi"
 }
