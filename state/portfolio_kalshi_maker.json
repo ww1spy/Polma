@@ -1,5 +1,5 @@
 {
-  "cash": 451.46999999999946,
+  "cash": 442.46999999999946,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -51,31 +51,31 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXTRUMPSAY-26OCT19-TDS": {
+    "KXRT-YOUC-98": {
       "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
+        "ask": 0.91,
+        "bid": 0.89
       },
-      "end_date": "2026-10-19T16:00:00+00:00",
-      "event_ticker": "KXTRUMPSAY-26OCT19",
-      "expires_ts": 1792418400.0,
-      "market_id": "KXTRUMPSAY-26OCT19-TDS",
-      "outcome_idx": 1,
+      "end_date": "2026-10-19T14:00:00+00:00",
+      "event_ticker": "KXRT-YOUC",
+      "expires_ts": 1792411200.0,
+      "market_id": "KXRT-YOUC-98",
+      "outcome_idx": 0,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1792372956.353042,
-      "price": 0.96,
+      "placed_ts": 1792376472.5872362,
+      "price": 0.9,
       "qty": 10,
-      "question": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
-      "reserved": 9.6,
+      "question": "You Can See Everything Rotten Tomatoes score? \u2014 Above 98",
+      "reserved": 9.0,
       "rules_version": 1,
-      "slug": "kxtrumpsay-26oct19-tds",
+      "slug": "kxrt-youc-98",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXTRUMPSAY-26OCT19-TDS:yes",
-        "KXTRUMPSAY-26OCT19-TDS:no"
+        "KXRT-YOUC-98:yes",
+        "KXRT-YOUC-98:no"
       ]
     }
   },
@@ -111,6 +111,21 @@
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-STRA-42:no"
     },
+    "KXTRUMPSAY-26OCT19-TDS": {
+      "cost": 9.6,
+      "entry_price": 0.96,
+      "event_ticker": "KXTRUMPSAY-26OCT19",
+      "market_id": "KXTRUMPSAY-26OCT19-TDS",
+      "opened": "2026-10-19T02:20:42+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
+      "rules_version": 1,
+      "slug": "kxtrumpsay-26oct19-tds",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXTRUMPSAY-26OCT19-TDS:no"
+    },
     "KXWTI-26OCT1914-T102.99": {
       "cost": 9.3,
       "entry_price": 0.93,
@@ -130,6 +145,6 @@
   "profile": "maker",
   "realized_pnl": -11.430000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T01:22:36+00:00",
+  "updated": "2026-10-19T02:21:12+00:00",
   "venue": "kalshi"
 }
