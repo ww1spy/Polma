@@ -1,5 +1,5 @@
 {
-  "cash": 98.76999999999995,
+  "cash": 66.43999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -409,6 +409,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXT20MATCH-26OCT200500ZAMUGA-ZAM:no"
     },
+    "KXUCLGAME-26OCT20MCIAEK-AEK": {
+      "cost": 32.33,
+      "entry_price": 0.97,
+      "event_ticker": "KXUCLGAME-26OCT20MCIAEK",
+      "market_id": "KXUCLGAME-26OCT20MCIAEK-AEK",
+      "opened": "2026-10-19T19:21:05+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 33.26,
+      "question": "AEK Athens wins",
+      "rules_version": 2,
+      "slug": "kxuclgame-26oct20mciaek-aek",
+      "strategy": "favorite_discount",
+      "token_id": "KXUCLGAME-26OCT20MCIAEK-AEK:no"
+    },
     "KXUCLGAME-26OCT20SBHBVB-SBH": {
       "cost": 32.59,
       "entry_price": 0.91,
@@ -428,6 +443,6 @@
   "profile": "aggr",
   "realized_pnl": -91.65000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T18:20:40+00:00",
+  "updated": "2026-10-19T19:21:05+00:00",
   "venue": "kalshi"
 }
