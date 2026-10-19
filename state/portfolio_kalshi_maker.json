@@ -1,5 +1,5 @@
 {
-  "cash": 442.6499999999994,
+  "cash": 452.4299999999994,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -20,6 +20,7 @@
     "KXTRUMPSAY-26OCT05-PEAC": "2026-10-04",
     "KXTRUMPSAY-26OCT05-ZOHR": "2026-10-05",
     "KXTRUMPSAY-26OCT12-CEAS": "2026-10-11",
+    "KXTRUMPSAY-26OCT19-CEAS": "2026-10-19",
     "KXTRUMPSAY-26OCT19-TDS": "2026-10-19",
     "KXTRUMPSAY-26OCT19-ZOHR": "2026-10-19",
     "KXWT20MATCH-26OCT030700WINZIM-ZIM": "2026-10-03",
@@ -112,21 +113,6 @@
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-STRA-42:no"
     },
-    "KXTRUMPSAY-26OCT19-CEAS": {
-      "cost": 9.6,
-      "entry_price": 0.96,
-      "event_ticker": "KXTRUMPSAY-26OCT19",
-      "market_id": "KXTRUMPSAY-26OCT19-CEAS",
-      "opened": "2026-10-19T04:24:25+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10,
-      "question": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
-      "rules_version": 1,
-      "slug": "kxtrumpsay-26oct19-ceas",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXTRUMPSAY-26OCT19-CEAS:no"
-    },
     "KXWTI-26OCT1914-T102.99": {
       "cost": 9.3,
       "entry_price": 0.93,
@@ -144,8 +130,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": -11.250000000000004,
+  "realized_pnl": -11.070000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T04:24:55+00:00",
+  "updated": "2026-10-19T05:21:57+00:00",
   "venue": "kalshi"
 }
