@@ -1,5 +1,5 @@
 {
-  "cash": 434.7400000000004,
+  "cash": 424.6300000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -354,6 +354,21 @@
       "strategy": "favorite_discount",
       "token_id": "11703355753646866721510451780813586747644200170798817311988936815535980370261"
     },
+    "5825785": {
+      "cost": 10.11,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "5825785",
+      "opened": "2026-10-19T10:20:01+00:00",
+      "outcome": "Adrian Mannarino",
+      "outcome_idx": 0,
+      "qty": 10.76,
+      "question": "Almaty Open: Adrian Mannarino vs Aleksandar Vukic",
+      "rules_version": 14,
+      "slug": "atp-mannari-vukic-2026-10-19",
+      "strategy": "favorite_discount",
+      "token_id": "79915234985757341121106563516687796863514246532702050959551218805036734301358"
+    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -372,5 +387,5 @@
   },
   "realized_pnl": 5.319999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-19T09:19:50+00:00"
+  "updated": "2026-10-19T10:20:01+00:00"
 }
