@@ -1,5 +1,5 @@
 {
-  "cash": 102.13999999999997,
+  "cash": 68.99999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -310,6 +310,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26OCT23-37.7:no"
     },
+    "KXCONMEBOLSUDADVANCE-26OCT21TORATL-TOR": {
+      "cost": 33.14,
+      "entry_price": 0.97,
+      "event_ticker": "KXCONMEBOLSUDADVANCE-26OCT21TORATL",
+      "market_id": "KXCONMEBOLSUDADVANCE-26OCT21TORATL-TOR",
+      "opened": "2026-10-20T22:20:46+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 34.09,
+      "question": "Montevideo City To Advance \u2014 Montevideo City advances",
+      "rules_version": 2,
+      "slug": "kxconmebolsudadvance-26oct21toratl-tor",
+      "strategy": "favorite_discount",
+      "token_id": "KXCONMEBOLSUDADVANCE-26OCT21TORATL-TOR:no"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -434,6 +449,6 @@
   "profile": "aggr",
   "realized_pnl": -83.88000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-20T21:21:12+00:00",
+  "updated": "2026-10-20T22:20:46+00:00",
   "venue": "kalshi"
 }
