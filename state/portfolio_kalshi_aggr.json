@@ -1,5 +1,5 @@
 {
-  "cash": 102.56999999999998,
+  "cash": 102.13999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -238,6 +238,7 @@
     "KXTRUTHSOCIAL-26OCT17-T240": "2026-10-17",
     "KXUCLGAME-26OCT14ASKLFC-ASK": "2026-10-14",
     "KXUCLGAME-26OCT14SLOVFB-SLO": "2026-10-14",
+    "KXUCLGAME-26OCT20MCIAEK-AEK": "2026-10-20",
     "KXUCLGAME-26OCT20SBHBVB-SBH": "2026-10-20",
     "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": "2026-10-14",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
@@ -384,21 +385,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXT20MATCH-26OCT210500UGALES-LES:no"
     },
-    "KXUCLGAME-26OCT20MCIAEK-AEK": {
-      "cost": 32.33,
-      "entry_price": 0.97,
-      "event_ticker": "KXUCLGAME-26OCT20MCIAEK",
-      "market_id": "KXUCLGAME-26OCT20MCIAEK-AEK",
-      "opened": "2026-10-19T19:21:05+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 33.26,
-      "question": "AEK Athens wins",
-      "rules_version": 2,
-      "slug": "kxuclgame-26oct20mciaek-aek",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLGAME-26OCT20MCIAEK-AEK:no"
-    },
     "KXUCLGAME-26OCT21AVLVIK-VIK": {
       "cost": 33.35,
       "entry_price": 0.93,
@@ -428,11 +414,26 @@
       "slug": "kxuclgame-26oct21intsha-sha",
       "strategy": "favorite_discount",
       "token_id": "KXUCLGAME-26OCT21INTSHA-SHA:no"
+    },
+    "KXUCLGAME-26OCT21RMARBL-RBL": {
+      "cost": 33.33,
+      "entry_price": 0.91,
+      "event_ticker": "KXUCLGAME-26OCT21RMARBL",
+      "market_id": "KXUCLGAME-26OCT21RMARBL-RBL",
+      "opened": "2026-10-20T20:21:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.39,
+      "question": "Leipzig wins",
+      "rules_version": 2,
+      "slug": "kxuclgame-26oct21rmarbl-rbl",
+      "strategy": "favorite_discount",
+      "token_id": "KXUCLGAME-26OCT21RMARBL-RBL:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -84.45000000000003,
+  "realized_pnl": -83.88000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-20T19:23:13+00:00",
+  "updated": "2026-10-20T20:21:03+00:00",
   "venue": "kalshi"
 }
