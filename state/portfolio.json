@@ -1,5 +1,5 @@
 {
-  "cash": 425.2600000000004,
+  "cash": 425.92000000000036,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -241,6 +241,7 @@
     "5771296": "2026-10-17",
     "5777365": "2026-10-17",
     "5801177": "2026-10-18",
+    "5801197": "2026-10-20",
     "5825785": "2026-10-19",
     "5838886": "2026-10-18",
     "599304": "2026-08-03",
@@ -265,6 +266,21 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "2110579": {
+      "cost": 10.11,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "2110579",
+      "opened": "2026-10-20T05:20:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.99,
+      "question": "Will Likud win 30-34 seats in the 2026 Israeli legislative election?",
+      "rules_version": 14,
+      "slug": "will-likud-win-30-34-seats-in-the-2026-israeli-legislative-election",
+      "strategy": "favorite_discount",
+      "token_id": "48363336280603988612943937623657599900834676634371552666346986109028055383864"
+    },
     "2589812": {
       "cost": 10.12,
       "entry_price": 0.88,
@@ -355,21 +371,6 @@
       "strategy": "favorite_discount",
       "token_id": "11703355753646866721510451780813586747644200170798817311988936815535980370261"
     },
-    "5801197": {
-      "cost": 10.13,
-      "entry_price": 0.94,
-      "event_ticker": "",
-      "market_id": "5801197",
-      "opened": "2026-10-19T11:21:59+00:00",
-      "outcome": "Katie Boulter",
-      "outcome_idx": 0,
-      "qty": 10.78,
-      "question": "Japan Women's Open: Katie Boulter vs Himeno Sakatsume",
-      "rules_version": 14,
-      "slug": "wta-boulter-sakatsu-2026-10-18",
-      "strategy": "favorite_discount",
-      "token_id": "95953273838584979400804123799092557605425244951940158141202929144897813978861"
-    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -386,7 +387,7 @@
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
-  "realized_pnl": 5.969999999999997,
+  "realized_pnl": 6.609999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-20T04:20:16+00:00"
+  "updated": "2026-10-20T05:20:15+00:00"
 }
