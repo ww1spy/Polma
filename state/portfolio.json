@@ -1,5 +1,5 @@
 {
-  "cash": 437.01000000000033,
+  "cash": 426.87000000000035,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -312,6 +312,21 @@
       "strategy": "favorite_discount",
       "token_id": "78632395083310670734315205502061249602319069653915932320155846460019107676757"
     },
+    "4890270": {
+      "cost": 10.14,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "4890270",
+      "opened": "2026-10-20T21:20:51+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.79,
+      "question": "Will Andrey Gyurov win the 2026 Bulgarian presidential first round by 20%-30%?",
+      "rules_version": 14,
+      "slug": "will-andrey-gyurov-win-the-2026-bulgarian-presidential-first-round-by-20-30",
+      "strategy": "favorite_discount",
+      "token_id": "57534930121630546188194373967723261222542191087652518415524529485985871867497"
+    },
     "5340069": {
       "cost": 10.08,
       "entry_price": 0.895,
@@ -375,5 +390,5 @@
   },
   "realized_pnl": 7.5799999999999965,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-20T20:20:37+00:00"
+  "updated": "2026-10-20T21:20:51+00:00"
 }
