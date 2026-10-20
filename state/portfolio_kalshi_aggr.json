@@ -1,5 +1,5 @@
 {
-  "cash": 134.01999999999995,
+  "cash": 169.21999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -238,6 +238,7 @@
     "KXTRUTHSOCIAL-26OCT17-T240": "2026-10-17",
     "KXUCLGAME-26OCT14ASKLFC-ASK": "2026-10-14",
     "KXUCLGAME-26OCT14SLOVFB-SLO": "2026-10-14",
+    "KXUCLGAME-26OCT20SBHBVB-SBH": "2026-10-20",
     "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": "2026-10-14",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
@@ -397,26 +398,11 @@
       "slug": "kxuclgame-26oct20mciaek-aek",
       "strategy": "favorite_discount",
       "token_id": "KXUCLGAME-26OCT20MCIAEK-AEK:no"
-    },
-    "KXUCLGAME-26OCT20SBHBVB-SBH": {
-      "cost": 32.59,
-      "entry_price": 0.91,
-      "event_ticker": "KXUCLGAME-26OCT20SBHBVB",
-      "market_id": "KXUCLGAME-26OCT20SBHBVB-SBH",
-      "opened": "2026-10-19T17:20:24+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.59,
-      "question": "Sabah Masazir wins",
-      "rules_version": 2,
-      "slug": "kxuclgame-26oct20sbhbvb-sbh",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLGAME-26OCT20SBHBVB-SBH:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -87.06000000000003,
+  "realized_pnl": -84.45000000000003,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-20T17:20:59+00:00",
+  "updated": "2026-10-20T18:23:50+00:00",
   "venue": "kalshi"
 }
