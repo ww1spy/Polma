@@ -1,5 +1,5 @@
 {
-  "cash": 476.50999999999976,
+  "cash": 491.62999999999977,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -38,6 +38,7 @@
     "KXWT20MATCH-26OCT170700SWE-WROMW-ROMW": "2026-10-17",
     "KXWT20MATCH-26OCT180415NZLAUS-NZL": "2026-10-18",
     "KXWT20MATCH-26OCT180930ZIMIND-ZIM": "2026-10-18",
+    "KXWT20MATCH-26OCT200930ZIMIND-ZIM": "2026-10-20",
     "KXWT20MATCH-26SEP170730RSAZIM-RSA": "2026-09-17"
   },
   "created": "2026-07-07T23:30:22+00:00",
@@ -45,25 +46,9 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {
-    "KXWT20MATCH-26OCT200930ZIMIND-ZIM": {
-      "cost": 15.04,
-      "entry_price": 0.97,
-      "event_ticker": "KXWT20MATCH-26OCT200930ZIMIND",
-      "market_id": "KXWT20MATCH-26OCT200930ZIMIND-ZIM",
-      "opened": "2026-10-20T09:19:55+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.46,
-      "question": "Zimbabwe wins",
-      "rules_version": 14,
-      "slug": "kxwt20match-26oct200930zimind-zim",
-      "strategy": "favorite_discount",
-      "token_id": "KXWT20MATCH-26OCT200930ZIMIND-ZIM:no"
-    }
-  },
-  "realized_pnl": -8.45,
+  "positions": {},
+  "realized_pnl": -8.37,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-20T12:23:32+00:00",
+  "updated": "2026-10-20T13:22:07+00:00",
   "venue": "kalshi"
 }
