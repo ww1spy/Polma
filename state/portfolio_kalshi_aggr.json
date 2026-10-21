@@ -1,5 +1,5 @@
 {
-  "cash": 175.26999999999998,
+  "cash": 210.54999999999998,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -242,6 +242,7 @@
     "KXUCLGAME-26OCT20MCIAEK-AEK": "2026-10-20",
     "KXUCLGAME-26OCT20SBHBVB-SBH": "2026-10-20",
     "KXUCLGAME-26OCT21AVLVIK-VIK": "2026-10-21",
+    "KXUCLGAME-26OCT21INTSHA-SHA": "2026-10-21",
     "KXUCLGAME-26OCT21RMARBL-RBL": "2026-10-21",
     "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": "2026-10-14",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
@@ -387,26 +388,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXUCLGAME-26OCT21INTSHA-SHA": {
-      "cost": 33.3,
-      "entry_price": 0.94,
-      "event_ticker": "KXUCLGAME-26OCT21INTSHA",
-      "market_id": "KXUCLGAME-26OCT21INTSHA-SHA",
-      "opened": "2026-10-20T19:23:13+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 35.28,
-      "question": "Shakhtar wins",
-      "rules_version": 2,
-      "slug": "kxuclgame-26oct21intsha-sha",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLGAME-26OCT21INTSHA-SHA:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -77.32000000000001,
+  "realized_pnl": -75.34,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-21T20:21:26+00:00",
+  "updated": "2026-10-21T21:21:55+00:00",
   "venue": "kalshi"
 }
