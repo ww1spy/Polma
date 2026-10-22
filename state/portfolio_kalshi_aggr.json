@@ -1,5 +1,5 @@
 {
-  "cash": 108.86999999999996,
+  "cash": 75.07999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -434,11 +434,26 @@
       "slug": "kxnfltd-26oct22nechi-neckiner9-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT22NECHI-NECKINER9-1:no"
+    },
+    "KXTRUTHSOCIAL-26OCT24-B189": {
+      "cost": 33.79,
+      "entry_price": 0.97,
+      "event_ticker": "KXTRUTHSOCIAL-26OCT24",
+      "market_id": "KXTRUTHSOCIAL-26OCT24-B189",
+      "opened": "2026-10-22T14:29:30+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 34.75,
+      "question": "Will Donald Trump make between 180 and 199 Truth Social posts the week of Oct 18, 2026? \u2014 180-199",
+      "rules_version": 2,
+      "slug": "kxtruthsocial-26oct24-b189",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUTHSOCIAL-26OCT24-B189:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -74.76,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-22T13:36:59+00:00",
+  "updated": "2026-10-22T14:29:30+00:00",
   "venue": "kalshi"
 }
