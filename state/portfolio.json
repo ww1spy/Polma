@@ -1,5 +1,5 @@
 {
-  "cash": 427.36000000000035,
+  "cash": 427.7700000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -129,6 +129,7 @@
     "4877189": "2026-10-06",
     "4877201": "2026-10-06",
     "4881744": "2026-09-30",
+    "4890270": "2026-10-23",
     "4906127": "2026-10-13",
     "4909055": "2026-10-01",
     "4978475": "2026-09-30",
@@ -268,6 +269,21 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "1194657": {
+      "cost": 10.2,
+      "entry_price": 0.88,
+      "event_ticker": "",
+      "market_id": "1194657",
+      "opened": "2026-10-23T08:20:08+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.59,
+      "question": "Will \u0410ndrey Gyurov win the next Bulgarian presidential election?",
+      "rules_version": 14,
+      "slug": "will-ndrey-gyurov-win-the-next-bulgarian-presidential-election",
+      "strategy": "favorite_discount",
+      "token_id": "15608643409971761503638981418366748681664167967140328613245148153377110556924"
+    },
     "2110579": {
       "cost": 10.11,
       "entry_price": 0.92,
@@ -312,21 +328,6 @@
       "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032",
       "strategy": "favorite_discount",
       "token_id": "78632395083310670734315205502061249602319069653915932320155846460019107676757"
-    },
-    "4890270": {
-      "cost": 10.14,
-      "entry_price": 0.94,
-      "event_ticker": "",
-      "market_id": "4890270",
-      "opened": "2026-10-20T21:20:51+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.79,
-      "question": "Will Andrey Gyurov win the 2026 Bulgarian presidential first round by 20%-30%?",
-      "rules_version": 14,
-      "slug": "will-andrey-gyurov-win-the-2026-bulgarian-presidential-first-round-by-20-30",
-      "strategy": "favorite_discount",
-      "token_id": "57534930121630546188194373967723261222542191087652518415524529485985871867497"
     },
     "5340069": {
       "cost": 10.08,
@@ -389,7 +390,7 @@
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
-  "realized_pnl": 8.289999999999996,
+  "realized_pnl": 8.759999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-23T07:20:32+00:00"
+  "updated": "2026-10-23T08:20:08+00:00"
 }
