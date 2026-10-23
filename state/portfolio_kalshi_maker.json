@@ -1,5 +1,5 @@
 {
-  "cash": 466.1699999999993,
+  "cash": 456.86999999999927,
   "cooldowns": {
     "KXRT-CLA-80": "2026-10-23",
     "KXRT-DIG-48": "2026-10-03",
@@ -89,6 +89,33 @@
         "KXRT-CLA-77:no"
       ]
     },
+    "KXRT-KLA-25": {
+      "book_at_place": {
+        "ask": 0.94,
+        "bid": 0.93
+      },
+      "end_date": "2026-10-26T14:00:00+00:00",
+      "event_ticker": "KXRT-KLA",
+      "expires_ts": 1792880583.0109131,
+      "market_id": "KXRT-KLA-25",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792794183.0109131,
+      "price": 0.93,
+      "qty": 10,
+      "question": "Klara and the Sun Rotten Tomatoes score? \u2014 Above 25",
+      "reserved": 9.3,
+      "rules_version": 1,
+      "slug": "kxrt-kla-25",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-KLA-25:yes",
+        "KXRT-KLA-25:no"
+      ]
+    },
     "KXTRUMPSAY-26OCT26-EPST": {
       "book_at_place": {
         "ask": 0.97,
@@ -138,6 +165,6 @@
   "profile": "maker",
   "realized_pnl": -6.1600000000000055,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-23T21:23:32+00:00",
+  "updated": "2026-10-23T22:23:03+00:00",
   "venue": "kalshi"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 151.32999999999993,
+  "cash": 116.34999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -322,6 +322,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26OCT23PITTMIA-PITT:no"
     },
+    "KXNCAAFGAME-26OCT24SELASFA-SFA": {
+      "cost": 34.98,
+      "entry_price": 0.9,
+      "event_ticker": "KXNCAAFGAME-26OCT24SELASFA",
+      "market_id": "KXNCAAFGAME-26OCT24SELASFA-SFA",
+      "opened": "2026-10-23T22:20:45+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.58,
+      "question": "Stephen F. Austin wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct24selasfa-sfa",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT24SELASFA-SFA:yes"
+    },
     "KXNCAAFSPREAD-26OCT23AFAWYO-AFA28": {
       "cost": 34.33,
       "entry_price": 0.93,
@@ -431,6 +446,6 @@
   "profile": "aggr",
   "realized_pnl": -63.040000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-23T21:20:53+00:00",
+  "updated": "2026-10-23T22:20:45+00:00",
   "venue": "kalshi"
 }
