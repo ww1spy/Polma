@@ -1,5 +1,5 @@
 {
-  "cash": 149.99999999999994,
+  "cash": 186.21999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -167,6 +167,7 @@
     "KXNFLOT-26OCT12BUFLAR-Y": "2026-10-13",
     "KXNFLOT-26OCT15SEADEN-Y": "2026-10-16",
     "KXNFLOT-26OCT19WASSF-Y": "2026-10-20",
+    "KXNFLOT-26OCT22NECHI-Y": "2026-10-23",
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26OCT05ATLNO-ATLKPITTS8-7": "2026-10-06",
@@ -410,26 +411,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXNFLOT-26OCT22NECHI-Y": {
-      "cost": 33.86,
-      "entry_price": 0.93,
-      "event_ticker": "KXNFLOT-26OCT22NECHI",
-      "market_id": "KXNFLOT-26OCT22NECHI-Y",
-      "opened": "2026-10-22T00:24:26+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.22,
-      "question": "New England vs Chicago goes to overtime? \u2014 Game goes to overtime",
-      "rules_version": 2,
-      "slug": "kxnflot-26oct22nechi-y",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLOT-26OCT22NECHI-Y:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -65.4,
+  "realized_pnl": -63.040000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-23T03:20:42+00:00",
+  "updated": "2026-10-23T04:20:56+00:00",
   "venue": "kalshi"
 }
