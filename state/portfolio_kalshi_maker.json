@@ -1,5 +1,5 @@
 {
-  "cash": 483.5799999999993,
+  "cash": 455.77999999999935,
   "cooldowns": {
     "KXRT-DIG-48": "2026-10-03",
     "KXRT-DIG-50": "2026-10-05",
@@ -60,6 +60,87 @@
   "halted": false,
   "mode": "paper",
   "orders": {
+    "KXRT-CLA-80": {
+      "book_at_place": {
+        "ask": 0.95,
+        "bid": 0.94
+      },
+      "end_date": "2026-10-26T14:00:00+00:00",
+      "event_ticker": "KXRT-CLA",
+      "expires_ts": 1792851969.3195179,
+      "market_id": "KXRT-CLA-80",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792765569.3195179,
+      "price": 0.94,
+      "qty": 10,
+      "question": "Clayface Rotten Tomatoes score? \u2014 Above 80",
+      "reserved": 9.4,
+      "rules_version": 1,
+      "slug": "kxrt-cla-80",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-CLA-80:yes",
+        "KXRT-CLA-80:no"
+      ]
+    },
+    "KXRT-KLA-17": {
+      "book_at_place": {
+        "ask": 0.93,
+        "bid": 0.91
+      },
+      "end_date": "2026-10-26T14:00:00+00:00",
+      "event_ticker": "KXRT-KLA",
+      "expires_ts": 1792851969.8295078,
+      "market_id": "KXRT-KLA-17",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792765569.8295078,
+      "price": 0.92,
+      "qty": 10,
+      "question": "Klara and the Sun Rotten Tomatoes score? \u2014 Above 17",
+      "reserved": 9.2,
+      "rules_version": 1,
+      "slug": "kxrt-kla-17",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-KLA-17:yes",
+        "KXRT-KLA-17:no"
+      ]
+    },
+    "KXRT-WILDW-97": {
+      "book_at_place": {
+        "ask": 0.93,
+        "bid": 0.91
+      },
+      "end_date": "2026-10-26T14:00:00+00:00",
+      "event_ticker": "KXRT-WILDW",
+      "expires_ts": 1792851969.5710964,
+      "market_id": "KXRT-WILDW-97",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792765569.5710964,
+      "price": 0.92,
+      "qty": 10,
+      "question": "Wildwood Rotten Tomatoes score? \u2014 Above 97",
+      "reserved": 9.2,
+      "rules_version": 1,
+      "slug": "kxrt-wildw-97",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-WILDW-97:yes",
+        "KXRT-WILDW-97:no"
+      ]
+    },
     "KXWTI-26OCT2314-T97.99": {
       "book_at_place": {
         "ask": 0.94,
@@ -93,6 +174,6 @@
   "profile": "maker",
   "realized_pnl": -7.1200000000000045,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-23T13:25:35+00:00",
+  "updated": "2026-10-23T14:26:09+00:00",
   "venue": "kalshi"
 }
