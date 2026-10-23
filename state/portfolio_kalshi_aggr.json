@@ -1,5 +1,5 @@
 {
-  "cash": 76.78999999999995,
+  "cash": 112.97999999999995,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -153,6 +153,7 @@
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL13-IWI": "2026-07-14",
     "KXNETFLIXRANKSHOWRUNNERUP-26JUL20-WOR": "2026-07-21",
     "KXNFL1H-26OCT15SEADEN-TIE": "2026-10-16",
+    "KXNFL1H-26OCT22NECHI-TIE": "2026-10-23",
     "KXNFLFIRSTTD-26OCT04INDWAS-WASAWILLIAMS14": "2026-10-04",
     "KXNFLFIRSTTD-26OCT05ATLNO-NOJJOHNSON83": "2026-10-06",
     "KXNFLFIRSTTD-26OCT08TBDAL-TBBIRVING7": "2026-10-09",
@@ -349,21 +350,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFSPREAD-26OCT23DUKEUVA-DUKE18:no"
     },
-    "KXNFL1H-26OCT22NECHI-TIE": {
-      "cost": 33.83,
-      "entry_price": 0.93,
-      "event_ticker": "KXNFL1H-26OCT22NECHI",
-      "market_id": "KXNFL1H-26OCT22NECHI-TIE",
-      "opened": "2026-10-22T00:24:26+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.19,
-      "question": "Will neither team win the 1st Half? \u2014 Tie",
-      "rules_version": 2,
-      "slug": "kxnfl1h-26oct22nechi-tie",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFL1H-26OCT22NECHI-TIE:no"
-    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -456,8 +442,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -70.87,
+  "realized_pnl": -68.51,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-23T01:20:09+00:00",
+  "updated": "2026-10-23T02:20:29+00:00",
   "venue": "kalshi"
 }
