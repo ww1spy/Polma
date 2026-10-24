@@ -1,5 +1,5 @@
 {
-  "cash": 456.86999999999927,
+  "cash": 447.6699999999993,
   "cooldowns": {
     "KXRT-CLA-80": "2026-10-23",
     "KXRT-DIG-48": "2026-10-03",
@@ -62,31 +62,58 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXTRUMPSAY-26OCT26-EPST": {
+    "KXTRUMPSAY-26OCT26-CRYP": {
       "book_at_place": {
         "ask": 0.97,
         "bid": 0.96
       },
       "end_date": "2026-10-26T16:00:00+00:00",
       "event_ticker": "KXTRUMPSAY-26OCT26",
-      "expires_ts": 1792869689.8968487,
-      "market_id": "KXTRUMPSAY-26OCT26-EPST",
+      "expires_ts": 1792956165.0881155,
+      "market_id": "KXTRUMPSAY-26OCT26-CRYP",
       "outcome_idx": 1,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1792783289.8968487,
+      "placed_ts": 1792869765.0881155,
       "price": 0.96,
       "qty": 10,
-      "question": "Will Trump say \"Epstein\" before Oct 26, 2026?",
+      "question": "Will Trump say \"Crypto / Bitcoin\" before Oct 26, 2026?",
       "reserved": 9.6,
       "rules_version": 1,
-      "slug": "kxtrumpsay-26oct26-epst",
+      "slug": "kxtrumpsay-26oct26-cryp",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXTRUMPSAY-26OCT26-EPST:yes",
-        "KXTRUMPSAY-26OCT26-EPST:no"
+        "KXTRUMPSAY-26OCT26-CRYP:yes",
+        "KXTRUMPSAY-26OCT26-CRYP:no"
+      ]
+    },
+    "KXWNBAGAME-26OCT24GSATL-ATL": {
+      "book_at_place": {
+        "ask": 0.93,
+        "bid": 0.92
+      },
+      "end_date": "2026-10-24T22:30:00+00:00",
+      "event_ticker": "KXWNBAGAME-26OCT24GSATL",
+      "expires_ts": 1792873800.0,
+      "market_id": "KXWNBAGAME-26OCT24GSATL-ATL",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1792869764.8401203,
+      "price": 0.92,
+      "qty": 10,
+      "question": "Atlanta wins",
+      "reserved": 9.2,
+      "rules_version": 1,
+      "slug": "kxwnbagame-26oct24gsatl-atl",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWNBAGAME-26OCT24GSATL-ATL:yes",
+        "KXWNBAGAME-26OCT24GSATL-ATL:no"
       ]
     }
   },
@@ -141,6 +168,6 @@
   "profile": "maker",
   "realized_pnl": -6.1600000000000055,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-24T18:22:54+00:00",
+  "updated": "2026-10-24T19:22:45+00:00",
   "venue": "kalshi"
 }
