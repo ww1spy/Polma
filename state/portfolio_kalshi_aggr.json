@@ -1,5 +1,5 @@
 {
-  "cash": 116.34999999999994,
+  "cash": 152.26999999999992,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -140,6 +140,7 @@
     "KXNCAAFSPREAD-26OCT10INDNEB-IND28": "2026-10-10",
     "KXNCAAFSPREAD-26OCT17NAVYUTSA-NAVY15": "2026-10-18",
     "KXNCAAFSPREAD-26OCT17NEBORE-NEB15": "2026-10-18",
+    "KXNCAAFSPREAD-26OCT23DUKEUVA-DUKE18": "2026-10-24",
     "KXNCAAFTOTAL-26OCT10TULNARMY-26": "2026-10-10",
     "KXNCAAFTOTAL-26OCT17LTULM-34": "2026-10-18",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
@@ -352,21 +353,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFSPREAD-26OCT23AFAWYO-AFA28:no"
     },
-    "KXNCAAFSPREAD-26OCT23DUKEUVA-DUKE18": {
-      "cost": 34.22,
-      "entry_price": 0.91,
-      "event_ticker": "KXNCAAFSPREAD-26OCT23DUKEUVA",
-      "market_id": "KXNCAAFSPREAD-26OCT23DUKEUVA-DUKE18",
-      "opened": "2026-10-22T23:20:32+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.36,
-      "question": "Duke wins by over 17.5 points",
-      "rules_version": 2,
-      "slug": "kxncaafspread-26oct23dukeuva-duke18",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFSPREAD-26OCT23DUKEUVA-DUKE18:no"
-    },
     "KXNCAAFSPREAD-26OCT24WVUTCU-WVU15": {
       "cost": 34.89,
       "entry_price": 0.96,
@@ -444,8 +430,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -63.040000000000006,
+  "realized_pnl": -61.34,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-24T00:22:02+00:00",
+  "updated": "2026-10-24T01:20:46+00:00",
   "venue": "kalshi"
 }
