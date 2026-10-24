@@ -1,5 +1,5 @@
 {
-  "cash": 447.6699999999993,
+  "cash": 447.64999999999924,
   "cooldowns": {
     "KXRT-CLA-80": "2026-10-23",
     "KXRT-DIG-48": "2026-10-03",
@@ -88,33 +88,6 @@
         "KXTRUMPSAY-26OCT26-CRYP:yes",
         "KXTRUMPSAY-26OCT26-CRYP:no"
       ]
-    },
-    "KXWNBAGAME-26OCT24GSATL-ATL": {
-      "book_at_place": {
-        "ask": 0.93,
-        "bid": 0.92
-      },
-      "end_date": "2026-10-24T22:30:00+00:00",
-      "event_ticker": "KXWNBAGAME-26OCT24GSATL",
-      "expires_ts": 1792873800.0,
-      "market_id": "KXWNBAGAME-26OCT24GSATL-ATL",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792869764.8401203,
-      "price": 0.92,
-      "qty": 10,
-      "question": "Atlanta wins",
-      "reserved": 9.2,
-      "rules_version": 1,
-      "slug": "kxwnbagame-26oct24gsatl-atl",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWNBAGAME-26OCT24GSATL-ATL:yes",
-        "KXWNBAGAME-26OCT24GSATL-ATL:no"
-      ]
     }
   },
   "peak_equity": 504.1299999999997,
@@ -163,11 +136,26 @@
       "slug": "kxrt-wildw-97",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-WILDW-97:yes"
+    },
+    "KXWNBAGAME-26OCT24GSATL-ATL": {
+      "cost": 9.22,
+      "entry_price": 0.92,
+      "event_ticker": "KXWNBAGAME-26OCT24GSATL",
+      "market_id": "KXWNBAGAME-26OCT24GSATL-ATL",
+      "opened": "2026-10-24T20:20:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Atlanta wins",
+      "rules_version": 1,
+      "slug": "kxwnbagame-26oct24gsatl-atl",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXWNBAGAME-26OCT24GSATL-ATL:no"
     }
   },
   "profile": "maker",
   "realized_pnl": -6.1600000000000055,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-24T19:22:45+00:00",
+  "updated": "2026-10-24T20:21:13+00:00",
   "venue": "kalshi"
 }
