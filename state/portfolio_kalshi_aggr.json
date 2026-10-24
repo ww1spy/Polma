@@ -1,5 +1,5 @@
 {
-  "cash": 46.97999999999993,
+  "cash": 83.14999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -133,6 +133,7 @@
     "KXNCAAFGAME-26OCT16CHARTEM-CHAR": "2026-10-17",
     "KXNCAAFGAME-26OCT17MCNSNWST-NWST": "2026-10-17",
     "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": "2026-10-17",
+    "KXNCAAFGAME-26OCT23PITTMIA-PITT": "2026-10-24",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
@@ -309,21 +310,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXNCAAFGAME-26OCT23PITTMIA-PITT": {
-      "cost": 34.18,
-      "entry_price": 0.93,
-      "event_ticker": "KXNCAAFGAME-26OCT23PITTMIA",
-      "market_id": "KXNCAAFGAME-26OCT23PITTMIA-PITT",
-      "opened": "2026-10-23T00:20:25+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.57,
-      "question": "Pittsburgh wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct23pittmia-pitt",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT23PITTMIA-PITT:no"
-    },
     "KXNCAAFGAME-26OCT24SELASFA-SFA": {
       "cost": 34.98,
       "entry_price": 0.9,
@@ -476,8 +462,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -59.33,
+  "realized_pnl": -57.339999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-24T17:20:33+00:00",
+  "updated": "2026-10-24T18:21:20+00:00",
   "venue": "kalshi"
 }
