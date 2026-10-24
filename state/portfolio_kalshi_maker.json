@@ -1,5 +1,5 @@
 {
-  "cash": 447.64999999999924,
+  "cash": 457.64999999999924,
   "cooldowns": {
     "KXRT-CLA-80": "2026-10-23",
     "KXRT-DIG-48": "2026-10-03",
@@ -27,6 +27,7 @@
     "KXTRUMPSAY-26OCT19-CEAS": "2026-10-19",
     "KXTRUMPSAY-26OCT19-TDS": "2026-10-19",
     "KXTRUMPSAY-26OCT19-ZOHR": "2026-10-19",
+    "KXWNBAGAME-26OCT24GSATL-ATL": "2026-10-24",
     "KXWT20MATCH-26OCT030700WINZIM-ZIM": "2026-10-03",
     "KXWT20MATCH-26OCT050600WINZIM-ZIM": "2026-10-05",
     "KXWT20MATCH-26OCT070600WINZIM-ZIM": "2026-10-07",
@@ -61,35 +62,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {
-    "KXTRUMPSAY-26OCT26-CRYP": {
-      "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
-      },
-      "end_date": "2026-10-26T16:00:00+00:00",
-      "event_ticker": "KXTRUMPSAY-26OCT26",
-      "expires_ts": 1792956165.0881155,
-      "market_id": "KXTRUMPSAY-26OCT26-CRYP",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1792869765.0881155,
-      "price": 0.96,
-      "qty": 10,
-      "question": "Will Trump say \"Crypto / Bitcoin\" before Oct 26, 2026?",
-      "reserved": 9.6,
-      "rules_version": 1,
-      "slug": "kxtrumpsay-26oct26-cryp",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXTRUMPSAY-26OCT26-CRYP:yes",
-        "KXTRUMPSAY-26OCT26-CRYP:no"
-      ]
-    }
-  },
+  "orders": {},
   "peak_equity": 504.1299999999997,
   "positions": {
     "KXRT-CLA-77": {
@@ -137,25 +110,25 @@
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-WILDW-97:yes"
     },
-    "KXWNBAGAME-26OCT24GSATL-ATL": {
-      "cost": 9.22,
-      "entry_price": 0.92,
-      "event_ticker": "KXWNBAGAME-26OCT24GSATL",
-      "market_id": "KXWNBAGAME-26OCT24GSATL-ATL",
-      "opened": "2026-10-24T20:20:56+00:00",
+    "KXTRUMPSAY-26OCT26-CRYP": {
+      "cost": 9.6,
+      "entry_price": 0.96,
+      "event_ticker": "KXTRUMPSAY-26OCT26",
+      "market_id": "KXTRUMPSAY-26OCT26-CRYP",
+      "opened": "2026-10-24T21:27:04+00:00",
       "outcome": "No",
       "outcome_idx": 1,
       "qty": 10,
-      "question": "Atlanta wins",
+      "question": "Will Trump say \"Crypto / Bitcoin\" before Oct 26, 2026?",
       "rules_version": 1,
-      "slug": "kxwnbagame-26oct24gsatl-atl",
+      "slug": "kxtrumpsay-26oct26-cryp",
       "strategy": "favorite_discount_maker",
-      "token_id": "KXWNBAGAME-26OCT24GSATL-ATL:no"
+      "token_id": "KXTRUMPSAY-26OCT26-CRYP:no"
     }
   },
   "profile": "maker",
-  "realized_pnl": -6.1600000000000055,
+  "realized_pnl": -5.380000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-24T20:21:13+00:00",
+  "updated": "2026-10-24T21:27:06+00:00",
   "venue": "kalshi"
 }
