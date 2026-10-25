@@ -1,5 +1,5 @@
 {
-  "cash": 458.8099999999992,
+  "cash": 458.1099999999992,
   "cooldowns": {
     "KXRT-CLA-77": "2026-10-25",
     "KXRT-CLA-80": "2026-10-23",
@@ -20,6 +20,7 @@
     "KXRT-VER-35": "2026-10-05",
     "KXRT-VER-40": "2026-10-02",
     "KXRT-WHA-75": "2026-10-17",
+    "KXRT-WILDW-97": "2026-10-25",
     "KXRT-YOUC-97": "2026-10-18",
     "KXTRUMPSAY-26OCT05-CEAS": "2026-10-05",
     "KXTRUMPSAY-26OCT05-PEAC": "2026-10-04",
@@ -64,36 +65,51 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXRT-CLA-73": {
+    "KXRT-WILDW-98": {
       "book_at_place": {
-        "ask": 0.97,
+        "ask": 0.96,
         "bid": 0.95
       },
       "end_date": "2026-10-26T14:00:00+00:00",
-      "event_ticker": "KXRT-CLA",
+      "event_ticker": "KXRT-WILDW",
       "expires_ts": 1793016000.0,
-      "market_id": "KXRT-CLA-73",
+      "market_id": "KXRT-WILDW-98",
       "outcome_idx": 0,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1792941881.425568,
-      "price": 0.96,
+      "placed_ts": 1792948932.5315542,
+      "price": 0.95,
       "qty": 10,
-      "question": "Clayface Rotten Tomatoes score? \u2014 Above 73",
-      "reserved": 9.6,
+      "question": "Wildwood Rotten Tomatoes score? \u2014 Above 98",
+      "reserved": 9.5,
       "rules_version": 1,
-      "slug": "kxrt-cla-73",
+      "slug": "kxrt-wildw-98",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXRT-CLA-73:yes",
-        "KXRT-CLA-73:no"
+        "KXRT-WILDW-98:yes",
+        "KXRT-WILDW-98:no"
       ]
     }
   },
   "peak_equity": 504.1299999999997,
   "positions": {
+    "KXRT-CLA-73": {
+      "cost": 9.6,
+      "entry_price": 0.96,
+      "event_ticker": "KXRT-CLA",
+      "market_id": "KXRT-CLA-73",
+      "opened": "2026-10-25T17:21:42+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10,
+      "question": "Clayface Rotten Tomatoes score? \u2014 Above 73",
+      "rules_version": 1,
+      "slug": "kxrt-cla-73",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXRT-CLA-73:yes"
+    },
     "KXRT-KLA-25": {
       "cost": 9.3,
       "entry_price": 0.93,
@@ -108,21 +124,6 @@
       "slug": "kxrt-kla-25",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-KLA-25:no"
-    },
-    "KXRT-WILDW-97": {
-      "cost": 8.28,
-      "entry_price": 0.92,
-      "event_ticker": "KXRT-WILDW",
-      "market_id": "KXRT-WILDW-97",
-      "opened": "2026-10-23T16:21:35+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 9,
-      "question": "Wildwood Rotten Tomatoes score? \u2014 Above 97",
-      "rules_version": 1,
-      "slug": "kxrt-wildw-97",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-WILDW-97:yes"
     },
     "KXTRUMPSAY-26OCT26-CRYP": {
       "cost": 9.6,
@@ -141,8 +142,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": -4.4100000000000055,
+  "realized_pnl": -3.890000000000004,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T16:21:39+00:00",
+  "updated": "2026-10-25T17:22:12+00:00",
   "venue": "kalshi"
 }
