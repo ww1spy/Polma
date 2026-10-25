@@ -1,5 +1,5 @@
 {
-  "cash": 429.29000000000036,
+  "cash": 431.0900000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -227,6 +227,7 @@
     "558951": "2026-07-12",
     "5593519": "2026-10-18",
     "5597170": "2026-10-13",
+    "5598478": "2026-10-25",
     "5601789": "2026-10-14",
     "5613322": "2026-10-13",
     "5646154": "2026-10-14",
@@ -331,21 +332,6 @@
       "strategy": "favorite_discount",
       "token_id": "78632395083310670734315205502061249602319069653915932320155846460019107676757"
     },
-    "5598478": {
-      "cost": 10.19,
-      "entry_price": 0.85,
-      "event_ticker": "",
-      "market_id": "5598478",
-      "opened": "2026-10-24T15:20:18+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.99,
-      "question": "Will FC Barcelona vs. Real Madrid CF end in a draw?",
-      "rules_version": 14,
-      "slug": "lal-bar-rea-2026-10-25-draw",
-      "strategy": "favorite_discount",
-      "token_id": "84049078462839284928593842992608322797543702635109044239645347113795676470934"
-    },
     "562802": {
       "cost": 10.14,
       "entry_price": 0.92,
@@ -360,6 +346,21 @@
       "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
       "strategy": "favorite_discount",
       "token_id": "83247781037352156539108067944461291821683755894607244160607042790356561625563"
+    },
+    "562803": {
+      "cost": 10.19,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "562803",
+      "opened": "2026-10-25T23:21:03+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.96,
+      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "rules_version": 14,
+      "slug": "will-the-republican-party-control-the-house-after-the-2026-midterm-elections",
+      "strategy": "favorite_discount",
+      "token_id": "17371217118862125782438074585166210555214661810823929795910191856905580975576"
     },
     "608540": {
       "cost": 10.2,
@@ -392,7 +393,7 @@
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
-  "realized_pnl": 10.409999999999995,
+  "realized_pnl": 12.209999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T22:20:04+00:00"
+  "updated": "2026-10-25T23:21:03+00:00"
 }
