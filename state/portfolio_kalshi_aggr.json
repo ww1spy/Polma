@@ -1,5 +1,5 @@
 {
-  "cash": 86.26999999999992,
+  "cash": 50.45999999999992,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -327,6 +327,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXDWTSELIMINATION-26OCT28-MHIG:no"
     },
+    "KXFEDDECISION-26OCT-H0": {
+      "cost": 35.81,
+      "entry_price": 0.94,
+      "event_ticker": "KXFEDDECISION-26OCT",
+      "market_id": "KXFEDDECISION-26OCT-H0",
+      "opened": "2026-10-25T18:21:58+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 37.94,
+      "question": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
+      "rules_version": 2,
+      "slug": "kxfeddecision-26oct-h0",
+      "strategy": "favorite_discount",
+      "token_id": "KXFEDDECISION-26OCT-H0:yes"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -466,6 +481,6 @@
   "profile": "aggr",
   "realized_pnl": -53.199999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T17:21:09+00:00",
+  "updated": "2026-10-25T18:21:58+00:00",
   "venue": "kalshi"
 }
