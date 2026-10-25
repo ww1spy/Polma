@@ -1,5 +1,5 @@
 {
-  "cash": 83.72999999999993,
+  "cash": 121.88999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -134,6 +134,7 @@
     "KXNCAAFGAME-26OCT17MCNSNWST-NWST": "2026-10-17",
     "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": "2026-10-17",
     "KXNCAAFGAME-26OCT23PITTMIA-PITT": "2026-10-24",
+    "KXNCAAFGAME-26OCT24SELASFA-SFA": "2026-10-25",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
@@ -311,21 +312,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXNCAAFGAME-26OCT24SELASFA-SFA": {
-      "cost": 34.98,
-      "entry_price": 0.9,
-      "event_ticker": "KXNCAAFGAME-26OCT24SELASFA",
-      "market_id": "KXNCAAFGAME-26OCT24SELASFA-SFA",
-      "opened": "2026-10-23T22:20:45+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 38.58,
-      "question": "Stephen F. Austin wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct24selasfa-sfa",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT24SELASFA-SFA:yes"
-    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -463,8 +449,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -56.379999999999995,
+  "realized_pnl": -53.199999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T00:20:52+00:00",
+  "updated": "2026-10-25T01:20:59+00:00",
   "venue": "kalshi"
 }
