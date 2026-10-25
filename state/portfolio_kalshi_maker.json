@@ -1,5 +1,5 @@
 {
-  "cash": 458.78999999999917,
+  "cash": 449.5899999999992,
   "cooldowns": {
     "KXRT-CLA-77": "2026-10-25",
     "KXRT-CLA-80": "2026-10-23",
@@ -93,31 +93,31 @@
         "KXRT-WILDW-98:no"
       ]
     },
-    "KXTRUMPSAY-26OCT26-ZOHR": {
+    "KXWTI-26OCT2614-T106.49": {
       "book_at_place": {
         "ask": 0.93,
-        "bid": 0.9
+        "bid": 0.91
       },
-      "end_date": "2026-10-26T16:00:00+00:00",
-      "event_ticker": "KXTRUMPSAY-26OCT26",
-      "expires_ts": 1793023200.0,
-      "market_id": "KXTRUMPSAY-26OCT26-ZOHR",
+      "end_date": "2026-10-26T18:30:00+00:00",
+      "event_ticker": "KXWTI-26OCT2614",
+      "expires_ts": 1793032200.0,
+      "market_id": "KXWTI-26OCT2614-T106.49",
       "outcome_idx": 1,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1792953244.8029387,
-      "price": 0.91,
+      "placed_ts": 1792956119.6122317,
+      "price": 0.92,
       "qty": 10,
-      "question": "Will Trump say \"Zohran / Mamdani\" before Oct 26, 2026?",
-      "reserved": 9.1,
+      "question": "Will the WTI crude oil settlement price be above 106.49 USD/Bbl on Oct 26, 2026? \u2014 Above $106.49",
+      "reserved": 9.2,
       "rules_version": 1,
-      "slug": "kxtrumpsay-26oct26-zohr",
+      "slug": "kxwti-26oct2614-t106.49",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXTRUMPSAY-26OCT26-ZOHR:yes",
-        "KXTRUMPSAY-26OCT26-ZOHR:no"
+        "KXWTI-26OCT2614-T106.49:yes",
+        "KXWTI-26OCT2614-T106.49:no"
       ]
     }
   },
@@ -152,11 +152,26 @@
       "slug": "kxrt-kla-25",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-KLA-25:no"
+    },
+    "KXTRUMPSAY-26OCT26-ZOHR": {
+      "cost": 9.1,
+      "entry_price": 0.91,
+      "event_ticker": "KXTRUMPSAY-26OCT26",
+      "market_id": "KXTRUMPSAY-26OCT26-ZOHR",
+      "opened": "2026-10-25T19:21:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will Trump say \"Zohran / Mamdani\" before Oct 26, 2026?",
+      "rules_version": 1,
+      "slug": "kxtrumpsay-26oct26-zohr",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXTRUMPSAY-26OCT26-ZOHR:no"
     }
   },
   "profile": "maker",
   "realized_pnl": -3.7100000000000044,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T18:34:04+00:00",
+  "updated": "2026-10-25T19:21:59+00:00",
   "venue": "kalshi"
 }
