@@ -1,5 +1,5 @@
 {
-  "cash": 428.36000000000035,
+  "cash": 429.29000000000036,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -192,6 +192,7 @@
     "5330083": "2026-10-12",
     "5331922": "2026-10-07",
     "5339988": "2026-10-13",
+    "5340069": "2026-10-25",
     "5378875": "2026-10-07",
     "5380305": "2026-10-07",
     "5393038": "2026-10-07",
@@ -330,21 +331,6 @@
       "strategy": "favorite_discount",
       "token_id": "78632395083310670734315205502061249602319069653915932320155846460019107676757"
     },
-    "5340069": {
-      "cost": 10.08,
-      "entry_price": 0.895,
-      "event_ticker": "",
-      "market_id": "5340069",
-      "opened": "2026-10-16T04:19:59+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.26,
-      "question": "Will Fl\u00e1vio Bolsonaro win the second round of the 2026 Brazilian presidential election by 8\u201312%?",
-      "rules_version": 14,
-      "slug": "will-flavio-bolsonaro-win-the-second-round-of-the-2026-brazilian-presidential-election-by-812",
-      "strategy": "favorite_discount",
-      "token_id": "26668869374105423241063822023238370156273552047413316823375341979641160307361"
-    },
     "5598478": {
       "cost": 10.19,
       "entry_price": 0.85,
@@ -359,6 +345,21 @@
       "slug": "lal-bar-rea-2026-10-25-draw",
       "strategy": "favorite_discount",
       "token_id": "84049078462839284928593842992608322797543702635109044239645347113795676470934"
+    },
+    "562802": {
+      "cost": 10.14,
+      "entry_price": 0.92,
+      "event_ticker": "",
+      "market_id": "562802",
+      "opened": "2026-10-25T21:20:22+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 11.03,
+      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "rules_version": 14,
+      "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+      "strategy": "favorite_discount",
+      "token_id": "83247781037352156539108067944461291821683755894607244160607042790356561625563"
     },
     "608540": {
       "cost": 10.2,
@@ -391,7 +392,7 @@
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
-  "realized_pnl": 9.419999999999995,
+  "realized_pnl": 10.409999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T20:20:07+00:00"
+  "updated": "2026-10-25T21:20:22+00:00"
 }

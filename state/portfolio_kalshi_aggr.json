@@ -1,5 +1,5 @@
 {
-  "cash": 127.23999999999992,
+  "cash": 165.85999999999993,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -180,6 +180,7 @@
     "KXNFLRECYDS-26OCT04INDWAS-INDLTREADWELL13-60": "2026-10-04",
     "KXNFLRECYDS-26OCT11SFSEA-SEAEWILSON23-40": "2026-10-12",
     "KXNFLRECYDS-26OCT12BUFLAR-LARKWILLIAMS23-70": "2026-10-13",
+    "KXNFLRECYDS-26OCT25NYGHOU-NYGDSINGLETARY26-30": "2026-10-25",
     "KXNFLSPREAD-26OCT04INDWAS-WAS11": "2026-10-04",
     "KXNFLSPREAD-26OCT04MIAMIN-MIN28": "2026-10-04",
     "KXNFLSPREAD-26OCT08TBDAL-TB10": "2026-10-09",
@@ -434,26 +435,11 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
-    },
-    "KXNFLRECYDS-26OCT25NYGHOU-NYGDSINGLETARY26-30": {
-      "cost": 35.41,
-      "entry_price": 0.9112,
-      "event_ticker": "KXNFLRECYDS-26OCT25NYGHOU",
-      "market_id": "KXNFLRECYDS-26OCT25NYGHOU-NYGDSINGLETARY26-30",
-      "opened": "2026-10-24T17:20:33+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.62,
-      "question": "Devin Singletary: 30+ receiving yards",
-      "rules_version": 2,
-      "slug": "kxnflrecyds-26oct25nyghou-nygdsingletary26-30",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLRECYDS-26OCT25NYGHOU-NYGDSINGLETARY26-30:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -46.59999999999999,
+  "realized_pnl": -43.389999999999986,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T20:20:54+00:00",
+  "updated": "2026-10-25T21:20:43+00:00",
   "venue": "kalshi"
 }
