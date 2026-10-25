@@ -1,5 +1,5 @@
 {
-  "cash": 51.48999999999992,
+  "cash": 127.23999999999992,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -199,7 +199,9 @@
     "KXNFLTD-26OCT18DALGB-GBCWATSON9-2": "2026-10-19",
     "KXNFLTD-26OCT19WASSF-WASDBROWN6-1": "2026-10-20",
     "KXNFLTD-26OCT22NECHI-NECKINER9-1": "2026-10-23",
+    "KXNFLTD-26OCT25CLETEN-CLEJMCLAUGHLIN38-1": "2026-10-25",
     "KXNFLTD-26OCT25INDMIN-MINJJEFFERSON18-2": "2026-10-25",
+    "KXNFLTD-26OCT25SFATL-SFGKITTLE85-2": "2026-10-25",
     "KXNFLTD-26SEP28PHICHI-PHIDCOOPER80-1": "2026-09-29",
     "KXNFLTEAMTOTAL-26SEP28PHICHI-PHI8": "2026-09-29",
     "KXNFLTOTAL-26OCT01PITCLE-18": "2026-10-02",
@@ -447,41 +449,11 @@
       "slug": "kxnflrecyds-26oct25nyghou-nygdsingletary26-30",
       "strategy": "favorite_discount",
       "token_id": "KXNFLRECYDS-26OCT25NYGHOU-NYGDSINGLETARY26-30:no"
-    },
-    "KXNFLTD-26OCT25CLETEN-CLEJMCLAUGHLIN38-1": {
-      "cost": 35.41,
-      "entry_price": 0.93,
-      "event_ticker": "KXNFLTD-26OCT25CLETEN",
-      "market_id": "KXNFLTD-26OCT25CLETEN-CLEJMCLAUGHLIN38-1",
-      "opened": "2026-10-24T17:20:32+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.89,
-      "question": "Jaleel McLaughlin: 1+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct25cleten-clejmclaughlin38-1",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT25CLETEN-CLEJMCLAUGHLIN38-1:no"
-    },
-    "KXNFLTD-26OCT25SFATL-SFGKITTLE85-2": {
-      "cost": 35.44,
-      "entry_price": 0.91,
-      "event_ticker": "KXNFLTD-26OCT25SFATL",
-      "market_id": "KXNFLTD-26OCT25SFATL-SFGKITTLE85-2",
-      "opened": "2026-10-24T17:20:33+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.69,
-      "question": "George Kittle: 2+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26oct25sfatl-sfgkittle85-2",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26OCT25SFATL-SFGKITTLE85-2:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -51.49999999999999,
+  "realized_pnl": -46.59999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T19:21:24+00:00",
+  "updated": "2026-10-25T20:20:54+00:00",
   "venue": "kalshi"
 }
