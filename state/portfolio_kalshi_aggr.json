@@ -1,5 +1,5 @@
 {
-  "cash": 92.76999999999994,
+  "cash": 56.26999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -332,6 +332,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXDWTSELIMINATION-26OCT28-MHIG:no"
     },
+    "KXEFLCUPGAME-26OCT27FLEARS-ARS": {
+      "cost": 36.5,
+      "entry_price": 0.9,
+      "event_ticker": "KXEFLCUPGAME-26OCT27FLEARS",
+      "market_id": "KXEFLCUPGAME-26OCT27FLEARS-ARS",
+      "opened": "2026-10-26T20:20:48+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 40.26,
+      "question": "Arsenal wins",
+      "rules_version": 2,
+      "slug": "kxeflcupgame-26oct27flears-ars",
+      "strategy": "favorite_discount",
+      "token_id": "KXEFLCUPGAME-26OCT27FLEARS-ARS:yes"
+    },
     "KXFED-26OCT-T4.00": {
       "cost": 36.04,
       "entry_price": 0.93,
@@ -471,6 +486,6 @@
   "profile": "aggr",
   "realized_pnl": -42.37999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-26T19:21:01+00:00",
+  "updated": "2026-10-26T20:20:48+00:00",
   "venue": "kalshi"
 }
