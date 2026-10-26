@@ -1,5 +1,5 @@
 {
-  "cash": 165.85999999999993,
+  "cash": 56.48999999999994,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -421,6 +421,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLFIRSTTD-26OCT25KCSEA-SEAGHOLANI36:no"
     },
+    "KXNFLFIRSTTD-26OCT26DALPHI-PHIMLEMON9": {
+      "cost": 36.42,
+      "entry_price": 0.96,
+      "event_ticker": "KXNFLFIRSTTD-26OCT26DALPHI",
+      "market_id": "KXNFLFIRSTTD-26OCT26DALPHI-PHIMLEMON9",
+      "opened": "2026-10-26T00:20:57+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.82,
+      "question": "Makai Lemon: 1st Touchdown",
+      "rules_version": 2,
+      "slug": "kxnflfirsttd-26oct26dalphi-phimlemon9",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLFIRSTTD-26OCT26DALPHI-PHIMLEMON9:no"
+    },
     "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33": {
       "cost": 37.67,
       "entry_price": 0.95,
@@ -435,11 +450,41 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
+    },
+    "KXNFLOT-26OCT26DALPHI-Y": {
+      "cost": 36.51,
+      "entry_price": 0.93,
+      "event_ticker": "KXNFLOT-26OCT26DALPHI",
+      "market_id": "KXNFLOT-26OCT26DALPHI-Y",
+      "opened": "2026-10-26T00:20:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.06,
+      "question": "Dallas vs Philadelphia goes to overtime? \u2014 Game goes to overtime",
+      "rules_version": 2,
+      "slug": "kxnflot-26oct26dalphi-y",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLOT-26OCT26DALPHI-Y:no"
+    },
+    "KXNFLTD-26OCT26DALPHI-PHIJMUNDT83-1": {
+      "cost": 36.44,
+      "entry_price": 0.96,
+      "event_ticker": "KXNFLTD-26OCT26DALPHI",
+      "market_id": "KXNFLTD-26OCT26DALPHI-PHIJMUNDT83-1",
+      "opened": "2026-10-26T00:20:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.85,
+      "question": "Johnny Mundt: 1+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26oct26dalphi-phijmundt83-1",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26OCT26DALPHI-PHIJMUNDT83-1:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -43.389999999999986,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-25T23:21:24+00:00",
+  "updated": "2026-10-26T00:20:57+00:00",
   "venue": "kalshi"
 }
