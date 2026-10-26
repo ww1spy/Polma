@@ -1,6 +1,7 @@
 {
-  "cash": 459.3599999999991,
+  "cash": 469.1399999999991,
   "cooldowns": {
+    "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
     "KXRT-CLA-80": "2026-10-23",
     "KXRT-DIG-48": "2026-10-03",
@@ -125,21 +126,6 @@
   },
   "peak_equity": 504.1299999999997,
   "positions": {
-    "KXRT-CLA-73": {
-      "cost": 9.6,
-      "entry_price": 0.96,
-      "event_ticker": "KXRT-CLA",
-      "market_id": "KXRT-CLA-73",
-      "opened": "2026-10-25T17:21:42+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 10,
-      "question": "Clayface Rotten Tomatoes score? \u2014 Above 73",
-      "rules_version": 1,
-      "slug": "kxrt-cla-73",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-CLA-73:yes"
-    },
     "KXRT-KLA-25": {
       "cost": 9.3,
       "entry_price": 0.93,
@@ -157,8 +143,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": -2.4500000000000046,
+  "realized_pnl": -2.270000000000005,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-26T04:22:36+00:00",
+  "updated": "2026-10-26T05:21:32+00:00",
   "venue": "kalshi"
 }
