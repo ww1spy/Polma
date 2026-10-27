@@ -1,5 +1,5 @@
 {
-  "cash": 133.66999999999996,
+  "cash": 96.63999999999996,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -380,6 +380,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXFEDDECISION-26OCT-H0:yes"
     },
+    "KXGRECUPGAME-26OCT28MAROLY-MAR": {
+      "cost": 37.03,
+      "entry_price": 0.93,
+      "event_ticker": "KXGRECUPGAME-26OCT28MAROLY",
+      "market_id": "KXGRECUPGAME-26OCT28MAROLY-MAR",
+      "opened": "2026-10-27T13:57:13+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.61,
+      "question": "Marko wins",
+      "rules_version": 2,
+      "slug": "kxgrecupgame-26oct28maroly-mar",
+      "strategy": "favorite_discount",
+      "token_id": "KXGRECUPGAME-26OCT28MAROLY-MAR:no"
+    },
     "KXNBAGAME-26OCT27SACSAS-SAS": {
       "cost": 36.5,
       "entry_price": 0.91,
@@ -459,6 +474,6 @@
   "profile": "aggr",
   "realized_pnl": -37.84999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-27T12:41:28+00:00",
+  "updated": "2026-10-27T13:57:13+00:00",
   "venue": "kalshi"
 }
