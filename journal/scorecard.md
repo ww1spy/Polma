@@ -4,7 +4,7 @@ Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed t
 
 | book | window | entries | closes | win% | BE% | avg win | avg loss | net | fees | idle | status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| kalshi/live/base | lifetime | 29 | 28 | 71% | 90% | $0.14 | $-1.20 | $-6.85 | $1.11 | 58d | active |
+| kalshi/live/base | lifetime | 29 | 28 | 71% | 90% | $0.14 | $-1.20 | $-6.85 | $1.11 | 59d | active |
 | kalshi/live/base | 30d | 0 | 0 | – | – | $0.00 | $0.00 | $+0.00 | $0.00 |  |  |
 | kalshi/paper/aggr | lifetime | 311 | 305 | 90% | 93% | $1.84 | $-23.40 | $-195.45 | $61.61 | 0d | active, epoch 2 |
 | kalshi/paper/aggr | 30d | 134 | 128 | 93% | 94% | $2.07 | $-30.70 | $-29.83 | $26.91 |  |  |
