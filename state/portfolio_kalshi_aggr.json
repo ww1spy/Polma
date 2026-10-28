@@ -1,5 +1,5 @@
 {
-  "cash": 99.16999999999996,
+  "cash": 136.12999999999997,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -41,6 +41,7 @@
     "KXCS2GAME-26OCT190645BKHSAW-SAW": "2026-10-19",
     "KXDOTA2GAME-26JUL230300Z10DAN-DAN": "2026-07-23",
     "KXDWTSELIMINATION-26OCT21-JDEW": "2026-10-20",
+    "KXDWTSELIMINATION-26OCT28-MHIG": "2026-10-28",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXEFLCUPGAME-26OCT27FLEARS-ARS": "2026-10-27",
     "KXETHMAXMON-ETH-26SEP30-300000": "2026-10-01",
@@ -337,21 +338,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26OCT30-38.1:no"
     },
-    "KXDWTSELIMINATION-26OCT28-MHIG": {
-      "cost": 35.62,
-      "entry_price": 0.95,
-      "event_ticker": "KXDWTSELIMINATION-26OCT28",
-      "market_id": "KXDWTSELIMINATION-26OCT28-MHIG",
-      "opened": "2026-10-25T14:21:03+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.36,
-      "question": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
-      "rules_version": 2,
-      "slug": "kxdwtselimination-26oct28-mhig",
-      "strategy": "favorite_discount",
-      "token_id": "KXDWTSELIMINATION-26OCT28-MHIG:no"
-    },
     "KXFED-26OCT-T4.00": {
       "cost": 36.04,
       "entry_price": 0.93,
@@ -459,8 +445,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -71.41999999999999,
+  "realized_pnl": -70.07999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-28T01:20:43+00:00",
+  "updated": "2026-10-28T02:20:55+00:00",
   "venue": "kalshi"
 }
