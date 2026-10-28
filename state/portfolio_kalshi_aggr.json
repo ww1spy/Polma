@@ -1,5 +1,5 @@
 {
-  "cash": 140.89999999999998,
+  "cash": 106.57999999999998,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -443,11 +443,26 @@
       "slug": "kxnflladderrecyds-26oct08tbdal-daljwilliams33",
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
+    },
+    "KXTOPMODEL-26OCT31-CLAU55": {
+      "cost": 34.32,
+      "entry_price": 0.97,
+      "event_ticker": "KXTOPMODEL-26OCT31",
+      "market_id": "KXTOPMODEL-26OCT31-CLAU55",
+      "opened": "2026-10-28T15:31:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 35.3,
+      "question": "What will be the top AI model on Oct 31, 2026? \u2014 claude-opus-5.5-high",
+      "rules_version": 2,
+      "slug": "kxtopmodel-26oct31-clau55",
+      "strategy": "favorite_discount",
+      "token_id": "KXTOPMODEL-26OCT31-CLAU55:no"
     }
   },
   "profile": "aggr",
   "realized_pnl": -67.92999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-28T14:33:21+00:00",
+  "updated": "2026-10-28T15:31:33+00:00",
   "venue": "kalshi"
 }
