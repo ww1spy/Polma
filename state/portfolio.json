@@ -1,5 +1,5 @@
 {
-  "cash": 432.2700000000004,
+  "cash": 434.6500000000004,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1366008": "2026-10-04",
@@ -14,6 +14,8 @@
     "2448672": "2026-07-12",
     "2555350": "2026-07-13",
     "2555351": "2026-07-31",
+    "2589812": "2026-10-28",
+    "2589813": "2026-10-28",
     "2643400": "2026-07-26",
     "2673621": "2026-07-30",
     "2673623": "2026-07-30",
@@ -304,35 +306,20 @@
       "strategy": "favorite_discount",
       "token_id": "12972183694776856517378634879501709915001116611116827712475548366106177177382"
     },
-    "2589812": {
-      "cost": 10.12,
-      "entry_price": 0.88,
+    "1235568": {
+      "cost": 10.3,
+      "entry_price": 0.909,
       "event_ticker": "",
-      "market_id": "2589812",
-      "opened": "2026-10-19T04:20:15+00:00",
+      "market_id": "1235568",
+      "opened": "2026-10-28T18:20:45+00:00",
       "outcome": "Yes",
       "outcome_idx": 0,
-      "qty": 11.5,
-      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "qty": 11.34,
+      "question": "Will the Milwaukee Brewers win the 2026 World Series?",
       "rules_version": 14,
-      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+      "slug": "will-the-milwaukee-brewers-win-the-2026-world-series",
       "strategy": "favorite_discount",
-      "token_id": "111061902544814266207267295505639408607400625795891618462682726460921782993748"
-    },
-    "2589813": {
-      "cost": 10.12,
-      "entry_price": 0.88,
-      "event_ticker": "",
-      "market_id": "2589813",
-      "opened": "2026-10-19T04:20:15+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.5,
-      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-      "rules_version": 14,
-      "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032",
-      "strategy": "favorite_discount",
-      "token_id": "78632395083310670734315205502061249602319069653915932320155846460019107676757"
+      "token_id": "68495273029336552259622116656826978391613637593537133254546205487243272235948"
     },
     "562802": {
       "cost": 10.14,
@@ -379,6 +366,21 @@
       "strategy": "favorite_discount",
       "token_id": "25869296386911654049715489068824757745174681288397238521780118949553760488529"
     },
+    "6280218": {
+      "cost": 10.3,
+      "entry_price": 0.86,
+      "event_ticker": "",
+      "market_id": "6280218",
+      "opened": "2026-10-28T18:20:45+00:00",
+      "outcome": "T1",
+      "outcome_idx": 1,
+      "qty": 11.98,
+      "question": "LoL: Movistar KOI vs T1 (BO3) - Worlds Group Stage",
+      "rules_version": 14,
+      "slug": "lol-mkoi-t1-2026-10-29",
+      "strategy": "favorite_discount",
+      "token_id": "90481104949206475418264947015436209819723824677970655332109019478507006036128"
+    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -395,7 +397,7 @@
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
-  "realized_pnl": 13.589999999999996,
+  "realized_pnl": 16.33,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-28T17:20:31+00:00"
+  "updated": "2026-10-28T18:20:45+00:00"
 }
