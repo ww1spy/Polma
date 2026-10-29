@@ -1,5 +1,5 @@
 {
-  "cash": 491.7499999999991,
+  "cash": 491.7399999999991,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -73,40 +73,28 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {
+  "orders": {},
+  "peak_equity": 504.1299999999997,
+  "positions": {
     "KXWNBAGAME-26OCT29GSATL-GS": {
-      "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
-      },
-      "end_date": "2026-10-30T03:00:00+00:00",
+      "cost": 9.61,
+      "entry_price": 0.96,
       "event_ticker": "KXWNBAGAME-26OCT29GSATL",
-      "expires_ts": 1793322000.0,
       "market_id": "KXWNBAGAME-26OCT29GSATL-GS",
+      "opened": "2026-10-29T19:21:32+00:00",
+      "outcome": "No",
       "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793294496.3095837,
-      "price": 0.96,
       "qty": 10,
       "question": "Golden State wins",
-      "reserved": 9.6,
       "rules_version": 1,
       "slug": "kxwnbagame-26oct29gsatl-gs",
       "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWNBAGAME-26OCT29GSATL-GS:yes",
-        "KXWNBAGAME-26OCT29GSATL-GS:no"
-      ]
+      "token_id": "KXWNBAGAME-26OCT29GSATL-GS:no"
     }
   },
-  "peak_equity": 504.1299999999997,
-  "positions": {},
   "profile": "maker",
   "realized_pnl": 1.3499999999999925,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-29T18:26:17+00:00",
+  "updated": "2026-10-29T19:22:38+00:00",
   "venue": "kalshi"
 }
