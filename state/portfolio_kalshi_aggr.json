@@ -1,5 +1,5 @@
 {
-  "cash": 78.83999999999999,
+  "cash": 44.19999999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -462,6 +462,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26OCT29CARGB-GBCWATSON9-2:no"
     },
+    "KXTRUTHSOCIAL-26OCT31-B229": {
+      "cost": 34.64,
+      "entry_price": 0.9,
+      "event_ticker": "KXTRUTHSOCIAL-26OCT31",
+      "market_id": "KXTRUTHSOCIAL-26OCT31-B229",
+      "opened": "2026-10-29T14:42:39+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.21,
+      "question": "Will Donald Trump make between 220 and 239 Truth Social posts the week of Oct 25, 2026? \u2014 220-239",
+      "rules_version": 2,
+      "slug": "kxtruthsocial-26oct31-b229",
+      "strategy": "favorite_discount",
+      "token_id": "KXTRUTHSOCIAL-26OCT31-B229:no"
+    },
     "KXXRPMAXMON-XRP-26OCT31-160": {
       "cost": 34.67,
       "entry_price": 0.9578,
@@ -481,6 +496,6 @@
   "profile": "aggr",
   "realized_pnl": -62.67999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-29T13:25:14+00:00",
+  "updated": "2026-10-29T14:42:39+00:00",
   "venue": "kalshi"
 }
