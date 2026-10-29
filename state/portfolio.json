@@ -1,5 +1,5 @@
 {
-  "cash": 437.9800000000005,
+  "cash": 438.39000000000044,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1235549": "2026-10-29",
@@ -259,6 +259,7 @@
     "599305": "2026-08-03",
     "601920": "2026-10-04",
     "601922": "2026-10-04",
+    "6041525": "2026-10-29",
     "608540": "2026-10-26",
     "6280218": "2026-10-28"
   },
@@ -324,6 +325,21 @@
       "strategy": "favorite_discount",
       "token_id": "34913450717134692139134503608237195358004980714821621364139815843727767877427"
     },
+    "5447182": {
+      "cost": 10.35,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "5447182",
+      "opened": "2026-10-29T03:20:16+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 11.01,
+      "question": "US-Iran ceasefire continues through the midterms?",
+      "rules_version": 14,
+      "slug": "us-iran-ceasefire-continues-through-the-midterms",
+      "strategy": "favorite_discount",
+      "token_id": "59838288288458809448405089801806485870309105325255232123458269975283939712397"
+    },
     "562802": {
       "cost": 10.14,
       "entry_price": 0.92,
@@ -369,21 +385,6 @@
       "strategy": "favorite_discount",
       "token_id": "25869296386911654049715489068824757745174681288397238521780118949553760488529"
     },
-    "6041525": {
-      "cost": 10.34,
-      "entry_price": 0.96,
-      "event_ticker": "",
-      "market_id": "6041525",
-      "opened": "2026-10-29T02:20:37+00:00",
-      "outcome": "Milwaukee Brewers",
-      "outcome_idx": 0,
-      "qty": 10.77,
-      "question": "Milwaukee Brewers vs. Tampa Bay Rays",
-      "rules_version": 14,
-      "slug": "mlb-mil-tb-2026-10-28",
-      "strategy": "favorite_discount",
-      "token_id": "91003541915162788854210700624341898943610338973976196710034537030462603323520"
-    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -400,7 +401,7 @@
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
     }
   },
-  "realized_pnl": 19.799999999999997,
+  "realized_pnl": 20.22,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-29T02:20:37+00:00"
+  "updated": "2026-10-29T03:20:16+00:00"
 }
