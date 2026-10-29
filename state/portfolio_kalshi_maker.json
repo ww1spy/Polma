@@ -1,5 +1,5 @@
 {
-  "cash": 490.4699999999991,
+  "cash": 491.7499999999991,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -63,6 +63,7 @@
     "KXWTI-26OCT2714-T99.49": "2026-10-28",
     "KXWTI-26OCT2814-T98.49": "2026-10-28",
     "KXWTI-26OCT2914-T103.99": "2026-10-29",
+    "KXWTI-26OCT2914-T98.99": "2026-10-29",
     "KXWTI-26SEP2814-T96.99": "2026-09-28",
     "KXWTI-26SEP2914-T89.49": "2026-09-30",
     "KXWTI-26SEP2914-T96.49": "2026-09-29",
@@ -72,28 +73,40 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
-  "peak_equity": 504.1299999999997,
-  "positions": {
-    "KXWTI-26OCT2914-T98.99": {
-      "cost": 9.9,
-      "entry_price": 0.9,
-      "event_ticker": "KXWTI-26OCT2914",
-      "market_id": "KXWTI-26OCT2914-T98.99",
-      "opened": "2026-10-29T15:46:52+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11,
-      "question": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Oct 29, 2026? \u2014 Above $98.99",
+  "orders": {
+    "KXWNBAGAME-26OCT29GSATL-GS": {
+      "book_at_place": {
+        "ask": 0.97,
+        "bid": 0.96
+      },
+      "end_date": "2026-10-30T03:00:00+00:00",
+      "event_ticker": "KXWNBAGAME-26OCT29GSATL",
+      "expires_ts": 1793322000.0,
+      "market_id": "KXWNBAGAME-26OCT29GSATL-GS",
+      "outcome_idx": 1,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1793294496.3095837,
+      "price": 0.96,
+      "qty": 10,
+      "question": "Golden State wins",
+      "reserved": 9.6,
       "rules_version": 1,
-      "slug": "kxwti-26oct2914-t98.99",
+      "slug": "kxwnbagame-26oct29gsatl-gs",
       "strategy": "favorite_discount_maker",
-      "token_id": "KXWTI-26OCT2914-T98.99:yes"
+      "token_ids": [
+        "KXWNBAGAME-26OCT29GSATL-GS:yes",
+        "KXWNBAGAME-26OCT29GSATL-GS:no"
+      ]
     }
   },
+  "peak_equity": 504.1299999999997,
+  "positions": {},
   "profile": "maker",
-  "realized_pnl": 0.3699999999999921,
+  "realized_pnl": 1.3499999999999925,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-29T16:35:19+00:00",
+  "updated": "2026-10-29T17:21:36+00:00",
   "venue": "kalshi"
 }
