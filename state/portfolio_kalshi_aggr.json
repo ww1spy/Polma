@@ -1,5 +1,5 @@
 {
-  "cash": 192.45,
+  "cash": 86.85,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -346,6 +346,51 @@
       "strategy": "favorite_discount",
       "token_id": "KXLLM1-26OCT31-GOOG:yes"
     },
+    "KXNCAAFGAME-26OCT31DAVUST-DAV": {
+      "cost": 35.21,
+      "entry_price": 0.95,
+      "event_ticker": "KXNCAAFGAME-26OCT31DAVUST",
+      "market_id": "KXNCAAFGAME-26OCT31DAVUST-DAV",
+      "opened": "2026-10-30T18:20:31+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.93,
+      "question": "Davidson wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct31davust-dav",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT31DAVUST-DAV:no"
+    },
+    "KXNCAAFGAME-26OCT31MURRILST-MURR": {
+      "cost": 35.19,
+      "entry_price": 0.96,
+      "event_ticker": "KXNCAAFGAME-26OCT31MURRILST",
+      "market_id": "KXNCAAFGAME-26OCT31MURRILST-MURR",
+      "opened": "2026-10-30T18:20:31+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.55,
+      "question": "Murray St. wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct31murrilst-murr",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT31MURRILST-MURR:no"
+    },
+    "KXNCAAFGAME-26OCT31NWSTIW-NWST": {
+      "cost": 35.2,
+      "entry_price": 0.96,
+      "event_ticker": "KXNCAAFGAME-26OCT31NWSTIW",
+      "market_id": "KXNCAAFGAME-26OCT31NWSTIW-NWST",
+      "opened": "2026-10-30T18:20:31+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 36.56,
+      "question": "Northwestern St. wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26oct31nwstiw-nwst",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26OCT31NWSTIW-NWST:no"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -440,6 +485,6 @@
   "profile": "aggr",
   "realized_pnl": -55.81999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-30T17:20:28+00:00",
+  "updated": "2026-10-30T18:20:31+00:00",
   "venue": "kalshi"
 }
