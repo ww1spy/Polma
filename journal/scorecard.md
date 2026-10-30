@@ -1,4 +1,4 @@
-# Scorecard — 2026-10-29
+# Scorecard — 2026-10-30
 
 Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed to break even given this book's actual average win and loss.
 
@@ -15,4 +15,4 @@ Win% vs BE% is the whole story for favorite-buying: BE% is the win rate needed t
 | kalshi/paper/maker | lifetime | 69 | 74 | 95% | 94% | $0.54 | $-8.36 | $+4.23 | $1.23 | 0d | active |
 | kalshi/paper/maker | 30d | 63 | 70 | 94% | 94% | $0.54 | $-8.36 | $+2.32 | $1.16 |  |  |
 | polymarket/paper/base | lifetime | 267 | 264 | 90% | 92% | $0.83 | $-9.09 | $-49.51 | $0.00 | 0d | active, epoch 2 |
-| polymarket/paper/base | 30d | 143 | 140 | 93% | 92% | $0.89 | $-9.90 | $+16.50 | $0.00 |  |  |
+| polymarket/paper/base | 30d | 142 | 140 | 93% | 92% | $0.89 | $-9.90 | $+16.50 | $0.00 |  |  |
