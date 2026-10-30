@@ -1,5 +1,5 @@
 {
-  "cash": 86.85,
+  "cash": 122.55,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -114,6 +114,7 @@
     "KXLIUSAELIMINATIONW-26JUL10-ANI": "2026-07-10",
     "KXLIUSAELIMINATIONW-26JUL10-KEN": "2026-07-11",
     "KXLLM1-26JUL13-OPEN": "2026-07-11",
+    "KXLLM1-26OCT31-GOOG": "2026-10-30",
     "KXLOLGAME-26JUL150610GAMT1-T1": "2026-07-15",
     "KXLOLGAME-26JUL150830MILOHLE-HLE": "2026-07-15",
     "KXLOLGAME-26JUL151210DKFUR-DK": "2026-07-15",
@@ -331,21 +332,6 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
-    "KXLLM1-26OCT31-GOOG": {
-      "cost": 34.41,
-      "entry_price": 0.95,
-      "event_ticker": "KXLLM1-26OCT31",
-      "market_id": "KXLLM1-26OCT31-GOOG",
-      "opened": "2026-10-28T14:33:21+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 36.09,
-      "question": "Best AI in Oct 2026? \u2014 Gemini",
-      "rules_version": 2,
-      "slug": "kxllm1-26oct31-goog",
-      "strategy": "favorite_discount",
-      "token_id": "KXLLM1-26OCT31-GOOG:yes"
-    },
     "KXNCAAFGAME-26OCT31DAVUST-DAV": {
       "cost": 35.21,
       "entry_price": 0.95,
@@ -483,8 +469,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -55.81999999999997,
+  "realized_pnl": -54.529999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-30T18:20:31+00:00",
+  "updated": "2026-10-30T19:20:56+00:00",
   "venue": "kalshi"
 }
