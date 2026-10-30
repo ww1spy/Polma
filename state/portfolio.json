@@ -1,5 +1,5 @@
 {
-  "cash": 428.44000000000045,
+  "cash": 428.87000000000046,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1235549": "2026-10-29",
@@ -166,6 +166,7 @@
     "5166063": "2026-10-01",
     "5170739": "2026-10-30",
     "5170740": "2026-10-29",
+    "5170742": "2026-10-30",
     "5173046": "2026-10-03",
     "5174085": "2026-10-03",
     "5174093": "2026-10-03",
@@ -297,21 +298,6 @@
       "strategy": "favorite_discount",
       "token_id": "15608643409971761503638981418366748681664167967140328613245148153377110556924"
     },
-    "5170742": {
-      "cost": 10.17,
-      "entry_price": 0.938,
-      "event_ticker": "",
-      "market_id": "5170742",
-      "opened": "2026-10-30T01:20:40+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.84,
-      "question": "Will Bitcoin dip to $70,000 in October?",
-      "rules_version": 14,
-      "slug": "will-bitcoin-dip-to-70k-in-october-2026",
-      "strategy": "favorite_discount",
-      "token_id": "29664673244174799182114521717774702941585996339705669435041254633816999779157"
-    },
     "5447182": {
       "cost": 10.35,
       "entry_price": 0.94,
@@ -401,9 +387,24 @@
       "slug": "will-naftali-bennett-be-the-next-prime-minister-of-israel",
       "strategy": "favorite_discount",
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
+    },
+    "943539": {
+      "cost": 10.19,
+      "entry_price": 0.87,
+      "event_ticker": "",
+      "market_id": "943539",
+      "opened": "2026-10-30T04:20:09+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11.71,
+      "question": "Will the Republican Party win the NC-11 House seat?",
+      "rules_version": 14,
+      "slug": "will-the-republican-party-win-the-nc-11-house-seat",
+      "strategy": "favorite_discount",
+      "token_id": "11957039860047287352850698370191849800593069989221304732854582129110809407260"
     }
   },
-  "realized_pnl": 10.16,
+  "realized_pnl": 10.61,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-30T03:22:59+00:00"
+  "updated": "2026-10-30T04:20:09+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 116.84,
+  "cash": 154.13,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -183,6 +183,7 @@
     "KXNFLOT-26OCT19WASSF-Y": "2026-10-20",
     "KXNFLOT-26OCT22NECHI-Y": "2026-10-23",
     "KXNFLOT-26OCT26DALPHI-Y": "2026-10-27",
+    "KXNFLOT-26OCT29CARGB-Y": "2026-10-30",
     "KXNFLOT-26SEP28PHICHI-Y": "2026-09-29",
     "KXNFLPASSYDS-26SEP28PHICHI-CHICKEENUM11-250": "2026-09-29",
     "KXNFLREC-26OCT05ATLNO-ATLKPITTS8-7": "2026-10-06",
@@ -419,21 +420,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
-    "KXNFLOT-26OCT29CARGB-Y": {
-      "cost": 34.85,
-      "entry_price": 0.93,
-      "event_ticker": "KXNFLOT-26OCT29CARGB",
-      "market_id": "KXNFLOT-26OCT29CARGB-Y",
-      "opened": "2026-10-29T00:22:16+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.29,
-      "question": "Carolina vs Green Bay goes to overtime? \u2014 Game goes to overtime",
-      "rules_version": 2,
-      "slug": "kxnflot-26oct29cargb-y",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLOT-26OCT29CARGB-Y:no"
-    },
     "KXTRUTHSOCIAL-26OCT31-B229": {
       "cost": 34.64,
       "entry_price": 0.9,
@@ -466,8 +452,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -59.67999999999997,
+  "realized_pnl": -57.239999999999974,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-30T03:23:37+00:00",
+  "updated": "2026-10-30T04:23:32+00:00",
   "venue": "kalshi"
 }
