@@ -1,5 +1,5 @@
 {
-  "cash": 55.65,
+  "cash": 92.18,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -143,6 +143,7 @@
     "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": "2026-10-17",
     "KXNCAAFGAME-26OCT23PITTMIA-PITT": "2026-10-24",
     "KXNCAAFGAME-26OCT24SELASFA-SFA": "2026-10-25",
+    "KXNCAAFGAME-26OCT31DAVUST-DAV": "2026-10-31",
     "KXNCAAFGAME-26OCT31NWSTIW-NWST": "2026-10-31",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
@@ -350,21 +351,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXCBDECISIONAUSTRALIA-26NOV02-H25:yes"
     },
-    "KXNCAAFGAME-26OCT31DAVUST-DAV": {
-      "cost": 35.21,
-      "entry_price": 0.95,
-      "event_ticker": "KXNCAAFGAME-26OCT31DAVUST",
-      "market_id": "KXNCAAFGAME-26OCT31DAVUST-DAV",
-      "opened": "2026-10-30T18:20:31+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.93,
-      "question": "Davidson wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct31davust-dav",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT31DAVUST-DAV:no"
-    },
     "KXNCAAFGAME-26OCT31MURRILST-MURR": {
       "cost": 35.19,
       "entry_price": 0.96,
@@ -502,8 +488,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -47.41999999999997,
+  "realized_pnl": -46.09999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T19:20:12+00:00",
+  "updated": "2026-10-31T20:21:36+00:00",
   "venue": "kalshi"
 }
