@@ -1,5 +1,5 @@
 {
-  "cash": 88.44999999999999,
+  "cash": 52.46999999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -468,6 +468,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXTESTMATCH-26OCT270430AUSSA-TIE": {
+      "cost": 35.98,
+      "entry_price": 0.9075,
+      "event_ticker": "KXTESTMATCH-26OCT270430AUSSA",
+      "market_id": "KXTESTMATCH-26OCT270430AUSSA-TIE",
+      "opened": "2026-10-31T09:20:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 39.39,
+      "question": "Draw/Tie wins",
+      "rules_version": 2,
+      "slug": "kxtestmatch-26oct270430aussa-tie",
+      "strategy": "favorite_discount",
+      "token_id": "KXTESTMATCH-26OCT270430AUSSA-TIE:no"
+    },
     "KXXRPMAXMON-XRP-26OCT31-160": {
       "cost": 34.67,
       "entry_price": 0.9578,
@@ -487,6 +502,6 @@
   "profile": "aggr",
   "realized_pnl": -51.36999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T08:20:58+00:00",
+  "updated": "2026-10-31T09:20:15+00:00",
   "venue": "kalshi"
 }
