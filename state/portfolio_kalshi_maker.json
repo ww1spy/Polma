@@ -1,5 +1,5 @@
 {
-  "cash": 452.85999999999905,
+  "cash": 463.85999999999905,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -44,6 +44,7 @@
     "KXWT20MATCH-26OCT170300AUT-WROMW-ROMW": "2026-10-17",
     "KXWT20MATCH-26OCT170700SWE-WROMW-ROMW": "2026-10-17",
     "KXWT20MATCH-26OCT180415NZLAUS-NZL": "2026-10-18",
+    "KXWT20MATCH-26OCT302330ASM-WCHAW-ASM-W": "2026-10-31",
     "KXWTI-26OCT0114-T88.99": "2026-10-01",
     "KXWTI-26OCT0114-T93.99": "2026-10-01",
     "KXWTI-26OCT0614-T89.49": "2026-10-07",
@@ -173,26 +174,11 @@
       "slug": "kxrt-wic-92",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-WIC-92:yes"
-    },
-    "KXWT20MATCH-26OCT302330ASM-WCHAW-ASM-W": {
-      "cost": 9.79,
-      "entry_price": 0.89,
-      "event_ticker": "KXWT20MATCH-26OCT302330ASM-WCHAW",
-      "market_id": "KXWT20MATCH-26OCT302330ASM-WCHAW-ASM-W",
-      "opened": "2026-10-31T06:21:57+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11,
-      "question": "Assam Women wins",
-      "rules_version": 1,
-      "slug": "kxwt20match-26oct302330asm-wchaw-asm-w",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXWT20MATCH-26OCT302330ASM-WCHAW-ASM-W:no"
     }
   },
   "profile": "maker",
-  "realized_pnl": 1.739999999999993,
+  "realized_pnl": 2.949999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T06:22:03+00:00",
+  "updated": "2026-10-31T07:21:23+00:00",
   "venue": "kalshi"
 }
