@@ -1,5 +1,5 @@
 {
-  "cash": 124.41999999999999,
+  "cash": 88.44999999999999,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -333,6 +333,21 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
+    "KXCBDECISIONAUSTRALIA-26NOV02-H25": {
+      "cost": 35.97,
+      "entry_price": 0.92,
+      "event_ticker": "KXCBDECISIONAUSTRALIA-26NOV02",
+      "market_id": "KXCBDECISIONAUSTRALIA-26NOV02-H25",
+      "opened": "2026-10-31T04:20:46+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 38.87,
+      "question": "Will the Reserve Bank of Australia hike 1-25bps at the November Monetary Policy Board meeting? \u2014 Hike 1-25bps",
+      "rules_version": 2,
+      "slug": "kxcbdecisionaustralia-26nov02-h25",
+      "strategy": "favorite_discount",
+      "token_id": "KXCBDECISIONAUSTRALIA-26NOV02-H25:yes"
+    },
     "KXNCAAFGAME-26OCT31DAVUST-DAV": {
       "cost": 35.21,
       "entry_price": 0.95,
@@ -472,6 +487,6 @@
   "profile": "aggr",
   "realized_pnl": -51.36999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T03:20:27+00:00",
+  "updated": "2026-10-31T04:20:46+00:00",
   "venue": "kalshi"
 }
