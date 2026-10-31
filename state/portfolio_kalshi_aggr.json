@@ -1,5 +1,5 @@
 {
-  "cash": 91.44,
+  "cash": 55.65,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -143,6 +143,7 @@
     "KXNCAAFGAME-26OCT17PEAYUWGA-UWGA": "2026-10-17",
     "KXNCAAFGAME-26OCT23PITTMIA-PITT": "2026-10-24",
     "KXNCAAFGAME-26OCT24SELASFA-SFA": "2026-10-25",
+    "KXNCAAFGAME-26OCT31NWSTIW-NWST": "2026-10-31",
     "KXNCAAFSPREAD-26OCT01UNTTLSA-UNT18": "2026-10-02",
     "KXNCAAFSPREAD-26OCT02LIBDEL-LIB28": "2026-10-03",
     "KXNCAAFSPREAD-26OCT02PITTVT-PITT15": "2026-10-03",
@@ -379,21 +380,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26OCT31MURRILST-MURR:no"
     },
-    "KXNCAAFGAME-26OCT31NWSTIW-NWST": {
-      "cost": 35.2,
-      "entry_price": 0.96,
-      "event_ticker": "KXNCAAFGAME-26OCT31NWSTIW",
-      "market_id": "KXNCAAFGAME-26OCT31NWSTIW-NWST",
-      "opened": "2026-10-30T18:20:31+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.56,
-      "question": "Northwestern St. wins",
-      "rules_version": 2,
-      "slug": "kxncaafgame-26oct31nwstiw-nwst",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAFGAME-26OCT31NWSTIW-NWST:no"
-    },
     "KXNCAAFSPREAD-26OCT31TXSTBSU-TXST14": {
       "cost": 35.93,
       "entry_price": 0.95,
@@ -469,6 +455,36 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXNFLTD-26NOV01BALBUF-BUFJCOOK4-3": {
+      "cost": 35.97,
+      "entry_price": 0.96,
+      "event_ticker": "KXNFLTD-26NOV01BALBUF",
+      "market_id": "KXNFLTD-26NOV01BALBUF-BUFJCOOK4-3",
+      "opened": "2026-10-31T18:20:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.35,
+      "question": "James Cook III: 3+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26nov01balbuf-bufjcook4-3",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26NOV01BALBUF-BUFJCOOK4-3:no"
+    },
+    "KXNFLTD-26NOV01MINDET-MINJJEFFERSON18-2": {
+      "cost": 35.98,
+      "entry_price": 0.95,
+      "event_ticker": "KXNFLTD-26NOV01MINDET",
+      "market_id": "KXNFLTD-26NOV01MINDET-MINJJEFFERSON18-2",
+      "opened": "2026-10-31T18:20:56+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.74,
+      "question": "Justin Jefferson: 2+ touchdowns",
+      "rules_version": 2,
+      "slug": "kxnfltd-26nov01mindet-minjjefferson18-2",
+      "strategy": "favorite_discount",
+      "token_id": "KXNFLTD-26NOV01MINDET-MINJJEFFERSON18-2:no"
+    },
     "KXXRPMAXMON-XRP-26OCT31-160": {
       "cost": 34.67,
       "entry_price": 0.9578,
@@ -486,8 +502,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -48.37999999999997,
+  "realized_pnl": -47.41999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T17:20:29+00:00",
+  "updated": "2026-10-31T18:20:56+00:00",
   "venue": "kalshi"
 }
