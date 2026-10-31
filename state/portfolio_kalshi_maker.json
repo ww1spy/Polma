@@ -103,33 +103,6 @@
         "KXRT-MON-15:no"
       ]
     },
-    "KXRT-ONL-97": {
-      "book_at_place": {
-        "ask": 0.92,
-        "bid": 0.91
-      },
-      "end_date": "2026-11-02T15:00:00+00:00",
-      "event_ticker": "KXRT-ONL",
-      "expires_ts": 1793460590.01364,
-      "market_id": "KXRT-ONL-97",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793374190.01364,
-      "price": 0.91,
-      "qty": 11,
-      "question": "The Only Living Pickpocket in New York Rotten Tomatoes score? \u2014 Above 97",
-      "reserved": 10.01,
-      "rules_version": 1,
-      "slug": "kxrt-onl-97",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-ONL-97:yes",
-        "KXRT-ONL-97:no"
-      ]
-    },
     "KXTRUMPSAY-26NOV02-CRYP": {
       "book_at_place": {
         "ask": 0.9,
@@ -160,6 +133,21 @@
   },
   "peak_equity": 504.1299999999997,
   "positions": {
+    "KXRT-ONL-97": {
+      "cost": 10.01,
+      "entry_price": 0.91,
+      "event_ticker": "KXRT-ONL",
+      "market_id": "KXRT-ONL-97",
+      "opened": "2026-10-31T08:21:34+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 11,
+      "question": "The Only Living Pickpocket in New York Rotten Tomatoes score? \u2014 Above 97",
+      "rules_version": 1,
+      "slug": "kxrt-onl-97",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXRT-ONL-97:no"
+    },
     "KXRT-WIC-92": {
       "cost": 9.79,
       "entry_price": 0.89,
@@ -179,6 +167,6 @@
   "profile": "maker",
   "realized_pnl": 2.949999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T07:21:23+00:00",
+  "updated": "2026-10-31T08:22:07+00:00",
   "venue": "kalshi"
 }
