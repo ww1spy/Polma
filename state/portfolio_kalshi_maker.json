@@ -1,5 +1,5 @@
 {
-  "cash": 454.4399999999991,
+  "cash": 455.59999999999906,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -10,6 +10,7 @@
     "KXRT-FOR-93": "2026-09-28",
     "KXRT-KLA-17": "2026-10-23",
     "KXRT-KLA-25": "2026-10-26",
+    "KXRT-ONL-97": "2026-11-01",
     "KXRT-OTH-23": "2026-10-11",
     "KXRT-OTH-30": "2026-10-10",
     "KXRT-PRI-86": "2026-09-28",
@@ -103,6 +104,33 @@
         "KXRT-MON-25:no"
       ]
     },
+    "KXRT-ONL-95": {
+      "book_at_place": {
+        "ask": 0.97,
+        "bid": 0.96
+      },
+      "end_date": "2026-11-02T15:00:00+00:00",
+      "event_ticker": "KXRT-ONL",
+      "expires_ts": 1793624400.0,
+      "market_id": "KXRT-ONL-95",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1793546511.6177099,
+      "price": 0.96,
+      "qty": 10,
+      "question": "The Only Living Pickpocket in New York Rotten Tomatoes score? \u2014 Above 95",
+      "reserved": 9.6,
+      "rules_version": 1,
+      "slug": "kxrt-onl-95",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXRT-ONL-95:yes",
+        "KXRT-ONL-95:no"
+      ]
+    },
     "KXWTI-26NOV03-T97.99": {
       "book_at_place": {
         "ask": 0.92,
@@ -131,23 +159,8 @@
       ]
     }
   },
-  "peak_equity": 504.4899999999991,
+  "peak_equity": 504.5799999999991,
   "positions": {
-    "KXRT-ONL-97": {
-      "cost": 10.01,
-      "entry_price": 0.91,
-      "event_ticker": "KXRT-ONL",
-      "market_id": "KXRT-ONL-97",
-      "opened": "2026-10-31T08:21:34+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11,
-      "question": "The Only Living Pickpocket in New York Rotten Tomatoes score? \u2014 Above 97",
-      "rules_version": 1,
-      "slug": "kxrt-onl-97",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-ONL-97:no"
-    },
     "KXRT-WIC-92": {
       "cost": 9.79,
       "entry_price": 0.89,
@@ -180,8 +193,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": 2.949999999999994,
+  "realized_pnl": 3.699999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-01T14:21:25+00:00",
+  "updated": "2026-11-01T15:21:51+00:00",
   "venue": "kalshi"
 }
