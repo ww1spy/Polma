@@ -1,5 +1,5 @@
 {
-  "cash": 455.59999999999906,
+  "cash": 465.86999999999904,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -23,6 +23,7 @@
     "KXRT-VER-35": "2026-10-05",
     "KXRT-VER-40": "2026-10-02",
     "KXRT-WHA-75": "2026-10-17",
+    "KXRT-WIC-92": "2026-11-01",
     "KXRT-WILDW-97": "2026-10-25",
     "KXRT-YOUC-97": "2026-10-18",
     "KXTRUMPSAY-26OCT05-CEAS": "2026-10-05",
@@ -77,31 +78,31 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXRT-MON-25": {
+    "KXRT-MON-35": {
       "book_at_place": {
-        "ask": 0.94,
-        "bid": 0.93
+        "ask": 0.9,
+        "bid": 0.89
       },
       "end_date": "2026-11-02T15:00:00+00:00",
       "event_ticker": "KXRT-MON",
-      "expires_ts": 1793550058.1649702,
-      "market_id": "KXRT-MON-25",
-      "outcome_idx": 0,
+      "expires_ts": 1793624400.0,
+      "market_id": "KXRT-MON-35",
+      "outcome_idx": 1,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1793463658.1649702,
-      "price": 0.93,
-      "qty": 10,
-      "question": "The Mongoose Rotten Tomatoes score? \u2014 Above 25",
-      "reserved": 9.3,
+      "placed_ts": 1793550171.3095386,
+      "price": 0.89,
+      "qty": 11,
+      "question": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
+      "reserved": 9.79,
       "rules_version": 1,
-      "slug": "kxrt-mon-25",
+      "slug": "kxrt-mon-35",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXRT-MON-25:yes",
-        "KXRT-MON-25:no"
+        "KXRT-MON-35:yes",
+        "KXRT-MON-35:no"
       ]
     },
     "KXRT-ONL-95": {
@@ -159,23 +160,8 @@
       ]
     }
   },
-  "peak_equity": 504.5799999999991,
+  "peak_equity": 504.8699999999991,
   "positions": {
-    "KXRT-WIC-92": {
-      "cost": 9.79,
-      "entry_price": 0.89,
-      "event_ticker": "KXRT-WIC",
-      "market_id": "KXRT-WIC-92",
-      "opened": "2026-10-30T18:21:07+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11,
-      "question": "Wicker Rotten Tomatoes score? \u2014 Above 92",
-      "rules_version": 1,
-      "slug": "kxrt-wic-92",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-WIC-92:yes"
-    },
     "KXTRUMPSAY-26NOV02-CRYP": {
       "cost": 9.4,
       "entry_price": 0.94,
@@ -193,8 +179,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": 3.699999999999994,
+  "realized_pnl": 4.669999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-01T15:21:51+00:00",
+  "updated": "2026-11-01T16:22:51+00:00",
   "venue": "kalshi"
 }
