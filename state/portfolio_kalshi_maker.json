@@ -160,7 +160,7 @@
       ]
     }
   },
-  "peak_equity": 504.8699999999991,
+  "peak_equity": 504.969999999999,
   "positions": {
     "KXTRUMPSAY-26NOV02-CRYP": {
       "cost": 9.4,
@@ -181,6 +181,6 @@
   "profile": "maker",
   "realized_pnl": 4.669999999999995,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-01T21:22:19+00:00",
+  "updated": "2026-11-01T22:22:26+00:00",
   "venue": "kalshi"
 }
