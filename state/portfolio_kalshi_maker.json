@@ -131,7 +131,7 @@
       ]
     }
   },
-  "peak_equity": 504.15999999999906,
+  "peak_equity": 504.269999999999,
   "positions": {
     "KXRT-ONL-97": {
       "cost": 10.01,
@@ -167,6 +167,6 @@
   "profile": "maker",
   "realized_pnl": 2.949999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-10-31T23:21:50+00:00",
+  "updated": "2026-11-01T00:21:28+00:00",
   "venue": "kalshi"
 }
