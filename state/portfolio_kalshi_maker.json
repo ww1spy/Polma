@@ -102,33 +102,6 @@
         "KXRT-MON-25:yes",
         "KXRT-MON-25:no"
       ]
-    },
-    "KXTRUMPSAY-26NOV02-CRYP": {
-      "book_at_place": {
-        "ask": 0.95,
-        "bid": 0.93
-      },
-      "end_date": "2026-11-02T17:00:00+00:00",
-      "event_ticker": "KXTRUMPSAY-26NOV02",
-      "expires_ts": 1793589681.5866191,
-      "market_id": "KXTRUMPSAY-26NOV02-CRYP",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793503281.5866191,
-      "price": 0.94,
-      "qty": 10,
-      "question": "Will Trump say \"Crypto / Bitcoin\" before Nov 2, 2026?",
-      "reserved": 9.4,
-      "rules_version": 1,
-      "slug": "kxtrumpsay-26nov02-cryp",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXTRUMPSAY-26NOV02-CRYP:yes",
-        "KXTRUMPSAY-26NOV02-CRYP:no"
-      ]
     }
   },
   "peak_equity": 504.3799999999991,
@@ -162,11 +135,26 @@
       "slug": "kxrt-wic-92",
       "strategy": "favorite_discount_maker",
       "token_id": "KXRT-WIC-92:yes"
+    },
+    "KXTRUMPSAY-26NOV02-CRYP": {
+      "cost": 9.4,
+      "entry_price": 0.94,
+      "event_ticker": "KXTRUMPSAY-26NOV02",
+      "market_id": "KXTRUMPSAY-26NOV02-CRYP",
+      "opened": "2026-11-01T04:21:29+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will Trump say \"Crypto / Bitcoin\" before Nov 2, 2026?",
+      "rules_version": 1,
+      "slug": "kxtrumpsay-26nov02-cryp",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXTRUMPSAY-26NOV02-CRYP:no"
     }
   },
   "profile": "maker",
   "realized_pnl": 2.949999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-01T03:21:21+00:00",
+  "updated": "2026-11-01T04:21:31+00:00",
   "venue": "kalshi"
 }
