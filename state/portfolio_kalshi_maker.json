@@ -1,5 +1,5 @@
 {
-  "cash": 449.999999999999,
+  "cash": 452.27999999999895,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -24,6 +24,7 @@
     "KXRT-VER-40": "2026-10-02",
     "KXRT-WHA-75": "2026-10-17",
     "KXRT-WIC-92": "2026-11-01",
+    "KXRT-WIC-94": "2026-11-02",
     "KXRT-WILDW-97": "2026-10-25",
     "KXRT-YOUC-97": "2026-10-18",
     "KXTRUMPSAY-26NOV02-CRYP": "2026-11-02",
@@ -190,21 +191,6 @@
   },
   "peak_equity": 504.979999999999,
   "positions": {
-    "KXRT-WIC-94": {
-      "cost": 9.79,
-      "entry_price": 0.89,
-      "event_ticker": "KXRT-WIC",
-      "market_id": "KXRT-WIC-94",
-      "opened": "2026-11-02T00:21:06+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11,
-      "question": "Wicker Rotten Tomatoes score? \u2014 Above 94",
-      "rules_version": 1,
-      "slug": "kxrt-wic-94",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXRT-WIC-94:no"
-    },
     "KXWTI-26NOV03-T97.99": {
       "cost": 6.37,
       "entry_price": 0.91,
@@ -222,8 +208,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": 5.049999999999994,
+  "realized_pnl": -2.460000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-02T04:21:41+00:00",
+  "updated": "2026-11-02T05:21:44+00:00",
   "venue": "kalshi"
 }
