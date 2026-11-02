@@ -1,5 +1,5 @@
 {
-  "cash": 476.56999999999977,
+  "cash": 492.20999999999975,
   "cooldowns": {
     "KXHMONTH-26JUN": "2026-07-09",
     "KXPLATNERDROPOUT-26": "2026-07-09",
@@ -30,6 +30,7 @@
     "KXTRUMPSAYMONTH-26AUG01-MAKE": "2026-07-29",
     "KXTRUMPSAYMONTH-26SEP01-THIR": "2026-08-31",
     "KXTRUMPUFC-26JUL-DJT": "2026-07-10",
+    "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW": "2026-11-02",
     "KXWT20MATCH-26OCT030700WINZIM-ZIM": "2026-10-03",
     "KXWT20MATCH-26OCT050600WINZIM-ZIM": "2026-10-05",
     "KXWT20MATCH-26OCT070600WINZIM-ZIM": "2026-10-07",
@@ -46,25 +47,9 @@
   "halted": false,
   "mode": "paper",
   "peak_equity": 504.41,
-  "positions": {
-    "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW": {
-      "cost": 15.06,
-      "entry_price": 0.9484,
-      "event_ticker": "KXWT20MATCH-26NOV020600KNTWMASMW",
-      "market_id": "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW",
-      "opened": "2026-11-02T12:30:58+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 15.82,
-      "question": "Assam Women wins",
-      "rules_version": 14,
-      "slug": "kxwt20match-26nov020600kntwmasmw-asmw",
-      "strategy": "favorite_discount",
-      "token_id": "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW:no"
-    }
-  },
-  "realized_pnl": -8.37,
+  "positions": {},
+  "realized_pnl": -7.789999999999999,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-02T12:30:58+00:00",
+  "updated": "2026-11-02T13:57:25+00:00",
   "venue": "kalshi"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 442.97999999999894,
+  "cash": 462.369999999999,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -80,60 +80,6 @@
   "halted": false,
   "mode": "paper",
   "orders": {
-    "KXRT-MON-35": {
-      "book_at_place": {
-        "ask": 0.9,
-        "bid": 0.89
-      },
-      "end_date": "2026-11-02T15:00:00+00:00",
-      "event_ticker": "KXRT-MON",
-      "expires_ts": 1793624400.0,
-      "market_id": "KXRT-MON-35",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793550171.3095386,
-      "price": 0.89,
-      "qty": 11,
-      "question": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
-      "reserved": 9.79,
-      "rules_version": 1,
-      "slug": "kxrt-mon-35",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-MON-35:yes",
-        "KXRT-MON-35:no"
-      ]
-    },
-    "KXRT-ONL-95": {
-      "book_at_place": {
-        "ask": 0.97,
-        "bid": 0.96
-      },
-      "end_date": "2026-11-02T15:00:00+00:00",
-      "event_ticker": "KXRT-ONL",
-      "expires_ts": 1793624400.0,
-      "market_id": "KXRT-ONL-95",
-      "outcome_idx": 0,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793546511.6177099,
-      "price": 0.96,
-      "qty": 10,
-      "question": "The Only Living Pickpocket in New York Rotten Tomatoes score? \u2014 Above 95",
-      "reserved": 9.6,
-      "rules_version": 1,
-      "slug": "kxrt-onl-95",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXRT-ONL-95:yes",
-        "KXRT-ONL-95:no"
-      ]
-    },
     "KXTRUMPSAY-26NOV02-ZOHR": {
       "book_at_place": {
         "ask": 0.97,
@@ -159,33 +105,6 @@
       "token_ids": [
         "KXTRUMPSAY-26NOV02-ZOHR:yes",
         "KXTRUMPSAY-26NOV02-ZOHR:no"
-      ]
-    },
-    "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW": {
-      "book_at_place": {
-        "ask": 0.94,
-        "bid": 0.92
-      },
-      "end_date": "2026-11-02T15:00:00+00:00",
-      "event_ticker": "KXWT20MATCH-26NOV020600KNTWMASMW",
-      "expires_ts": 1793624400.0,
-      "market_id": "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793622735.7410722,
-      "price": 0.93,
-      "qty": 10,
-      "question": "Assam Women wins",
-      "reserved": 9.3,
-      "rules_version": 1,
-      "slug": "kxwt20match-26nov020600kntwmasmw-asmw",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW:yes",
-        "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW:no"
       ]
     },
     "KXWTI-26NOV0214-T103.49": {
@@ -218,6 +137,21 @@
   },
   "peak_equity": 504.979999999999,
   "positions": {
+    "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW": {
+      "cost": 9.3,
+      "entry_price": 0.93,
+      "event_ticker": "KXWT20MATCH-26NOV020600KNTWMASMW",
+      "market_id": "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW",
+      "opened": "2026-11-02T13:58:44+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Assam Women wins",
+      "rules_version": 1,
+      "slug": "kxwt20match-26nov020600kntwmasmw-asmw",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXWT20MATCH-26NOV020600KNTWMASMW-ASMW:no"
+    },
     "KXWTI-26NOV03-T97.99": {
       "cost": 6.37,
       "entry_price": 0.91,
@@ -237,6 +171,6 @@
   "profile": "maker",
   "realized_pnl": -2.460000000000006,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-02T12:32:15+00:00",
+  "updated": "2026-11-02T13:59:14+00:00",
   "venue": "kalshi"
 }
