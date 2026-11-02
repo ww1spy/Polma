@@ -1,5 +1,5 @@
 {
-  "cash": 459.719999999999,
+  "cash": 459.89999999999895,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -26,6 +26,7 @@
     "KXRT-WIC-92": "2026-11-01",
     "KXRT-WILDW-97": "2026-10-25",
     "KXRT-YOUC-97": "2026-10-18",
+    "KXTRUMPSAY-26NOV02-CRYP": "2026-11-02",
     "KXTRUMPSAY-26OCT05-CEAS": "2026-10-05",
     "KXTRUMPSAY-26OCT05-PEAC": "2026-10-04",
     "KXTRUMPSAY-26OCT05-ZOHR": "2026-10-05",
@@ -132,50 +133,50 @@
         "KXRT-ONL-95:no"
       ]
     },
-    "KXRT-WIC-94": {
+    "KXTRUMPSAY-26NOV02-ZOHR": {
       "book_at_place": {
-        "ask": 0.9,
-        "bid": 0.88
+        "ask": 0.97,
+        "bid": 0.96
       },
-      "end_date": "2026-11-02T15:00:00+00:00",
-      "event_ticker": "KXRT-WIC",
-      "expires_ts": 1793624400.0,
-      "market_id": "KXRT-WIC-94",
+      "end_date": "2026-11-02T17:00:00+00:00",
+      "event_ticker": "KXTRUMPSAY-26NOV02",
+      "expires_ts": 1793631600.0,
+      "market_id": "KXTRUMPSAY-26NOV02-ZOHR",
       "outcome_idx": 1,
       "outcomes": [
         "Yes",
         "No"
       ],
-      "placed_ts": 1793575264.8520482,
-      "price": 0.89,
-      "qty": 11,
-      "question": "Wicker Rotten Tomatoes score? \u2014 Above 94",
-      "reserved": 9.79,
+      "placed_ts": 1793578868.7430253,
+      "price": 0.96,
+      "qty": 10,
+      "question": "Will Trump say \"Zohran / Mamdani\" before Nov 2, 2026?",
+      "reserved": 9.6,
       "rules_version": 1,
-      "slug": "kxrt-wic-94",
+      "slug": "kxtrumpsay-26nov02-zohr",
       "strategy": "favorite_discount_maker",
       "token_ids": [
-        "KXRT-WIC-94:yes",
-        "KXRT-WIC-94:no"
+        "KXTRUMPSAY-26NOV02-ZOHR:yes",
+        "KXTRUMPSAY-26NOV02-ZOHR:no"
       ]
     }
   },
-  "peak_equity": 504.969999999999,
+  "peak_equity": 504.979999999999,
   "positions": {
-    "KXTRUMPSAY-26NOV02-CRYP": {
-      "cost": 9.4,
-      "entry_price": 0.94,
-      "event_ticker": "KXTRUMPSAY-26NOV02",
-      "market_id": "KXTRUMPSAY-26NOV02-CRYP",
-      "opened": "2026-11-01T04:21:29+00:00",
+    "KXRT-WIC-94": {
+      "cost": 9.79,
+      "entry_price": 0.89,
+      "event_ticker": "KXRT-WIC",
+      "market_id": "KXRT-WIC-94",
+      "opened": "2026-11-02T00:21:06+00:00",
       "outcome": "No",
       "outcome_idx": 1,
-      "qty": 10,
-      "question": "Will Trump say \"Crypto / Bitcoin\" before Nov 2, 2026?",
+      "qty": 11,
+      "question": "Wicker Rotten Tomatoes score? \u2014 Above 94",
       "rules_version": 1,
-      "slug": "kxtrumpsay-26nov02-cryp",
+      "slug": "kxrt-wic-94",
       "strategy": "favorite_discount_maker",
-      "token_id": "KXTRUMPSAY-26NOV02-CRYP:no"
+      "token_id": "KXRT-WIC-94:no"
     },
     "KXWTI-26NOV03-T97.99": {
       "cost": 6.37,
@@ -194,8 +195,8 @@
     }
   },
   "profile": "maker",
-  "realized_pnl": 4.669999999999995,
+  "realized_pnl": 5.049999999999994,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-01T23:21:04+00:00",
+  "updated": "2026-11-02T00:21:08+00:00",
   "venue": "kalshi"
 }

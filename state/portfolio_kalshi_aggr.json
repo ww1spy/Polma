@@ -1,5 +1,5 @@
 {
-  "cash": 131.56000000000003,
+  "cash": 170.92000000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -182,6 +182,7 @@
     "KXNFLFIRSTTD-26OCT26DALPHI-PHIMLEMON9": "2026-10-27",
     "KXNFLFIRSTTD-26OCT29CARGB-GBSWILLIAMS83": "2026-10-30",
     "KXNFLFIRSTTD-26SEP28PHICHI-PHIJHURTS1": "2026-09-29",
+    "KXNFLOT-26NOV01LACLAR-Y": "2026-11-02",
     "KXNFLOT-26OCT01PITCLE-Y": "2026-10-02",
     "KXNFLOT-26OCT08TBDAL-Y": "2026-10-09",
     "KXNFLOT-26OCT12BUFLAR-Y": "2026-10-13",
@@ -204,6 +205,7 @@
     "KXNFLSPREAD-26OCT12BUFLAR-BUF14": "2026-10-13",
     "KXNFLSPREAD-26SEP28PHICHI-PHI21": "2026-09-29",
     "KXNFLTD-26NOV01BALBUF-BUFJCOOK4-3": "2026-11-01",
+    "KXNFLTD-26NOV01LACLAR-LACOHAMPTON8-2": "2026-11-02",
     "KXNFLTD-26NOV01MINDET-MINJJEFFERSON18-2": "2026-11-01",
     "KXNFLTD-26OCT01PITCLE-PITARODGERS8-1": "2026-10-02",
     "KXNFLTD-26OCT04INDWAS-WASTBURKS13-1": "2026-10-04",
@@ -370,6 +372,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXELECTIONEMERGENCY-26NOV04:no"
     },
+    "KXNCAAMBGAME-26NOV02MEMISU-MEM": {
+      "cost": 36.95,
+      "entry_price": 0.91,
+      "event_ticker": "KXNCAAMBGAME-26NOV02MEMISU",
+      "market_id": "KXNCAAMBGAME-26NOV02MEMISU-MEM",
+      "opened": "2026-11-02T00:20:33+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 40.34,
+      "question": "Memphis wins",
+      "rules_version": 2,
+      "slug": "kxncaambgame-26nov02memisu-mem",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAMBGAME-26NOV02MEMISU-MEM:no"
+    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -430,36 +447,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
-    "KXNFLOT-26NOV01LACLAR-Y": {
-      "cost": 36.4,
-      "entry_price": 0.94,
-      "event_ticker": "KXNFLOT-26NOV01LACLAR",
-      "market_id": "KXNFLOT-26NOV01LACLAR-Y",
-      "opened": "2026-10-31T21:20:51+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.55,
-      "question": "Los Angeles C vs Los Angeles R goes to overtime? \u2014 Game goes to overtime",
-      "rules_version": 2,
-      "slug": "kxnflot-26nov01laclar-y",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLOT-26NOV01LACLAR-Y:no"
-    },
-    "KXNFLTD-26NOV01LACLAR-LACOHAMPTON8-2": {
-      "cost": 36.36,
-      "entry_price": 0.96,
-      "event_ticker": "KXNFLTD-26NOV01LACLAR",
-      "market_id": "KXNFLTD-26NOV01LACLAR-LACOHAMPTON8-2",
-      "opened": "2026-10-31T21:20:50+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.76,
-      "question": "Omarion Hampton: 2+ touchdowns",
-      "rules_version": 2,
-      "slug": "kxnfltd-26nov01laclar-lacohampton8-2",
-      "strategy": "favorite_discount",
-      "token_id": "KXNFLTD-26NOV01LACLAR-LACOHAMPTON8-2:no"
-    },
     "KXXRPMAXMON-XRP-26OCT31-160": {
       "cost": 34.67,
       "entry_price": 0.9578,
@@ -477,8 +464,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -40.65999999999996,
+  "realized_pnl": -37.109999999999964,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-01T23:20:26+00:00",
+  "updated": "2026-11-02T00:20:33+00:00",
   "venue": "kalshi"
 }
