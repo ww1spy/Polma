@@ -1,5 +1,5 @@
 {
-  "cash": 60.520000000000024,
+  "cash": 96.61000000000003,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -323,7 +323,8 @@
     "KXWTIW-26JUL1014-B69.50": "2026-07-10",
     "KXWTIW-26JUL1014-B75.50": "2026-07-10",
     "KXWTIW-26JUL1714-B77.50": "2026-07-17",
-    "KXWTIW-26JUL2414-T94.99": "2026-07-24"
+    "KXWTIW-26JUL2414-T94.99": "2026-07-24",
+    "KXXRPMAXMON-XRP-26OCT31-160": "2026-11-02"
   },
   "created": "2026-07-08T08:49:52+00:00",
   "epoch_started": "2026-09-28T02:58:54+00:00",
@@ -491,26 +492,11 @@
       "slug": "kxnfltd-26nov02chisea-seagholani36-1",
       "strategy": "favorite_discount",
       "token_id": "KXNFLTD-26NOV02CHISEA-SEAGHOLANI36-1:no"
-    },
-    "KXXRPMAXMON-XRP-26OCT31-160": {
-      "cost": 34.67,
-      "entry_price": 0.9578,
-      "event_ticker": "KXXRPMAXMON-XRP-26OCT31",
-      "market_id": "KXXRPMAXMON-XRP-26OCT31-160",
-      "opened": "2026-10-29T05:20:58+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 36.09,
-      "question": "Will XRP trimmed mean be above $1.60 by 11:59 PM ET on Oct 31, 2026? \u2014 Above $1.60",
-      "rules_version": 2,
-      "slug": "kxxrpmaxmon-xrp-26oct31-160",
-      "strategy": "favorite_discount",
-      "token_id": "KXXRPMAXMON-XRP-26OCT31-160:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -37.109999999999964,
+  "realized_pnl": -35.68999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-02T22:20:47+00:00",
+  "updated": "2026-11-02T23:23:26+00:00",
   "venue": "kalshi"
 }
