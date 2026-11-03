@@ -1,5 +1,5 @@
 {
-  "cash": 96.61000000000003,
+  "cash": 60.010000000000026,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -373,6 +373,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXELECTIONEMERGENCY-26NOV04:no"
     },
+    "KXNCAAFGAME-26NOV03TOLSAC-SAC": {
+      "cost": 36.6,
+      "entry_price": 0.96,
+      "event_ticker": "KXNCAAFGAME-26NOV03TOLSAC",
+      "market_id": "KXNCAAFGAME-26NOV03TOLSAC-SAC",
+      "opened": "2026-11-03T00:20:38+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.01,
+      "question": "Sacramento St. wins",
+      "rules_version": 2,
+      "slug": "kxncaafgame-26nov03tolsac-sac",
+      "strategy": "favorite_discount",
+      "token_id": "KXNCAAFGAME-26NOV03TOLSAC-SAC:no"
+    },
     "KXNCAAMBGAME-26NOV02MEMISU-MEM": {
       "cost": 36.95,
       "entry_price": 0.91,
@@ -497,6 +512,6 @@
   "profile": "aggr",
   "realized_pnl": -35.68999999999996,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-02T23:23:26+00:00",
+  "updated": "2026-11-03T00:20:38+00:00",
   "venue": "kalshi"
 }
