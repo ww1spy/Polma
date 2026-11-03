@@ -1,5 +1,5 @@
 {
-  "cash": 430.1000000000005,
+  "cash": 420.6000000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -217,6 +217,7 @@
     "5434049": "2026-10-10",
     "5442758": "2026-10-09",
     "5445274": "2026-10-09",
+    "5447182": "2026-11-03",
     "5461112": "2026-10-10",
     "5476024": "2026-10-10",
     "5481128": "2026-10-11",
@@ -284,21 +285,6 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
-    "5447182": {
-      "cost": 10.35,
-      "entry_price": 0.94,
-      "event_ticker": "",
-      "market_id": "5447182",
-      "opened": "2026-10-29T03:20:16+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11.01,
-      "question": "US-Iran ceasefire continues through the midterms?",
-      "rules_version": 14,
-      "slug": "us-iran-ceasefire-continues-through-the-midterms",
-      "strategy": "favorite_discount",
-      "token_id": "59838288288458809448405089801806485870309105325255232123458269975283939712397"
-    },
     "562802": {
       "cost": 10.14,
       "entry_price": 0.92,
@@ -343,6 +329,21 @@
       "slug": "2026-balance-of-power-r-senate-r-house-537",
       "strategy": "favorite_discount",
       "token_id": "25869296386911654049715489068824757745174681288397238521780118949553760488529"
+    },
+    "6274077": {
+      "cost": 10.06,
+      "entry_price": 0.9505,
+      "event_ticker": "",
+      "market_id": "6274077",
+      "opened": "2026-11-03T01:20:23+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.58,
+      "question": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
+      "rules_version": 14,
+      "slug": "2026-senate-map-r-ia-ks",
+      "strategy": "favorite_discount",
+      "token_id": "111381299800799485509083912497813429956512687399857260440199290536659860679263"
     },
     "6274182": {
       "cost": 10.26,
@@ -405,7 +406,7 @@
       "token_id": "11957039860047287352850698370191849800593069989221304732854582129110809407260"
     }
   },
-  "realized_pnl": 11.9,
+  "realized_pnl": 2.110000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T00:20:13+00:00"
+  "updated": "2026-11-03T01:20:23+00:00"
 }
