@@ -1,5 +1,5 @@
 {
-  "cash": 117.59000000000002,
+  "cash": 82.16000000000003,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -348,6 +348,21 @@
   "mode": "paper",
   "peak_equity": 516.5624599999999,
   "positions": {
+    "KXAPRPOTUS-26NOV06-37.2": {
+      "cost": 35.43,
+      "entry_price": 0.95,
+      "event_ticker": "KXAPRPOTUS-26NOV06",
+      "market_id": "KXAPRPOTUS-26NOV06-37.2",
+      "opened": "2026-11-03T17:21:44+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 37.16,
+      "question": "Will the President's approval rating be below 37.3 according to RealClearPolitics? \u2014 Below 37.3",
+      "rules_version": 2,
+      "slug": "kxaprpotus-26nov06-37.2",
+      "strategy": "favorite_discount",
+      "token_id": "KXAPRPOTUS-26NOV06-37.2:no"
+    },
     "KXELECTIONEMERGENCY-26NOV04": {
       "cost": 36.37,
       "entry_price": 0.9202,
@@ -487,6 +502,6 @@
   "profile": "aggr",
   "realized_pnl": -55.599999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T16:21:25+00:00",
+  "updated": "2026-11-03T17:21:44+00:00",
   "venue": "kalshi"
 }
