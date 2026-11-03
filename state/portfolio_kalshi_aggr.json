@@ -1,5 +1,5 @@
 {
-  "cash": 153.14000000000001,
+  "cash": 117.59000000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -453,6 +453,21 @@
       "strategy": "favorite_discount",
       "token_id": "KXNFLLADDERRECYDS-26OCT08TBDAL-DALJWILLIAMS33:no"
     },
+    "KXPAYROLLS-26OCT-T-25000": {
+      "cost": 35.55,
+      "entry_price": 0.9,
+      "event_ticker": "KXPAYROLLS-26OCT",
+      "market_id": "KXPAYROLLS-26OCT-T-25000",
+      "opened": "2026-11-03T16:21:25+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 39.22,
+      "question": "Will above -25000 jobs be added in October 2026? \u2014 Above -25,000",
+      "rules_version": 2,
+      "slug": "kxpayrolls-26oct-t-25000",
+      "strategy": "favorite_discount",
+      "token_id": "KXPAYROLLS-26OCT-T-25000:yes"
+    },
     "KXUCLSCORE-26NOV03BARAVL-BAR3AVL1": {
       "cost": 34.82,
       "entry_price": 0.93,
@@ -472,6 +487,6 @@
   "profile": "aggr",
   "realized_pnl": -55.599999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T15:20:44+00:00",
+  "updated": "2026-11-03T16:21:25+00:00",
   "venue": "kalshi"
 }
