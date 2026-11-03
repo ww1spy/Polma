@@ -81,35 +81,7 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {
-    "KXWTI-26NOV0314-T100.99": {
-      "book_at_place": {
-        "ask": 0.94,
-        "bid": 0.92
-      },
-      "end_date": "2026-11-03T19:30:00+00:00",
-      "event_ticker": "KXWTI-26NOV0314",
-      "expires_ts": 1793727000.0,
-      "market_id": "KXWTI-26NOV0314-T100.99",
-      "outcome_idx": 1,
-      "outcomes": [
-        "Yes",
-        "No"
-      ],
-      "placed_ts": 1793672730.3361244,
-      "price": 0.93,
-      "qty": 10,
-      "question": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 3, 2026? \u2014 Above $100.99",
-      "reserved": 9.3,
-      "rules_version": 1,
-      "slug": "kxwti-26nov0314-t100.99",
-      "strategy": "favorite_discount_maker",
-      "token_ids": [
-        "KXWTI-26NOV0314-T100.99:yes",
-        "KXWTI-26NOV0314-T100.99:no"
-      ]
-    }
-  },
+  "orders": {},
   "peak_equity": 504.979999999999,
   "positions": {
     "KXWTI-26NOV03-T92.99": {
@@ -126,11 +98,26 @@
       "slug": "kxwti-26nov03-t92.99",
       "strategy": "favorite_discount_maker",
       "token_id": "KXWTI-26NOV03-T92.99:yes"
+    },
+    "KXWTI-26NOV0314-T100.99": {
+      "cost": 9.3,
+      "entry_price": 0.93,
+      "event_ticker": "KXWTI-26NOV0314",
+      "market_id": "KXWTI-26NOV0314-T100.99",
+      "opened": "2026-11-03T07:24:05+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10,
+      "question": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 3, 2026? \u2014 Above $100.99",
+      "rules_version": 1,
+      "slug": "kxwti-26nov0314-t100.99",
+      "strategy": "favorite_discount_maker",
+      "token_id": "KXWTI-26NOV0314-T100.99:no"
     }
   },
   "profile": "maker",
   "realized_pnl": -6.070000000000007,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T06:21:52+00:00",
+  "updated": "2026-11-03T07:24:18+00:00",
   "venue": "kalshi"
 }
