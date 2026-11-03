@@ -1,5 +1,5 @@
 {
-  "cash": 46.82000000000002,
+  "cash": 48.46000000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -292,6 +292,7 @@
     "KXUCLGAME-26OCT21AVLVIK-VIK": "2026-10-21",
     "KXUCLGAME-26OCT21INTSHA-SHA": "2026-10-21",
     "KXUCLGAME-26OCT21RMARBL-RBL": "2026-10-21",
+    "KXUCLSCORE-26NOV03BARAVL-BAR3AVL1": "2026-11-03",
     "KXUCLSCORE-26OCT14ROMRMA-ROM2RMA1": "2026-10-14",
     "KXUEFANLGAME-26OCT01AZELIE-LIE": "2026-10-01",
     "KXUEFANLGAME-26OCT01GERSRB-SRB": "2026-10-01",
@@ -377,6 +378,21 @@
       "slug": "kxelectionemergency-26nov04",
       "strategy": "favorite_discount",
       "token_id": "KXELECTIONEMERGENCY-26NOV04:no"
+    },
+    "KXLOLGAME-26NOV041700LYGEN-LY": {
+      "cost": 35.61,
+      "entry_price": 0.91,
+      "event_ticker": "KXLOLGAME-26NOV041700LYGEN",
+      "market_id": "KXLOLGAME-26NOV041700LYGEN-LY",
+      "opened": "2026-11-03T22:20:46+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 38.88,
+      "question": "LYON wins",
+      "rules_version": 2,
+      "slug": "kxlolgame-26nov041700lygen-ly",
+      "strategy": "favorite_discount",
+      "token_id": "KXLOLGAME-26NOV041700LYGEN-LY:no"
     },
     "KXNCAAFGAME-26NOV03TOLSAC-SAC": {
       "cost": 36.6,
@@ -497,26 +513,11 @@
       "slug": "kxuclgame-26nov04aekrma-aek",
       "strategy": "favorite_discount",
       "token_id": "KXUCLGAME-26NOV04AEKRMA-AEK:no"
-    },
-    "KXUCLSCORE-26NOV03BARAVL-BAR3AVL1": {
-      "cost": 34.82,
-      "entry_price": 0.93,
-      "event_ticker": "KXUCLSCORE-26NOV03BARAVL",
-      "market_id": "KXUCLSCORE-26NOV03BARAVL-BAR3AVL1",
-      "opened": "2026-11-03T02:24:41+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.25,
-      "question": "Final score FC Barcelona wins 3-1?",
-      "rules_version": 2,
-      "slug": "kxuclscore-26nov03baravl-bar3avl1",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLSCORE-26NOV03BARAVL-BAR3AVL1:no"
     }
   },
   "profile": "aggr",
-  "realized_pnl": -55.599999999999966,
+  "realized_pnl": -53.169999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T21:21:18+00:00",
+  "updated": "2026-11-03T22:20:46+00:00",
   "venue": "kalshi"
 }
