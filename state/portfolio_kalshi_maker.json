@@ -1,5 +1,5 @@
 {
-  "cash": 484.60999999999893,
+  "cash": 495.48999999999893,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -50,6 +50,7 @@
     "KXWT20MATCH-26OCT170700SWE-WROMW-ROMW": "2026-10-17",
     "KXWT20MATCH-26OCT180415NZLAUS-NZL": "2026-10-18",
     "KXWT20MATCH-26OCT302330ASM-WCHAW-ASM-W": "2026-10-31",
+    "KXWTI-26NOV03-T92.99": "2026-11-03",
     "KXWTI-26NOV03-T97.99": "2026-11-02",
     "KXWTI-26NOV0314-T100.99": "2026-11-03",
     "KXWTI-26OCT0114-T88.99": "2026-10-01",
@@ -84,26 +85,10 @@
   "mode": "paper",
   "orders": {},
   "peak_equity": 504.979999999999,
-  "positions": {
-    "KXWTI-26NOV03-T92.99": {
-      "cost": 9.79,
-      "entry_price": 0.89,
-      "event_ticker": "KXWTI-26NOV03",
-      "market_id": "KXWTI-26NOV03-T92.99",
-      "opened": "2026-11-02T18:22:05+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11,
-      "question": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
-      "rules_version": 1,
-      "slug": "kxwti-26nov03-t92.99",
-      "strategy": "favorite_discount_maker",
-      "token_id": "KXWTI-26NOV03-T92.99:yes"
-    }
-  },
+  "positions": {},
   "profile": "maker",
-  "realized_pnl": -5.6000000000000085,
+  "realized_pnl": -4.510000000000007,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T18:20:55+00:00",
+  "updated": "2026-11-03T19:27:11+00:00",
   "venue": "kalshi"
 }
