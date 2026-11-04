@@ -1,5 +1,5 @@
 {
-  "cash": 48.46000000000002,
+  "cash": 85.25000000000003,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -161,6 +161,7 @@
     "KXNCAAFTOTAL-26OCT10TULNARMY-26": "2026-10-10",
     "KXNCAAFTOTAL-26OCT17LTULM-34": "2026-10-18",
     "KXNCAAMBGAME-26NOV02MEMISU-MEM": "2026-11-03",
+    "KXNCAAMBGAME-26NOV03CSFSDSU-CSF": "2026-11-04",
     "KXNETFLIXRANKMOVIE-26JUL13-ENO": "2026-07-13",
     "KXNETFLIXRANKMOVIE-26JUL20-SHI": "2026-07-21",
     "KXNETFLIXRANKMOVIEGLOBAL-26JUL13-ENO": "2026-07-14",
@@ -409,21 +410,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXNCAAFGAME-26NOV03TOLSAC-SAC:no"
     },
-    "KXNCAAMBGAME-26NOV03CSFSDSU-CSF": {
-      "cost": 35.46,
-      "entry_price": 0.95,
-      "event_ticker": "KXNCAAMBGAME-26NOV03CSFSDSU",
-      "market_id": "KXNCAAMBGAME-26NOV03CSFSDSU-CSF",
-      "opened": "2026-11-03T04:20:22+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 37.19,
-      "question": "Cal State Fullerton wins",
-      "rules_version": 2,
-      "slug": "kxncaambgame-26nov03csfsdsu-csf",
-      "strategy": "favorite_discount",
-      "token_id": "KXNCAAMBGAME-26NOV03CSFSDSU-CSF:no"
-    },
     "KXNFLESCALATORRSHYDS-26OCT08TBDAL-TBBIRVING7": {
       "cost": 37.7,
       "entry_price": 0.9405,
@@ -516,8 +502,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -53.169999999999966,
+  "realized_pnl": -51.83999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T04:21:56+00:00",
+  "updated": "2026-11-04T05:21:16+00:00",
   "venue": "kalshi"
 }

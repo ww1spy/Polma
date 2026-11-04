@@ -1,5 +1,5 @@
 {
-  "cash": 467.09000000000054,
+  "cash": 456.9300000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -322,6 +322,21 @@
       "strategy": "favorite_discount",
       "token_id": "89148236279380675079183001746367885331427589437167068071607496438236119924256"
     },
+    "6329241": {
+      "cost": 10.16,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "6329241",
+      "opened": "2026-11-04T05:20:49+00:00",
+      "outcome": "India",
+      "outcome_idx": 1,
+      "qty": 10.59,
+      "question": "India Tour of New Zealand ODIs: New Zealand vs India",
+      "rules_version": 14,
+      "slug": "crint-nzl-ind-2026-11-03",
+      "strategy": "favorite_discount",
+      "token_id": "9175784297702308750586404194618799027497475684056384879090348402522626275067"
+    },
     "6501463": {
       "cost": 10.17,
       "entry_price": 0.91,
@@ -355,5 +370,5 @@
   },
   "realized_pnl": 7.600000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T04:21:34+00:00"
+  "updated": "2026-11-04T05:20:49+00:00"
 }

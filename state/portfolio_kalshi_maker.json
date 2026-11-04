@@ -1,5 +1,5 @@
 {
-  "cash": 486.1899999999989,
+  "cash": 477.1899999999989,
   "cooldowns": {
     "KXRT-CLA-73": "2026-10-26",
     "KXRT-CLA-77": "2026-10-25",
@@ -83,7 +83,35 @@
   "halt_reason": "",
   "halted": false,
   "mode": "paper",
-  "orders": {},
+  "orders": {
+    "KXWT20MATCH-26NOV032230ASMWGOAWM-GOAWM": {
+      "book_at_place": {
+        "ask": 0.91,
+        "bid": 0.9
+      },
+      "end_date": "2026-11-04T07:30:00+00:00",
+      "event_ticker": "KXWT20MATCH-26NOV032230ASMWGOAWM",
+      "expires_ts": 1793770200.0,
+      "market_id": "KXWT20MATCH-26NOV032230ASMWGOAWM-GOAWM",
+      "outcome_idx": 0,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "placed_ts": 1793769725.669795,
+      "price": 0.9,
+      "qty": 10,
+      "question": "Goa Women wins",
+      "reserved": 9.0,
+      "rules_version": 1,
+      "slug": "kxwt20match-26nov032230asmwgoawm-goawm",
+      "strategy": "favorite_discount_maker",
+      "token_ids": [
+        "KXWT20MATCH-26NOV032230ASMWGOAWM-GOAWM:yes",
+        "KXWT20MATCH-26NOV032230ASMWGOAWM-GOAWM:no"
+      ]
+    }
+  },
   "peak_equity": 504.979999999999,
   "positions": {
     "KXWTI-26NOV0414-T99.99": {
@@ -105,6 +133,6 @@
   "profile": "maker",
   "realized_pnl": -4.510000000000007,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T04:22:37+00:00",
+  "updated": "2026-11-04T05:22:05+00:00",
   "venue": "kalshi"
 }
