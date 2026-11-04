@@ -1,5 +1,5 @@
 {
-  "cash": 447.5500000000005,
+  "cash": 427.5900000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -325,6 +325,21 @@
       "strategy": "favorite_discount",
       "token_id": "89148236279380675079183001746367885331427589437167068071607496438236119924256"
     },
+    "6367375": {
+      "cost": 9.98,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "6367375",
+      "opened": "2026-11-04T15:20:37+00:00",
+      "outcome": "Yes",
+      "outcome_idx": 0,
+      "qty": 10.62,
+      "question": "Israel x Iran ceasefire continues through November 6?",
+      "rules_version": 14,
+      "slug": "israel-x-iran-ceasefire-continues-through-november-6",
+      "strategy": "favorite_discount",
+      "token_id": "102645755577741168121437478206766514988150534631094399057975298702479134694986"
+    },
     "6367378": {
       "cost": 10.18,
       "entry_price": 0.87,
@@ -355,6 +370,21 @@
       "strategy": "favorite_discount",
       "token_id": "76665005774758959967169410677673284618128560248686221012549239538039305755377"
     },
+    "6645970": {
+      "cost": 9.98,
+      "entry_price": 0.95,
+      "event_ticker": "",
+      "market_id": "6645970",
+      "opened": "2026-11-04T15:20:37+00:00",
+      "outcome": "Novak Djokovic",
+      "outcome_idx": 0,
+      "qty": 10.51,
+      "question": "Rolex Paris Masters: Novak Djokovic vs Rinky Hijikata",
+      "rules_version": 14,
+      "slug": "atp-djokovi-hijikat-2026-11-04",
+      "strategy": "favorite_discount",
+      "token_id": "86929190284148181862857943254506758555692123769244970486026155060252355397096"
+    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -373,5 +403,5 @@
   },
   "realized_pnl": -1.7599999999999998,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T14:20:10+00:00"
+  "updated": "2026-11-04T15:20:37+00:00"
 }
