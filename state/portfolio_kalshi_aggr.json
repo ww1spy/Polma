@@ -1,5 +1,5 @@
 {
-  "cash": 85.25000000000003,
+  "cash": 124.54000000000002,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -46,6 +46,7 @@
     "KXDWTSELIMINATION-26OCT28-MHIG": "2026-10-28",
     "KXECONSTATCPI-26JUN-T0.0": "2026-07-14",
     "KXEFLCUPGAME-26OCT27FLEARS-ARS": "2026-10-27",
+    "KXELECTIONEMERGENCY-26NOV04": "2026-11-04",
     "KXETHMAXMON-ETH-26SEP30-300000": "2026-10-01",
     "KXFEATURE-26DAU-BON": "2026-07-17",
     "KXFED-26OCT-T4.00": "2026-10-28",
@@ -365,21 +366,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXAPRPOTUS-26NOV06-37.2:no"
     },
-    "KXELECTIONEMERGENCY-26NOV04": {
-      "cost": 36.37,
-      "entry_price": 0.9202,
-      "event_ticker": "KXELECTIONEMERGENCY",
-      "market_id": "KXELECTIONEMERGENCY-26NOV04",
-      "opened": "2026-11-01T05:21:09+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 39.29,
-      "question": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
-      "rules_version": 2,
-      "slug": "kxelectionemergency-26nov04",
-      "strategy": "favorite_discount",
-      "token_id": "KXELECTIONEMERGENCY-26NOV04:no"
-    },
     "KXLOLGAME-26NOV041700LYGEN-LY": {
       "cost": 35.61,
       "entry_price": 0.91,
@@ -502,8 +488,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -51.83999999999997,
+  "realized_pnl": -48.919999999999966,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T06:20:46+00:00",
+  "updated": "2026-11-04T07:22:29+00:00",
   "venue": "kalshi"
 }
