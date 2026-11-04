@@ -1,5 +1,5 @@
 {
-  "cash": 477.26000000000056,
+  "cash": 467.09000000000054,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -322,6 +322,21 @@
       "strategy": "favorite_discount",
       "token_id": "89148236279380675079183001746367885331427589437167068071607496438236119924256"
     },
+    "6501463": {
+      "cost": 10.17,
+      "entry_price": 0.91,
+      "event_ticker": "",
+      "market_id": "6501463",
+      "opened": "2026-11-04T04:21:34+00:00",
+      "outcome": "Gen.G",
+      "outcome_idx": 0,
+      "qty": 11.17,
+      "question": "LoL: Gen.G vs LYON (BO5) - Worlds Playoffs",
+      "rules_version": 14,
+      "slug": "lol-gen-ly-2026-11-05",
+      "strategy": "favorite_discount",
+      "token_id": "76665005774758959967169410677673284618128560248686221012549239538039305755377"
+    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -340,5 +355,5 @@
   },
   "realized_pnl": 7.600000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T03:20:15+00:00"
+  "updated": "2026-11-04T04:21:34+00:00"
 }
