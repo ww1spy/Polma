@@ -1,5 +1,5 @@
 {
-  "cash": 88.60000000000002,
+  "cash": 126.80000000000003,
   "cooldowns": {
     "KXAAAGASD-26JUL15-3.880": "2026-07-15",
     "KXAAAGASD-26JUL22-4.040": "2026-07-21",
@@ -287,6 +287,7 @@
     "KXTRUTHSOCIAL-26OCT24-B189": "2026-10-22",
     "KXTRUTHSOCIAL-26OCT24-B209": "2026-10-22",
     "KXTRUTHSOCIAL-26OCT31-B229": "2026-10-30",
+    "KXUCLGAME-26NOV04AEKRMA-AEK": "2026-11-04",
     "KXUCLGAME-26OCT14ASKLFC-ASK": "2026-10-14",
     "KXUCLGAME-26OCT14SLOVFB-SLO": "2026-10-14",
     "KXUCLGAME-26OCT20MCIAEK-AEK": "2026-10-20",
@@ -471,21 +472,6 @@
       "strategy": "favorite_discount",
       "token_id": "KXPAYROLLS-26OCT-T-25000:yes"
     },
-    "KXUCLGAME-26NOV04AEKRMA-AEK": {
-      "cost": 35.34,
-      "entry_price": 0.92,
-      "event_ticker": "KXUCLGAME-26NOV04AEKRMA",
-      "market_id": "KXUCLGAME-26NOV04AEKRMA-AEK",
-      "opened": "2026-11-03T18:20:22+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 38.2,
-      "question": "AEK Athens wins",
-      "rules_version": 2,
-      "slug": "kxuclgame-26nov04aekrma-aek",
-      "strategy": "favorite_discount",
-      "token_id": "KXUCLGAME-26NOV04AEKRMA-AEK:no"
-    },
     "KXUELGAME-26NOV05ACMFTC-FTC": {
       "cost": 35.94,
       "entry_price": 0.9,
@@ -503,8 +489,8 @@
     }
   },
   "profile": "aggr",
-  "realized_pnl": -48.919999999999966,
+  "realized_pnl": -46.05999999999997,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T19:20:51+00:00",
+  "updated": "2026-11-04T20:22:34+00:00",
   "venue": "kalshi"
 }
