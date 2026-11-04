@@ -1,5 +1,5 @@
 {
-  "cash": 427.5900000000005,
+  "cash": 417.8900000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -371,6 +371,21 @@
       "strategy": "favorite_discount",
       "token_id": "76665005774758959967169410677673284618128560248686221012549239538039305755377"
     },
+    "6660726": {
+      "cost": 9.7,
+      "entry_price": 0.93,
+      "event_ticker": "",
+      "market_id": "6660726",
+      "opened": "2026-11-04T19:20:17+00:00",
+      "outcome": "Carlos Alcaraz",
+      "outcome_idx": 1,
+      "qty": 10.43,
+      "question": "Rolex Paris Masters: Alex Michelsen vs Carlos Alcaraz",
+      "rules_version": 14,
+      "slug": "atp-michels-alcaraz-2026-11-04",
+      "strategy": "favorite_discount",
+      "token_id": "109130378309913378258544352262673172039829524767794739351977953936632703901244"
+    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -389,5 +404,5 @@
   },
   "realized_pnl": -11.74,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T18:19:57+00:00"
+  "updated": "2026-11-04T19:20:17+00:00"
 }
