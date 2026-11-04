@@ -1,5 +1,5 @@
 {
-  "cash": 486.23000000000053,
+  "cash": 465.9300000000006,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -291,6 +291,36 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
+    "6018963": {
+      "cost": 10.15,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "6018963",
+      "opened": "2026-11-04T02:20:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.8,
+      "question": "Will AEK win on 2026-11-04?",
+      "rules_version": 14,
+      "slug": "ucl-aek1-rma-2026-11-04-aek1",
+      "strategy": "favorite_discount",
+      "token_id": "18565816573750516247993416744571703982273002423492861786783760304425525609512"
+    },
+    "6053755": {
+      "cost": 10.15,
+      "entry_price": 0.94,
+      "event_ticker": "",
+      "market_id": "6053755",
+      "opened": "2026-11-04T02:20:15+00:00",
+      "outcome": "No",
+      "outcome_idx": 1,
+      "qty": 10.8,
+      "question": "Will SK Slavia Praha win on 2026-11-04?",
+      "rules_version": 14,
+      "slug": "ucl-slp-ars-2026-11-04-slp",
+      "strategy": "favorite_discount",
+      "token_id": "89148236279380675079183001746367885331427589437167068071607496438236119924256"
+    },
     "6274182": {
       "cost": 10.26,
       "entry_price": 0.898,
@@ -324,5 +354,5 @@
   },
   "realized_pnl": 6.530000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T01:20:41+00:00"
+  "updated": "2026-11-04T02:20:15+00:00"
 }
