@@ -1,5 +1,5 @@
 {
-  "cash": 420.6000000000005,
+  "cash": 464.0700000000005,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -240,6 +240,8 @@
     "5598478": "2026-10-25",
     "5601789": "2026-10-14",
     "5613322": "2026-10-13",
+    "562802": "2026-11-04",
+    "562803": "2026-11-04",
     "5646154": "2026-10-14",
     "5658638": "2026-10-14",
     "5658644": "2026-10-15",
@@ -266,7 +268,9 @@
     "601922": "2026-10-04",
     "6041525": "2026-10-29",
     "608540": "2026-10-26",
-    "6280218": "2026-10-28"
+    "6274077": "2026-11-04",
+    "6280218": "2026-10-28",
+    "943539": "2026-11-04"
   },
   "created": "2026-07-07T22:51:45+00:00",
   "epoch_started": "2026-09-28T02:58:52+00:00",
@@ -285,36 +289,6 @@
   "mode": "paper",
   "peak_equity": 528.4546200000002,
   "positions": {
-    "562802": {
-      "cost": 10.14,
-      "entry_price": 0.92,
-      "event_ticker": "",
-      "market_id": "562802",
-      "opened": "2026-10-25T21:20:22+00:00",
-      "outcome": "Yes",
-      "outcome_idx": 0,
-      "qty": 11.03,
-      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-      "rules_version": 14,
-      "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
-      "strategy": "favorite_discount",
-      "token_id": "83247781037352156539108067944461291821683755894607244160607042790356561625563"
-    },
-    "562803": {
-      "cost": 10.19,
-      "entry_price": 0.93,
-      "event_ticker": "",
-      "market_id": "562803",
-      "opened": "2026-10-25T23:21:03+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.96,
-      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
-      "rules_version": 14,
-      "slug": "will-the-republican-party-control-the-house-after-the-2026-midterm-elections",
-      "strategy": "favorite_discount",
-      "token_id": "17371217118862125782438074585166210555214661810823929795910191856905580975576"
-    },
     "562831": {
       "cost": 10.23,
       "entry_price": 0.93,
@@ -329,21 +303,6 @@
       "slug": "2026-balance-of-power-r-senate-r-house-537",
       "strategy": "favorite_discount",
       "token_id": "25869296386911654049715489068824757745174681288397238521780118949553760488529"
-    },
-    "6274077": {
-      "cost": 10.06,
-      "entry_price": 0.9505,
-      "event_ticker": "",
-      "market_id": "6274077",
-      "opened": "2026-11-03T01:20:23+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 10.58,
-      "question": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?",
-      "rules_version": 14,
-      "slug": "2026-senate-map-r-ia-ks",
-      "strategy": "favorite_discount",
-      "token_id": "111381299800799485509083912497813429956512687399857260440199290536659860679263"
     },
     "6274182": {
       "cost": 10.26,
@@ -389,24 +348,9 @@
       "slug": "will-naftali-bennett-be-the-next-prime-minister-of-israel",
       "strategy": "favorite_discount",
       "token_id": "39409206330527880169507414405291721950884951005340760541937649898052386499519"
-    },
-    "943539": {
-      "cost": 10.19,
-      "entry_price": 0.87,
-      "event_ticker": "",
-      "market_id": "943539",
-      "opened": "2026-10-30T04:20:09+00:00",
-      "outcome": "No",
-      "outcome_idx": 1,
-      "qty": 11.71,
-      "question": "Will the Republican Party win the NC-11 House seat?",
-      "rules_version": 14,
-      "slug": "will-the-republican-party-win-the-nc-11-house-seat",
-      "strategy": "favorite_discount",
-      "token_id": "11957039860047287352850698370191849800593069989221304732854582129110809407260"
     }
   },
-  "realized_pnl": 2.110000000000001,
+  "realized_pnl": 5.000000000000002,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-03T23:19:58+00:00"
+  "updated": "2026-11-04T00:22:38+00:00"
 }
