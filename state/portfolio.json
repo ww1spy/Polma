@@ -1,5 +1,5 @@
 {
-  "cash": 456.9300000000005,
+  "cash": 446.79000000000053,
   "cooldowns": {
     "1087892": "2026-07-10",
     "1194657": "2026-11-01",
@@ -352,6 +352,21 @@
       "strategy": "favorite_discount",
       "token_id": "76665005774758959967169410677673284618128560248686221012549239538039305755377"
     },
+    "6626993": {
+      "cost": 10.14,
+      "entry_price": 0.96,
+      "event_ticker": "",
+      "market_id": "6626993",
+      "opened": "2026-11-04T08:20:33+00:00",
+      "outcome": "Jan Kumstat",
+      "outcome_idx": 0,
+      "qty": 10.57,
+      "question": "Taipei: Jan Kumstat vs Billy Harris",
+      "rules_version": 14,
+      "slug": "atp-kumstat-harris-2026-11-03",
+      "strategy": "favorite_discount",
+      "token_id": "5486673943454964016457372005776721186087301173009038353501784854961074391940"
+    },
     "682706": {
       "cost": 10.04,
       "entry_price": 0.87,
@@ -370,5 +385,5 @@
   },
   "realized_pnl": 7.600000000000001,
   "starting_bankroll": 500.0,
-  "updated": "2026-11-04T07:21:03+00:00"
+  "updated": "2026-11-04T08:20:33+00:00"
 }
